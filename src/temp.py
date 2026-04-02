@@ -100,7 +100,7 @@ def run_document_level_llm(model, tokenizer, prompt, temperature=0.1):
 
     generated_ids = model.generate(
         **model_inputs,
-        max_new_tokens=2048,
+        max_new_tokens=4096,
         do_sample=True,
         temperature=temperature,
         top_p=0.9
@@ -118,6 +118,9 @@ def run_document_level_llm(model, tokenizer, prompt, temperature=0.1):
     content = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip()
 
     return thinking, content
+
+
+
 
 
 def validate_structure(output, doc):
@@ -173,42 +176,6 @@ def merge_structures(out1, out2, think1, think2, n):
     }
 
 
-def extract_json_block(text):
-    """
-    Extract JSON safely from LLM output with thinking.
-    """
-    # remove thinking if present
-    if "</think>" in text:
-        text = text.split("</think>")[-1]
-
-    # find JSON block
-    match = re.search(r"\{.*?\}", text, re.DOTALL)
-
-    if match:
-        return match.group()
-
-    return None
-
-
-def parse_output_safe(text):
-    json_str = extract_json_block(text)
-
-    if json_str is None:
-        raise ValueError(f"No JSON found:\n{text[:500]}")
-
-    # basic repair
-    json_str = json_str.strip()
-
-    # fix trailing commas (common LLM issue)
-    json_str = re.sub(r",\s*}", "}", json_str)
-    json_str = re.sub(r",\s*]", "]", json_str)
-
-    try:
-        return json.loads(json_str)
-    except Exception as e:
-        raise ValueError(f"Invalid JSON:\n{json_str[:500]}")
-
-
 def parse_output(content):
     match = re.search(r"\{.*}", content, re.DOTALL)
 
@@ -221,32 +188,24 @@ def parse_output(content):
         raise ValueError(f"Invalid JSON:\n{match.group()[:500]}")
 
 
-def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True):
-
+def run_structure_self_consistency(model, tokenizer, doc):
+    # doc = load_document(doc_path)
     prompt = build_structure_prompt(doc)
-    if self_consistency:
-        # run twice (self consistency)
-        think1, content1 = run_document_level_llm(model, tokenizer, prompt, temperature=0.1)
-        think2, content2 = run_document_level_llm(model, tokenizer, prompt, temperature=0.2)
 
-        out1 = parse_output_safe(content1)
-        out2 = parse_output_safe(content2)
+    # run twice (self consistency)
+    think1, content1 = run_document_level_llm(model, tokenizer, prompt, temperature=0.1)
+    think2, content2 = run_document_level_llm(model, tokenizer, prompt, temperature=0.2)
 
-        n = len(doc["body"]["paragraphs"])
-        # merge the outputs of the self-consistency runs
-        merged = merge_structures(out1, out2, think1, think2, n)
-        validate_structure(merged, doc)
-        return merged
+    out1 = parse_output(content1)
+    out2 = parse_output(content2)
 
-    else:
-        think, content = run_document_level_llm(model, tokenizer, doc, temperature=0.1)
-        output = parse_output_safe(content)
-        output["think"] = think
+    n = len(doc["body"]["paragraphs"])
+    # merge the outputs of the self-consistency runs
+    merged = merge_structures(out1, out2, think1, think2, n)
 
-        validate_structure(output, doc)
-        return output
+    validate_structure(merged, doc)
 
-
+    return merged
 
 
 # -------------------------------------
@@ -522,7 +481,7 @@ RELATIONS
 
 FORMAT:
 matched_paras = {
-  "X": ["relation_type_1", "relation_type_2", ...],
+  "X": (relation_type_1, relation_type_2, ...),
   ...
 }
 
@@ -575,7 +534,7 @@ OUTPUT (STRICT JSON FORMAT)
   "para_number": {para["para_number"]},
   "tags": [],
   "matched_paras": {
-    "X":["relation_type_1", ...],
+    "X": ("relation_type", ...),
     ...
   },
   "think": ""
@@ -697,8 +656,7 @@ def process_paragraph(
     para,
     candidate_tags,
     relation_candidates,
-    all_paragraphs,
-    self_consistency=False
+    all_paragraphs
 ):
     prompt = build_paragraph_prompt(
         para,
@@ -707,43 +665,25 @@ def process_paragraph(
         all_paragraphs
     )
 
-    output = {}
+    # run twice
+    t1, c1 = run_paragraph_level_llm(model, tokenizer, prompt, temperature=0.1)
+    t2, c2 = run_paragraph_level_llm(model, tokenizer, prompt, temperature=0.2)
 
-    if self_consistency:
+    o1 = parse_output(c1)
+    o2 = parse_output(c2)
 
-        # run twice
-        t1, c1 = run_paragraph_level_llm(model, tokenizer, prompt, temperature=0.1)
-        t2, c2 = run_paragraph_level_llm(model, tokenizer, prompt, temperature=0.2)
-
-        o1 = parse_output_safe(c1)
-        o2 = parse_output_safe(c2)
-
-        output = merge_outputs(o1, o2, t1, t2)
-
-    else:
-        thinking, content = run_paragraph_level_llm(model, tokenizer, prompt, temperature=0.1)
-
-        parsed = parse_output_safe(content)
-
-        output = {
-            "para_number": parsed["para_number"],
-            "tags": parsed.get("tags", []),
-            "matched_pars": {
-                int(k): v for k, v in parsed.get("matched_paras", {}).items()
-                },
-            "think": parsed.get("think", thinking)
-            }
+    merged = merge_outputs(o1, o2, t1, t2)
 
     validate_paragraph_output(
-        output,
+        merged,
         para["para_number"],
         relation_candidates
     )
 
-    return output
+    return merged
 
 
-def run_para_level_reasoning(model, tokenizer, doc, tag_candidates, relation_candidates, self_consistency=False):
+def run_para_level_reasoning(model, tokenizer, doc, tag_candidates, relation_candidates):
     """
 
     :param model:
@@ -766,8 +706,7 @@ def run_para_level_reasoning(model, tokenizer, doc, tag_candidates, relation_can
             para,
             tag_candidates[i],
             relation_candidates[i],
-            paragraphs,
-            self_consistency
+            paragraphs
         )
 
         outputs[i] = result

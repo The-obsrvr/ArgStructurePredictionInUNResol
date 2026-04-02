@@ -27,7 +27,7 @@ def main():
     embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
-    llm_model_name = "Qwen/Qwen3-8B-Instruct"
+    llm_model_name = "Qwen/Qwen3-8B"
     HF_token = "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"
 
     is_bf16 = torch.cuda.is_bf16_supported()
@@ -48,7 +48,7 @@ def main():
 
 
     # load tags
-    tags_path = ""
+    tags_path = "Data/education_dimensions_updated.csv"
     tags = load_tags(tags_path)
     tag_index, id2tag, tag_embeddings = build_tag_index(tags, embed_model)
 
@@ -64,7 +64,7 @@ def main():
             doc = json.load(f)
 
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=False)
         # this returns preambular list, operative list and thinking for this step
 
         # Step 2: Tag Candidate Retrieval
@@ -76,7 +76,7 @@ def main():
         # this returns the top matched paragraph candidates for each paragraph in the doc
 
         # Step 4: Paragraph level LLM reasoning
-        para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates)
+        para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
         # this returns the predicted tags and matched_para for each paragraph in the doc
 
         # Step 5: Merge the outputs to the required schema and save
