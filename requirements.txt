@@ -1,7 +1,15 @@
-pandas
+# --- Core ML stack (CUDA 12.4 compatible) ---
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+
+# --- HuggingFace ecosystem ---
+transformers>=4.51.0
+accelerate>=0.31.0
+sentence-transformers>=3.0.0
+peft>=0.11.0
+
+datasets
+scikit-learn
 numpy
-torch>=2.2
-transformers>=4.51.1
-sentence-transformers>=0.3.1
-accelerate>=0.30.1
-scikit-learn>=1.5.2
+pandas

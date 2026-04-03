@@ -10,6 +10,10 @@ RUN apt-get update && \
 # --- Upgrade pip toolchain ---
 RUN python -m pip install --no-cache-dir -U pip setuptools wheel
 
+RUN pip install --no-cache-dir \
+    torch torchvision torchaudio \
+    --index-url https://download.pytorch.org/whl/cu124
+
 # --- Install project requirements (includes transformers >= 4.55.0) ---
 WORKDIR /app
 COPY requirements.txt /tmp/requirements.txt
