@@ -50,9 +50,9 @@ def update_document(doc, step1_out, step4_out):
     think = step1_out["think"]
 
     # META
-    doc["preambular_para"] = preambular
-    doc["operative_para"] = operative
-    doc["think"] = think
+    doc["METADATA"]["preambular_para"] = preambular
+    doc["METADATA"]["operative_para"] = operative
+    doc["METADATA"]["think"] = think
 
     # BODY
     for para in doc["body"]["paragraphs"]:

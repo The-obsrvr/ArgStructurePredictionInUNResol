@@ -37,9 +37,9 @@ def retrieve_tag_candidates(
     tag_index,
     id2tag,
     tag_embeddings,
-    min_sim=0.45,
-    max_k=8,
-    final_cap=6
+    min_sim=0.55,
+    max_k=10,
+    final_cap=7
 ):
     # bilingual query
     emb_en = model.encode([f"query: {paragraph['para_en']}"], normalize_embeddings=True)
@@ -82,6 +82,7 @@ def retrieve_tag_candidates(
             selected.append(tag)
             selected_embs.append(emb)
 
+        # keep maximum selected tags to final cap
         if len(selected) >= final_cap:
             break
 
