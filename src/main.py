@@ -1,14 +1,71 @@
 import json
 import os
+import copy
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from sentence_transformers import SentenceTransformer
+import pandas as pd
 
-from inference import (build_tag_index, run_structure_self_consistency,
-                       generate_tag_candidates_for_paragraph, generate_para_candidates, run_para_level_reasoning,
-                       update_document, load_tags
-                       )
+from doc_llm_generation import run_structure_self_consistency
+from para_candidate_selection import generate_para_candidates
+from tag_candidate_selection import generate_tag_candidates_for_paragraph, build_tag_index
+from para_llm_generation import run_para_level_reasoning
+
+
+def load_tags(csv_path):
+    """
+
+    :param csv_path:
+    :return:
+    """
+    df = pd.read_csv(csv_path, sep=";")
+
+    tags = []
+    for _, row in df.iterrows():
+        dimension = str(row["Dimensions"])
+        category = str(row["Categories"])
+        code = str(row["CODE"])
+
+        # hierarchical text representation
+        text = f"passage: {dimension} | {category} | {code}"
+
+        tags.append({
+            "code": code,
+            "dimension": dimension,
+            "category": category,
+            "text": text
+        })
+
+    return tags
+# -------------------------------------
+# Step 5: Update doc
+# -------------------------------------
+def update_document(doc, step1_out, step4_out):
+
+    doc = copy.deepcopy(doc)
+
+    preambular = step1_out["preambular_para"]
+    operative = step1_out["operative_para"]
+    think = step1_out["think"]
+
+    # META
+    doc["preambular_para"] = preambular
+    doc["operative_para"] = operative
+    doc["think"] = think
+
+    # BODY
+    for para in doc["body"]["paragraphs"]:
+        pid = para["para_number"]
+
+        para["type"] = "preambular" if pid in preambular else ("operative" if pid in operative else None)
+
+        if pid in step4_out:
+            para["tags"] = step4_out[pid]["tags"]
+            para["matched_pars"] = step4_out[pid]["matched_pars"]
+            para["think"] = step4_out[pid]["think"]
+
+    return doc
 
 
 def main():
