@@ -50,9 +50,9 @@ def update_document(doc, step1_out, step4_out):
     think = step1_out["think"]
 
     # META
-    doc["METADATA"]["preambular_para"] = preambular
-    doc["METADATA"]["operative_para"] = operative
-    doc["METADATA"]["think"] = think
+    doc["METADATA"]["structure"]["preambular_para"] = preambular
+    doc["METADATA"]["structure"]["operative_para"] = operative
+    doc["METADATA"]["structure"]["think"] = think
 
     # BODY
     for para in doc["body"]["paragraphs"]:
@@ -75,8 +75,8 @@ def main():
     :return:
     """
 
-    input_folder = "Data/test-data"
-    output_folder = "outputs"
+    input_folder = "Data/text_copy"
+    output_folder = "outputs_copy"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
