@@ -1,6 +1,7 @@
 pandas
 numpy
-torch
-transformers
-sentence-transformers
-scikit-learn
+torch>=2.2
+transformers>=4.51.1
+sentence-transformers>=0.3.1
+accelerate>=0.30.1
+scikit-learn>=1.5.2
