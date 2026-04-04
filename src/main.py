@@ -86,7 +86,7 @@ def main():
     os.makedirs(output_folder, exist_ok=True)
 
     # define embedding model
-    # embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
+    embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
     llm_model_name = "Qwen/Qwen3-8B"
