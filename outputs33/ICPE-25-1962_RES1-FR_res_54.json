@@ -6,9 +6,69 @@
     "structure": {
       "doc_title": "ICPE-25-1962_RES1-FR",
       "nb_paras": 58,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "operative_para": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -19,7 +79,7 @@
         "tags": [
           "O_G"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag 'O_G' (Education orientation | General (academic)) applies because the paragraph describes a conference on public education, which aligns with general academic orientation. Related paragraphs provide context (2, 3, 8, 9) supporting the rationale for education planning, while paragraphs 14 and 56 complement the adoption process by addressing dissemination.",
         "matched_pars": {
           "2": [
@@ -49,7 +109,7 @@
         "tags": [
           "O_G"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag 'O_G' (Education orientation | General (academic)) is selected because the paragraph emphasizes education's broad role in shaping human dignity and driving multifaceted development, aligning with a general academic orientation. All related paragraphs (3,4,7,11,27,54) discuss complementary aspects of education planning, resource allocation, adaptation, and cooperation, which align with the target paragraph's focus on education's holistic impact.",
         "matched_pars": {
           "3": [
@@ -80,7 +140,7 @@
           "Infrastructure & resources",
           "POL_FIN"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tags 'Infrastructure & resources' and 'POL_FIN' are selected because the paragraph emphasizes economic, financial, and human resources (Infrastructure & resources) and effective planning for resource utilization (POL_FIN). Related paragraphs: 5 (supporting) discusses systematic planning aligned with the target's focus on effective planning; 16 (supporting) links education planning to broader development plans; 10 (complemental) adds context about demographic/economic factors affecting education needs; 42 (complemental) addresses flexibility in planning, which complements resource adaptation.",
         "matched_pars": {
           "5": [
@@ -102,7 +162,7 @@
         "para_number": 4,
         "para": "Considérant que la multiplication des besoins et l'évolution toujours plus rapide qui caractérisent notre époque exigent une adaptation de l'éducation, sous tous ses aspects, aux exigences et aux possibilités de demain,",
         "tags": [],
-        "type": null,
+        "type": "preambular",
         "think": "fallback",
         "matched_pars": {},
         "para_en": "Considering that the multiplication of needs and the increasingly rapid evolution characterizing our era require an adaptation of education, in all its aspects, to the demands and possibilities of tomorrow,"
@@ -114,7 +174,7 @@
           "SYST_INST",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags 'SYST_INST' (Education system monitoring & evaluation | Institutional evaluation and inspection) and 'CUR_IMPL' (Curriculum | Curriculum implementation) are selected because the paragraph emphasizes systematic action for planning, institutional evaluation, and concrete measures for implementation. Relations are identified with paragraphs that discuss planning techniques (6), needs analysis (10), prioritization (30), implementation information (40), and training (46), all of which align with the target's focus on systematic educational planning.",
         "matched_pars": {
           "6": [
@@ -142,7 +202,7 @@
           "PEDAG_OTHER",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags PEDAG_OTHER and SYST_OTHER are selected because the paragraph discusses adapting planning techniques to educational problems (pedagogy/assessment) and system-level planning challenges. Related paragraphs: 8 (supports planning's importance), 12 (modifies by addressing planning variability), 13 (complements with diverse solutions), 42 (supports flexibility in implementation), and 25 (supports cross-sector collaboration).",
         "matched_pars": {
           "8": [
@@ -170,7 +230,7 @@
           "F_REL",
           "M_FORM"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags F_REL (Religion and moral education) and M_FORM (Formal education) are selected because the paragraph emphasizes education's role in shaping moral, intellectual, and physical capacities (moral education) and its distinct character as a formal institution. Paragraph 51 is related as it supports the idea of national education plans inspired by each country's unique context, aligning with the target paragraph's emphasis on education retaining its own distinct character.",
         "matched_pars": {
           "51": [
@@ -185,7 +245,7 @@
         "tags": [
           "Education orientation"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The target paragraph emphasizes UNESCO's role in education planning and references international/regional conferences. 'Education orientation' directly aligns with planning activities. Related paragraphs discuss specific recommendations (9), contextual factors (10), technical cooperation (53), regional conferences (54), financial assistance conditions (55), and regional adaptation (57). All relations are supported by shared focus on education planning mechanisms.",
         "matched_pars": {
           "9": [
@@ -216,7 +276,7 @@
           "LAW_REG",
           "INFRA_BUILD"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags LAW_REG (legal frameworks for education) and INFRA_BUILD (school infrastructure) are selected because the paragraph references approved recommendations (legal frameworks) and explicitly mentions school infrastructure development. Related paragraphs: 36 (directly addresses financing, infrastructure, and training mentioned in the target), 54 (complements education planning techniques), 55 (complements international cooperation in planning), and 53 (complements technical cooperation in education planning).",
         "matched_pars": {
           "36": [
@@ -241,7 +301,7 @@
           "POL_QUAL",
           "ISC_99"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POL_QUAL (Policy theme | Quality and learning outcomes) and ISC_99 (Education level | Multiple levels) are selected because the paragraph emphasizes understanding relationships between education and demographic/economic/social factors (aligning with POL_QUAL's focus on policy-driven quality) and addresses multi-level planning (ISC_99). Related paragraphs 12, 13, 50, and 54 are connected through shared themes of educational planning challenges, diverse solutions, specialist collaboration, and regional planning techniques, which complement or support the target paragraph's focus on adaptive planning and multi-level analysis.",
         "matched_pars": {
           "12": [
@@ -265,7 +325,7 @@
         "tags": [
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag POL_INTCOOP is selected because the paragraph explicitly emphasizes international cooperation in education. Related paragraphs 51, 50, and 25 directly address collaboration in educational planning, aligning with the target's focus on cooperation. Paragraph 44 adds implementation-related collaboration (complemental), while 13 highlights diversity in solutions (complemental).",
         "matched_pars": {
           "51": [
@@ -292,7 +352,7 @@
         "tags": [
           "POL_GOV"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The paragraph discusses challenges in educational planning due to varying national contexts and governance approaches, aligning with POL_GOV (Policy theme | Governance and planning). Related paragraphs address flexibility in planning (41, 42), diverse solutions (13), training for planning (46), and actionable recommendations (14). Complemental relations exist with 13, 41, 42, and 14, while 46 provides supporting measures for the challenges mentioned.",
         "matched_pars": {
           "13": [
@@ -319,7 +379,7 @@
         "tags": [
           "POL_OTH"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The paragraph discusses the need for diverse educational planning solutions based on differing national contexts, aligning with 'POL_OTH' (Policy theme | Other policy theme). Related paragraphs address specific aspects of educational planning (e.g., country-specific characteristics, private education, flexibility, and capacity-building), which complement or support the target's emphasis on adaptive policy approaches.",
         "matched_pars": {
           "15": [
@@ -346,7 +406,7 @@
         "tags": [
           "POL_OTH"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph (para 14) is a recommendation to education ministries, which falls under 'Policy theme | Other policy theme' (POL_OTH) as it outlines a policy directive. Related paragraphs (15-58) are parts of the same resolution, providing complementary details on educational planning, implementation, and dissemination, hence 'complemental' relations with high confidence.",
         "matched_pars": {
           "15": [
@@ -376,7 +436,7 @@
         "tags": [
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on the scope of educational planning, emphasizing considerations of a country's educational level and system characteristics. 'SYST_OTHER' is selected as it directly relates to education system monitoring/evaluation. Related paragraphs expand on planning contexts (16), implementation details (26), regional flexibility (42), sector coordination (17), and capacity-building (46), all of which complement or support the target's themes.",
         "matched_pars": {
           "16": [
@@ -403,7 +463,7 @@
         "tags": [
           "POL_GOV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes education planning within state economic/social development frameworks, aligning with 'POL_GOV' (governance/planning). Related paragraphs discuss coordination (17), detailed planning steps (26), and training for planners (47), which complement/support the target's focus on planning integration and implementation.",
         "matched_pars": {
           "17": [
@@ -425,7 +485,7 @@
           "CUR_OTHER",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_OTHER (Curriculum | Other curriculum-related issue) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph emphasizes education planning coordination with other sectors, which relates to curriculum frameworks and systemic integration. Relations: Para 18 (complemental) expands on planning principles; Para 19 (supporting) reinforces the need for comprehensive planning; Para 20 (complemental) directly addresses coordination in non-comprehensive planning; Para 25 (supporting) highlights collaboration between planners, aligning with coordination themes.",
         "matched_pars": {
           "18": [
@@ -450,7 +510,7 @@
           "POL_GOV",
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_GOV (Governance and planning) and T_INI (Initial education and training) are selected because the paragraph emphasizes planning principles for education reforms (POL_GOV) and mentions teacher training needs (T_INI). Related paragraphs: 19 (supports comprehensive planning), 20 (complements coordination in non-comprehensive planning), 37 (supports recommended planning procedures), 46 (complements training for planners), and 48 (supports capacity-building in planning).",
         "matched_pars": {
           "19": [
@@ -478,7 +538,7 @@
           "O_All",
           "O_G"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags O_All and O_G are selected because the paragraph emphasizes 'comprehensive education planning' (combined general/vocational) and 'general planning' (general academic orientation). Related paragraphs address coordination (20), collaboration (25), training (46/47/49) which all support or complement the need for integrated planning frameworks.",
         "matched_pars": {
           "20": [
@@ -505,7 +565,7 @@
         "tags": [
           "CUR_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph emphasizes coordination between specific educational plans when planning is not comprehensive. CUR_OTHER (Curriculum | Other curriculum-related issue) is selected because the text discusses coordination of educational plans, which relates to curriculum planning. Para 22 (22) provides structural support for coordination by mentioning dedicated bodies for education planning, making it complemental. Para 25 (25) supports the idea of collaboration between planning specialists, reinforcing the need for coordination, hence supporting relation.",
         "matched_pars": {
           "22": [
@@ -524,7 +584,7 @@
           "CUR_ORG",
           "CUR_DVPMT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags CUR_ORG and CUR_DVPMT are selected because the paragraph discusses the organization of education plans (long-term periods and adjustments) and their design/development. Para 31 (flexibility in adaptation) is complemental as it addresses plan adaptability. Para 37 (school reforms) is complemental as it relates to broader planning processes.",
         "matched_pars": {
           "31": [
@@ -542,7 +602,7 @@
         "tags": [
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes the organization of education planning bodies within ministries (CUR_ORG). Related paragraphs discuss coordination with external organizations (23), collaboration with other sectors (25), multidisciplinary teams (50), and training for planners (47). These are complemental/supporting as they expand on planning structures and requirements.",
         "matched_pars": {
           "23": [
@@ -567,7 +627,7 @@
           "SYST_OTHER",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'SYST_OTHER' (Education system monitoring & evaluation | Other) and 'CUR_ORG' (Curriculum | Organization and instructional time) are selected because the paragraph emphasizes coordination of organizational structures (e.g., advisory bodies, statistical offices) and the functional organization of educational planning bodies. Relations are identified with confidence scores based on semantic alignment: para 24 (complemental) discusses structural placement of planning bodies, para 25 (supporting) highlights collaboration with sector experts, para 33 (complemental) references documentation centers, and para 50 (supporting) mentions interdisciplinary expertise.",
         "matched_pars": {
           "24": [
@@ -591,7 +651,7 @@
         "tags": [
           "POL_GOV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses governance structures for education planning (national/federal vs. regional/local), directly aligning with 'POL_GOV' (Policy theme | Governance and planning). Related paragraphs address complementary aspects: 25 (collaboration in planning), 26 (plan preparation details), 41 (international support for planning), and 55 (financial assistance tied to planning). All relations are complemental as they expand on different facets of education planning frameworks.",
         "matched_pars": {
           "25": [
@@ -616,7 +676,7 @@
           "ACT_EDUC",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) and PEDAG_OTHER (Pedagogy & assessment | Other pedagogy related issue) are selected because the paragraph emphasizes collaboration between educational planners and experts from other sectors (ACT_EDUC) and addresses planning processes that influence pedagogical outcomes (PEDAG_OTHER). Related paragraphs provide complemental/supporting information about education planning components, multidisciplinary collaboration, and training requirements.",
         "matched_pars": {
           "26": [
@@ -647,7 +707,7 @@
           "CUR_OTHER",
           "Education system monitoring & evaluation"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'CUR_OTHER' and 'Education system monitoring & evaluation' are selected because the paragraph emphasizes planning elements like analyzing educational situations (monitoring) and determining needs (evaluation), which fall under broader curriculum-related issues. Related paragraphs provide complementary details on factors influencing education (27), statistical data importance (28), financing and implementation specifics (36), stakeholder information (40), flexibility in implementation (42), and specialist training (46).",
         "matched_pars": {
           "27": [
@@ -678,7 +738,7 @@
           "O_G",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags O_G (Education orientation | General (academic)) and POL_CUR (Policy theme | Curriculum and pedagogy policies) are selected because the paragraph emphasizes comprehensive factors in education planning, including pedagogical elements and systemic considerations. Related paragraphs provide supporting (28, 30, 42) or complemental (29, 36) information by addressing statistical data, comparative studies, prioritization, financing, and flexibility, which align with the target paragraph's focus on multifaceted education planning.",
         "matched_pars": {
           "28": [
@@ -705,7 +765,7 @@
         "tags": [
           "SYST_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag SYST_STAT (Education statistics and indicators) is selected because the paragraph emphasizes the need for reliable and comparable statistical data in education planning. For relations, paragraph 45 directly supports this by discussing the advancement of quantitative evaluation techniques, which aligns with the target paragraph's focus on statistical data for education planning.",
         "matched_pars": {
           "45": [
@@ -721,7 +781,7 @@
           "CUR_OTHER",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes the role of comparative education studies in curriculum development (CUR_OTHER) and system-level planning (SYST_OTHER). Related paragraphs 33 (resources for planning), 54 (planning techniques), and 55 (planning's importance) complement or support these ideas.",
         "matched_pars": {
           "33": [
@@ -743,7 +803,7 @@
           "POL_CUR",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_CUR and CUR_IMPL are selected because the paragraph focuses on curriculum planning priorities and implementation strategies. Related paragraphs 31 (flexibility in planning), 36 (specific plan components), 43 (financing details), and 46 (planning expertise) provide complementary information about education plan development.",
         "matched_pars": {
           "31": [
@@ -767,7 +827,7 @@
         "tags": [
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph emphasizes flexibility in education plan development to adapt to changes. 'CUR_IMPL' (Curriculum Implementation) is directly relevant as curriculum implementation inherently requires adaptability. Paragraph 42 explicitly discusses flexibility in implementation, aligning with the target's focus. The relation is 'supporting' as both paragraphs reinforce the need for adaptability in education planning.",
         "matched_pars": {
           "42": [
@@ -782,7 +842,7 @@
         "tags": [
           "ACT_PRIV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag ACT_PRIV (Stakeholder focus | Private sector and industry) is selected because the paragraph explicitly mentions private education as a sector requiring consideration in education planning. For relations: Para 34 discusses stakeholder consultation, which complements the target paragraph's focus on private sector inclusion (confidence 0.7). Para 46 supports the need for planning expertise, which aligns with the target's emphasis on adapting education plans to private sector needs (confidence 0.7).",
         "matched_pars": {
           "34": [
@@ -800,7 +860,7 @@
         "tags": [
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph emphasizes the need for multidisciplinary specialists in education planning bodies. 'SYST_OTHER' (Education system monitoring & evaluation | Other) is selected because the paragraph discusses structural requirements for effective education planning. Paragraph 34 (consulting stakeholders) is complemental as it addresses stakeholder involvement in planning. Paragraph 50 (specialists in education planning) directly supports the target's focus on team composition. Paragraph 47 (training for education planners) is complemental as it relates to capacity-building for planners.",
         "matched_pars": {
           "34": [
@@ -823,7 +883,7 @@
           "ACT_STUD",
           "ACT_PARENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (teachers/educators), ACT_STUD (students), and ACT_PARENT (parents) are selected because the paragraph explicitly mentions stakeholders like teaching staff, student associations, and parent associations. Related paragraphs: 36 (teacher training), 40 (informing stakeholders), 43 (financing), 50 (specialists in education planning), and 46 (training leaders) all address aspects of stakeholder involvement or education planning components mentioned in the target paragraph. Complemental relations are assigned as they provide related but distinct details supporting the main theme.",
         "matched_pars": {
           "36": [
@@ -850,7 +910,7 @@
         "tags": [
           "POL_GOV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes public communication in education planning, aligning with POL_GOV (Governance and planning). Related paragraphs discuss dissemination methods (56, 55), implementation details (36), and complementary communication strategies (40, 54).",
         "matched_pars": {
           "56": [
@@ -879,7 +939,7 @@
           "T_INI",
           "INFRA_BUILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (teacher training), T_INI (initial education), and INFRA_BUILD (school construction) directly match the paragraph's focus on education financing, teacher training, and infrastructure. Related paragraphs provide complementary context: 43 (financing details), 46 (specialist training), 49 (curriculum integration), 38 (plan experimentation), and 37 (school reform procedures). Confidence scores reflect textual alignment strength.",
         "matched_pars": {
           "43": [
@@ -906,7 +966,7 @@
         "tags": [
           "CUR_EVAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on using recommended procedures for school reforms in the absence of educational planning. 'CUR_EVAL' is selected because it directly relates to curriculum evaluation and reform. Related paragraphs discuss implementation processes (38, 39, 42), training for planners (46, 47), and institutional solutions (48), all of which complement or support the target's focus on planning procedures and reforms.",
         "matched_pars": {
           "38": [
@@ -937,7 +997,7 @@
           "CUR_DVPMT",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_DVPMT (Design and development) and CUR_IMPL (Implementation) are selected because the paragraph focuses on pre-adoption experimentation and refinement of education plans, which aligns with curriculum development and implementation processes. Relations: Para 42 (supporting) directly addresses flexibility in implementation, which complements the experimentation phase. Paras 40, 44, and 58 provide related implementation context (information dissemination, oversight, administrative tasks) with moderate confidence as they address different aspects of plan execution.",
         "matched_pars": {
           "42": [
@@ -962,7 +1022,7 @@
           "POL_GOV",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_GOV (governance/planning) and CUR_IMPL (curriculum implementation) are selected because the paragraph discusses procedural complexity in education planning and implementation. Related paragraphs address implementation details (40, 41, 42, 44) and capacity-building (46), which are all connected to the target's focus on implementation challenges and requirements.",
         "matched_pars": {
           "40": [
@@ -990,7 +1050,7 @@
           "CUR_IMPL",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_IMPL and CUR_ORG are selected because the paragraph emphasizes informing stakeholders about implementation details (CUR_IMPL) and practical measures (CUR_ORG). Related paragraphs discuss implementation responsibilities (41), flexibility (42), oversight (44), training (46), and specialist collaboration (50), which all connect to implementation aspects with varying degrees of overlap.",
         "matched_pars": {
           "41": [
@@ -1018,7 +1078,7 @@
           "POL_GOV",
           "nan"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_GOV (governance/planning) and nan (monitoring/evaluation) are selected because the paragraph discusses international/national bodies' roles in educational planning (governance) and the rational use of planning techniques for financial assistance (monitoring/evaluation). Related paragraphs 43 (financing arrangements), 55 (international bodies/financial conditions), 46 (planning principles), 58 (implementation of recommendations), and 42 (flexibility) are complemental as they address related aspects of planning, financing, and implementation.",
         "matched_pars": {
           "43": [
@@ -1046,7 +1106,7 @@
           "CUR_IMPL",
           "POL_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_IMPL (Curriculum implementation) and POL_QUAL (Policy theme | Quality and learning outcomes) are selected because the paragraph emphasizes flexibility in implementation (CUR_IMPL) and links effectiveness to adaptation (POL_QUAL). Paragraph 44 discusses oversight and collaboration in implementation, which complements the target paragraph's focus on adaptation and effectiveness.",
         "matched_pars": {
           "44": [
@@ -1061,7 +1121,7 @@
         "tags": [
           "POL_FIN"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on financing arrangements for education plans, directly aligning with POL_FIN (Financing and resource mobilization). Paragraph 44 discusses implementation oversight, which complements the financing theme by emphasizing execution and collaboration needed to ensure funds are used effectively. Paragraph 55 supports the financing theme by linking financial assistance to planning techniques, reinforcing the importance of structured financing arrangements.",
         "matched_pars": {
           "44": [
@@ -1080,7 +1140,7 @@
           "SYST_INST",
           "POL_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags SYST_INST (institutional evaluation/inspection) and POL_QUAL (quality/learning outcomes) are selected because the paragraph emphasizes collaboration between inspectors and authorities for successful education planning (SYST_INST) and links oversight to success factors (POL_QUAL). Related paragraphs discuss evaluation techniques (45), training for planning (46), inspector training (49), multidisciplinary planning teams (50), regional conferences (54), and financial assistance conditions (55), all of which complement the target paragraph's focus on planning implementation and collaboration.",
         "matched_pars": {
           "45": [
@@ -1110,7 +1170,7 @@
         "tags": [
           "SYST_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes systematic verification of results through evaluation techniques, aligning with SYST_QUAL (Education system monitoring & evaluation | Quality assurance and accreditation). Related paragraphs 46 and 54 discuss planning training and advancing planning techniques, respectively, which complement or support the focus on evaluation as part of educational planning.",
         "matched_pars": {
           "46": [
@@ -1129,7 +1189,7 @@
           "POL_GOV",
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_GOV (Governance and planning) and ACT_EDUC (Stakeholder focus | Teachers and educators) are selected because the paragraph emphasizes training specialists, stakeholder engagement, and planning processes. Related paragraphs (47-52) discuss training institutions, curriculum development, staff training, multidisciplinary teams, international cooperation, and cross-border collaboration—all directly addressing educational planning implementation and governance, making them complemental with high confidence.",
         "matched_pars": {
           "47": [
@@ -1160,7 +1220,7 @@
           "CUR_IMPL",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags CUR_IMPL and CUR_ORG are selected because the paragraph explicitly discusses curriculum implementation (CUR_IMPL) and organizational aspects of curricula (CUR_ORG). Paragraph 49 is complemental as it addresses integrating planning concepts into other training programs, which aligns with the target's focus on education planning in curricula. Paragraph 52 is supporting as international cooperation (mentioned in 52) could enhance the implementation of curricula emphasized in the target paragraph.",
         "matched_pars": {
           "49": [
@@ -1178,7 +1238,7 @@
         "tags": [
           "CUR_CONTENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on curriculum development for educational planning, aligning with 'CUR_CONTENT' (content and learning areas). Related paragraphs discuss training (49), team composition (50), international cooperation (52/53), conferences (54), and dissemination (55), all of which complement or support the need for structured educational planning frameworks.",
         "matched_pars": {
           "49": [
@@ -1209,7 +1269,7 @@
           "T_INI",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (Initial education and training) and T_PDEV (Professional development) are selected because the paragraph emphasizes incorporating educational planning concepts into training programs for teachers and administrators. For relations: Para 50 (international cooperation for specialists) complements the training focus (confidence 0.7). Para 51 (international cooperation value) complements the planning context (confidence 0.6). Para 52 (cooperation methods like study tours) directly supports the training aspect (confidence 0.9).",
         "matched_pars": {
           "50": [
@@ -1231,7 +1291,7 @@
           "POL_INTCOOP",
           "F_SOCSCI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP is directly supported by the mention of 'international cooperation' in the text. F_SOCSCI is relevant due to the inclusion of sociology as a required expertise. Relations: Para 51 complements the discussion of international cooperation's value; Para 52 supports by providing specific cooperative mechanisms; Paras 53-55 add related aspects of international cooperation and planning implementation.",
         "matched_pars": {
           "51": [
@@ -1259,7 +1319,7 @@
           "POL_INTCOOP",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP is selected because the paragraph emphasizes international cooperation in educational planning. POL_CUR is chosen as the text discusses national education plans and curriculum-related policies. Related paragraphs 52-55 all address international cooperation mechanisms (scholarships, training centers, conferences, dissemination), which complement the target paragraph's focus on collaborative educational planning.",
         "matched_pars": {
           "52": [
@@ -1284,7 +1344,7 @@
           "POL_INTCOOP",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP is selected because the paragraph focuses on international cooperation in education planning. POL_CUR is chosen as education planning falls under curriculum and pedagogy policies. Related paragraphs 53, 54, and 55 provide complementary details on international cooperation methods, regional conferences, and dissemination mechanisms, respectively.",
         "matched_pars": {
           "53": [
@@ -1306,7 +1366,7 @@
           "POL_INTCOOP",
           "ACT_IO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP and ACT_IO are selected because the paragraph emphasizes international cooperation (POL_INTCOOP) and the role of international organizations (ACT_IO). Para 54 is complemental as it expands on regional collaboration methods. Para 55 is modifying as it adds conditions on financial assistance tied to planning techniques. Para 57 is complemental as it specifies regional implementation mechanisms.",
         "matched_pars": {
           "54": [
@@ -1327,7 +1387,7 @@
         "tags": [
           "nan"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes regional conferences for educational planning and their role in advancing techniques and linking education to broader development. 'Education orientation' (nan) is the only tag that directly aligns with this focus. Paragraph 55 supports this by discussing the role of international bodies in disseminating planning techniques, reinforcing the importance of structured planning. Paragraph 56 complements by addressing dissemination methods, which is related but distinct from the conference focus.",
         "matched_pars": {
           "55": [
@@ -1347,7 +1407,7 @@
           "POL_GOV",
           "POL_FIN"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP (international cooperation) and POL_GOV (planning governance) are directly mentioned through references to international/national bodies and planning techniques. POL_FIN (financing) applies due to the conditional financial assistance clause. Para 56 complements by expanding on dissemination mechanisms, while para 57 modifies by introducing regional adaptation processes related to planning techniques.",
         "matched_pars": {
           "56": [
@@ -1366,7 +1426,7 @@
           "ACT_EDUC",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies due to emphasis on dissemination to ministries, educational authorities, and press. CUR_IMPL (Curriculum | Curriculum implementation) applies as the recommendation relates to curriculum implementation. Para 57 (complemental) adds regional adaptation context, while para 58 (modifying) provides detailed implementation steps that refine the dissemination process.",
         "matched_pars": {
           "57": [
@@ -1384,7 +1444,7 @@
         "tags": [
           "ACT_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on collaboration between UNESCO regional centres and ministries (stakeholder focus). The related paragraph (58) provides complementary details about national-level implementation processes, reinforcing the shared goal of reviewing/adapting recommendations.",
         "matched_pars": {
           "58": [
@@ -1399,7 +1459,7 @@
         "tags": [
           "LAW_IMPLEM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on policy implementation processes (e.g., reviewing recommendations, adapting articles, proposing practical measures), which directly aligns with 'LAW_IMPLEM' (Legal frameworks | Policy implementation and enforcement). Other tags like CUR_IMPL (Curriculum implementation) are less fitting as the text emphasizes legal/educational policy implementation rather than curriculum-specific details. No related paragraphs exist in the allowed_paragraph_ids list.",
         "matched_pars": {},
         "para_en": "44. In countries where it is deemed necessary, the ministries of public education are invited to assign the competent bodies to carry out various tasks, for example: a) to review this recommendation and compare its content with the existing legal and factual situation in their country; b) to consider the advantages and disadvantages of the possible implementation of each article not yet in force; c) to adapt each article to the country’s situation, applying it where deemed appropriate; d) finally, to propose practical provisions and measures to be taken to ensure the implementation of the article under consideration."

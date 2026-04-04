@@ -6,9 +6,18 @@
     "structure": {
       "doc_title": "ICPE-12-1949_RES1-FR",
       "nb_paras": 7,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "operative_para": [
+        5,
+        6,
+        7
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +29,7 @@
           "O_G",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags O_G (Education orientation | General (academic)) and CUR_IMPL (Curriculum | Curriculum implementation) are selected because the paragraph describes a conference adopting a recommendation on curriculum design and teaching methods. Related paragraphs provide supporting (2,4,6,7) or complemental (3,5) context about the report's basis, adopted principles, publication, and follow-up actions.",
         "matched_pars": {
           "2": [
@@ -52,7 +61,7 @@
           "CUR_CONTENT",
           "PEDAG_FOUND"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags F_SOCSCI (social sciences) and CUR_CONTENT (curriculum content) are selected because the paragraph discusses geography education's role in international understanding and curriculum design. PEDAG_FOUND (pedagogical foundations) applies due to mentions of teaching methods and psychological/didactic approaches. Related paragraphs 3-7 are connected through supporting (adoption of principles, recommendations) and complemental (publication actions) relations, all with confidence ≥0.6.",
         "matched_pars": {
           "3": [
@@ -81,7 +90,7 @@
           "PEDAG_OTHER",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags CUR_CONTENT (curriculum content/learning areas) and PEDAG_OTHER (pedagogy/assessment) are selected because the paragraph focuses on curriculum design, teaching methods, and psychological/didactic approaches. POL_CUR (policy theme) applies as it discusses adopting principles for education. Related paragraphs: 5 (complemental - action to implement recommendations), 6 (complemental - dissemination of educational materials), 7 (modifying - expert preparation for curriculum implementation).",
         "matched_pars": {
           "5": [
@@ -103,7 +112,7 @@
           "nan: Education orientation",
           "nan: Stakeholder focus"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tags 'Education orientation' and 'Stakeholder focus' are selected because the paragraph emphasizes UNESCO's initiative to publish an educational report (orientation) and engage educators/ministries (stakeholders). Paragraph 6 is complemental as it directly describes the distribution of the brochure to educational circles, aligning with the target's action of publishing the report.",
         "matched_pars": {
           "6": [
@@ -119,7 +128,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_OTH (Policy theme | Other policy theme) applies because the paragraph involves submitting a policy recommendation to education ministries. SYST_OTHER (Education system monitoring & evaluation | Other) is relevant as the recommendation likely pertains to systemic education improvements. Para 6 is complemental (confidence 0.8) as it describes implementing the recommendation through educator engagement. Para 7 is supporting (confidence 0.7) as it outlines expert preparation for UNESCO activities related to the recommendation.",
         "matched_pars": {
           "6": [
@@ -138,7 +147,7 @@
           "ACT_EDUC",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on teacher engagement through brochure distribution (ACT_EDUC) and curriculum-related actions (CUR_IMPL). Paragraph 7 discusses expert preparation for an educational seminar, which is related through shared educational stakeholder focus but addresses distinct actions (complemental relationship).",
         "matched_pars": {
           "7": [
@@ -153,7 +162,7 @@
         "tags": [
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses preparing experts for participation in an educational seminar through contacts with educational sectors, which aligns with 'T_INI: Teachers | Initial education and training' as it involves training and preparation for educational roles.",
         "matched_pars": {},
         "para_en": "2. Designate as soon as possible the experts who, in 1950, will participate in the UNESCO Seminar, so that they can thoroughly, actively, and usefully prepare for this participation by establishing all necessary contacts with the various educational sectors in their own country."

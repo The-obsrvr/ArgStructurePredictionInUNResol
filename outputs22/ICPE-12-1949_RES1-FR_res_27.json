@@ -6,9 +6,32 @@
     "structure": {
       "doc_title": "ICPE-12-1949_RES1-FR",
       "nb_paras": 21,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3
+      ],
+      "operative_para": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +43,7 @@
           "LAW_INTER",
           "O_G"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The target paragraph describes an international conference adopting a recommendation, which aligns with 'LAW_INTER' (international conventions) and 'O_G' (general academic orientation). Related paragraphs (2,3,4,12,20,21) are parts of the same recommendation, providing supporting details (e.g., curriculum, teacher training) or complementing the adoption process.",
         "matched_pars": {
           "2": [
@@ -51,7 +74,7 @@
           "ISC_1",
           "F_ENV"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ISC_1 (Primary education) and F_ENV (Environmental education) are selected because the paragraph emphasizes early primary school (ISC_1) and natural sciences/nature protection (F_ENV). Related paragraphs: 3 (complemental - nature protection), 5 (supporting - early science introduction), 7 (complemental - specific objectives), 8 (supporting - observation methods), 20 (complemental - teacher training for science instruction).",
         "matched_pars": {
           "3": [
@@ -76,7 +99,7 @@
         "para_number": 3,
         "para": "Que, d'autre part, il est nécessaire d'associer l'école à une action généralisée pour protéger la nature,",
         "tags": [],
-        "type": null,
+        "type": "preambular",
         "think": "fallback",
         "matched_pars": {},
         "para_en": "That, on the other hand, it is necessary to associate the school with a widespread effort to protect nature,"
@@ -87,7 +110,7 @@
         "tags": [
           "POL_OTH"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph (para 4) is about submitting a policy recommendation to education ministries, which directly relates to the 'Policy theme | Other policy theme' (POL_OTH) tag. The related paragraphs (5-17) contain the specific recommendations (e.g., curriculum flexibility, outdoor schooling, interschool exchanges) that complement the target paragraph's policy action. Each of these paragraphs provides detailed content for the recommendation, making them complemental with high confidence.",
         "matched_pars": {
           "5": [
@@ -117,7 +140,7 @@
         "tags": [
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "ISC_1 is directly supported by the mention of primary school (ISCED 1). Paragraph 6 complements by discussing integration with other disciplines. Paragraph 7 supports by detailing objectives. Paragraph 8 complements with teaching methods. Paragraph 12 adds outdoor schooling as a related method. Paragraph 14 modifies by specifying teaching approaches. Paragraph 20 supports by addressing teacher training needs.",
         "matched_pars": {
           "6": [
@@ -148,7 +171,7 @@
           "CUR_OTHER",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_OTHER and CUR_IMPL are selected because the paragraph discusses integrating natural sciences with other disciplines (CUR_OTHER) and outlines implementation strategies (CUR_IMPL). Related paragraphs address complementary objectives (7), supporting teaching methods (8), outdoor schooling (12), pedagogical approaches (14), extracurricular activities (18), and teacher training (20), all of which align with curriculum design and implementation.",
         "matched_pars": {
           "7": [
@@ -179,7 +202,7 @@
           "F_ENV",
           "CUR_CONTENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_ENV and CUR_CONTENT are selected because the paragraph emphasizes environmental education (protecting nature) and curriculum content objectives (intellectual development, nature appreciation). Related paragraphs provide supporting/complemental details: para 8 (methods for observation), para 9 (collaborative learning), para 11 (nature-related activities), para 12 (outdoor education), and para 18 (extracurricular nature protection).",
         "matched_pars": {
           "8": [
@@ -207,7 +230,7 @@
           "CUR_IMPL",
           "M_INFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_IMPL and M_INFORM are selected because the paragraph focuses on curriculum implementation (tools/materials for natural sciences education) and informal learning (out-of-school activities). Relations are established with paragraphs that address collaborative research (9), outdoor education (12), interschool exchanges (16), extracurricular nature activities (18), and school museum contributions (11), all of which align with the target's emphasis on observation, experimentation, and student-led learning.",
         "matched_pars": {
           "9": [
@@ -235,7 +258,7 @@
           "ACT_STUD",
           "nan"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_STUD (focus on learners/students) and nan (Pedagogy & assessment) are selected because the paragraph emphasizes student-centered collaborative research and assessment practices. Relations are determined by semantic connections: paragraphs 10, 11, and 16 complement the target by expanding on student activities and collaboration methods, while paragraphs 20, 17, and 21 support the target by addressing teacher training necessary for implementing the described pedagogical approaches.",
         "matched_pars": {
           "10": [
@@ -266,7 +289,7 @@
           "F_ARTS",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_ARTS (Arts and culture) is selected because the paragraph emphasizes graphic and verbal expression, which aligns with arts. PEDAG_OTHER (Other pedagogy-related issue) is chosen as the text addresses pedagogical methods integrating creative expression. For relations: Para 11 (museum creation) and Para 17 (research resources) complement the target paragraph's focus on creative expression and research, respectively.",
         "matched_pars": {
           "11": [
@@ -287,7 +310,7 @@
           "POP_CHILD",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_ARTS (museum as cultural artifact), CUR_CONTENT (curriculum-based learning), POP_CHILD (focus on children), and CUR_IMPL (implementation of educational activities) are directly supported. Para 16 (materials exchange) modifies the target's approach by addressing material acquisition challenges. Para 18 (nature-related activities) complements the target's focus on engaging children through creative projects.",
         "matched_pars": {
           "16": [
@@ -306,7 +329,7 @@
           "F_ENV",
           "M_NFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_ENV (Environmental education) and M_NFORM (Non-formal education) are selected because the paragraph emphasizes outdoor schooling for natural sciences, aligning with environmental education goals and non-formal learning modalities. Related paragraphs: 13 (supports teaching methods), 14 (complements pedagogical approach), 15 (modifies curriculum flexibility), 18 (complements extracurricular activities), 20/21 (support teacher training).",
         "matched_pars": {
           "13": [
@@ -337,7 +360,7 @@
           "F_SOCSCI",
           "F_ENV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_SOCSCI and F_ENV are selected because the paragraph discusses pedagogical methods (social sciences) and environmental interrelations (environmental education). Related paragraphs 14, 15, 16, 18, and 20 are connected through shared themes of teaching methods, environmental adaptation, and teacher training. Paragraph 14 directly supports the functional method, 15 and 18 complement environmental focus, while 16 and 20 reinforce pedagogical implementation.",
         "matched_pars": {
           "14": [
@@ -365,7 +388,7 @@
           "PEDAG_FOUND",
           "CUR_CONTENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags PEDAG_FOUND and CUR_CONTENT are selected because the paragraph emphasizes pedagogical foundations (avoiding rote learning) and curriculum content (concrete observations as foundational). Related paragraphs discuss teacher training (17,20), curriculum flexibility (15,16), and didactic updates (21), which complement or support the target's focus on pedagogy and curriculum content.",
         "matched_pars": {
           "15": [
@@ -395,7 +418,7 @@
         "tags": [
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph emphasizes curriculum flexibility for local adaptation (CUR_IMPL). Paragraph 16 complements this by addressing resource gaps through interschool exchanges. Paragraph 20 supports implementation by focusing on teacher training. Paragraph 21 complements by ensuring ongoing teacher updates, aligning with curriculum adaptability.",
         "matched_pars": {
           "16": [
@@ -416,7 +439,7 @@
         "tags": [
           "CUR_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses curriculum-related elements (interschool exchanges for observational materials), aligning with 'CUR_OTHER'. Paragraph 20 (teacher training) directly supports para 16 by providing the necessary pedagogical preparation to implement interschool exchanges effectively.",
         "matched_pars": {
           "20": [
@@ -432,7 +455,7 @@
           "CUR_CONTENT",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on curriculum content (reference works) and pedagogical methods (encouraging student research). Tags CUR_CONTENT and PEDAG_METHO directly align with these aspects. Paragraph 19 (scientific origins) complements the target's emphasis on research. Paragraph 20 (teacher training) supports the pedagogical approach. Paragraph 21 (teacher updates) supports effective implementation of the curriculum.",
         "matched_pars": {
           "19": [
@@ -453,7 +476,7 @@
         "tags": [
           "F_ENV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on environmental education through extracurricular activities (F_ENV). Paragraph 19 (complemental) relates to broader natural science education, which overlaps but is not directly about environmental protection. Paragraphs 20 and 21 (supporting) directly address teacher training and professional development needed to implement the environmental education activities described in the target paragraph.",
         "matched_pars": {
           "19": [
@@ -475,7 +498,7 @@
           "Teachers",
           "Pedagogy & assessment"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on teachers' role in presenting scientific history, directly linking to the 'Teachers' tag. 'Pedagogy & assessment' applies as it involves teaching methods. Paragraph 20 supports by emphasizing teacher training methods, while 21 complements by addressing ongoing professional development related to scientific education.",
         "matched_pars": {
           "20": [
@@ -494,7 +517,7 @@
           "T_INI",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (Initial education and training) and PEDAG_METHO (Teaching methods and approaches) are selected because the paragraph emphasizes teacher training (initial education) and specific teaching methods for natural sciences. The relation to paragraph 21 is complemental (confidence 0.9) as both address teacher professional development: para 20 focuses on initial training, while para 21 addresses ongoing updates through meetings and training sessions.",
         "matched_pars": {
           "21": [
@@ -510,7 +533,7 @@
           "T_PDEV",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses professional development activities (meetings, conferences, training sessions) for teachers (T_PDEV) and mentions didactics and teaching methods (PEDAG_METHO). No related paragraphs are provided in allowed_paragraph_ids.",
         "matched_pars": {},
         "para_en": "17. That meetings, conferences, and advanced training sessions periodically update teachers on the progress of science and didactics, as well as the results of experiments in the teaching of natural sciences."

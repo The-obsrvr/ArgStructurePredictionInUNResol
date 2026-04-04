@@ -6,9 +6,70 @@
     "structure": {
       "doc_title": "ICPE-24-1961_RES1-FR",
       "nb_paras": 59,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "operative_para": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +81,7 @@
           "Education level",
           "Pedagogy & assessment"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags 'Education level' and 'Pedagogy & assessment' are selected because the paragraph references the International Conference on Public Education and its adoption of a recommendation, which inherently involves structuring education levels and pedagogical practices. Related paragraphs 2, 3, 13, 57, 58, and 59 are connected through supporting (background context) or complemental (implementation steps) relationships.",
         "matched_pars": {
           "2": [
@@ -51,7 +112,7 @@
           "ISC_02",
           "POP_CHILD"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) are selected because the paragraph explicitly references preschool education and its target population. Related paragraphs: 3 (supports principles of child development), 4 (complements parental role), 7 (complements transition to school), 9 (supports foundational experience), 52 (complements hygiene aspects), and 54 (supports system establishment). Confidence scores reflect clear semantic connections to preschool education principles and practices.",
         "matched_pars": {
           "3": [
@@ -82,7 +143,7 @@
           "ISC_01",
           "F_REL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ISC_01 (early childhood education) and F_REL (spiritual/moral development) are directly supported by the text. Related paragraphs provide supporting (4,9), complemental (5,8,38), or modifying (10) connections to the target paragraph's focus on early education's role in holistic child development.",
         "matched_pars": {
           "4": [
@@ -112,7 +173,7 @@
         "tags": [
           "ACT_PARENT"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag ACT_PARENT is selected because the paragraph explicitly emphasizes parents' fundamental duty and inalienable right in early childhood education. Related paragraphs: 5 (complemental - highlights family's need for support, expanding on parental responsibilities), 6 (modifying - contextualizes preschool's social role, indirectly linking to parental challenges), 10 (complemental - addresses caregiver qualifications, supporting the need for structured education), 15 (complemental - discusses preschool access, aligning with parental duty to provide education), and 17 (complemental - emphasizes collaboration with parents, reinforcing their role in education).",
         "matched_pars": {
           "5": [
@@ -140,7 +201,7 @@
           "ACT_PARENT",
           "POP_CHILD"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ACT_PARENT (family as stakeholder) and POP_CHILD (children 0-17) are selected because the paragraph emphasizes family's role in child development and the need for assistance for children approaching age four. Related paragraphs address preschool's role in supporting families (6, 17, 39), transition support (7), and family-circumstance-based selection (28), all of which complement or support the target paragraph's focus on family needs and preschool's social function.",
         "matched_pars": {
           "6": [
@@ -168,7 +229,7 @@
           "POP_CHILD",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POP_CHILD is selected because the paragraph focuses on children's education and development. PEDAG_OTHER is chosen as the text discusses preschool's social function and comprehensive development, which falls under 'other pedagogy related issues'. Related paragraphs: 7 (complemental - both discuss preschool's role in transitions), 10 (supporting - trained caregivers enhance preschool's effectiveness), 17 (supporting - collaboration for social needs), 18 (complemental - enterprises' role in preschool expansion).",
         "matched_pars": {
           "7": [
@@ -192,7 +253,7 @@
         "tags": [
           "ISC_02"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag ISC_02 is selected because the paragraph explicitly mentions preschool education, which aligns with the pre-primary education classification (ISCED 02). For relations: Paragraph 17 discusses collaboration between education, medical-social services, and parents, which complements the target paragraph's focus on family-school transition. Paragraph 39 directly addresses family collaboration in preschool education, supporting the target's emphasis on parental involvement in the transition process.",
         "matched_pars": {
           "17": [
@@ -211,7 +272,7 @@
           "POP_DISAB",
           "ISC_02"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POP_DISAB (learners with disabilities) and ISC_02 (pre-primary education) are selected because the paragraph explicitly mentions benefits for physically disabled children and focuses on preschool institutions. Related paragraphs provide complementary information about preschool education requirements (e.g., caregiver training, facilities, health services) and foundational principles, all of which align with the target paragraph's focus on preschool education's role in child development.",
         "matched_pars": {
           "9": [
@@ -242,7 +303,7 @@
           "PEDAG_FOUND",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags PEDAG_FOUND and PEDAG_METHO are selected because the paragraph discusses foundational principles and methods of preschool education. Related paragraphs: 10 (complemental - caregiver qualifications), 33 (supporting - specific methods), 37 (supporting - teacher freedom in methods), 41 (complemental - specialized training), 43 (complemental - teacher training programs).",
         "matched_pars": {
           "10": [
@@ -270,7 +331,7 @@
           "T_INI",
           "T_QUAL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_INI and T_QUAL are selected because the paragraph emphasizes special training (initial education) and qualities/aptitudes (qualification) for preschool educators. Paragraph 41 directly supports this by discussing specialized training for preschool educators with psychological/pedagogical challenges. Paragraph 43 complements by addressing training solutions for teacher shortages, aligning with the target's focus on training and aptitudes.",
         "matched_pars": {
           "41": [
@@ -289,7 +350,7 @@
           "ISC_02",
           "POP_WOM"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ISC_02 (pre-primary education) and POP_WOM (women and girls) are selected because the paragraph directly addresses preschool education expansion (ISC_02) and mentions female labor in specific regions (POP_WOM). Related paragraphs: 12 (complemental - diverse solutions for preschool education), 14 (supporting - promotes preschool education with contextual considerations), 16 (supporting - prioritizes preschool in regions with female labor), and 18 (complemental - collaboration for preschool facilities in female labor regions).",
         "matched_pars": {
           "12": [
@@ -313,7 +374,7 @@
         "tags": [
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The paragraph discusses diverse solutions for preschool education based on varying national circumstances, aligning with PEDAG_OTHER (pedagogy-related issues). Related paragraphs provide specific examples of solutions (14: policy support, 19: specialized services, 23: financing, 54: international collaboration, 56: scholarship systems), which are complemental as they expand on the target's theme of diverse approaches.",
         "matched_pars": {
           "14": [
@@ -341,7 +402,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation) are selected because the paragraph involves submitting a policy recommendation to Ministries of Public Education (policy) and addresses preschool education systems (education system monitoring). Related paragraphs (14,15,19,54,57,59) expand on the recommendation's implementation, dissemination, and adaptation, forming a coherent set of policy actions and system-level measures.",
         "matched_pars": {
           "14": [
@@ -371,7 +432,7 @@
         "tags": [
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag ISC_02 (Pre-primary education) directly matches the focus on preschool education in the target paragraph. Relations: Para 15 (supporting) aligns with promoting preschool education in contexts where compulsory education exists. Para 16 (complemental) adds context about prioritizing primary schooling while addressing preschool in specific regions. Para 17 (complemental) expands on collaboration aspects. Para 19 (supporting) reinforces institutional development of preschool education.",
         "matched_pars": {
           "15": [
@@ -396,7 +457,7 @@
           "ISC_02",
           "POP_CHILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) are selected because the paragraph explicitly discusses preschool education opportunities for children. Relations are identified with complementary paragraphs: 16 (contrasting scenarios but shared focus on preschool), 17 (collaboration in implementation), 26 (public funding specifics), 50 (infrastructure requirements), and 28 (selection criteria for limited capacity). Confidence scores reflect clear semantic connections.",
         "matched_pars": {
           "16": [
@@ -425,7 +486,7 @@
           "ISC_1",
           "POP_RUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and ISC_1 (primary education) directly match the paragraph's focus on preschool and primary schooling. POP_RUR (rural learners) aligns with the mention of rural regions. Related paragraphs provide complemental/supporting details about preschool development, collaboration, rural solutions, and teacher training.",
         "matched_pars": {
           "17": [
@@ -453,7 +514,7 @@
           "ISC_02",
           "ACT_PARENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and ACT_PARENT (parents) are selected because the paragraph explicitly discusses preschool education (ISC_02) and collaboration with parents (ACT_PARENT). Related paragraphs: 39 (family collaboration) directly complements the parent focus; 38 (medical services) aligns with social needs; 19 (institutional support) supports the need for collaboration; 30 (staff support) complements social service integration.",
         "matched_pars": {
           "39": [
@@ -478,7 +539,7 @@
           "ISC_01",
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_01 (Early childhood educational development) and ACT_EDUC (Teachers and educators) are selected because the paragraph focuses on preschool education (ISC_01) and collaboration with educational stakeholders (ACT_EDUC). Related paragraphs: 19 (complemental - details institutional structure for preschool development), 20 (supporting - elaborates on tasks for preschool education services), 24 (complemental - addresses private sector involvement in preschool resources), and 41 (supporting - discusses pilot institutions for training specialized personnel).",
         "matched_pars": {
           "19": [
@@ -503,7 +564,7 @@
           "ISC_02",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and SYST_OTHER (system monitoring) are selected because the paragraph focuses on preschool education institutions and the organizational structure of their oversight service. Relations are complemental as subsequent paragraphs elaborate on the service's responsibilities (para 20), inspections (para 21), supervision (para 22), staff training (para 41), and international collaboration (para 54). Confidence scores reflect the direct alignment of these paragraphs with the target's institutional framework.",
         "matched_pars": {
           "20": [
@@ -531,7 +592,7 @@
           "ISC_02",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and PEDAG_OTHER (pedagogy/assessment) are selected because the paragraph focuses on preschool education tasks like data collection, methodology, staff training, and collaboration with parents. Related paragraphs address inspections (21), supervision (22), staff support (30), family collaboration (39), research (40), and specialized training (41), which complement or support the target's themes.",
         "matched_pars": {
           "21": [
@@ -562,7 +623,7 @@
           "SYST_INST",
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags SYST_INST is selected because the paragraph explicitly mentions institutional evaluation/inspection (pedagogical and health inspections). ISC_1 is included as preschool education is classified under primary education (ISCED 1). Paragraph 22 complements by detailing inspector roles for preschools, while 52 complements by addressing hygiene as part of preschool education.",
         "matched_pars": {
           "22": [
@@ -581,7 +642,7 @@
           "SYST_INST",
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags SYST_INST (Institutional evaluation and inspection) and ISC_02 (Pre-primary education) are selected because the paragraph discusses supervision of preschool education establishments (institutional evaluation) and explicitly references pre-primary education (ISCED 02). The relation with paragraph 42 is 'supporting' because paragraph 42 establishes that preschool teachers' qualifications should match those of primary school staff, reinforcing the idea that qualified personnel (including inspectors) are essential for preschool supervision.",
         "matched_pars": {
           "42": [
@@ -597,7 +658,7 @@
           "ISC_02",
           "LAW_REG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and LAW_REG (legal frameworks) are selected because the paragraph discusses preschool education funding structures and responsibilities of authorities, which fall under legal frameworks. Para 24 (complemental) addresses private sector financial assistance, para 26 (supporting) reinforces free access for publicly funded institutions, and para 54 (complemental) relates to system establishment with expert support.",
         "matched_pars": {
           "24": [
@@ -618,7 +679,7 @@
         "tags": [
           "OWN_PRIV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag 'OWN_PRIV' is selected because the paragraph explicitly references private initiatives compensating for public resource gaps, aligning with private non-profit ownership. Paragraph 26 discusses public-funded preschools being free, creating a complemental relationship by contrasting funding models (private financial assistance vs. public free access) under different ownership structures.",
         "matched_pars": {
           "26": [
@@ -634,7 +695,7 @@
           "ISC_02",
           "POP_CHILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) directly align with the paragraph's focus on preschool education and its target population. Para 28 introduces conditions for admission (needs-based selection) which modifies the optional attendance framework in para 25. Para 26 discusses free admission in public-funded institutions, which complements the optional attendance concept by addressing accessibility.",
         "matched_pars": {
           "28": [
@@ -653,7 +714,7 @@
           "POL_EQUIT",
           "OWN_PUB"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_EQUIT (access equity) and OWN_PUB (public funding) are selected because the paragraph addresses free admission for publicly funded preschools, directly linking to equity in access and public ownership. Paragraph 27 (age requirements) and 28 (admission selection criteria) are complemental as they both discuss admission policies but focus on different aspects (age vs. needs-based selection).",
         "matched_pars": {
           "27": [
@@ -672,7 +733,7 @@
           "ISC_02",
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (Pre-primary education) and ISC_1 (Primary education) are selected because the paragraph directly addresses preschool education (ISCED 02) and its connection to primary school entry age (ISCED 1). All related paragraphs discuss operational, structural, or policy aspects of preschool education, which are complemental as they provide additional context about implementation details without contradicting or modifying the core age-related requirements of the target paragraph.",
         "matched_pars": {
           "28": [
@@ -703,7 +764,7 @@
           "POP_CHILD",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_CHILD is selected because the paragraph focuses on preschool children (0-17). PEDAG_OTHER is chosen as the text discusses specialized training and pilot institutions for educators, which falls under pedagogy-related issues. Para 43 is related as it addresses teacher training solutions for preschool educators, directly supporting the target paragraph's emphasis on specialized training.",
         "matched_pars": {
           "43": [
@@ -719,7 +780,7 @@
           "ISC_02",
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) and T_INI (initial education/training) are selected because the paragraph directly addresses preschool teacher qualifications and their equivalence to primary school staff. Para 42 is complemental (same topic: qualifications) with high confidence. Para 43 is modifying (training pathways for teachers) with moderate confidence as it relates to qualification development.",
         "matched_pars": {
           "42": [
@@ -738,7 +799,7 @@
           "T_PDEV",
           "T_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on addressing teacher shortages through accelerated specialization and advanced training (T_PDEV). 'T_OTHER' is included as it refers to teacher-related policies beyond initial training. Paragraph 41 discusses specialized training for educators (complemental) and paragraph 43 addresses professional development through international opportunities (complemental).",
         "matched_pars": {
           "41": [
@@ -757,7 +818,7 @@
           "ISC_02",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (Pre-primary education) and CUR_ORG (Organization and instructional time) are selected because the paragraph explicitly discusses preschool education schedules (organization) and the education level (ISCED 02). Related paragraphs 32, 53, 49, and 50 address complementary aspects: 32 (permanence of preschool facilities), 53 (meals/rest periods), 49 (physical premises), and 50 (playground accessibility), all aligning with the target's focus on preschool structure and facilities.",
         "matched_pars": {
           "32": [
@@ -782,7 +843,7 @@
           "POP_RUR",
           "ACT_PARENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_RUR (Rural and remote learners) apply because the paragraph specifically mentions rural areas. ACT_PARENT (Parents and communities) is relevant as it references parents' agricultural work. Paragraph 50 discusses playground requirements for preschool facilities, which complements the target paragraph's focus on permanent seasonal facilities by addressing infrastructure needs. The relation is complemental with moderate confidence as both address facility requirements but from different angles.",
         "matched_pars": {
           "50": [
@@ -798,7 +859,7 @@
           "PEDAG_METHO",
           "POP_CHILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags PEDAG_METHO (teaching methods) and POP_CHILD (children) are directly supported by the focus on preschool education methods and child-centered activities. Paragraph 34 (group activities) is complemental as it expands on collaborative learning aspects. Paragraph 37 (teacher freedom/materials) is complemental as it addresses implementation context of the methods discussed.",
         "matched_pars": {
           "34": [
@@ -817,7 +878,7 @@
           "ISC_01",
           "F_REL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes group activities' role in character formation and social awareness (F_REL) and focuses on early childhood education (ISC_01). Paragraph 36 discusses outdoor activities and balancing free/guided activities, which complement the target paragraph's focus on social development through group settings. The connection is moderate (confidence 0.7) as both address early childhood education's holistic development.",
         "matched_pars": {
           "36": [
@@ -833,7 +894,7 @@
           "ISC_02",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (Pre-primary education) and CUR_IMPL (Curriculum implementation) are selected because the paragraph explicitly discusses preschool education (ISC_02) and curriculum elements like materials, activities, and techniques (CUR_IMPL). Related paragraphs (36, 37, 48, 49, 51) address complementary aspects like outdoor activities, teacher freedom, physical infrastructure, and environmental adaptation, all of which align with the target paragraph's focus on preschool education practices.",
         "matched_pars": {
           "36": [
@@ -860,7 +921,7 @@
         "tags": [
           "INFRA_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on infrastructure requirements for preschool facilities, including separate buildings, playgrounds, and gardens. This directly aligns with 'INFRA_OTHER' (Infrastructure & resources | Other). Related paragraphs discuss playgrounds (37, 48) and location/accessibility (49), which complement the target's infrastructure focus.",
         "matched_pars": {
           "37": [
@@ -882,7 +943,7 @@
           "T_INI",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (Initial education and training) and CUR_IMPL (Curriculum implementation) are selected because the paragraph discusses preschool teachers' freedom in developing activity programs (curriculum implementation) and their qualifications/roles in initial education. Para 44 is a supporting relation as it directly addresses professional development opportunities for preschool teachers, which complements the freedom to enhance methods mentioned in the target paragraph.",
         "matched_pars": {
           "44": [
@@ -898,7 +959,7 @@
           "ISC_02",
           "CCUT_WELLB"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags ISC_02 (Pre-primary education) and CCUT_WELLB (Health and well-being education) are selected because the paragraph explicitly discusses preschool education (ISC_02) and emphasizes hygiene habits and medical services (CCUT_WELLB). Paragraph 39 directly addresses hygiene and cleanliness as an integral part of preschool education, complementing the target paragraph's focus on hygiene and health services.",
         "matched_pars": {
           "39": [
@@ -913,7 +974,7 @@
         "tags": [
           "ACT_PARENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes family collaboration in preschool education, aligning with 'ACT_PARENT' (Stakeholder focus | Parents and communities). Paragraph 40 discusses professional development for preschool teachers, which complements the target paragraph by addressing how teachers can enhance their methods (including family engagement) through training, though the connection is indirect.",
         "matched_pars": {
           "40": [
@@ -930,7 +991,7 @@
           "ACT_PARENT",
           "PEDAG_FOUND"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (professional development for teachers) and ACT_PARENT (parent engagement) are directly mentioned. PEDAG_FOUND (pedagogical foundations) is included because the paragraph emphasizes research on preschool education. Related paragraphs 41 (specialized training), 43 (accelerated courses), 44 (professional development opportunities), 55 (international dissemination), and 57 (dissemination channels) all connect to the target's focus on sharing research and professional growth.",
         "matched_pars": {
           "41": [
@@ -955,7 +1016,7 @@
         "para_number": 41,
         "para": "28. L'éducation des enfants d'âge préscolaire présentant des problèmes psychologiques et pédagogiques particuliers, il importe que les personnes qui s'y destinent possèdent les qualités requises et reçoivent une formation spécialisée en complément de la formation pédagogique générale, et il serait souhaitable de créer à cet effet des institutions pilotes annexées aux établissements de formation pédagogique.",
         "tags": [],
-        "type": null,
+        "type": "operative",
         "think": "fallback",
         "matched_pars": {},
         "para_en": "28. The education of preschool children presenting particular psychological and pedagogical problems requires that those who intend to work in this field possess the necessary qualities and receive specialized training in addition to general pedagogical training, and it would be desirable to establish pilot institutions for this purpose attached to teacher training establishments."
@@ -969,7 +1030,7 @@
           "ISC_02",
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI and T_QUAL reflect the focus on teacher qualifications and initial training. ISC_02 (pre-primary) and ISC_1 (primary) are explicitly compared in the text. Related paragraphs address training (43, 56), professional development (44), and equality in status (45, 46), which align with the target paragraph's emphasis on equivalence and qualifications.",
         "matched_pars": {
           "43": [
@@ -997,7 +1058,7 @@
           "T_PDEV",
           "ISC_01"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) is selected because the paragraph discusses study visits and internships as forms of professional development. ISC_01 (Early childhood educational development) is relevant as the text focuses on preschool education. Para 44 (professional development for preschool teachers) is complemental as it expands on similar themes. Para 56 (scholarship system for study visits) is directly supporting the target paragraph's scholarship initiative. Para 54 (pilot institutions and training) is complemental as it relates to training mechanisms for preschool education.",
         "matched_pars": {
           "44": [
@@ -1019,7 +1080,7 @@
           "T_PDEV",
           "ISC_01"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (professional development) and ISC_01 (early childhood education) are selected because the paragraph explicitly discusses opportunities for preschool teachers to enhance skills (T_PDEV) and focuses on early childhood education (ISC_01). Related paragraphs 46, 54, 55, and 56 address complementary aspects like retraining (46), pilot institutions (54), international exchanges (55), and internships (56), all of which align with the target's focus on professional development and early childhood education.",
         "matched_pars": {
           "46": [
@@ -1044,7 +1105,7 @@
           "T_COND",
           "T_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph explicitly mentions equal status (salary, working conditions, leave) and benefits for preschool teachers compared to primary school staff. Para 46 is related as it reinforces the idea of equal status and remuneration for transitioning between preschool and primary education, directly supporting the target paragraph's argument.",
         "matched_pars": {
           "46": [
@@ -1061,7 +1122,7 @@
           "ISC_02",
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (initial training/retraining courses), ISC_02 (pre-primary education), and ISC_1 (primary education) are selected because the paragraph discusses transitions between preschool and primary education, as well as retraining for teachers. Paragraph 54 (ISCED 02/1 training) supports retraining initiatives, while paragraph 56 (international study visits) complements the need for specialized training exchange.",
         "matched_pars": {
           "54": [
@@ -1080,7 +1141,7 @@
           "ACT_PARENT",
           "LAW_REG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_PARENT (parents' proximity to facilities) and LAW_REG (regulatory requirements for facility location) are selected. Paragraph 48 (separate buildings/playgrounds) complements the target's focus on facility design. Paragraph 50 (construction permit requirements for playgrounds) supports the target's emphasis on playground accessibility.",
         "matched_pars": {
           "48": [
@@ -1100,7 +1161,7 @@
           "INFRA_BUILD",
           "ISC_01"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_ENV (environmental aspects like gardens and nature observation), INFRA_BUILD (separate buildings and playgrounds), and ISC_01 (early childhood education) are directly supported. Relations: Para 49 modifies infrastructure requirements, para 50 complements playground accessibility, and others add related infrastructure details.",
         "matched_pars": {
           "49": [
@@ -1129,7 +1190,7 @@
           "INFRA_CLASS",
           "INFRA_BUILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_02 (pre-primary education) is directly mentioned. INFRA_CLASS (classrooms) and INFRA_BUILD (school buildings) apply due to the focus on physical infrastructure. Paragraph 50 complements by emphasizing playground requirements, 51 adds environmental design details, and 53 expands on facility needs for daily operations.",
         "matched_pars": {
           "50": [
@@ -1151,7 +1212,7 @@
           "INFRA_BUILD",
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags INFRA_BUILD and ISC_02 are selected because the paragraph explicitly discusses preschool education facilities (ISC_02) and physical infrastructure requirements (INFRA_BUILD). Related paragraphs 51-53 all address specific aspects of preschool infrastructure (decor, hygiene, meal facilities) that complement the target paragraph's focus on construction requirements.",
         "matched_pars": {
           "51": [
@@ -1173,7 +1234,7 @@
           "INFRA_CLASS",
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags INFRA_CLASS (classrooms/learning environments) and ISC_02 (pre-primary education) are selected because the paragraph focuses on physical infrastructure requirements for preschool facilities. Paragraph 52 (hygiene/sanitation) and 53 (meal facilities/rest periods) are complemental as they both address infrastructure needs for preschool institutions but cover distinct aspects (cleanliness vs. meal services). Confidence scores reflect clear thematic alignment without direct overlap.",
         "matched_pars": {
           "52": [
@@ -1192,7 +1253,7 @@
           "INFRA_WASH",
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes WASH facilities (INFRA_WASH) and pre-primary education (ISC_02). Paragraph 53 complements this by discussing meal preparation facilities and isolation protocols, which are related infrastructure needs for preschool settings.",
         "matched_pars": {
           "53": [
@@ -1208,7 +1269,7 @@
           "ISC_02",
           "INFRA_BUILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags ISC_02 (pre-primary education) and INFRA_BUILD (infrastructure) are selected because the paragraph explicitly discusses preschool education institutions (ISC_02) and their required physical facilities (INFRA_BUILD). For relations, paragraph 54 addresses establishing preschool systems and training personnel, which complements the target paragraph's focus on infrastructure needs for existing institutions. The complemental relation has moderate confidence (0.7) as both paragraphs address preschool education but from different angles (infrastructure vs. system establishment).",
         "matched_pars": {
           "54": [
@@ -1224,7 +1285,7 @@
           "T_INI",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (Initial teacher training) and SYST_OTHER (Education system establishment) are selected because the paragraph focuses on training specialized personnel and establishing preschool systems. Paragraph 55 complements by addressing international collaboration for knowledge exchange (confidence 0.9). Paragraph 56 complements by discussing mobility programs for training (confidence 0.9).",
         "matched_pars": {
           "55": [
@@ -1243,7 +1304,7 @@
           "POL_INTCOOP",
           "ISC_02"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP (international cooperation with UNESCO/BIE) and ISC_02 (pre-primary education focus) are directly supported. Relations: 56 complements international study visits with scholarship mechanisms (0.9); 57 complements dissemination efforts (0.8); 58 supports UNESCO's role in regional adaptation (0.9); 59 modifies implementation by adding adaptation tasks (0.8).",
         "matched_pars": {
           "56": [
@@ -1267,7 +1328,7 @@
         "tags": [
           "ISC_01"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on early childhood education (ISC_01) through scholarship systems for preschool specialists. Paragraph 57 complements by addressing dissemination of recommendations, while 58 modifies by discussing regional adaptation of the recommendation.",
         "matched_pars": {
           "57": [
@@ -1286,7 +1347,7 @@
           "ACT_EDUC",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies because the paragraph emphasizes dissemination by teachers' associations and educational authorities. CUR_IMPL (Curriculum | Curriculum implementation) applies as the recommendation's dissemination relates to implementing educational guidelines. Para 58 (complemental) adds regional adaptation processes that complement dissemination efforts. Para 59 (modifying) specifies national implementation steps that refine how recommendations are adapted, directly modifying the implementation process mentioned in the target paragraph.",
         "matched_pars": {
           "58": [
@@ -1305,7 +1366,7 @@
           "ACT_OTHER",
           "LAW_INTER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'ACT_OTHER' (Stakeholder focus | Other) applies because the paragraph involves collaboration between UNESCO regional centres and ministries, indicating stakeholder engagement. 'LAW_INTER' (Legal frameworks | International conventions and treaties) is relevant as the text refers to adapting a recommendation, which likely relates to international legal instruments. The relation with para 59 is complemental (confidence 0.9) as both paragraphs discuss adapting the recommendation but at different levels (regional vs. national implementation).",
         "matched_pars": {
           "59": [
@@ -1321,7 +1382,7 @@
           "LAW_IMPLEM",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on policy implementation (LAW_IMPLEM) through tasks like adapting legal provisions and proposing practical measures. It also addresses curriculum implementation (CUR_IMPL) by mentioning adapting articles to national contexts. No related paragraphs exist in the allowed set.",
         "matched_pars": {},
         "para_en": "46. In countries where it is deemed necessary, the ministries of public education are invited to commission the competent bodies to carry out various tasks, for example: a) to examine this recommendation and compare its content with the existing legal and factual situation in their country; b) to consider the advantages and disadvantages of the potential application of each provision not yet in force; c) to adapt each article to the country’s situation, if its application is considered useful; d) finally, to propose the practical provisions and measures to be taken to ensure the implementation of the article in question."

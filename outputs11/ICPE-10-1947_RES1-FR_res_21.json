@@ -6,9 +6,27 @@
     "structure": {
       "doc_title": "ICPE-10-1947_RES1-FR",
       "nb_paras": 16,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "operative_para": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +38,7 @@
           "M_FORM",
           "O_G"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags M_FORM (Formal education) and O_G (General academic) are selected because the paragraph discusses a formal educational conference and its recommendation. Related paragraphs provide context (2, 3), prior recommendations (4), direct follow-up (6), and complementary details (7, 15).",
         "matched_pars": {
           "2": [
@@ -51,7 +69,7 @@
           "POL_EQUIT",
           "POP_ALL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POL_EQUIT (access and equity) and POP_ALL (all learners) are selected because the paragraph emphasizes universal access to education. Paragraph 3 directly supports the equity focus (confidence 0.9). Paragraph 4 provides context about related recommendations (complemental, 0.7). Paragraphs 8 and 16 reinforce access through material provision and international cooperation (supporting, 0.9).",
         "matched_pars": {
           "3": [
@@ -76,7 +94,7 @@
           "POL_EQUIT",
           "POP_ALL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POL_EQUIT (access and equity) and POP_ALL (all learners) are selected because the paragraph emphasizes equal access to education for all individuals regardless of background. Related paragraphs: 4 (supporting) directly references the Recommendation mentioned in the target paragraph; 5 (complemental) discusses financial barriers affecting access; 7 and 8 (supporting) elaborate on free school materials as part of equitable access; 14 (complemental) adds extracurricular support mechanisms.",
         "matched_pars": {
           "4": [
@@ -103,7 +121,7 @@
         "tags": [
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The target paragraph references Recommendation No. 19 of the Ninth International Conference on Public Instruction, which relates to curriculum implementation (CUR_IMPL). Related paragraphs: 15 (complemental - another recommendation from a conference), 6 (supporting - submitting recommendations), 7 (supporting - implementation of free supplies), 14 (complemental - extracurricular support), and 5 (modifying - socioeconomic factors affecting education).",
         "matched_pars": {
           "15": [
@@ -131,7 +149,7 @@
           "POP_POOR",
           "POL_EQUIT"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POP_POOR (low-income groups) and POL_EQUIT (access equity) are selected because the paragraph directly addresses financial barriers to education. Related paragraphs discuss free materials (7,8), transportation (12), subsidies (13), and extracurricular support (14), all of which are complementary to the equity theme. Para 6 is a supporting policy recommendation.",
         "matched_pars": {
           "6": [
@@ -161,7 +179,7 @@
         "tags": [
           "POL_OTH"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph (para 6) involves submitting a recommendation to Ministries of Public Instruction, which aligns with 'Policy theme | Other policy theme' (POL_OTH) as it represents a policy directive. Related paragraphs (7, 8, 15, 16) directly address specific educational policies (free school supplies, textbook research, audiovisual materials) that would logically form part of the recommendation in para 6. These paragraphs provide concrete policy details supporting the broader recommendation, hence 'supporting' relations with high confidence.",
         "matched_pars": {
           "7": [
@@ -186,7 +204,7 @@
           "M_FORM",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_FORM (Formal education) and POL_CUR (Curriculum and pedagogy policies) are selected because the paragraph focuses on compulsory education (formal) and policy implementation of free materials. Related paragraphs: 8 (supporting) directly addresses free materials for compulsory education; 15 (complemental) discusses textbook development linked to curriculum; 10 (modifying) adds disinfection conditions for materials; 12,14,9 (complemental) address related educational support measures.",
         "matched_pars": {
           "8": [
@@ -217,7 +235,7 @@
           "INFRA_TLM",
           "LAW_REG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags INFRA_TLM (teaching materials) and LAW_REG (education laws) are selected because the paragraph emphasizes free provision of school materials under legal mandates. Related paragraphs: 9 (complemental - student ownership of materials), 10 (modifying - disinfection requirements), 13 (supporting - funding mechanisms), 14 (complemental - external educational support), 15 (complemental - textbook production research).",
         "matched_pars": {
           "9": [
@@ -245,7 +263,7 @@
           "EDU_ORIENTATION",
           "CURRICULUM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags EDU_ORIENTATION and CURRICULUM are selected because the paragraph focuses on textbook ownership as part of educational orientation and curriculum development. Paragraph 11 (school libraries/reference books) is complemental as it expands on library resources related to personal collections. Paragraph 15 (textbook development) is supporting as it aligns with the core idea of textbook use and distribution.",
         "matched_pars": {
           "11": [
@@ -263,7 +281,7 @@
         "tags": [
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on disinfecting school materials (particularly textbooks) during redistribution, which relates to curriculum implementation (CUR_IMPL) as it involves the practical distribution and handling of educational resources. No other paragraphs directly address disinfection or material handling, so no meaningful relations are identified.",
         "matched_pars": {},
         "para_en": "4) Considers that in cases where individual school materials are collected from students to be redistributed, particularly textbooks, they should undergo effective disinfection;"
@@ -275,7 +293,7 @@
           "CUR_CONTENT",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_CONTENT and PEDAG_OTHER are selected because the paragraph focuses on curriculum-related resources (reference books, educational materials) and pedagogical strategies for enhancing school libraries. Relations: Para 15 (complemental, 0.9) discusses textbook publishing and resource collection, directly related to the target's focus on educational materials. Para 16 (complemental, 0.7) addresses international educational media, aligning with the target's mention of international publishing. Para 13 (complemental, 0.6) touches on funding for educational materials, indirectly supporting the target's cost-examination context.",
         "matched_pars": {
           "15": [
@@ -296,7 +314,7 @@
         "tags": [
           "POP_RUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph addresses free transportation for students in remote areas (POP_RUR). Paragraph 13 discusses subsidies for educational materials, which is a related financial support mechanism for education. While distinct, both address resource allocation for educational access, making them complemental with moderate confidence.",
         "matched_pars": {
           "13": [
@@ -312,7 +330,7 @@
           "POL_FIN",
           "POL_GOV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_FIN (Financing and resource mobilization) and POL_GOV (Governance and planning) are selected because the paragraph discusses state subsidies to authorities for distributing educational materials (financing) and the role of regional/local authorities in resource allocation (governance). Paragraph 16 is related as it addresses cost reduction through international cooperation, complementing the target paragraph's focus on reducing distribution costs via subsidies. The complemental relation is supported by both paragraphs addressing cost management in education, though through different mechanisms.",
         "matched_pars": {
           "16": [
@@ -328,7 +346,7 @@
           "M_NFORM",
           "ACT_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_NFORM (Non-formal education) applies because the paragraph discusses extracurricular institutions supporting schools, which aligns with non-formal education initiatives. ACT_OTHER (Other stakeholders) is relevant as it refers to public/private institutions and citizens' involvement. Paragraph 15 (textbooks/resources) and 16 (audiovisual materials) are complemental as they address educational resources and materials, which relate to supporting schools mentioned in the target paragraph.",
         "matched_pars": {
           "15": [
@@ -346,7 +364,7 @@
         "tags": [
           "INFRA_TLM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses cost-effective production of educational materials (textbooks, brochures, school supplies) and resource utilization, aligning with INFRA_TLM (Infrastructure & resources | Teaching and learning materials). Paragraph 16 addresses cost reduction for audiovisual materials through international agreements, complementing the target paragraph's focus on economical educational resource production.",
         "matched_pars": {
           "16": [
@@ -363,7 +381,7 @@
           "F_ARTS",
           "INFRA_TLM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses international cooperation (POL_INTCOOP) through agreements between countries, references educational films and audiovisual materials (F_ARTS), and addresses teaching/learning materials circulation and cost reduction (INFRA_TLM). No related paragraphs exist in the allowed set.",
         "matched_pars": {},
         "para_en": "10) Expresses the wish that an agreement may be established between countries to increase the production of educational films and other audiovisual materials and to facilitate both their acquisition and free circulation from one country to another, in order to reduce their cost price. — 132"

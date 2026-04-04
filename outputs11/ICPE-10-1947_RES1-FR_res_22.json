@@ -6,9 +6,32 @@
     "structure": {
       "doc_title": "ICPE-10-1947_RES1-FR",
       "nb_paras": 21,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "operative_para": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +43,7 @@
           "M_FORM",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags M_FORM (Formal education) and CUR_IMPL (Curriculum implementation) are selected because the paragraph discusses a formal education conference adopting curriculum-related recommendations. Related paragraphs provide supporting details (2,3), complemental context (5,17), and modifying specifics (7,21) about physical education implementation.",
         "matched_pars": {
           "2": [
@@ -51,7 +74,7 @@
           "F_PE",
           "ISC_99"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags F_PE and ISC_99 are selected because the paragraph explicitly mentions physical education (F_PE) and its role across all education levels (ISC_99). Related paragraphs 3, 4, 6, 8, and 11 are connected through supporting (4, 8), modifying (6, 11), or complemental (3) relationships, as they expand on the importance, implementation, and specific aspects of physical education.",
         "matched_pars": {
           "3": [
@@ -79,7 +102,7 @@
           "F_PE",
           "POP_YOUTH"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags F_PE (Physical education and health) and POP_YOUTH (Youth and adolescents) are selected because the paragraph emphasizes physical training for adolescents as part of comprehensive education. Related paragraphs: 4 (complemental: expands on PE's moral/social value), 10 (modifying: specifies exemptions for health reasons), 11 (supporting: reinforces need for PE time allocation), 14 (complemental: adds infrastructure requirements), 17 (complemental: mentions external youth organizations supporting PE).",
         "matched_pars": {
           "4": [
@@ -106,7 +129,7 @@
         "tags": [
           "F_PE"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag F_PE is selected because the paragraph explicitly discusses physical education's role in human development. Paragraph 8 is complemental as it directly addresses research on the value of physical education (including moral/social aspects) mentioned in the target paragraph, reinforcing the importance of studying its curricula and methods.",
         "matched_pars": {
           "8": [
@@ -122,7 +145,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph (para 5) introduces a policy recommendation to ministries, aligning with POL_OTH (Policy theme). It also relates to education system reforms, supporting SYST_OTHER (Education system monitoring & evaluation). All subsequent paragraphs (6-10, 17, 20, 21) are specific recommendations under this policy, making them complemental with high confidence.",
         "matched_pars": {
           "6": [
@@ -153,7 +176,7 @@
           "F_PE",
           "ISC_23"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE (subject domain) and ISC_23 (secondary education) are directly supported by the text. Related paragraphs address curriculum development (7), research (8), medical supervision (9), teacher adaptation (13), teacher qualifications (18), and teacher status (19), all of which are semantically connected to implementing mandatory physical education.",
         "matched_pars": {
           "7": [
@@ -185,7 +208,7 @@
           "CUR_IMPL",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE (physical education domain), CUR_IMPL (curriculum implementation), and POL_CUR (curriculum policy) are selected because the paragraph emphasizes collaboration in curriculum development. Related paragraphs discuss complementary aspects like medical supervision (9), adapted instruction for health issues (10), teacher autonomy (8), insurance (15), and youth organizations (17), all of which align with curriculum implementation and policy themes.",
         "matched_pars": {
           "8": [
@@ -216,7 +239,7 @@
           "F_PE",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and PEDAG_METHO are selected because the paragraph focuses on physical education (F_PE) and teaching methods/adaptation (PEDAG_METHO). Para 20 (professional development) supports teacher autonomy (confidence 0.9). Para 17 (youth organizations) complements school-based PE efforts (confidence 0.7). Para 11 (curriculum time allocation) provides related context about PE implementation (confidence 0.6).",
         "matched_pars": {
           "20": [
@@ -238,7 +261,7 @@
           "F_PE",
           "ISC_3"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and ISC_3 are selected because the paragraph focuses on medical supervision in physical education (F_PE) and specifically mentions secondary school students (ISC_3). Paragraph 10 (medical gymnastics for exempt students) and 15 (insurance for PE risks) directly complement the medical supervision theme. Paragraph 17 (youth organizations complementing PE) is related but less directly, hence moderate confidence.",
         "matched_pars": {
           "10": [
@@ -260,7 +283,7 @@
           "F_PE",
           "POP_DISAB"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and POP_DISAB are selected because the paragraph focuses on physical education adaptations for students with disabilities. Para 13 provides supporting context by allowing teachers to adapt programs to student abilities, aligning with the need for corrective exercises. Para 12 offers complemental health-related scheduling guidance, while para 17 adds complemental information about external youth organizations supporting physical education.",
         "matched_pars": {
           "13": [
@@ -282,7 +305,7 @@
           "F_PE",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and CUR_ORG are selected because the paragraph focuses on physical education (F_PE) and the organization of instructional time (CUR_ORG). Related paragraphs provide complementary information: 12 (scheduling health considerations), 13 (teacher adaptability), 14 (infrastructure needs), 16 (sports competition guidelines), and 17 (external youth organizations supporting PE).",
         "matched_pars": {
           "12": [
@@ -309,7 +332,7 @@
         "tags": [
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses scheduling lessons to avoid harmful effects on students' health, which falls under pedagogy and assessment (PEDAG_OTHER). No other paragraphs directly address scheduling, health impacts, or related pedagogical considerations.",
         "matched_pars": {},
         "para_en": "7) Care should be taken to avoid scheduling lessons at times when they might have a harmful effect on the health of the pupils, such as too close to meal times, during periods of excessive heat, etc.;"
@@ -321,7 +344,7 @@
           "F_PE",
           "T_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and T_STAT are selected because the paragraph focuses on physical education (F_PE) and teachers' rights to adapt their methods (T_STAT). Related paragraphs: 14 (complemental - facilities support teaching environment), 15 (supporting - insurance reinforces teacher protections), 17 (complemental - youth organizations enhance PE programs), 18 (modifying - qualifications refine teacher roles), 19 (supporting - equal status aligns with teacher rights).",
         "matched_pars": {
           "14": [
@@ -349,7 +372,7 @@
           "F_PE",
           "INFRA_BUILD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and INFRA_BUILD are selected because the paragraph focuses on physical education infrastructure (F_PE) and school facilities (INFRA_BUILD). Paragraph 17 (youth organizations complementing PE) is complemental as it expands on external support for physical education. Paragraph 20 (teacher professional development) is complemental as it addresses broader PE implementation. Paragraph 21 (specialist inspection) is complemental as it ensures facilities meet standards, aligning with hygiene requirements in the target paragraph.",
         "matched_pars": {
           "17": [
@@ -371,7 +394,7 @@
           "F_PE",
           "T_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses compulsory insurance for physical education teachers, linking to F_PE (subject domain) and T_STAT (teachers' legal status). Paragraph 19 directly addresses equal treatment and status for PE teachers, complementing the insurance requirement as part of their legal rights and responsibilities.",
         "matched_pars": {
           "19": [
@@ -387,7 +410,7 @@
           "F_PE",
           "POL_CUR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE and POL_CUR are selected because the paragraph focuses on physical education (F_PE) and curriculum/policy frameworks for teaching methods (POL_CUR). Para 18 (modifying) addresses teacher qualifications, which indirectly influence how competitions are structured to promote teamwork. Para 21 (supporting) ensures inspections by specialists align with the goal of maintaining fair play in competitions.",
         "matched_pars": {
           "18": [
@@ -406,7 +429,7 @@
           "F_PE",
           "POP_YOUTH"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE is selected because the paragraph focuses on physical education complementation. POP_YOUTH is selected due to mention of youth organizations. Para 18 (teacher specialization) is complemental as it addresses PE quality alongside youth organization roles. Para 21 (specialist inspection) is supporting as it reinforces standards for PE programs that youth organizations might complement.",
         "matched_pars": {
           "18": [
@@ -427,7 +450,7 @@
           "T_QUAL",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_PE (physical education context), T_OTHER (teachers in general), T_QUAL (qualification requirements), and PEDAG_OTHER (pedagogical knowledge) are selected. Paragraph 19 (equal status) complements the target's training equivalence (confidence 0.9). Paragraph 21 (specialist inspections) modifies the target's specialist requirement (confidence 0.9). Paragraph 20 (professional development) adds related info about ongoing training (confidence 0.7).",
         "matched_pars": {
           "19": [
@@ -449,7 +472,7 @@
           "T_STAT",
           "F_PE"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_STAT (Legal status and rights) and F_PE (Physical education and health) are selected because the paragraph explicitly addresses equal treatment/status for physical education teachers (T_STAT) and specifies the subject domain (F_PE). Paragraph 20 is complemental as it expands on professional development opportunities for physical education teachers, which relates to their training and career progression (aligned with the 'equivalent training' mention in the target paragraph). Confidence is 0.7 as the connection is clear but not directly overlapping in focus.",
         "matched_pars": {
           "20": [
@@ -465,7 +488,7 @@
           "T_PDEV",
           "F_PE"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development for teachers) and F_PE (Physical education domain) are selected because the paragraph explicitly discusses opportunities for teacher development in physical education. The relation to paragraph 21 is complemental (confidence 0.6) as both address physical education but focus on different aspects: professional development (para 20) vs. inspection by specialists (para 21).",
         "matched_pars": {
           "21": [
@@ -481,7 +504,7 @@
           "F_PE",
           "SYST_INST"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses physical education (F_PE) and institutional inspection (SYST_INST). No related paragraphs are provided in allowed_paragraph_ids.",
         "matched_pars": {},
         "para_en": "16) The inspection of physical education should be entrusted to specialists in this field."
