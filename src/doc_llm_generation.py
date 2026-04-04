@@ -89,15 +89,16 @@ def build_structure_prompt(doc):
     
     Preambular paragraphs:
     - Provide context, justification, background
-    - Often begin with: "Considérant", "Rappelant", "Reconnaissant", "Notant", "Soulignant"
+    - May begin with: "Considérant", "Rappelant", "Reconnaissant", "Notant", "Soulignant"
     - Often end with commas
     - Do NOT contain actions
     
     Operative paragraphs:
     - Contain actions, recommendations, or directives
     - May include verbs like: "Décide", "Demande", "Encourage"
-    - May be structured or directive
+    - May be structured, numbered and action-oriented
     
+        
     IMPORTANT:
     - The document may NOT be ordered
     - You MUST rely on linguistic/discourse cues
