@@ -48,6 +48,8 @@ def build_structure_prompt(doc):
     - The document may NOT be ordered
     - You MUST rely on linguistic/discourse cues
     - You MUST produce ONE GLOBAL reasoning
+    - Numbered paragraphs (1., I., II.) → operative
+    - After first operative → all following are operative
     
     RETURN STRICT JSON:
     
@@ -284,16 +286,16 @@ def run_structure_self_consistency(
     # -------------------------------------
     if self_consistency:
 
-        for _ in range(max_retries):
+        for attempt in range(max_retries):
             try:
                 think1, content1 = run_qwen_generation(
                     model, tokenizer, prompt,
-                    temperature=0.05, top_p=0.9
+                    temperature=0.1, top_p=0.9
                     )
 
                 think2, content2 = run_qwen_generation(
                     model, tokenizer, prompt,
-                    temperature=0.1, top_p=0.9
+                    temperature=0.15, top_p=0.9
                     )
 
                 out1 = parse_output_safe(content1)
@@ -306,14 +308,22 @@ def run_structure_self_consistency(
 
                 return validate_output(merged, doc)
 
-            except Exception:
+
+            except Exception as e:
+
+                print(f"[ERROR] Attempt failed: {str(e)}")
+
+                if attempt > 0:
+                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage."
+
+
                 continue
 
     # -------------------------------------
     # SINGLE RUN MODE
     # -------------------------------------
     else:
-        for _ in range(max_retries):
+        for attempt in range(max_retries):
             try:
                 think, content = run_qwen_generation(
                     model, tokenizer, prompt,
@@ -325,7 +335,13 @@ def run_structure_self_consistency(
 
                 return validate_output(out, doc)
 
-            except Exception:
+            except Exception as e:
+
+                print(f"[ERROR] Attempt failed: {str(e)}")
+
+                if attempt > 0:
+                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage."
+
                 continue
 
     # -------------------------------------
