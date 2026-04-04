@@ -1,0 +1,1314 @@
+{
+  "TEXT_ID": "ICPE-17-1954_RES1-FR_res_39",
+  "RECOMMENDATION": 39,
+  "TITLE": "LA SITUATION DU PERSONNEL ENSEIGNANT SECONDAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-17-1954_RES1-FR",
+      "nb_paras": 52,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "operative_para": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le cinq juillet mil neuf cent cinquante-quatre, adopte le treize juillet mil neuf cent cinquante-quatre la recommandation suivante : La Conférence,",
+        "tags": [
+          "O_G",
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "Tags O_G (Education orientation | General (academic)) and M_FORM (Learning modality | Formal education) are selected because the paragraph discusses an international conference on public education (general academic orientation) and focuses on formal education settings like secondary schools. Related paragraphs 2,3,7,9,11,50 address teacher rights (2), staff conditions (3), training (7), recommendation submission (9), and implementation guidelines (11,50), which are all contextually connected to the conference's recommendation.",
+        "matched_pars": {
+          "2": [
+            "complemental"
+          ],
+          "3": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "11": [
+            "modifying"
+          ],
+          "50": [
+            "modifying"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 5, 1954, adopts on July 13, 1954, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant, d'une part, qu'en dehors de ses fonctions et sans distinction de sexe, de race, de couleur, de religion, d'opinion ou de croyances personnelles, le maître de l'enseignement secondaire doit jouir, comme tout éducateur, du libre exercice de ses droits civiques, conformément à la Déclaration universelle des droits de l'homme, mais que, d'autre part, sa mission d'éducateur lui impose des devoirs à l'égard des élèves dont il doit respecter la conscience et la personnalité, comme à l'égard des familles qui lui confient leurs enfants, et que cette responsabilité lui crée des obligations vis-à-vis de la communauté qu'il est appelé à servir,",
+        "tags": [
+          "T_STAT",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags T_STAT and ACT_EDUC are selected because the paragraph emphasizes teachers' legal rights (T_STAT) and their role as educators (ACT_EDUC). Related paragraphs address working conditions (3), community responsibility (4), civil rights (14), economic conditions (31), regulatory authority (15), and non-discrimination (21). Relations are determined by semantic alignment: complemental (adds related context), supporting (reinforces rights), modifying (adds conditions), and confidence scores reflect textual clarity.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "31": [
+            "modifying"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering, on the one hand, that apart from his duties and without distinction of sex, race, color, religion, opinion, or personal beliefs, the secondary school teacher must enjoy, like any educator, the free exercise of his civil rights, in accordance with the Universal Declaration of Human Rights, but that, on the other hand, his mission as an educator imposes duties towards the students whose conscience and personality he must respect, as well as towards the families who entrust their children to him, and that this responsibility creates obligations towards the community he is called upon to serve,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que la situation du corps enseignant, pris dans son ensemble, dépend pour une bonne part de son unité intrinsèque, des bonnes relations qu'il entretient avec les autorités scolaires, de la mesure dans laquelle ses membres sont consultés pour les questions ayant trait à leurs conditions de travail, à la qualité et la matière de leur enseignement, ainsi que de la liberté qui leur est laissée en ce qui concerne leurs convictions personnelles étant entendu que cette liberté ne saurait leur conférer le droit d'imposer ces convictions à leurs élèves, ce qui irait à l'encontre du droit des enfants et de leurs parents,",
+        "tags": [
+          "T_STAT",
+          "T_COND",
+          "F_REL",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags T_STAT (legal status/rights) and T_COND (working conditions) directly address the paragraph's focus on teachers' rights, consultation on working conditions, and freedom. F_REL (religion/moral education) applies due to the mention of personal beliefs and their impact on students. ACT_EDUC (teachers/educators) reflects the stakeholder focus on teaching staff. Related paragraphs provide complemental/supporting information on teacher roles, working conditions, rights, and economic aspects.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the situation of the teaching staff, taken as a whole, largely depends on its intrinsic unity, the good relations it maintains with the educational authorities, the extent to which its members are consulted on matters relating to their working conditions, the quality and content of their teaching, as well as the freedom allowed to them regarding their personal beliefs, it being understood that this freedom does not confer upon them the right to impose these beliefs on their students, as this would contravene the rights of the children and their parents,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que le maître de l'enseignement secondaire, tout comme l'ensemble du corps enseignant, contribue au prestige de la profession par la qualité de son apport spirituel et intellectuel à la vie nationale en prenant, en tant que citoyen, sa part de responsabilités dans la vie sociale de la collectivité et en manifestant, à l'égard des élèves qui lui sont confiés, le dévouement dont il fait preuve en dehors du service, aussi bien que dans son enseignement,",
+        "tags": [
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "The paragraph emphasizes teachers' roles in society, their responsibilities, and dedication, aligning with ACT_EDUC (Teachers and educators). Relations are identified based on semantic connections: para 5 (complemental: working conditions for teacher recruitment), para 6 (supporting: teacher quality importance), para 8 (complemental: professional development), para 14 (complemental: civil rights), para 31 (modifying: economic constraints on external work), and para 50 (complemental: social welfare participation).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "31": [
+            "modifying"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the secondary school teacher, like the entire teaching staff, contributes to the prestige of the profession through the quality of their spiritual and intellectual contribution to national life by assuming, as a citizen, their share of responsibilities in the social life of the community and by demonstrating, towards the students entrusted to them, the dedication they show outside of their official duties as well as in their teaching,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que de bonnes conditions de service sont nécessaires pour attirer vers l'enseignement des jeunes gens et des jeunes filles particulièrement doués, en nombre suffisant pour satisfaire aux aspirations et aux besoins croissants du monde moderne en matière d'éducation secondaire,",
+        "tags": [
+          "T_COND",
+          "POP_YOUTH"
+        ],
+        "type": "preambular",
+        "think": "Tags T_COND (Working conditions) and POP_YOUTH (Youth) are selected because the paragraph emphasizes attracting gifted youth to teaching through good working conditions. Relations: Para 6 (supporting) reinforces the importance of teacher quality; Para 7 (modifying) links working conditions to professional training; Para 8 (supporting) expands on maintaining teacher competence; Para 51 (complemental) addresses recruitment diversity.",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "modifying"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that good working conditions are necessary to attract sufficiently gifted young men and women to the teaching profession in order to meet the growing aspirations and needs of the modern world in the field of secondary education,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que, l'avenir de la pensée et de la culture dépendant pour une bonne part de la qualité des maîtres de l'enseignement secondaire, — 139 — il importe de tout mettre en œuvre pour assurer cette qualité à la fois au départ et dans le cours de leur carrière,",
+        "tags": [
+          "T_INI",
+          "T_PDEV",
+          "POL_QUAL"
+        ],
+        "type": "preambular",
+        "think": "Tags T_INI (initial education/training) and T_PDEV (professional development) directly align with the paragraph's focus on ensuring teacher quality at the outset and throughout careers. POL_QUAL (quality and learning outcomes) reflects the policy emphasis on educational quality. Related paragraphs: 7 (complemental) links to initial training; 8 (supporting) reinforces professional development needs; 27 (complemental) adds details on professional development requirements.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "27": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the future of thought and culture depends to a large extent on the quality of secondary school teachers, it is essential to do everything possible to ensure this quality both at the outset and throughout their careers,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que la situation du personnel enseignant secondaire est étroitement liée à sa formation professionnelle, sujet dont il est traite dans la Recommandation n° 38 concernant la formation du personnel enseignant secondaire, adoptée par la Conférence en sa présente session,",
+        "tags": [
+          "T_PDEV",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags T_PDEV and ACT_EDUC are selected because the paragraph focuses on professional training (T_PDEV) and teachers/educators (ACT_EDUC). Related paragraphs address professional development (8), teacher participation in guidelines (11), appeals processes (19), remuneration (33), and social welfare regulations (50), all of which are complemental or supporting to the target paragraph's focus on teacher training and working conditions.",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the situation of secondary school teaching staff is closely linked to their professional training, a subject which is addressed in Recommendation No. 38 concerning the training of secondary school teaching staff, adopted by the Conference at its present session,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant que les autorités scolaires se doivent d'offrir aux maîtres de l'enseignement secondaire tous les moyens qui leur permettront de se tenir au courant de l'évolution incessante de la matière propre aux diverses disciplines et des méthodes adaptées à leur enseignement,",
+        "tags": [
+          "ACT_EDUC",
+          "T_PDEV"
+        ],
+        "type": "preambular",
+        "think": "Tags ACT_EDUC (teachers and educators) and T_PDEV (professional development) are selected because the paragraph emphasizes providing teachers with resources to stay updated on subject matter and methods, which aligns with professional development and stakeholder focus. Related paragraphs address legal frameworks (10), working conditions (11), responsibilities (23), and social welfare (50), which are connected to the target's focus on teacher support and conditions. Para 9's recommendation is a follow-up action, while others provide complementary context.",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that educational authorities are obliged to provide secondary school teachers with all the means necessary to keep abreast of the continuous developments in the subject matter of the various disciplines and the methods appropriate to their teaching,"
+      },
+      {
+        "para_number": 9,
+        "para": "Soumet aux Ministères de l'instruction publique des divers pays la recommandation suivante :",
+        "tags": [
+          "POL_OTH",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph describes submitting recommendations to education ministries, which is a policy action. The related paragraphs (10-51) are all specific recommendations about secondary education teachers' rights, working conditions, and system-level issues, making them complemental as they expand on the policy framework established in para 9.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits the following recommendation to the Ministries of Public Education of the various countries:"
+      },
+      {
+        "para_number": 10,
+        "para": "1. Le statut administratif des maîtres de l'enseignement public du second degré doit être régi par la loi et par des règlements ;",
+        "tags": [
+          "T_STAT",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT and LAW_REG are selected because the paragraph explicitly discusses the legal status of teachers (T_STAT) and regulations governing their administrative status (LAW_REG). Related paragraphs address teacher representation in regulations (11, 50), equal treatment (12), enforcement of regulations (15), appeal rights (18), and delegate involvement in appeals (19). These paragraphs complement or support the target's focus on legal frameworks and teacher rights.",
+        "matched_pars": {
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "supporting"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "1. The administrative status of public secondary education teachers must be governed by law and regulations;"
+      },
+      {
+        "para_number": 11,
+        "para": "2. Des délégués autorisés des maîtres de l'enseignement secondaire doivent être appelés à participer à l'élaboration des directives concernant les conditions de travail dans cet enseignement ;",
+        "tags": [
+          "T_COND",
+          "ISC_23",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions) and ISC_23 (secondary education) are explicitly mentioned. ACT_EDUC (teachers/educators) is implied by the focus on secondary teachers. Related paragraphs discuss complementary aspects like legal status (12), job security (13), civil rights (14), appeal rights (18), and delegate roles (19/50).",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. Authorized delegates of secondary education teachers must be invited to participate in the development of guidelines concerning working conditions in this sector."
+      },
+      {
+        "para_number": 12,
+        "para": "3. En matière de statut administratif et professionnel, aucun membre du personnel enseignant secondaire, qu'il soit fonctionnaire ou non, ne saurait être placé en situation d'infériorité par rapport aux autres catégories de fonctionnaires ou d'employés dont les titres, la formation et les responsabilités sont de même niveau ;",
+        "tags": [
+          "T_STAT",
+          "T_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT (Legal status and rights) and T_QUAL (Qualification and certification) are selected because the paragraph emphasizes non-discrimination based on qualifications and legal status. Related paragraphs address job security (13), equal pay (33), gender equality (21), civil rights (14), regulatory enforcement (15), and appeal rights (18), all of which complement or support the core themes of legal status and qualification-based equality.",
+        "matched_pars": {
+          "13": [
+            "supporting"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. In terms of administrative and professional status, no member of the secondary teaching staff, whether a civil servant or not, shall be placed at a disadvantage compared to other categories of civil servants or employees whose qualifications, training, and responsibilities are of the same level;"
+      },
+      {
+        "para_number": 13,
+        "para": "4. Le maximum de sécurité d'emploi doit être garanti aux membres du personnel enseignant secondaire; là où le principe de l'engagement à vie ne semblerait pas pouvoir être appliqué, l'engagement proposé devrait porter sur une période de longue durée, avec possibilité de renouvellement;",
+        "tags": [
+          "T_COND",
+          "POL_TEACH"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND and POL_TEACH are selected because the paragraph focuses on job security (working conditions) and workforce policies for teachers. Related paragraphs address complementary aspects like civil rights (14), regulatory enforcement (15), paid leave (30), social security (44), survivor benefits (49), and social welfare participation (50), all tied to teacher employment policies.",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "4. The maximum job security must be guaranteed to members of the secondary teaching staff; where the principle of lifelong employment does not appear to be applicable, the proposed engagement should be for a long-term period, with the possibility of renewal;"
+      },
+      {
+        "para_number": 14,
+        "para": "5. Il convient que les maîtres de l'enseignement secondaire jouissent librement de tous les droits civiques et notamment que leur soit reconnu le droit de s'associer dans des organisations professionnelles de leur choix, qualifiées pour les représenter ;",
+        "tags": [
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "The target paragraph (para 14) focuses on teachers' civil rights, particularly their right to associate in qualified professional organizations (T_STAT). Para 15 supports this by emphasizing enforcement of rights without external pressure. Para 19 supports by linking authorized delegates (related to professional organizations) to appeal processes. Para 50 is complemental as it expands on representation in social welfare regulations, which aligns with the professional organization theme.",
+        "matched_pars": {
+          "15": [
+            "supporting"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. Secondary school teachers should freely enjoy all civil rights, and in particular, be recognized the right to associate in professional organizations of their choice, qualified to represent them;"
+      },
+      {
+        "para_number": 15,
+        "para": "6. Les instances dûment constituées ont qualité pour appliquer les règlements concernant les droits et les devoirs du personnel enseignant secondaire, et ce en dehors de toute pression extérieure, quelle qu'en soit la nature ;",
+        "tags": [
+          "T_STAT",
+          "LAW_REG",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT (legal status/rights) and LAW_REG (education laws) are directly supported by the mention of regulations and enforcement authority. ISC_23 (secondary education) is explicitly referenced. Related paragraphs discuss complementary aspects like appeal processes (16,17), body composition (19), social welfare participation (50), appointment procedures (20), and non-discrimination (21), all tied to secondary education contexts.",
+        "matched_pars": {
+          "16": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "20": [
+            "modifying"
+          ],
+          "21": [
+            "complemental"
+          ]
+        },
+        "para_en": "Duly constituted bodies have the authority to enforce regulations concerning the rights and duties of secondary teaching staff, free from any external pressure, regardless of its nature."
+      },
+      {
+        "para_number": 16,
+        "para": "7. Tout membre du personnel enseignant secondaire doit être mis au courant des notes et appréciations officielles émises à son sujet; celles-ci doivent être communiquées exclusivement à l'intéressé et à ses supérieurs directs et, en cas de jugement défavorable, l'intéressé doit avoir le droit de réclamer une appréciation impartiale ;",
+        "tags": [
+          "T_EVAL",
+          "T_STAT",
+          "PEDAG_ASSESS"
+        ],
+        "type": "operative",
+        "think": "Tags T_EVAL (evaluation process), T_STAT (right to appeal), and PEDAG_ASSESS (feedback mechanisms) are selected. Paragraph 17 complements the appeal right mentioned in the target paragraph. Paragraph 18 directly references the right of appeal for teachers, aligning with the target's mention of requesting impartial assessment. Paragraph 19 modifies the process by specifying involvement of authorized delegates in appeal bodies.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "modifying"
+          ]
+        },
+        "para_en": "7. Every member of the secondary teaching staff must be informed of the official notes and evaluations issued concerning them; these must be communicated exclusively to the individual concerned and their direct superiors, and, in the case of an unfavorable judgment, the individual must have the right to request an impartial assessment."
+      },
+      {
+        "para_number": 17,
+        "para": "8. En cas de faute professionnelle, les sanctions réglementaires doivent être appliquées en toute objectivité, l'intéressé gardant le droit de faire appel aux instances dûment constituées s'il estime injustifiée la mesure dont il est l'objet ; 140 —",
+        "tags": [
+          "LAW_RIGHTS",
+          "LAW_IMPLEM"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_RIGHTS applies because the paragraph discusses rights to appeal and regulatory fairness. LAW_IMPLEM applies due to focus on policy enforcement (sanctions) and procedural objectivity. Related paragraphs: 18 (complemental - expands appeal rights to secondary staff), 19 (supporting - details appeal body composition), 20 (modifying - adds context about appointment objectivity).",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "20": [
+            "modifying"
+          ]
+        },
+        "para_en": "8. In the event of professional misconduct, regulatory sanctions must be applied with complete objectivity, the individual retaining the right to appeal to the duly constituted bodies if they consider the measure taken against them unjustified; 140 —"
+      },
+      {
+        "para_number": 18,
+        "para": "9. Ce droit de recours doit également être reconnu à tout membre du personnel enseignant secondaire qui s'estimerait lésé par l'application, à son égard, des mesures administratives prévues par la loi ou par les règlements ;",
+        "tags": [
+          "T_STAT",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT (Teachers | Legal status and rights) and LAW_REG (Legal frameworks | Education laws and regulations) are selected because the paragraph explicitly discusses the legal right of appeal for teachers under administrative measures governed by law/regulations. Paragraph 19 is complemental with high confidence as it expands on the appeal process by specifying that authorized delegates must participate in examining appeals, directly relating to the right of appeal mentioned in paragraph 18.",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. This right of appeal must also be recognized for any member of the secondary teaching staff who considers themselves aggrieved by the application, to their detriment, of administrative measures provided for by law or regulations;"
+      },
+      {
+        "para_number": 19,
+        "para": "10. En principe, des délégués autorisés du personnel enseignant secondaire doivent faire partie des instances chargées d'examiner les recours que des maîtres de l'enseignement secondaire pourraient intenter contre les décisions prises, à leur égard, par les autorités scolaires.",
+        "tags": [
+          "T_STAT",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT (Legal status and rights) and ACT_EDUC (Teachers and educators) are selected because the paragraph emphasizes teachers' rights to participate in appeal review bodies (legal status) and their role as stakeholders. Paragraph 28 (reducing teaching hours to allow participation in advisory committees) is complemental as it shares the theme of teacher involvement in decision-making. Paragraph 50 (authorized representatives in social welfare regulations) is complemental as it aligns with the broader theme of teacher participation in institutional processes.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. In principle, authorized delegates of the secondary teaching staff should be part of the bodies responsible for examining appeals that secondary school teachers may lodge against decisions taken concerning them by the educational authorities."
+      },
+      {
+        "para_number": 20,
+        "para": "11. Les procédures de nomination des membres du personnel enseignant secondaire doivent être aussi simples que possible, et offrir toutes garanties d'objectivité; elles doivent tenir compte, entre autres, des titres des candidats et de leurs aptitudes, le minimum des titres requis devant être fixé par la loi ;",
+        "tags": [
+          "T_RECR",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags T_RECR and LAW_REG are selected because the paragraph focuses on recruitment procedures (T_RECR) and legal requirements for qualifications (LAW_REG). Related paragraphs 21/22 address non-discriminatory hiring practices (complemental), 24 discusses promotion criteria (complemental), and 51 covers qualification requirements for foreign teachers (complemental). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "The appointment procedures for members of the secondary teaching staff must be as simple as possible and provide all guarantees of objectivity; they must take into account, among other things, the qualifications of the candidates and their aptitudes, with the minimum required qualifications to be established by law;"
+      },
+      {
+        "para_number": 21,
+        "para": "12. En pourvoyant les postes pour lesquels maîtres et maîtresses de l'enseignement secondaire possèdent des titres égaux et répondent également aux conditions requises, il convient d'éviter toute discrimination entre les sexes ;",
+        "tags": [
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on avoiding gender discrimination in teacher recruitment (T_RECR). Paragraph 22 addresses non-discrimination based on race/religion (complemental). Paragraph 38 discusses pay equity (complemental as related to gender equality). Paragraph 51 involves recruitment of foreign teachers (complemental under recruitment practices).",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "12. When filling positions for which secondary school teachers possess equal qualifications and meet the required conditions equally, any discrimination based on gender should be avoided;"
+      },
+      {
+        "para_number": 22,
+        "para": "13. En pourvoyant les postes, il faut prendre soin qu'aucune distinction injustifiée ne soit établie entre les candidats en raison de la race, de la religion, de la couleur ou de la nationalité des intéressés ;",
+        "tags": [
+          "POL_INCL",
+          "POL_EQUIT"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INCL (Inclusion and diversity) and POL_EQUIT (Access and equity) are selected because the paragraph explicitly prohibits discrimination based on race, religion, color, and nationality, which aligns with inclusion principles and equity in employment. Related paragraphs: 24 (complemental - merit-based promotion aligns with non-discrimination principles), 39 (complemental - salary equity complements anti-discrimination), 51 (supporting - equal treatment for foreign teachers directly supports the principle), and 52 (complemental - regional inclusion complements broader equity goals).",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "51": [
+            "supporting"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "13. In filling positions, care must be taken to ensure that no unjustified distinction is made between candidates on the grounds of race, religion, color, or nationality."
+      },
+      {
+        "para_number": 23,
+        "para": "14. Du fait qu'ils possèdent les titres et l'expérience nécessaires, les maitres de l'enseignement secondaire doivent pouvoir assumer toutes les responsabilités relatives à leur enseignement, de la base au sommet de la hiérarchie administrative et ministérielle ;",
+        "tags": [
+          "T_QUAL",
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "Tags T_QUAL (qualification emphasis on qualifications/experience) and ISC_99 (secondary education level) are selected. Paragraph 24 is directly related as it reinforces the importance of qualifications in promotion procedures, aligning with the target's focus on qualifications and responsibilities.",
+        "matched_pars": {
+          "24": [
+            "supporting"
+          ]
+        },
+        "para_en": "14. Because they possess the necessary qualifications and experience, secondary school teachers must be able to assume all responsibilities related to their teaching, from the base to the top of the administrative and ministerial hierarchy;"
+      },
+      {
+        "para_number": 24,
+        "para": "15. En matière d'avancement, toutes mesures doivent être prises pour que les autorités responsables appliquent une procédure clairement définie qui tienne compte uniquement des aptitudes, des titres et des états de service ;",
+        "tags": [
+          "LAW_IMPLEM",
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_IMPLEM (Policy implementation and enforcement) and POL_GOV (Governance and planning) are selected because the paragraph emphasizes clear procedures for promotion (implementation) and the role of responsible authorities (governance). Related paragraphs 25, 35, 36, and 37 address complementary aspects of career progression, probation, salary scales, and leadership roles, all tied to promotion frameworks.",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. With regard to promotion, all measures must be taken to ensure that the responsible authorities apply a clearly defined procedure that takes into account only qualifications, credentials, and records of service."
+      },
+      {
+        "para_number": 25,
+        "para": "16. Lorsqu'une période probatoire doit précéder la titularisation, il convient de ne pas la prolonger indûment ;",
+        "tags": [
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses probationary periods for teachers, which directly relates to 'Teachers | Initial education and training' (T_INI). For relations, para 28 (reducing teaching hours after 20 years) and para 30 (paid leave after service years) address career progression and employment terms, complementing the target's focus on probationary periods. Both are part of broader employment frameworks for teachers, hence 'complemental' relations with moderate confidence.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. When a probationary period must precede tenure, it should not be unduly extended;"
+      },
+      {
+        "para_number": 26,
+        "para": "17. Dans les pays où le chômage sévit parmi les membres du personnel enseignant, il convient de prendre des mesures pour aider les maîtres à trouver une occupation en rapport avec leurs titres.",
+        "tags": [
+          "T_RECR",
+          "POL_TEACH"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on addressing unemployment among teaching staff by assisting them in finding employment aligned with their qualifications, which directly relates to recruitment and hiring (T_RECR) and broader workforce policies (POL_TEACH). Paragraph 51 discusses admitting foreign teachers with equivalent qualifications, which falls under recruitment and workforce policies. While distinct in focus (domestic vs. foreign teachers), both address teacher employment policies, making them complemental under POL_TEACH.",
+        "matched_pars": {
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. In countries where unemployment affects teaching staff, measures should be taken to assist teachers in finding employment corresponding to their qualifications."
+      },
+      {
+        "para_number": 27,
+        "para": "18. En fixant l'horaire hebdomadaire de travail, il importe de tenir compte du fait que le maître de l'enseignement secondaire doit pouvoir préparer ses cours, corriger les devoirs, garder le contact avec les parents d'élèves et se perfectionner sur le plan tant professionnel que culturel ;",
+        "tags": [
+          "T_PDEV",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (professional development) and T_COND (working conditions) are selected because the paragraph emphasizes teachers' need for time to prepare lessons, maintain parent contact, and pursue development (T_PDEV), while also addressing work schedule requirements (T_COND). Related paragraphs discuss career progression (28), holidays (29), economic conditions (31), financial means (34), and salary scales (35), all of which complement the target paragraph's focus on teachers' working conditions and professional needs.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "18. When setting the weekly work schedule, it is important to take into account that the secondary school teacher must be able to prepare lessons, grade assignments, maintain contact with students’ parents, and pursue both professional and cultural development;"
+      },
+      {
+        "para_number": 28,
+        "para": "19. Après un nombre déterminé d'années d'exercice, vingt années par exemple, les heures de classe confiées au maître de l'enseignement secondaire — 141 devraient être réduites, sans que cela affecte son avancement; le maître pourrait alors participer à des activités telles que comités consultatifs, jurys de concours et examen, etc. ;",
+        "tags": [
+          "T_OTHER",
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (Teachers | Teacher other) apply because the paragraph focuses on working conditions and hours for secondary school teachers. ISC_99 (Education level | Multiple levels) is relevant as it pertains to secondary education. Paragraph 30 is related as it discusses paid leave after years of service, which complements the target paragraph's focus on service duration and work adjustments.",
+        "matched_pars": {
+          "30": [
+            "modifying"
+          ]
+        },
+        "para_en": "19. After a specified number of years of service, twenty years for example, the teaching hours assigned to the secondary school teacher should be reduced without affecting their advancement; the teacher could then participate in activities such as advisory committees, competition and examination panels, etc.;"
+      },
+      {
+        "para_number": 29,
+        "para": "20. La durée et la répartition des vacances et congés doivent tenir compte du temps de repos et de loisir dont maître et élèves ont également besoin ;",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The target paragraph discusses the need to consider rest and leisure time for teachers and students when determining holiday and leave duration, which falls under working conditions and salaries (T_COND). Paragraph 42 directly addresses payment during holidays, aligning with the target's focus on leave distribution. Paragraph 30 discusses paid leave after service years, which complements the target's broader discussion of leave duration. Paragraph 47 covers illness-related leave, which is a related but distinct aspect of leave policies, further supporting the target's context.",
+        "matched_pars": {
+          "42": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "20. The duration and distribution of holidays and leave must take into account the rest and leisure time that both teachers and students also require;"
+      },
+      {
+        "para_number": 30,
+        "para": "21. Lorsque la chose est compatible avec les besoins du service, le maître de l'enseignement secondaire devrait se voir accorder des congés payés de plusieurs mois après un certain nombre d'années d'exercice ;",
+        "tags": [
+          "T_COND",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and ISC_23 (Secondary education unspecified) are selected because the paragraph discusses paid leave policies for secondary teachers, which fall under working conditions and specifically relate to secondary education. Related paragraphs 31, 45, and 47 address different aspects of teacher benefits (pay, retirement, and illness leave) that align with the target paragraph's focus on service duration and leave policies. Complemental relations are assigned as these paragraphs provide related but distinct information within the same thematic context.",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. When compatible with the needs of the service, the secondary education teacher should be granted paid leave of several months after a certain number of years of service;"
+      },
+      {
+        "para_number": 31,
+        "para": "22. La situation économique qui est faite au maître de l'enseignement secondaire doit lui permettre de se consacrer entièrement à sa profession ; en dehors de ses fonctions d'enseignement, il ne saurait effectuer un travail rémunéré qui risque de porter atteinte au fonctionnement du service dont il a la charge et à l'autorité morale dont il doit jouir auprès de ses concitoyens et, en particulier, auprès des parents et des élèves ;",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph emphasizes economic conditions enabling full professional dedication (T_COND) and the legal authority teachers must uphold (T_STAT). Related paragraphs: 33 (supporting) discusses equal pay, aligning with the need for adequate remuneration to avoid secondary work; 42 (supporting) ensures full payment during holidays, reinforcing financial stability; 39 (complemental) addresses salary disparities, indirectly related to working conditions.",
+        "matched_pars": {
+          "33": [
+            "supporting"
+          ],
+          "42": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "22. The economic situation afforded to the secondary education teacher must enable them to devote themselves fully to their profession; outside of their teaching duties, they must not undertake paid work that could undermine the functioning of the service they are responsible for or the moral authority they must enjoy among their fellow citizens, and in particular, among parents and students."
+      },
+      {
+        "para_number": 32,
+        "para": "23. Le mariage ne devrait pas constituer un obstacle à l'engagement ou au maintien des femmes dans l'enseignement secondaire.",
+        "tags": [
+          "POP_WOM",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags POP_WOM (women in education) and ISC_23 (secondary education) are directly supported by the text. Para 34 (financial means for teachers) modifies the target's focus on marriage as an obstacle by addressing economic stability. Para 38 (equal pay for female teachers) is complemental as it addresses gender equity in education. Para 50 (social welfare participation) supports the target by implying policy involvement to address systemic barriers.",
+        "matched_pars": {
+          "34": [
+            "modifying"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "23. Marriage should not constitute an obstacle to the engagement or retention of women in secondary education."
+      },
+      {
+        "para_number": 33,
+        "para": "24. Les membres du personnel enseignant secondaire doivent recevoir une rétribution qui corresponde à l'importance de leur mission et soit au moins égale à celle des diverses catégories de fonctionnaires ou d'employés dont les titres, la formation et les responsabilités sont de même niveau ;",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "Tags: T_COND (Teachers | Working conditions and salaries) directly matches the paragraph's focus on remuneration standards. Relations: Para 34 (complemental) addresses financial means for teachers, Para 35 (supporting) elaborates on salary scales, Para 36 (modifying) adds conditions for higher pay, Para 38 (complemental) addresses gender pay equity, Para 39 (complemental) covers regional disparities, and Para 40 (modifying) specifies part-time pay structures.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ],
+          "36": [
+            "modifying"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "modifying"
+          ]
+        },
+        "para_en": "24. Secondary teaching staff must receive remuneration commensurate with the importance of their mission and at least equal to that of various categories of civil servants or employees whose titles, training, and responsibilities are of the same level;"
+      },
+      {
+        "para_number": 34,
+        "para": "25. Etant donné la haute valeur morale de la famille, les maitres de l'enseignement secondaire devraient jouir de moyens financiers assez larges pour pouvoir fonder et faire vivre un foyer ;",
+        "tags": [
+          "T_COND",
+          "F_REL"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and F_REL (Religion and moral education) are selected because the paragraph emphasizes financial means for household establishment (working conditions) and references the moral value of the family (religion/moral education). Related paragraphs: 35 (complemental - salary scales for standard of living), 36 (modifying - higher pay for advanced qualifications), 43 (complemental - housing allowances), and 50 (supporting - participation in welfare regulations).",
+        "matched_pars": {
+          "35": [
+            "complemental"
+          ],
+          "36": [
+            "modifying"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "25. In view of the high moral value of the family, secondary school teachers should enjoy sufficient financial means to be able to establish and maintain a household;"
+      },
+      {
+        "para_number": 35,
+        "para": "26. Les barèmes de traitements doivent être conçus d'une manière aussi simple que possible; ils doivent comporter un barème de base qui assure à tout maître de l'enseignement secondaire, qu'il se trouve à l'échelon inférieur ou à l'échelon supérieur, un niveau de vie 'en rapport avec les étapes correspondantes de sa carrière; le rythme d'avancement doit permettre d'atteindre l'échelon supérieur dans des délais assez courts;",
+        "tags": [
+          "T_COND",
+          "ISC_6"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Teachers | Working conditions and salaries) directly relate to salary scales and advancement discussed in the paragraph. ISC_6 (Education level | Bachelor or equivalent) is included as secondary education teachers typically require bachelor's-level qualifications. Related paragraphs address complementary aspects: 36 (higher pay for advanced qualifications), 37 (leadership roles), 39 (disparities), 40 (part-time pay), and 41 (substitute pay).",
+        "matched_pars": {
+          "36": [
+            "supporting"
+          ],
+          "37": [
+            "modifying"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ]
+        },
+        "para_en": "26. Salary scales must be designed to be as simple as possible; they must include a basic scale that guarantees every secondary school teacher, whether at the lower or upper level, a standard of living consistent with the corresponding stages of their career; the rate of advancement should allow reaching the upper level within a reasonably short time."
+      },
+      {
+        "para_number": 36,
+        "para": "27. Les maîtres qui possèdent des titres universitaires plus élevés ou une formation plus poussée, et ceux qui se voient confier des postes comportant des responsabilités spéciales, doivent autant que possible bénéficier d'une rétribution supérieure à celle du barème de base ;",
+        "tags": [
+          "T_COND",
+          "T_QUAL",
+          "ISC_7"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions/salaries) and T_QUAL (qualification) directly relate to the discussion of higher pay for qualified teachers. ISC_7 (master's level) matches 'higher university degrees'. Paragraph 37 (head of institution salary increments) complements the special responsibilities mentioned. Paragraph 39 (salary disparities in decentralized systems) complements the broader context of varying remuneration scales.",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. Teachers who hold higher university degrees or more advanced training, and those entrusted with positions involving special responsibilities, should, as far as possible, receive remuneration superior to that of the basic scale;"
+      },
+      {
+        "para_number": 37,
+        "para": "28. Les responsabilités inhérentes à la fonction de chef d'établissement doivent donner droit à une majoration du taux de rétribution ;",
+        "tags": [
+          "LAW_RIGHTS"
+        ],
+        "type": "operative",
+        "think": "The target paragraph (para 37) discusses remuneration increments for head of institution roles, directly relating to 'LAW_RIGHTS' (Legal frameworks | Rights and obligations of stakeholders). Para 38 addresses gender pay equity, which is a complemental topic within broader remuneration fairness. Para 39 focuses on reducing remuneration disparities, supporting the idea of equitable pay structures. Para 50 involves stakeholder participation in regulations, which complements the head's responsibilities. Confidence scores reflect moderate to clear connections based on shared themes of remuneration fairness and stakeholder rights.",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. The responsibilities inherent to the position of head of institution shall entitle the holder to an increment in the rate of remuneration."
+      },
+      {
+        "para_number": 38,
+        "para": "29. A titres égaux et à travail égal, le taux de rétribution des maîtresses de l'enseignement secondaire doit être identique à celui de leurs collègues masculins; là où ce principe n'est pas encore appliqué, il convient de prendre des mesures immédiates pour supprimer l'écart existant entre les taux de rétribution des unes et des autres ; — 142 —",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph addresses pay equity as a legal principle (T_STAT) and discusses remuneration structures (T_COND). Related paragraphs 39-42 all address secondary teaching staff remuneration in different contexts, providing complementary information about pay disparities, part-time roles, substitute teachers, and vacation pay, which align with the target paragraph's focus on equitable compensation.",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. For equal qualifications and equal work, the remuneration rate of female secondary school teachers must be identical to that of their male colleagues; where this principle is not yet applied, immediate measures should be taken to eliminate the existing pay gap between them."
+      },
+      {
+        "para_number": 39,
+        "para": "30. Dans les pays de type décentralisé où le personnel enseignant secondaire est soumis à des modalités de rétribution diverses et à des barèmes de traitements différents, il faut s'efforcer, par les moyens jugés les plus appropriés, de réduire le plus possible les écarts sensibles qui peuvent exister, dans le cadre d'un même pays, en matière de taux de rétribution ;",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on reducing salary disparities in decentralized education systems. T_COND (Teachers | Working conditions and salaries) is the only tag directly addressing remuneration and salary scales. Related paragraphs discuss specific aspects of teacher pay (part-time proportional pay, substitute teacher compensation, vacation pay, and allowances), which are all complementary to the target's broader theme of salary equity.",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. In decentralized countries where secondary teaching staff are subject to various remuneration methods and different salary scales, efforts must be made, by the most appropriate means deemed necessary, to reduce as much as possible the significant disparities that may exist within the same country in terms of remuneration rates;"
+      },
+      {
+        "para_number": 40,
+        "para": "31. Tout maître de l'enseignement secondaire engagé à temps partiel et rétribué à l'heure, doit recevoir une rétribution proportionnelle à celle dont bénéficierait un maître à plein temps assurant un service de même nature ;",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) apply because the paragraph addresses remuneration structures (T_COND) and legal entitlements for survivors (T_STAT). Paragraph 45 (retirement pensions) is complemental as it discusses pension schemes related to teacher benefits. Paragraph 49 (survivor benefits) is directly complemental as it explicitly addresses benefits for dependents of deceased teachers.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "31. Any part-time secondary school teacher paid by the hour must receive remuneration proportional to that which a full-time teacher performing the same type of service would receive;"
+      },
+      {
+        "para_number": 41,
+        "para": "32. Les maîtres suppléants ont droit à une rétribution qui, tout en demeurant inférieure à celle des maîtres titularisés, doit leur assurer des moyens d'existence convenables ;",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph addresses substitute teachers' remuneration (working conditions) and their right to adequate livelihood (legal rights). Related paragraphs discuss complementary aspects like vacation pay (42), allowances (43), social security (44), retirement (45), illness leave (47), and survivor benefits (49), all tied to teacher working conditions and legal entitlements.",
+        "matched_pars": {
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "32. Substitute teachers are entitled to remuneration which, while remaining lower than that of tenured teachers, must provide them with adequate means of livelihood."
+      },
+      {
+        "para_number": 42,
+        "para": "33. Là où ce n'est pas encore chose faite, les autorités scolaires doivent s'efforcer de prendre toutes dispositions pour que les membres du personnel enseignant secondaire soient intégralement payés pendant les vacances et congés réglementaires.",
+        "tags": [
+          "T_COND",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND and ACT_EDUC are selected because the paragraph focuses on payment during leave (working conditions) and directly references secondary teaching staff (teachers and educators). Related paragraphs discuss allowances (43), social security (44), pensions (46), illness leave (47), survivor benefits (49), and policy participation (50), all of which are connected to teachers' financial rights and working conditions. Confidence scores reflect the strength of thematic alignment.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "33. Where this has not yet been done, the educational authorities must endeavor to take all necessary measures to ensure that members of the secondary teaching staff are fully paid during vacations and statutory holidays."
+      },
+      {
+        "para_number": 43,
+        "para": "34. Plusieurs pays accordent aux membres de leur personnel enseignant secondaire des indemnités ou avantages particuliers tels que facilités de logement, exemption totale ou partielle des frais de scolarité pour leurs enfants, etc. ; il est bon, en tout cas, qu'en ce qui concerne les indemnités de vie chère, de résidence et de déplacement, les allocations familiales, etc., les mêmes conditions soient faites aux maîtres de l'enseignement secondaire qu'aux autres fonctionnaires ou employés de même niveau.",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses working conditions and benefits for secondary teachers (cost-of-living allowances, family benefits, etc.), which directly aligns with T_COND (Teachers | Working conditions and salaries). Related paragraphs 44, 45, and 46 address complementary aspects of teacher benefits (social security, retirement pensions, disability pensions), making them complemental with strong evidence.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "34. Several countries grant members of their secondary teaching staff special allowances or benefits such as housing facilities, full or partial exemption from tuition fees for their children, etc.; it is advisable, in any case, that with regard to cost-of-living, housing and transportation allowances, family benefits, and the like, the same conditions be applied to secondary school teachers as to other civil servants or employees of equivalent rank."
+      },
+      {
+        "para_number": 44,
+        "para": "35. Les membres du personnel enseignant secondaire doivent bénéficier d'un régime de prévoyance sociale répondant aux éventualités ci-après: retraite, aide aux survivants, invalidité, maladie, maternité; dans les pays où les maitres sont appelés à cotiser à cette fin, le montant de la cotisation qui leur est demandée ne devrait pas, sauf circonstances exceptionnelles, être supérieur à la contribution des pouvoirs publics ;",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND and T_STAT are selected because the paragraph addresses social security schemes (working conditions) and legal entitlements (rights) for teachers. Related paragraphs expand on specific contingencies (retirement, disability, illness, maternity, survivor benefits) covered in the target paragraph, establishing complemental relationships. Paragraph 50 is supporting as it emphasizes teacher involvement in policy development, reinforcing the social security framework.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "35. Secondary school teaching staff must benefit from a social security scheme covering the following contingencies: retirement, survivor’s benefits, disability, illness, maternity; in countries where teachers are required to contribute to such a scheme, the amount of the contribution demanded from them should not, except in exceptional circumstances, exceed the contribution made by the public authorities;"
+      },
+      {
+        "para_number": 45,
+        "para": "36. A un âge donné ou après un nombre déterminé d'années d'exercice, les maîtres de l'enseignement secondaire doivent bénéficier, soit d'une pension normale de retraite, soit d'une indemnité globale, soit de l'une et de l'autre; une retraite proportionnelle peut leur être octroyée après un minimum déterminé d'années d'exercice, sous réserve qu'un tel régime ne les incite pas à quitter prématurément l'enseignement ;",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph addresses retirement entitlements (working conditions) and legal provisions for teachers' pensions. Para 46 (disability pensions) is complemental as it expands on pension-related benefits. Para 50 (social welfare regulations) is complemental as it relates to broader policy frameworks affecting retirement benefits.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. At a given age or after a specified number of years of service, secondary school teachers should be entitled either to a standard retirement pension, a lump-sum payment, or both; a proportional retirement pension may be granted after a determined minimum number of years of service, provided that such a scheme does not encourage premature departure from the teaching profession."
+      },
+      {
+        "para_number": 46,
+        "para": "37. En cas d'invalidité ou d'incapacité nécessitant la cessation de ses fonctions, tout maître de l'enseignement secondaire devrait bénéficier d'une pension ou de mesures telles qu'il ne se trouve pas dans le besoin ; — 143 —",
+        "tags": [
+          "T_OTHER",
+          "T_STAT",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (teachers) and T_STAT (legal rights) are directly supported by the mention of pension measures for disabled teachers. ISC_23 (secondary education) is explicitly referenced. Paragraph 47 (illness leave) is complemental as it addresses similar support measures. Paragraph 49 (survivor benefits) is complemental for related welfare provisions. Paragraph 50 (participation in regulations) is supporting as it reinforces legal frameworks for teacher rights.",
+        "matched_pars": {
+          "47": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "37. In the event of disability or incapacity necessitating the cessation of duties, every secondary school teacher should receive a pension or such measures as to ensure they are not in need; — 143 —"
+      },
+      {
+        "para_number": 47,
+        "para": "38. En cas de maladie, tout maître de l'enseignement secondaire doit bénéficier d'un congé payé de durée appropriée, son remplacement étant assuré par les autorités scolaires; là où il n'existe pas par ailleurs de dispositions à cet effet, il est souhaitable qu'une indemnité pour frais médicaux et pharmaceutiques lui soit également allouée; si la maladie se prolonge au delà des délais prévus par les règlements, le montant du traitement ne devrait être réduit que par paliers successifs, soit jusqu'à la guérison de l'intéressé, soit jusqu'à son admission au bénéfice des mesures prévues à l'article précédent;",
+        "tags": [
+          "T_COND",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and LAW_REG (Education laws and regulations) are selected because the paragraph addresses paid leave, medical expense allowances, and salary reduction regulations for teachers, which are core working conditions and legal frameworks. Paragraph 48 is complemental as it expands on leave policies (maternity leave) related to teacher welfare, directly aligning with the target's focus on leave benefits.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "38. In the event of illness, every secondary school teacher must be granted paid leave of an appropriate duration, with their replacement ensured by the educational authorities; where no specific provisions exist to this effect, it is desirable that an allowance for medical and pharmaceutical expenses also be provided; if the illness extends beyond the periods stipulated by regulations, the amount of the salary should only be reduced in successive stages, either until the recovery of the individual concerned or until their eligibility for the benefits provided under the previous article."
+      },
+      {
+        "para_number": 48,
+        "para": "39. Tout membre féminin de l'enseignement secondaire doit pouvoir bénéficier d'un congé payé de maternité dont la durée (répartie entre la période qui précède et celle qui suit les couches) ne saurait être inférieure à trois mois un congé de plus longue durée pouvant lui être accordé sous forme de congé de maladie;",
+        "tags": [
+          "T_COND",
+          "T_STAT",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions) and T_STAT (legal rights) apply because the paragraph specifies maternity leave entitlements as a legal right and working condition. ISC_23 (secondary education unspecified) matches the reference to 'secondary education staff'. Paragraph 49 (survivor benefits) is complemental as it addresses related teacher benefits. Paragraph 50 (social welfare participation) is complemental as it connects to broader regulations affecting maternity leave policies.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "39. Every female member of the secondary education staff must be entitled to paid maternity leave, the duration of which (divided between the period before and after childbirth) shall not be less than three months, with the possibility of extending this leave in the form of sick leave."
+      },
+      {
+        "para_number": 49,
+        "para": "40. En cas de décès d'un membre du personnel enseignant secondaire, des prestations doivent être versées aux survivants à la charge du défunt ou, en tout cas, à son conjoint (pour autant que celui-ci ne se remarie pas) et à ses enfants (jusqu'à un âge qui ne saurait être inférieur à celui de la scolarité obligatoire et jusqu'à un âge plus avancé si les intéressés poursuivent des études à plein temps) ;",
+        "tags": [
+          "T_COND",
+          "T_STAT",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions/salaries) and T_STAT (legal rights) apply because the paragraph discusses benefits for survivors, which relate to employment conditions and legal protections. ISC_23 (secondary education unspecified) is relevant as the text refers to secondary teaching staff. Paragraph 50 is complemental (confidence 0.8) as it addresses social welfare regulations for secondary teachers, aligning with the survivor benefits in para 49. Paragraph 51 is excluded due to weak connection to survivor benefits.",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "40. In the event of the death of a member of the secondary teaching staff, benefits must be paid to the survivors dependent on the deceased, or at least to their spouse (provided they do not remarry) and their children (up to an age not lower than that of compulsory schooling and to a later age if the individuals continue full-time studies);"
+      },
+      {
+        "para_number": 50,
+        "para": "41. Il est hautement souhaitable que des délégués autorisés du personnel enseignant secondaire participent à l'élaboration et à l'application des règlements de prévoyance sociale qui le concernent.",
+        "tags": [
+          "T_STAT",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_STAT (Teachers | Legal status and rights) and ACT_EDUC (Stakeholder focus | Teachers and educators) are selected because the paragraph emphasizes teachers' rights to participate in regulatory processes (T_STAT) and their role as stakeholders in education (ACT_EDUC). Paragraph 52 is complemental as it addresses teachers' mobility rights within federations, which aligns with the broader theme of teacher rights and conditions, though it focuses on a distinct aspect (mobility vs. regulatory participation).",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "41. It is highly desirable that authorized representatives of secondary teaching staff participate in the development and implementation of social welfare regulations that concern them."
+      },
+      {
+        "para_number": 51,
+        "para": "42. Tout en tenant compte des divers facteurs qui sont à l'origine des dispositions prises pour réglementer l'emploi des étrangers, il est souhaitable que puissent être admis dans l'enseignement secondaire, selon des modalités déterminées, des maitres étrangers titulaires des diplômes exigés des ressortissants nationaux ou en possession de titres reconnus comme équivalents ;",
+        "tags": [
+          "ISC_23",
+          "T_QUAL",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_23 (secondary education) and T_QUAL (qualification requirements) are explicitly mentioned. LAW_REG applies as the paragraph discusses legal frameworks for foreign teacher employment. Para 52 is related through modifying conditions (language/equality) that complement the qualification framework in para 51.",
+        "matched_pars": {
+          "52": [
+            "modifying"
+          ]
+        },
+        "para_en": "42. While taking into account the various factors underlying the provisions established to regulate the employment of foreign nationals, it is desirable that foreign teachers holding the qualifications required of national citizens or possessing credentials recognized as equivalent may be admitted to secondary education under specified conditions;"
+      },
+      {
+        "para_number": 52,
+        "para": "43. Dans les pays de type fédératif, il est souhaitable que, sous réserve des conditions linguistiques et de l'égalité de leur formation, les maîtres ressortissants des divers Etats fédérés, provinces, cantons, etc., se voient accorder toutes facilités pour exercer sur l'ensemble du territoire de la fédération.",
+        "tags": [
+          "T_STAT",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses legal status and rights of teachers in federative countries (T_STAT) and working conditions/salaries (T_COND) related to language requirements and training equality. No related paragraphs exist in allowed_paragraph_ids.",
+        "matched_pars": {},
+        "para_en": "43. In federative countries, it is desirable that, subject to language requirements and equality of their training, teachers who are nationals of the various federated states, provinces, cantons, etc., be granted all facilities to practice throughout the entire territory of the federation."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le cinq juillet mil neuf cent cinquante-quatre, adopte le treize juillet mil neuf cent cinquante-quatre la recommandation suivante : La Conférence, Considérant, d'une part, qu'en dehors de ses fonctions et sans distinction de sexe, de race, de couleur, de religion, d'opinion ou de croyances personnelles, le maître de l'enseignement secondaire doit jouir, comme tout éducateur, du libre exercice de ses droits civiques, conformément à la Déclaration universelle des droits de l'homme, mais que, d'autre part, sa mission d'éducateur lui impose des devoirs à l'égard des élèves dont il doit respecter la conscience et la personnalité, comme à l'égard des familles qui lui confient leurs enfants, et que cette responsabilité lui crée des obligations vis-à-vis de la communauté qu'il est appelé à servir, Considérant que la situation du corps enseignant, pris dans son ensemble, dépend pour une bonne part de son unité intrinsèque, des bonnes relations qu'il entretient avec les autorités scolaires, de la mesure dans laquelle ses membres sont consultés pour les questions ayant trait à leurs conditions de travail, à la qualité et la matière de leur enseignement, ainsi que de la liberté qui leur est laissée en ce qui concerne leurs convictions personnelles étant entendu que cette liberté ne saurait leur conférer le droit d'imposer ces convictions à leurs élèves, ce qui irait à l'encontre du droit des enfants et de leurs parents, Considérant que le maître de l'enseignement secondaire, tout comme l'ensemble du corps enseignant, contribue au prestige de la profession par la qualité de son apport spirituel et intellectuel à la vie nationale en prenant, en tant que citoyen, sa part de responsabilités dans la vie sociale de la collectivité et en manifestant, à l'égard des élèves qui lui sont confiés, le dévouement dont il fait preuve en dehors du service, aussi bien que dans son enseignement, Considérant que de bonnes conditions de service sont nécessaires pour attirer vers l'enseignement des jeunes gens et des jeunes filles particulièrement doués, en nombre suffisant pour satisfaire aux aspirations et aux besoins croissants du monde moderne en matière d'éducation secondaire, Considérant que, l'avenir de la pensée et de la culture dépendant pour une bonne part de la qualité des maîtres de l'enseignement secondaire,  — 139 — il importe de tout mettre en œuvre pour assurer cette qualité à la fois au départ et dans le cours de leur carrière, Considérant que la situation du personnel enseignant secondaire est étroitement liée à sa formation professionnelle, sujet dont il est traite dans la Recommandation n° 38 concernant la formation du personnel enseignant secondaire, adoptée par la Conférence en sa présente session, Considérant que les autorités scolaires se doivent d'offrir aux maîtres de l'enseignement secondaire tous les moyens qui leur permettront de se tenir au courant de l'évolution incessante de la matière propre aux diverses disciplines et des méthodes adaptées à leur enseignement, Soumet aux Ministères de l'instruction publique des divers pays la recommandation suivante : STATUT ADMINISTRATIF ET PROFESSIONNEL 1. Le statut administratif des maîtres de l'enseignement public du second degré doit être régi par la loi et par des règlements ; 2. Des délégués autorisés des maîtres de l'enseignement secondaire doivent être appelés à participer à l'élaboration des directives concernant les conditions de travail dans cet enseignement ; 3. En matière de statut administratif et professionnel, aucun membre du personnel enseignant secondaire, qu'il soit fonctionnaire ou non, ne saurait être placé en situation d'infériorité par rapport aux autres catégories de fonctionnaires ou d'employés dont les titres, la formation et les responsabilités sont de même niveau ; 4. Le maximum de sécurité d'emploi doit être garanti aux membres du personnel enseignant secondaire; là où le principe de l'engagement à vie ne semblerait pas pouvoir être appliqué, l'engagement proposé devrait porter sur une période de longue durée, avec possibilité de renouvellement; 5. Il convient que les maîtres de l'enseignement secondaire jouissent librement de tous les droits civiques et notamment que leur soit reconnu le droit de s'associer dans des organisations professionnelles de leur choix, qualifiées pour les représenter ; 6. Les instances dûment constituées ont qualité pour appliquer les règlements concernant les droits et les devoirs du personnel enseignant secondaire, et ce en dehors de toute pression extérieure, quelle qu'en soit la nature ; 7. Tout membre du personnel enseignant secondaire doit être mis au courant des notes et appréciations officielles émises à son sujet; celles-ci doivent être communiquées exclusivement à l'intéressé et à ses supérieurs directs et, en cas de jugement défavorable, l'intéressé doit avoir le droit de réclamer une appréciation impartiale ; 8. En cas de faute professionnelle, les sanctions réglementaires doivent être appliquées en toute objectivité, l'intéressé gardant le droit de faire appel aux instances dûment constituées s'il estime injustifiée la mesure dont il est l'objet ;  140 — 9. Ce droit de recours doit également être reconnu à tout membre du personnel enseignant secondaire qui s'estimerait lésé par l'application, à son égard, des mesures administratives prévues par la loi ou par les règlements ; 10. En principe, des délégués autorisés du personnel enseignant secondaire doivent faire partie des instances chargées d'examiner les recours que des maîtres de l'enseignement secondaire pourraient intenter contre les décisions prises, à leur égard, par les autorités scolaires. NOMINATIONS ET PROMOTIONS 11. Les procédures de nomination des membres du personnel enseignant secondaire doivent être aussi simples que possible, et offrir toutes garanties d'objectivité; elles doivent tenir compte, entre autres, des titres des candidats et de leurs aptitudes, le minimum des titres requis devant être fixé par la loi ; 12. En pourvoyant les postes pour lesquels maîtres et maîtresses de l'enseignement secondaire possèdent des titres égaux et répondent également aux conditions requises, il convient d'éviter toute discrimination entre les sexes ; 13. En pourvoyant les postes, il faut prendre soin qu'aucune distinction injustifiée ne soit établie entre les candidats en raison de la race, de la religion, de la couleur ou de la nationalité des intéressés ; 14. Du fait qu'ils possèdent les titres et l'expérience nécessaires, les maitres de l'enseignement secondaire doivent pouvoir assumer toutes les responsabilités relatives à leur enseignement, de la base au sommet de la hiérarchie administrative et ministérielle ; 15. En matière d'avancement, toutes mesures doivent être prises pour que les autorités responsables appliquent une procédure clairement définie qui tienne compte uniquement des aptitudes, des titres et des états de service ; 16. Lorsqu'une période probatoire doit précéder la titularisation, il convient de ne pas la prolonger indûment ; 17. Dans les pays où le chômage sévit parmi les membres du personnel enseignant, il convient de prendre des mesures pour aider les maîtres à trouver une occupation en rapport avec leurs titres. CONDITIONS DE TRAVAIL 18. En fixant l'horaire hebdomadaire de travail, il importe de tenir compte du fait que le maître de l'enseignement secondaire doit pouvoir préparer ses cours, corriger les devoirs, garder le contact avec les parents d'élèves et se perfectionner sur le plan tant professionnel que culturel ; 19. Après un nombre déterminé d'années d'exercice, vingt années par exemple, les heures de classe confiées au maître de l'enseignement secondaire  — 141 devraient être réduites, sans que cela affecte son avancement; le maître pourrait alors participer à des activités telles que comités consultatifs, jurys de concours et examen, etc. ; 20. La durée et la répartition des vacances et congés doivent tenir compte du temps de repos et de loisir dont maître et élèves ont également besoin ; 21. Lorsque la chose est compatible avec les besoins du service, le maître de l'enseignement secondaire devrait se voir accorder des congés payés de plusieurs mois après un certain nombre d'années d'exercice ; 22. La situation économique qui est faite au maître de l'enseignement secondaire doit lui permettre de se consacrer entièrement à sa profession ; en dehors de ses fonctions d'enseignement, il ne saurait effectuer un travail rémunéré qui risque de porter atteinte au fonctionnement du service dont il a la charge et à l'autorité morale dont il doit jouir auprès de ses concitoyens et, en particulier, auprès des parents et des élèves ; 23. Le mariage ne devrait pas constituer un obstacle à l'engagement ou au maintien des femmes dans l'enseignement secondaire. RÉTRIBUTION 24. Les membres du personnel enseignant secondaire doivent recevoir une rétribution qui corresponde à l'importance de leur mission et soit au moins égale à celle des diverses catégories de fonctionnaires ou d'employés dont les titres, la formation et les responsabilités sont de même niveau ; 25. Etant donné la haute valeur morale de la famille, les maitres de l'enseignement secondaire devraient jouir de moyens financiers assez larges pour pouvoir fonder et faire vivre un foyer ; 26. Les barèmes de traitements doivent être conçus d'une manière aussi simple que possible; ils doivent comporter un barème de base qui assure à tout maître de l'enseignement secondaire, qu'il se trouve à l'échelon inférieur ou à l'échelon supérieur, un niveau de vie 'en rapport avec les étapes correspondantes de sa carrière; le rythme d'avancement doit permettre d'atteindre l'échelon supérieur dans des délais assez courts; 27. Les maîtres qui possèdent des titres universitaires plus élevés ou une formation plus poussée, et ceux qui se voient confier des postes comportant des responsabilités spéciales, doivent autant que possible bénéficier d'une rétribution supérieure à celle du barème de base ; 28. Les responsabilités inhérentes à la fonction de chef d'établissement doivent donner droit à une majoration du taux de rétribution ; 29. A titres égaux et à travail égal, le taux de rétribution des maîtresses de l'enseignement secondaire doit être identique à celui de leurs collègues masculins; là où ce principe n'est pas encore appliqué, il convient de prendre des mesures immédiates pour supprimer l'écart existant entre les taux de rétribution des unes et des autres ;  — 142 — 30. Dans les pays de type décentralisé où le personnel enseignant secondaire est soumis à des modalités de rétribution diverses et à des barèmes de traitements différents, il faut s'efforcer, par les moyens jugés les plus appropriés, de réduire le plus possible les écarts sensibles qui peuvent exister, dans le cadre d'un même pays, en matière de taux de rétribution ; 31. Tout maître de l'enseignement secondaire engagé à temps partiel et rétribué à l'heure, doit recevoir une rétribution proportionnelle à celle dont bénéficierait un maître à plein temps assurant un service de même nature ; 32. Les maîtres suppléants ont droit à une rétribution qui, tout en demeurant inférieure à celle des maîtres titularisés, doit leur assurer des moyens d'existence convenables ; 33. Là où ce n'est pas encore chose faite, les autorités scolaires doivent s'efforcer de prendre toutes dispositions pour que les membres du personnel enseignant secondaire soient intégralement payés pendant les vacances et congés réglementaires. INDEMNITÉS DIVERSES 34. Plusieurs pays accordent aux membres de leur personnel enseignant secondaire des indemnités ou avantages particuliers tels que facilités de logement, exemption totale ou partielle des frais de scolarité pour leurs enfants, etc. ; il est bon, en tout cas, qu'en ce qui concerne les indemnités de vie chère, de résidence et de déplacement, les allocations familiales, etc., les mêmes conditions soient faites aux maîtres de l'enseignement secondaire qu'aux autres fonctionnaires ou employés de même niveau. PRÉVOYANCE SOCIALE 35. Les membres du personnel enseignant secondaire doivent bénéficier d'un régime de prévoyance sociale répondant aux éventualités ci-après: retraite, aide aux survivants, invalidité, maladie, maternité; dans les pays où les maitres sont appelés à cotiser à cette fin, le montant de la cotisation qui leur est demandée ne devrait pas, sauf circonstances exceptionnelles, être supérieur à la contribution des pouvoirs publics ; 36. A un âge donné ou après un nombre déterminé d'années d'exercice, les maîtres de l'enseignement secondaire doivent bénéficier, soit d'une pension normale de retraite, soit d'une indemnité globale, soit de l'une et de l'autre; une retraite proportionnelle peut leur être octroyée après un minimum déterminé d'années d'exercice, sous réserve qu'un tel régime ne les incite pas à quitter prématurément l'enseignement ; 37. En cas d'invalidité ou d'incapacité nécessitant la cessation de ses fonctions, tout maître de l'enseignement secondaire devrait bénéficier d'une pension ou de mesures telles qu'il ne se trouve pas dans le besoin ;  — 143 — 38. En cas de maladie, tout maître de l'enseignement secondaire doit bénéficier d'un congé payé de durée appropriée, son remplacement étant assuré par les autorités scolaires; là où il n'existe pas par ailleurs de dispositions à cet effet, il est souhaitable qu'une indemnité pour frais médicaux et pharmaceutiques lui soit également allouée; si la maladie se prolonge au delà des délais prévus par les règlements, le montant du traitement ne devrait être réduit que par paliers successifs, soit jusqu'à la guérison de l'intéressé, soit jusqu'à son admission au bénéfice des mesures prévues à l'article précédent; 39. Tout membre féminin de l'enseignement secondaire doit pouvoir bénéficier d'un congé payé de maternité dont la durée (répartie entre la période qui précède et celle qui suit les couches) ne saurait être inférieure à trois mois un congé de plus longue durée pouvant lui être accordé sous forme de congé de maladie; 40. En cas de décès d'un membre du personnel enseignant secondaire, des prestations doivent être versées aux survivants à la charge du défunt ou, en tout cas, à son conjoint (pour autant que celui-ci ne se remarie pas) et à ses enfants (jusqu'à un âge qui ne saurait être inférieur à celui de la scolarité obligatoire et jusqu'à un âge plus avancé si les intéressés poursuivent des études à plein temps) ; 41. Il est hautement souhaitable que des délégués autorisés du personnel enseignant secondaire participent à l'élaboration et à l'application des règlements de prévoyance sociale qui le concernent. PERSONNEL ENSEIGNANT VENANT DE L'EXTÉRIEUR 42. Tout en tenant compte des divers facteurs qui sont à l'origine des dispositions prises pour réglementer l'emploi des étrangers, il est souhaitable que puissent être admis dans l'enseignement secondaire, selon des modalités déterminées, des maitres étrangers titulaires des diplômes exigés des ressortissants nationaux ou en possession de titres reconnus comme équivalents ; 43. Dans les pays de type fédératif, il est souhaitable que, sous réserve des conditions linguistiques et de l'égalité de leur formation, les maîtres ressortissants des divers Etats fédérés, provinces, cantons, etc., se voient accorder toutes facilités pour exercer sur l'ensemble du territoire de la fédération."
+  }
+}
