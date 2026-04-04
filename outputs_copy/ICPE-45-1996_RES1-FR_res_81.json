@@ -1,0 +1,195 @@
+{
+  "TEXT_ID": "ICPE-45-1996_RES1-FR_res_81",
+  "RECOMMENDATION": 81,
+  "TITLE": "RECRUTEMENT DES ENSEIGNANTS : ATTIRER VERS L’ENSEIGNEMENT LES JEUNES GENS LES PLUS COMPETENTS",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-45-1996_RES1-FR",
+      "nb_paras": 8,
+      "preambular_para": [
+        1,
+        2
+      ],
+      "operative_para": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "think": "<think>\nOkay, let's tackle this task step by step. The user wants me to classify each paragraph from the given input into either preambular or operative, along with confidence scores. Let me start by recalling the rules provided.\n\nFirst, the French cues for preambular paragraphs are \"Rappelant\", \"Reconnaissant\", \"Considérant\", \"Notant\", \"Soulignant\". These usually end with commas and provide context or background. Operative paragraphs start with \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\", are often numbered, and contain clear actions or recommendations.\n\nLooking at the paragraphs:\n\nParagraph 1: Starts with \"Le recrutement...\" and discusses the concern of authorities and experts about teacher recruitment. There's no cue word here. It seems to be providing context, so likely preambular. Confidence might be around 0.7 since it's setting the stage but not explicit.\n\nParagraph 2: Talks about recruitment criteria not just being knowledge-based but also personal qualities. Again, no cue word. It's more about discussing criteria, so preambular. Confidence maybe 0.6 as it's informative but not a direct action.\n\nParagraph 3: Starts with \"A cet égard, les mesures suivantes sont recommandées :\". The word \"recommandées\" is a recommendation, which is an operative action. However, the paragraph is numbered 1.3, which might be part of a list. Wait, the user's input has paragraph numbers as 1, 2, 3, etc., but some are sub-numbered like 1.3.1. But according to the rules, operative paragraphs often have clear actions. The phrase \"mesures suivantes sont recommandées\" is a recommendation, so this is operative. Confidence should be high, maybe 0.95.\n\nParagraph 4: Starts with \"mettre en oeuvre des actions...\" which is an action verb. The paragraph is part of the recommendations listed under 1.3. So this is operative. Confidence 0.95.\n\nParagraph 5: \"offrir des mesures incitatives...\" again an action verb. Operative. Confidence 0.95.\n\nParagraph 6: \"favoriser l’égalité...\" action verb. Operative. Confidence 0.95.\n\nParagraph 7: \"encourager l’accès...\" the word \"encourager\" is an operative cue. So this is operative. Confidence 0.95.\n\nParagraph 8: \"élaborer et offrir des programmes...\" action verbs. Operative. Confidence 0.95.\n\nWait, but paragraph 3 starts with \"A cet égard, les mesures suivantes sont recommandées :\". The word \"recommandées\" is a recommendation, which is an operative action. So paragraph 3 is operative. But the user's input lists paragraph numbers as 1, 2, 3, etc., but the subpoints are 1.3.1, etc. However, the user's input has paragraph numbers as 1 to 8, with some subpoints. But according to the rules, each paragraph is numbered as per the input. So paragraph 3 is a separate entry. So paragraph 3 is operative because it starts with a recommendation. So the operative paragraphs are 3,4,5,6,7,8. Wait, but paragraph 3 is the start of the recommendations. Let me check again.\n\nWait, the user's input has:\n\nParagraph 3: \"A cet égard, les mesures suivantes sont recommandées :\"\n\nThen paragraphs 4-8 are subpoints under 1.3. But according to the user's input, each paragraph is numbered as 1,2,3,4,5,6,7,8. So paragraph 3 is a separate entry. So paragraph 3 is the first operative paragraph, then 4-8 are subpoints. But according to the rules, each paragraph must be classified. So paragraph 3 is operative because it starts with \"recommandées\" which is a recommendation. The confidence here would be high, maybe 0.95. Then paragraphs 4-8 are all operative as they start with action verbs. So the operative paragraphs are 3,4,5,6,7,8. The preambular are 1 and 2. Let me check again.\n\nParagraph 1: No cue words, just context. Preambular. Confidence 0.7.\n\nParagraph 2: No cue words, discussing criteria. Preambular. Confidence 0.6.\n\nParagraph 3: \"recommandées\" is a recommendation, so operative. Confidence 0.95.\n\nParagraphs 4-8: All start with action verbs (mettre en oeuvre, offrir, favoriser, encourager, élaborer). Operative. Confidence 0.95 each.\n\nSo the preambular are 1 and 2. Operative are 3-8. Wait, but paragraph 3 is the start of the recommendations. So the user's input has paragraph 3 as a separate entry. So the classification would be:\n\npreambular_para: [1,2]\n\noperative_para: [3,4,5,6,7,8]\n\nConfidence scores:\n\n1: 0.7 (context, no cue words)\n\n2: 0.6 (same)\n\n3: 0.95 (recommandées)\n\n4: 0.95 (mettre en oeuvre)\n\n5: 0.95 (offrir)\n\n6: 0.95 (favoriser)\n\n7: 0.95 (encourager)\n\n8: 0.95 (élaborer)\n\nBut wait, the user's input has paragraph numbers as 1 to 8. Let me check again. The input is:\n\nParagraph 1: 1.1\n\nParagraph 2: 1.2\n\nParagraph 3: 1.3\n\nParagraph 4: 1.3.1\n\nParagraph 5: 1.3.2\n\nParagraph 6: 1.3.3\n\nParagraph 7: 1.3.4\n\nParagraph 8: 1.3.5\n\nBut the user's input lists them as paragraphs 1 to 8, each with their own numbers. So each is a separate paragraph. So paragraph 3 is the start of the recommendations, and paragraphs 4-8 are subpoints. But according to the rules, each paragraph is considered individually. So paragraph 3 is operative because it starts with \"recommandées\", which is a recommendation. The rest (4-8) are also operative as they start with action verbs. So the operative paragraphs are 3,4,5,6,7,8. Preambular are 1 and 2.\n\nConfidence scores:\n\n1: 0.7 (context, no cue words)\n\n2: 0.6 (same)\n\n3: 0.95 (recommandées)\n\n4: 0.95 (mettre en oeuvre)\n\n5: 0.95 (offrir)\n\n6: 0.95 (favoriser)\n\n7: 0.95 (encourager)\n\n8: 0.95 (élaborer)\n\nSo the JSON should have preambular_para as [1,2], operative_para as [3,4,5,6,7,8], and confidence scores for each paragraph. The think section should explain the reasoning based on the cues and meaning.\n\nCONFIDENCE CHECK: low=0/8 (ratio=0.00) → accepted"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "1.1 Le recrutement des futurs enseignants préoccupe les autorités et les spécialistes en éducation dans plusieurs régions du monde. Même si les situations nationales sont très diverses, dans toutes les réunions régionales d’experts préparatoires à la CIE, il a été constaté que la profession enseignante est souvent assez peu attrayante quant à son statut social et ses perspectives d’avancement.",
+        "tags": [
+          "T_RECR",
+          "T_SUPP"
+        ],
+        "type": "preambular",
+        "think": "Tags T_RECR and T_SUPP are selected because the paragraph focuses on teacher recruitment challenges (T_RECR) and implicit shortages due to unattractive career prospects (T_SUPP). Related paragraphs 2-8 provide solutions (complemental relations) addressing recruitment criteria, awareness-raising, incentives, diverse recruitment, and training programs, all directly responding to the issues raised in the target paragraph.",
+        "matched_pars": {
+          "2": [
+            "complemental"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "1.1 The recruitment of future teachers concerns authorities and education specialists in several regions of the world. Although national situations vary greatly, all the regional expert meetings preparing for the ICSE have noted that the teaching profession is often rather unattractive in terms of social status and career advancement prospects."
+      },
+      {
+        "para_number": 2,
+        "para": "1.2 Les critères de recrutement des futurs enseignants ne devraient pas être uniquement fonction du corpus de connaissances des candidats. Des qualités personnelles telles que la rigueur morale, le sens des responsabilités et de la solidarité, la motivation et la prédisposition pour le travail en équipe ainsi que la capacité de communiquer sont également nécessaires.",
+        "tags": [
+          "T_RECR",
+          "T_INI"
+        ],
+        "type": "preambular",
+        "think": "Tags T_RECR (Recruitment and hiring) and T_INI (Initial education and training) are selected because the paragraph explicitly discusses recruitment criteria and the qualities needed for teaching, which relate to both recruitment processes and initial training requirements. Related paragraphs 4, 5, 7, and 8 address recruitment strategies (4: awareness campaigns, 5: incentives, 7: recruitment procedures, 8: training programs), all of which directly connect to the target paragraph's focus on teacher recruitment and preparation.",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "supporting"
+          ]
+        },
+        "para_en": "1.2 The criteria for recruiting future teachers should not be based solely on the candidates' body of knowledge. Personal qualities such as moral rigor, a sense of responsibility and solidarity, motivation and predisposition for teamwork, as well as communication skills, are also necessary."
+      },
+      {
+        "para_number": 3,
+        "para": "1.3 A cet égard, les mesures suivantes sont recommandées :",
+        "tags": [
+          "POL_OTH"
+        ],
+        "type": "operative",
+        "think": "The target paragraph (3) outlines general policy recommendations (measures to be implemented), which aligns with 'POL_OTH' (Other policy theme) as it represents broader policy guidance. All related paragraphs (4-8) provide specific actions (e.g., awareness campaigns, incentives, gender equality, recruitment, training) that directly complement the general recommendation in paragraph 3, establishing a clear 'complemental' relationship with high confidence.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "In this regard, the following measures are recommended:"
+      },
+      {
+        "para_number": 4,
+        "para": "1.3.1 mettre en oeuvre des actions destinées à mieux sensibiliser les jeunes à l’importance de la profession enseignante et à les orienter vers elle, entre autres par des rencontres avec des enseignants éminents, la reconnaissance publique des enseignants, des journées portes ouvertes dans les écoles et les instituts de formation d’enseignants, la transmission par les médias d’expériences d’écoles et d’enseignants novateurs ;",
+        "tags": [
+          "ACT_EDUC",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) and T_INI (Teachers | Initial education and training) are selected because the paragraph focuses on engaging stakeholders (students, educators) and initial orientation/awareness-raising activities. Relations: Para 5 (incentives for students) complements para 4's orientation efforts (confidence 0.9). Para 7 (recruitment from other backgrounds) aligns with guiding students toward teaching (confidence 0.7). Para 8 (training programs) complements the open days/media dissemination mentioned in para 4 (confidence 0.9).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "1.3.1 implement actions aimed at raising young people's awareness of the importance of the teaching profession and guiding them towards it, including meetings with distinguished teachers, public recognition of teachers, open days at schools and teacher training institutes, and the dissemination through the media of experiences from innovative schools and teachers;"
+      },
+      {
+        "para_number": 5,
+        "para": "1.3.2 offrir des mesures incitatives et des bourses aux élèves et aux étudiants ayant fait preuve de grandes capacités scolaires et extrascolaires et désirant choisir l'enseignement comme carrière;",
+        "tags": [
+          "ACT_STUD",
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_STUD (Stakeholder focus | Learners and students) and T_RECR (Teachers | Recruitment and hiring) are selected because the paragraph focuses on incentivizing students (ACT_STUD) to pursue teaching careers and addresses recruitment strategies (T_RECR). Paragraph 7 (supporting) aligns with recruitment procedures for teaching, while Paragraph 8 (complemental) addresses attracting competent individuals through training, both related to the target's focus on recruitment.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "1.3.2 provide incentives and scholarships to pupils and students who have demonstrated outstanding academic and extracurricular abilities and wish to choose teaching as a career;"
+      },
+      {
+        "para_number": 6,
+        "para": "1.3.3 favoriser l’égalité entre les sexes en recherchant une représentation plus équilibrée des femmes et des hommes dans le corps enseignant à tous les niveaux d’enseignement et dans toutes les disciplines ;",
+        "tags": [
+          "T_OTHER",
+          "POP_WOM",
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (teachers) and ISC_99 (multiple education levels) directly match the text's focus on teaching staff across all education levels. POP_WOM (women and girls) aligns with the gender equality emphasis. Paragraph 7 is complemental as it addresses recruitment diversity (non-gender-specific) while the target paragraph focuses on gender balance, both contributing to teacher workforce diversity.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ]
+        },
+        "para_en": "1.3.3 promote gender equality by seeking a more balanced representation of women and men within the teaching staff at all levels of education and in all disciplines;"
+      },
+      {
+        "para_number": 7,
+        "para": "1.3.4 encourager l’accès à l’enseignement de personnes qualifiées venant d’autres horizons professionnels, pour combler d’éventuelles pénuries de personnel enseignant et établir à cette fin des procédures adéquates de recrutement et de formation;",
+        "tags": [
+          "T_SUPP",
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (Teacher supply and shortages) and T_RECR (Recruitment and hiring) are selected because the paragraph directly addresses addressing teaching staff shortages and establishing recruitment procedures. The relation to paragraph 8 is complemental (confidence 0.7) as it discusses training programs to attract competent teachers, which complements the recruitment and supply efforts mentioned in the target paragraph.",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "1.3.4 encourage the access to teaching for qualified individuals coming from other professional backgrounds, in order to address potential shortages of teaching staff and to establish appropriate recruitment and training procedures for this purpose;"
+      },
+      {
+        "para_number": 8,
+        "para": "1.3.5 élaborer et offrir des programmes intellectuellement stimulants de formation des enseignants, afin de doter ceux-ci de qualifications académiques et professionnelles appropriées et d’attirer les jeunes les plus compétents vers la profession enseignante.",
+        "tags": [
+          "T_INI",
+          "T_QUAL"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on developing teacher training programs (initial education) and equipping teachers with qualifications, directly matching T_INI and T_QUAL. No other paragraphs are available for relation analysis.",
+        "matched_pars": {},
+        "para_en": "1.3.5 develop and offer intellectually stimulating teacher training programs, in order to equip them with appropriate academic and professional qualifications and to attract the most competent young people to the teaching profession."
+      }
+    ],
+    "body_raw": "1.1 Le recrutement des futurs enseignants préoccupe les autorités et les spécialistes en éducation dans plusieurs régions du monde. Même si les situations nationales sont très diverses, dans toutes les réunions régionales d’experts préparatoires à la CIE, il a été constaté que la profession enseignante est souvent assez peu attrayante quant à son statut social et ses perspectives d’avancement. 1.2 Les critères de recrutement des futurs enseignants ne devraient pas être uniquement fonction du corpus de connaissances des candidats. Des qualités personnelles telles que la rigueur morale, le sens des responsabilités et de la solidarité, la motivation et la prédisposition pour le travail en équipe ainsi que la capacité de communiquer sont également nécessaires. 1.3 A cet égard, les mesures suivantes sont recommandées : 1.3.1 mettre en oeuvre des actions destinées à mieux sensibiliser les jeunes à l’importance de la profession enseignante et à les orienter vers elle, entre autres par des rencontres avec des enseignants éminents, la reconnaissance publique des enseignants, des journées portes ouvertes dans les écoles et les instituts de formation d’enseignants, la transmission par les médias d’expériences d’écoles et d’enseignants novateurs ; 1.3.2 offrir des mesures incitatives et des bourses aux élèves et aux étudiants ayant fait preuve de grandes capacités scolaires et extrascolaires et désirant choisir l'enseignement comme carrière; 1.3.3 favoriser l’égalité entre les sexes en recherchant une représentation plus équilibrée des femmes et des hommes dans le corps enseignant à tous les niveaux d’enseignement et dans toutes les disciplines ; 1.3.4 encourager l’accès à l’enseignement de personnes qualifiées venant d’autres horizons professionnels, pour combler d’éventuelles pénuries de personnel enseignant et établir à cette fin des procédures adéquates de recrutement et de formation; 1.3.5 élaborer et offrir des programmes intellectuellement stimulants de formation des enseignants, afin de doter ceux-ci de qualifications académiques et professionnelles appropriées et d’attirer les jeunes les plus compétents vers la profession enseignante. -20"
+  }
+}
