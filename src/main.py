@@ -75,8 +75,8 @@ def main():
     :return:
     """
 
-    input_folder = "Data/text_copy"
-    output_folder = "outputs_copy"
+    input_folder = "Data/text_copy2" #running on GPU 7 from Id: 30, GPU6 82-
+    output_folder = "outputs_copy2"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
