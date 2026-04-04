@@ -1,5 +1,7 @@
+import json
+import re
 from collections import Counter
-from doc_llm_generation import parse_output_safe, run_qwen_generation
+from doc_llm_generation import extract_json_block, run_qwen_generation
 
 # -------------------------------------
 # Step 4: Paragraph Level LLM Reasoning
@@ -212,6 +214,27 @@ def fallback_paragraph_output(para_number):
         "think": "fallback"
     }
 
+
+def parse_output_safe(text):
+    json_str = extract_json_block(text)
+
+    if json_str is None:
+        raise ValueError(f"No JSON found:\n{text[:300]}")
+
+    json_str = json_str.strip()
+
+    json_str = re.sub(r",\s*}", "}", json_str)
+    json_str = re.sub(r",\s*]", "]", json_str)
+
+    while json_str.count("{") > json_str.count("}"):
+        json_str += "}"
+
+    while json_str.count("[") > json_str.count("]"):
+        json_str += "]"
+
+    data = json.loads(json_str)
+
+    return data
 
 def process_paragraph(
     model,
