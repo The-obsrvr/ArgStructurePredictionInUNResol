@@ -80,8 +80,8 @@ def main():
     outputs3: 5
     output4: 6
     """
-    input_folder = "outputs2"
-    output_folder = "outputs22"
+    input_folder = "outputs4"
+    output_folder = "outputs44"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
