@@ -1,0 +1,502 @@
+{
+  "TEXT_ID": "ICPE-12-1949_RES1-FR_res_28",
+  "RECOMMENDATION": 28,
+  "TITLE": "L'ENSEIGNEMENT DE LA LECTURE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-12-1949_RES1-FR",
+      "nb_paras": 19,
+      "preambular_para": [],
+      "operative_para": [],
+      "think": ""
+    },
+    "preambular_para": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "operative_para": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "think": "fallback rule-based logic applied\nReason: confidence too low across attempts (threshold=0.6)"
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'Instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'Éducation, la Science et la Culture et le Bureau international d'Éducation, et s'y étant réunie le quatre juillet en sa douzième session, adopte le douze juillet mil neuf cent quarante-neuf la recommandation suivante : La Conférence,",
+        "tags": [
+          "CUR_IMPL",
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "Tags 'CUR_IMPL' and 'M_FORM' are selected because the paragraph describes a conference adopting a recommendation related to curriculum implementation (CUR_IMPL) and formal education (M_FORM). Related paragraphs provide supporting details (2,3,13,15,18) or complemental context (9) about reading instruction methods, teacher guidance, and educational tools, all aligned with the main recommendation.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "18": [
+            "supporting"
+          ]
+        },
+        "para_en": "The International Conference on Public Instruction, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on the fourth of July in its twelfth session, adopts on the twelfth of July nineteen forty-nine the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant que la lecture n'est pas seulement une technique d'enseignement de base et un ensemble de mécanismes mentaux, mais aussi l'outil principal de l'acquisition du savoir et de toute culture personnelle,",
+        "tags": [
+          "M_FORM",
+          "M_LL"
+        ],
+        "type": "preambular",
+        "think": "Tags M_FORM and M_LL are selected because the paragraph emphasizes reading as a foundational teaching technique (formal education) and a tool for lifelong knowledge acquisition. Relations are identified based on semantic alignment: supporting (3,13,14) for reinforcing reading's role in knowledge, complemental (4) for adding context about language integration, and modifying (7,11) for specifying conditions or prerequisites for reading instruction.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "7": [
+            "modifying"
+          ],
+          "11": [
+            "modifying"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "14": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that reading is not only a basic teaching technique and a set of mental mechanisms, but also the principal tool for acquiring knowledge and all personal culture,"
+      },
+      {
+        "para_number": 3,
+        "para": "Que l'enfant doit apprendre à lire couramment en comprenant ce qu'il lit,",
+        "tags": [
+          "F_LITE"
+        ],
+        "type": "preambular",
+        "think": "The tag 'F_LITE' (Subject domain | Literacy and language) is selected because the paragraph focuses on reading fluency and comprehension, which fall under literacy and language. For relations: Para 4 supports the integration of reading with language and writing (confidence 0.9). Para 5 supports methodological adaptation (confidence 0.7). Para 11 modifies by specifying prerequisites for reading (confidence 0.9). Para 14 supports by emphasizing reading enjoyment (confidence 0.9). Paras 12 and 17 provide complementary context on teaching organization and support for reading difficulties (confidence 0.7).",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "11": [
+            "modifying"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "That the child must learn to read fluently while understanding what he or she reads,"
+      },
+      {
+        "para_number": 4,
+        "para": "Que l'enseignement de la lecture ne saurait être dissocié de l'enseignement de la langue maternelle et des moyens d'expression de celle-ci, ni de l'apprentissage de l'écriture,",
+        "tags": [
+          "F_LITE",
+          "M_NFORM"
+        ],
+        "type": "preambular",
+        "think": "Tags F_LITE (literacy/language focus) and M_NFORM (non-formal education methods) are selected because the paragraph emphasizes integrating reading with language development and classroom activities. Relations: Para 5 (supporting) discusses child-adapted methods aligning with the target's integration focus; Para 6 (complemental) provides contrasting method types; Para 7 (modifying) adds contextual factors influencing methods; Para 11 (supporting) reinforces prerequisites for reading; Para 13 (supporting) aligns with using scientific methods.",
+        "matched_pars": {
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "modifying"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "13": [
+            "supporting"
+          ]
+        },
+        "para_en": "That the teaching of reading cannot be separated from the teaching of the mother tongue and its means of expression, nor from the learning of writing,"
+      },
+      {
+        "para_number": 5,
+        "para": "Que les progrès de la psychologie et de la pédagogie permettent l'emploi de méthodes mieux adaptées aux possibilités de l'enfant,",
+        "tags": [
+          "PEDAG_METHO",
+          "PEDAG_FOUND"
+        ],
+        "type": "preambular",
+        "think": "The tags PEDAG_METHO and PEDAG_FOUND are selected because the paragraph discusses teaching methods (PEDAG_METHO) and references psychological foundations (PEDAG_FOUND). Paragraph 6 provides supporting evidence about global methods endorsed by psychology. Paragraph 7 adds context about factors influencing method choice (complemental). Paragraph 13 reinforces the use of educational science-based methods (supporting).",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ]
+        },
+        "para_en": "That advances in psychology and pedagogy allow for the use of methods better adapted to the child's capabilities,"
+      },
+      {
+        "para_number": 6,
+        "para": "Reconnaissant que : a) les méthodes synthétiques satisfont l'esprit logique de l'adulte et facilitent le travail du maître, mais partent d'éléments peu accessibles à l'esprit de l'enfant, b) les méthodes dites globables, préconisées par la psychologie, sont plus conformes aux possibilités mentales de l'enfant et à ses intérêts spontanés; elles permettent d'intégrer l'apprentissage de la lecture dans les activités générales de la classe, mais elles exigent une préparation plus complète du maître,",
+        "tags": [
+          "PEDAG_METHO",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_METHO is selected because the paragraph directly compares synthetic and global teaching methods. CUR_IMPL is chosen as the text discusses integrating reading into classroom activities. Para 7 supports the discussion of method selection factors. Para 13 supports the mention of psychology-endorsed methods. Para 17 complements the discussion of teacher preparation needs.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "Acknowledging that: a) synthetic methods satisfy the logical mind of the adult and facilitate the teacher’s work, but are based on elements that are less accessible to the child’s mind, b) so-called global methods, endorsed by psychology, better correspond to the child’s mental capacities and spontaneous interests; they allow the integration of reading instruction into the general classroom activities, but they require more thorough preparation by the teacher,"
+      },
+      {
+        "para_number": 7,
+        "para": "Estimant, en outre, que le choix des méthodes de l'enseignement de la lecture peut être influencé par la structure de la langue, par l'organisation scolaire de chaque pays, etc.,",
+        "tags": [
+          "PEDAG_METHO",
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_METHO (teaching methods) and M_FORM (formal education) are selected because the paragraph discusses how teaching methods are influenced by language structure and educational organization. Related paragraphs: 8 (complemental - references consideration of factors mentioned), 12 (complemental - addresses school organization), 13 (supporting - directly links to teaching methods based on educational sciences), 18 (complemental - connects to assessment methods).",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "Further considering that the choice of methods for teaching reading may be influenced by the structure of the language, by the educational organization of each country, etc.,"
+      },
+      {
+        "para_number": 8,
+        "para": "Tenant compte de tous ces éléments divers,",
+        "tags": [
+          "Cross-cutting themes & skills",
+          "Policy theme"
+        ],
+        "type": "preambular",
+        "think": "The target paragraph (para 8) emphasizes considering 'various elements,' which aligns with 'Cross-cutting themes & skills' (integrating diverse aspects) and 'Policy theme' (overarching educational priorities). All related paragraphs (9-19) provide specific recommendations/methods that logically follow from the general consideration of elements in para 8, establishing strong supporting relationships with high confidence.",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "supporting"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "18": [
+            "supporting"
+          ],
+          "19": [
+            "supporting"
+          ]
+        },
+        "para_en": "Taking all these various elements into account,"
+      },
+      {
+        "para_number": 9,
+        "para": "Soumet aux Ministères de l'Instruction publique des différents pays la recommandation suivante :",
+        "tags": [
+          "POL_OTH",
+          "SYST_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph involves submitting policy recommendations to education ministries (POL_OTH) and addresses systemic educational practices (SYST_OTHER). Related paragraphs (10,11,12,13,15,19) all discuss specific reading education methods or initiatives that align with the target paragraph's recommendation, forming complemental/supporting relationships with high confidence.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "12": [
+            "supporting"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Education of the various countries the following recommendation:"
+      },
+      {
+        "para_number": 10,
+        "para": "1. Une des préoccupations essentielles des autorités scolaires doit être : a) d'enseigner à tout enfant d'âge scolaire et à tout adulte analphabète à lire couramment, b) d'améliorer dans ce domaine les méthodes d'enseignement en favorisant toutes expériences utiles, c) de mettre en œuvre tous les moyens propres à maintenir les adolescents en état de lire couramment après leur sortie de l'école ;",
+        "tags": [
+          "POP_ALL",
+          "F_LITE",
+          "POL_LL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_ALL (all learners) and F_LITE (literacy) are directly mentioned. POL_LL (lifelong learning) applies due to the focus on adult illiteracy. Related paragraphs 11 (teaching methods), 17 (supplementary instruction), 19 (adult illiteracy), 14 (reading materials), and 15 (school press) are connected through shared themes of literacy strategies and educational methods.",
+        "matched_pars": {
+          "11": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "supporting"
+          ]
+        },
+        "para_en": "1. One of the primary concerns of the educational authorities must be: a) to teach every school-aged child and every illiterate adult to read fluently, b) to improve teaching methods in this area by encouraging all useful experiences, c) to implement all means capable of ensuring that adolescents maintain fluent reading skills after leaving school;"
+      },
+      {
+        "para_number": 11,
+        "para": "2. L'apprentissage de la lecture ne doit débuter qu'au moment où l'enfant, après avoir enrichi ses moyens d'expression verbale et reçu une éducation sensorielle adéquate, a acquis le développement mental nécessaire ;",
+        "tags": [
+          "F_LITE",
+          "ISC_01"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (literacy/language) and ISC_01 (early childhood development) directly align with the paragraph's focus on reading readiness and mental development. Related paragraphs: 12 (complemental: school structure during reading learning), 13 (supporting: evidence-based methods), 14 (complemental: fostering reading enjoyment), 16 (supporting: material adaptation to development), and 17 (complemental: supplementary instruction for challenges). Confidence scores reflect textual alignment strength.",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "16": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. The teaching of reading should only begin when the child, having enhanced their means of verbal expression and received adequate sensory education, has acquired the necessary mental development;"
+      },
+      {
+        "para_number": 12,
+        "para": "3. L'organisation des écoles devrait permettre au même maitre de suivre ses élèves pendant les années d'apprentissage de la lecture ;",
+        "tags": [
+          "CUR_ORG",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_ORG (Organization and instructional time) directly address the school organization theme. T_OTHER (Teachers) reflects the focus on teacher-student continuity. Relations: Para 13 (supporting) links to teaching methods; Para 14 (complemental) adds library context; Para 15 (supporting) highlights tools; Para 17 (modifying) introduces supplementary instruction; Para 18 (supporting) emphasizes assessment.",
+        "matched_pars": {
+          "13": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "17": [
+            "modifying"
+          ],
+          "18": [
+            "supporting"
+          ]
+        },
+        "para_en": "3. The organization of schools should allow the same teacher to follow their students throughout the years of learning to read;"
+      },
+      {
+        "para_number": 13,
+        "para": "4. Il est souhaitable que le maître s'inspire des méthodes d'enseignement de la lecture mises au point selon les données des sciences de l'éducation ;",
+        "tags": [
+          "Teachers",
+          "Pedagogy & assessment"
+        ],
+        "type": "operative",
+        "think": "Tags 'Teachers' and 'Pedagogy & assessment' are selected because the paragraph explicitly discusses teacher methods based on educational science findings. Related paragraphs: 14 (complemental - focuses on reading enjoyment and library resources, which align with teaching methods); 16 (complemental - addresses textbook adaptation for learners, directly related to pedagogical approaches); 18 (supporting - recommends objective tests for monitoring reading progress, reinforcing assessment practices mentioned in the target paragraph).",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "18": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. It is desirable that the teacher draws inspiration from reading instruction methods developed based on the findings of educational sciences;"
+      },
+      {
+        "para_number": 14,
+        "para": "5. Le goût de la lecture doit être développé dès le début, par l'emploi de phrases et de textes d'une valeur certaine, pris dans le champ des activités et des intérêts immédiats de l'enfant; ce goût doit être pendant toute la scolarité par la création et l'enrichissement continu de bibliothèques scolaires ;",
+        "tags": [
+          "F_LITE",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (Literacy and language) and CUR_CONTENT (Curriculum | Content and learning areas) are selected because the paragraph focuses on fostering reading enjoyment through curated texts and school libraries, which directly relate to literacy development and curriculum content. For relations: Para 16 complements by addressing text adaptation for readers (confidence 0.9). Para 17 modifies by specifying supplementary instruction for reading difficulties (confidence 0.8). Para 18 supports by emphasizing monitoring reading progress (confidence 0.7).",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "modifying"
+          ],
+          "18": [
+            "supporting"
+          ]
+        },
+        "para_en": "5. The enjoyment of reading must be cultivated from the outset through the use of sentences and texts of genuine value, drawn from the realm of the child's immediate activities and interests; this enjoyment must be sustained throughout the course of schooling by the creation and continuous enhancement of school libraries."
+      },
+      {
+        "para_number": 15,
+        "para": "6. L'emploi de l'imprimerie scolaire, auxiliaire précieux de l'enseignement, mérite d'être encouragé ;",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The tag 'CUR_IMPL' (Curriculum implementation) is selected because the paragraph emphasizes encouraging the use of the school printing press as a teaching aid, which directly relates to implementing educational curricula through tools and materials. Paragraph 16 discusses adapting educational materials (textbooks and recreational books) to reader needs, which is complemental to the target paragraph's focus on educational resources and their effective use.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. The use of the school printing press, a valuable aid to teaching, deserves to be encouraged;"
+      },
+      {
+        "para_number": 16,
+        "para": "7. Les manuels d'apprentissage de la lecture et les livres récréatifs (pour l'enfant et pour l'adulte qui apprennent à lire) doivent être adaptés au développement mental et aux intérêts du lecteur. On apportera un soin tout particulier au choix du texte, des caractères d'imprimerie et des illustrations ;",
+        "tags": [
+          "CUR_CONTENT",
+          "POP_ADUL"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT (content adaptation for readers) and POP_ADUL (adult learners) are directly supported. Para 17 (children with reading difficulties) is complemental as it addresses a subset of the target's focus on tailored instruction. Para 19 (adult illiteracy) is complemental as it directly relates to the target's mention of adult learners.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. Textbooks for learning to read and recreational books (for both children and adults learning to read) must be adapted to the mental development and interests of the reader. Particular care will be taken in the selection of the text, typefaces, and illustrations;"
+      },
+      {
+        "para_number": 17,
+        "para": "8. Les enfants ayant des difficultés à apprendre à lire doivent pouvoir bénéficier d'un enseignement complémentaire adapté à leurs besoins ;",
+        "tags": [
+          "POP_DISAB",
+          "CCUT_INCL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and CCUT_INCL (inclusive education) are selected because the paragraph explicitly addresses children with reading difficulties requiring tailored instruction. Paragraph 18 is related as complemental (confidence 0.7) since it discusses objective reading assessments, which could support monitoring the supplementary instruction mentioned in the target paragraph.",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. Children who have difficulty learning to read should be able to benefit from supplementary instruction tailored to their needs;"
+      },
+      {
+        "para_number": 18,
+        "para": "9. L'emploi d'épreuves objectives de lecture orale et silencieuse est recommandé pour permettre le contrôle des résultats obtenus aux différents âges;",
+        "tags": [
+          "SYST_ASSESS",
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "Tags SYST_ASSESS (learning assessments) and F_LITE (literacy) directly match the paragraph's focus on objective reading tests. Paragraph 19 complements by addressing literacy development methods, though it focuses on teaching techniques rather than assessment methods.",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. The use of objective tests of oral and silent reading is recommended in order to enable the monitoring of results achieved at different ages;"
+      },
+      {
+        "para_number": 19,
+        "para": "10. Vu la nécessité de combattre, dans de nombreuses contrées, l'analphabétisme chez les adultes, un effort concerté doit être entrepris pour développer les techniques de l'enseignement de la langue adaptées aux masses, pour élaborer un matériel adéquat à l'enseignement de la lecture et pour échanger les résultats d'expériences faites par les nations aux prises avec ce problème.",
+        "tags": [
+          "F_LITE",
+          "POP_ADUL",
+          "POL_LL"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on adult illiteracy (POP_ADUL) and literacy programs (F_LITE), explicitly mentioning lifelong learning efforts (POL_LL). No related paragraphs exist in the allowed set.",
+        "matched_pars": {},
+        "para_en": "10. Given the necessity of combating adult illiteracy in many regions, a concerted effort must be undertaken to develop language teaching techniques suited to the masses, to create appropriate materials for reading instruction, and to exchange the results of experiences conducted by nations facing this issue."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'Instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'Éducation, la Science et la Culture et le Bureau international d'Éducation, et s'y étant réunie le quatre juillet en sa douzième session, adopte le douze juillet mil neuf cent quarante-neuf la recommandation suivante : La Conférence, Considérant que la lecture n'est pas seulement une technique d'enseignement de base et un ensemble de mécanismes mentaux, mais aussi l'outil principal de l'acquisition du savoir et de toute culture personnelle, Que l'enfant doit apprendre à lire couramment en comprenant ce qu'il lit, Que l'enseignement de la lecture ne saurait être dissocié de l'enseignement de la langue maternelle et des moyens d'expression de celle-ci, ni de l'apprentissage de l'écriture, Que les progrès de la psychologie et de la pédagogie permettent l'emploi de méthodes mieux adaptées aux possibilités de l'enfant, Reconnaissant que : a) les méthodes synthétiques satisfont l'esprit logique de l'adulte et facilitent le travail du maître, mais partent d'éléments peu accessibles à l'esprit de l'enfant, b) les méthodes dites globables, préconisées par la psychologie, sont plus conformes aux possibilités mentales de l'enfant et à ses intérêts spontanés; elles permettent d'intégrer l'apprentissage de la lecture dans les activités générales de la classe, mais elles exigent une préparation plus complète du maître, Estimant, en outre, que le choix des méthodes de l'enseignement de la lecture peut être influencé par la structure de la langue, par l'organisation scolaire de chaque pays, etc., Tenant compte de tous ces éléments divers, Soumet aux Ministères de l'Instruction publique des différents pays la recommandation suivante :  122 1. Une des préoccupations essentielles des autorités scolaires doit être : a) d'enseigner à tout enfant d'âge scolaire et à tout adulte analphabète à lire couramment, b) d'améliorer dans ce domaine les méthodes d'enseignement en favorisant toutes expériences utiles, c) de mettre en œuvre tous les moyens propres à maintenir les adolescents en état de lire couramment après leur sortie de l'école ; 2. L'apprentissage de la lecture ne doit débuter qu'au moment où l'enfant, après avoir enrichi ses moyens d'expression verbale et reçu une éducation sensorielle adéquate, a acquis le développement mental nécessaire ; 3. L'organisation des écoles devrait permettre au même maitre de suivre ses élèves pendant les années d'apprentissage de la lecture ; 4. Il est souhaitable que le maître s'inspire des méthodes d'enseignement de la lecture mises au point selon les données des sciences de l'éducation ; 5. Le goût de la lecture doit être développé dès le début, par l'emploi de phrases et de textes d'une valeur certaine, pris dans le champ des activités et des intérêts immédiats de l'enfant; ce goût doit être pendant toute la scolarité par la création et l'enrichissement continu de bibliothèques scolaires ; 6. L'emploi de l'imprimerie scolaire, auxiliaire précieux de l'enseignement, mérite d'être encouragé ; 7. Les manuels d'apprentissage de la lecture et les livres récréatifs (pour l'enfant et pour l'adulte qui apprennent à lire) doivent être adaptés au développement mental et aux intérêts du lecteur. On apportera un soin tout particulier au choix du texte, des caractères d'imprimerie et des illustrations ; 8. Les enfants ayant des difficultés à apprendre à lire doivent pouvoir bénéficier d'un enseignement complémentaire adapté à leurs besoins ; 9. L'emploi d'épreuves objectives de lecture orale et silencieuse est recommandé pour permettre le contrôle des résultats obtenus aux différents âges; 10. Vu la nécessité de combattre, dans de nombreuses contrées, l'analphabétisme chez les adultes, un effort concerté doit être entrepris pour développer les techniques de l'enseignement de la langue adaptées aux masses, pour élaborer un matériel adéquat à l'enseignement de la lecture et pour échanger les résultats d'expériences faites par les nations aux prises avec ce problème."
+  }
+}
