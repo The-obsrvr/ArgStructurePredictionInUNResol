@@ -1,0 +1,1404 @@
+{
+  "TEXT_ID": "ICPE-23-1960_RES1-FR_res_51",
+  "RECOMMENDATION": 51,
+  "TITLE": "L'ORGANISATION DE L'ENSEIGNEMENT SPÉCIAL POUR LES DEBILES MENTAUX",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-23-1960_RES1-FR",
+      "nb_paras": 53,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "operative_para": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le six juillet mil neuf cent soixante en sa vingt-troisième session, adopte le quinze juillet mil neuf cent soixante la recommandation suivante: La Conférence,",
+        "tags": [
+          "O_G"
+        ],
+        "type": "preambular",
+        "think": "The tag 'O_G: Education orientation | General (academic)' applies because the paragraph references an international conference on public instruction, which aligns with general educational orientation. Related paragraphs provide supporting context (2, 3, 4) by referencing prior recommendations, human rights, and compulsory education principles, while complemental paragraphs (12, 52, 53) detail subsequent actions or recommendations tied to the same conference.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Instruction, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 6, 1960, at its twenty-third session, adopts on July 15, 1960, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant les principes déjà énoncés par la Conférence internationale de l'instruction publique sur l'organisation de l'enseignement spécial dans sa Recommandation no 7 adoptée le quatorze juillet mil neuf cent trente-six en sa cinquième session,",
+        "tags": [
+          "LAW_REG",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags LAW_REG and CUR_IMPL are selected because the paragraph references a formal international recommendation (legal framework) and discusses the organization of special education (curriculum implementation). Related paragraphs provide supporting details (e.g., teacher training, specialized services) or complementary context (e.g., universal education rights, compulsory education) that align with the target paragraph's focus on special education principles.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "21": [
+            "supporting"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering the principles already set forth by the International Conference on Public Instruction regarding the organization of special education in its Recommendation No. 7 adopted on July 14, 1936, during its fifth session,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que le droit à l'éducation, proclamé par la Déclaration universelle des droits de l'homme, s'applique à tous les individus qui sont capables d'en profiter, y compris les moins doués,",
+        "tags": [
+          "POP_DISAB",
+          "POP_ALL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_DISAB and POP_ALL are selected because the paragraph explicitly includes 'those with lesser abilities' (disabilities) and states the right applies to 'all individuals' (POP_ALL). Related paragraphs discuss compulsory education (4), disability-specific challenges (5), utilization of abilities (6), direct rights for disabled children (17), free education for disabled (19), and specialized services (21). Relations are supported by thematic alignment on education access for disabled/all learners.",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "17": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the right to education, proclaimed by the Universal Declaration of Human Rights, applies to all individuals who are capable of benefiting from it, including those with lesser abilities,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que l'idée d'enseignement obligatoire pour tous est universellement acceptée et qu'elle est déjà appliquée dans bon nombre de pays,",
+        "tags": [
+          "POP_ALL",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_ALL (all learners) and CUR_IMPL (curriculum implementation) are selected because the paragraph emphasizes compulsory education for all (POP_ALL) and its implementation in many countries (CUR_IMPL). Related paragraphs discuss special education, implementation strategies, and specific cases, which are complemental (add related info) or supporting (directly link to compulsory schooling principles).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the idea of compulsory education for all is universally accepted and is already implemented in many countries,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant le handicap économique, social et culturel que représente pour un peuple l'existence en son sein d'un contingent de déficients mentaux dont bon nombre auraient pu devenir des éléments utiles s'ils avaient été convenablement éduqués,",
+        "tags": [
+          "POP_DISAB"
+        ],
+        "type": "preambular",
+        "think": "The paragraph focuses on mentally disabled individuals and the societal impact of their lack of education, directly matching POP_DISAB. Related paragraphs discuss educational methods (6,7,26), vocational training (40), and teacher training (45) for this population, all complementing the target's emphasis on education. Para 25's collaboration between sectors also relates to addressing the issue.",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering the economic, social, and cultural handicap represented for a people by the existence within it of a group of mentally disabled individuals, many of whom could have become useful members if they had been properly educated,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant qu'il convient de tirer parti de toute aptitude particulière dont peut témoigner un enfant débile mental, en vue de faciliter son éducation,",
+        "tags": [
+          "POP_DISAB",
+          "CCUT_INCL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_DISAB (learners with disabilities) and CCUT_INCL (inclusive education) are selected because the paragraph explicitly references mentally disabled children and emphasizes individualized educational methods. Para 7 supports the target by discussing differentiated teaching methods. Para 8 complements by addressing integration and mutual understanding. Para 32 supports by advocating functional, concrete education methods.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that it is appropriate to make use of any particular ability demonstrated by a mentally disabled child, with a view to facilitating their education,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que, grâce aux progrès réalisés par la médecine, par la psychologie de l'enfant et par la pédagogie curative, il existe des moyens de dépister les enfants souffrant de déficience mentale et d'entreprendre leur éducation au moyen de méthodes fondées sur la différenciation et l'individualisation de l'enseignement,",
+        "tags": [
+          "PEDAG_METHO",
+          "POP_DISAB"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_METHO (teaching methods) and POP_DISAB (learners with disabilities) are selected because the paragraph explicitly discusses differentiated teaching methods for children with mental deficiencies. Related paragraphs: 8 (complemental - community integration), 9 (complemental - contextual implementation), 14 (supporting - diagnostic tools for identification), 26 (complemental - differentiated instruction structures), 35 (supporting - specific teaching strategies), 45 (modifying - teacher training requirements).",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ],
+          "45": [
+            "modifying"
+          ]
+        },
+        "para_en": "Whereas, thanks to advances made in medicine, child psychology, and remedial pedagogy, there are means to identify children suffering from mental deficiency and to undertake their education using methods based on the differentiation and individualization of teaching,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant que l'application de méthodes d'éducation différenciée ne doit pas conduire à isoler complètement de la communauté des enfants qui ont besoin de rester en contact avec la vie normale pour pouvoir s'y intégrer — 151 — par la suite et que le maître averti peut tirer parti de cette situation pour susciter chez les enfants dotés d'aptitudes diverses des attitudes favorisant une meilleure compréhension mutuelle,",
+        "tags": [
+          "CCUT_INCL",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags CCUT_INCL (Inclusive education and special needs) and ACT_EDUC (Teachers and educators) are selected because the paragraph emphasizes inclusive educational methods, teacher roles, and integration of diverse abilities. Related paragraphs: 9 (complemental - discusses special education expansion and regional differences), 11 (complemental - addresses diverse solutions for special education), 27 (supporting - directly aligns with avoiding isolation and special classes), 48 (supporting - highlights mainstream-special education collaboration).",
+        "matched_pars": {
+          "9": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "27": [
+            "supporting"
+          ],
+          "48": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that the application of differentiated educational methods should not lead to the complete isolation from the community of children who need to remain in contact with normal life in order to be able to integrate into it thereafter, and that a trained teacher can take advantage of this situation to cultivate in children with diverse abilities attitudes that promote better mutual understanding,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que, dans chaque pays, le problème de l'extension de l'enseignement spécial pour les débiles mentaux est toujours lié au stade d'avancement de la scolarisation des élèves normaux et que, pour organiser cet enseignement spécial, il y a lieu de tenir compte des différences pouvant subsister entre les grandes localités et les localités moins importantes,",
+        "tags": [
+          "POP_DISAB",
+          "CCUT_INCL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_DISAB (mentally disabled children) and CCUT_INCL (inclusive education) are directly supported by the text. Related paragraphs: 10 (complemental - international cooperation for special education), 11 (complemental - diverse solutions for special education), 21 (supporting - specialized services for maladapted children), 26 (complemental - differentiated instruction for varying needs), 31 (complemental - pilot projects for special education). Confidence scores reflect varying degrees of semantic alignment.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "21": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that, in each country, the issue of expanding special education for mentally disabled children is always linked to the level of advancement in the schooling of regular students and that, in organizing this special education, it is necessary to take into account the differences that may exist between large urban centers and smaller localities,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant que les problèmes relatifs à l'éducation spéciale doivent avoir, dans la coopération culturelle entre nations et dans les programmes d'assistance technique, une place d'autant plus importante que ces problèmes, malgré leur urgence, n'ont pas encore pu être systématiquement abordés dans certains pays,",
+        "tags": [
+          "CCUT_INCL",
+          "POL_INTCOOP"
+        ],
+        "type": "preambular",
+        "think": "Tags CCUT_INCL (inclusive education) and POL_INTCOOP (international cooperation) are selected because the paragraph emphasizes special education as a cross-cutting issue requiring global collaboration. Related paragraphs provide supporting/complemental information: para 11 (diverse solutions), para 21 (specialized services), para 31 (pilot projects), para 50 (technical assistance), and para 53 (UNESCO collaboration).",
+        "matched_pars": {
+          "11": [
+            "complemental"
+          ],
+          "21": [
+            "supporting"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that special education issues must have an increasingly important place in cultural cooperation between nations and in technical assistance programs, especially since these issues, despite their urgency, have not yet been systematically addressed in certain countries,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'organisation de l'enseignement spécial pour les débiles mentaux,",
+        "tags": [
+          "POP_DISAB",
+          "CCUT_INCL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_DISAB and CCUT_INCL are selected because the paragraph explicitly addresses learners with disabilities (mentally retarded children) and inclusive education/special needs. Related paragraphs provide specific solutions (screening, specialized services, differentiated instruction, pilot projects, teacher training) that align with the target's emphasis on diverse approaches to special education.",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, despite similar aspirations, countries with very different circumstances must provide diverse solutions to the problem of organizing special education for the mentally retarded,"
+      },
+      {
+        "para_number": 12,
+        "para": "Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante:",
+        "tags": [],
+        "type": "operative",
+        "think": "fallback",
+        "matched_pars": {},
+        "para_en": "Submits to the Ministries of Public Instruction of the various countries the following recommendation:"
+      },
+      {
+        "para_number": 13,
+        "para": "1. Il importe que, partout où les circonstances le permettent, le dépistage des enfants débiles mentaux soit effectué dès le début de la scolarité et, si possible, dès la période préscolaire.",
+        "tags": [
+          "POP_DISAB",
+          "POP_CHILD",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (mentally disabled children), POP_CHILD (children in schooling), and ISC_02 (pre-school education) directly match the paragraph's focus on screening mentally deficient children from preschool through schooling. Paragraph 14 provides supporting methods for objective screening (confidence 0.9), while paragraph 15 adds complementary behavioral assessment context (confidence 0.8).",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "complemental"
+          ]
+        },
+        "para_en": "1. It is important that, wherever circumstances permit, the screening of mentally deficient children be carried out from the beginning of schooling and, if possible, from the preschool period."
+      },
+      {
+        "para_number": 14,
+        "para": "2. A cet effet, il importe que les techniques d'observation et de mesure psychologique, d'une part, les moyens de diagnostic dont disposent les différents spécialistes, d'autre part, soient perfectionnés de façon à assurer un dépistage aussi objectif que possible qui évite, entre autres, la confusion entre la débilité mentale organique et la débilité mentale apparente.",
+        "tags": [
+          "PEDAG_OTHER",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_OTHER and PEDAG_METHO are selected because the paragraph focuses on refining psychological assessment techniques (PEDAG_METHO) and broader pedagogy-related issues (PEDAG_OTHER). Related paragraphs address complementary aspects like behavioral observation (15), educational placement (16), differentiated instruction (26), functional teaching methods (32), skill consolidation (35), and teacher training (45), all of which align with the target's emphasis on objective assessment and pedagogical strategies.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "2. To this end, it is essential that the techniques of psychological observation and measurement, on the one hand, and the diagnostic tools available to various specialists, on the other hand, be refined so as to ensure a screening process that is as objective as possible, thereby avoiding, among other things, confusion between organic mental retardation and apparent mental retardation."
+      },
+      {
+        "para_number": 15,
+        "para": "3. Il convient aussi de tenir compte de la manière dont les enfants soupçonnés de débilité mentale se comportent dans le milieu familial, social et scolaire.",
+        "tags": [
+          "POP_DISAB",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and ACT_PARENT (parents and communities) are selected because the paragraph explicitly discusses children with mental retardation (disability) and their behavior in family/social environments (parental/community involvement). Related paragraphs provide complementary information about education rights (17), school-family collaboration (39), pedagogical methods (35), post-school support (43), and differentiated instruction (26), all of which align with the target's focus on educational environments and stakeholder roles.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. It is also appropriate to take into account the behavior of children suspected of mental retardation within the family, social, and school environments."
+      },
+      {
+        "para_number": 16,
+        "para": "4. La décision de retirer un enfant de l'enseignement de type courant et le choix de la classe ou de l'école sur laquelle il sera dirigé sont du ressort des autorités scolaires, si possible avec l'accord de la famille; il serait bon qu'une période d'observation précède toute décision.",
+        "tags": [
+          "LAW_REG",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_REG and CUR_IMPL are selected because the paragraph discusses legal responsibilities of educational authorities (LAW_REG) and curriculum implementation details like class assignment and observation periods (CUR_IMPL). Related paragraphs: 17 (supports authority duties), 26 (supports differentiated instruction), 29 (complements school establishment), 39 (supports family collaboration).",
+        "matched_pars": {
+          "17": [
+            "supporting"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. The decision to remove a child from regular education and the choice of the class or school to which the child will be assigned fall under the responsibility of the educational authorities, preferably with the consent of the family; it would be advisable for a period of observation to precede any decision."
+      },
+      {
+        "para_number": 17,
+        "para": "5. Tous les enfants débiles mentaux reconnus éducables ont droit à l'éducation au même titre que les autres enfants; il en résulte que les autorités scolaires ont le devoir impérieux de leur offrir une éducation appropriée à leurs besoins. — 152 —",
+        "tags": [
+          "POP_DISAB",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and M_FORM (formal education) are selected because the paragraph explicitly addresses children with intellectual disabilities and their right to formal education. Related paragraphs are identified based on thematic connections: 18 (supporting obligation of authorities), 19/21/31 (complemental policies), 26 (modifying differentiated instruction), and 48 (complemental teacher training). Confidence scores reflect clear semantic links.",
+        "matched_pars": {
+          "18": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "26": [
+            "modifying"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. All children with intellectual disabilities who are deemed educable have the right to education on the same basis as other children; it follows that the educational authorities have the imperative duty to provide them with an education appropriate to their needs."
+      },
+      {
+        "para_number": 18,
+        "para": "6. Le principe de l'obligation scolaire ne peut être invoqué à l'égard de l'enfant débile mental que dans la mesure où les autorités scolaires peuvent lui assurer un enseignement approprié; il est même hautement désirable que cet enseignement se prolonge au delà de la limite légale de l'obligation scolaire.",
+        "tags": [
+          "LAW_REG",
+          "POP_DISAB",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_REG (legal frameworks for compulsory schooling), POP_DISAB (mentally retarded children), and M_FORM (formal education) are selected. Related paragraphs discuss funding (20), pilot projects (19/31), private collaboration (25), vocational training (40), and teacher training (45), all connected to education provision for disabled learners.",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "25": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "6. The principle of compulsory schooling can only be invoked in relation to the mentally retarded child insofar as the school authorities are able to provide appropriate education; it is even highly desirable that this education extends beyond the legal limit of compulsory schooling."
+      },
+      {
+        "para_number": 19,
+        "para": "7. Le principe de la gratuité constituant un corollaire de l'obligation scolaire, les débiles mentaux devraient bénéficier de la gratuité de l'enseignement, même si l'enseignement spécial exige un effort financier particulier.",
+        "tags": [
+          "POP_DISAB",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB and M_FORM are selected because the paragraph explicitly addresses mentally retarded children (POP_DISAB) and compulsory schooling/free education (M_FORM). Related paragraphs: 20 (financial support for families, complemental), 21 (specialized education services, supporting), 31 (pilot projects in under-resourced countries, complemental), and 38 (manual work in education, complemental). Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "21": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. The principle of free education, being a corollary of compulsory schooling, should apply to mentally retarded children, even if special education requires a particular financial effort."
+      },
+      {
+        "para_number": 20,
+        "para": "8. Lorsque les enfants débiles mentaux doivent fréquenter un internat, des crédits devraient être prévus pour aider les parents à qui leurs moyens ne permettraient pas de payer les frais de pension et de transport, qu'il s'agisse d'une institution officielle ou d'une institution privée.",
+        "tags": [
+          "POP_DISAB",
+          "POL_FIN",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (mentally handicapped children), POL_FIN (funding for boarding/transport), and ACT_PARENT (assisting parents) are directly supported. Para 28 (boarding for severe cases) supports the funding need. Paras 31 and 43 (post-school support) complement the broader context of support systems for disabled individuals.",
+        "matched_pars": {
+          "28": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. When mentally handicapped children are required to attend a boarding school, funds should be allocated to assist parents whose financial means do not allow them to pay the boarding and transportation fees, whether the institution is public or private."
+      },
+      {
+        "para_number": 21,
+        "para": "9. Dans les pays où l'importance de l'enseignement spécial le justifie, il y a lieu de charger un service spécialisé de l'instruction publique de contribuer au développement de l'enseignement destiné à toutes les catégories d'enfants inadaptés, notamment en coordonnant les efforts réalises dans ce domaine.",
+        "tags": [
+          "CCUT_INCL",
+          "POP_DISAB"
+        ],
+        "type": "operative",
+        "think": "Tags CCUT_INCL and POP_DISAB are selected because the paragraph focuses on inclusive education for children with special needs (CCUT_INCL) and explicitly mentions 'maladapted children' (POP_DISAB). Related paragraphs: 22 (specific case of mentally retarded children, complemental), 23 (supervision of institutions, complemental), 31 (pilot projects for special education, complemental), 51/52 (UNESCO's role in classification and international coordination, supporting), and 53 (comparing experiences, complemental). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "51": [
+            "supporting"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. In countries where the significance of special education justifies it, a specialized public education service should be entrusted with contributing to the development of education intended for all categories of maladapted children, notably by coordinating the efforts carried out in this field."
+      },
+      {
+        "para_number": 22,
+        "para": "10. En ce qui concerne les débiles mentaux, le service de l'enseignement spécial devrait entreprendre, par ses propres moyens ou avec l'aide des centres de documentation ou de recherche pédagogique: a) l'établissement de définitions précises concernant les différentes catégories de débiles mentaux; b) l'élaboration de statistiques sur la proportion d'enfants d'âge scolaire qui entrent dans ces diverses catégories, ainsi que sur leur taux de scolarisation; c) des études portant sur les besoins satisfaits et encore à satisfaire dans ce domaine; d) la mise au point de plans destinés à assurer l'extension rationnelle et progressive de l'enseignement spécial; e) l'étude des problèmes que posent la formation professionnelle des enfants débiles mentaux et les conditions de leur emploi; f) l'étude des différentes formes d'aide postscolaire à accorder à ces mêmes enfants, etc.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and CUR_IMPL (curriculum implementation) are selected because the paragraph focuses on mentally retarded individuals and the implementation of special education plans. Related paragraphs address supervision (23), inspector roles (24), manual work (38), vocational training (40), employment support (42), and teacher training (45), all of which align with the target's themes of special education strategies and pedagogical needs.",
+        "matched_pars": {
+          "23": [
+            "complemental"
+          ],
+          "24": [
+            "modifying"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "40": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "10. With regard to mentally retarded individuals, the special education service should undertake, by its own means or with the assistance of documentation centers or educational research institutes: a) the establishment of precise definitions concerning the various categories of mentally retarded individuals; b) the development of statistics on the proportion of school-age children who fall into these different categories, as well as on their enrollment rates; c) studies on the needs that have been met and those that still need to be addressed in this field; d) the formulation of plans aimed at ensuring the rational and progressive expansion of special education; e) the examination of issues related to the vocational training of mentally retarded children and the conditions of their employment; f) the study of the different forms of post-school assistance to be provided to these same children, etc."
+      },
+      {
+        "para_number": 23,
+        "para": "11. Le service de l'enseignement spécial devrait assurer le contrôle des institutions publiques et privées relevant de sa compétence; dès que le nombre de ces établissements le justifie, le contrôle devrait en être confié à des inspecteurs ou conseillers spécialisés, capables de guider les maîtres et de contribuer au développement de cet enseignement.",
+        "tags": [
+          "SYST_INST",
+          "SYST_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags SYST_INST (institutional evaluation) and SYST_QUAL (quality assurance) are selected because the paragraph discusses supervision of institutions and development of special education. Related paragraphs: 24 (complemental - rural inspection context), 25 (complemental - private/public collaboration), 45 (supporting - teacher specialization for quality), 48 (complemental - mainstream teacher information needs), 49 (supporting - inspector recruitment from educators).",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "11. The special education service should ensure the supervision of public and private institutions within its jurisdiction; as soon as the number of these establishments justifies it, supervision should be entrusted to specialized inspectors or advisors, capable of guiding teachers and contributing to the development of this form of education."
+      },
+      {
+        "para_number": 24,
+        "para": "12. Là où il n'existe pas d'inspecteurs de l'enseignement spécial, il faudrait que les inspecteurs ordinaires, surtout ceux qui ont la responsabilité des écoles situées dans de petites localités et dans les régions rurales, se préoccupent du sort qui est fait aux cas isolés de débilité mentale et fassent partager ce souci aux maîtres, aux autorités scolaires et aux organisations de protection sociale.",
+        "tags": [
+          "POP_DISAB",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB and POP_RUR are selected because the paragraph explicitly addresses mental deficiency (disability) and rural/small community education. Relations: Para 25 (complemental) discusses private sector collaboration, which complements the call for multi-stakeholder involvement. Para 30 (complemental) provides rural education solutions aligning with the target's rural focus. Para 48 (supporting) reinforces the need for teacher awareness of disabilities. Para 49 (modifying) directly addresses the recruitment of special education inspectors, modifying the target's call for ordinary inspectors to take on this role.",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "48": [
+            "supporting"
+          ],
+          "49": [
+            "modifying"
+          ]
+        },
+        "para_en": "12. Where there are no special education inspectors, ordinary inspectors, particularly those responsible for schools located in small communities and rural areas, should take an interest in the treatment of isolated cases of mental deficiency and encourage teachers, educational authorities, and social protection organizations to share this concern."
+      },
+      {
+        "para_number": 25,
+        "para": "13. L'éducation des débiles mentaux semble constituer un domaine où la collaboration entre l'initiative privée et les autorités scolaires peut — 153 — s'avérer particulièrement efficace; c'est pourquoi, là où la chose est possible, il conviendrait de soutenir l'effort des associations privées qui ont souvent été à l'avant-garde de l'éducation et de la protection des débiles mentaux et qui, maintenant encore, contribuent parfois à compenser l'absence d'action officielle dans ce domaine.",
+        "tags": [
+          "POP_DISAB",
+          "ACT_PRIV"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and ACT_PRIV (private sector) are selected because the paragraph explicitly discusses education of mentally deficient individuals and collaboration with private associations. Related paragraphs provide complementary (26,27,40,39) or supporting (31,43) information about special education approaches, post-school support, and vocational training, which align with the target's focus on private-sector collaboration and differentiated instruction.",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "13. The education of the mentally deficient appears to be an area where collaboration between private initiative and educational authorities can prove particularly effective; for this reason, wherever possible, efforts by private associations—which have often been at the forefront of the education and protection of the mentally deficient and which still sometimes help to compensate for the lack of official action in this field—should be supported."
+      },
+      {
+        "para_number": 26,
+        "para": "14. Etant donné la variété des formes de débilité mentale et les circonstances particulières à chaque cas, il importe de prévoir divers types de classes et d'établissements permettant un enseignement différencié.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and CUR_OTHER (other curriculum-related issues) are selected because the paragraph addresses mental disabilities and differentiated instruction methods. Related paragraphs provide specific examples (27, 28), complementary vocational training (40), supporting teacher training (45), and reinforcing the need for specialized approaches (32, 48).",
+        "matched_pars": {
+          "27": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ],
+          "48": [
+            "supporting"
+          ]
+        },
+        "para_en": "14. Given the variety of forms of mental deficiency and the particular circumstances of each case, it is important to provide various types of classes and institutions allowing for differentiated instruction."
+      },
+      {
+        "para_number": 27,
+        "para": "15. Il faut éviter, autant que possible, de séparer complètement le débile mental de son milieu et notamment des enfants mieux doués, sans toutefois le mettre en compétition avec eux dans des épreuves où il se trouverait en situation d'infériorité; c'est pourquoi il est souhaitable d'ouvrir des classes spéciales dans des écoles de type courant.",
+        "tags": [
+          "POP_DISAB",
+          "CCUT_INCL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB and CCUT_INCL are selected because the paragraph explicitly addresses mentally disabled individuals (POP_DISAB) and inclusive education practices (CCUT_INCL). Related paragraphs: 28 (complemental - discusses special schools as an alternative to mainstream integration), 29 (supporting - reinforces the idea of establishing special classes in resource-capable areas), and 48 (complemental - addresses teacher preparedness for inclusive education).",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "supporting"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. As far as possible, mentally disabled individuals should not be completely separated from their environment, particularly from more gifted children, without, however, placing them in competition with such children in activities where they would be at a disadvantage; for this reason, it is desirable to establish special classes within mainstream schools."
+      },
+      {
+        "para_number": 28,
+        "para": "16. Pour les débiles mentaux plus gravement atteints, les écoles spéciales, avec ou sans internat, semblent mieux convenir ; l'internat parait surtout nécessaire lorsque le domicile des parents est éloigné de tout externat spécialisé, lorsque le milieu familial est défectueux ou lorsque la débilité mentale s'accompagne de troubles du comportement.",
+        "tags": [
+          "POP_DISAB",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB is selected because the paragraph focuses on mentally disabled individuals. PEDAG_OTHER applies due to discussions about specialized educational approaches. Related paragraphs provide complementary context: 29 (special school establishment), 30 (alternative solutions for small areas), 40 (vocational training), and 45 (teacher training). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. For more severely mentally disabled individuals, special schools, with or without boarding facilities, appear to be more appropriate; boarding is especially necessary when the parents’ home is far from any specialized day school, when the family environment is inadequate, or when the mental disability is accompanied by behavioral disorders."
+      },
+      {
+        "para_number": 29,
+        "para": "17. Dans les grandes localités des pays qui disposent des moyens nécessaires et qui ont résolu les problèmes posés par la généralisation de l'obligation scolaire au niveau du premier degré, il y a lieu d'envisager l'ouverture progressive de classes et d'écoles du type ci-dessus.",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses curriculum implementation for special education, focusing on activities to integrate mentally retarded children into daily life and the workforce. Tags like CUR_IMPL are selected because the text emphasizes implementing specific educational systems (e.g., 'school-work' system). Related paragraphs 31 and 38 directly address special education for mentally retarded children, providing supporting context. Paragraphs 45 and 46 complement the discussion by addressing teacher training and boarding school educators, which are integral to implementing such programs.",
+        "matched_pars": {
+          "31": [
+            "supporting"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. In large towns of countries that have the necessary resources and have resolved the issues arising from the generalization of compulsory schooling at the primary level, it is appropriate to consider the gradual establishment of classes and schools of the type mentioned above."
+      },
+      {
+        "para_number": 30,
+        "para": "18. Dans les petites localités et dans les régions à population clairsemée où il n'est pas possible d'ouvrir une classe ou une école spéciale, on peut envisager l'une ou l'autre des solutions suivantes: a) enseignement individualisé dans les classes de type courant; b) fréquentation d'une classe ou d'une école spéciale dans une localité voisine, à condition que soient assurés les moyens de transport et, le cas échéant, le repas de midi; c) enseignement à domicile et système des maîtres itinérants; d) fréquentation d'un internat.",
+        "tags": [
+          "M_NFORM",
+          "POP_RUR",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags M_NFORM (non-formal education) applies due to solutions like home teaching and itinerant teachers. POP_RUR (rural learners) is directly mentioned in 'small localities' and 'sparsely populated regions'. PEDAG_OTHER (other pedagogy issues) covers teaching methods and system adaptations. Related paragraphs 45 (teacher training), 46 (boarding school educators), and 50 (technical assistance) provide complementary context for implementing the solutions.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "18. In small localities and in sparsely populated regions where it is not possible to open a special class or school, one of the following solutions may be considered: a) individualized teaching within regular classes; b) attendance at a special class or school in a neighboring locality, provided that transportation means and, where applicable, midday meals are ensured; c) home teaching and the system of itinerant teachers; d) attendance at a boarding school."
+      },
+      {
+        "para_number": 31,
+        "para": "19. Dans les pays qui ne possèdent pas encore les moyens d'organiser systématiquement un enseignement pour les débiles mentaux et même dans les pays où l'obligation scolaire n'est pas encore appliquée intégralement, il convient de prévoir au moins des expériences pilotes, permettant de scolariser un certain nombre d'enfants débiles mentaux et de servir de point de départ à un véritable enseignement spécial.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB and CUR_IMPL are selected because the paragraph focuses on mentally retarded children (POP_DISAB) and the implementation of pilot education programs (CUR_IMPL). Related paragraphs: 32 (supporting) discusses teaching methods aligning with special education goals; 33 (complemental) provides teaching strategies for individualized learning; 45 (complemental) addresses teacher training needed for special education; 50 (supporting) offers technical assistance solutions for resource-limited countries.",
+        "matched_pars": {
+          "32": [
+            "supporting"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "19. In countries that do not yet have the means to systematically organize education for mentally retarded children, and even in countries where compulsory schooling is not yet fully enforced, at least pilot projects should be planned to enable the schooling of a certain number of mentally retarded children and to serve as a starting point for genuine special education."
+      },
+      {
+        "para_number": 32,
+        "para": "20. L'enseignement des débiles mentaux, plus que tout autre, doit être fonctionnel et concret; il convient donc de recourir aux méthodes qui stimulent les fonctions mentales par des activités faisant appel à l'intelligence pratique et permettant d'acquérir les notions de base. — 154 —",
+        "tags": [
+          "POP_DISAB",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB is selected because the paragraph explicitly addresses 'mentally deficient individuals'. M_FORM is chosen as the focus is on structured, functional education methods. Related paragraphs 35, 37, and 38 discuss complementary teaching approaches (repetition, arts, manual work) that align with the target's emphasis on practical skills and curriculum implementation.",
+        "matched_pars": {
+          "35": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "38": [
+            "supporting"
+          ]
+        },
+        "para_en": "20. The education of mentally deficient individuals, more than any other, must be functional and concrete; therefore, it is appropriate to use methods that stimulate mental functions through activities engaging practical intelligence and enabling the acquisition of basic concepts."
+      },
+      {
+        "para_number": 33,
+        "para": "21. L'enseignement doit être fortement individualisé pour s'adapter aux aptitudes, aux besoins et au rythme d'apprentissage propres à chaque enfant; d'autre part, il doit prévoir des activités de groupe, qu'il s'agisse de travail ou de jeu, pour développer son sens social.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_IMPL",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (focus on mentally disabled learners), CUR_IMPL (specialized training for teachers), and PEDAG_METHO (pedagogical challenges) are directly supported. Related paragraphs: 34 (complemental - class size impacts individualized teaching), 35 (supporting - repetition exercises align with pedagogical methods), 39 (complemental - family collaboration enhances implementation), 44 (supporting - teacher qualities match specialization needs), 45 (supporting - specialization courses directly address training requirements).",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "44": [
+            "supporting"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "21. Teaching must be highly individualized to adapt to the aptitudes, needs, and learning pace specific to each child; furthermore, it must include group activities, whether work or play, to develop their social sense."
+      },
+      {
+        "para_number": 34,
+        "para": "22. Pour toutes ces raisons, il importe de ne pas confier plus d'une quinzaine d'élèves à un seul maître, pour autant que la chose soit possible.",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The target paragraph discusses student-teacher ratios as a pedagogical management issue, aligning with 'T_COND' (Working conditions and salaries) as workload management is a key aspect of working conditions. Paragraph 48 addresses mainstream teachers needing information on intellectual disabilities, which complements the target's context of managing diverse student needs, though the connection is indirect. Confidence is moderate (0.7) as both paragraphs address teacher responsibilities in special education contexts.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "22. For all these reasons, it is important not to assign more than about fifteen students to a single teacher, insofar as this is possible."
+      },
+      {
+        "para_number": 35,
+        "para": "23. Il ne faut pas craindre les exercices de récapitulation et de répétition propres à fixer l'acquisition des mécanismes de base et des connaissances à la portée des enfants débiles mentaux, tout en donnant une place suffisante à l'éducation du caractère et à la formation d'habitudes et d'attitudes socialement et moralement acceptables, de manière à développer chez eux des qualités pouvant compenser les déficits de leur intelligence et leur donner confiance en eux-mêmes.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_IMPL",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and CUR_IMPL (curriculum implementation) are directly supported by the focus on mentally disabled children and educational methods. M_FORM (formal education) applies as the paragraph discusses structured educational activities. Related paragraphs provide complemental information about specific educational approaches (speech therapy, play, manual work, vocational training, employment, and teacher training) that align with the target paragraph's emphasis on curriculum and learning modalities.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "40": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "23. One should not fear the use of review and repetition exercises that help consolidate the acquisition of basic skills and knowledge within the grasp of mentally deficient children, while also giving sufficient attention to character education and the formation of socially and morally acceptable habits and attitudes, so as to develop qualities in them that can compensate for their intellectual deficits and instill self-confidence."
+      },
+      {
+        "para_number": 36,
+        "para": "24. Il importe de souligner la valeur de la logopédie comme moyen de rééducation pour les enfants débiles mentaux.",
+        "tags": [
+          "POP_DISAB"
+        ],
+        "type": "operative",
+        "think": "The tag POP_DISAB is selected because the paragraph explicitly mentions 'mentally deficient children,' which directly aligns with the 'Learner population | Learners with disabilities' category. For relations: Para 37 (play/arts) and 45 (teacher training) are directly complementary/supporting. Paras 38 (manual work), 39 (family collaboration), 42 (employment), and 43 (post-school support) are related as they all address educational strategies for the same population, but with lower confidence due to indirect connections.",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "24. It is important to emphasize the value of speech therapy as a means of rehabilitation for mentally deficient children."
+      },
+      {
+        "para_number": 37,
+        "para": "25. Le jeu, l'éducation physique et rythmique, le chant choral et la musique, le dessin et les arts plastiques doivent faire partie intégrante de l'éducation des débiles mentaux; ce sont des moyens d'expression qui les aideront à se discipliner et à développer harmonieusement leur personnalité.",
+        "tags": [
+          "POP_DISAB",
+          "CUR_IMPL",
+          "F_PE",
+          "F_ARTS"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and CUR_IMPL (curriculum implementation) are directly supported by the focus on mentally disabled children and integrating subjects into education. F_PE (physical education) and F_ARTS (arts) are explicitly mentioned as subjects. Related paragraphs discuss vocational training (38, 40), post-school support (42, 43), and teacher training (45), which are connected to the target's curriculum and implementation themes.",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "25. Play, physical and rhythmic education, choral singing and music, drawing and the visual arts must be an integral part of the education of mentally deficient children; these are means of expression that will help them to discipline themselves and to develop their personality harmoniously."
+      },
+      {
+        "para_number": 38,
+        "para": "26. Les travaux manuels occuperont, dès le début, une place essentielle dans l'éducation des débiles mentaux et pourront, par la suite, servir de base à une véritable initiation professionnelle.",
+        "tags": [
+          "F_VET",
+          "POP_DISAB"
+        ],
+        "type": "operative",
+        "think": "Tags F_VET and POP_DISAB are selected because the paragraph explicitly discusses vocational training (F_VET) and learners with disabilities (POP_DISAB). Related paragraphs provide complementary/supporting information: 39 (family collaboration), 40 (supplementary vocational courses), 42 (post-school employment), 43 (post-school support), 45 (teacher training for special needs), and 46 (educator specialization).",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "26. Manual work will occupy, from the outset, an essential place in the education of mentally retarded children and may subsequently serve as a foundation for genuine vocational training."
+      },
+      {
+        "para_number": 39,
+        "para": "27. La collaboration entre l'école et la famille est particulièrement nécessaire dans l'enseignement pour les débiles mentaux ; une action suivie doit être exercée par le maître et, le cas échéant, par l'assistante sociale pour faire comprendre aux parents ou tuteurs les besoins particuliers de leur enfant débile; leur participation à certaines activités scolaires ou extrascolaires devrait même être sollicitée.",
+        "tags": [
+          "POP_DISAB",
+          "ACT_PARENT",
+          "ACT_EDUC",
+          "CCUT_INCL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (mentally disabled learners), ACT_PARENT (parent involvement), ACT_EDUC (teacher role), and CCUT_INCL (inclusive education) are directly supported. Related paragraphs: 40 (vocational training complementing education), 41 (workforce integration complementing daily life support), 43 (post-school support complementing educational needs), 45 (teacher training supporting educational implementation), and 48 (teacher preparedness complementing family-school collaboration).",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. Collaboration between the school and the family is particularly necessary in the education of mentally disabled individuals; continuous efforts must be made by the teacher and, where appropriate, by the social worker to help parents or guardians understand the specific needs of their mentally disabled child; their participation in certain school or extracurricular activities should even be encouraged."
+      },
+      {
+        "para_number": 40,
+        "para": "28. Si l'école spéciale ne peut donner une véritable formation professionnelle, il serait utile de prévoir des cours complémentaires professionnels et des ateliers d'apprentissage à l'intention des débiles mentaux, avec des périodes d'apprentissage de durée suffisamment longue.",
+        "tags": [
+          "POP_DISAB",
+          "M_NFORM"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and M_NFORM (non-formal education) are selected because the paragraph focuses on mentally handicapped individuals and proposes supplementary vocational courses/workshops outside formal schooling. Para 41 (school-work system) complements the apprenticeship idea (confidence 0.9). Para 42 (employment support) directly supports vocational training goals (confidence 0.9). Para 43 (post-school support) adds related context about long-term assistance (confidence 0.7).",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "supporting"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. If the special school cannot provide genuine vocational training, it would be useful to organize supplementary professional courses and apprenticeship workshops for mentally handicapped individuals, with apprenticeship periods of sufficiently long duration."
+      },
+      {
+        "para_number": 41,
+        "para": "29. Il importe de multiplier les activités propres à faciliter l'adaptation à la vie quotidienne et l'intégration dans le monde du travail; dans certains pays, il peut être utile de recourir au système « école-emploi », qui permet un travail à temps partiel sous le contrôle de l'école.",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes curriculum implementation through activities facilitating workforce integration (CUR_IMPL). Paragraphs 42 and 43 address related post-school support and vocational guidance, which complement the target paragraph's focus on integration and education system adaptations.",
+        "matched_pars": {
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. It is important to increase activities specifically designed to facilitate adaptation to daily life and integration into the workforce; in some countries, it may be useful to adopt the \"school-work\" system, which allows part-time employment under the supervision of the school."
+      },
+      {
+        "para_number": 42,
+        "para": "30. Il faut aider les jeunes débiles mentaux à trouver des emplois à leur convenance, de façon que toute action éducative ne se trouve pas interrompue après l'école et que, grâce à leur salaire, ces adolescents ne soient pas une charge pour la société; les services d'orientation professionnelle — 155 et de placement devraient procéder à un inventaire systématique des postes les mieux adaptés aux débiles mentaux, notamment dans l'industrie.",
+        "tags": [
+          "POP_DISAB",
+          "POP_YOUTH",
+          "O_All"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and POP_YOUTH (youth/adolescents) are explicitly mentioned. O_All (combined general and vocational education orientation) applies due to references to vocational guidance and employment. Paragraph 43 is complemental as it addresses post-school support services for mentally handicapped individuals, aligning with the target's focus on employment and societal integration.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. Efforts must be made to assist young mentally handicapped individuals in finding suitable employment, so that all educational efforts are not interrupted after school and, through their wages, these adolescents do not become a burden on society; vocational guidance and placement services should conduct a systematic inventory of the positions best suited to mentally handicapped persons, particularly in industry."
+      },
+      {
+        "para_number": 43,
+        "para": "31. Une action postscolaire en faveur des débites mentaux est indispensable; les services destinés à assurer cette action devraient être développés tant sur le plan officiel que dans le domaine privé; il leur faut rester en contact avec les jeunes débiles mentaux et leurs familles, s'intéresser à leur sort et leur assurer la protection sociale et les conseils dont ils ont besoin.",
+        "tags": [
+          "POP_DISAB",
+          "ACT_PRIV"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (learners with disabilities) and ACT_PRIV (private sector) are selected because the paragraph explicitly mentions 'mentally deficient' (disabilities) and emphasizes private sector involvement. Related paragraphs 44-48 discuss specialized training, educator roles, and mainstream education integration, which complement the target paragraph's focus on post-school support systems.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "31. Post-school support for the mentally deficient is essential; the services intended to provide such support should be developed both officially and privately; they must maintain contact with mentally deficient youths and their families, take an interest in their well-being, and ensure they receive the social protection and guidance they need."
+      },
+      {
+        "para_number": 44,
+        "para": "32. L'enseignement spécial exige, tant des maîtres que des éducateurs, des qualités de dévouement, de patience et de tact sans lesquelles une préparation spécialisée, même très complète, ne pourrait porter tous ses fruits.",
+        "tags": [
+          "ACT_EDUC",
+          "T_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (focus on teachers/educators) and T_QUAL (specialized training/qualification) are selected because the paragraph emphasizes the need for specialized training and personal qualities in teachers/educators. Related paragraphs discuss specialized training (45, 46), collaboration between mainstream/special education (48), and recruitment of inspectors (49), all of which complement the target paragraph's focus on training and educator roles.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "Special education demands from both teachers and educators qualities of dedication, patience, and tact, without which even the most comprehensive specialized training could not yield its full benefits."
+      },
+      {
+        "para_number": 45,
+        "para": "33. L'éducation des débiles mentaux présentant des problèmes pédagogiques et psychologiques particuliers, il importe de prévoir, à l'intention des maîtres qui s'y destinent, des cours de spécialisation de durée suffisamment longue pour compléter leur formation pédagogique générale; il serait souhaitable que les maîtres en exercice soient invités à suivre périodiquement des cours de perfectionnement.",
+        "tags": [
+          "POP_DISAB",
+          "T_INI",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (mentally handicapped learners), T_INI (specialization courses for teachers), and T_PDEV (refresher courses for practicing teachers) are directly supported. Paragraph 46 (boarding school educators) is complemental as it addresses similar teacher training needs. Paragraph 48 (mainstream teachers needing disability info) is complemental as it expands on pedagogical requirements. Paragraph 49 (recruiting inspectors from special education teachers) is complemental as it relates to teacher qualifications and roles.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "33. The education of mentally handicapped individuals presenting particular pedagogical and psychological challenges requires the provision of specialization courses of sufficient duration for teachers who intend to work in this field, in order to complete their general pedagogical training; it would be desirable for practicing teachers to be invited to periodically attend refresher courses."
+      },
+      {
+        "para_number": 46,
+        "para": "34. Les éducateurs qui sont chargés de s'occuper des enfants en dehors des heures de classe et notamment à l'internat ont un rôle essentiel du point de vue pédagogique ; il y aurait lieu de prévoir, pour eux également, une formation spécialisée, comme cela se pratique déjà dans plusieurs pays.",
+        "tags": [
+          "ACT_EDUC",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (focus on educators) and PEDAG_OTHER (specialized training) are selected. Related paragraphs 48, 49, and 51 discuss special education contexts, teacher training, and classification of needs, which complement the target paragraph's focus on educator roles and pedagogical training.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "34. Educators who are responsible for caring for children outside of class hours, particularly in boarding schools, play an essential role from a pedagogical standpoint; specialized training should also be provided for them, as is already practiced in several countries."
+      },
+      {
+        "para_number": 47,
+        "para": "35. Les traitements des maîtres et des éducateurs appartenant à l'enseignement spécial devraient tenir compte comme il convient des difficultés inhérentes à leur tâche et de la formation complémentaire que les intéressés peuvent avoir reçue.",
+        "tags": [
+          "T_COND",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and ACT_EDUC (Teachers and educators) are selected because the paragraph directly addresses salary adjustments for special education teachers and their training. Para 48 (mainstream teachers and intellectual disabilities) is complemental as it expands on teacher responsibilities in special education contexts. Para 49 (recruitment of special education inspectors) is complemental as it connects to the training mentioned in the target paragraph, though the link is indirect.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "35. The salaries of teachers and educators working in special education should appropriately reflect the difficulties inherent in their tasks as well as the additional training they may have received."
+      },
+      {
+        "para_number": 48,
+        "para": "36. Etant donné que les rapports entre l'enseignement de type courant et l'enseignement spécial doivent rester très étroits et qu'un grand nombre de maîtres ordinaires risquent d'avoir dans leur classe des enfants qui suivent difficilement, il est de toute importance que les maîtres et les inspecteurs de l'enseignement de type courant reçoivent une information précise sur les problèmes de la débilité mentale.",
+        "tags": [
+          "POP_DISAB",
+          "ACT_EDUC",
+          "CCUT_INCL"
+        ],
+        "type": "operative",
+        "think": "Tags POP_DISAB (intellectual disabilities mentioned), ACT_EDUC (focus on teachers/inspectors), and CCUT_INCL (inclusive education between mainstream/special education). Paragraph 49 complements by addressing inspector recruitment from special education teachers, directly related to the need for information exchange mentioned in the target paragraph.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. Given that the relationship between mainstream education and special education must remain very close and that a large number of regular teachers are likely to have children in their classes who face learning difficulties, it is of utmost importance that mainstream teachers and inspectors receive precise information on the issues related to intellectual disabilities."
+      },
+      {
+        "para_number": 49,
+        "para": "37. Il serait souhaitable que les inspecteurs de l'enseignement spécial soient recrutés, autant que possible, parmi les maîtres de cet enseignement.",
+        "tags": [
+          "T_RECR",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "The tags T_RECR (Recruitment and hiring) and ACT_EDUC (Teachers and educators) are selected because the paragraph explicitly discusses recruiting inspectors from teachers (T_RECR) and focuses on educators in special education (ACT_EDUC). For relations, paragraph 52 discusses UNESCO providing documentation on techniques and methods related to special education, which complements the target paragraph's focus on recruitment by offering additional context about supporting special education services. The confidence is 0.7 as the connection is indirect but relevant.",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. It would be desirable for special education inspectors to be recruited, as far as possible, from among the teachers of this type of education."
+      },
+      {
+        "para_number": 50,
+        "para": "38. Les pays qui manquent de ressources financières et de personnel qualifié pour assurer l'organisation ou le développement d'un enseignement spécial, devraient bénéficier d'une assistance technique qui pourrait prendre la forme d'octroi de bourses d'études et de recherche, d'aide matérielle, d'envoi d'experts, etc. — 156 —",
+        "tags": [
+          "POL_FIN",
+          "INFRA_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_FIN and INFRA_OTHER are selected because the paragraph discusses financial resources (POL_FIN) and technical assistance (INFRA_OTHER). Para 51 provides a foundational classification needed for special education support (supporting). Para 52 complements by detailing UNESCO's role in providing documentation (complemental). Para 53 adds related collaboration aspects (complemental).",
+        "matched_pars": {
+          "51": [
+            "supporting"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "Countries lacking financial resources and qualified personnel to ensure the organization or development of special education should receive technical assistance, which could take the form of scholarships and research grants, material aid, the dispatch of experts, and so forth."
+      },
+      {
+        "para_number": 51,
+        "para": "39. Il importerait que l'Unesco, agissant en liaison avec les organismes et les spécialistes qui s'intéressent à la question, établisse sans tarder une classification de base des grandes catégories d'enfants inadaptés.",
+        "tags": [
+          "CCUT_INCL",
+          "POP_DISAB"
+        ],
+        "type": "operative",
+        "think": "The tags CCUT_INCL (Inclusive education and special needs) and POP_DISAB (Learners with disabilities) are selected because the paragraph explicitly mentions UNESCO establishing a classification for children with special needs, directly aligning with inclusive education themes and disability-related learner populations. Paragraphs 52 and 53 are complemental as they both discuss UNESCO's collaborative efforts in special education, expanding on the target paragraph's focus through coordination and comparative experiences.",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "39. It is essential that UNESCO, acting in collaboration with relevant organizations and specialists interested in the matter, promptly establish a basic classification of the main categories of children with special needs."
+      },
+      {
+        "para_number": 52,
+        "para": "40. Il serait souhaitable que l'Unesco participe à la création d'un organisme international ou coordonne le travail des organismes internationaux existants en vue d'aider les services de l'enseignement spécial de tous les pays en leur fournissant une documentation sur les réalisations accomplies dans la recherche, le dépistage, l'observation, les techniques, les méthodes, le matériel didactique, l'administration, etc. concernant l'enseignement spécial.",
+        "tags": [
+          "ACT_IO",
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_IO (UNESCO as international organization) and POL_INTCOOP (international cooperation) are selected because the paragraph emphasizes UNESCO's role in coordinating international bodies for special education. The relation to para 53 is complemental (confidence 0.9) as both discuss UNESCO collaborating with international organizations to support special education, with para 53 adding specific collaboration details.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "40. It would be desirable for UNESCO to participate in the establishment of an international body or to coordinate the work of existing international organizations with the aim of assisting special education services in all countries by providing documentation on achievements made in research, screening, observation, techniques, methods, teaching materials, administration, and other aspects related to special education."
+      },
+      {
+        "para_number": 53,
+        "para": "41. Il serait également souhaitable que l'Unesco, en collaboration avec le Bureau international d'Education et les autres organisations internationales intéressées, aide des pays se trouvant dans une situation semblable à confronter leurs expériences dans le domaine de l'enseignement spécial.",
+        "tags": [
+          "POL_INTCOOP",
+          "CCUT_INCL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes international collaboration (UNESCO and other organizations) for special education, matching POL_INTCOOP. It also focuses on inclusive education through special needs, aligning with CCUT_INCL. No related paragraphs exist in the allowed set.",
+        "matched_pars": {},
+        "para_en": "41. It would also be desirable for UNESCO, in collaboration with the International Bureau of Education and other interested international organizations, to assist countries in similar circumstances to compare their experiences in the field of special education."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le six juillet mil neuf cent soixante en sa vingt-troisième session, adopte le quinze juillet mil neuf cent soixante la recommandation suivante: La Conférence, Considérant les principes déjà énoncés par la Conférence internationale de l'instruction publique sur l'organisation de l'enseignement spécial dans sa Recommandation no 7 adoptée le quatorze juillet mil neuf cent trente-six en sa cinquième session, Considérant que le droit à l'éducation, proclamé par la Déclaration universelle des droits de l'homme, s'applique à tous les individus qui sont capables d'en profiter, y compris les moins doués, Considérant que l'idée d'enseignement obligatoire pour tous est universellement acceptée et qu'elle est déjà appliquée dans bon nombre de pays, Considérant le handicap économique, social et culturel que représente pour un peuple l'existence en son sein d'un contingent de déficients mentaux dont bon nombre auraient pu devenir des éléments utiles s'ils avaient été convenablement éduqués, Considérant qu'il convient de tirer parti de toute aptitude particulière dont peut témoigner un enfant débile mental, en vue de faciliter son éducation, Considérant que, grâce aux progrès réalisés par la médecine, par la psychologie de l'enfant et par la pédagogie curative, il existe des moyens de dépister les enfants souffrant de déficience mentale et d'entreprendre leur éducation au moyen de méthodes fondées sur la différenciation et l'individualisation de l'enseignement, Considérant que l'application de méthodes d'éducation différenciée ne doit pas conduire à isoler complètement de la communauté des enfants qui ont besoin de rester en contact avec la vie normale pour pouvoir s'y intégrer  — 151 — par la suite et que le maître averti peut tirer parti de cette situation pour susciter chez les enfants dotés d'aptitudes diverses des attitudes favorisant une meilleure compréhension mutuelle, Considérant que, dans chaque pays, le problème de l'extension de l'enseignement spécial pour les débiles mentaux est toujours lié au stade d'avancement de la scolarisation des élèves normaux et que, pour organiser cet enseignement spécial, il y a lieu de tenir compte des différences pouvant subsister entre les grandes localités et les localités moins importantes, Considérant que les problèmes relatifs à l'éducation spéciale doivent avoir, dans la coopération culturelle entre nations et dans les programmes d'assistance technique, une place d'autant plus importante que ces problèmes, malgré leur urgence, n'ont pas encore pu être systématiquement abordés dans certains pays, Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'organisation de l'enseignement spécial pour les débiles mentaux, Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante: DÉPISTAGE 1. Il importe que, partout où les circonstances le permettent, le dépistage des enfants débiles mentaux soit effectué dès le début de la scolarité et, si possible, dès la période préscolaire. 2. A cet effet, il importe que les techniques d'observation et de mesure psychologique, d'une part, les moyens de diagnostic dont disposent les différents spécialistes, d'autre part, soient perfectionnés de façon à assurer un dépistage aussi objectif que possible qui évite, entre autres, la confusion entre la débilité mentale organique et la débilité mentale apparente. 3. Il convient aussi de tenir compte de la manière dont les enfants soupçonnés de débilité mentale se comportent dans le milieu familial, social et scolaire. 4. La décision de retirer un enfant de l'enseignement de type courant et le choix de la classe ou de l'école sur laquelle il sera dirigé sont du ressort des autorités scolaires, si possible avec l'accord de la famille; il serait bon qu'une période d'observation précède toute décision. OBLIGATION SCOLAIRE 5. Tous les enfants débiles mentaux reconnus éducables ont droit à l'éducation au même titre que les autres enfants; il en résulte que les autorités scolaires ont le devoir impérieux de leur offrir une éducation appropriée à leurs besoins.  — 152 — 6. Le principe de l'obligation scolaire ne peut être invoqué à l'égard de l'enfant débile mental que dans la mesure où les autorités scolaires peuvent lui assurer un enseignement approprié; il est même hautement désirable que cet enseignement se prolonge au delà de la limite légale de l'obligation scolaire. 7. Le principe de la gratuité constituant un corollaire de l'obligation scolaire, les débiles mentaux devraient bénéficier de la gratuité de l'enseignement, même si l'enseignement spécial exige un effort financier particulier. 8. Lorsque les enfants débiles mentaux doivent fréquenter un internat, des crédits devraient être prévus pour aider les parents à qui leurs moyens ne permettraient pas de payer les frais de pension et de transport, qu'il s'agisse d'une institution officielle ou d'une institution privée. ADMINISTRATION ET CONTRÔLE 9. Dans les pays où l'importance de l'enseignement spécial le justifie, il y a lieu de charger un service spécialisé de l'instruction publique de contribuer au développement de l'enseignement destiné à toutes les catégories d'enfants inadaptés, notamment en coordonnant les efforts réalises dans ce domaine. 10. En ce qui concerne les débiles mentaux, le service de l'enseignement spécial devrait entreprendre, par ses propres moyens ou avec l'aide des centres de documentation ou de recherche pédagogique: a) l'établissement de définitions précises concernant les différentes catégories de débiles mentaux; b) l'élaboration de statistiques sur la proportion d'enfants d'âge scolaire qui entrent dans ces diverses catégories, ainsi que sur leur taux de scolarisation; c) des études portant sur les besoins satisfaits et encore à satisfaire dans ce domaine; d) la mise au point de plans destinés à assurer l'extension rationnelle et progressive de l'enseignement spécial; e) l'étude des problèmes que posent la formation professionnelle des enfants débiles mentaux et les conditions de leur emploi; f) l'étude des différentes formes d'aide postscolaire à accorder à ces mêmes enfants, etc. 11. Le service de l'enseignement spécial devrait assurer le contrôle des institutions publiques et privées relevant de sa compétence; dès que le nombre de ces établissements le justifie, le contrôle devrait en être confié à des inspecteurs ou conseillers spécialisés, capables de guider les maîtres et de contribuer au développement de cet enseignement. 12. Là où il n'existe pas d'inspecteurs de l'enseignement spécial, il faudrait que les inspecteurs ordinaires, surtout ceux qui ont la responsabilité des écoles situées dans de petites localités et dans les régions rurales, se préoccupent du sort qui est fait aux cas isolés de débilité mentale et fassent partager ce souci aux maîtres, aux autorités scolaires et aux organisations de protection sociale. 13. L'éducation des débiles mentaux semble constituer un domaine où la collaboration entre l'initiative privée et les autorités scolaires peut  — 153 — s'avérer particulièrement efficace; c'est pourquoi, là où la chose est possible, il conviendrait de soutenir l'effort des associations privées qui ont souvent été à l'avant-garde de l'éducation et de la protection des débiles mentaux et qui, maintenant encore, contribuent parfois à compenser l'absence d'action officielle dans ce domaine. STRUCTURE DE L'ENSEIGNEMENT SPÉCIAL 14. Etant donné la variété des formes de débilité mentale et les circonstances particulières à chaque cas, il importe de prévoir divers types de classes et d'établissements permettant un enseignement différencié. 15. Il faut éviter, autant que possible, de séparer complètement le débile mental de son milieu et notamment des enfants mieux doués, sans toutefois le mettre en compétition avec eux dans des épreuves où il se trouverait en situation d'infériorité; c'est pourquoi il est souhaitable d'ouvrir des classes spéciales dans des écoles de type courant. 16. Pour les débiles mentaux plus gravement atteints, les écoles spéciales, avec ou sans internat, semblent mieux convenir ; l'internat parait surtout nécessaire lorsque le domicile des parents est éloigné de tout externat spécialisé, lorsque le milieu familial est défectueux ou lorsque la débilité mentale s'accompagne de troubles du comportement. 17. Dans les grandes localités des pays qui disposent des moyens nécessaires et qui ont résolu les problèmes posés par la généralisation de l'obligation scolaire au niveau du premier degré, il y a lieu d'envisager l'ouverture progressive de classes et d'écoles du type ci-dessus. 18. Dans les petites localités et dans les régions à population clairsemée où il n'est pas possible d'ouvrir une classe ou une école spéciale, on peut envisager l'une ou l'autre des solutions suivantes: a) enseignement individualisé dans les classes de type courant; b) fréquentation d'une classe ou d'une école spéciale dans une localité voisine, à condition que soient assurés les moyens de transport et, le cas échéant, le repas de midi; c) enseignement à domicile et système des maîtres itinérants; d) fréquentation d'un internat. 19. Dans les pays qui ne possèdent pas encore les moyens d'organiser systématiquement un enseignement pour les débiles mentaux et même dans les pays où l'obligation scolaire n'est pas encore appliquée intégralement, il convient de prévoir au moins des expériences pilotes, permettant de scolariser un certain nombre d'enfants débiles mentaux et de servir de point de départ à un véritable enseignement spécial. MÉTHODES ET PROGRAMMES D'ENSEIGNEMENT 20. L'enseignement des débiles mentaux, plus que tout autre, doit être fonctionnel et concret; il convient donc de recourir aux méthodes qui stimulent les fonctions mentales par des activités faisant appel à l'intelligence pratique et permettant d'acquérir les notions de base.  — 154 — 21. L'enseignement doit être fortement individualisé pour s'adapter aux aptitudes, aux besoins et au rythme d'apprentissage propres à chaque enfant; d'autre part, il doit prévoir des activités de groupe, qu'il s'agisse de travail ou de jeu, pour développer son sens social. 22. Pour toutes ces raisons, il importe de ne pas confier plus d'une quinzaine d'élèves à un seul maître, pour autant que la chose soit possible. 23. Il ne faut pas craindre les exercices de récapitulation et de répétition propres à fixer l'acquisition des mécanismes de base et des connaissances à la portée des enfants débiles mentaux, tout en donnant une place suffisante à l'éducation du caractère et à la formation d'habitudes et d'attitudes socialement et moralement acceptables, de manière à développer chez eux des qualités pouvant compenser les déficits de leur intelligence et leur donner confiance en eux-mêmes. 24. Il importe de souligner la valeur de la logopédie comme moyen de rééducation pour les enfants débiles mentaux. 25. Le jeu, l'éducation physique et rythmique, le chant choral et la musique, le dessin et les arts plastiques doivent faire partie intégrante de l'éducation des débiles mentaux; ce sont des moyens d'expression qui les aideront à se discipliner et à développer harmonieusement leur personnalité. 26. Les travaux manuels occuperont, dès le début, une place essentielle dans l'éducation des débiles mentaux et pourront, par la suite, servir de base à une véritable initiation professionnelle. 27. La collaboration entre l'école et la famille est particulièrement nécessaire dans l'enseignement pour les débiles mentaux ; une action suivie doit être exercée par le maître et, le cas échéant, par l'assistante sociale pour faire comprendre aux parents ou tuteurs les besoins particuliers de leur enfant débile; leur participation à certaines activités scolaires ou extrascolaires devrait même être sollicitée. FORMATION PROFESSIONNELLE ET ACTION POSTSCOLAIRE 28. Si l'école spéciale ne peut donner une véritable formation professionnelle, il serait utile de prévoir des cours complémentaires professionnels et des ateliers d'apprentissage à l'intention des débiles mentaux, avec des périodes d'apprentissage de durée suffisamment longue. 29. Il importe de multiplier les activités propres à faciliter l'adaptation à la vie quotidienne et l'intégration dans le monde du travail; dans certains pays, il peut être utile de recourir au système « école-emploi », qui permet un travail à temps partiel sous le contrôle de l'école. 30. Il faut aider les jeunes débiles mentaux à trouver des emplois à leur convenance, de façon que toute action éducative ne se trouve pas interrompue après l'école et que, grâce à leur salaire, ces adolescents ne soient pas une charge pour la société; les services d'orientation professionnelle  — 155 et de placement devraient procéder à un inventaire systématique des postes les mieux adaptés aux débiles mentaux, notamment dans l'industrie. 31. Une action postscolaire en faveur des débites mentaux est indispensable; les services destinés à assurer cette action devraient être développés tant sur le plan officiel que dans le domaine privé; il leur faut rester en contact avec les jeunes débiles mentaux et leurs familles, s'intéresser à leur sort et leur assurer la protection sociale et les conseils dont ils ont besoin. PERSONNEL 32. L'enseignement spécial exige, tant des maîtres que des éducateurs, des qualités de dévouement, de patience et de tact sans lesquelles une préparation spécialisée, même très complète, ne pourrait porter tous ses fruits. 33. L'éducation des débiles mentaux présentant des problèmes pédagogiques et psychologiques particuliers, il importe de prévoir, à l'intention des maîtres qui s'y destinent, des cours de spécialisation de durée suffisamment longue pour compléter leur formation pédagogique générale; il serait souhaitable que les maîtres en exercice soient invités à suivre périodiquement des cours de perfectionnement. 34. Les éducateurs qui sont chargés de s'occuper des enfants en dehors des heures de classe et notamment à l'internat ont un rôle essentiel du point de vue pédagogique ; il y aurait lieu de prévoir, pour eux également, une formation spécialisée, comme cela se pratique déjà dans plusieurs pays. 35. Les traitements des maîtres et des éducateurs appartenant à l'enseignement spécial devraient tenir compte comme il convient des difficultés inhérentes à leur tâche et de la formation complémentaire que les intéressés peuvent avoir reçue. 36. Etant donné que les rapports entre l'enseignement de type courant et l'enseignement spécial doivent rester très étroits et qu'un grand nombre de maîtres ordinaires risquent d'avoir dans leur classe des enfants qui suivent difficilement, il est de toute importance que les maîtres et les inspecteurs de l'enseignement de type courant reçoivent une information précise sur les problèmes de la débilité mentale. 37. Il serait souhaitable que les inspecteurs de l'enseignement spécial soient recrutés, autant que possible, parmi les maîtres de cet enseignement. COOPÉRATION INTERNATIONALE 38. Les pays qui manquent de ressources financières et de personnel qualifié pour assurer l'organisation ou le développement d'un enseignement spécial, devraient bénéficier d'une assistance technique qui pourrait prendre la forme d'octroi de bourses d'études et de recherche, d'aide matérielle, d'envoi d'experts, etc.  — 156 — 39. Il importerait que l'Unesco, agissant en liaison avec les organismes et les spécialistes qui s'intéressent à la question, établisse sans tarder une classification de base des grandes catégories d'enfants inadaptés. 40. Il serait souhaitable que l'Unesco participe à la création d'un organisme international ou coordonne le travail des organismes internationaux existants en vue d'aider les services de l'enseignement spécial de tous les pays en leur fournissant une documentation sur les réalisations accomplies dans la recherche, le dépistage, l'observation, les techniques, les méthodes, le matériel didactique, l'administration, etc. concernant l'enseignement spécial. 41. Il serait également souhaitable que l'Unesco, en collaboration avec le Bureau international d'Education et les autres organisations internationales intéressées, aide des pays se trouvant dans une situation semblable à confronter leurs expériences dans le domaine de l'enseignement spécial."
+  }
+}

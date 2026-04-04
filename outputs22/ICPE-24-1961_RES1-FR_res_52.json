@@ -1,0 +1,1356 @@
+{
+  "TEXT_ID": "ICPE-24-1961_RES1-FR_res_52",
+  "RECOMMENDATION": 52,
+  "TITLE": "L'ORGANISATION DE L'ÉCOLE PRIMAIRE À MAITRE UNIQUE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-24-1961_RES1-FR",
+      "nb_paras": 50,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "operative_para": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d'Education, et s'y étant réunie le trois juillet mil neuf cent soixante et un en sa vingt-quatrième session, adopte le treize juillet mil neuf cent soixante et un la recommandation suivante : La Conférence,",
+        "tags": [
+          "CUR_IMPL",
+          "O_G"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_IMPL and O_G are selected because the paragraph discusses curriculum-related recommendations (CUR_IMPL) and general educational orientation (O_G). Related paragraphs 2, 3, 12, 47-49 are connected through supporting (legal basis, prior recommendations), complemental (process details), and contextual links.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 3, 1961, in its twenty-fourth session, adopts on July 13, 1961, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant la Recommandation n° 47 aux Ministères de l'instruction publique concernant les possibilités d'accès à l'éducation dans les zones rurales, adoptée le seize juillet mil neuf cent cinquante-huit par la Conférence internationale de l'instruction publique réunie en sa vingt et unième session,",
+        "tags": [
+          "POP_RUR"
+        ],
+        "type": "preambular",
+        "think": "The paragraph focuses on rural education access (POP_RUR). Paragraph 3 (Article 26) supports the recommendation's principle of free primary education. Paragraph 4 complements by addressing rural challenges. Paragraphs 48, 49, and 50 describe implementation steps (dissemination, regional review, adaptation), which modify or support the recommendation's application.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "48": [
+            "supporting"
+          ],
+          "49": [
+            "modifying"
+          ],
+          "50": [
+            "modifying"
+          ]
+        },
+        "para_en": "Considering Recommendation No. 47 to the Ministries of Public Instruction concerning the possibilities of access to education in rural areas, adopted on July 16, 1958, by the International Conference on Public Instruction convened in its twenty-first session,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant l'article 26 de la Déclaration universelle des droits de l'homme qui proclame qu'un enseignement primaire gratuit et obligatoire doit être assuré à tous,",
+        "tags": [
+          "ISC_1",
+          "POL_EQUIT",
+          "LAW_REG"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_1 (primary education) and POL_EQUIT (access equity) are directly supported by the reference to Article 26's universal education mandate. LAW_REG applies as it cites a legal framework. Related paragraphs discuss single-teacher schools (5,14,39), access equity (4), and universal education implementation (13), all connected to the target's focus on compulsory primary education.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering Article 26 of the Universal Declaration of Human Rights which proclaims that free and compulsory primary education shall be provided to all,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant qu'il importe de surmonter les difficultés de tous ordres afin que les enfants des petites agglomérations puissent, sans être séparés de leur famille, accéder à l'éducation dans des conditions équivalentes à celles qui sont faites à leurs camarades des localités plus importantes,",
+        "tags": [
+          "POP_RUR",
+          "CCUT_INCL"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_RUR (small communities) and CCUT_INCL (inclusive education) are selected because the paragraph emphasizes rural access and equitable education. Relations are established with paragraphs discussing single-teacher schools (5,6,11,20,24,29) as they address similar contexts and solutions.",
+        "matched_pars": {
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "24": [
+            "supporting"
+          ],
+          "29": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that it is important to overcome difficulties of all kinds so that children in small communities can access education under conditions equivalent to those afforded to their peers in larger localities, without being separated from their families,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que, dans de nombreux pays, l'institution des écoles à maître unique a facilité la généralisation de l'enseignement obligatoire,",
+        "tags": [
+          "Learning modality",
+          "Education level"
+        ],
+        "type": "preambular",
+        "think": "Tags 'Learning modality' and 'Education level' are selected because the paragraph discusses single-teacher schools (a learning modality) and compulsory education (an education level). Related paragraphs provide supporting, modifying, or complemental information about single-teacher schools' roles, conditions, and applications.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "modifying"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, in many countries, the establishment of single-teacher schools has facilitated the widespread implementation of compulsory education,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que, malgré les changements intervenus, dans certains pays, dans les conditions de vie des petites agglomérations et la diminution du nombre des écoles à maître unique résultant de cette évolution, c'est par millions que se chiffrent encore les enfants qui fréquentent les écoles primaires à maître unique,",
+        "tags": [
+          "POP_RUR"
+        ],
+        "type": "preambular",
+        "think": "The paragraph focuses on single-teacher primary schools in small communities, which aligns with POP_RUR (Rural and remote learners). Related paragraphs discuss school completeness (7,8), infrastructure challenges (9), diverse solutions (11), and policy considerations (21,22), all of which are contextually connected to rural education systems.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that, despite changes occurring in certain countries in the living conditions of small communities and the reduction in the number of single-teacher schools resulting from this evolution, millions of children still attend single-teacher primary schools,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que, pour être en mesure d'assurer à ses élèves le passage éventuel dans une autre école primaire et l'accès aux études post-primaires, l'école à maître unique doit être « complète », c'est-à-dire compter autant d'années d'études que l'école primaire de type courant,",
+        "tags": [
+          "ISC_1"
+        ],
+        "type": "preambular",
+        "think": "The tag ISC_1 (Primary education) is selected because the paragraph explicitly discusses the requirement for single-teacher schools to match the number of years in standard primary education. Related paragraphs: 8 (supporting, as it addresses transforming schools into 'complete' ones as defined in para 7), 9 (complemental, discussing the role of complete schools in specific contexts), 15 (complemental, addressing incomplete schools as a contrast), 19 (supporting, linking grouping of years to transition to standard models), and 31 (supporting, ensuring equal educational standards between school types).",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "31": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, in order to be able to ensure for its students the possible transition to another primary school and access to post-primary education, the single-teacher school must be \"complete,\" that is to say, have as many years of study as the standard primary school,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant qu'il est urgent de transformer les écoles incomplètes à maître unique en écoles complètes à maître unique,",
+        "tags": [
+          "T_OTHER",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags T_OTHER and CUR_IMPL are selected because the paragraph focuses on single-teacher schools (teachers) and transforming educational structures (curriculum implementation). Related paragraphs: 18 directly addresses transformation (supporting), 14 emphasizes systemic contribution (supporting), 9 complements ongoing roles (complemental), 45 supports with expertise (supporting), and 20 adds conditions about regional schools (modifying).",
+        "matched_pars": {
+          "18": [
+            "supporting"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "20": [
+            "modifying"
+          ]
+        },
+        "para_en": "Considering that it is urgent to transform incomplete single-teacher schools into complete single-teacher schools,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que l'école complète à maître unique est appelée à rendre encore de grands services, surtout dans les pays qui se préoccupent actuellement d'organiser leur propre système d'enseignement primaire obligatoire alors que les moyens de communication et de transport dont ils disposent. dans certaines régions sont encore insuffisants,",
+        "tags": [
+          "SYST_OTHER",
+          "POP_RUR"
+        ],
+        "type": "preambular",
+        "think": "Tags 'SYST_OTHER' (education system monitoring) and 'POP_RUR' (rural learners) are selected because the paragraph discusses single-teacher schools in regions with insufficient infrastructure (implying rural areas) and their role in national education systems. Related paragraphs address complementary aspects (10, 11, 14, 15, 20, 45) with varying relation types: 'complemental' (expanding context), 'supporting' (reinforcing importance), and 'modifying' (adding conditions). Confidence scores reflect clarity of semantic connections.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "modifying"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "Whereas the single-teacher full primary school is expected to continue to provide significant services, especially in countries that are currently concerned with organizing their own system of compulsory primary education, while the communication and transportation means available to them in certain regions remain insufficient,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant que peu d'importance a généralement été accordée jusqu'ici à l'étude des problèmes de tous ordres que pose le bon fonctionnement des écoles primaires à maître unique,",
+        "tags": [
+          "PEDAG_OTHER",
+          "ISC_1"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_OTHER and ISC_1 are selected because the paragraph discusses pedagogical issues (PEDAG_OTHER) and primary education (ISC_1). Related paragraphs: 37 (supporting) addresses pedagogical research directly; 39 (complemental) links to curriculum integration; 26 (supporting) proposes institutional solutions; 11 (complemental) discusses diverse solutions; 40 (complemental) emphasizes practical training.",
+        "matched_pars": {
+          "37": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that little importance has generally been given thus far to the study of the various issues involved in the proper functioning of single-teacher primary schools,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses. au problème de l'organisation de l'école primaire à maître unique,",
+        "tags": [
+          "T_OTHER",
+          "POL_OTH"
+        ],
+        "type": "preambular",
+        "think": "Tags T_OTHER and POL_OTH are selected because the paragraph focuses on single-teacher schools (teachers) and policy solutions for diverse national contexts. Related paragraphs address complementary aspects (13: minimum instruction standards, 21: population wishes, 23: opening conditions, 22: periodic reviews, 12: policy recommendations, 43: teacher training).",
+        "matched_pars": {
+          "13": [
+            "supporting"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "22": [
+            "modifying"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that, despite similar aspirations, countries with very different circumstances must provide diverse solutions to the problem of organizing single-teacher primary schools,"
+      },
+      {
+        "para_number": 12,
+        "para": "Soumet aux Ministères de l'instruction publique des différents pays. la recommandation suivante :",
+        "tags": [
+          "SYST_OTHER",
+          "POL_OTH"
+        ],
+        "type": "operative",
+        "think": "Tags 'SYST_OTHER' (Education system monitoring & evaluation) and 'POL_OTH' (Policy theme | Other policy theme) are selected because the paragraph involves submitting a policy recommendation related to education systems. Related paragraphs 13-50 address implementation details (e.g., curriculum standards, single-teacher schools, dissemination, adaptation), which are all complementary to the core policy recommendation in para 12. Relations are categorized based on semantic alignment: supporting (para 13), complemental (others) with confidence scores reflecting explicit connections to the target paragraph's policy framework.",
+        "matched_pars": {
+          "13": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Education of the different countries the following recommendation:"
+      },
+      {
+        "para_number": 13,
+        "para": "1. Quel que soit le caractère, urbain ou rural, de son lieu d'origine: et de sa résidence, tout enfant qui fréquente une école primaire, qu'il s'agisse d'une école à plusieurs maîtres ou d'une école à maître unique, doit y recevoir le minimum d'instruction qui lui sera indispensable aussi bien pour poursuivre ses études au-delà du degré primaire que pour pouvoir bénéficier d'une formation complémentaire le préparant à remplir ses obligations d'homme et de citoyen.",
+        "tags": [
+          "ISC_1",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and M_FORM (Formal education) are selected because the paragraph explicitly discusses primary schools (ISCED 1) and formal instruction. Relations: Para 14 (supporting) directly addresses single-teacher schools in expansion plans, aligning with the target's focus. Para 31 (supporting) ensures curriculum equality between school types, reinforcing the target's equal opportunity emphasis. Paras 15/20 (complemental) address specific implementation challenges (incomplete schools, regional transfers) related to the target's general principles. Para 38/43 (supporting) address teacher qualifications and equity, which are implied in the target's 'minimum instruction' requirement.",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "1. Regardless of whether a child’s place of origin and residence is urban or rural, every child attending a primary school—whether it is a multi-teacher school or a single-teacher school—must receive the minimum instruction necessary both to pursue studies beyond the primary level and to benefit from supplementary training that prepares them to fulfill their duties as an individual and as a citizen."
+      },
+      {
+        "para_number": 14,
+        "para": "2. Lors de l'élaboration des plans d'extension de l'enseignement primaire ou de généralisation de l'enseignement obligatoire, il convient d'accorder une attention toute spéciale à la contribution que le système des écoles complètes à maître unique peut apporter à la réalisation de ces. plans.",
+        "tags": [
+          "ISC_1",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and CUR_IMPL (Curriculum implementation) are selected because the paragraph discusses primary education expansion and the role of single-teacher schools in curriculum-related plans. Related paragraphs address incomplete schools (15), advocacy for single-teacher systems (16), school transformation (18), teacher training (39), and international collaboration (45/46), all of which are semantically connected to the target's focus on single-teacher schools and their implementation.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "2. When developing plans for the expansion of primary education or the generalization of compulsory schooling, special attention should be given to the contribution that the system of single-teacher comprehensive schools can make to the realization of these plans."
+      },
+      {
+        "para_number": 15,
+        "para": "3. Là où l'école primaire à maître unique est « incomplètes, en ce sens que le nombre des années d'études y est inférieur à celui qui est prescrit pour les autres écoles primaires, il importe d'assurer à ses élèves. d'autres moyens, tenant compte des conditions locales, pour parfaire leur instruction sans difficulté.",
+        "tags": [
+          "ISC_1",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and PEDAG_OTHER (Pedagogy & assessment) are selected because the paragraph focuses on primary education structures and pedagogical strategies to address incomplete single-teacher schools. Related paragraphs provide supporting/modifying context on transforming schools, regional solutions, student numbers, and curriculum equivalence.",
+        "matched_pars": {
+          "16": [
+            "supporting"
+          ],
+          "18": [
+            "supporting"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "28": [
+            "modifying"
+          ],
+          "31": [
+            "supporting"
+          ]
+        },
+        "para_en": "3. Where the single-teacher primary school is \"incomplete,\" in the sense that the number of years of study is less than that required for other primary schools, it is important to provide its pupils with other means, taking local conditions into account, to complete their education without difficulty."
+      },
+      {
+        "para_number": 16,
+        "para": "4. Là où l'on estime encore que l'école confiée à un seul maître ne peut assurer qu'une partie de l'enseignement du premier degré, une action des plus intenses doit être menée pour convaincre les autorités scolaires et les enseignants: a) que l'analphabétisme a pratiquement disparu des pays où un système d'écoles complètes à maître unique a permis la scolarisation totale; b) que des pays qui sont à la tête du développement éducatif mondial continuent à utiliser ce système lorsque les difficultés de transport ou de financement ne leur permettent pas de regrouper les élèves des petites localités dans des écoles centrales, avec ou sans internat; c) que, malgré ses insuffisances, l'école complète à maître unique offre d'indéniables avantages sur le triple plan pédagogique (étude du milieu,. travail de groupe et travail individuel), humain (atmosphère de famille, rapports avec autrui et coopération) et social (extension de l'influence de l'école et sa contribution à l'éducation des adultes). — 143 —",
+        "tags": [
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on pedagogical advantages of single-teacher schools (PEDAG_OTHER). Related paragraphs discuss complementary aspects (17, 21), supporting measures (18, 44, 45), and modifying conditions (20).",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "supporting"
+          ],
+          "20": [
+            "modifying"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "44": [
+            "supporting"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. Where it is still believed that a single-teacher school can only provide part of primary education, a vigorous effort must be made to convince educational authorities and teachers: a) that illiteracy has practically disappeared in countries where a system of single-teacher full schools has enabled universal schooling; b) that countries at the forefront of global educational development continue to use this system when transportation or funding difficulties do not allow them to consolidate students from small localities into central schools, with or without boarding facilities; c) that despite its shortcomings, the single-teacher full school offers undeniable advantages in three key areas: pedagogical (environmental study, group work, and individual work), human (family-like atmosphere, interpersonal relationships, and cooperation), and social (expansion of the school’s influence and its contribution to adult education)."
+      },
+      {
+        "para_number": 17,
+        "para": "5. Dans les pays en voie de développement et dans les régions insuffisamment développées des autres pays où il est nécessaire d'organiser des écoles à maître unique, celles-ci devraient servir non seulement à l'instruction des enfants, mais aussi à l'éducation des adultes et à la mise en œuvre des plans de développement économique et social.",
+        "tags": [
+          "POP_POOR"
+        ],
+        "type": "operative",
+        "think": "Tags: POP_POOR is selected because the paragraph emphasizes adult education and economic/social development plans, targeting low-income groups. Relations: Para 18 (modifying) addresses transforming schools to enhance their role; Para 20 (complemental) discusses alternative solutions for single-teacher schools; Para 22 (supporting) aligns with adapting schools to new circumstances; Para 41 (complemental) introduces pilot schools for training; Para 43 (modifying) focuses on equalizing teacher conditions to improve quality.",
+        "matched_pars": {
+          "18": [
+            "modifying"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "22": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "43": [
+            "modifying"
+          ]
+        },
+        "para_en": "5. In developing countries and in underdeveloped regions of other countries where it is necessary to organize single-teacher schools, these should serve not only for the instruction of children but also for adult education and the implementation of economic and social development plans."
+      },
+      {
+        "para_number": 18,
+        "para": "6. Il est souhaitable que les écoles incomplètes à maître unique qui existent actuellement, comme celles qui viendraient à être créées, soient transformées aussitôt que possible et selon des plans préétablis en écoles complètes à maitre unique, voire en écoles à deux ou plusieurs maîtres si les circonstances l'exigent.",
+        "tags": [
+          "T_OTHER",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (single-teacher schools) and CUR_IMPL (transformation plans) are directly supported. Relations: Para 19 supports by explaining transition mechanisms; Para 20 modifies by addressing exceptions; Para 22 supports by emphasizing adaptation; Para 35 and 41 complement with infrastructure and training; Para 45 supports by advocating expert assistance.",
+        "matched_pars": {
+          "19": [
+            "supporting"
+          ],
+          "20": [
+            "modifying"
+          ],
+          "22": [
+            "supporting"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "It is desirable that the existing incomplete single-teacher schools, as well as those that may be established, be transformed as soon as possible and according to pre-established plans into complete single-teacher schools, or even into schools with two or more teachers if circumstances require."
+      },
+      {
+        "para_number": 19,
+        "para": "7. Les écoles complètes dans lesquelles deux ou trois années d'études sont groupées sous la direction de chacun des maîtres peuvent ménager la transition vers l'école primaire de type courant.",
+        "tags": [
+          "ISC_1",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and M_FORM (Formal education) are selected because the paragraph focuses on primary school curriculum standards and formal schooling structures. Related paragraphs address single-teacher school contexts, curriculum equality, student numbers, teacher training, and community considerations, which are all connected to the target paragraph's focus on ensuring equitable educational opportunities.",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "21": [
+            "supporting"
+          ],
+          "28": [
+            "modifying"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. Complete schools in which two or three years of study are grouped under the direction of each teacher can facilitate the transition to the standard primary school model."
+      },
+      {
+        "para_number": 20,
+        "para": "8. Si des écoles incomplètes à maître unique devaient subsister pour des raisons d'ordre local, il importe de permettre à leurs élèves de terminer leurs études primaires dans une école régionale.",
+        "tags": [
+          "POP_RUR",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags POP_RUR (rural learners) and ISC_1 (primary education) are selected because the paragraph discusses single-teacher schools in rural contexts and primary education completion. Paragraph 21 is directly related as it addresses preserving schools for local populations, aligning with the target's focus on enabling students to attend regional schools. Paragraph 23 is related as it outlines principles for single-teacher schools, supporting the target's context of local school persistence.",
+        "matched_pars": {
+          "21": [
+            "supporting"
+          ],
+          "23": [
+            "supporting"
+          ]
+        },
+        "para_en": "8. If single-teacher incomplete schools were to persist for local reasons, it is important to enable their students to complete their primary education in a regional school."
+      },
+      {
+        "para_number": 21,
+        "para": "9. Dans les pays où, par suite de changements d'ordre démographique ou dans un souci de rationaliser le réseau scolaire, la tendance est à la suppression des écoles primaires à maître unique, il serait souhaitable qu'avant de procéder aux regroupements envisagés on tienne compte des vœux des populations intéressées, et notamment des parents, qui désireraient garder une école qui constitue souvent leur seul centre de vie culturelle et sociale.",
+        "tags": [
+          "ACT_PARENT",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_PARENT is selected because the paragraph emphasizes considering parents' wishes. POP_RUR is chosen as the context involves rural areas where single-teacher schools serve as cultural/social hubs. Related paragraphs: 22 (complemental - both discuss adapting to demographic changes), 23 (supporting - principles align with community-focused policies), 26/27 (complemental - advisory bodies address school functioning), 42 (complemental - teacher development in isolated schools). Confidence scores reflect varying degrees of semantic overlap.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. In countries where, as a result of demographic changes or in an effort to rationalize the school network, there is a tendency to eliminate single-teacher primary schools, it would be advisable that before proceeding with the proposed consolidations, the wishes of the affected populations—particularly parents who wish to retain a school that often constitutes their only center of cultural and social life—be taken into account."
+      },
+      {
+        "para_number": 22,
+        "para": "10. Dans les pays où la situation démographique et le mode de vie des petites communautés évoluent rapidement, il y aurait lieu de reviser périodiquement les dispositions qui régissent l'école à maître unique afin de les adapter aux nouvelles circonstances.",
+        "tags": [
+          "Education system monitoring & evaluation",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags 'Education system monitoring & evaluation' applies because the paragraph emphasizes periodic review and adaptation of regulations. 'POP_RUR' is relevant as single-teacher schools often serve rural/small communities. Paragraph 23 provides supporting principles for school openings, 26/27 complement by discussing advisory bodies and functional studies of single-teacher schools.",
+        "matched_pars": {
+          "23": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. In countries where the demographic situation and the way of life of small communities are evolving rapidly, it would be appropriate to periodically review the provisions governing single-teacher schools in order to adapt them to new circumstances."
+      },
+      {
+        "para_number": 23,
+        "para": "11. Encore que les conditions exigées pour l'ouverture d'une école à maître unique varient considérablement selon les pays (nombre d'habitants, distances trop grandes jusqu'à une autre école, etc.), les autorités devraient s'inspirer de deux principes essentiels: a) ne pas retarder l'ouverture d'une école dans une localité jusqu'à ce que les effectifs scolaires y requièrent la présence de plusieurs maitres; b) s'assurer que les exigences réglementaires qui conditionnent l'ouverture d'une école à maître unique sont assez souples pour faciliter au maximum la fréquentation d'une école par tous les enfants du pays.",
+        "tags": [
+          "LAW_REG",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_REG and T_OTHER are selected because the paragraph discusses regulatory requirements (LAW_REG) and teacher-related conditions (T_OTHER). Related paragraphs address support measures (24,25,41), pupil grouping (29), enrollment limits (28), and teacher training (38), which complement or modify the target paragraph's principles.",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "28": [
+            "modifying"
+          ],
+          "29": [
+            "modifying"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ]
+        },
+        "para_en": "11. Although the conditions required for the opening of a single-teacher school vary considerably from country to country (population size, excessively long distances to another school, etc.), authorities should be guided by two essential principles: a) not to delay the opening of a school in a locality until the school enrollment justifies the presence of several teachers; b) to ensure that the regulatory requirements conditioning the opening of a single-teacher school are sufficiently flexible to facilitate, to the greatest extent possible, school attendance by all children in the country."
+      },
+      {
+        "para_number": 24,
+        "para": "12. Tout devrait être mis en œuvre pour rompre l'isolement de l'école à maître unique tant en ce qui concerne le maître (attention spéciale de l'inspection, conseillers pédagogiques, documentation pour la classe, cercles d'études, relations suivies avec des établissements scolaires plus importants, etc.) qu'en ce qui concerne les élèves (visites de médecins scolaires, correspondance interscolaire, coopération scolaire, excursions, échanges d'élèves, participation aux mêmes examens de fin d'études que les élèves des autres écoles, etc.).",
+        "tags": [
+          "ACT_EDUC",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Teachers and educators) and PEDAG_OTHER (Other pedagogy related issue) are selected because the paragraph emphasizes teacher support (special attention, professional development) and pedagogical strategies (study groups, cooperation) to address single-teacher school isolation. Related paragraphs provide complementary measures (mobile libraries, advisory bodies, teaching materials, research, professional development, document exchange) that align with the target paragraph's focus on systemic support and pedagogical integration.",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "Every effort should be made to break the isolation of the single-teacher school both in terms of the teacher (special attention from inspectors, educational advisors, classroom materials, study groups, sustained relationships with larger schools, etc.) and in terms of the pupils (visits from school doctors, interschool correspondence, school cooperation, excursions, student exchanges, participation in the same final examinations as pupils from other schools, etc.)."
+      },
+      {
+        "para_number": 25,
+        "para": "13. Il est hautement souhaitable que les services d'une bibliothèque itinérante soient étendus aussi largement que possible aux écoles à maître — 144 — unique, afin de satisfaire aux besoins du maître et de la communauté comme à ceux des élèves; en outre, les écoles intéressées devraient obtenir l'aide nécessaire pour acquérir en propre les quelques ouvrages de référence indispensables.",
+        "tags": [
+          "T_OTHER",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (Teachers | Teacher other) and POP_RUR (Learner population | Rural and remote learners) are selected because the paragraph focuses on single-teacher schools, which are often in rural areas, and addresses teacher support needs. Related paragraphs discuss advisory bodies (26), consultative functions (27), teaching guides (33), audio-visual aids (34), professional development (42), and working conditions (44), all of which complement the target paragraph's focus on supporting single-teacher schools.",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ]
+        },
+        "para_en": "It is highly desirable that the services of a mobile library be extended as widely as possible to single-teacher schools, in order to meet the needs of both the teacher and the community as well as those of the pupils; furthermore, the schools concerned should receive the necessary assistance to acquire for themselves the few essential reference works."
+      },
+      {
+        "para_number": 26,
+        "para": "14. Il conviendrait de constituer, au sein de l'administration supérieure de l'enseignement du premier degré, un organe consultatif qui, avec la collaboration d'autres ministères ou départements et avec celle de représentants des maîtres intéressés, serait chargé d'étudier, sous leurs différents aspects, les problèmes qui touchent au fonctionnement de l'école primaire à maître unique.",
+        "tags": [
+          "SYST_OTHER",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags SYST_OTHER and T_OTHER are selected because the paragraph discusses establishing an advisory body (system-level structure) and involves teacher representatives. Related paragraphs address functions (27), student numbers (28), pedagogical research (37), curriculum integration (39), pilot schools (41), and external support (45), all of which are directly or indirectly connected to the advisory body's scope.",
+        "matched_pars": {
+          "27": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "14. It would be appropriate to establish, within the higher administration of primary education, an advisory body which, in collaboration with other ministries or departments and representatives of the teachers concerned, would be responsible for examining, from multiple perspectives, the issues related to the functioning of the single-teacher primary school."
+      },
+      {
+        "para_number": 27,
+        "para": "15. Un tel organe de consultation et d'étude devrait avoir notamment pour fonctions: a) de procéder à un examen impartial et objectif des avantages et des inconvénients que présente l'école à maître unique; b) d'examiner par quels moyens, lorsque l'existence de ces écoles s'avère nécessaire, il peut être porté remède à leurs inconvénients et de quelle façon il est possible d'améliorer leur rendement; c) d'étudier les aspects financier, social, culturel, pédagogique, etc. du maintien des écoles de ce type ou de leur transformation en écoles à plusieurs maîtres; d) d'envisager une action propre à encourager les maîtres et à faciliter leur travail.",
+        "tags": [
+          "PEDAG_OTHER",
+          "SYST_INST"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_OTHER and SYST_INST are selected because the paragraph focuses on pedagogical research (PEDAG_OTHER) and institutional evaluation of single-teacher schools (SYST_INST). Related paragraphs provide specific details (28, 29, 41, 44) or broader implementation context (50) that complement the target paragraph's discussion of study body functions.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "37": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. Such a consultative and study body should have the following functions in particular: a) to conduct an impartial and objective review of the advantages and disadvantages presented by the single-teacher school; b) to examine by what means, when the existence of these schools proves necessary, their drawbacks can be remedied and how their effectiveness can be improved; c) to study the financial, social, cultural, pedagogical, and other aspects of maintaining such schools or transforming them into multi-teacher schools; d) to consider actions aimed at encouraging teachers and facilitating their work."
+      },
+      {
+        "para_number": 28,
+        "para": "16. Le titulaire d'une écolé à maître unique ayant à s'occuper d'élèves d'âges très différents correspondant à plusieurs années d'études, l'effectif de ce type d'école ne devrait pas dépasser le nombre des élèves normalement confiés à chaque instituteur dans une école primaire à plusieurs maîtres; il devrait même lui être inférieur.",
+        "tags": [
+          "T_OTHER",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (Teachers | Teacher other) is selected because the paragraph focuses on the responsibilities and capacity of single-teacher schools. ISC_1 (Education level | Primary education) is selected due to explicit mention of 'primary school' in the text. Paragraph 29 is related as it discusses grouping strategies for single-teacher schools, complementing the discussion on student management and teacher workload.",
+        "matched_pars": {
+          "29": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. The head of a single-teacher school having to care for students of very different ages corresponding to several years of study, the number of pupils in such a school should not exceed the number normally entrusted to each teacher in a multi-teacher primary school; it should even be lower."
+      },
+      {
+        "para_number": 29,
+        "para": "17. Dans l'impossibilité où se trouve le titulaire d'une école à maître unique de s'occuper à la fois de tous les élèves, il importe de constituer des groupes le plus homogènes possible tenant compte de l'âge, des aptitudes et des connaissances des enfants.",
+        "tags": [
+          "POP_CHILD",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POP_CHILD (children mentioned in 'children' and 'students') and T_OTHER (teacher management of groups) are directly supported. Para 30 discusses group dynamics and pupil assistance, complementing the target's group formation focus. Para 32 explicitly supports group work principles mentioned in the target paragraph.",
+        "matched_pars": {
+          "30": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ]
+        },
+        "para_en": "17. When the teacher of a single-teacher school is unable to simultaneously attend to all the students, it is important to form groups that are as homogeneous as possible, taking into account the age, abilities, and knowledge of the children."
+      },
+      {
+        "para_number": 30,
+        "para": "18. Bien que le rôle de l'élève-moniteur ait perdu de son importance dans l'enseignement proprement dit, le maître et les enfants peuvent encore tirer profit de l'aide directe des élèves les plus avancés, aide qui, outre son effet stimulant, facilite l'organisation générale de la classe, les exercices de répétition, la conduite des travaux pratiques et celle des jeux, sports et activités de plein air.",
+        "tags": [
+          "PEDAG_METHO",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and T_OTHER are selected because the paragraph discusses teaching methods (e.g., organization of class activities, group work) and the role of teachers and students in classroom dynamics. Paragraph 32 (relation to psychopedagogical principles) and 40 (student-teachers practicing in single-teacher schools) are complemental as they both address pedagogical approaches and practical application in single-teacher contexts.",
+        "matched_pars": {
+          "32": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ]
+        },
+        "para_en": "18. Although the role of the pupil-monitor has diminished in importance within formal teaching, both the teacher and the children can still benefit from the direct assistance of the more advanced pupils, assistance which, in addition to its motivating effect, facilitates the overall organization of the class, the repetition exercises, the management of practical activities, as well as the conduct of games, sports, and outdoor activities."
+      },
+      {
+        "para_number": 31,
+        "para": "19. A l'école primaire à maître unique, le contenu des plans d'études et des programmes, tout comme le nombre des années de scolarité, ne devrait pas être inférieur à celui de l'école primaire à plusieurs maîtres afin que les élèves de l'un et de l'autre type d'école aient les mêmes possibilités d'accéder aux études de niveau post-primaire.",
+        "tags": [
+          "ISC_1",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and CUR_CONTENT (Curriculum content) are selected because the paragraph focuses on primary school curriculum equality. Related paragraphs address curriculum implementation (33), teacher training equality (38), and professional development (43) which directly support the target's focus on equal opportunities. Paragraph 32 and 39 provide complementary context on teaching methods and curriculum inclusion.",
+        "matched_pars": {
+          "32": [
+            "complemental"
+          ],
+          "33": [
+            "supporting"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "19. In a single-teacher primary school, the content of the curricula and programs, as well as the number of years of schooling, should not be less than those of a multi-teacher primary school, so that students from both types of schools have the same opportunities to access post-primary level studies."
+      },
+      {
+        "para_number": 32,
+        "para": "20. Etant donné que l'école à maitre unique se différencie de l'école à plusieurs maîtres non par les exigences des programmes mais par l'organisation interne du travail scolaire, il convient de mettre l'accent d'une façon toute particulière, dans les instructions et les directives destinées aux écoles à maître unique, sur le fait que ces dernières se prêtent beaucoup plus que les autres types d'écoles à l'application de certains principes psychopédagogiques tels que le travail individuel et le travail de groupe. 145 —",
+        "tags": [
+          "PEDAG_METHO",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and CUR_ORG are selected because the paragraph focuses on psychopedagogical principles (teaching methods) and internal organization of schoolwork. Related paragraphs provide supporting details on resources (34, 36), infrastructure (35), practical experience (40), and professional development (42), all complementing the target's discussion of single-teacher school implementation.",
+        "matched_pars": {
+          "33": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "20. Given that the single-teacher school differs from the multiple-teacher school not in the demands of the curricula but in the internal organization of schoolwork, particular emphasis should be placed, in the instructions and guidelines intended for single-teacher schools, on the fact that these schools are much more suited than other types of schools to the application of certain psychopedagogical principles, such as individual work and group work."
+      },
+      {
+        "para_number": 33,
+        "para": "21. L'élaboration de guides didactiques destinés au personnel enseignant des écoles à maitre unique se justifie pleinement; de plus, 1 y a lieu d'encourager les revues pédagogiques à faire des suggestions intéressant directement les titulaires des écoles à maître unique.",
+        "tags": [
+          "T_PDEV",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) and ACT_EDUC (Teachers and educators) are selected because the paragraph focuses on creating teaching resources and suggestions for single-teacher school teachers, which directly relates to professional development and educator stakeholder needs. Related paragraphs: 34 (complemental - materials support), 37 (supporting - research aligns with pedagogical guidance), 39 (complemental - curriculum integration), 41 (complemental - training institutions link to professional development).",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. The development of teaching guides intended for the staff of single-teacher schools is fully justified; furthermore, it is appropriate to encourage educational journals to make suggestions directly relevant to the teachers of single-teacher schools."
+      },
+      {
+        "para_number": 34,
+        "para": "22. S'il est matériellement difficile d'élaborer des manuels spéciaux pour les écoles à maître unique, il importe cependant de mettre à la disposition de ces écoles des auxiliaires audio-visuels, des recueils d'exercices gradués, des fiches de travail individuelles et tout autre matériel didactique adapté à l'enseignement simultané.",
+        "tags": [
+          "PEDAG_OTHER",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_OTHER and T_OTHER are selected because the paragraph focuses on pedagogical resources (audio-visual aids, graded exercises) and teacher support for single-teacher schools. Related paragraphs address physical infrastructure (35), furniture (36), curriculum inclusion (39), and professional development (42, 44), which are all interconnected aspects of supporting single-teacher schools.",
+        "matched_pars": {
+          "35": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ]
+        },
+        "para_en": "22. Although it is practically difficult to develop special textbooks for single-teacher schools, it is nevertheless important to provide these schools with audio-visual aids, collections of graded exercises, individual work sheets, and any other teaching materials adapted to simultaneous instruction."
+      },
+      {
+        "para_number": 35,
+        "para": "23. Le bâtiment de l'école à maître unique doit être conçu en fonction des besoins propres à ce type d'école; afin de faciliter les activités simultanées de groupes différents, il convient de prévoir des coins de travail ou des locaux supplémentaires, disposés de façon que le maître puisse assurer en permanence la surveillance de l'ensemble de ses élèves; partout où la chose est réalisable, il faudrait pouvoir disposer d'un terrain pour la pratique du jardinage et l'élevage de petits animaux.",
+        "tags": [
+          "INFRA_BUILD",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on designing single-teacher school buildings (INFRA_BUILD) and the teacher's role in supervision (T_OTHER). Paragraph 36 complements with furniture/equipment details. Paragraph 44 addresses working conditions (complemental). Paragraphs 42 and 41 relate to teacher development/training, which indirectly connects to the teacher's responsibilities mentioned in the target paragraph.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ]
+        },
+        "para_en": "23. The single-teacher school building must be designed according to the specific needs of this type of school; in order to facilitate the simultaneous activities of different groups, it is appropriate to provide work areas or additional rooms arranged in such a way that the teacher can continuously supervise all of their students; wherever possible, there should be land available for gardening practice and the raising of small animals."
+      },
+      {
+        "para_number": 36,
+        "para": "24. Les autorités scolaires doivent se préoccuper des exigences spéciales qui, du point de vue de l'équipement en mobilier et en matériel, sont le fait des écoles à maître unique (pupitres, tables et chaises adaptés aux enfants des différents âges, nombre plus grand de tableaux noirs dont l'instituteur a besoin, etc.).",
+        "tags": [
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on pedagogical requirements for single-teacher schools (furniture, equipment, blackboards), which falls under 'Pedagogy & assessment | Other pedagogy related issue' (PEDAG_OTHER). Related paragraphs: 37 (supporting) discusses pedagogical research on single-teacher schools, aligning with the need for addressing their specific requirements. 39 (complemental) mentions curriculum inclusion of single-teacher school issues, which complements the target paragraph's focus on infrastructure needs.",
+        "matched_pars": {
+          "37": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "24. Educational authorities must address the special requirements related to furniture and equipment specific to single-teacher schools (desks, tables, and chairs adapted to children of different ages, a greater number of blackboards needed by the teacher, etc.)."
+      },
+      {
+        "para_number": 37,
+        "para": "25. Les problèmes intéressant l'école à maître unique devraient faire l'objet de recherches de caractère pédagogique, les études expérimentales correspondantes étant de nature à faire avancer la connaissance des techniques de l'apprentissage en général.",
+        "tags": [
+          "PEDAG_OTHER",
+          "SYST_RESEAR"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_OTHER and SYST_RESEAR are selected because the paragraph emphasizes pedagogical research (PEDAG_OTHER) and systemic research (SYST_RESEAR). Related paragraphs discuss teacher training (38, 39, 40), pilot schools (41), expert involvement (45), and knowledge exchange (47), all of which complement or support the research focus.",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "25. Issues concerning the single-teacher school should be the subject of pedagogical research, with corresponding experimental studies aimed at advancing the knowledge of learning techniques in general."
+      },
+      {
+        "para_number": 38,
+        "para": "26. Quel que soit le type d'établissement dans lequel sont formés les instituteurs qui se verront confier plus tard une école à maitre unique, la durée et le niveau de leurs études devraient être les mêmes que pour leurs collègues appelés à exercer dans une école à plusieurs maîtres; de la sorte, aucun empêchement légal ne pourrait s'opposer au passage du titulaire d'une école à maître unique dans une école rurale ou urbaine à plusieurs maîtres, ou vice versa.",
+        "tags": [
+          "T_INI",
+          "T_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI and T_QUAL are selected because the paragraph focuses on initial training equivalence (T_INI) and qualification standardization (T_QUAL) for teachers in single-teacher vs. multi-teacher schools. Related paragraphs 39-41 discuss training curriculum (complemental) and 43 addresses qualification equality (supporting).",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "26. Regardless of the type of institution in which the teachers who will later be entrusted with a single-teacher school are trained, the duration and level of their studies should be the same as those of their colleagues assigned to work in a multi-teacher school; in this way, no legal obstacle could prevent the transfer of a single-teacher school holder to a rural or urban multi-teacher school, or vice versa."
+      },
+      {
+        "para_number": 39,
+        "para": "27. L'étude des problèmes qui se posent dans une école à maître unique peut être utile à tous les maîtres qui auront à exercer dans une école primaire et elle doit figurer, autant que possible, dans le plan d'études pour la formation des maîtres primaires.",
+        "tags": [
+          "T_INI",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (initial teacher training) and ISC_1 (primary education) are selected because the paragraph emphasizes including single-teacher school study in primary teacher training curricula. Related paragraphs 40, 41, and 45 provide complementary information about practical training (40), model schools for training (41), and expert support for curriculum implementation (45).",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. The study of the issues arising in a single-teacher school can be useful to all teachers who will work in a primary school, and it should be included, as far as possible, in the curriculum for the training of primary school teachers."
+      },
+      {
+        "para_number": 40,
+        "para": "28. Ce qui importe autant que les connaissances théoriques sur l'organisation de l'enseignement dans l'école à maitre unique, c'est la possibilité pour l'élève-maître de pratiquer l'enseignement dans une école de ce type; une telle expérience sera des plus précieuses pour l'ensemble des futurs maîtres primaires.",
+        "tags": [
+          "T_INI",
+          "Learning modality"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial education and training) applies because the paragraph emphasizes student-teachers gaining practical experience as part of their training. 'Learning modality' is relevant due to the focus on single-teacher schools as a specific teaching model. Paragraph 41 complements by discussing pilot schools linked to teacher training, while 45 adds related context about specialists aiding countries adopting the system.",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. What is as important as theoretical knowledge about the organization of education in a single-teacher school is the opportunity for the student-teacher to practice teaching in such a school; such experience will be of great value for all future primary school teachers."
+      },
+      {
+        "para_number": 41,
+        "para": "29. La création d'écoles pilotes à maître unique adaptées aux différentes régions peut s'avérer utile pour certains pays; il y aurait avantage à ce que ces écoles soient annexées à un établissement de formation pédagogique, de manière qu'elles puissent servir à la fois d'écoles d'application — 146 — pour les élèves-maîtres et de centres de perfectionnement pour les maîtres en exercice.",
+        "tags": [
+          "T_INI",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI and T_PDEV are selected because the paragraph discusses teacher training institutions (initial education) and professional development centers. Paragraph 42 complements by expanding on professional development needs. Paragraph 43 modifies by adding conditions for equality. Paragraphs 45 and 46 complement by addressing implementation support.",
+        "matched_pars": {
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "modifying"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. The establishment of pilot single-teacher schools adapted to different regions may prove useful for certain countries; it would be advantageous for these schools to be attached to a teacher training institution, so that they can serve both as model schools for student teachers and as professional development centers for in-service teachers."
+      },
+      {
+        "para_number": 42,
+        "para": "30. Compte tenu de leur isolement, le perfectionnement des titulaires d'une école à maître unique s'avère bien plus nécessaire encore que celui de leurs collègues des écoles à plusieurs maitres; il conviendrait de leur donner l'occasion de suivre des cours de vacances, des cours par correspondance, des cours par radio, des conférences pédagogiques de circonscription, et de les faire bénéficier des services d'une bibliothèque itinérante.",
+        "tags": [
+          "T_PDEV",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV is selected because the paragraph emphasizes professional development methods for single-teacher school teachers. POP_RUR is selected due to the mention of isolation, implying rural/remote contexts. Para 43 complements by addressing equality in professional development. Para 46 provides specific scholarship opportunities for development. Para 47 supports through resource exchange and meetings.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ]
+        },
+        "para_en": "30. Given their isolation, the professional development of teachers in single-teacher schools is even more necessary than that of their colleagues in multi-teacher schools; they should be given the opportunity to attend vacation courses, correspondence courses, radio courses, local pedagogical conferences, and to benefit from the services of a traveling library."
+      },
+      {
+        "para_number": 43,
+        "para": "31. Dans les pays où les titulaires des écoles à maître unique ont reçu une formation de niveau inférieur à celles des autres maîtres primaires, l'action entreprise en faveur de leur perfectionnement doit également tendre à les placer sur un plan d'égalité avec leurs collègues, afin de mettre un terme aux différences qui peuvent exister dans les conditions de nomination, de rémunération, de mutation, etc.",
+        "tags": [
+          "T_COND",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions/salaries) and T_PDEV (professional development) are selected because the paragraph explicitly mentions disparities in working conditions (appointment, remuneration, transfer) and professional development efforts. Paragraph 44 directly complements by detailing specific working condition improvements (housing, allowances) with high confidence. Paragraphs 45 and 46 complement by addressing broader professional development and system implementation, though with slightly lower confidence due to indirect connections.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "31. In countries where holders of single-teacher schools have received training at a level lower than that of other primary school teachers, efforts undertaken for their professional development must also aim to place them on an equal footing with their colleagues, in order to eliminate disparities that may exist in conditions of appointment, remuneration, transfer, etc."
+      },
+      {
+        "para_number": 44,
+        "para": "32. Etant donné les difficultés de leur tâche et le surcroît de responsabilités qui leur incombe, il conviendrait d'améliorer au maximum les conditions de travail des titulaires d'école à maître unique; ceux-ci devraient bénéficier d'une aide raisonnable en ce qui concerne le logement, les prestations médicales et le remboursement des frais de voyage nécessaires ; il faudrait aussi envisager la possibilité de leur octroyer une prime de direction, comme cela se fait déjà dans certain pays.",
+        "tags": [
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on improving working conditions (T_COND) for single-teacher school holders through financial support and allowances. Paragraph 45 discusses external expertise to enhance the single-teacher system, while paragraph 46 addresses professional development opportunities. Both are related to systemic improvements but address different aspects (support mechanisms vs. capacity building), warranting complemental relations.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "32. Given the difficulties of their task and the additional responsibilities they bear, the working conditions of single-teacher school holders should be improved to the greatest extent possible; they should receive reasonable assistance regarding housing, medical services, and reimbursement of necessary travel expenses; the possibility of granting them a leadership allowance, as is already done in certain countries, should also be considered."
+      },
+      {
+        "para_number": 45,
+        "para": "33. Il est hautement souhaitable que des spécialistes ou des enseignantes possédant une grand expérience de l'organisation des écoles complèetes à maître unique puissent être invités à aider les pays où ce système, encore imparfaitement connu, pourrait contribuer à résoudre le problème de la généralisation de l'enseignement obligatoire.",
+        "tags": [
+          "T_QUAL",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_QUAL and ACT_EDUC are selected because the paragraph emphasizes the need for qualified specialists/teachers with experience (T_QUAL) and focuses on educators as key stakeholders (ACT_EDUC). Para 46 is complemental as it addresses skill improvement aligned with the target's call for expertise. Para 47 is supporting as it provides mechanisms for knowledge exchange that reinforce the target's initiative.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ]
+        },
+        "para_en": "33. It is highly desirable that specialists or female teachers with extensive experience in the organization of single-teacher comprehensive schools be invited to assist countries where this system, still imperfectly known, could help address the challenge of universalizing compulsory education."
+      },
+      {
+        "para_number": 46,
+        "para": "34. Les programmes d'octroi de bourses devraient faire une place aux éducateurs désireux de se rendre à l'étranger pour y étudier le système de l'école complète à maître unique ou pour se perfectionner dans son application.",
+        "tags": [
+          "CUR_IMPL",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and POL_CUR are selected because the paragraph focuses on curriculum implementation (single-teacher system) and policy themes related to educator development. Paragraph 47 is complemental as it addresses professional development through document exchange and meetings, aligning with the scholarship programs in para 46. Paragraph 48 is supporting as it ensures the recommendation's dissemination, which reinforces the implementation efforts mentioned in para 46.",
+        "matched_pars": {
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "supporting"
+          ]
+        },
+        "para_en": "34. Scholarship programs should provide opportunities for educators wishing to go abroad to study the single-teacher comprehensive school system or to improve their skills in its implementation."
+      },
+      {
+        "para_number": 47,
+        "para": "35. L'Unesco, le Bureau international d'Education et les organismes régionaux d'éducation, de même que : les associations d'enseignants, devraient promouvoir et encourager l'échange de documents de tous ordres (textes officiels, rapports, études monographiques, films, manuels, etc.) et l'organisation de réunions professionnelles et stages d'études consacrés à l'examen des questions qui touchent l'école à maître unique (création et fonctionnement, formation des maitres, répartition horaire, méthodes appropriés, matériel d'enseignement, auxiliaires audio-visuels, etc.).",
+        "tags": [
+          "T_PDEV",
+          "INFRA_TLM"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) applies due to mentions of professional meetings/workshops for single-teacher schools. INFRA_TLM (Teaching materials) applies due to exchange of documents like manuals, films, and audiovisual aids. Para 48 (dissemination of recommendations) complements para 47's focus on document exchange. Para 49 (regional adaptation) complements by addressing implementation specifics.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "35. UNESCO, the International Bureau of Education, and regional educational organizations, as well as teachers' associations, should promote and encourage the exchange of documents of all kinds (official texts, reports, monographic studies, films, manuals, etc.) and the organization of professional meetings and study workshops dedicated to examining issues related to the single-teacher school (establishment and operation, teacher training, timetable distribution, appropriate methods, teaching materials, audiovisual aids, etc.)."
+      },
+      {
+        "para_number": 48,
+        "para": "36. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des associations internationales ou nationales d'enseignants, etc.; la presse pédagogique, officielle ou privée, doit jouer un grand rôle dans la diffusion de cette recommandation. — 147",
+        "tags": [
+          "ACT_EDUC",
+          "M_INFORM"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies because the paragraph emphasizes dissemination by ministries, educational authorities, and teacher associations. M_INFORM (Learning modality | Informal learning) is relevant as the text discusses spreading recommendations through press and informal channels. Paragraph 49 (complemental) adds regional adaptation steps related to dissemination. Paragraph 50 (complemental) provides implementation details that complement the dissemination process.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. It is important that the text of this recommendation be widely disseminated by the ministries of public education, the educational authorities of the most directly concerned level of schooling, international or national teachers’ associations, and so forth; the educational press, whether official or private, must play a significant role in spreading this recommendation."
+      },
+      {
+        "para_number": 49,
+        "para": "37. Les centres régionaux de l'Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régionale de cette recommandation en vue de son adaptation aux caractéristiques de la région.",
+        "tags": [
+          "POL_INTCOOP",
+          "ACT_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (International cooperation and partnerships) applies because the paragraph emphasizes collaboration between UNESCO regional centers and ministries. ACT_OTHER (Stakeholder focus | Other) applies as it involves multiple stakeholders (UNESCO, ministries) working together. The relation to para 50 is complemental (confidence 0.9) because both paragraphs discuss review/adaptation of the recommendation but at different levels (regional vs. national).",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. The UNESCO regional centers are invited to facilitate, in collaboration with the relevant ministries, the regional-level review of this recommendation with a view to its adaptation to the characteristics of the region."
+      },
+      {
+        "para_number": 50,
+        "para": "38. Dans les pays où la chose s'avérerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré.",
+        "tags": [
+          "LAW_REG",
+          "LAW_IMPLEM"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses legal frameworks (LAW_REG) related to education laws and policy implementation (LAW_IMPLEM) through tasks like reviewing recommendations, adapting articles, and proposing practical measures. No related paragraphs are provided in allowed_paragraph_ids.",
+        "matched_pars": {},
+        "para_en": "38. In countries where it is deemed necessary, the ministries of public education are invited to assign the competent bodies to undertake various tasks, such as: a) reviewing the present recommendation and comparing its content with the existing legal and factual situation in their country; b) considering the advantages and disadvantages of the possible application of each article that is not yet in force; c) adapting each article to the country's situation, if its application is deemed useful; d) finally, proposing the practical provisions and measures to be taken to ensure the implementation of the article in question."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d'Education, et s'y étant réunie le trois juillet mil neuf cent soixante et un en sa vingt-quatrième session, adopte le treize juillet mil neuf cent soixante et un la recommandation suivante : La Conférence, Considérant la Recommandation n° 47 aux Ministères de l'instruction publique concernant les possibilités d'accès à l'éducation dans les zones rurales, adoptée le seize juillet mil neuf cent cinquante-huit par la Conférence internationale de l'instruction publique réunie en sa vingt et unième session, Considérant l'article 26 de la Déclaration universelle des droits de l'homme qui proclame qu'un enseignement primaire gratuit et obligatoire doit être assuré à tous, Considérant qu'il importe de surmonter les difficultés de tous ordres afin que les enfants des petites agglomérations puissent, sans être séparés de leur famille, accéder à l'éducation dans des conditions équivalentes à celles qui sont faites à leurs camarades des localités plus importantes, Considérant que, dans de nombreux pays, l'institution des écoles à maître unique a facilité la généralisation de l'enseignement obligatoire, Considérant que, malgré les changements intervenus, dans certains pays, dans les conditions de vie des petites agglomérations et la diminution du nombre des écoles à maître unique résultant de cette évolution, c'est par millions que se chiffrent encore les enfants qui fréquentent les écoles primaires à maître unique, Considérant que, pour être en mesure d'assurer à ses élèves le passage éventuel dans une autre école primaire et l'accès aux études post-primaires, l'école à maître unique doit être « complète », c'est-à-dire compter autant d'années d'études que l'école primaire de type courant, Considérant qu'il est urgent de transformer les écoles incomplètes à maître unique en écoles complètes à maître unique,   Considérant que l'école complète à maître unique est appelée à rendre encore de grands services, surtout dans les pays qui se préoccupent actuellement d'organiser leur propre système d'enseignement primaire obligatoire alors que les moyens de communication et de transport dont ils disposent. dans certaines régions sont encore insuffisants, Considérant que peu d'importance a généralement été accordée jusqu'ici à l'étude des problèmes de tous ordres que pose le bon fonctionnement des écoles primaires à maître unique, Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses. au problème de l'organisation de l'école primaire à maître unique, Soumet aux Ministères de l'instruction publique des différents pays. la recommandation suivante : EXISTENCE DES ÉCOLES À MAÎTRE UNIQUE 1. Quel que soit le caractère, urbain ou rural, de son lieu d'origine: et de sa résidence, tout enfant qui fréquente une école primaire, qu'il s'agisse d'une école à plusieurs maîtres ou d'une école à maître unique, doit y recevoir le minimum d'instruction qui lui sera indispensable aussi bien pour poursuivre ses études au-delà du degré primaire que pour pouvoir bénéficier d'une formation complémentaire le préparant à remplir ses obligations d'homme et de citoyen. 2. Lors de l'élaboration des plans d'extension de l'enseignement primaire ou de généralisation de l'enseignement obligatoire, il convient d'accorder une attention toute spéciale à la contribution que le système des écoles complètes à maître unique peut apporter à la réalisation de ces. plans. 3. Là où l'école primaire à maître unique est « incomplètes, en ce sens que le nombre des années d'études y est inférieur à celui qui est prescrit pour les autres écoles primaires, il importe d'assurer à ses élèves. d'autres moyens, tenant compte des conditions locales, pour parfaire leur instruction sans difficulté. 4. Là où l'on estime encore que l'école confiée à un seul maître ne peut assurer qu'une partie de l'enseignement du premier degré, une action des plus intenses doit être menée pour convaincre les autorités scolaires et les enseignants: a) que l'analphabétisme a pratiquement disparu des pays où un système d'écoles complètes à maître unique a permis la scolarisation totale; b) que des pays qui sont à la tête du développement éducatif mondial continuent à utiliser ce système lorsque les difficultés de transport ou de financement ne leur permettent pas de regrouper les élèves des petites localités dans des écoles centrales, avec ou sans internat; c) que, malgré ses insuffisances, l'école complète à maître unique offre d'indéniables avantages sur le triple plan pédagogique (étude du milieu,. travail de groupe et travail individuel), humain (atmosphère de famille, rapports avec autrui et coopération) et social (extension de l'influence de l'école et sa contribution à l'éducation des adultes).  — 143 — 5. Dans les pays en voie de développement et dans les régions insuffisamment développées des autres pays où il est nécessaire d'organiser des écoles à maître unique, celles-ci devraient servir non seulement à l'instruction des enfants, mais aussi à l'éducation des adultes et à la mise en œuvre des plans de développement économique et social. 6. Il est souhaitable que les écoles incomplètes à maître unique qui existent actuellement, comme celles qui viendraient à être créées, soient transformées aussitôt que possible et selon des plans préétablis en écoles complètes à maitre unique, voire en écoles à deux ou plusieurs maîtres si les circonstances l'exigent. 7. Les écoles complètes dans lesquelles deux ou trois années d'études sont groupées sous la direction de chacun des maîtres peuvent ménager la transition vers l'école primaire de type courant. 8. Si des écoles incomplètes à maître unique devaient subsister pour des raisons d'ordre local, il importe de permettre à leurs élèves de terminer leurs études primaires dans une école régionale. 9. Dans les pays où, par suite de changements d'ordre démographique ou dans un souci de rationaliser le réseau scolaire, la tendance est à la suppression des écoles primaires à maître unique, il serait souhaitable qu'avant de procéder aux regroupements envisagés on tienne compte des vœux des populations intéressées, et notamment des parents, qui désireraient garder une école qui constitue souvent leur seul centre de vie culturelle et sociale. MESURES D'ORDRE ADMINISTRATIF 10. Dans les pays où la situation démographique et le mode de vie des petites communautés évoluent rapidement, il y aurait lieu de reviser périodiquement les dispositions qui régissent l'école à maître unique afin de les adapter aux nouvelles circonstances. 11. Encore que les conditions exigées pour l'ouverture d'une école à maître unique varient considérablement selon les pays (nombre d'habitants, distances trop grandes jusqu'à une autre école, etc.), les autorités devraient s'inspirer de deux principes essentiels: a) ne pas retarder l'ouverture d'une école dans une localité jusqu'à ce que les effectifs scolaires y requièrent la présence de plusieurs maitres; b) s'assurer que les exigences réglementaires qui conditionnent l'ouverture d'une école à maître unique sont assez souples pour faciliter au maximum la fréquentation d'une école par tous les enfants du pays. 12. Tout devrait être mis en œuvre pour rompre l'isolement de l'école à maître unique tant en ce qui concerne le maître (attention spéciale de l'inspection, conseillers pédagogiques, documentation pour la classe, cercles d'études, relations suivies avec des établissements scolaires plus importants, etc.) qu'en ce qui concerne les élèves (visites de médecins scolaires, correspondance interscolaire, coopération scolaire, excursions, échanges d'élèves, participation aux mêmes examens de fin d'études que les élèves des autres écoles, etc.). 13. Il est hautement souhaitable que les services d'une bibliothèque itinérante soient étendus aussi largement que possible aux écoles à maître  — 144 — unique, afin de satisfaire aux besoins du maître et de la communauté comme à ceux des élèves; en outre, les écoles intéressées devraient obtenir l'aide nécessaire pour acquérir en propre les quelques ouvrages de référence indispensables. 14. Il conviendrait de constituer, au sein de l'administration supérieure de l'enseignement du premier degré, un organe consultatif qui, avec la collaboration d'autres ministères ou départements et avec celle de représentants des maîtres intéressés, serait chargé d'étudier, sous leurs différents aspects, les problèmes qui touchent au fonctionnement de l'école primaire à maître unique. 15. Un tel organe de consultation et d'étude devrait avoir notamment pour fonctions: a) de procéder à un examen impartial et objectif des avantages et des inconvénients que présente l'école à maître unique; b) d'examiner par quels moyens, lorsque l'existence de ces écoles s'avère nécessaire, il peut être porté remède à leurs inconvénients et de quelle façon il est possible d'améliorer leur rendement; c) d'étudier les aspects financier, social, culturel, pédagogique, etc. du maintien des écoles de ce type ou de leur transformation en écoles à plusieurs maîtres; d) d'envisager une action propre à encourager les maîtres et à faciliter leur travail. MESURES D'ORDRE PÉDAGOGIQUE 16. Le titulaire d'une écolé à maître unique ayant à s'occuper d'élèves d'âges très différents correspondant à plusieurs années d'études, l'effectif de ce type d'école ne devrait pas dépasser le nombre des élèves normalement confiés à chaque instituteur dans une école primaire à plusieurs maîtres; il devrait même lui être inférieur. 17. Dans l'impossibilité où se trouve le titulaire d'une école à maître unique de s'occuper à la fois de tous les élèves, il importe de constituer des groupes le plus homogènes possible tenant compte de l'âge, des aptitudes et des connaissances des enfants. 18. Bien que le rôle de l'élève-moniteur ait perdu de son importance dans l'enseignement proprement dit, le maître et les enfants peuvent encore tirer profit de l'aide directe des élèves les plus avancés, aide qui, outre son effet stimulant, facilite l'organisation générale de la classe, les exercices de répétition, la conduite des travaux pratiques et celle des jeux, sports et activités de plein air. 19. A l'école primaire à maître unique, le contenu des plans d'études et des programmes, tout comme le nombre des années de scolarité, ne devrait pas être inférieur à celui de l'école primaire à plusieurs maîtres afin que les élèves de l'un et de l'autre type d'école aient les mêmes possibilités d'accéder aux études de niveau post-primaire. 20. Etant donné que l'école à maitre unique se différencie de l'école à plusieurs maîtres non par les exigences des programmes mais par l'organisation interne du travail scolaire, il convient de mettre l'accent d'une façon toute particulière, dans les instructions et les directives destinées aux écoles à maître unique, sur le fait que ces dernières se prêtent beaucoup plus que les autres types d'écoles à l'application de certains principes psychopédagogiques tels que le travail individuel et le travail de groupe.  145 — 21. L'élaboration de guides didactiques destinés au personnel enseignant des écoles à maitre unique se justifie pleinement; de plus, 1 y a lieu d'encourager les revues pédagogiques à faire des suggestions intéressant directement les titulaires des écoles à maître unique. 22. S'il est matériellement difficile d'élaborer des manuels spéciaux pour les écoles à maître unique, il importe cependant de mettre à la disposition de ces écoles des auxiliaires audio-visuels, des recueils d'exercices gradués, des fiches de travail individuelles et tout autre matériel didactique adapté à l'enseignement simultané. 23. Le bâtiment de l'école à maître unique doit être conçu en fonction des besoins propres à ce type d'école; afin de faciliter les activités simultanées de groupes différents, il convient de prévoir des coins de travail ou des locaux supplémentaires, disposés de façon que le maître puisse assurer en permanence la surveillance de l'ensemble de ses élèves; partout où la chose est réalisable, il faudrait pouvoir disposer d'un terrain pour la pratique du jardinage et l'élevage de petits animaux. 24. Les autorités scolaires doivent se préoccuper des exigences spéciales qui, du point de vue de l'équipement en mobilier et en matériel, sont le fait des écoles à maître unique (pupitres, tables et chaises adaptés aux enfants des différents âges, nombre plus grand de tableaux noirs dont l'instituteur a besoin, etc.). 25. Les problèmes intéressant l'école à maître unique devraient faire l'objet de recherches de caractère pédagogique, les études expérimentales correspondantes étant de nature à faire avancer la connaissance des techniques de l'apprentissage en général. PERSONNEL ENSEIGNANT 26. Quel que soit le type d'établissement dans lequel sont formés les instituteurs qui se verront confier plus tard une école à maitre unique, la durée et le niveau de leurs études devraient être les mêmes que pour leurs collègues appelés à exercer dans une école à plusieurs maîtres; de la sorte, aucun empêchement légal ne pourrait s'opposer au passage du titulaire d'une école à maître unique dans une école rurale ou urbaine à plusieurs maîtres, ou vice versa. 27. L'étude des problèmes qui se posent dans une école à maître unique peut être utile à tous les maîtres qui auront à exercer dans une école primaire et elle doit figurer, autant que possible, dans le plan d'études pour la formation des maîtres primaires. 28. Ce qui importe autant que les connaissances théoriques sur l'organisation de l'enseignement dans l'école à maitre unique, c'est la possibilité pour l'élève-maître de pratiquer l'enseignement dans une école de ce type; une telle expérience sera des plus précieuses pour l'ensemble des futurs maîtres primaires. 29. La création d'écoles pilotes à maître unique adaptées aux différentes régions peut s'avérer utile pour certains pays; il y aurait avantage à ce que ces écoles soient annexées à un établissement de formation pédagogique, de manière qu'elles puissent servir à la fois d'écoles d'application  — 146 — pour les élèves-maîtres et de centres de perfectionnement pour les maîtres en exercice. 30. Compte tenu de leur isolement, le perfectionnement des titulaires d'une école à maître unique s'avère bien plus nécessaire encore que celui de leurs collègues des écoles à plusieurs maitres; il conviendrait de leur donner l'occasion de suivre des cours de vacances, des cours par correspondance, des cours par radio, des conférences pédagogiques de circonscription, et de les faire bénéficier des services d'une bibliothèque itinérante. 31. Dans les pays où les titulaires des écoles à maître unique ont reçu une formation de niveau inférieur à celles des autres maîtres primaires, l'action entreprise en faveur de leur perfectionnement doit également tendre à les placer sur un plan d'égalité avec leurs collègues, afin de mettre un terme aux différences qui peuvent exister dans les conditions de nomination, de rémunération, de mutation, etc. 32. Etant donné les difficultés de leur tâche et le surcroît de responsabilités qui leur incombe, il conviendrait d'améliorer au maximum les conditions de travail des titulaires d'école à maître unique; ceux-ci devraient bénéficier d'une aide raisonnable en ce qui concerne le logement, les prestations médicales et le remboursement des frais de voyage nécessaires ; il faudrait aussi envisager la possibilité de leur octroyer une prime de direction, comme cela se fait déjà dans certain pays. COLLABORATION INTERNATIONALE 33. Il est hautement souhaitable que des spécialistes ou des enseignantes possédant une grand expérience de l'organisation des écoles complèetes à maître unique puissent être invités à aider les pays où ce système, encore imparfaitement connu, pourrait contribuer à résoudre le problème de la généralisation de l'enseignement obligatoire. 34. Les programmes d'octroi de bourses devraient faire une place aux éducateurs désireux de se rendre à l'étranger pour y étudier le système de l'école complète à maître unique ou pour se perfectionner dans son application. 35. L'Unesco, le Bureau international d'Education et les organismes régionaux d'éducation, de même que : les associations d'enseignants, devraient promouvoir et encourager l'échange de documents de tous ordres (textes officiels, rapports, études monographiques, films, manuels, etc.) et l'organisation de réunions professionnelles et stages d'études consacrés à l'examen des questions qui touchent l'école à maître unique (création et fonctionnement, formation des maitres, répartition horaire, méthodes appropriés, matériel d'enseignement, auxiliaires audio-visuels, etc.). MESURES D'APPLICATION 36. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des associations internationales ou nationales d'enseignants, etc.; la presse pédagogique, officielle ou privée, doit jouer un grand rôle dans la diffusion de cette recommandation.  — 147 37. Les centres régionaux de l'Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régionale de cette recommandation en vue de son adaptation aux caractéristiques de la région. 38. Dans les pays où la chose s'avérerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré."
+  }
+}
