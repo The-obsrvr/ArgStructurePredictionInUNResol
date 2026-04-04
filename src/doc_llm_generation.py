@@ -163,40 +163,6 @@ def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=20
     return thinking.strip(), content.strip()
 
 
-def merge_structures(out1, out2, think1, think2, n):
-    final_pre = set()
-    final_op = set()
-
-    for i in range(1, n + 1):
-        in_pre1 = i in out1["preambular_para"]
-        in_pre2 = i in out2["preambular_para"]
-
-        # majority vote (2 runs → agreement or fallback)
-        if in_pre1 and in_pre2:
-            final_pre.add(i)
-        elif (not in_pre1) and (not in_pre2):
-            final_op.add(i)
-        else:
-            # disagreement → fallback heuristic
-            # prefer later paragraphs as operative
-            if i > n // 2:
-                final_op.add(i)
-            else:
-                final_pre.add(i)
-
-    # reasoning selection based on agreement
-    score1 = len(set(out1["preambular_para"]) & final_pre)
-    score2 = len(set(out2["preambular_para"]) & final_pre)
-
-    final_think = think1 if score1 >= score2 else think2
-
-    return {
-        "preambular_para": sorted(list(final_pre)),
-        "operative_para": sorted(list(final_op)),
-        "think": final_think
-    }
-
-
 def extract_json_block(text):
     if "</think>" in text:
         text = text.split("</think>")[-1]
