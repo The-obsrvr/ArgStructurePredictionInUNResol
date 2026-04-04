@@ -108,12 +108,12 @@ def build_structure_prompt(doc):
     {{
       "preambular_para": [2, 3, 6, ...],
       "operative_para": [1, 4, 5, ...],
-      "reasoning": "One unified explanation of how you distinguished preambular vs operative",
+      "reasoning": "One unified explanation of how you distinguished preambular vs operative"
     }}
     
     RULES:
-    - Every paragraph MUST be labeled
-    - Labels MUST be either "preambular" or "operative"
+    - Do NOT omit any paragraph. Every paragraph must appear exactly once.
+    - MUST be either "preambular" or "operative"
     - Reasoning must explain the rule used
     - Output ONLY valid JSON
     
@@ -257,33 +257,27 @@ def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True,
     n = len(doc["body"]["paragraphs"])
 
     def process_output(output):
-        labels = output.get("labels", {})
+        pre = output.get("preambular_para", [])
+        op = output.get("operative_para", [])
         reasoning = output.get("reasoning", "")
 
-        if not labels or len(labels) != n:
-            raise ValueError("Invalid or incomplete labels")
+        if not isinstance(pre, list) or not isinstance(op, list):
+            raise ValueError("Invalid structure lists")
 
-        pre = []
-        op = []
+        pre_set = set(pre)
+        op_set = set(op)
 
-        for i in range(1, n + 1):
-            label = labels.get(str(i), "").lower()
+        if pre_set & op_set:
+            raise ValueError("Overlap between preambular and operative")
 
-            if label == "preambular":
-                pre.append(i)
-            elif label == "operative":
-                op.append(i)
-            else:
-                raise ValueError(f"Invalid label at {i}: {label}")
-
-        if set(pre).union(op) != set(range(1, n + 1)):
-            raise ValueError("Missing paragraph assignments")
+        if pre_set | op_set != set(range(1, n + 1)):
+            raise ValueError("Missing or extra paragraph assignments")
 
         return {
             "preambular_para": sorted(pre),
             "operative_para": sorted(op),
             "think": reasoning
-        }
+            }
 
     # -------------------------------------
     # SELF-CONSISTENCY MODE
@@ -332,7 +326,7 @@ def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True,
         }
 
     # -------------------------------------
-    # SINGLE RUN MODE
+    # Without self-consistency
     # -------------------------------------
     else:
 
