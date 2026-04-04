@@ -1,0 +1,453 @@
+{
+  "TEXT_ID": "ICPE-11-1948_RES1-FR_res_24",
+  "RECOMMENDATION": 24,
+  "TITLE": "LE DÉVELOPPEMENT DE LA CONSCIENCE INTERNATIONALE DANS LA JEUNESSE ET L'ENSEIGNEMENT RELATIF AUX ORGANISMES INTERNATIONAUX",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-11-1948_RES1-FR",
+      "nb_paras": 17,
+      "preambular_para": [],
+      "operative_para": [],
+      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'Instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'Éducation, la Science et la Culture et le Bureau international d'Éducation et s'y étant réunie le vingt-huit juin en sa onzième session, adopte le deux juillet mil neuf cent quarante-huit la recommandation suivante : La Conférence,",
+        "tags": [
+          "M_FORM",
+          "O_G"
+        ],
+        "type": null,
+        "think": "Tags M_FORM (Formal education) and O_G (General academic orientation) are selected because the paragraph describes a formal international conference (UNESCO/IBE) adopting a recommendation about education's role in global citizenship. Relation types are determined by semantic connections: para 2 expands on global participation goals (complemental), para 3 supports methods of preparation (supporting), para 5 directly relates to recommendation submission (complemental), and paras 13/16/17 address related educational strategies (complemental). Confidence scores reflect explicit or implied connections.",
+        "matched_pars": {
+          "2": [
+            "complemental"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "supporting"
+          ]
+        },
+        "para_en": "The International Conference on Public Instruction, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education and having met there on June twenty-eighth in its eleventh session, adopts on July second, nineteen forty-eight, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant que l'un des principaux objets de l'éducation moderne doit être de préparer les enfants et les adolescents à participer de façon consciente et active à la construction d'une communauté mondiale, riche en aspects divers, mais unie dans la poursuite de buts communs: paix, sécurité, vie plus harmonieuse pour tous les êtres humains,",
+        "tags": [
+          "CCUT_GCITIZ",
+          "POP_YOUTH",
+          "ACT_STUD"
+        ],
+        "type": null,
+        "think": "Tags CCUT_GCITIZ (global citizenship/peace education) and POP_YOUTH (youth focus) are directly supported by the emphasis on preparing adolescents for global community building. ACT_STUD (learners/students) applies as the paragraph centers on educational preparation. Related paragraphs: 3 (supporting) expands on training for global unity; 4 (complemental) addresses adaptation of education; 6 (supporting) reinforces international solidarity; 7 (supporting) aligns with developing social responsibility; 17 (supporting) connects to fostering international consciousness.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "17": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that one of the primary objectives of modern education must be to prepare children and adolescents to participate consciously and actively in the building of a global community, diverse in its aspects but united in the pursuit of common goals: peace, security, and a more harmonious life for all human beings,"
+      },
+      {
+        "para_number": 3,
+        "para": "Que cette préparation doit consister non seulement en un enseignement didactique, mais surtout en une formation et un développement de toutes les attitudes psychologiques favorables à l'édification, à la sauvegarde et au progrès d'un monde uni,",
+        "tags": [
+          "PEDAG_FOUND",
+          "T_INI"
+        ],
+        "type": null,
+        "think": "The paragraph emphasizes pedagogical foundations (PEDAG_FOUND) by discussing training and psychological attitudes for global unity. T_INI (Initial education and training) is relevant as it relates to preparing educators for complex teaching. Related paragraphs: 6 (supports international solidarity), 7 (complements institutional organization), 8 (supports civic duties), and 11 (supports educator roles).",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "11": [
+            "supporting"
+          ]
+        },
+        "para_en": "That this preparation must consist not only of didactic teaching but above all of training and the development of all psychological attitudes conducive to the building, safeguarding, and progress of a united world,"
+      },
+      {
+        "para_number": 4,
+        "para": "Que cette préparation doit être adaptée aux capacités des écoliers de tous âges et aux conditions particulières de l'enseignement dans les divers pays du monde,",
+        "tags": [
+          "ISC_99",
+          "nan"
+        ],
+        "type": null,
+        "think": "Tags ISC_99 (Education level | Multiple levels) and nan (Pedagogy & assessment) are selected because the paragraph emphasizes adapting education to varying capacities and conditions across countries and ages, which aligns with multiple education levels and pedagogical adaptation. Relations are identified based on semantic connections: paragraphs 5-17 provide complementary or supporting context for adapting education globally, exchanging information, and fostering international awareness.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "That this preparation must be adapted to the capacities of schoolchildren of all ages and to the specific conditions of education in the various countries of the world,"
+      },
+      {
+        "para_number": 5,
+        "para": "Soumet aux Ministères de l'Instruction publique des différents pays la recommandation suivante:",
+        "tags": [
+          "POL_OTH"
+        ],
+        "type": null,
+        "think": "The target paragraph (para 5) is about submitting recommendations to education ministries, which falls under policy themes (POL_OTH). All related paragraphs (6-17) are specific recommendations within the same resolution, making them complemental as they expand on the policy framework established in para 5.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Education of the various countries the following recommendation:"
+      },
+      {
+        "para_number": 6,
+        "para": "1. Que tout l'enseignement contribue à l'éducation du sentiment et de l'idée de solidarité internationale ;",
+        "tags": [
+          "POL_INTCOOP",
+          "CCUT_GCITIZ"
+        ],
+        "type": null,
+        "think": "Tags POL_INTCOOP and CCUT_GCITIZ are selected because the paragraph emphasizes international solidarity (POL_INTCOOP) and global citizenship/peace education (CCUT_GCITIZ). Related paragraphs 7,9,11,12,17 expand on education's role in fostering solidarity, with 8 adding context about civic duties. Relations are supported by shared focus on international education goals.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "17": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "1. That all education contributes to the cultivation of the sentiment and idea of international solidarity;"
+      },
+      {
+        "para_number": 7,
+        "para": "2. Que la vie de toutes les institutions d'enseignement soit organisée de façon à developper chez les élèves et les étudiants le sens des responsabilités et de l'entr'aide social nécessaire à une meilleure compréhension mutuelle entre les peuples, et que les diverses formes de vie sociale s'organisant aux différents stades des études soient de nature à intéresser la jeunesse aux problèmes du monde de demain ;",
+        "tags": [
+          "ACT_STUD",
+          "CUR_ORG"
+        ],
+        "type": null,
+        "think": "Tags ACT_STUD and CUR_ORG are selected because the paragraph focuses on learners/students (ACT_STUD) and the organization of educational institutions (CUR_ORG). Related paragraphs complement the target by expanding on collaboration with local institutions (8), international solidarity (9), UN-related education (12), information exchange (16), and international consciousness (17).",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. That the life of all educational institutions be organized in such a way as to develop among pupils and students a sense of responsibility and social mutual aid necessary for a better mutual understanding between peoples, and that the various forms of social life organized at the different stages of study be designed to engage youth in the problems of the world of tomorrow;"
+      },
+      {
+        "para_number": 8,
+        "para": "3. Que les devoirs envers la communauté des Nations soient partout compris et enseignés comme un prolongement des devoirs civiques ;",
+        "tags": [
+          "CCUT_CITIZ",
+          "F_SOCSCI"
+        ],
+        "type": null,
+        "think": "Tags CCUT_CITIZ and F_SOCSCI are selected because the paragraph emphasizes civic duties and international community education, aligning with citizenship education (CCUT_CITIZ) and social sciences (F_SOCSCI). Related paragraphs (9,11,12,13,17,10) address complementary aspects like international solidarity (9), educator roles (11), local institutions (12), adult education (13), and UN study (10), all supporting or expanding the target's focus on international duties and education.",
+        "matched_pars": {
+          "9": [
+            "complemental"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. That the duties towards the community of Nations be universally understood and taught as an extension of civic duties;"
+      },
+      {
+        "para_number": 9,
+        "para": "4. Que les sentiments de solidarité internationale dans le temps et dans l'espace, basés sur le respect mutuel des peuples, soient cultivés par tous les moyens possibles, tels que la commémoration du souvenir des grands pionniers du progrès humain et la célébration de certaines dates et institutions d'un intérêt universel ;",
+        "tags": [
+          "POL_INTCOOP",
+          "CCUT_GCITIZ"
+        ],
+        "type": null,
+        "think": "Tags POL_INTCOOP and CCUT_GCITIZ are selected because the paragraph emphasizes international solidarity (POL_INTCOOP) and global citizenship/peace education (CCUT_GCITIZ). Related paragraphs discuss complementary measures like studying UN institutions (10), local institutions fostering solidarity (12), textbook revisions (15), educational support (17), educator roles (11), and adult education (13), all aligning with the target's focus on promoting international understanding and cooperation.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ]
+        },
+        "para_en": "4. That feelings of international solidarity across time and space, based on mutual respect among peoples, be cultivated by all possible means, such as the commemoration of the memory of the great pioneers of human progress and the celebration of certain dates and institutions of universal interest;"
+      },
+      {
+        "para_number": 10,
+        "para": "5. Que, dans ce cadre général, les Nations Unies et les Institutions spécialisées qui en dépendent, leurs principes et leurs buts, leur structure et leurs fonctions, soient étudiés objectivement, dans un esprit d'information exacte et scrupuleuse. Quelles que puissent être les insuffisances actuelles de ces institutions, ces dernières devront être appréciées comme un tout et considérées comme une étape dans la longue série d'efforts pour développer la conscience internationale, supprimer le fléau de la guerre, affirmer la foi aux droits fondamentaux de l'homme, faire régner la justice, favoriser le progrés social et assurer à tous une vie libre et meilleure ;",
+        "tags": [
+          "F_SOCSCI",
+          "POL_INTCOOP"
+        ],
+        "type": null,
+        "think": "Tags F_SOCSCI (Social sciences and humanities) and POL_INTCOOP (International cooperation and partnerships) are selected because the paragraph emphasizes international cooperation, human rights, and social progress (F_SOCSCI), and discusses the UN's role in fostering global collaboration (POL_INTCOOP). Related paragraphs (11-17) all address education's role in promoting international understanding, aligning with the target's focus on educational reforms and institutional evaluation. Complemental relations are assigned as they expand on shared themes of education, international cooperation, and institutional awareness.",
+        "matched_pars": {
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. That, within this general framework, the United Nations and the specialized agencies under its authority, their principles and objectives, their structure and functions, be studied objectively, with a spirit of accurate and thorough information. Whatever the current shortcomings of these institutions may be, they must be evaluated as a whole and regarded as a step in the long series of efforts to develop international consciousness, to eradicate the scourge of war, to affirm faith in fundamental human rights, to uphold justice, to promote social progress, and to ensure a free and better life for all;"
+      },
+      {
+        "para_number": 11,
+        "para": "6. Que l'on fasse appel, pour un enseignement aussi complexe, qui s'adresse tant au sentiment qu'à l'intelligence, à des éducateurs animés eux-mêmes de l'esprit de compréhension internationale et suffisamment informés pour traiter ces problèmes, soit directement, soit indirectement, comme partie intégrante de toute éducation;",
+        "tags": [
+          "ACT_EDUC",
+          "CUR_IMPL"
+        ],
+        "type": null,
+        "think": "Tags ACT_EDUC (teachers/educators) and CUR_IMPL (curriculum implementation) are selected because the paragraph emphasizes collaboration between educational authorities (ACT_EDUC) and the exchange of information to optimize curriculum practices (CUR_IMPL). Related paragraphs: 12 (complemental - collaboration with educational authorities), 16 (complemental - direct exchange of information), 17 (complemental - support for international education), and 15 (complemental - curriculum content revisions).",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. That educators, themselves imbued with the spirit of international understanding and sufficiently informed to address these issues, be called upon to provide this complex teaching, which appeals both to sentiment and intelligence, either directly or indirectly, as an integral part of all education;"
+      },
+      {
+        "para_number": 12,
+        "para": "7. Que, hors de l'école, toutes les institutions locales telles que bibliothèques publiques, musées, clubs de jeunesse, groupes d'éclaireurs et d'éclaireuses, etc., participent, en collaboration avec les autorités de l'enseignement, à la formation d'un esprit de solidarité chez les jeunes gens et, dans ce cadre, à la présentation des multiples aspects des Nations Unies, de leurs Institutions spécialisées et des organisations connexes ;",
+        "tags": [
+          "M_NFORM",
+          "CCUT_CITIZ"
+        ],
+        "type": null,
+        "think": "Tags M_NFORM (Non-formal education) applies because the paragraph emphasizes local institutions collaborating with educational authorities for youth development. CCUT_CITIZ (Citizenship and civic education) is relevant as fostering solidarity and presenting UN organizations aligns with civic education goals. Related paragraphs: 13 (complemental - both address international organization awareness), 15 (complemental - both aim to improve intercultural understanding), 16 (complemental - both involve educational authority collaboration), 17 (supporting - directly reinforces international consciousness development).",
+        "matched_pars": {
+          "13": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "supporting"
+          ]
+        },
+        "para_en": "7. That, outside of school, all local institutions such as public libraries, museums, youth clubs, scout groups, and the like, participate, in collaboration with educational authorities, in fostering a spirit of solidarity among young people and, within this framework, in presenting the multiple aspects of the United Nations, its specialized agencies, and related organizations;"
+      },
+      {
+        "para_number": 13,
+        "para": "8. Qu'étant donné les responsabilités que les adultes doivent assumer comme parents et comme citoyens, des mesures soient prises pour que les cours populaires d'éducation des adultes contribuent à répandre une connaissance éclairée des organisations internationales;",
+        "tags": [
+          "POP_ADUL",
+          "POL_LL"
+        ],
+        "type": null,
+        "think": "Tags POP_ADUL (Adults and lifelong learners) and POL_LL (Lifelong learning and adult education) are selected because the paragraph explicitly focuses on adult education's role in spreading knowledge about international organizations. For relations: Para 14 (audio-visual materials for adults) complements para 13's focus on adult education (confidence 0.8). Para 15 (textbook revisions for international understanding) aligns with the goal of informed knowledge (confidence 0.7). Para 16 (educational authorities sharing experiences) supports collaborative learning (confidence 0.7). Para 17 (international consciousness and organizations) directly supports the target's objective (confidence 0.9).",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "supporting"
+          ]
+        },
+        "para_en": "8. Given the responsibilities that adults must assume as parents and citizens, measures should be taken to ensure that popular adult education courses contribute to spreading an informed knowledge of international organizations;"
+      },
+      {
+        "para_number": 14,
+        "para": "9. Qu'un matériel audio-visuel approprié soit réalisé en tenant compte de l'âge et du développement mental des publies de jeunes et d'adultes auxquels il sera présenté, en s'attachant à donner aux images un caractère esthétique, en encourageant la participation des jeunes et des adultes a la réalisation de ce matériel, en s'appuyant sur les études de psychologie de l'enfant relatives à son comportement devant l'écran; qu'une large diffusion de ce matériel soit rationnellement organisée ;",
+        "tags": [
+          "POP_YOUTH",
+          "POP_ADUL",
+          "F_ARTS"
+        ],
+        "type": null,
+        "think": "Tags POP_YOUTH and POP_ADUL are selected because the paragraph explicitly mentions young and adult audiences. F_ARTS is relevant due to the emphasis on aesthetic images. Paragraph 17 is complemental as it addresses international consciousness, which aligns with the target's focus on youth education and global understanding.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. That appropriate audio-visual material be produced taking into account the age and mental development of the young and adult audiences to whom it will be presented, focusing on giving the images an aesthetic character, encouraging the participation of young people and adults in the production of this material, and relying on child psychology studies related to their behavior in front of the screen; that a wide dissemination of this material be rationally organized;"
+      },
+      {
+        "para_number": 15,
+        "para": "10. Que les manuels des différents pays soient, aussi souvent que possible, l'objet d'une révision destinée à en éliminer les passages risquant de provoquer des malentendus entre les peuples et à y — 106 — ajouter des textes pouvant servir à une meilleure compréhension de la, collaboration internationale;",
+        "tags": [
+          "POL_INTCOOP",
+          "CUR_OTHER"
+        ],
+        "type": null,
+        "think": "Tags POL_INTCOOP (international cooperation) and CUR_OTHER (curriculum revisions) are selected because the paragraph emphasizes revising textbooks to promote international understanding. Paragraph 16 complements by discussing exchange of educational experiences (confidence 0.9), while paragraph 17 complements by addressing international consciousness and organizations (confidence 0.9).",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. That textbooks from different countries be, as often as possible, subject to revision aimed at eliminating passages likely to cause misunderstandings between peoples and at adding texts that may contribute to a better understanding of international cooperation;"
+      },
+      {
+        "para_number": 16,
+        "para": "11. Que les autorités scolaires des divers pays échangent des vues et des informations sur le caractère et les résultats d'un tel enseignement, de façon à utiliser au mieux leurs expériences respectives ;",
+        "tags": [
+          "SYST_OTHER",
+          "POL_QUAL"
+        ],
+        "type": null,
+        "think": "The tags 'SYST_OTHER: Education system monitoring & evaluation' and 'POL_QUAL: Policy theme | Quality and learning outcomes' are selected because the paragraph emphasizes sharing information about educational outcomes (monitoring/evaluation) and improving quality through experience exchange. No related paragraphs were found in the allowed set that share a clear semantic connection with the target paragraph.",
+        "matched_pars": {},
+        "para_en": "11. That the educational authorities of the various countries exchange views and information regarding the nature and outcomes of such instruction, so as to make the best possible use of their respective experiences;"
+      },
+      {
+        "para_number": 17,
+        "para": "12. Que les Ministères de l'Instruction publique et les organisations d'enseignement en général apportent par tous les moyens appropriés leur encouragement et leur aide à la formation d'une conscience internationale dans la jeunesse et à la connaissance des organisations internationales destinées à assurer la paix du monde. — 107",
+        "tags": [
+          "POL_INTCOOP",
+          "POP_YOUTH",
+          "ACT_IO"
+        ],
+        "type": null,
+        "think": "The paragraph emphasizes international cooperation (POL_INTCOOP) through education ministries and organizations. It specifically targets youth (POP_YOUTH) and focuses on international organizations (ACT_IO) for world peace. No related paragraphs exist in the allowed set.",
+        "matched_pars": {},
+        "para_en": "12. That the Ministries of Public Education and educational organizations in general provide, by all appropriate means, their encouragement and support for the development of an international consciousness among youth and for the knowledge of international organizations aimed at ensuring world peace. — 107"
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'Instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'Éducation, la Science et la Culture et le Bureau international d'Éducation et s'y étant réunie le vingt-huit juin en sa onzième session, adopte le deux juillet mil neuf cent quarante-huit la recommandation suivante : La Conférence, Considérant que l'un des principaux objets de l'éducation moderne doit être de préparer les enfants et les adolescents à participer de façon consciente et active à la construction d'une communauté mondiale, riche en aspects divers, mais unie dans la poursuite de buts communs: paix, sécurité, vie plus harmonieuse pour tous les êtres humains, Que cette préparation doit consister non seulement en un enseignement didactique, mais surtout en une formation et un développement de toutes les attitudes psychologiques favorables à l'édification, à la sauvegarde et au progrès d'un monde uni, Que cette préparation doit être adaptée aux capacités des écoliers de tous âges et aux conditions particulières de l'enseignement dans les divers pays du monde, Soumet aux Ministères de l'Instruction publique des différents pays la recommandation suivante: 1. Que tout l'enseignement contribue à l'éducation du sentiment et de l'idée de solidarité internationale ; 2. Que la vie de toutes les institutions d'enseignement soit organisée de façon à developper chez les élèves et les étudiants le sens des responsabilités et de l'entr'aide social nécessaire à une meilleure compréhension mutuelle entre les peuples, et que les diverses formes de vie sociale s'organisant aux différents stades des études soient de nature à intéresser la jeunesse aux problèmes du monde de demain ;   3. Que les devoirs envers la communauté des Nations soient partout compris et enseignés comme un prolongement des devoirs civiques ; 4. Que les sentiments de solidarité internationale dans le temps et dans l'espace, basés sur le respect mutuel des peuples, soient cultivés par tous les moyens possibles, tels que la commémoration du souvenir des grands pionniers du progrès humain et la célébration de certaines dates et institutions d'un intérêt universel ; 5. Que, dans ce cadre général, les Nations Unies et les Institutions spécialisées qui en dépendent, leurs principes et leurs buts, leur structure et leurs fonctions, soient étudiés objectivement, dans un esprit d'information exacte et scrupuleuse. Quelles que puissent être les insuffisances actuelles de ces institutions, ces dernières devront être appréciées comme un tout et considérées comme une étape dans la longue série d'efforts pour développer la conscience internationale, supprimer le fléau de la guerre, affirmer la foi aux droits fondamentaux de l'homme, faire régner la justice, favoriser le progrés social et assurer à tous une vie libre et meilleure ; 6. Que l'on fasse appel, pour un enseignement aussi complexe, qui s'adresse tant au sentiment qu'à l'intelligence, à des éducateurs animés eux-mêmes de l'esprit de compréhension internationale et suffisamment informés pour traiter ces problèmes, soit directement, soit indirectement, comme partie intégrante de toute éducation; 7. Que, hors de l'école, toutes les institutions locales telles que bibliothèques publiques, musées, clubs de jeunesse, groupes d'éclaireurs et d'éclaireuses, etc., participent, en collaboration avec les autorités de l'enseignement, à la formation d'un esprit de solidarité chez les jeunes gens et, dans ce cadre, à la présentation des multiples aspects des Nations Unies, de leurs Institutions spécialisées et des organisations connexes ; 8. Qu'étant donné les responsabilités que les adultes doivent assumer comme parents et comme citoyens, des mesures soient prises pour que les cours populaires d'éducation des adultes contribuent à répandre une connaissance éclairée des organisations internationales; 9. Qu'un matériel audio-visuel approprié soit réalisé en tenant compte de l'âge et du développement mental des publies de jeunes et d'adultes auxquels il sera présenté, en s'attachant à donner aux images un caractère esthétique, en encourageant la participation des jeunes et des adultes a la réalisation de ce matériel, en s'appuyant sur les études de psychologie de l'enfant relatives à son comportement devant l'écran; qu'une large diffusion de ce matériel soit rationnellement organisée ; 10. Que les manuels des différents pays soient, aussi souvent que possible, l'objet d'une révision destinée à en éliminer les passages risquant de provoquer des malentendus entre les peuples et à y  — 106 — ajouter des textes pouvant servir à une meilleure compréhension de la, collaboration internationale; 11. Que les autorités scolaires des divers pays échangent des vues et des informations sur le caractère et les résultats d'un tel enseignement, de façon à utiliser au mieux leurs expériences respectives ; 12. Que les Ministères de l'Instruction publique et les organisations d'enseignement en général apportent par tous les moyens appropriés leur encouragement et leur aide à la formation d'une conscience internationale dans la jeunesse et à la connaissance des organisations internationales destinées à assurer la paix du monde.  — 107"
+  }
+}
