@@ -128,7 +128,7 @@ def main():
             doc = json.load(f)
 
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=False)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=True)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
