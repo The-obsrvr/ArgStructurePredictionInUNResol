@@ -18,64 +18,9 @@ def build_structure_prompt(doc):
             f"{p['para_number']}. {compress_para(p['para'])}"
             )
 
+    n = len(paragraphs)
 
     para_block = "\n".join(para_text)
-
-    # prompt = f"""
-    # You are an expert in UN resolution analysis.
-    #
-    # TASK:
-    # Classify each paragraph as:
-    # - preambular (context/justification)
-    # - operative (actions/recommendations)
-    #
-    # Rules (VERY IMPORTANT):
-    #
-    # Preambular paragraphs (French cues):
-    # - Start with: "Rappelant", "Reconnaissant", "Considérant", "Notant", "Soulignant"
-    # - Often end with commas (,)
-    # - Provide context, background, justification
-    #
-    # Operative paragraphs (French cues):
-    # - Start with: "Décide", "Demande", "Encourage", "Prie", "Exhorte"
-    # - Often numbered and action-oriented
-    # - Contain clear actions, instructions, or recommendations
-    #
-    # STRICT REASONING:
-    # - If a paragraph contains a clear operative verb or action → classify as operative
-    # - If it only provides context → preambular
-    #
-    # CONFIDENCE SCORING (VERY IMPORTANT):
-    # For EACH paragraph, assign a confidence score between 0 and 1:
-    # - 0.9–1.0 → explicit cue word or very clear meaning
-    # - 0.7–0.89 → strong but indirect signal
-    # - 0.5–0.69 → somewhat unclear
-    # - <0.5 → uncertain or ambiguous
-    #
-    # Return STRICT JSON:
-    #
-    # {{
-    #   "preambular_para": [list of paragraph numbers],
-    #   "operative_para": [list of paragraph numbers],
-    #   "confidence": {{
-    #       "1": 0.95,
-    #       "2": 0.80,
-    #       "3": 0.60
-    #   }},
-    #   "think": "Explain classification using French cues and meaning"
-    # }}
-    #
-    # INPUT Paragraphs:
-    # {para_block}
-    #
-    # RULES:
-    # - Every paragraph MUST appear in exactly one class
-    # - Every paragraph MUST have a confidence score
-    # - Confidence keys MUST be strings of paragraph numbers
-    # - Output ONLY valid JSON
-    # - Do NOT return empty JSON {{}}
-    # """
-    # return prompt.strip()
 
     prompt = f"""
     You are an expert in UN resolution analysis written in French.
@@ -87,13 +32,13 @@ def build_structure_prompt(doc):
     
     DEFINITIONS:
     
-    Preambular paragraphs:
+    Preambular paragraphs (in FRENCH):
     - Provide context, justification, background
     - May begin with: "Considérant", "Rappelant", "Reconnaissant", "Notant", "Soulignant"
     - Often end with commas
     - Do NOT contain actions
     
-    Operative paragraphs:
+    Operative paragraphs (in FRENCH):
     - Contain actions, recommendations, or directives
     - May include verbs like: "Décide", "Demande", "Encourage"
     - May be structured, numbered and action-oriented
@@ -107,13 +52,13 @@ def build_structure_prompt(doc):
     RETURN STRICT JSON:
     
     {{
-      "preambular_para": [2, 3, 6, ...],
-      "operative_para": [1, 4, 5, ...],
+      "preambular_para": [list of paragraph numbers],
+      "operative_para": [list of paragraph numbers],
       "reasoning": "One unified explanation of how you distinguished preambular vs operative"
     }}
     
     RULES:
-    - Do NOT omit any paragraph. Every paragraph must appear exactly once.
+    - Do NOT omit any paragraph. Every paragraph must appear exactly ONCE.
     - MUST be either "preambular" or "operative"
     - Reasoning must explain the rule used
     - Output ONLY valid JSON
@@ -124,12 +69,19 @@ def build_structure_prompt(doc):
     return prompt.strip()
 
 
-def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=2048):
+def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=2048, top_p=1.0):
     """
 
     """
     messages = [
-        {"role": "system", "content": "You are a strict JSON generator."},
+        {
+            "role": "system",
+            "content": (
+                "You are a strict reasoning model.\n"
+                "You MUST think step-by-step inside <think></think>.\n"
+                "Then output valid JSON."
+            )
+            },
         {"role": "user", "content": prompt}
         ]
 
@@ -148,9 +100,9 @@ def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=20
     outputs = model.generate(
         **inputs,
         max_new_tokens=max_tokens,
-        do_sample=True,
+        do_sample=(temperature > 0),
         temperature=temperature,
-        top_p=0.9
+        top_p=top_p
     )
 
     output_ids = outputs[0][len(inputs.input_ids[0]):]
@@ -202,132 +154,179 @@ def parse_output_safe(text):
     while json_str.count("[") > json_str.count("]"):
         json_str += "]"
 
-    return json.loads(json_str)
+    data = json.loads(json_str)
+
+    if "preambular_para" not in data or "operative_para" not in data:
+        raise ValueError("Missing keys")
+
+    return data
 
 
-def validate_structure(output, doc):
-    """
-
-    """
+def validate_output(output, doc):
     n = len(doc["body"]["paragraphs"])
 
     pre = set(output["preambular_para"])
     op = set(output["operative_para"])
 
-    assert pre.isdisjoint(op)
-    assert pre | op == set(range(1, n+1))
+    if pre & op:
+        raise ValueError("Overlap detected")
+
+    if pre | op != set(range(1, n + 1)):
+        raise ValueError("Missing or extra paragraphs")
+
+    return {
+        "preambular_para": sorted(pre),
+        "operative_para": sorted(op),
+        "think": output.get("think", "")
+    }
 
 
-def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True, max_retries=2):
+def fallback(doc):
+    pre, op = [], []
+    transition = False
 
-    prompt = build_structure_prompt(doc)
+    for p in doc["body"]["paragraphs"]:
+        text = p["para"].strip().lower()
+        pid = p["para_number"]
+
+        # 🔥 NEW: bullet / numbering detection → operative
+        if re.match(r"^(\d+\.\s|[ivxlcdm]+\.\s|[ivxlcdm]+\s)", text):
+            transition = True
+            op.append(pid)
+            continue
+
+        # transition verbs
+        if any(w in text for w in ["soumet", "recommande", "décide", "demande"]):
+            transition = True
+
+        if transition:
+            op.append(pid)
+        elif text.startswith(("considérant", "rappelant", "notant", "reconnaissant", "soulignant")):
+            pre.append(pid)
+        else:
+            pre.append(pid)
+
+    return {
+        "preambular_para": pre,
+        "operative_para": op,
+        "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+
+from collections import Counter
+
+def merge_outputs(out1, out2, doc):
     n = len(doc["body"]["paragraphs"])
 
-    def process_output(output):
-        pre = output.get("preambular_para", [])
-        op = output.get("operative_para", [])
-        reasoning = output.get("reasoning", "")
+    votes = {i: [] for i in range(1, n + 1)}
 
-        if not isinstance(pre, list) or not isinstance(op, list):
-            raise ValueError("Invalid structure lists")
+    for i in out1["preambular_para"]:
+        votes[i].append("pre")
+    for i in out1["operative_para"]:
+        votes[i].append("op")
 
-        # FIX 1: normalize to int
-        try:
-            pre = [int(x) for x in pre]
-            op = [int(x) for x in op]
-        except:
-            raise ValueError("Non-integer paragraph IDs")
+    for i in out2["preambular_para"]:
+        votes[i].append("pre")
+    for i in out2["operative_para"]:
+        votes[i].append("op")
 
-        pre_set = set(pre)
-        op_set = set(op)
+    final_pre, final_op = [], []
+    transition_seen = False
 
-        # FIX 2: remove overlap instead of failing
-        overlap = pre_set & op_set
-        if overlap:
-            op_set = op_set - overlap  # prefer preambular
+    for i in range(1, n + 1):
+        label = Counter(votes[i]).most_common(1)[0][0] if votes[i] else "pre"
 
-        # FIX 3: fill missing instead of failing
-        all_ids = set(range(1, n + 1))
-        assigned = pre_set | op_set
-        missing = all_ids - assigned
+        if label == "op":
+            transition_seen = True
 
-        # assign missing to preambular (safe default)
-        pre_set.update(missing)
+        if transition_seen:
+            final_op.append(i)
+        else:
+            final_pre.append(i)
 
-        return {
-            "preambular_para": sorted(pre_set),
-            "operative_para": sorted(op_set),
-            "think": reasoning
-            }
+    # choose better reasoning
+    def reasoning_score(text):
+        if not text:
+            return 0
+
+        score = 0
+
+        # longer = more detailed
+        score += len(text.split())
+
+        # bonus for key signals
+        keywords = ["considérant", "transition", "soumet", "recommande", "numérot", "structure"]
+        score += sum(5 for k in keywords if k in text.lower())
+
+        return score
+
+    best_think = out1["think"] if reasoning_score(out1["think"]) >= reasoning_score(out2["think"]) else out2["think"]
+
+    return {
+        "preambular_para": final_pre,
+        "operative_para": final_op,
+        "think": best_think
+    }
+
+
+def run_structure_self_consistency(
+    model,
+    tokenizer,
+    doc,
+    self_consistency=True,
+    max_retries=2
+):
+    prompt = build_structure_prompt(doc)
 
     # -------------------------------------
     # SELF-CONSISTENCY MODE
     # -------------------------------------
     if self_consistency:
 
-        for attempt in range(max_retries):
+        for _ in range(max_retries):
             try:
                 think1, content1 = run_qwen_generation(
-                    model, tokenizer, prompt, temperature=0.1
-                )
+                    model, tokenizer, prompt,
+                    temperature=0.05, top_p=0.9
+                    )
+
                 think2, content2 = run_qwen_generation(
-                    model, tokenizer, prompt, temperature=0.2
-                )
+                    model, tokenizer, prompt,
+                    temperature=0.1, top_p=0.9
+                    )
 
                 out1 = parse_output_safe(content1)
+                out1["think"] = think1
+
                 out2 = parse_output_safe(content2)
+                out2["think"] = think2
 
-                res1 = process_output(out1)
-                res2 = process_output(out2)
+                merged = merge_outputs(out1, out2, doc)
 
-                # Agreement → return
-                if (
-                    res1["preambular_para"] == res2["preambular_para"]
-                    and res1["operative_para"] == res2["operative_para"]
-                ):
-                    return res1
-
-                # Disagreement → pick richer reasoning
-                def reasoning_score(text):
-                    return len(text.split())
-
-                chosen = res1 if reasoning_score(res1["think"]) >= reasoning_score(res2["think"]) else res2
-
-                chosen["think"] += "\n\n[Self-consistency: disagreement resolved by selecting richer reasoning]"
-                return chosen
+                return validate_output(merged, doc)
 
             except Exception:
                 continue
 
-        # ✅ SAFE FALLBACK
-        return {
-            "preambular_para": [],
-            "operative_para": [],
-            "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
-        }
-
     # -------------------------------------
-    # Without self-consistency
+    # SINGLE RUN MODE
     # -------------------------------------
     else:
-
-        for attempt in range(max_retries):
+        for _ in range(max_retries):
             try:
-                thinking, content = run_qwen_generation(
-                    model, tokenizer, prompt, temperature=0.1
-                )
+                think, content = run_qwen_generation(
+                    model, tokenizer, prompt,
+                    temperature=0.0
+                    )
 
-                output = parse_output_safe(content)
-                result = process_output(output)
+                out = parse_output_safe(content)
+                out["think"] = think
 
-                return result
+                return validate_output(out, doc)
 
             except Exception:
                 continue
 
-        # ✅ SAFE FALLBACK
-        return {
-            "preambular_para": [],
-            "operative_para": [],
-            "think": "LLM failed to classify structure after multiple attempts (single-run mode). Returned empty lists."
-        }
+    # -------------------------------------
+    # FINAL FALLBACK
+    # -------------------------------------
+    return fallback(doc)
