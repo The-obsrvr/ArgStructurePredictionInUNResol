@@ -75,15 +75,15 @@ def main():
     :return:
     """
     """
-    GPU6: 82 - 92
-    GPU7: 62-81
-    GPU5: 38-48
-    GPU4: 49-61
+    GPU6: 82 - 92 copy2
+    GPU7: 62-81 textcopy
+    GPU5: 38-48 copy3
+    GPU4: 49-61 copy4
     """
 
 
-    input_folder = "Data/test_copy2" #running on GPU 7 from Id: 30, GPU6 82-
-    output_folder = "outputs_copy2"
+    input_folder = "Data/test_copy3"
+    output_folder = "outputs_copy3"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
