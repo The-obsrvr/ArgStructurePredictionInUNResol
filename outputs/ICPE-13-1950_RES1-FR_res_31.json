@@ -6,33 +6,30 @@
     "structure": {
       "doc_title": "ICPE-13-1950_RES1-FR",
       "nb_paras": 18,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": ""
-    },
-    "preambular_para": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "operative_para": [
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18
-    ],
-    "think": "fallback rule-based logic applied\nReason: confidence too low across attempts (threshold=0.6)"
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "operative_para": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "think": "fallback rule-based logic applied\nReason: confidence too low across attempts (threshold=0.6)"
+    }
   },
   "body": {
     "paragraphs": [

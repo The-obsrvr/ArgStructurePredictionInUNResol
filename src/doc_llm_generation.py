@@ -9,66 +9,116 @@ def build_structure_prompt(doc):
     paragraphs = doc["body"]["paragraphs"]
 
     para_text = []
+
+    def compress_para(text, max_len=200):
+        text = text.strip().replace("\n", " ")
+        return text[:max_len]
     for p in paragraphs:
         para_text.append(
-            f"[Paragraph number: {p['para_number']}]\nFR: {p['para']}\n"
-        )
+            f"{p['para_number']}. {compress_para(p['para'])}"
+            )
+
 
     para_block = "\n".join(para_text)
 
+    # prompt = f"""
+    # You are an expert in UN resolution analysis.
+    #
+    # TASK:
+    # Classify each paragraph as:
+    # - preambular (context/justification)
+    # - operative (actions/recommendations)
+    #
+    # Rules (VERY IMPORTANT):
+    #
+    # Preambular paragraphs (French cues):
+    # - Start with: "Rappelant", "Reconnaissant", "Considérant", "Notant", "Soulignant"
+    # - Often end with commas (,)
+    # - Provide context, background, justification
+    #
+    # Operative paragraphs (French cues):
+    # - Start with: "Décide", "Demande", "Encourage", "Prie", "Exhorte"
+    # - Often numbered and action-oriented
+    # - Contain clear actions, instructions, or recommendations
+    #
+    # STRICT REASONING:
+    # - If a paragraph contains a clear operative verb or action → classify as operative
+    # - If it only provides context → preambular
+    #
+    # CONFIDENCE SCORING (VERY IMPORTANT):
+    # For EACH paragraph, assign a confidence score between 0 and 1:
+    # - 0.9–1.0 → explicit cue word or very clear meaning
+    # - 0.7–0.89 → strong but indirect signal
+    # - 0.5–0.69 → somewhat unclear
+    # - <0.5 → uncertain or ambiguous
+    #
+    # Return STRICT JSON:
+    #
+    # {{
+    #   "preambular_para": [list of paragraph numbers],
+    #   "operative_para": [list of paragraph numbers],
+    #   "confidence": {{
+    #       "1": 0.95,
+    #       "2": 0.80,
+    #       "3": 0.60
+    #   }},
+    #   "think": "Explain classification using French cues and meaning"
+    # }}
+    #
+    # INPUT Paragraphs:
+    # {para_block}
+    #
+    # RULES:
+    # - Every paragraph MUST appear in exactly one class
+    # - Every paragraph MUST have a confidence score
+    # - Confidence keys MUST be strings of paragraph numbers
+    # - Output ONLY valid JSON
+    # - Do NOT return empty JSON {{}}
+    # """
+    # return prompt.strip()
+
     prompt = f"""
-    You are an expert in UN resolution analysis.
-
+    You are an expert in UN resolution analysis written in French.
+    
     TASK:
-    Classify each paragraph as:
-    - preambular (context/justification)
-    - operative (actions/recommendations)
-
-    Rules (VERY IMPORTANT):
-
-    Preambular paragraphs (French cues):
-    - Start with: "Rappelant", "Reconnaissant", "Considérant", "Notant", "Soulignant"
-    - Often end with commas (,)
-    - Provide context, background, justification
-
-    Operative paragraphs (French cues):
-    - Start with: "Décide", "Demande", "Encourage", "Prie", "Exhorte"
-    - Often numbered and action-oriented
-    - Contain clear actions, instructions, or recommendations
-
-    STRICT REASONING:
-    - If a paragraph contains a clear operative verb or action → classify as operative
-    - If it only provides context → preambular
-
-    CONFIDENCE SCORING (VERY IMPORTANT):
-    For EACH paragraph, assign a confidence score between 0 and 1:
-    - 0.9–1.0 → explicit cue word or very clear meaning
-    - 0.7–0.89 → strong but indirect signal
-    - 0.5–0.69 → somewhat unclear
-    - <0.5 → uncertain or ambiguous
-
-    Return STRICT JSON:
-
+    1. Identify how preambular and operative paragraphs are distinguished in THIS document.
+    2. Use discourse markers and linguistic cues (NOT ordering).
+    3. Apply ONE consistent rule to classify ALL paragraphs.
+    
+    DEFINITIONS:
+    
+    Preambular paragraphs:
+    - Provide context, justification, background
+    - Often begin with: "Considérant", "Rappelant", "Reconnaissant", "Notant", "Soulignant"
+    - Often end with commas
+    - Do NOT contain actions
+    
+    Operative paragraphs:
+    - Contain actions, recommendations, or directives
+    - May include verbs like: "Décide", "Demande", "Encourage"
+    - May be structured or directive
+    
+    IMPORTANT:
+    - The document may NOT be ordered
+    - You MUST rely on linguistic/discourse cues
+    - You MUST produce ONE GLOBAL reasoning
+    
+    RETURN STRICT JSON:
+    
     {{
-      "preambular_para": [list of paragraph numbers],
-      "operative_para": [list of paragraph numbers],
-      "confidence": {{
-          "1": 0.95,
-          "2": 0.80,
-          "3": 0.60
-      }},
-      "think": "Explain classification using French cues and meaning"
+      "preambular_para": [2, 3, 6, ...],
+      "operative_para": [1, 4, 5, ...],
+      "reasoning": "One unified explanation of how you distinguished preambular vs operative",
     }}
-
-    INPUT Paragraphs:
-    {para_block}
-
+    
     RULES:
-    - Every paragraph MUST appear in exactly one class
-    - Every paragraph MUST have a confidence score
-    - Confidence keys MUST be strings of paragraph numbers
+    - Every paragraph MUST be labeled
+    - Labels MUST be either "preambular" or "operative"
+    - Reasoning must explain the rule used
     - Output ONLY valid JSON
-    - Do NOT return empty JSON {{}}
+    
+    INPUT:
+    {para_block}
     """
     return prompt.strip()
 
@@ -201,149 +251,108 @@ def validate_structure(output, doc):
     assert pre | op == set(range(1, n+1))
 
 
-def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True):
+def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True, max_retries=2):
 
     prompt = build_structure_prompt(doc)
+    n = len(doc["body"]["paragraphs"])
 
-    def get_label(output, i):
-        if i in output.get("preambular_para", []):
-            return "pre"
-        elif i in output.get("operative_para", []):
-            return "op"
-        return None
+    def process_output(output):
+        labels = output.get("labels", {})
+        reasoning = output.get("reasoning", "")
 
-    def get_conf(output, i):
-        conf_dict = output.get("confidence", {})
-        return float(conf_dict.get(str(i), 0.0))
+        if not labels or len(labels) != n:
+            raise ValueError("Invalid or incomplete labels")
 
-    if self_consistency:
-        # run twice
-        think1, content1 = run_qwen_generation(model, tokenizer, prompt, temperature=0.1)
-        think2, content2 = run_qwen_generation(model, tokenizer, prompt, temperature=0.2)
-
-        out1 = parse_output_safe(content1)
-        out2 = parse_output_safe(content2)
-
-        n = len(doc["body"]["paragraphs"])
-
-        final_pre = set()
-        final_op = set()
-
-        think_trace = []  # keep reasoning trace
+        pre = []
+        op = []
 
         for i in range(1, n + 1):
-            l1 = get_label(out1, i)
-            l2 = get_label(out2, i)
+            label = labels.get(str(i), "").lower()
 
-            c1 = get_conf(out1, i)
-            c2 = get_conf(out2, i)
-
-            # CASE 1: agreement
-            if l1 == l2 and l1 is not None:
-                if l1 == "pre":
-                    final_pre.add(i)
-                else:
-                    final_op.add(i)
-
-                think_trace.append(f"[{i}] agree → {l1} (c1={c1:.2f}, c2={c2:.2f})")
-
-            # CASE 2: disagreement → use confidence
+            if label == "preambular":
+                pre.append(i)
+            elif label == "operative":
+                op.append(i)
             else:
-                if c1 > c2:
-                    chosen = l1
-                    chosen_conf = c1
-                    source = "run1"
-                else:
-                    chosen = l2
-                    chosen_conf = c2
-                    source = "run2"
+                raise ValueError(f"Invalid label at {i}: {label}")
 
-                if chosen == "pre":
-                    final_pre.add(i)
-                else:
-                    final_op.add(i)
+        if set(pre).union(op) != set(range(1, n + 1)):
+            raise ValueError("Missing paragraph assignments")
 
-                think_trace.append(
-                    f"[{i}] conflict → {chosen} from {source} (c1={c1:.2f}, c2={c2:.2f})"
-                )
-
-            # safety fallback (very rare)
-            if l1 is None and l2 is None:
-                if i > n // 2:
-                    final_op.add(i)
-                    think_trace.append(f"[{i}] fallback → op (no labels)")
-                else:
-                    final_pre.add(i)
-                    think_trace.append(f"[{i}] fallback → pre (no labels)")
-
-        # choose best reasoning block (same as your logic)
-        score1 = len(set(out1.get("preambular_para", [])) & final_pre)
-        score2 = len(set(out2.get("preambular_para", [])) & final_pre)
-
-        base_think = think1 if score1 >= score2 else think2
-
-        merged = {
-            "preambular_para": sorted(list(final_pre)),
-            "operative_para": sorted(list(final_op)),
-            "think": base_think + "\n\nMERGE TRACE:\n" + "\n".join(think_trace)
+        return {
+            "preambular_para": sorted(pre),
+            "operative_para": sorted(op),
+            "think": reasoning
         }
 
-        validate_structure(merged, doc)
-        return merged
+    # -------------------------------------
+    # SELF-CONSISTENCY MODE
+    # -------------------------------------
+    if self_consistency:
 
-    else:
-        LOW_CONF_THRESHOLD = 0.6
-        MAX_LOW_CONF_RATIO = 0.4  # tolerate up to 40% uncertain paragraphs
-
-        for attempt in range(3):
-            thinking, content = run_qwen_generation(model, tokenizer, prompt)
-
+        for attempt in range(max_retries):
             try:
-                output = parse_output_safe(content)
+                think1, content1 = run_qwen_generation(
+                    model, tokenizer, prompt, temperature=0.1
+                )
+                think2, content2 = run_qwen_generation(
+                    model, tokenizer, prompt, temperature=0.2
+                )
 
-                if "preambular_para" not in output or "operative_para" not in output:
-                    continue
+                out1 = parse_output_safe(content1)
+                out2 = parse_output_safe(content2)
 
-                n = len(doc["body"]["paragraphs"])
+                res1 = process_output(out1)
+                res2 = process_output(out2)
 
-                conf_dict = output.get("confidence", {})
-                low_conf_count = 0
+                # Agreement → return
+                if (
+                    res1["preambular_para"] == res2["preambular_para"]
+                    and res1["operative_para"] == res2["operative_para"]
+                ):
+                    return res1
 
-                for i in range(1, n + 1):
-                    conf = float(conf_dict.get(str(i), 0.0))
-                    if conf < LOW_CONF_THRESHOLD:
-                        low_conf_count += 1
+                # Disagreement → pick richer reasoning
+                def reasoning_score(text):
+                    return len(text.split())
 
-                low_conf_ratio = low_conf_count / n
+                chosen = res1 if reasoning_score(res1["think"]) >= reasoning_score(res2["think"]) else res2
 
-                # Accept only if confidence is good enough
-                if low_conf_ratio <= MAX_LOW_CONF_RATIO:
-                    validate_structure(output, doc)
-
-                    output["think"] = (
-                            thinking
-                            + f"\n\nCONFIDENCE CHECK: low={low_conf_count}/{n} "
-                              f"(ratio={low_conf_ratio:.2f}) → accepted"
-                    )
-
-                    return output
-
-                else:
-                    # retry with trace
-                    continue
+                chosen["think"] += "\n\n[Self-consistency: disagreement resolved by selecting richer reasoning]"
+                return chosen
 
             except Exception:
                 continue
 
-        # fallback (only after confidence failures)
-        n = len(doc["body"]["paragraphs"])
-        split = n // 2
-
+        # ✅ SAFE FALLBACK
         return {
-            "preambular_para": list(range(1, split + 1)),
-            "operative_para": list(range(split + 1, n + 1)),
-            "think": (
-                "fallback rule-based logic applied\n"
-                f"Reason: confidence too low across attempts (threshold={LOW_CONF_THRESHOLD})"
-            )
-            }
+            "preambular_para": [],
+            "operative_para": [],
+            "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+        }
+
+    # -------------------------------------
+    # SINGLE RUN MODE
+    # -------------------------------------
+    else:
+
+        for attempt in range(max_retries):
+            try:
+                thinking, content = run_qwen_generation(
+                    model, tokenizer, prompt, temperature=0.1
+                )
+
+                output = parse_output_safe(content)
+                result = process_output(output)
+
+                return result
+
+            except Exception:
+                continue
+
+        # ✅ SAFE FALLBACK
+        return {
+            "preambular_para": [],
+            "operative_para": [],
+            "think": "LLM failed to classify structure after multiple attempts (single-run mode). Returned empty lists."
+        }

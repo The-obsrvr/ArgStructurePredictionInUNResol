@@ -6,27 +6,24 @@
     "structure": {
       "doc_title": "ICPE-03-1934_RES1-FR",
       "nb_paras": 12,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": ""
-    },
-    "preambular_para": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "operative_para": [
-      7
-    ],
-    "think": "<think>\nOkay, let's tackle this task. I need to classify each paragraph as preambular or operative based on the French cues provided. Let me go through each paragraph one by one.\n\nStarting with Paragraph 1: \"La Conférence 1) Constate que...\" The verb here is \"Constate\", which is a preambular cue. It's stating a fact, so this is preambular. Confidence is high because it's a direct cue. Score 0.95.\n\nParagraph 2: \"Reconnait que...\" The verb \"Reconnait\" is a preambular cue. It's providing context, so preambular. Confidence 0.95.\n\nParagraph 3: \"considère comme souhaitable...\" The verb \"considère\" is preambular. It's giving a view or opinion, not an action. So preambular. Confidence 0.9.\n\nParagraph 4: \"Estime que...\" \"Estime\" is a preambular cue. It's expressing an opinion, not a direct action. Confidence 0.9.\n\nParagraph 5: \"Attire l'attention des Gouvernements...\" The verb \"Attire\" is preambular. It's about drawing attention, which is part of context. Confidence 0.85.\n\nParagraph 6: \"Estime que...\" Again, \"Estime\" is preambular. It's a statement of opinion. Confidence 0.9.\n\nParagraph 7: \"Proclame que...\" \"Proclame\" is an operative verb. It's a strong action, declaring something. So operative. Confidence 0.95.\n\nParagraph 8: \"Souhaite que...\" \"Souhaite\" is preambular. It's expressing a wish, which is part of context. Confidence 0.8.\n\nParagraph 9: \"Souhaite que...\" Again, \"Souhaite\" is preambular. It's a wish, so context. Confidence 0.8.\n\nParagraph 10: \"Estime souhaitable que...\" \"Estime\" is preambular. It's a statement of opinion. Confidence 0.9.\n\nParagraph 11: \"Attire l'attention des autorités scolaires...\" \"Attire\" is preambular. Drawing attention, context. Confidence 0.85.\n\nParagraph 12: \"Souligne qu...\" \"Souligne\" is preambular. It's highlighting a point, part of context. Confidence 0.9.\n\nWait, let me check again. Operative verbs are \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\". None of the paragraphs here use those exact verbs. The operative ones are those that have actions like \"Proclame\" (paragraph 7). The rest are preambular. So only paragraph 7 is operative. The rest are preambular. Let me confirm each one again.\n\nYes, all others start with preambular cues. So the operative is only paragraph 7. The confidence scores for each are based on the cues. For example, paragraph 7 has \"Proclame\" which is a strong action, so high confidence. Others have cues like \"Estime\", \"Attire\", \"Souhaite\", which are preambular but maybe with varying confidence. Some might have lower confidence if the cue is less direct, but in this case, they all fit the preambular cues. So the final classification is preambular for all except paragraph 7, which is operative.\n\nCONFIDENCE CHECK: low=0/12 (ratio=0.00) → accepted"
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "operative_para": [
+        7
+      ],
+      "think": "<think>\nOkay, let's tackle this task. I need to classify each paragraph as preambular or operative based on the French cues provided. Let me go through each paragraph one by one.\n\nStarting with Paragraph 1: \"La Conférence 1) Constate que...\" The verb here is \"Constate\", which is a preambular cue. It's stating a fact, so this is preambular. Confidence is high because it's a direct cue. Score 0.95.\n\nParagraph 2: \"Reconnait que...\" The verb \"Reconnait\" is a preambular cue. It's providing context, so preambular. Confidence 0.95.\n\nParagraph 3: \"considère comme souhaitable...\" The verb \"considère\" is preambular. It's giving a view or opinion, not an action. So preambular. Confidence 0.9.\n\nParagraph 4: \"Estime que...\" \"Estime\" is a preambular cue. It's expressing an opinion, not a direct action. Confidence 0.9.\n\nParagraph 5: \"Attire l'attention des Gouvernements...\" The verb \"Attire\" is preambular. It's about drawing attention, which is part of context. Confidence 0.85.\n\nParagraph 6: \"Estime que...\" Again, \"Estime\" is preambular. It's a statement of opinion. Confidence 0.9.\n\nParagraph 7: \"Proclame que...\" \"Proclame\" is an operative verb. It's a strong action, declaring something. So operative. Confidence 0.95.\n\nParagraph 8: \"Souhaite que...\" \"Souhaite\" is preambular. It's expressing a wish, which is part of context. Confidence 0.8.\n\nParagraph 9: \"Souhaite que...\" Again, \"Souhaite\" is preambular. It's a wish, so context. Confidence 0.8.\n\nParagraph 10: \"Estime souhaitable que...\" \"Estime\" is preambular. It's a statement of opinion. Confidence 0.9.\n\nParagraph 11: \"Attire l'attention des autorités scolaires...\" \"Attire\" is preambular. Drawing attention, context. Confidence 0.85.\n\nParagraph 12: \"Souligne qu...\" \"Souligne\" is preambular. It's highlighting a point, part of context. Confidence 0.9.\n\nWait, let me check again. Operative verbs are \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\". None of the paragraphs here use those exact verbs. The operative ones are those that have actions like \"Proclame\" (paragraph 7). The rest are preambular. So only paragraph 7 is operative. The rest are preambular. Let me confirm each one again.\n\nYes, all others start with preambular cues. So the operative is only paragraph 7. The confidence scores for each are based on the cues. For example, paragraph 7 has \"Proclame\" which is a strong action, so high confidence. Others have cues like \"Estime\", \"Attire\", \"Souhaite\", which are preambular but maybe with varying confidence. Some might have lower confidence if the cue is less direct, but in this case, they all fit the preambular cues. So the final classification is preambular for all except paragraph 7, which is operative.\n\nCONFIDENCE CHECK: low=0/12 (ratio=0.00) → accepted"
+    }
   },
   "body": {
     "paragraphs": [

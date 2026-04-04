@@ -6,37 +6,34 @@
     "structure": {
       "doc_title": "ICPE-05-1936_RES1-FR",
       "nb_paras": 22,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": ""
-    },
-    "preambular_para": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "operative_para": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22
-    ],
-    "think": "<think>\nOkay, let's tackle this task. The user wants me to classify each paragraph from the given UN resolution text into preambular or operative, along with confidence scores. Let me start by recalling the rules provided.\n\nFirst, the French cues for preambular paragraphs are \"Rappelant\", \"Reconnaissant\", \"Considérant\", \"Notant\", \"Soulignant\". These usually end with commas and provide context. Operative paragraphs start with \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\", are often numbered, and have clear actions.\n\nLooking at the paragraphs:\n\nParagraph 1: Starts with \"La Conférence internationale...\" and mentions adopting a recommendation. It seems like an introduction, maybe preambular. But the last part says \"adopté le quinze juillet mil neuf cent trente-six la recommandation suivante : La Conférence,\" which might be the start of the operative part. Wait, but the entire paragraph is about the conference adopting a recommendation. However, the first part is setting the context. But the last part might be the operative. Hmm, maybe this is a mix. But since it's the first paragraph, maybe it's preambular. Confidence might be 0.95 because it's the introduction.\n\nParagraph 2: Starts with \"Considérant que...\" which is a preambular cue. Ends with a semicolon. So this is preambular. Confidence 0.95.\n\nParagraph 3: \"Que les conditions...\" starts with \"Que\", which is not a cue. But the content is providing context, so preambular. Confidence 0.8.\n\nParagraph 4: \"Que, si le développement...\" starts with \"Que\", same as above. Contextual, so preambular. Confidence 0.7.\n\nParagraph 5: \"Que l'école rurale...\" again starts with \"Que\". Contextual, preambular. Confidence 0.7.\n\nParagraph 6: \"Considérant qu'au total...\" starts with \"Considérant\", preambular. Confidence 0.95.\n\nParagraph 7: \"Recommande aux Ministères...\" starts with \"Recommande\", which is an operative cue. So this is operative. Confidence 0.95.\n\nParagraphs 8-22: All start with numbers and use \"Que\" or similar. For example, paragraph 8 starts with \"1° Que l'éducation...\" which is an operative action. Each of these is a numbered recommendation, so they are operative. Confidence 0.95 for each.\n\nWait, but some of the operative paragraphs might have \"Que\" but they are actions. For example, paragraph 8: \"Que l'éducation donnée...\" is a recommendation, so operative. Similarly, paragraphs 9-22 all start with \"Que\" followed by actions. So all these are operative.\n\nNow, checking each paragraph:\n\n1: Preambular? The first part is context, but the last part mentions adopting a recommendation. However, the entire paragraph is setting up the context of the conference. So preambular. Confidence 0.95.\n\n2: \"Considérant que...\" preambular. 0.95.\n\n3: \"Que les conditions...\" preambular. 0.8.\n\n4: \"Que, si le développement...\" preambular. 0.7.\n\n5: \"Que l'école rurale...\" preambular. 0.7.\n\n6: \"Considérant qu'au total...\" preambular. 0.95.\n\n7: \"Recommande aux Ministères...\" operative. 0.95.\n\n8-22: All start with \"Que\" but are numbered and action-oriented. Operative. Confidence 0.95 each.\n\nSo the preambular paragraphs are 1,2,3,4,5,6. Operative are 7-22. Wait, but paragraph 7 starts with \"Recommande\", which is an operative cue. Then paragraphs 8-22 are numbered and start with \"Que\", which are actions. So yes, operative.\n\nNow, confidence scores:\n\nParagraph 1: 0.95 (starts with context, but the last part is the recommendation, but the entire paragraph is setting up the context. Maybe 0.95 as it's the introduction.\n\nParagraphs 2,6: 0.95 (clear preambular cues).\n\nParagraphs 3,4,5: 0.7-0.8. Since they start with \"Que\" but are providing context, maybe 0.7 for 3, 0.7 for 4, 0.7 for 5.\n\nParagraph 7: 0.95 (operative cue).\n\nParagraphs 8-22: 0.95 each as they are clear operative actions.\n\nSo the JSON should list preambular as 1,2,3,4,5,6 and operative as 7-22. Confidence scores for each paragraph accordingly.\n\nCONFIDENCE CHECK: low=0/22 (ratio=0.00) → accepted"
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "operative_para": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to classify each paragraph from the given UN resolution text into preambular or operative, along with confidence scores. Let me start by recalling the rules provided.\n\nFirst, the French cues for preambular paragraphs are \"Rappelant\", \"Reconnaissant\", \"Considérant\", \"Notant\", \"Soulignant\". These usually end with commas and provide context. Operative paragraphs start with \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\", are often numbered, and have clear actions.\n\nLooking at the paragraphs:\n\nParagraph 1: Starts with \"La Conférence internationale...\" and mentions adopting a recommendation. It seems like an introduction, maybe preambular. But the last part says \"adopté le quinze juillet mil neuf cent trente-six la recommandation suivante : La Conférence,\" which might be the start of the operative part. Wait, but the entire paragraph is about the conference adopting a recommendation. However, the first part is setting the context. But the last part might be the operative. Hmm, maybe this is a mix. But since it's the first paragraph, maybe it's preambular. Confidence might be 0.95 because it's the introduction.\n\nParagraph 2: Starts with \"Considérant que...\" which is a preambular cue. Ends with a semicolon. So this is preambular. Confidence 0.95.\n\nParagraph 3: \"Que les conditions...\" starts with \"Que\", which is not a cue. But the content is providing context, so preambular. Confidence 0.8.\n\nParagraph 4: \"Que, si le développement...\" starts with \"Que\", same as above. Contextual, so preambular. Confidence 0.7.\n\nParagraph 5: \"Que l'école rurale...\" again starts with \"Que\". Contextual, preambular. Confidence 0.7.\n\nParagraph 6: \"Considérant qu'au total...\" starts with \"Considérant\", preambular. Confidence 0.95.\n\nParagraph 7: \"Recommande aux Ministères...\" starts with \"Recommande\", which is an operative cue. So this is operative. Confidence 0.95.\n\nParagraphs 8-22: All start with numbers and use \"Que\" or similar. For example, paragraph 8 starts with \"1° Que l'éducation...\" which is an operative action. Each of these is a numbered recommendation, so they are operative. Confidence 0.95 for each.\n\nWait, but some of the operative paragraphs might have \"Que\" but they are actions. For example, paragraph 8: \"Que l'éducation donnée...\" is a recommendation, so operative. Similarly, paragraphs 9-22 all start with \"Que\" followed by actions. So all these are operative.\n\nNow, checking each paragraph:\n\n1: Preambular? The first part is context, but the last part mentions adopting a recommendation. However, the entire paragraph is setting up the context of the conference. So preambular. Confidence 0.95.\n\n2: \"Considérant que...\" preambular. 0.95.\n\n3: \"Que les conditions...\" preambular. 0.8.\n\n4: \"Que, si le développement...\" preambular. 0.7.\n\n5: \"Que l'école rurale...\" preambular. 0.7.\n\n6: \"Considérant qu'au total...\" preambular. 0.95.\n\n7: \"Recommande aux Ministères...\" operative. 0.95.\n\n8-22: All start with \"Que\" but are numbered and action-oriented. Operative. Confidence 0.95 each.\n\nSo the preambular paragraphs are 1,2,3,4,5,6. Operative are 7-22. Wait, but paragraph 7 starts with \"Recommande\", which is an operative cue. Then paragraphs 8-22 are numbered and start with \"Que\", which are actions. So yes, operative.\n\nNow, confidence scores:\n\nParagraph 1: 0.95 (starts with context, but the last part is the recommendation, but the entire paragraph is setting up the context. Maybe 0.95 as it's the introduction.\n\nParagraphs 2,6: 0.95 (clear preambular cues).\n\nParagraphs 3,4,5: 0.7-0.8. Since they start with \"Que\" but are providing context, maybe 0.7 for 3, 0.7 for 4, 0.7 for 5.\n\nParagraph 7: 0.95 (operative cue).\n\nParagraphs 8-22: 0.95 each as they are clear operative actions.\n\nSo the JSON should list preambular as 1,2,3,4,5,6 and operative as 7-22. Confidence scores for each paragraph accordingly.\n\nCONFIDENCE CHECK: low=0/22 (ratio=0.00) → accepted"
+    }
   },
   "body": {
     "paragraphs": [
