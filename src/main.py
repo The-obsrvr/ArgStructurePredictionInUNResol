@@ -60,10 +60,10 @@ def update_document(doc, step1_out, step4_out):
 
         para["type"] = "preambular" if pid in preambular else ("operative" if pid in operative else None)
 
-        # if pid in step4_out:
-        #     para["tags"] = step4_out[pid]["tags"]
-        #     para["matched_pars"] = step4_out[pid]["matched_pars"]
-        #     para["think"] = step4_out[pid]["think"]
+        if pid in step4_out:
+            para["tags"] = step4_out[pid]["tags"]
+            para["matched_pars"] = step4_out[pid]["matched_pars"]
+            para["think"] = step4_out[pid]["think"]
 
     return doc
 
@@ -73,12 +73,6 @@ def main():
     Process UN resolution documents to identify argumentative paragraphs, classify them and relate them to each other.
 
     :return:
-    """
-    """
-    GPU6: 82 - 92 copy2
-    GPU7: 62-81 textcopy
-    GPU5: 38-48 copy3
-    GPU4: 49-61 copy4
     """
 
     input_folder = "Data/asdf"
