@@ -79,8 +79,8 @@ def main():
     outputs: gpu7
     outputs3: 6
     """
-    input_folder = "outputs"
-    output_folder = "outputs11"
+    input_folder = "outputs3"
+    output_folder = "outputs33"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
