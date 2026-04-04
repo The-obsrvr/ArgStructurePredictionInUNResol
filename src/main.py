@@ -75,8 +75,8 @@ def main():
     :return:
     """
 
-    input_folder = "outputs"
-    output_folder = "outputs"
+    input_folder = "outputs2"
+    output_folder = "outputs22"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
