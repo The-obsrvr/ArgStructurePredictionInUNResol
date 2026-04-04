@@ -80,8 +80,8 @@ def main():
     outputs3: 5
     output4: 6
     """
-    input_folder = "outputs2"
-    output_folder = "outputs22"
+    input_folder = "outputs3"
+    output_folder = "outputs33"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
@@ -127,7 +127,7 @@ def main():
         para_level_output = None
 
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=True)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=False)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
