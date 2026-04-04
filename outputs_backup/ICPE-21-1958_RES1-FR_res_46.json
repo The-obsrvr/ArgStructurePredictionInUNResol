@@ -1,0 +1,925 @@
+{
+  "TEXT_ID": "ICPE-21-1958_RES1-FR_res_46",
+  "RECOMMENDATION": 46,
+  "TITLE": "L'ÉLABORATION ET LA PROMULGATION DES PROGRAMMES DE L'ENSEIGNEMENT PRIMAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-21-1958_RES1-FR",
+      "nb_paras": 35,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "operative_para": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "think": "fallback rule-based logic applied\nReason: confidence too low across attempts (threshold=0.6)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le sept juillet mil neuf cent cinquante-huit en sa vingt et unième session, adopte le quinze juillet mil neuf cent cinquante-huit la recommandation suivante : La Conférence,",
+        "tags": [
+          "M_FORM",
+          "O_G"
+        ],
+        "type": "preambular",
+        "think": "Tags M_FORM (Formal education) and O_G (General academic orientation) are selected because the paragraph describes a formal international conference on public education and its recommendation for curricular reforms. Related paragraphs 12-33 directly address curricular recommendations, implementation methods, and contextual considerations (paras 2-3) that align with the conference's adoption of the recommendation. Relations are assigned based on semantic connections: paras 28/32/33 provide specific recommendations supporting the conference's adoption, while paras 2/3 offer contextual justification. Para 12 is complemental as it directly references the recommendation submission.",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "28": [
+            "supporting"
+          ],
+          "32": [
+            "supporting"
+          ],
+          "33": [
+            "supporting"
+          ],
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 7, 1958, in its twenty-first session, adopts on July 15, 1958, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant que l'évolution actuelle est caractérisée par les transformations rapides qui interviennent dans le domaine des connaissances, des structures sociales et des activités humaines,",
+        "tags": [
+          "F_SOCSCI"
+        ],
+        "type": "preambular",
+        "think": "The tag F_SOCSCI is selected because the paragraph discusses social structures and human activities, which fall under social sciences. Paragraph 3 complements by addressing science's role in societal transformation. Paragraph 5 complements by linking curricula to social needs. Paragraph 15 supports by emphasizing education's role in societal participation. Paragraph 25 modifies by cautioning against hasty curriculum changes. Paragraph 35 supports by providing a framework for adapting to social changes.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "25": [
+            "modifying"
+          ],
+          "35": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that the current evolution is characterized by rapid transformations occurring in the fields of knowledge, social structures, and human activities,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que les écoliers d'aujourd'hui vivront leur vie d'adulte dans un monde largement influencé par les applications de la science aux activités de toutes catégories,",
+        "tags": [
+          "POP_YOUTH",
+          "POL_LL"
+        ],
+        "type": "preambular",
+        "think": "The tags POP_YOUTH is selected because the paragraph focuses on 'schoolchildren' (youth/adolescents). POL_LL is relevant as the paragraph emphasizes preparing learners for a scientifically influenced adult world, aligning with lifelong learning policies. Para 15 is complemental as it expands on education's role in preparing children for societal participation, which complements the target's focus on future global challenges.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that today's schoolchildren will live their adult lives in a world largely influenced by the applications of science to activities of all kinds,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que le progrès en pédagogie, bien qu'il dépende pour une bonne part du mouvement des idées et des discussions et échanges d'opinions, requiert avant tout des recherches objectives sur les problèmes scolaires,",
+        "tags": [
+          "PEDAG_FOUND",
+          "SYST_RESEAR"
+        ],
+        "type": "preambular",
+        "think": "The paragraph emphasizes the need for objective research in pedagogy (PEDAG_FOUND) and aligns with SYST_RESEAR (Research and surveys) due to its focus on educational research. Paragraphs 26 and 27 directly address research requirements for curriculum development, supporting the target paragraph's emphasis on research as foundational to pedagogical progress.",
+        "matched_pars": {
+          "26": [
+            "supporting"
+          ],
+          "27": [
+            "supporting"
+          ]
+        },
+        "para_en": "Whereas progress in pedagogy, although largely dependent on the movement of ideas and the discussion and exchange of opinions, primarily requires objective research on educational problems,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que l'élaboration des plans d'études doit tenir compte des possibilités et des préoccupations de l'individu, garçon ou fille, autant que de celles de la collectivité,",
+        "tags": [
+          "CUR_OTHER",
+          "ACT_STUD"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_OTHER and ACT_STUD are selected because the paragraph focuses on curriculum development (CUR_OTHER) and stakeholder focus on learners (ACT_STUD). Related paragraphs are analyzed for semantic connections: para 6/7/16/17/18 complement curriculum aspects, para 10 modifies by adding age-appropriate constraints, and para 18 supports by reinforcing individual considerations.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "10": [
+            "modifying"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that the development of curricula must take into account the possibilities and concerns of the individual, whether boy or girl, as well as those of the community,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que l'école primaire a pour fonction essentielle de donner à l'enfant, avec le goût et le respect du travail, les outils nécessaires à l'acquisition du savoir et au développement intégral de sa personnalité,",
+        "tags": [
+          "ISC_1",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_1 (Primary education) and CUR_IMPL (Curriculum implementation) directly align with the paragraph's focus on primary school's role in providing tools for knowledge and holistic development. Related paragraphs: 7 (complemental - expands on student empowerment), 8 (supporting - reinforces teacher autonomy in curriculum), 10 (modifying - adds protection against age-inappropriate demands), 14 (complemental - detailed objectives of primary education), 20 (complemental - learning objectives), 31 (modifying - curriculum adaptability).",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "10": [
+            "modifying"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "31": [
+            "modifying"
+          ]
+        },
+        "para_en": "Whereas the primary school has the essential function of providing the child, along with a taste for and respect of work, the necessary tools for the acquisition of knowledge and the comprehensive development of his or her personality,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que l'école primaire doit offrir à ses élèves la possibilité d'entreprendre des tâches faisant appel au meilleur d'eux-mêmes,",
+        "tags": [
+          "CUR_IMPL",
+          "POL_QUAL"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_IMPL and POL_QUAL are selected because the paragraph emphasizes curriculum-based tasks (CUR_IMPL) and quality learning outcomes (POL_QUAL). Related paragraphs: 8 (supporting) discusses teacher autonomy in curriculum implementation, 14 (supporting) outlines curriculum goals aligning with student development, and 31 (complemental) addresses curriculum adaptation in practice.",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that primary education must offer its students the opportunity to undertake tasks that call upon the best in themselves,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant qu'en vue de donner à leur activité sa pleine efficacité, les maîtres doivent bénéficier, à l'intérieur des programmes, d'une liberté suffisante pour choisir les sujets et les méthodes d'enseignement qui leur permettront de travailler à un rythme favorable pour eux-mêmes et pour leurs élèves,",
+        "tags": [
+          "POL_CUR",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_CUR and ACT_EDUC are selected because the paragraph focuses on curriculum policies (POL_CUR) and teacher autonomy (ACT_EDUC). Relations: Para 9 supports the idea of reducing overwork (supporting, 0.7). Para 19 directly aligns with teacher freedom in curriculum implementation (supporting, 0.9). Paras 31 and 32 provide complementary context on curriculum adaptation and methodological guidance (complemental, 0.7).",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that in order to give full effectiveness to their activity, teachers must benefit, within the framework of the curricula, from sufficient freedom to choose the subjects and teaching methods that will allow them to work at a pace conducive both to themselves and to their pupils,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que les éducateurs sont unanimes à réprouver le surmenage et la surcharge des programmes de l'enseignement primaire,",
+        "tags": [
+          "T_COND",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags T_COND (Teachers | Working conditions and salaries) and CUR_IMPL (Curriculum | Curriculum implementation) are selected because the paragraph explicitly mentions educators condemning overwork (working conditions) and excessive curriculum burden (curriculum implementation). Paragraph 13 directly addresses curriculum overload caused by conceptual confusion, which supports the target paragraph's focus on excessive burden. Paragraph 10 complements the target by addressing student protection from incompatible responsibilities, aligning with the overwork theme.",
+        "matched_pars": {
+          "13": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that educators unanimously condemn overwork and the excessive burden of primary education curricula,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant qu'il convient de défendre les élèves de l'école primaire contre toute tendance à leur imposer des études et des responsabilités incompatibles avec l'âge et les capacités de chaque enfant,",
+        "tags": [
+          "POL_CUR"
+        ],
+        "type": "preambular",
+        "think": "The paragraph focuses on protecting primary students from age-inappropriate responsibilities, aligning with POL_CUR (curriculum/pedagogy policies). Related paragraphs: 14 (supports by detailing age-appropriate educational aims), 17 (supports by emphasizing developmental stage-based curriculum organization), 31 (supports by addressing curriculum adaptation to student needs), 11 (complemental about diverse curriculum solutions), and 24 (complemental about collaborative curriculum development).",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "17": [
+            "supporting"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that it is appropriate to protect primary school students from any tendency to impose on them studies and responsibilities that are incompatible with the age and abilities of each child,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'élaboration et de la promulgation des programmes de l'enseignement primaire,",
+        "tags": [
+          "CUR_OTHER",
+          "POL_CUR"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_OTHER and POL_CUR are selected because the paragraph discusses curriculum development policies and diverse solutions for primary education, which aligns with curriculum-related issues and policy themes. Related paragraphs provide supporting details on curriculum development methods (26, 30, 31, 35), complemental context on confusion between primary education terms (13), and all relations have confidence ≥ 0.6.",
+        "matched_pars": {
+          "13": [
+            "complemental"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "30": [
+            "supporting"
+          ],
+          "31": [
+            "supporting"
+          ],
+          "35": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, despite similar aspirations, countries with very different situations must provide diverse solutions to the problem of the development and promulgation of primary education curricula,"
+      },
+      {
+        "para_number": 12,
+        "para": "Soumet aux ministères de l'Instruction publique des différents pays la recommandation suivante:",
+        "tags": [
+          "POL_OTH",
+          "Curriculum"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_OTH (Policy theme) and Curriculum are selected because the paragraph involves submitting a policy recommendation to ministries of public instruction (policy) and directly references curriculum development. Relations are identified based on semantic connections: para 24 directly supports the recommendation, while others provide context or complementary aspects (e.g., curriculum aims, implementation, international collaboration).",
+        "matched_pars": {
+          "24": [
+            "supporting"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits the following recommendation to the Ministries of Public Instruction of the various countries:"
+      },
+      {
+        "para_number": 13,
+        "para": "PRINCIPES RÉGISSANT L'ÉLABORATION DES PROGRAMMES PRIMAIRES 1. Une confusion fréquente s'est établie, en divers pays, entre le concept d'école primaire et celui de scolarité obligatoire; partout où les deux termes ne se recouvrent pas, il convient de lutter contre la tendance qui attribue à l'école primaire des buts qui ne sont pas les siens et dont la conséquence est souvent une surcharge des programmes scolaires;",
+        "tags": [
+          "CUR_OTHER",
+          "POL_CUR",
+          "ISC_1"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_OTHER (curriculum-related issue) and POL_CUR (curriculum policy) are selected because the paragraph addresses curriculum development principles and policy guidance. ISC_1 (primary education) is relevant as the focus is on primary school curricula. Related paragraphs: 14 (supporting curriculum objectives), 25 (supporting against hasty procedures), 23 (supporting specialist involvement), 31 (complemental adaptation), 30 (modifying promulgation systems), and 15 (complemental community participation).",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "25": [
+            "supporting"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "30": [
+            "modifying"
+          ],
+          "15": [
+            "complemental"
+          ]
+        },
+        "para_en": "PRINCIPLES GOVERNING THE DEVELOPMENT OF PRIMARY SCHOOL CURRICULA 1. A frequent confusion has arisen in various countries between the concept of primary school and that of compulsory education; wherever the two terms do not coincide, it is necessary to counter the tendency to assign to primary school objectives that do not belong to it, which often results in an overload of the school curricula;"
+      },
+      {
+        "para_number": 14,
+        "para": "2. En tous pays, l'école primaire doit se proposer: a) de doter l'enfant des instruments fondamentaux de pensée et d'action qui, adaptés à son âge, l'aideront à vivre pleinement son existence d'homme et de citoyen et à comprendre le monde dans lequel il est appelé à vivre; b) de transmettre un patrimoine et une culture et de donner les moyens de les enrichir; c) de former des êtres libres, conscients de leurs responsabilités, ayant le respect d'eux-mêmes et d'autrui, membres actifs et utiles de la communauté nationale ;",
+        "tags": [
+          "ISC_1",
+          "CUR_CONTENT"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_1 (primary education) and CUR_CONTENT (curriculum content/learning areas) are directly supported by the text's focus on primary education objectives and curriculum elements. Related paragraphs: 15 (complemental - community participation), 20 (supporting - learning objectives), 34 (supporting - curriculum alignment), 30 (complemental - regional adaptation), 16 (complemental - curriculum components), 31 (modifying - curriculum adaptation). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "34": [
+            "supporting"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "31": [
+            "modifying"
+          ]
+        },
+        "para_en": "2. In every country, primary education must aim to: a) equip the child with the fundamental instruments of thought and action which, adapted to their age, will help them to live fully as an individual and citizen and to understand the world in which they are called to live; b) transmit a heritage and culture and provide the means to enrich them; c) train free individuals, aware of their responsibilities, respectful of themselves and others, and active, useful members of the national community;"
+      },
+      {
+        "para_number": 15,
+        "para": "3. Un des principaux objets de l'éducation moderne doit être de préparer l'enfant à participer de façon consciente et active, et selon son âge et son niveau de développement, à la vie de la famille, de la collectivité et de la nation et à l'avènement d'une communauté mondiale plus fraternelle, riche en aspects divers mais unie dans la poursuite de buts communs: paix, sécurité, collaboration féconde entre tous les êtres humains;",
+        "tags": [
+          "CCUT_GCITIZ",
+          "ACT_PARENT"
+        ],
+        "type": "preambular",
+        "think": "Tags 'CCUT_GCITIZ' (Global citizenship and peace education) and 'ACT_PARENT' (Parents and communities) are selected because the paragraph emphasizes preparing children for global community participation and family/community involvement. Relations: Para 16 (complemental) links to international curriculum exchanges; Para 20 (supporting) aligns with learning-to-act objectives; Para 18 (complemental) connects to child development considerations; Paras 28/34 (complemental) relate to curriculum alignment and materials.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. One of the principal objectives of modern education must be to prepare the child to participate consciously and actively, according to their age and level of development, in the life of the family, the community, and the nation, as well as in the advent of a more fraternal global community, rich in diverse aspects but united in the pursuit of common goals: peace, security, and fruitful collaboration among all human beings."
+      },
+      {
+        "para_number": 16,
+        "para": "4. Tout plan d'études devrait comporter trois éléments: les connaissances à assimiler, les techniques à maîtriser, les moyens propres à assurer le développement physique et à satisfaire les besoins affectifs, esthétiques et spirituels d'ordre individuel et social;",
+        "tags": [
+          "CUR_CONTENT",
+          "F_PE"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_CONTENT and F_PE are selected because the paragraph explicitly outlines curriculum elements (knowledge, skills, and means for development) and specifically mentions physical and emotional needs. Para 18 (supporting, 0.9) addresses content referencing emotional/physiological aspects, aligning with the target's focus on needs. Para 23 (supporting, 0.9) adds expertise in child psychology to ensure development, reinforcing the 'means' element.",
+        "matched_pars": {
+          "18": [
+            "supporting"
+          ],
+          "23": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. Every curriculum should include three elements: the knowledge to be assimilated, the skills to be mastered, and the means to ensure physical development as well as to satisfy individual and social emotional, aesthetic, and spiritual needs."
+      },
+      {
+        "para_number": 17,
+        "para": "5. Les programmes doivent être établis par année d'études, en tenant compte des possibilités de compréhension et d'assimilation des enfants aux divers stades de leur croissance, pour assurer une formation intellectuelle rationnelle et un travail scolaire se déroulant à un rythme normal;",
+        "tags": [
+          "CUR_ORG",
+          "ISC_01"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_ORG is selected because the paragraph emphasizes curriculum organization by grade levels and developmental stages. ISC_01 is relevant due to the focus on children's growth stages. Para 18 (complemental) addresses curriculum content considerations aligning with developmental needs. Para 20 (complemental) links to intellectual formation objectives. Para 23 (supporting) reinforces the need for child psychology expertise. Paras 31 and 34 (complemental) relate to curriculum adaptation and alignment with teaching materials.",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. Curricula must be organized by grade level, taking into account the children's capacity for understanding and assimilation at different stages of their development, in order to ensure a rational intellectual education and schoolwork conducted at a normal pace;"
+      },
+      {
+        "para_number": 18,
+        "para": "6. Pour établir le contenu des programmes, il convient de se référer non seulement aux processus mentaux, mais aussi aux intérêts et aux besoins des enfants, à leur vie affective et physiologique;",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on curriculum content development, emphasizing children's interests, needs, and physiological/emotional aspects. 'CUR_CONTENT' is directly relevant. Related paragraphs address curriculum objectives (20), specialist inclusion (23), research requirements (26), methodological guidance (32), stakeholder collaboration (24), and implementation factors (19). These are either supporting (aligning with content focus) or complemental (adding related context). Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "20": [
+            "supporting"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. In establishing the content of the curricula, reference should be made not only to mental processes but also to the interests and needs of children, as well as to their emotional and physiological life;"
+      },
+      {
+        "para_number": 19,
+        "para": "7. Tout programme d'enseignement doit tenir compte de la compétence des maîtres et du temps de travail dont disposent effectivement maîtres et élèves;",
+        "tags": [
+          "CUR_ORG",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_ORG and T_COND are selected because the paragraph emphasizes curriculum organization (considering instructional time) and teacher working conditions. Paragraph 31 (adapting curricula) is complemental as it relates to curriculum implementation involving teachers' roles. Paragraph 32 (methodological instructions) is complemental as it provides guidance for practical application, aligning with the need to consider teacher competence and time.",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. Any teaching program must take into account the competence of the teachers and the actual working time available to both teachers and students;"
+      },
+      {
+        "para_number": 20,
+        "para": "8. En élaborant les programmes de l'enseignement primaire, il importe d'assigner à la formation intellectuelle, affective et morale de l'élève les buts suivants: apprendre à apprendre, apprendre à penser et à s'exprimer, apprendre à agir, apprendre à se conduire;",
+        "tags": [
+          "CUR_IMPL",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and ISC_1 are selected because the paragraph focuses on curriculum implementation (assigning objectives to primary education curricula) and explicitly mentions primary education (ISCED 1). Relations are identified with candidate paragraphs that discuss curriculum development processes (22, 23, 24, 31) and methodological instructions (32), which are complementary aspects of curriculum implementation.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. In developing the primary education curricula, it is important to assign the following objectives to the intellectual, emotional, and moral formation of the pupil: learning to learn, learning to think and to express oneself, learning to act, learning to conduct oneself."
+      },
+      {
+        "para_number": 21,
+        "para": "9. A l'encyclopédisme des programmes, il convient de substituer le choix de notions essentielles.",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on replacing encyclopedic curricula with essential concepts, directly relating to 'Content and learning areas' (CUR_CONTENT). Related paragraphs discuss curriculum development (23), implementation (22, 31, 34), international collaboration (28), and methodological support (32), all of which are complementary aspects of curriculum reform.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. The encyclopedic nature of the curricula should be replaced by the selection of essential concepts."
+      },
+      {
+        "para_number": 22,
+        "para": "PROCÉDURE POUR L'ÉLABORATION DES PROGRAMMES PRIMAIRES 10. Quel que soit le système d'administration scolaire en vigueur dans un pays déterminé, l'élaboration des programmes doit être confiée à des organes spécialisés, qu'il s'agisse d'organismes permanents ou de commissions temporaires;",
+        "tags": [
+          "CUR_DVPMT",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_DVPMT (design and development) and POL_CUR (curriculum policies) are selected because the paragraph focuses on institutional structures for curriculum development and policy frameworks. Para 23 supports by adding specialist inclusion, para 26 complements with research requirements, para 25 modifies by emphasizing procedural caution, and para 30 complements by addressing administrative variations.",
+        "matched_pars": {
+          "23": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "25": [
+            "modifying"
+          ],
+          "30": [
+            "complemental"
+          ]
+        },
+        "para_en": "PROCEDURE FOR THE DEVELOPMENT OF PRIMARY CURRICULA 10. Regardless of the school administration system in place in a given country, the development of curricula must be entrusted to specialized bodies, whether permanent organizations or temporary commissions;"
+      },
+      {
+        "para_number": 23,
+        "para": "11. Les instances chargées de l'élaboration des programmes primaires doivent comprendre, à côté de praticiens des divers degrés de l'enseignement, des spécialistes des sciences de l'éducation et de la psychologie de l'enfant;",
+        "tags": [
+          "CUR_IMPL",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and ISC_1 are selected because the paragraph explicitly discusses curriculum development bodies (CUR_IMPL) and primary education (ISC_1). Related paragraphs provide complementary information about collaboration (24), research (26), experimental research (27), promulgation systems (30), and local adaptation (31), all of which are directly related to curriculum development processes.",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ]
+        },
+        "para_en": "11. The bodies responsible for the development of primary curricula must include, alongside practitioners from various levels of education, specialists in educational sciences and child psychology;"
+      },
+      {
+        "para_number": 24,
+        "para": "12. Il serait utile dans certaines circonstances que les instances chargées de l'élaboration et de la revision des programmes primaires travaillent en liaison avec les représentants des parents, des milieux culturels et de l'économie, qu'il s'agisse d'employeurs ou de travailleurs;",
+        "tags": [
+          "CUR_OTHER",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_OTHER and ACT_PARENT are selected because the paragraph discusses curriculum development (CUR_OTHER) and collaboration with parents (ACT_PARENT). Related paragraphs: 25 (modifying) addresses risks of hasty procedures, which complements the need for structured collaboration; 26 (complemental) emphasizes research requirements for curriculum work; 27 (supporting) aligns with curriculum reform through experimental research; 28 (complemental) expands on collaboration through international exchanges.",
+        "matched_pars": {
+          "25": [
+            "modifying"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ]
+        },
+        "para_en": "12. It would be beneficial in certain circumstances for the bodies responsible for the development and revision of primary curricula to work in cooperation with representatives of parents, cultural sectors, and the economy, whether employers or workers;"
+      },
+      {
+        "para_number": 25,
+        "para": "13. L'attention des autorités responsables est attirée sur les dangers que présente une procédure trop hâtive et improvisée d'élaboration et de revision des programmes primaires;",
+        "tags": [
+          "CUR_EVAL",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_EVAL and POL_CUR are selected because the paragraph emphasizes curriculum development/revisions (CUR_EVAL) and policy considerations for curriculum processes (POL_CUR). Paragraph 26 complements the target by advocating thorough research (confidence 0.9). Paragraph 35 complements by addressing periodic adjustments (confidence 0.9). Paragraph 27 supports by emphasizing research for curriculum reform (confidence 0.7).",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "27": [
+            "supporting"
+          ]
+        },
+        "para_en": "The attention of the responsible authorities is drawn to the dangers posed by a hasty and improvised procedure for the development and revision of primary education curricula."
+      },
+      {
+        "para_number": 26,
+        "para": "14. Tout travail d'élaboration ou de revision des programmes exige un effort très poussé de recherche et de documentation préliminaires : besoins du pays, possibilités du personnel enseignant, données sur le rythme particulier du développement psychologique des enfants, études comparées sur les programmes de l'enseignement primaire dans les autres pays, résultats d'expériences pédagogiques;",
+        "tags": [
+          "CUR_EVAL",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_EVAL and CUR_CONTENT are selected because the paragraph focuses on curriculum development/revision (CUR_EVAL) and includes content-related aspects like psychological development data and comparative studies (CUR_CONTENT). Related paragraphs: 27 (supporting) links to experimental research mentioned in the target; 28 (complemental) connects to comparative studies; 31 (complemental) relates to adaptation of curricula; 34 (complemental) ties to alignment with new curricula; 35 (supporting) aligns with periodic adjustments based on pedagogical advances.",
+        "matched_pars": {
+          "27": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ]
+        },
+        "para_en": "14. Any work on the development or revision of curricula requires a thorough effort of preliminary research and documentation: the needs of the country, the capabilities of the teaching staff, data on the specific pace of psychological development of children, comparative studies on primary education curricula in other countries, and the results of educational experiments;"
+      },
+      {
+        "para_number": 27,
+        "para": "15. La recherche pédagogique de caractère expérimental étant appelée à jouer un rôle primordial dans les travaux de réforme et de revision des programmes primaires, il conviendrait d'augmenter le nombre des centres et des maîtres qui se consacrent à cette recherche, ainsi que les moyens mis à leur disposition;",
+        "tags": [
+          "CUR_EVAL",
+          "SYST_RESEAR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_EVAL and SYST_RESEAR are selected because the paragraph emphasizes experimental pedagogical research (SYST_RESEAR) and curriculum reform (CUR_EVAL). Relations are complemental as the target paragraph focuses on research for curriculum reform, while other paragraphs address implementation steps (28-34) that collectively form the broader context of curriculum development.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. Experimental pedagogical research, being called upon to play a primary role in the work of reforming and revising primary education curricula, should see an increase in both the number of centers and teachers devoted to this research, as well as the resources made available to them."
+      },
+      {
+        "para_number": 28,
+        "para": "16. Il importe d'intensifier les échanges internationaux en matière de revision des programmes primaires.",
+        "tags": [
+          "POL_INTCOOP",
+          "CUR_EVAL"
+        ],
+        "type": "operative",
+        "think": "The tags POL_INTCOOP (international cooperation) and CUR_EVAL (curriculum evaluation/reform) are selected because the paragraph emphasizes intensifying international exchanges for curriculum revision. For relations: Para 35 discusses periodic curriculum adjustments aligned with pedagogical and cultural advances, directly supporting the revision focus of para 28 (confidence 0.9). Para 33 addresses teacher training for new curricula, providing complementary implementation details (confidence 0.7). Other paragraphs focus on implementation mechanics rather than international cooperation.",
+        "matched_pars": {
+          "35": [
+            "supporting"
+          ],
+          "33": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. It is important to intensify international exchanges concerning the revision of primary education curricula."
+      },
+      {
+        "para_number": 29,
+        "para": "PROMULGATION ET MISE EN PRATIQUE DES PROGRAMMES PRIVAIRES 17. L'expérience a démontré les avantages qu'il y a à ne promulguer les programmes qu'après les avoir soumis à un essai préalable de durée suffisante, soit dans des écoles expérimentales soit dans des écoles primaires ordinaires;",
+        "tags": [
+          "CUR_IMPL",
+          "ISC_1",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum Implementation) and ISC_1 (Primary Education) are directly supported by the focus on primary program implementation and trial periods. POL_CUR (Curriculum and pedagogy policies) applies due to the discussion of promulgation processes. Related paragraphs 30-35 address complementary aspects: 30 (authorities and flexibility in promulgation), 31 (adaptation by educators), 32 (methodological support), and 35 (periodic adjustments), all aligning with the target's theme of curriculum implementation and policy.",
+        "matched_pars": {
+          "30": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "PROMULGATION AND IMPLEMENTATION OF PRIMARY PROGRAMS 17. Experience has demonstrated the advantages of enacting programs only after subjecting them to a sufficiently long trial, either in experimental schools or in ordinary primary schools;"
+      },
+      {
+        "para_number": 30,
+        "para": "18. Les instances chargées de la promulgation des programmes primaires varient forcément selon le système, centralisé ou décentralisé, en vigueur dans chaque pays; dans le premier cas, il est souhaitable que les dispositions législatives concernant la promulgation des programmes laissent une grande latitude en vue de l'adaptation de ces programmes aux exigences régionales et locales;",
+        "tags": [
+          "LAW_REG",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_REG (legal frameworks for curriculum promulgation) and POL_CUR (policy themes related to curriculum adaptation) are selected because the paragraph discusses legislative flexibility for regional adaptation and policy implications of centralized/decentralized systems. All related paragraphs (31-35) address implementation aspects (adaptation, teacher roles, methodological support, alignment of materials, periodic revisions) that complement the target paragraph's focus on curriculum promulgation frameworks.",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "18. The authorities responsible for the promulgation of primary education curricula necessarily vary according to the centralized or decentralized system in force in each country; in the former case, it is desirable that the legislative provisions regarding the promulgation of curricula allow for considerable flexibility to enable adaptation of these curricula to regional and local requirements;"
+      },
+      {
+        "para_number": 31,
+        "para": "19. Il est souhaitable que, dans les pays où les programmes primaires présentent un caractère impératif, on laisse aux directeurs d'école ou aux maîtres eux-mêmes le soin de les interpréter et de les adapter;",
+        "tags": [
+          "CUR_IMPL",
+          "nan"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum Implementation) and nan (Teachers) are selected because the paragraph discusses adapting mandatory curricula through teacher responsibility (Teachers) and implementation processes (Curriculum Implementation). Paragraph 32 provides methodological support (complemental), 33 reinforces the need for teacher awareness (supporting), and 34 adds a condition about aligning materials (modifying).",
+        "matched_pars": {
+          "32": [
+            "complemental"
+          ],
+          "33": [
+            "supporting"
+          ],
+          "34": [
+            "modifying"
+          ]
+        },
+        "para_en": "19. It is desirable that, in countries where primary curricula are mandatory, school principals or the teachers themselves be given the responsibility to interpret and adapt them."
+      },
+      {
+        "para_number": 32,
+        "para": "20. Il y a tout avantage à présenter les programmes accompagnés d'instructions méthodologiques, qui, tout en rappelant au maître les buts à atteindre, lui fournissent les données nécessaires à leur application pratique;",
+        "tags": [
+          "PEDAG_METHO",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes the importance of methodological instructions for curriculum implementation (CUR_IMPL) and teaching methods (PEDAG_METHO). Paragraph 33 directly supports this by discussing how to inform teachers about new curricula and methodological instructions, reinforcing the need for practical guidance in implementation.",
+        "matched_pars": {
+          "33": [
+            "supporting"
+          ]
+        },
+        "para_en": "20. It is highly advantageous to present the curricula accompanied by methodological instructions which, while reminding the teacher of the objectives to be achieved, provide the necessary information for their practical application;"
+      },
+      {
+        "para_number": 33,
+        "para": "21. Lors de la promulgation de nouveaux programmes ou de nouvelles instructions méthodologiques, tous les moyens doivent être mis en œuvre (conférences, réunions pédagogiques, groupes d'études, causeries par les inspecteurs, etc.) pour que les maîtres chargés de les appliquer soient au courant des principes dont s'inspirent les changements envisagés;",
+        "tags": [
+          "CUR_IMPL",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and T_PDEV are selected because the paragraph focuses on curriculum implementation (CUR_IMPL) through teacher training methods (T_PDEV). Paragraph 34 (textbook alignment) is complemental as it addresses curriculum implementation logistics. Paragraph 35 (periodic program adjustments) is complemental as it discusses ongoing curriculum reform context.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. When new curricula or new methodological instructions are promulgated, all means must be employed (conferences, pedagogical meetings, study groups, talks by inspectors, etc.) so that the teachers responsible for applying them are informed of the principles underlying the proposed changes;"
+      },
+      {
+        "para_number": 34,
+        "para": "22. Il convient de prendre toutes dispositions pour assurer la concordance des manuels et autres moyens d'enseignement avec les nouveaux programmes;",
+        "tags": [
+          "CUR_IMPL",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes aligning teaching materials with curricula (CUR_IMPL) and involves policy measures (POL_CUR). Paragraph 35 discusses periodic program adjustments related to pedagogy and culture, which complements the need for curriculum alignment by addressing the broader context of curriculum updates.",
+        "matched_pars": {
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "22. All necessary measures should be taken to ensure the alignment of textbooks and other teaching materials with the new curricula."
+      },
+      {
+        "para_number": 35,
+        "para": "23. Tout en reconnaissant l'impossibilité de fixer des limites applicables à tous les pays et à toutes les branches d'enseignement, et compte tenu des avantages et des inconvénients que peuvent présenter des revisions des programmes par trop rapprochées ou par trop éloignées, il convient de prévoir une mise au point périodique des programmes en rapport avec les progrès de la didactique et de la culture et avec les changements sociaux.",
+        "tags": [
+          "CUR_EVAL",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses periodic curriculum adjustment in relation to pedagogical advances and social changes, aligning with CUR_EVAL (curriculum evaluation/reform) and PEDAG_OTHER (pedagogy-related issues). No other paragraphs are available for relation analysis.",
+        "matched_pars": {},
+        "para_en": "23. While acknowledging the impossibility of establishing limits applicable to all countries and all branches of education, and taking into account the advantages and disadvantages that program revisions may present when conducted too frequently or too infrequently, it is appropriate to provide for a periodic adjustment of the programs in relation to advances in pedagogy and culture and to social changes."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le sept juillet mil neuf cent cinquante-huit en sa vingt et unième session, adopte le quinze juillet mil neuf cent cinquante-huit la recommandation suivante : La Conférence, Considérant que l'évolution actuelle est caractérisée par les transformations rapides qui interviennent dans le domaine des connaissances, des structures sociales et des activités humaines, Considérant que les écoliers d'aujourd'hui vivront leur vie d'adulte dans un monde largement influencé par les applications de la science aux activités de toutes catégories, Considérant que le progrès en pédagogie, bien qu'il dépende pour une bonne part du mouvement des idées et des discussions et échanges d'opinions, requiert avant tout des recherches objectives sur les problèmes scolaires, Considérant que l'élaboration des plans d'études doit tenir compte des possibilités et des préoccupations de l'individu, garçon ou fille, autant que de celles de la collectivité, Considérant que l'école primaire a pour fonction essentielle de donner à l'enfant, avec le goût et le respect du travail, les outils nécessaires à l'acquisition du savoir et au développement intégral de sa personnalité, Considérant que l'école primaire doit offrir à ses élèves la possibilité d'entreprendre des tâches faisant appel au meilleur d'eux-mêmes, Considérant qu'en vue de donner à leur activité sa pleine efficacité, les maîtres doivent bénéficier, à l'intérieur des programmes, d'une liberté suffisante pour choisir les sujets et les méthodes d'enseignement qui leur permettront de travailler à un rythme favorable pour eux-mêmes et pour leurs élèves,  — 170 Considérant que les éducateurs sont unanimes à réprouver le surmenage et la surcharge des programmes de l'enseignement primaire, Considérant qu'il convient de défendre les élèves de l'école primaire contre toute tendance à leur imposer des études et des responsabilités incompatibles avec l'âge et les capacités de chaque enfant, Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'élaboration et de la promulgation des programmes de l'enseignement primaire, Soumet aux ministères de l'Instruction publique des différents pays la recommandation suivante: PRINCIPES RÉGISSANT L'ÉLABORATION DES PROGRAMMES PRIMAIRES 1. Une confusion fréquente s'est établie, en divers pays, entre le concept d'école primaire et celui de scolarité obligatoire; partout où les deux termes ne se recouvrent pas, il convient de lutter contre la tendance qui attribue à l'école primaire des buts qui ne sont pas les siens et dont la conséquence est souvent une surcharge des programmes scolaires; 2. En tous pays, l'école primaire doit se proposer: a) de doter l'enfant des instruments fondamentaux de pensée et d'action qui, adaptés à son âge, l'aideront à vivre pleinement son existence d'homme et de citoyen et à comprendre le monde dans lequel il est appelé à vivre; b) de transmettre un patrimoine et une culture et de donner les moyens de les enrichir; c) de former des êtres libres, conscients de leurs responsabilités, ayant le respect d'eux-mêmes et d'autrui, membres actifs et utiles de la communauté nationale ; 3. Un des principaux objets de l'éducation moderne doit être de préparer l'enfant à participer de façon consciente et active, et selon son âge et son niveau de développement, à la vie de la famille, de la collectivité et de la nation et à l'avènement d'une communauté mondiale plus fraternelle, riche en aspects divers mais unie dans la poursuite de buts communs: paix, sécurité, collaboration féconde entre tous les êtres humains; 4. Tout plan d'études devrait comporter trois éléments: les connaissances à assimiler, les techniques à maîtriser, les moyens propres à assurer le développement physique et à satisfaire les besoins affectifs, esthétiques et spirituels d'ordre individuel et social; 5. Les programmes doivent être établis par année d'études, en tenant compte des possibilités de compréhension et d'assimilation des enfants aux divers stades de leur croissance, pour assurer une formation intellectuelle rationnelle et un travail scolaire se déroulant à un rythme normal; 6. Pour établir le contenu des programmes, il convient de se référer non seulement aux processus mentaux, mais aussi aux intérêts et aux besoins des enfants, à leur vie affective et physiologique;  — 171 7. Tout programme d'enseignement doit tenir compte de la compétence des maîtres et du temps de travail dont disposent effectivement maîtres et élèves; 8. En élaborant les programmes de l'enseignement primaire, il importe d'assigner à la formation intellectuelle, affective et morale de l'élève les buts suivants: apprendre à apprendre, apprendre à penser et à s'exprimer, apprendre à agir, apprendre à se conduire; 9. A l'encyclopédisme des programmes, il convient de substituer le choix de notions essentielles. PROCÉDURE POUR L'ÉLABORATION DES PROGRAMMES PRIMAIRES 10. Quel que soit le système d'administration scolaire en vigueur dans un pays déterminé, l'élaboration des programmes doit être confiée à des organes spécialisés, qu'il s'agisse d'organismes permanents ou de commissions temporaires; 11. Les instances chargées de l'élaboration des programmes primaires doivent comprendre, à côté de praticiens des divers degrés de l'enseignement, des spécialistes des sciences de l'éducation et de la psychologie de l'enfant; 12. Il serait utile dans certaines circonstances que les instances chargées de l'élaboration et de la revision des programmes primaires travaillent en liaison avec les représentants des parents, des milieux culturels et de l'économie, qu'il s'agisse d'employeurs ou de travailleurs; 13. L'attention des autorités responsables est attirée sur les dangers que présente une procédure trop hâtive et improvisée d'élaboration et de revision des programmes primaires; 14. Tout travail d'élaboration ou de revision des programmes exige un effort très poussé de recherche et de documentation préliminaires : besoins du pays, possibilités du personnel enseignant, données sur le rythme particulier du développement psychologique des enfants, études comparées sur les programmes de l'enseignement primaire dans les autres pays, résultats d'expériences pédagogiques; 15. La recherche pédagogique de caractère expérimental étant appelée à jouer un rôle primordial dans les travaux de réforme et de revision des programmes primaires, il conviendrait d'augmenter le nombre des centres et des maîtres qui se consacrent à cette recherche, ainsi que les moyens mis à leur disposition; 16. Il importe d'intensifier les échanges internationaux en matière de revision des programmes primaires. PROMULGATION ET MISE EN PRATIQUE DES PROGRAMMES PRIVAIRES 17. L'expérience a démontré les avantages qu'il y a à ne promulguer les programmes qu'après les avoir soumis à un essai préalable de durée   suffisante, soit dans des écoles expérimentales soit dans des écoles primaires ordinaires; 18. Les instances chargées de la promulgation des programmes primaires varient forcément selon le système, centralisé ou décentralisé, en vigueur dans chaque pays; dans le premier cas, il est souhaitable que les dispositions législatives concernant la promulgation des programmes laissent une grande latitude en vue de l'adaptation de ces programmes aux exigences régionales et locales; 19. Il est souhaitable que, dans les pays où les programmes primaires présentent un caractère impératif, on laisse aux directeurs d'école ou aux maîtres eux-mêmes le soin de les interpréter et de les adapter; 20. Il y a tout avantage à présenter les programmes accompagnés d'instructions méthodologiques, qui, tout en rappelant au maître les buts à atteindre, lui fournissent les données nécessaires à leur application pratique; 21. Lors de la promulgation de nouveaux programmes ou de nouvelles instructions méthodologiques, tous les moyens doivent être mis en œuvre (conférences, réunions pédagogiques, groupes d'études, causeries par les inspecteurs, etc.) pour que les maîtres chargés de les appliquer soient au courant des principes dont s'inspirent les changements envisagés; 22. Il convient de prendre toutes dispositions pour assurer la concordance des manuels et autres moyens d'enseignement avec les nouveaux programmes; 23. Tout en reconnaissant l'impossibilité de fixer des limites applicables à tous les pays et à toutes les branches d'enseignement, et compte tenu des avantages et des inconvénients que peuvent présenter des revisions des programmes par trop rapprochées ou par trop éloignées, il convient de prévoir une mise au point périodique des programmes en rapport avec les progrès de la didactique et de la culture et avec les changements sociaux."
+  }
+}
