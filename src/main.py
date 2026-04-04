@@ -4,13 +4,13 @@ import copy
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-# from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 import pandas as pd
 
 from doc_llm_generation import run_structure_self_consistency
-# from para_candidate_selection import generate_para_candidates
-# from tag_candidate_selection import generate_tag_candidates_for_paragraph, build_tag_index
-# from para_llm_generation import run_para_level_reasoning
+from para_candidate_selection import generate_para_candidates
+from tag_candidate_selection import generate_tag_candidates_for_paragraph, build_tag_index
+from para_llm_generation import run_para_level_reasoning
 
 
 def load_tags(csv_path):
@@ -81,14 +81,13 @@ def main():
     GPU4: 49-61 copy4
     """
 
-
-    input_folder = "Data/ads"
+    input_folder = "Data/asdf"
     output_folder = "outputs_copy5"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
     # define embedding model
-    # embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
+    embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
     llm_model_name = "Qwen/Qwen3-8B"
@@ -110,11 +109,10 @@ def main():
         token=HF_token
         )
 
-
-    # # load tags
-    # tags_path = "Data/education_dimensions_updated.csv"
-    # tags = load_tags(tags_path)
-    # tag_index, id2tag, tag_embeddings = build_tag_index(tags, embed_model)
+    # load tags
+    tags_path = "Data/education_dimensions_updated.csv"
+    tags = load_tags(tags_path)
+    tag_index, id2tag, tag_embeddings = build_tag_index(tags, embed_model)
 
     # load test folder
     for file in os.listdir(input_folder):
@@ -127,27 +125,28 @@ def main():
 
             doc = json.load(f)
 
+        para_level_output = None
+
         # Step 1: Document Level LLM reasoning
         doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=True)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
-        # # Step 2: Tag Candidate Retrieval
-        # tag_candidates = generate_tag_candidates_for_paragraph(doc, embed_model, tag_index, id2tag, tag_embeddings)
-        # # this returns the top tag candidates for each paragraph in the doc
-        # print("Step 2 complete")
-        #
-        # # Step 3: Matched Paragraph Retrieval
-        # paragraph_candidates = generate_para_candidates(doc, embed_model)
-        # # this returns the top matched paragraph candidates for each paragraph in the doc
-        # print("Step 3 complete")
-        # # Step 4: Paragraph level LLM reasoning
-        # para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
-        # # this returns the predicted tags and matched_para for each paragraph in the doc
-        # print("Step 4 complete")
+        # Step 2: Tag Candidate Retrieval
+        tag_candidates = generate_tag_candidates_for_paragraph(doc, embed_model, tag_index, id2tag, tag_embeddings)
+        # this returns the top tag candidates for each paragraph in the doc
+        print("Step 2 complete")
+
+        # Step 3: Matched Paragraph Retrieval
+        paragraph_candidates = generate_para_candidates(doc, embed_model)
+        # this returns the top matched paragraph candidates for each paragraph in the doc
+        print("Step 3 complete")
+        # Step 4: Paragraph level LLM reasoning
+        para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
+        # this returns the predicted tags and matched_para for each paragraph in the doc
+        print("Step 4 complete")
         # Step 5: Merge the outputs to the required schema and save
 
-        para_level_output = None
         updated_doc = update_document(doc, doc_level_output, para_level_output)
         print("Step 5 complete")
         with open(os.path.join(output_folder, file), "w", encoding="utf-8") as f:
