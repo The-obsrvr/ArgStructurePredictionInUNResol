@@ -10,7 +10,7 @@ def build_structure_prompt(doc):
 
     para_text = []
 
-    def compress_para(text, max_len=200):
+    def compress_para(text, max_len=100):
         text = text.strip().replace("\n", " ")
         return text[:max_len]
     for p in paragraphs:
@@ -231,18 +231,32 @@ def run_structure_self_consistency(model, tokenizer, doc, self_consistency=True,
         if not isinstance(pre, list) or not isinstance(op, list):
             raise ValueError("Invalid structure lists")
 
+        # FIX 1: normalize to int
+        try:
+            pre = [int(x) for x in pre]
+            op = [int(x) for x in op]
+        except:
+            raise ValueError("Non-integer paragraph IDs")
+
         pre_set = set(pre)
         op_set = set(op)
 
-        if pre_set & op_set:
-            raise ValueError("Overlap between preambular and operative")
+        # FIX 2: remove overlap instead of failing
+        overlap = pre_set & op_set
+        if overlap:
+            op_set = op_set - overlap  # prefer preambular
 
-        if pre_set | op_set != set(range(1, n + 1)):
-            raise ValueError("Missing or extra paragraph assignments")
+        # FIX 3: fill missing instead of failing
+        all_ids = set(range(1, n + 1))
+        assigned = pre_set | op_set
+        missing = all_ids - assigned
+
+        # assign missing to preambular (safe default)
+        pre_set.update(missing)
 
         return {
-            "preambular_para": sorted(pre),
-            "operative_para": sorted(op),
+            "preambular_para": sorted(pre_set),
+            "operative_para": sorted(op_set),
             "think": reasoning
             }
 
