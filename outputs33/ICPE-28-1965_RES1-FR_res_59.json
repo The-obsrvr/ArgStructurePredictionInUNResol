@@ -1,0 +1,1415 @@
+{
+  "TEXT_ID": "ICPE-28-1965_RES1-FR_res_59",
+  "RECOMMENDATION": 59,
+  "TITLE": "L'ENSEIGNEMENT DES LANGUES VIVANTES A L'ÉCOLE SECONDAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-28-1965_RES1-FR",
+      "nb_paras": 57,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "operative_para": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, et s'y étant réunie le douze juillet mil neuf cent soixante-cinq en sa vingt-huitième session, adopte le vingt-trois juillet mil neuf cent soixante-cinq la recommandation suivante: La Conférence,",
+        "tags": [
+          "POL_CUR",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_CUR (Policy theme) and CUR_IMPL (Curriculum implementation) are selected because the paragraph describes a policy recommendation from an international conference on education, which directly relates to curriculum policy. Related paragraphs: 2 (supporting rationale for language education), 3 (supporting autonomy in language choice), 11 (complemental prior recommendation), 54/55 (modifying implementation details), and 13 (supporting dissemination process). Confidence scores reflect explicit connections to the target paragraph's adoption of a curriculum-related recommendation.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "54": [
+            "modifying"
+          ],
+          "55": [
+            "modifying"
+          ],
+          "13": [
+            "supporting"
+          ]
+        },
+        "para_en": "The International Conference on Public Instruction, having met on July 12, 1965, in its twenty-eighth session, adopts on July 23, 1965, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant que la connaissance d'une ou plusieurs langues vivantes fait partie de la culture générale et de la formation intellectuelle de l'élève au moins au même titre que d'autres disciplines figurant au programme des écoles secondaires et que, dans bien des pays, une langue étrangère au moins constitue un outil indispensable pour l'étude plus étendue et plus approfondie de certaines matières inscrites au programme des classes supérieures,",
+        "tags": [
+          "F_LITE",
+          "ISC_3"
+        ],
+        "type": "preambular",
+        "think": "Tags F_LITE (literacy/language focus) and ISC_3 (upper secondary education) are directly supported by the paragraph's emphasis on foreign language study as part of upper-level curricula. Paragraph 15 (confidence 0.9) directly supports the recommendation for foreign language inclusion in secondary education. Paragraph 20 (confidence 0.9) aligns with upper secondary specialization in languages. Paragraph 5 (confidence 0.7) complements by discussing language's role in international understanding, though its focus is broader than the target paragraph.",
+        "matched_pars": {
+          "15": [
+            "supporting"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "5": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the knowledge of one or more modern languages is part of the general culture and intellectual education of the student, at least on an equal footing with other subjects included in the secondary school curriculum, and that, in many countries, at least one foreign language constitutes an essential tool for a broader and deeper study of certain subjects included in the upper-level curricula,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant qu'il appartient aux peuples eux-mêmes de faire choix des langues étrangères qui doivent être enseignées,",
+        "tags": [
+          "POP_OTHER"
+        ],
+        "type": "preambular",
+        "think": "The tag POP_OTHER is selected because the paragraph emphasizes the autonomy of peoples in choosing foreign languages, which aligns with 'Other' learner populations. Relations are identified based on thematic connections: paragraph 4 (complemental) discusses national language development, paragraph 5 (supporting) highlights benefits of foreign language knowledge, paragraph 12 (complemental) addresses varied teaching solutions, paragraph 15 (complemental) covers curriculum inclusion, and paragraph 16 (supporting) directly relates to language choice factors.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that it is up to the peoples themselves to choose the foreign languages that should be taught,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant cependant que, dans les pays dont la langue autochtone n'a pas été jusqu'à présent la langue d'enseignement, il est nécessaire de contribuer en premier lieu au développement des langues nationales, à leur émancipation et à l'affermissement de leur position dans les relations internationales,",
+        "tags": [
+          "POP_INDIG"
+        ],
+        "type": "preambular",
+        "think": "The tag POP_INDIG is selected because the paragraph explicitly references indigenous languages and their development. For relations: Para 5 (complemental) discusses foreign language knowledge influencing international understanding, which aligns with the target's focus on strengthening national languages in international relations. Para 6 (complemental) emphasizes the practical necessity of foreign languages in international relations, directly related to the target's context. Para 24 (complemental) connects language teaching to international cooperation, mirroring the target's emphasis. Para 39 (complemental) addresses coordination between languages, which indirectly relates to national language development.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "Whereas, however, in countries where the indigenous language has not hitherto been the language of instruction, it is necessary primarily to contribute to the development of the national languages, to their emancipation, and to the strengthening of their position in international relations,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que la connaissance d'une langue étrangère, comme celle de la littérature, de l'histoire, de la civilisation et du mode de vie propres aux pays où elle est parlée, peut avoir une grande influence sur l'amélioration de la compréhension internationale et de l'entente entre les peuples,",
+        "tags": [
+          "POL_INTCOOP",
+          "F_LITE"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_INTCOOP (international cooperation) and F_LITE (literacy/language) are selected because the paragraph emphasizes language's role in international understanding and cultural knowledge. Related paragraphs: 6 (complemental - expands on language necessity for international relations), 7 (supporting - reinforces language's role in development), 25 (complemental - aligns with curriculum inclusion of cultural aspects), 24 (complemental - connects language teaching to international understanding).",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the knowledge of a foreign language, as well as that of the literature, history, civilization, and way of life specific to the countries where it is spoken, can have a significant influence on the improvement of international understanding and cooperation among peoples,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que le développement des relations internationales dans tous les domaines et le perfectionnement des moyens de transport et de communication accroissent d'une manière constante la nécessité pratique de connaître au moins une langue étrangère et d'être en mesure de la manier avec aisance,",
+        "tags": [
+          "F_LITE",
+          "POL_INTCOOP"
+        ],
+        "type": "preambular",
+        "think": "Tags F_LITE (Literacy and language) and POL_INTCOOP (International cooperation and partnerships) are selected because the paragraph emphasizes the necessity of foreign language skills for international relations and communication. Related paragraphs 7, 9, 10, 39, and 50 address language's role in development (7), language use in cross-cultural exchanges (9), teaching methods (10), curriculum coordination (39), and practical language practice (50), all of which are thematically connected.",
+        "matched_pars": {
+          "7": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the development of international relations in all fields and the improvement of means of transport and communication constantly increase the practical necessity of knowing at least one foreign language and being able to use it with ease,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que la connaissance des langues étrangères accélère la diffusion des découvertes de la science et de la technique et, de ce fait, contribue efficacement au développement économique et culturel des pays,",
+        "tags": [
+          "F_LITE",
+          "POL_INTCOOP"
+        ],
+        "type": "preambular",
+        "think": "Tags F_LITE (literacy/language) and POL_INTCOOP (international cooperation) are selected because the paragraph emphasizes language's role in global scientific dissemination and economic/cultural development. Related paragraphs discuss media (8), exchanges (9), teaching methods (10), curriculum coordination (39), teacher training (44), and language assistants (50), all of which connect to language's role in international collaboration and education systems.",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the knowledge of foreign languages accelerates the dissemination of scientific and technical discoveries and, as a result, effectively contributes to the economic and cultural development of countries,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant que les moyens d'information, tels que le cinéma, la radio et la télévision, mettent les pays à la portée les uns des autres et que les jeunes comme les adultes ont accès à ces divers moyens,",
+        "tags": [
+          "POL_EQUIT",
+          "F_ARTS"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_EQUIT (access and equity) and F_ARTS (arts and culture) are selected because the paragraph emphasizes access to media (radio, TV, cinema) as a means of cross-cultural connection, aligning with equity in access and cultural expression. Related paragraphs 34, 35, 38, 9, and 53 address complementary aspects of media/education access, language learning, and cultural exchange, supporting or expanding on the target's focus.",
+        "matched_pars": {
+          "34": [
+            "supporting"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that means of information, such as cinema, radio, and television, bring countries within each other's reach and that both young people and adults have access to these various means,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que les possibilités d'études à l'étranger et les échanges d'étudiants et de spécialistes entre pays qui ne parlent pas la même langue se font également de plus en plus nombreux,",
+        "tags": [
+          "POP_OTHER"
+        ],
+        "type": "preambular",
+        "think": "The tag POP_OTHER (Learner population | Other) is selected because the paragraph focuses on international student exchanges and opportunities for studying abroad, which falls under 'other' aspects of learner population dynamics. Related paragraphs 33, 45, and 51 all address facilitating international exchanges, travel, or systems for language learners, making them complemental as they provide additional context or mechanisms supporting the target paragraph's theme.",
+        "matched_pars": {
+          "33": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that opportunities for studying abroad and exchanges of students and specialists between countries that do not share the same language are also increasing in number,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant qu'il est nécessaire de moderniser les méthodes et les moyens d'enseignement des langues vivantes, compte tenu du développement des connaissances et de la technique,",
+        "tags": [],
+        "type": "preambular",
+        "think": "fallback",
+        "matched_pars": {},
+        "para_en": "Considering that it is necessary to modernize the methods and means of teaching modern languages, taking into account the development of knowledge and technology,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant les nombreuses recommandations formulées sur l'enseignement des langues vivantes par divers organismes et notamment par la Conférence internationale de l'instruction publique dans la recommandation n° 11 qu'elle a adoptée en 1937, lors de sa sixième session,",
+        "tags": [
+          "F_LITE",
+          "PEDAG_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags F_LITE (literacy/language) and PEDAG_OTHER (pedagogy-related) are selected because the paragraph focuses on language teaching recommendations. Related paragraphs discuss implementation (12, 20, 55), structural aspects (14), and curricular adaptations (41). Relations are determined based on semantic connections: complemental (implementation/structure), supporting (application), and modifying (adaptation).",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "41": [
+            "modifying"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering the numerous recommendations made on the teaching of modern languages by various organizations, notably by the International Conference on Public Instruction in recommendation No. 11 adopted in 1937 during its sixth session,"
+      },
+      {
+        "para_number": 12,
+        "para": "Considérant que, pour satisfaire des aspirations semblables, des pays différents les uns des autres doivent apporter des solutions différentes au problème de l'enseignement des langues vivantes à l'école secondaire,",
+        "tags": [
+          "CUR_OTHER",
+          "PEDAG_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_OTHER and PEDAG_OTHER are selected because the paragraph discusses curriculum solutions (CUR_OTHER) and pedagogical approaches (PEDAG_OTHER) for teaching modern languages. Related paragraphs provide specific recommendations (15, 20), contextual framework (14), methodological details (34), research focus (49), and actionable steps (13) that align with the target paragraph's discussion of diverse solutions.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, to meet similar aspirations, different countries must provide different solutions to the problem of teaching modern languages in secondary schools,"
+      },
+      {
+        "para_number": 13,
+        "para": "Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante :",
+        "tags": [
+          "POL_OTH",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_OTH (Policy theme) and SYST_OTHER (Education system monitoring & evaluation) are selected because the paragraph involves submitting a policy recommendation to education ministries (POL_OTH) and relates to broader education system frameworks (SYST_OTHER). All related paragraphs (14-57) are supporting as they elaborate on the recommendation's content, implementation, dissemination, and adaptation, directly aligning with the target paragraph's context.",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "54": [
+            "supporting"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "56": [
+            "supporting"
+          ],
+          "57": [
+            "supporting"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Instruction of the various countries the following recommendation:"
+      },
+      {
+        "para_number": 14,
+        "para": "I. PLACE FAITE A L'ENSEIGNEMENT DES LANGUES VIVANTES",
+        "tags": [
+          "F_LITE",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (Subject domain | Literacy and language) and CUR_IMPL (Curriculum | Curriculum implementation) are selected because the paragraph explicitly discusses the curriculum's role in teaching modern languages (CUR_IMPL) and falls under language education (F_LITE). Paragraph 15 supports the target by reinforcing curriculum inclusion recommendations (supporting, 0.9). Paragraph 34 supports by addressing implementation resources (supporting, 0.9).",
+        "matched_pars": {
+          "15": [
+            "supporting"
+          ],
+          "34": [
+            "supporting"
+          ]
+        },
+        "para_en": "I. THE PLACE RESERVED FOR THE TEACHING OF MODERN LANGUAGES"
+      },
+      {
+        "para_number": 15,
+        "para": "1. La place réservée à l'enseignement des langues vivantes dépend de la situation propre à chaque pays; il est recommandé cependant que l'étude d'une langue étrangère au moins figure au programme de toutes les classes de tous les types d'écoles secondaires.",
+        "tags": [
+          "CUR_CONTENT",
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT and F_LITE are selected because the paragraph discusses curriculum content (including foreign languages) and language literacy. Related paragraphs provide complementary details on language selection (16), sequencing (17), implementation (18), assessment (19), resources (34), and curriculum review (41). All relations are complemental or modifying with high confidence as they expand on the target paragraph's recommendations.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "modifying"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ]
+        },
+        "para_en": "1. The place given to the teaching of modern languages depends on the specific situation of each country; it is nevertheless recommended that the study of at least one foreign language is included in the curriculum of all grades in all types of secondary schools."
+      },
+      {
+        "para_number": 16,
+        "para": "2. Le choix de la première langue étrangère peut en général être imposé par des nécessités d'ordre culturel, géographique, ethnique, économique, — 190 etc. ; lorsqu'une deuxième langue étrangère est enseignée, il serait souhaitable, chaque fois que les moyens le permettent, que les élèves aient la faculté de choisir entre plusieurs langues en fonction de leurs intérêts et de leurs besoins propres.",
+        "tags": [
+          "F_LITE",
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (Subject domain | Literacy and language) and CUR_OTHER (Curriculum | Other curriculum-related issue) are selected because the paragraph focuses on language education (F_LITE) and curriculum decisions regarding language teaching (CUR_OTHER). Relations: Para 18 (complemental) addresses resource allocation (time) related to language study, Para 19 (supporting) aligns with stimulating student interest (a key point in the target paragraph), and Para 34 (complemental) discusses resources like audio-visual tools for language teaching.",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. The choice of the first foreign language can generally be determined by cultural, geographical, ethnic, economic, or other considerations; when a second foreign language is taught, it would be desirable, whenever resources permit, that students have the option to choose among several languages based on their own interests and needs."
+      },
+      {
+        "para_number": 17,
+        "para": "3. Il est recommandé que l'étude d'une deuxième langue étrangère ne commence que lorsque les structures linguistiques fondamentales de la première langue sont acquises.",
+        "tags": [
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "The tag F_LITE is selected because the paragraph focuses on linguistic structures and the sequence of language acquisition, which falls under literacy and language. Paragraph 21 discusses encouraging foreign language teaching before secondary education, which is related to the timing of language introduction but addresses a different aspect (pre-secondary vs. sequential mastery). This is a complemental relation with moderate confidence. Paragraph 28 emphasizes the order of spoken vs. written language acquisition, directly supporting the target paragraph's focus on sequential mastery, hence a supporting relation with high confidence.",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "28": [
+            "supporting"
+          ]
+        },
+        "para_en": "3. It is recommended that the study of a second foreign language should only begin once the fundamental linguistic structures of the first language have been acquired."
+      },
+      {
+        "para_number": 18,
+        "para": "4. L'étude des langues étrangères dans les écoles secondaires ne devant pas se borner à une initiation élémentaire, il est recommandé de lui consacrer suffisamment de temps dans l'horaire hebdomadaire.",
+        "tags": [
+          "CUR_IMPL",
+          "ISC_3"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum implementation) and ISC_3 (Upper secondary education) are selected because the paragraph focuses on allocating time for foreign language study in secondary schools (implementation) and explicitly references secondary education levels. Related paragraphs address complementary aspects: 19 (resources for language teaching), 20 (curriculum structure for language specialization), 21 (early language education), 29 (grammar/syntax teaching), 34 (audio-visual tools), and 37 (cultural reading materials). All relations are complemental as they expand on methods, resources, or structural elements supporting foreign language education.",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ],
+          "20": [
+            "modifying"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "4. Since the study of foreign languages in secondary schools should not be limited to an elementary introduction, it is recommended that sufficient time be allocated to it in the weekly schedule."
+      },
+      {
+        "para_number": 19,
+        "para": "5. L'efficacité de l'enseignement d'une langue étrangère étant surtout fonction de l'intérêt qu'y portent les élèves, il conviendrait de stimuler cet intérêt en accordant, entre autres, à l'épreuve de langues vivantes une place convenable aux différents examens de l'enseignement secondaire.",
+        "tags": [
+          "PEDAG_OTHER",
+          "F_LITE",
+          "ISC_3",
+          "ACT_STUD"
+        ],
+        "type": "operative",
+        "think": "Tags selected based on content: PEDAG_OTHER (assessment/interest in language learning), F_LITE (foreign languages), ISC_3 (upper secondary education), ACT_STUD (students). Related paragraphs (21, 40, 49) discuss language education strategies (early exposure, curriculum integration, research) that complement the target's focus on exams and student interest.",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. The effectiveness of teaching a foreign language being primarily dependent on the interest shown by the students, it would be appropriate to stimulate this interest by granting, among other measures, a suitable place to the modern language examination in the various secondary education assessments."
+      },
+      {
+        "para_number": 20,
+        "para": "6. Lors de la différenciation qui s'institue de plus en plus au début du cycle supérieur des écoles secondaires, il est recommandé de créer des sections comprenant l'étude approfondie de plusieurs langues étrangères et délivrant des diplômes équivalents à ceux des autres sections.",
+        "tags": [
+          "ISC_3",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_3 (upper secondary education) and CUR_CONTENT (curriculum content) are selected because the paragraph discusses specialization in upper secondary education and curriculum structure for language study. Paragraph 34 (supporting, 0.9) addresses language teaching resources aligning with the recommendation for in-depth language study. Paragraph 40 (supporting, 0.9) directly relates to teaching subjects in foreign languages in secondary schools, matching the target's focus. Paragraph 49 (complemental, 0.7) provides international research context, which complements the target's discussion of language education practices.",
+        "matched_pars": {
+          "34": [
+            "supporting"
+          ],
+          "40": [
+            "supporting"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. In the context of the increasing specialization occurring at the beginning of the upper cycle of secondary schools, it is recommended to establish sections that include in-depth study of several foreign languages and award diplomas equivalent to those of other sections."
+      },
+      {
+        "para_number": 21,
+        "para": "7. Etant donné la facilité avec laquelle les jeunes enfants assimilent les langues et l'intérêt que cet apprentissage présente pour l'étude des langues étrangères dans les écoles secondaires, il conviendrait de favoriser les expériences qui tendent à permettre l'enseignement d'une langue étrangère avant le début des études secondaires, en prenant toutes les précautions nécessaires pour que l'apprentissage de cette langue ne compromette pas l'acquisition de la langue maternelle.",
+        "tags": [
+          "F_LITE",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (literacy/language focus) and ISC_02 (pre-primary education) are selected because the paragraph emphasizes early language acquisition before secondary education. Para 49 directly complements the target by discussing experiments on pre-secondary language instruction (confidence 0.9). Para 23 supports the balance between language learning and practical use (confidence 0.7). Para 28 aligns with early spoken language focus (confidence 0.7). Para 40 relates to extending language instruction to secondary schools (confidence 0.6).",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. Given the ease with which young children acquire languages and the benefits this learning presents for the study of foreign languages in secondary schools, it would be appropriate to encourage initiatives aimed at enabling the teaching of a foreign language before the start of secondary education, while taking all necessary precautions to ensure that the acquisition of this language does not compromise the mastery of the mother tongue."
+      },
+      {
+        "para_number": 22,
+        "para": "II. BUTS, PROGRAMMES ET MÉTHODES",
+        "tags": [
+          "PEDAG_METHO",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and CUR_IMPL are selected because the paragraph focuses on teaching methods (PEDAG_METHO) and curriculum programs (CUR_IMPL). Related paragraphs 23/24/27 expand on aims/methods (supporting), 26 adds implementation details (complemental), and 54 addresses implementation of recommendations (modifying).",
+        "matched_pars": {
+          "23": [
+            "supporting"
+          ],
+          "24": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "supporting"
+          ],
+          "54": [
+            "modifying"
+          ]
+        },
+        "para_en": "II. AIMS, PROGRAMMES, AND METHODS"
+      },
+      {
+        "para_number": 23,
+        "para": "8. Les buts de l'enseignement des langues vivantes sont à la fois de caractères formatif, éducatif et pratique; l'éducation intellectuelle que constitue l'apprentissage d'une langue ne doit pas se faire au détriment de l'utilisation pratique de cette langue; de même, les applications pratiques ne doivent pas empêcher l'étude approfondie de la langue dans ses particularités linguistiques.",
+        "tags": [
+          "M_FORM",
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "Tags M_FORM (formative education) and F_LITE (literacy/language) are selected because the paragraph explicitly mentions formative, educational, and practical objectives of language teaching, aligning with formal education (M_FORM) and language domain (F_LITE). Related paragraphs: 25 (curriculum components) complement the discussion of language study; 29 (grammar/syntax) modifies the emphasis on linguistic particularities; 39 (coordination with other subjects) and 24 (coordination with mother tongue) provide complementary context; 41 (curriculum review) aligns with curriculum implementation (CUR_IMPL) but is included as complemental due to thematic overlap.",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "29": [
+            "modifying"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. The objectives of teaching modern languages are both formative, educational, and practical; the intellectual education represented by learning a language must not come at the expense of the practical use of that language; similarly, practical applications should not hinder the thorough study of the language in its linguistic particularities."
+      },
+      {
+        "para_number": 24,
+        "para": "9. L'enseignement des langues vivantes ne constitue pas une fin en soi; mais il doit servir, par ses aspects culturels et humains, à la formation de l'esprit et du caractère et contribuer à une meilleure compréhension internationale et à l'établissement d'une coopération pacifique et amicale entre les peuples.",
+        "tags": [
+          "nan: Curriculum"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes curriculum coordination between modern languages and other subjects (e.g., history, geography). 'nan: Curriculum' is selected because the text directly discusses curriculum integration. Paragraph 25 (curricula including literature/civilization) and 39 (coordination with other disciplines) are complemental as they both address curriculum-related aspects but focus on different elements (content vs. interdisciplinary coordination).",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. The teaching of modern languages is not an end in itself; rather, through its cultural and human aspects, it must serve the development of the mind and character and contribute to a better international understanding and the establishment of peaceful and friendly cooperation among peoples."
+      },
+      {
+        "para_number": 25,
+        "para": "10. Il en résulte qu'à côté de l'étude orale et écrite de la langue proprement dite, les programmes doivent faire une place non seulement à la littérature, mais à une information objective sur la civilisation des pays où cette langue est parlée, tout en tenant compte des possibilités intellectuelles et des intérêts des élèves.",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes curriculum content including literature and cultural information (CUR_CONTENT). Paragraph 36 complements this by discussing textbooks reflecting cultural aspects, while paragraph 37 complements the inclusion of literature through cultural value.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. It follows that alongside the oral and written study of the language itself, curricula must include not only literature but also objective information about the civilization of the countries where the language is spoken, while taking into account the intellectual capacities and interests of the students."
+      },
+      {
+        "para_number": 26,
+        "para": "11. Les instructions qui peuvent être données officiellement quant au choix des méthodes, des techniques et des manuels devraient, tout en orientant le travail des professeurs, laisser à ces derniers une marge suffisante de liberté et d'initiative, compatible avec les méthodes reconnues valables, qui permette d'améliorer progressivement les méthodes et les manuels pour l'enseignement des langues vivantes.",
+        "tags": [
+          "CUR_IMPL",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "The target paragraph emphasizes curriculum review (CUR_IMPL) and modern teaching methods (PEDAG_METHO). Paragraph 41 directly addresses curriculum adaptation, making it a strong supporting relation. Paragraphs 43, 27, and 46 discuss teacher training/professional development, which supports the need for updated pedagogical approaches. Paragraph 36 complements by addressing textbook standards aligned with teaching methods.",
+        "matched_pars": {
+          "41": [
+            "supporting"
+          ],
+          "43": [
+            "supporting"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "27": [
+            "supporting"
+          ]
+        },
+        "para_en": "11. Official guidelines regarding the choice of methods, techniques, and textbooks should, while directing the work of teachers, allow them sufficient room for freedom and initiative, compatible with recognized valid methods, in order to progressively improve the methods and textbooks used in the teaching of modern languages."
+      },
+      {
+        "para_number": 27,
+        "para": "12. Les diverses méthodes actives, qui ont fait leurs preuves depuis longtemps, semblent convenir le mieux à l'acquisition d'une langue étrangère. Les nouvelles techniques d'enseignement des langues vivantes, de même que l'enseignement programmé, doivent faire l'objet d'études, de recherches et d'expériences afin d'assurer leur utilisation appropriée et efficace.",
+        "tags": [
+          "PEDAG_METHO",
+          "CUR_IMPL",
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO (teaching methods), CUR_IMPL (curriculum implementation), and F_LITE (language subject domain) are selected. The paragraph discusses active teaching methods, their study, and curriculum adaptation, aligning with these tags. Related paragraphs provide complementary (e.g., specific techniques, spoken/written language focus) or supporting (curriculum review, research) information.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "12. The various active methods, which have long proven effective, appear to be the most suitable for acquiring a foreign language. New techniques for teaching modern languages, as well as programmed instruction, should be subject to study, research, and experimentation to ensure their appropriate and effective use."
+      },
+      {
+        "para_number": 28,
+        "para": "13. Ce qui importe avant tout, c'est que l'apprentissage de la langue parlée précède celui de la langue écrite et qu'une large part soit faite, dès le début, aux exercices d'audition, de prononciation et de conversation, en ayant recours le moins possible à la langue maternelle ou à la langue d'enseignement.",
+        "tags": [
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on language learning methods emphasizing spoken language precedence and minimal use of the mother tongue, aligning with 'F_LITE' (Subject domain | Literacy and language). Paragraph 29 complements by addressing grammar/syntax integration, 30 complements by discussing teaching method research, and 50 supports by highlighting spoken practice through foreign assistants.",
+        "matched_pars": {
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "What is above all important is that the learning of the spoken language precedes that of the written language and that a significant emphasis be placed, from the outset, on listening, pronunciation, and conversation exercises, making as little use as possible of the mother tongue or the language of instruction."
+      },
+      {
+        "para_number": 29,
+        "para": "14. Il n'en demeure pas moins que la grammaire et la syntaxe, de même que l'orthographe, ne doivent pas être négligées; mais il faut s'efforcer de les enseigner de sorte que, loin de constituer une fin en soi, elles contribuent à développer l'usage correct de la langue étrangère, parlée et écrite.",
+        "tags": [
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "The tag F_LITE (Literacy and language) is selected because the paragraph focuses on teaching grammar, syntax, and spelling as tools for language development, which falls under literacy and language education. Paragraph 30 is related as it discusses research on effective teaching methods for foreign languages, aligning with the target paragraph's emphasis on pedagogical approaches. The relation is 'supporting' with high confidence (0.9) because both paragraphs address teaching methodologies and the importance of adapting instruction to enhance language proficiency.",
+        "matched_pars": {
+          "30": [
+            "supporting"
+          ]
+        },
+        "para_en": "14. Nonetheless, grammar and syntax, as well as spelling, must not be neglected; efforts should be made to teach them in such a way that, far from being an end in themselves, they contribute to developing the correct use of the foreign language, both spoken and written."
+      },
+      {
+        "para_number": 30,
+        "para": "15. L'importance de la recherche et des expériences en vue de déterminer les méthodes les plus efficaces et les modalités de l'enseignement des langues étrangères dans un système scolaire donné ne doit pas être sous-estimée; il faut tenir compte des caractéristiques particulières du milieu et de la langue maternelle des élèves.",
+        "tags": [
+          "SYST_RESEAR",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags 'SYST_RESEAR' and 'PEDAG_METHO' are selected because the paragraph emphasizes research/experiments (SYST_RESEAR) and teaching methods (PEDAG_METHO). Related paragraphs discuss specific methods (31, 32, 34, 39, 41) or research (49), which are either complementary (adding related details) or supporting (directly aligning with research emphasis).",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "15. The importance of research and experiments aimed at determining the most effective methods and modalities for teaching foreign languages within a given school system must not be underestimated; the specific characteristics of the environment and the students' mother tongue must be taken into account."
+      },
+      {
+        "para_number": 31,
+        "para": "16. Il est souhaitable, si les conditions le permettent, de diviser les classes de langues vivantes en groupes aussi restreints que possible.",
+        "tags": [
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses modern language teaching and teacher recruitment, aligning with 'F_LITE' (Subject domain | Literacy and language). No other paragraphs directly address teacher recruitment or language education strategies, so no meaningful relations exist.",
+        "matched_pars": {},
+        "para_en": "16. It is desirable, if conditions permit, to divide modern language classes into groups as small as possible."
+      },
+      {
+        "para_number": 32,
+        "para": "17. Les activités de complément qui font appel à la participation active des élèves — jeux, chants, dramatisation, clubs de langues, etc. doivent être suffisamment nombreuses et variées pour contribuer à la consolidation et à l'enrichissement des connaissances acquises.",
+        "tags": [
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on supplementary activities (games, songs, clubs) as part of curriculum implementation. 'CUR_OTHER' applies because it addresses curriculum-related issues beyond core content. Paragraph 33 (student trips/exchanges) and 53 (extracurricular activities like camps) are complemental as they both discuss external activities enhancing language learning, though with different specific methods.",
+        "matched_pars": {
+          "33": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. Supplementary activities that involve the active participation of students—such as games, songs, dramatization, language clubs, etc.—must be sufficiently numerous and varied to contribute to the consolidation and enrichment of the knowledge acquired."
+      },
+      {
+        "para_number": 33,
+        "para": "18. Il importe de mettre en œuvre tous les moyens pour faciliter et multiplier les voyages et les séjours d'élèves dans les pays où se parle la langue étudiée; ces séjours peuvent se faire à titre individuel ou être organisés collectivement sous forme d'échanges dirigés par des professeurs responsables, par des organisations de jeunesse, etc.; lorsque de tels voyages ou séjours s'avèrent impossibles, des camps de vacances devraient être organisés sur place avec la participation de ressortissants des pays où l'on parle la langue en question.",
+        "tags": [
+          "CUR_IMPL",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and T_OTHER are selected because the paragraph emphasizes curriculum implementation through student travel and teacher-led exchanges (T_OTHER). Related paragraphs address complementary methods (audio-visual tools, media, curriculum review) and supporting teacher recruitment, establishing clear connections.",
+        "matched_pars": {
+          "47": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ]
+        },
+        "para_en": "18. It is essential to implement all means to facilitate and increase student trips and stays in countries where the studied language is spoken; these stays may be undertaken individually or organized collectively in the form of exchanges led by responsible teachers, youth organizations, etc.; when such trips or stays prove impossible, holiday camps should be organized locally with the participation of nationals from the countries where the language in question is spoken."
+      },
+      {
+        "para_number": 34,
+        "para": "19. Les moyens audio-visuels qui se sont montrés particulièrement efficaces pour l'enseignement des langues vivantes devraient être mis à la disposition de tous les établissements du second degré; il serait de même souhaitable que des laboratoires de langues, spécialement conçus pour 192 l'enseignement secondaire, soient installés en nombre suffisant pour répondre aux besoins essentiels de chaque pays.",
+        "tags": [
+          "INFRA_TLM",
+          "ISC_2"
+        ],
+        "type": "operative",
+        "think": "Tags INFRA_TLM (audio-visual infrastructure) and ISC_2 (secondary education) are directly mentioned. Para 35 (radio/TV as audio-visual tools) is supporting as it aligns with infrastructure for language teaching. Para 49 (international materials research) is complemental as it expands on resource availability across countries.",
+        "matched_pars": {
+          "35": [
+            "supporting"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "19. Audio-visual means, which have proven particularly effective for the teaching of modern languages, should be made available to all secondary education institutions; it would also be desirable for language laboratories, specially designed for secondary education, to be installed in sufficient numbers to meet the essential needs of each country."
+      },
+      {
+        "para_number": 35,
+        "para": "20. L'utilité de la radio, de la télévision et du cinéma comme compléments à l'enseignement systématique des langues vivantes mérite également d'être soulignée; il importe que les programmes et les horaires des émissions de radio et de télévision soient établis en étroite liaison avec ceux des établissements d'enseignement et que ces derniers puissent disposer des postes récepteurs nécessaires et du matériel visuel complémentaire; il convient toutefois de souligner que la radio, la télévision et le cinéma ne sauraient se substituer à l'enseignement du professeur.",
+        "tags": [
+          "INFRA_TLM",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "Tags INFRA_TLM and CUR_ORG are selected because the paragraph emphasizes infrastructure (equipment/materials) and coordination with educational institutions (organizational aspects). Paragraph 38 (libraries/resources) is complemental as it addresses similar infrastructure needs. Paragraph 39 (coordination with other subjects) is complemental for shared organizational themes. Paragraph 43 (teacher training) is supporting as it reinforces the necessity of teacher instruction, aligning with the paragraph's caution against media replacing teachers.",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "20. The usefulness of radio, television, and cinema as supplements to systematic language teaching also deserves to be emphasized; it is important that the programs and broadcast schedules of radio and television be coordinated closely with those of educational institutions, and that these institutions have access to the necessary receiving equipment and supplementary visual materials; however, it should be stressed that radio, television, and cinema cannot replace the instruction provided by a teacher."
+      },
+      {
+        "para_number": 36,
+        "para": "21. Il importe que les manuels de langues vivantes reflètent la vie et la culture du pays des élèves et des pays dont ils apprennent la langue, qu'ils soient attrayants et illustrés de photos et de gravures, qu'ils se conforment à l'esprit des méthodes actives généralement préconisées, et qu'il soit tenu compte, lors de leur élaboration, des travaux accomplis dans le domaine de la linguistique. Dans certains pays où les élèves apprennent une langue étrangère en l'utilisant comme langue d'enseignement, il importe que les manuels adoptés à cette fin reflètent la culture du pays des élèves.",
+        "tags": [
+          "CUR_CONTENT",
+          "F_ARTS",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT (textbook content requirements), F_ARTS (cultural reflection), and PEDAG_METHO (active teaching methods) are directly supported. Related paragraphs discuss cultural materials (37), library resources (38), interdisciplinary coordination (39), curriculum updates (41), and comparative research (49), all of which align with the target paragraph's focus on cultural integration, pedagogical approaches, and curriculum development.",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "modifying"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "It is important that foreign language textbooks reflect the life and culture of the students’ own country as well as of the countries whose language they are learning, that they be attractive and illustrated with photographs and engravings, that they conform to the principles of the active methods generally recommended, and that the work carried out in the field of linguistics be taken into account during their development. In certain countries where students learn a foreign language by using it as the medium of instruction, it is essential that the textbooks adopted for this purpose reflect the culture of the students’ own country."
+      },
+      {
+        "para_number": 37,
+        "para": "22. Il convient, notamment dans le cycle supérieur des écoles secondaires, d'attribuer une haute importance à la lecture des auteurs qui peuvent donner à l'enseignement des langues vivantes une grande valeur de culture générale, ne serait-ce qu'au moyen de commentaires non pas d'ordre grammatical mais de caractère interprétatif, culturel et esthétique.",
+        "tags": [],
+        "type": "operative",
+        "think": "fallback",
+        "matched_pars": {},
+        "para_en": "22. Particular importance should be given, especially in the upper levels of secondary schools, to the reading of authors who can confer considerable general cultural value to the teaching of modern languages, even if only through commentary not of a grammatical nature but of an interpretative, cultural, and aesthetic character."
+      },
+      {
+        "para_number": 38,
+        "para": "23. Les bibliothèques scolaires devraient être pourvues de livres, revues et journaux en langues étrangères et de toute autre documentation (y compris la documentation audio-visuelle) pouvant contribuer à une meilleure connaissance des différents pays; à cet effet, il y aurait tout avantage à organiser, entre les écoles des divers pays intéressés, des échanges de documentation de tout genre.",
+        "tags": [
+          "INFRA_LABS",
+          "INFRA_TLM"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses school libraries requiring foreign language materials (INFRA_LABS) and inter-school documentation exchanges (INFRA_TLM). Paragraph 53 mentions interschool correspondence and activities involving youth from different nations, which aligns with the 'exchanges' concept in the target paragraph, providing complementary context about international educational collaboration.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "School libraries should be equipped with books, magazines, and newspapers in foreign languages, as well as any other documentation (including audiovisual materials) that can contribute to a better understanding of different countries; to this end, it would be highly beneficial to organize exchanges of all types of documentation between schools in the various interested countries."
+      },
+      {
+        "para_number": 39,
+        "para": "24. Il importe d'accentuer et de développer, dans toute la mesure du possible, la coordination entre l'enseignement des langues vivantes et celui de la langue maternelle, de l'histoire, de la géographie, de l'histoire de l'art et de toute autre discipline pouvant avoir un rapport avec les langues étrangères.",
+        "tags": [
+          "CUR_IMPL",
+          "CUR_CONTENT",
+          "F_LITE"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum implementation) and CUR_CONTENT (Curriculum | Content and learning areas) directly address the coordination of language teaching with other disciplines. F_LITE (Subject domain | Literacy and language) applies because the paragraph focuses on language education. Related paragraphs: 40 (complemental - extends coordination practice), 41 (supporting - periodic review aligns with coordination), 43 (complemental - teacher training supports curriculum), 45 (complemental - teacher mobility enhances coordination), 49 (supporting - research supports curriculum development).",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "24. It is important to emphasize and develop, to the fullest extent possible, the coordination between the teaching of modern languages and that of the mother tongue, history, geography, art history, and any other discipline that may be related to foreign languages."
+      },
+      {
+        "para_number": 40,
+        "para": "25. L'expérience tentée dans quelques pays, aux fins d'enseigner un certain nombre de disciplines dans une langue étrangère déterminée, semble avoir donné de bons résultats; cette pratique pourrait éventuellement être étendue à d'autres pays et s'appliquer notamment dans les sections de langues modernes qui se créent dans les écoles secondaires ou dans certaines écoles spécialisées.",
+        "tags": [
+          "F_LITE",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (literacy/language) and PEDAG_OTHER (pedagogy) are selected because the paragraph focuses on foreign language instruction experiments and pedagogical practices. Related paragraphs 41 (curriculum adaptation), 49 (experimental studies), 44 (teacher training), 47 (teacher recruitment), and 53 (extracurricular activities) are all connected to language education expansion, with varying degrees of complementarity.",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "25. The experiment undertaken in some countries to teach a certain number of subjects in a specified foreign language appears to have yielded good results; this practice could potentially be extended to other countries and applied particularly in modern language sections being established in secondary schools or in certain specialized schools."
+      },
+      {
+        "para_number": 41,
+        "para": "26. Il est indispensable que les programmes de langues vivantes fassent l'objet de révisions et d'adaptations périodiques pour tenir compte de l'évolution de la langue enseignée et des pays qui la parlent, ainsi que du développement des méthodes et des techniques modernes dont peuvent disposer les écoles et les professeurs.",
+        "tags": [
+          "CUR_EVAL",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes periodic curriculum review (CUR_EVAL) and adaptation to modern teaching methods (CUR_IMPL). Para 43 complements this by addressing teacher training for modern methods. Para 46 complements by focusing on professional development to keep teachers updated. Para 49 supports by advocating research to inform curriculum adaptations.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "26. It is essential that modern language curricula undergo periodic review and adaptation to take into account the evolution of the language taught and the countries where it is spoken, as well as the development of modern methods and techniques available to schools and teachers."
+      },
+      {
+        "para_number": 42,
+        "para": "III. PERSONNEL ENSEIGNANT",
+        "tags": [
+          "T_COND",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (Working conditions and salaries) and T_INI (Initial education and training) are selected because the section title 'TEACHING STAFF' implies both the recruitment/training (T_INI) and operational conditions (T_COND) of educators. Related paragraphs 43 (training content), 44 (foreign teacher recruitment), 47 (recruitment measures), and 52 (technical assistance) directly address staffing and training aspects, aligning with the section's focus.",
+        "matched_pars": {
+          "43": [
+            "supporting"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "III. TEACHING STAFF"
+      },
+      {
+        "para_number": 43,
+        "para": "27. Il est indispensable d'assurer aux futurs professeurs de langues vivantes une formation à la fois générale, linguistique et pédagogique, théorique et pratique, qui soit conforme aux progrès de la linguistique, de la pédagogie et des techniques modernes audio-visuelles.",
+        "tags": [
+          "T_INI",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial education and training) and M_FORM (Formal education) are selected because the paragraph emphasizes structured, comprehensive training for future teachers, aligning with formal educational frameworks. Para 46 is complemental as it expands on professional development methods (courses, seminars) that align with the target's focus on pedagogical training and staying updated with new techniques.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. It is essential to provide future modern language teachers with training that is simultaneously general, linguistic, and pedagogical, both theoretical and practical, and that complies with advancements in linguistics, pedagogy, and modern audiovisual techniques."
+      },
+      {
+        "para_number": 44,
+        "para": "28. Afin de développer la formation de professeurs de langues vivantes et d'augmenter le nombre des professeurs qualifiés, il est souhaitable d'avoir recours aux professeurs étrangers qui peuvent contribuer à la formation de professeurs nationaux qualifiés.",
+        "tags": [
+          "T_RECR",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags T_RECR (Recruitment) and T_INI (Initial training) are selected because the paragraph explicitly discusses employing foreign teachers (recruitment) and training national teachers (initial education). Related paragraphs 45, 47, 50, and 52 address complementary aspects like mobility (45), recruitment strategies (47), foreign assistants (50), and technical assistance (52) for language education.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. In order to expand the training of modern language teachers and increase the number of qualified teachers, it is advisable to employ foreign teachers who can contribute to the training of qualified national teachers."
+      },
+      {
+        "para_number": 45,
+        "para": "29. Il est important de faciliter et d'encourager pour tous les professeurs de langues les voyages, les séjours et les études à l'étranger et de prévoir à cet effet des bourses ainsi qu'un système d'échanges et de congés payés.",
+        "tags": [
+          "ACT_EDUC",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Teachers and educators) and T_PDEV (Professional development) are selected because the paragraph emphasizes facilitating professional growth through international exchanges and studies. Para 46 (professional development courses) and Para 51 (international teacher exchange system) directly complement the target's focus on exchanges and professional growth. Para 53 (extracurricular activities) adds related but independent information about language education initiatives.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. It is important to facilitate and encourage, for all language teachers, travel, stays, and studies abroad, and to provide scholarships as well as a system of exchanges and paid leave for this purpose."
+      },
+      {
+        "para_number": 46,
+        "para": "30. Le perfectionnement des professeurs doit porter aussi sur les aspects pédagogiques de leur enseignement; à cet égard, il est recommandé d'organiser des cours et des colloques nationaux et internationaux pour les tenir régulièrement au courant des nouvelles méthodes et techniques, ainsi que de publier des bulletins de liaison permettant de comparer leurs méthodes et de confronter les résultats obtenus.",
+        "tags": [
+          "T_PDEV",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV and PEDAG_METHO are selected because the paragraph explicitly discusses teacher professional development (T_PDEV) and pedagogical methods (PEDAG_METHO). Related paragraphs: 47 (complemental - international teacher recruitment complements professional development), 48 (complemental - international cooperation aligns with global pedagogical exchange), 49 (supporting - comparative studies directly support method comparison), 51 (complemental - teacher exchange systems complement international collaboration), and 55 (complemental - dissemination efforts align with sharing results). Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. The professional development of teachers must also focus on the pedagogical aspects of their teaching; in this regard, it is recommended to organize national and international courses and seminars to keep them regularly informed of new methods and techniques, as well as to publish liaison bulletins enabling the comparison of their methods and the sharing of achieved results."
+      },
+      {
+        "para_number": 47,
+        "para": "31. Pour lutter contre la pénurie de professeurs de langues vivantes qui affecte un grand nombre de pays, il importe de mettre en œuvre tous les moyens propres à faciliter et à accélérer leur recrutement et leur formation; loin de s'en tenir aux seuls ressortissants du pays intéressé, il conviendrait à l'occasion d'engager du personnel appartenant aux pays dont il s'agit d'enseigner la langue.",
+        "tags": [
+          "T_SUPP",
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP and T_RECR are selected because the paragraph directly addresses teacher shortages (T_SUPP) and recruitment/training measures (T_RECR). Related paragraphs: 48 (complemental - international cooperation aligns with cross-border recruitment), 49 (complemental - research complements training efforts), 50 (modifying - foreign assistants refine recruitment strategies), 51 (complemental - exchange systems support international hiring), 52 (supporting - technical assistance strengthens recruitment capacity).",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "modifying"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ]
+        },
+        "para_en": "31. To address the shortage of modern language teachers affecting a large number of countries, it is essential to implement all measures likely to facilitate and accelerate their recruitment and training; rather than limiting oneself to nationals of the country concerned, it would be appropriate, on occasion, to employ personnel from the countries whose language is to be taught."
+      },
+      {
+        "para_number": 48,
+        "para": "IV. COOPERATION INTERNATIONALE",
+        "tags": [
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on international cooperation (POL_INTCOOP). Related paragraphs discuss collaborative initiatives (49: comparative studies, 50: foreign assistants, 51: teacher exchange, 53: extracurricular activities, 57: regional reviews) which all align with international cooperation themes. Paragraph 54 addresses implementation, which supports the recommendation's application. All relations are complemental or supporting with confidence ≥0.6.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "supporting"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "IV. INTERNATIONAL COOPERATION"
+      },
+      {
+        "para_number": 49,
+        "para": "32. Dans le cadre de l'action internationale, il est souhaitable d'enreprendre des études et des recherches comparées concernant l'enseignement des langues vivantes ainsi que le matériel didactique. Il conviendrait en particulier de recueillir, de comparer et de publier les résultats des expériences réalisées dans les différents pays par l'introduction de l'enseignement d'une langue étrangère avant le début des études secondaires.",
+        "tags": [
+          "F_LITE",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (literacy/language focus) and CUR_IMPL (curriculum implementation) are selected because the paragraph emphasizes international studies on language teaching methods and curriculum-related actions. Related paragraphs 50-56 are connected through shared themes of language education, international collaboration, and curriculum implementation, with complemental relations as they expand on different aspects of the target's recommendations.",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "32. Within the framework of international action, it is desirable to undertake comparative studies and research concerning the teaching of modern languages as well as educational materials. In particular, it would be appropriate to collect, compare, and publish the results of experiments conducted in various countries involving the introduction of foreign language instruction prior to the commencement of secondary education."
+      },
+      {
+        "para_number": 50,
+        "para": "33. Le recours à des assistants étrangers pour la pratique de la langue parlée semble présenter un double avantage; d'une part, il contribue à l'amélioration de la prononciation, de l'intonation et de la connaissance de la langue courante; d'autre part, il offre à ces assistants l'occasion de se familiariser avec le pays d'accueil et d'en pratiquer la langue. Il convient néanmoins que toutes les dispositions nécessaires soient prises pour que ces assistants soient préalablement informés de la tâche qui les attend et préparés à la remplir.",
+        "tags": [
+          "Learning modality",
+          "M_INFORM"
+        ],
+        "type": "operative",
+        "think": "Tags 'Learning modality' and 'M_INFORM' are selected because the paragraph discusses spoken language practice with foreign assistants, which aligns with informal learning methods. Paragraph 51 (exchange systems) is complemental as it expands on assistant mobility. Paragraph 53 (extracurricular language activities) is complemental as both address language learning methods.",
+        "matched_pars": {
+          "51": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "33. The use of foreign assistants for spoken language practice appears to offer a dual advantage; on the one hand, it contributes to the improvement of pronunciation, intonation, and the knowledge of the everyday language; on the other hand, it provides these assistants with the opportunity to become acquainted with the host country and to practice its language. However, all necessary measures should be taken to ensure that these assistants are adequately informed in advance about the task awaiting them and are prepared to fulfill it."
+      },
+      {
+        "para_number": 51,
+        "para": "34. Il serait souhaitable que les gouvernements, les organisations internationales et d'autres institutions reconnues qui pourraient s'intéresser — 194 à la chose, collaborent pour mettre sur pied un système international d'échange de professeurs, d'assistants et d'étudiants qui viendrait compléter et renforcer l'action déjà entreprise dans ce domaine.",
+        "tags": [
+          "POL_INTCOOP",
+          "ACT_IO",
+          "T_OTHER",
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation), ACT_IO (international organizations), T_OTHER (teachers), and ISC_99 (multiple education levels) are selected because the paragraph emphasizes collaboration between governments/organizations for teacher/student exchange across education levels. Related paragraphs (52-57) discuss implementation support (52), complementary activities (53), dissemination (55), adaptation (56), and regional adaptation (57), all of which are logically connected to the target paragraph's exchange system proposal.",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "It would be desirable for governments, international organizations, and other recognized institutions that may be interested in the matter to cooperate in establishing an international system for the exchange of teachers, assistants, and students, which would complement and strengthen the efforts already undertaken in this field."
+      },
+      {
+        "para_number": 52,
+        "para": "35. Les pays qui manquent de moyens financiers et de personnel qualifié pour assurer l'organisation ou le développement de leur enseignement des langues vivantes devraient bénéficier d'une assistance technique qui pourrait revêtir la forme d'octroi de bourses d'étude et de recherche, d'aide matérielle, d'envoi d'experts, de cours donnés sur place, etc.",
+        "tags": [
+          "INFRA_TLM",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags INFRA_TLM (teaching materials) and T_INI (teacher training) are selected because the paragraph discusses material aid and qualified personnel for language education. Para 53 provides complementary activities (camps, exchanges) related to language learning. Paras 54 and 56 modify the implementation process, specifying how recommendations (including para 52) should be adapted and applied.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "modifying"
+          ],
+          "56": [
+            "modifying"
+          ]
+        },
+        "para_en": "35. Countries lacking financial resources and qualified personnel to ensure the organization or development of their modern language teaching should receive technical assistance, which could take the form of scholarships for study and research, material aid, the dispatch of experts, on-site courses, and so forth."
+      },
+      {
+        "para_number": 53,
+        "para": "36. Pour développer diverses formes d'activités extrascolaires contribuant à la fois à perfectionner la connaissance d'une langue étrangère et celle de la vie et de la culture d'autres nations et à élever la jeunesse dans l'esprit de la compréhension internationale et du maintien de la paix, il est souhaitable: a) de développer le système des écoles associées de l'Unesco et des écoles dites jumelées; b) de développer la correspondance interscolaire entre élèves de différents pays; c) d'organiser des colonies, des camps de vacances et des excursions avec la participation de la jeunesse de différentes nations; d) d'assurer la collaboration de professeurs spécialisés et d'éducateurs à des camps dits linguistiques organisés pour les jeunes qui sont déjà avancés dans l'étude d'une langue étrangère.",
+        "tags": [
+          "CUR_IMPL",
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (curriculum implementation) and POL_INTCOOP (international cooperation) are selected because the paragraph discusses implementing extracurricular activities (CUR_IMPL) and international collaboration through twinned schools and exchanges (POL_INTCOOP). Paragraph 54 (implementation of the recommendation) is complemental as it directly addresses executing the activities mentioned. Paragraph 55 (dissemination) is supporting as it ensures the recommendation's spread, which is necessary for implementation.",
+        "matched_pars": {
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ]
+        },
+        "para_en": "36. To develop various forms of extracurricular activities that contribute both to improving the knowledge of a foreign language and to the understanding of the life and culture of other nations, as well as to raising youth in the spirit of international understanding and the maintenance of peace, it is desirable: a) to develop the UNESCO Associated Schools system and the so-called twinned schools; b) to develop interschool correspondence between students from different countries; c) to organize colonies, holiday camps, and excursions with the participation of youth from different nations; d) to ensure the collaboration of specialized teachers and educators in the so-called language camps organized for young people who are already advanced in the study of a foreign language."
+      },
+      {
+        "para_number": 54,
+        "para": "V. APPLICATION DE LA PRÉSENTE RECOMMANDATION",
+        "tags": [
+          "LAW_IMPLEM"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on implementation of a recommendation, aligning with 'LAW_IMPLEM' (Policy implementation and enforcement). Paragraph 55 discusses dissemination mechanisms (complemental), 56 outlines implementation steps (supporting), and 57 addresses regional adaptation (complemental). All relations are strongly supported by the text.",
+        "matched_pars": {
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "supporting"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "V. IMPLEMENTATION OF THIS RECOMMENDATION"
+      },
+      {
+        "para_number": 55,
+        "para": "37. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des universités et instituts pédagogiques, des centres de documentation pédagogique, des fédérations internationales et nationales d'enseignement des langues vivantes, des associations de maîtres ou de parents, etc.; la presse pédagogique doit jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant, ainsi que du grand public.",
+        "tags": [
+          "ACT_EDUC",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies due to mentions of ministries, school authorities, teacher training institutes, and associations of teachers/parents. M_FORM (Formal education) applies as the text focuses on structured educational institutions and official dissemination channels. Paragraph 56 complements by detailing implementation steps (adapting articles to national contexts), while 57 complements by addressing regional adaptation mechanisms.",
+        "matched_pars": {
+          "56": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. It is essential that the text of the present recommendation be widely disseminated by the ministries of public education, the school authorities of the most directly concerned educational level, universities and teacher training institutes, educational documentation centers, international and national federations of modern language teaching, associations of teachers or parents, etc.; the educational press must play a major role in disseminating this recommendation to the relevant services, administrative and teaching staff, as well as to the general public."
+      },
+      {
+        "para_number": 56,
+        "para": "38. Dans les pays où cela s'avèrerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré.",
+        "tags": [
+          "LAW_IMPLEM",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses policy implementation (LAW_IMPLEM) through national ministries' tasks and curriculum adaptation (CUR_IMPL) via article modification. Paragraph 57 complements this by addressing regional implementation mechanisms, sharing the same core theme of recommendation adaptation.",
+        "matched_pars": {
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "38. In countries where it proves necessary, the ministries of public education are encouraged to entrust the competent bodies with carrying out various tasks, for example: a) examining this recommendation and comparing its content with the existing legal and factual situation in their country; b) considering the advantages and disadvantages of the possible application of each article that is not yet in force; c) adapting each article to the country’s situation, if its application is deemed useful; d) finally, proposing practical provisions and measures to be taken to ensure the implementation of the article under consideration."
+      },
+      {
+        "para_number": 57,
+        "para": "39. Les centres régionaux de l'Unesco et d'autres organisations régionales ou internationales de caractère éducatif et culturel sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région.",
+        "tags": [
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses curriculum adaptation through regional review and collaboration with educational organizations, fitting the 'Curriculum | Other curriculum-related issue' tag. No other paragraphs are provided for relation analysis.",
+        "matched_pars": {},
+        "para_en": "39. The regional centers of UNESCO and other regional or international organizations of an educational and cultural nature are invited to facilitate, in collaboration with the relevant ministries, the regional review of this recommendation with a view to its adaptation to the characteristics of the region."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, et s'y étant réunie le douze juillet mil neuf cent soixante-cinq en sa vingt-huitième session, adopte le vingt-trois juillet mil neuf cent soixante-cinq la recommandation suivante: La Conférence, Considérant que la connaissance d'une ou plusieurs langues vivantes fait partie de la culture générale et de la formation intellectuelle de l'élève au moins au même titre que d'autres disciplines figurant au programme des écoles secondaires et que, dans bien des pays, une langue étrangère au moins constitue un outil indispensable pour l'étude plus étendue et plus approfondie de certaines matières inscrites au programme des classes supérieures, Considérant qu'il appartient aux peuples eux-mêmes de faire choix des langues étrangères qui doivent être enseignées,  189 = Considérant cependant que, dans les pays dont la langue autochtone n'a pas été jusqu'à présent la langue d'enseignement, il est nécessaire de contribuer en premier lieu au développement des langues nationales, à leur émancipation et à l'affermissement de leur position dans les relations internationales, Considérant que la connaissance d'une langue étrangère, comme celle de la littérature, de l'histoire, de la civilisation et du mode de vie propres aux pays où elle est parlée, peut avoir une grande influence sur l'amélioration de la compréhension internationale et de l'entente entre les peuples, Considérant que le développement des relations internationales dans tous les domaines et le perfectionnement des moyens de transport et de communication accroissent d'une manière constante la nécessité pratique de connaître au moins une langue étrangère et d'être en mesure de la manier avec aisance, Considérant que la connaissance des langues étrangères accélère la diffusion des découvertes de la science et de la technique et, de ce fait, contribue efficacement au développement économique et culturel des pays, Considérant que les moyens d'information, tels que le cinéma, la radio et la télévision, mettent les pays à la portée les uns des autres et que les jeunes comme les adultes ont accès à ces divers moyens, Considérant que les possibilités d'études à l'étranger et les échanges d'étudiants et de spécialistes entre pays qui ne parlent pas la même langue se font également de plus en plus nombreux, Considérant qu'il est nécessaire de moderniser les méthodes et les moyens d'enseignement des langues vivantes, compte tenu du développement des connaissances et de la technique, Considérant les nombreuses recommandations formulées sur l'enseignement des langues vivantes par divers organismes et notamment par la Conférence internationale de l'instruction publique dans la recommandation n° 11 qu'elle a adoptée en 1937, lors de sa sixième session, Considérant que, pour satisfaire des aspirations semblables, des pays différents les uns des autres doivent apporter des solutions différentes au problème de l'enseignement des langues vivantes à l'école secondaire, Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante : I. PLACE FAITE A L'ENSEIGNEMENT DES LANGUES VIVANTES 1. La place réservée à l'enseignement des langues vivantes dépend de la situation propre à chaque pays; il est recommandé cependant que l'étude d'une langue étrangère au moins figure au programme de toutes les classes de tous les types d'écoles secondaires. 2. Le choix de la première langue étrangère peut en général être imposé par des nécessités d'ordre culturel, géographique, ethnique, économique,  — 190 etc. ; lorsqu'une deuxième langue étrangère est enseignée, il serait souhaitable, chaque fois que les moyens le permettent, que les élèves aient la faculté de choisir entre plusieurs langues en fonction de leurs intérêts et de leurs besoins propres. 3. Il est recommandé que l'étude d'une deuxième langue étrangère ne commence que lorsque les structures linguistiques fondamentales de la première langue sont acquises. 4. L'étude des langues étrangères dans les écoles secondaires ne devant pas se borner à une initiation élémentaire, il est recommandé de lui consacrer suffisamment de temps dans l'horaire hebdomadaire. 5. L'efficacité de l'enseignement d'une langue étrangère étant surtout fonction de l'intérêt qu'y portent les élèves, il conviendrait de stimuler cet intérêt en accordant, entre autres, à l'épreuve de langues vivantes une place convenable aux différents examens de l'enseignement secondaire. 6. Lors de la différenciation qui s'institue de plus en plus au début du cycle supérieur des écoles secondaires, il est recommandé de créer des sections comprenant l'étude approfondie de plusieurs langues étrangères et délivrant des diplômes équivalents à ceux des autres sections. 7. Etant donné la facilité avec laquelle les jeunes enfants assimilent les langues et l'intérêt que cet apprentissage présente pour l'étude des langues étrangères dans les écoles secondaires, il conviendrait de favoriser les expériences qui tendent à permettre l'enseignement d'une langue étrangère avant le début des études secondaires, en prenant toutes les précautions nécessaires pour que l'apprentissage de cette langue ne compromette pas l'acquisition de la langue maternelle. II. BUTS, PROGRAMMES ET MÉTHODES caractères 8. Les buts de l'enseignement des langues vivantes sont à la fois de caractères formatif, éducatif et pratique; l'éducation intellectuelle que constitue l'apprentissage d'une langue ne doit pas se faire au détriment de l'utilisation pratique de cette langue; de même, les applications pratiques ne doivent pas empêcher l'étude approfondie de la langue dans ses particularités linguistiques. 9. L'enseignement des langues vivantes ne constitue pas une fin en soi; mais il doit servir, par ses aspects culturels et humains, à la formation de l'esprit et du caractère et contribuer à une meilleure compréhension internationale et à l'établissement d'une coopération pacifique et amicale entre les peuples. 10. Il en résulte qu'à côté de l'étude orale et écrite de la langue proprement dite, les programmes doivent faire une place non seulement à la littérature, mais à une information objective sur la civilisation des pays où cette langue est parlée, tout en tenant compte des possibilités intellectuelles et des intérêts des élèves.  — 191 — 11. Les instructions qui peuvent être données officiellement quant au choix des méthodes, des techniques et des manuels devraient, tout en orientant le travail des professeurs, laisser à ces derniers une marge suffisante de liberté et d'initiative, compatible avec les méthodes reconnues valables, qui permette d'améliorer progressivement les méthodes et les manuels pour l'enseignement des langues vivantes. 12. Les diverses méthodes actives, qui ont fait leurs preuves depuis longtemps, semblent convenir le mieux à l'acquisition d'une langue étrangère. Les nouvelles techniques d'enseignement des langues vivantes, de même que l'enseignement programmé, doivent faire l'objet d'études, de recherches et d'expériences afin d'assurer leur utilisation appropriée et efficace. 13. Ce qui importe avant tout, c'est que l'apprentissage de la langue parlée précède celui de la langue écrite et qu'une large part soit faite, dès le début, aux exercices d'audition, de prononciation et de conversation, en ayant recours le moins possible à la langue maternelle ou à la langue d'enseignement. 14. Il n'en demeure pas moins que la grammaire et la syntaxe, de même que l'orthographe, ne doivent pas être négligées; mais il faut s'efforcer de les enseigner de sorte que, loin de constituer une fin en soi, elles contribuent à développer l'usage correct de la langue étrangère, parlée et écrite. 15. L'importance de la recherche et des expériences en vue de déterminer les méthodes les plus efficaces et les modalités de l'enseignement des langues étrangères dans un système scolaire donné ne doit pas être sous-estimée; il faut tenir compte des caractéristiques particulières du milieu et de la langue maternelle des élèves. 16. Il est souhaitable, si les conditions le permettent, de diviser les classes de langues vivantes en groupes aussi restreints que possible. 17. Les activités de complément qui font appel à la participation active des élèves — jeux, chants, dramatisation, clubs de langues, etc. doivent être suffisamment nombreuses et variées pour contribuer à la consolidation et à l'enrichissement des connaissances acquises. 18. Il importe de mettre en œuvre tous les moyens pour faciliter et multiplier les voyages et les séjours d'élèves dans les pays où se parle la langue étudiée; ces séjours peuvent se faire à titre individuel ou être organisés collectivement sous forme d'échanges dirigés par des professeurs responsables, par des organisations de jeunesse, etc.; lorsque de tels voyages ou séjours s'avèrent impossibles, des camps de vacances devraient être organisés sur place avec la participation de ressortissants des pays où l'on parle la langue en question. 19. Les moyens audio-visuels qui se sont montrés particulièrement efficaces pour l'enseignement des langues vivantes devraient être mis à la disposition de tous les établissements du second degré; il serait de même souhaitable que des laboratoires de langues, spécialement conçus pour  192 l'enseignement secondaire, soient installés en nombre suffisant pour répondre aux besoins essentiels de chaque pays. 20. L'utilité de la radio, de la télévision et du cinéma comme compléments à l'enseignement systématique des langues vivantes mérite également d'être soulignée; il importe que les programmes et les horaires des émissions de radio et de télévision soient établis en étroite liaison avec ceux des établissements d'enseignement et que ces derniers puissent disposer des postes récepteurs nécessaires et du matériel visuel complémentaire; il convient toutefois de souligner que la radio, la télévision et le cinéma ne sauraient se substituer à l'enseignement du professeur. 21. Il importe que les manuels de langues vivantes reflètent la vie et la culture du pays des élèves et des pays dont ils apprennent la langue, qu'ils soient attrayants et illustrés de photos et de gravures, qu'ils se conforment à l'esprit des méthodes actives généralement préconisées, et qu'il soit tenu compte, lors de leur élaboration, des travaux accomplis dans le domaine de la linguistique. Dans certains pays où les élèves apprennent une langue étrangère en l'utilisant comme langue d'enseignement, il importe que les manuels adoptés à cette fin reflètent la culture du pays des élèves. 22. Il convient, notamment dans le cycle supérieur des écoles secondaires, d'attribuer une haute importance à la lecture des auteurs qui peuvent donner à l'enseignement des langues vivantes une grande valeur de culture générale, ne serait-ce qu'au moyen de commentaires non pas d'ordre grammatical mais de caractère interprétatif, culturel et esthétique. 23. Les bibliothèques scolaires devraient être pourvues de livres, revues et journaux en langues étrangères et de toute autre documentation (y compris la documentation audio-visuelle) pouvant contribuer à une meilleure connaissance des différents pays; à cet effet, il y aurait tout avantage à organiser, entre les écoles des divers pays intéressés, des échanges de documentation de tout genre. 24. Il importe d'accentuer et de développer, dans toute la mesure du possible, la coordination entre l'enseignement des langues vivantes et celui de la langue maternelle, de l'histoire, de la géographie, de l'histoire de l'art et de toute autre discipline pouvant avoir un rapport avec les langues étrangères. 25. L'expérience tentée dans quelques pays, aux fins d'enseigner un certain nombre de disciplines dans une langue étrangère déterminée, semble avoir donné de bons résultats; cette pratique pourrait éventuellement être étendue à d'autres pays et s'appliquer notamment dans les sections de langues modernes qui se créent dans les écoles secondaires ou dans certaines écoles spécialisées. 26. Il est indispensable que les programmes de langues vivantes fassent l'objet de révisions et d'adaptations périodiques pour tenir compte de l'évolution de la langue enseignée et des pays qui la parlent, ainsi que du développement des méthodes et des techniques modernes dont peuvent disposer les écoles et les professeurs.  — 193 — III. PERSONNEL ENSEIGNANT 27. Il est indispensable d'assurer aux futurs professeurs de langues vivantes une formation à la fois générale, linguistique et pédagogique, théorique et pratique, qui soit conforme aux progrès de la linguistique, de la pédagogie et des techniques modernes audio-visuelles. 28. Afin de développer la formation de professeurs de langues vivantes et d'augmenter le nombre des professeurs qualifiés, il est souhaitable d'avoir recours aux professeurs étrangers qui peuvent contribuer à la formation de professeurs nationaux qualifiés. 29. Il est important de faciliter et d'encourager pour tous les professeurs de langues les voyages, les séjours et les études à l'étranger et de prévoir à cet effet des bourses ainsi qu'un système d'échanges et de congés payés. 30. Le perfectionnement des professeurs doit porter aussi sur les aspects pédagogiques de leur enseignement; à cet égard, il est recommandé d'organiser des cours et des colloques nationaux et internationaux pour les tenir régulièrement au courant des nouvelles méthodes et techniques, ainsi que de publier des bulletins de liaison permettant de comparer leurs méthodes et de confronter les résultats obtenus. 31. Pour lutter contre la pénurie de professeurs de langues vivantes qui affecte un grand nombre de pays, il importe de mettre en œuvre tous les moyens propres à faciliter et à accélérer leur recrutement et leur formation; loin de s'en tenir aux seuls ressortissants du pays intéressé, il conviendrait à l'occasion d'engager du personnel appartenant aux pays dont il s'agit d'enseigner la langue. IV. COOPERATION INTERNATIONALE 32. Dans le cadre de l'action internationale, il est souhaitable d'enreprendre des études et des recherches comparées concernant l'enseignement des langues vivantes ainsi que le matériel didactique. Il conviendrait en particulier de recueillir, de comparer et de publier les résultats des expériences réalisées dans les différents pays par l'introduction de l'enseignement d'une langue étrangère avant le début des études secondaires. 33. Le recours à des assistants étrangers pour la pratique de la langue parlée semble présenter un double avantage; d'une part, il contribue à l'amélioration de la prononciation, de l'intonation et de la connaissance de la langue courante; d'autre part, il offre à ces assistants l'occasion de se familiariser avec le pays d'accueil et d'en pratiquer la langue. Il convient néanmoins que toutes les dispositions nécessaires soient prises pour que ces assistants soient préalablement informés de la tâche qui les attend et préparés à la remplir. 34. Il serait souhaitable que les gouvernements, les organisations internationales et d'autres institutions reconnues qui pourraient s'intéresser  — 194 à la chose, collaborent pour mettre sur pied un système international d'échange de professeurs, d'assistants et d'étudiants qui viendrait compléter et renforcer l'action déjà entreprise dans ce domaine. 35. Les pays qui manquent de moyens financiers et de personnel qualifié pour assurer l'organisation ou le développement de leur enseignement des langues vivantes devraient bénéficier d'une assistance technique qui pourrait revêtir la forme d'octroi de bourses d'étude et de recherche, d'aide matérielle, d'envoi d'experts, de cours donnés sur place, etc. 36. Pour développer diverses formes d'activités extrascolaires contribuant à la fois à perfectionner la connaissance d'une langue étrangère et celle de la vie et de la culture d'autres nations et à élever la jeunesse dans l'esprit de la compréhension internationale et du maintien de la paix, il est souhaitable: a) de développer le système des écoles associées de l'Unesco et des écoles dites jumelées; b) de développer la correspondance interscolaire entre élèves de différents pays; c) d'organiser des colonies, des camps de vacances et des excursions avec la participation de la jeunesse de différentes nations; d) d'assurer la collaboration de professeurs spécialisés et d'éducateurs à des camps dits linguistiques organisés pour les jeunes qui sont déjà avancés dans l'étude d'une langue étrangère. V. APPLICATION DE LA PRÉSENTE RECOMMANDATION 37. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des universités et instituts pédagogiques, des centres de documentation pédagogique, des fédérations internationales et nationales d'enseignement des langues vivantes, des associations de maîtres ou de parents, etc.; la presse pédagogique doit jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant, ainsi que du grand public. 38. Dans les pays où cela s'avèrerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré. 39. Les centres régionaux de l'Unesco et d'autres organisations régionales ou internationales de caractère éducatif et culturel sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région."
+  }
+}

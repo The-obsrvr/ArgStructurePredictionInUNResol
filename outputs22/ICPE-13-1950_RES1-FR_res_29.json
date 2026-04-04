@@ -6,9 +6,32 @@
     "structure": {
       "doc_title": "ICPE-13-1950_RES1-FR",
       "nb_paras": 21,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3
+      ],
+      "operative_para": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +43,7 @@
           "O_G",
           "LAW_INTER"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags O_G (General academic) and LAW_INTER (International conventions) are selected because the paragraph describes an international conference adopting a recommendation, which aligns with international frameworks (LAW_INTER) and academic education orientation (O_G). Related paragraphs: 2 (supporting) discusses teacher exchange as a key recommendation, 3 (supporting) emphasizes government participation, 4 (complemental) refers to submitting recommendations, 12 (complemental) links to expert recommendations, and 13/14 (supporting/complemental) detail specific programmatic recommendations.",
         "matched_pars": {
           "2": [
@@ -51,7 +74,7 @@
           "ACT_EDUC",
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags ACT_EDUC (teachers/educators) and POL_INTCOOP (international cooperation) directly align with the paragraph's focus on cross-border teacher exchanges. Related paragraphs: 3 (government participation in exchanges - supporting), 5 (promotion of exchange programs - supporting), 6 (specific exchange mechanisms - complemental), 7 (expanding exchange scope - complemental), 13 (recommendations to promote exchanges - supporting).",
         "matched_pars": {
           "3": [
@@ -79,7 +102,7 @@
           "POL_INTCOOP",
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags POL_INTCOOP and ACT_EDUC are selected because the paragraph emphasizes international cooperation (POL_INTCOOP) through missions and exchanges, and focuses on teachers/educators (ACT_EDUC). Related paragraphs 4-9 provide specific recommendations (complemental/supporting) that align with the target's call for government participation in international educational exchanges.",
         "matched_pars": {
           "4": [
@@ -110,7 +133,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_OTH (Policy theme) and SYST_OTHER (Education system monitoring & evaluation) are selected because the paragraph involves submitting policy recommendations to education ministries. Related paragraphs 5-7 elaborate on specific exchange program recommendations (supporting), while 12 and 13 provide contextual background/recommendations (complemental). Confidence scores reflect clear semantic connections to the target paragraph's focus on international education exchange policies.",
         "matched_pars": {
           "5": [
@@ -141,7 +164,7 @@
           "POL_INTCOOP",
           "ACT_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP (international cooperation) and ACT_OTHER (other stakeholders) are selected because the paragraph focuses on promoting exchange programs to governmental/private institutions and professional organizations. Related paragraphs (6,7,9,13,15,19) all address exchange programs, international education collaboration, or promotion strategies, making them complemental or supporting. Confidence scores reflect the strength of alignment with the target paragraph's focus on promotion and international cooperation.",
         "matched_pars": {
           "6": [
@@ -172,7 +195,7 @@
           "T_OTHER",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_OTHER (reciprocal exchange of educators) and CUR_IMPL (programs encouraging international cultural relations) are directly supported. Related paragraphs: 7 (complemental - expands exchange scope), 8 (modifying - specifies rights during assignments), 9 (complemental - institutional implementation), 13 (supporting - broader recommendations), 15 (modifying - monitoring mechanisms), 20 (complemental - recruitment possibilities).",
         "matched_pars": {
           "7": [
@@ -202,7 +225,7 @@
         "tags": [
           "T_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags: 'T_OTHER' is selected because the paragraph focuses on extending exchange programs to include all categories of teachers/professors. Related paragraphs: 8 (modifying - addresses retention issues for teachers abroad), 9 (complemental - expands on exchange implementation), 13 (complemental - broader recommendations for exchange promotion), 15 (supporting - enables monitoring of exchanges), 20 (complemental - recruitment possibilities for exchange personnel).",
         "matched_pars": {
           "8": [
@@ -229,7 +252,7 @@
         "tags": [
           "T_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph focuses on preserving teachers' legal status and rights during international assignments (T_STAT). Paragraph 9 complements this by addressing institutional barriers to exchanges. Paragraph 13 directly supports the broader initiative of promoting teacher exchanges. Paragraph 15 modifies by addressing challenges (including rights issues) through expert collaboration.",
         "matched_pars": {
           "9": [
@@ -251,7 +274,7 @@
           "T_OTHER",
           "LAW_REG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_OTHER and LAW_REG are selected because the paragraph focuses on teachers (T_OTHER) and legal/administrative obstacles (LAW_REG). Related paragraphs 13, 15, 20, 10, and 14 address complementary aspects (e.g., promoting exchanges, monitoring issues, recruitment, currency restrictions, and information services) that align with the target's goals of facilitating international teacher mobility.",
         "matched_pars": {
           "13": [
@@ -279,7 +302,7 @@
           "POL_INTCOOP",
           "POP_DISPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP (international cooperation) and POP_DISPL (migrants/refugees) are selected because the paragraph addresses exchange programs involving personnel abroad (international cooperation) and personnel on mission (displaced/migrant context). Related paragraphs 11 (financial support for exchanges) and 15 (monitoring exchange programs) are complemental as they address different aspects of enabling international exchange frameworks.",
         "matched_pars": {
           "11": [
@@ -298,7 +321,7 @@
           "POL_FIN",
           "INFRA_TRANS"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_FIN (Financing and resource mobilization) and INFRA_TRANS (Transport and boarding) are selected because the paragraph explicitly mentions financial assistance for transportation costs and other essential expenses. Related paragraphs: 12 (complemental - recommendations include financial aspects), 13 (supporting - promotes exchange programs that require funding), 15 (modifying - periodic meetings to address emerging needs), 16 (complemental - addresses needs of underdeveloped areas), 19 (complemental - publicizing needs), and 20 (complemental - recruitment possibilities for exchange programs).",
         "matched_pars": {
           "12": [
@@ -328,7 +351,7 @@
         "tags": [
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses recommendations for international educator exchanges, aligning with 'ACT_EDUC' (Stakeholder focus | Teachers and educators). Related paragraphs (13-15, 17-18) detail specific recommendations, making them 'supporting' relations. Paragraph 16 adds context about specialized teaching needs, hence 'complemental'.",
         "matched_pars": {
           "13": [
@@ -359,7 +382,7 @@
           "ACT_EDUC",
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (focus on educators) and POL_INTCOOP (international cooperation) are selected due to the emphasis on cross-border educational exchanges and collaborative initiatives. Related paragraphs provide complementary details (14,15,17,20) or modifying context (16) about information dissemination, monitoring mechanisms, and recruitment needs tied to the target paragraph's recommendations.",
         "matched_pars": {
           "14": [
@@ -387,7 +410,7 @@
           "SYST_OTHER",
           "O_G"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'SYST_OTHER' (Education system monitoring & evaluation | Other) and 'O_G' (Education orientation | General (academic)) are selected because the paragraph focuses on providing information about educational systems and academic qualifications, which aligns with system monitoring and general academic orientation. Related paragraphs (15, 18, 19, 20, 21) address exchange programs, needs communication, publicizing needs, recruitment possibilities, and direct recruitment, all of which are connected to the target paragraph's theme of information sharing and exchange mechanisms.",
         "matched_pars": {
           "15": [
@@ -415,7 +438,7 @@
           "ACT_OTHER",
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_OTHER (Stakeholder focus) and POL_INTCOOP (International cooperation) are selected because the paragraph emphasizes collaboration between experts and member states (stakeholders) and addresses cross-border exchange mechanisms (international cooperation). Relations: Para 18/19 complement the need-identification process in para 15; para 20 complements the study of recruitment methods; para 21 modifies the approach by specifying exceptional recruitment cases.",
         "matched_pars": {
           "18": [
@@ -439,7 +462,7 @@
         "tags": [
           "T_SUPP"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph highlights concerns about shortages of specialized teaching personnel from abroad, directly matching the 'Teacher supply and shortages' tag (T_SUPP). Related paragraphs (17-21) outline recruitment strategies to address this issue, forming a supporting/complementary relationship. Para 17 provides overarching recommendations, while others specify actionable steps, all aligning with the target's focus on teacher supply.",
         "matched_pars": {
           "17": [
@@ -467,7 +490,7 @@
           "T_RECR",
           "POL_GOV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_RECR (Recruitment and hiring) and POL_GOV (Governance and planning) are selected because the paragraph focuses on recruitment processes within organizational governance. All four related paragraphs (18-21) provide specific implementation steps for the recommendations in paragraph 17, establishing clear complemental relationships with high confidence as they directly expand on the general recommendation.",
         "matched_pars": {
           "18": [
@@ -492,7 +515,7 @@
           "ACT_OTHER",
           "Ownership/Provision"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'ACT_OTHER' (Stakeholder focus) applies because the paragraph involves engaging Member States as stakeholders. 'Ownership/Provision' applies as it relates to Member States' responsibility to communicate needs. Paragraph 19 is complemental as it expands on publicizing needs, which connects to the target's communication requirement.",
         "matched_pars": {
           "19": [
@@ -508,7 +531,7 @@
           "Stakeholder focus",
           "Policy theme"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses publicizing needs, which relates to engaging stakeholders (Stakeholder focus) and falls under broader policy actions (Policy theme). Paragraph 20 (recruitment possibilities) and 21 (direct recruitment) are complemental as they address related aspects of exchange personnel management, forming part of the same policy framework.",
         "matched_pars": {
           "20": [
@@ -526,7 +549,7 @@
         "tags": [
           "ACT_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag ACT_OTHER (Stakeholder focus | Other) applies because the paragraph discusses recruitment possibilities involving stakeholders (e.g., Member States). The relation to paragraph 21 is complemental: paragraph 20 outlines general exploration of recruitment options, while paragraph 21 specifies a particular recruitment method (direct recruitment under exceptional conditions), providing complementary details.",
         "matched_pars": {
           "21": [
@@ -541,7 +564,7 @@
         "tags": [
           "T_RECR"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses recruitment of exchange personnel (T_RECR) under specific conditions. No other paragraphs are provided for relation analysis.",
         "matched_pars": {},
         "para_en": "d) to undertake, in exceptional cases and upon special request, the direct recruitment of exchange personnel on behalf of the Member States. » 151"

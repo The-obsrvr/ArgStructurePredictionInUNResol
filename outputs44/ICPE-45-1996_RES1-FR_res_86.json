@@ -1,0 +1,331 @@
+{
+  "TEXT_ID": "ICPE-45-1996_RES1-FR_res_86",
+  "RECOMMENDATION": 86,
+  "TITLE": "LES NOUVELLES TECHNOLOGIES DE L'INFORMATION ET DE LA COMMUNICATION: AU SERVICE DE L’AMELIORATION DE LA QUALITE DE L'ENSEIGNEMENT POUR TOUS",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-45-1996_RES1-FR",
+      "nb_paras": 12,
+      "preambular_para": [],
+      "operative_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French document to distinguish between preambular and operative paragraphs based on specific rules. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs in French typically start with certain phrases like \"Considérant\", \"Rappelant\", etc., provide context, and don't contain actions. Operative paragraphs have actions, recommendations, or directives, often starting with verbs like \"Décide\", \"Demande\", and might be numbered.\n\nLooking at the input, all the paragraphs are numbered with 6.1, 6.1.1, etc. The user mentioned that numbered paragraphs (like 1., I., II.) are considered operative. Also, once the first operative paragraph is encountered, all subsequent ones are operative. \n\nNow, checking each paragraph:\n\n1. Paragraph 6.1 starts with \"Les nouvelles technologies...\" which doesn't match any preambular markers. It seems to be stating a fact, not a context or background. But wait, the user's note says that numbered paragraphs are operative. So 6.1 is operative. But wait, the user's note says that numbered paragraphs (like 1., I., II.) are operative. Here, the numbering is 6.1, 6.1.1, etc. So maybe the main numbered sections (like 6.1) are operative, and their subpoints (like 6.1.1) are also operative. But the user's note says that once the first operative is found, all following are operative. However, the initial instruction says to apply one consistent rule. \n\nWait, the user's note says: \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative.\" But in the input, the paragraphs are numbered as 6.1, 6.1.1, etc. So maybe the main numbered sections (like 6.1) are operative, and their subpoints (like 6.1.1) are also operative. But the user's note might be referring to the structure where the first numbered paragraph is operative, and all after are. However, in the input, all paragraphs are under section 6, which might be part of a larger document. \n\nBut according to the user's note, numbered paragraphs (like 1., I., II.) are operative. Here, the paragraphs are numbered as 6.1, 6.1.1, etc. So perhaps the main numbered sections (like 6.1) are operative, and their subpoints (like 6.1.1) are also operative. However, the user's note says that once the first operative is found, all following are. But in this case, all paragraphs are numbered, so they might all be operative. But that can't be right because some might be preambular. \n\nWait, looking at the actual content. Let's check each paragraph:\n\nParagraph 6.1: \"Les nouvelles technologies de l’information et de la communication constituent l’un des éléments centraux de ce mond\" – this seems to be a statement of fact, not a context or background. It doesn't start with any preambular markers. But since it's numbered, according to the user's note, it's operative. \n\nParagraph 6.1.1: \"En outre, il faut prendre en compte le fait que l'informatisation de l’éducation est l’un des moyens les plus impo\" – starts with \"En outre\" which is a discourse marker indicating addition. But it's still part of the same section. Since it's numbered, it's operative. \n\nParagraph 6.2: \"Panacée et menace sont les deux termes extrêmes qui, le plus fréquemment, polarisent le débat sur les nouvelles tech\" – this is a statement, not starting with preambular markers. Numbered, so operative. \n\nParagraph 6.3: \"Dans ce contexte, les décisions concernant l’application des nouvelles technologies de l’information et leur utilisa\" – starts with \"Dans ce contexte\" which is a preambular marker? Wait, the definitions say preambular may start with \"Considérant\", \"Rappelant\", etc. \"Dans ce contexte\" is more of a transition, not a preambular marker. So this might be operative. \n\nParagraph 6.4: \"Sur cette base, les mesures à adopter pourraient avoir trait aux aspects suivants :\" – starts with \"Sur cette base\" which is a transition. But the paragraph is numbered, so operative. \n\nParagraphs 6.4.1 to 6.4.7: All start with verbs like \"ne pas limiter\", \"dans le cadre\", \"utiliser\", \"mettre en oeuvre\", \"encourager\", \"intensifier\", \"développer\". These are actions, so operative. \n\nWait, but according to the user's note, numbered paragraphs are operative. So all the numbered paragraphs (6.1, 6.1.1, etc.) are operative. But the user's note also says that once the first operative is found, all following are. However, in this case, all are numbered, so they are all operative. But that would mean there are no preambular paragraphs. But the user's definitions say that preambular paragraphs may start with certain markers. However, in the input, none of the paragraphs start with those markers. \n\nWait, looking again: the first paragraph (6.1) starts with a statement, not a preambular marker. The user's note says that numbered paragraphs are operative. So all the numbered paragraphs here are operative. Therefore, there are no preambular paragraphs. But the user's definitions mention that preambular paragraphs may start with certain markers, but in this input, none of the paragraphs do. \n\nBut the user's note says that numbered paragraphs are operative. So all the paragraphs here are operative. Therefore, the preambular_para list is empty, and operative_para includes all. \n\nBut wait, the user's note says \"usually after first operative → all following are operative\". So if the first paragraph is operative, then all are. But in this case, all are numbered, so they are all operative. \n\nTherefore, the answer would be that all paragraphs are operative, and there are no preambular ones. But the user's definitions mention that preambular paragraphs may start with certain markers, but none of the input paragraphs do. \n\nSo the final answer is that all paragraphs are operative, and the preambular list is empty. But the user's note says to apply one consistent rule. The rule here is that numbered paragraphs are operative, and since all are numbered, they are all operative. Hence, the JSON would have preambular_para as empty and operative_para as all numbers from 1 to 12."
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "6.1 Les nouvelles technologies de l’information et de la communication constituent l’un des éléments centraux de ce monde en mutation. Le rapport de la Commission internationale sur l'éducation pour le XXIe siècle montre clairement les enjeux de l’impact des nouvelles technologies : \"En abolissant la distance, elles concourent puissamment à façonner les sociétés de demain, qui ne répondront, à cause d’elles, à aucun modèle du passé... Les informations les plus précises et les plus actuelles peuvent être mises à la disposition de n’importe qui à la surface du globe\" (mais) \"II ne faut pas oublier cependant qu’une population défavorisée encore très nombreuse demeure exclue de cette évolution.",
+        "tags": [
+          "CCUT_DIGIT",
+          "POP_POOR"
+        ],
+        "type": "operative",
+        "think": "Tags CCUT_DIGIT (Digital and ICT literacy) and POP_POOR (Low-income and disadvantaged groups) are selected because the paragraph explicitly discusses the role of ICT in education and highlights the exclusion of disadvantaged populations. Related paragraphs are identified based on thematic alignment: para 2 (supporting) expands on ICT's role in education paradigms; para 3 (complemental) addresses polarized views on ICT; para 4 (complemental) focuses on quality improvements; para 7 (supporting) emphasizes teacher training; para 8 (complemental) covers communication applications; para 12 (complemental) discusses research needs.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.1 The new information and communication technologies are one of the central elements of this changing world. The report of the International Commission on Education for the Twenty-first Century clearly highlights the stakes of the impact of new technologies: \"By abolishing distance, they powerfully contribute to shaping the societies of tomorrow, which will not conform, because of them, to any model of the past... The most precise and up-to-date information can be made available to anyone on the surface of the globe\" (but) \"It must not be forgotten, however, that a still very large disadvantaged population remains excluded from this evolution."
+      },
+      {
+        "para_number": 2,
+        "para": "6.1.1 En outre, il faut prendre en compte le fait que l'informatisation de l’éducation est l’un des moyens les plus importants de la réalisation d’un nouveau paradigme éducatif, dans le cadre duquel s’opère la révision des orientations : des objectifs 25 pragmatiques de spécialisation étroite, on passe à l’acquisition des connaissances fondamentales interdisciplinaires. Ce nouveau paradigme doit augmenter considérablement la valeur sociale de l’éducation en permettant un renouvellement de son contenu.",
+        "tags": [
+          "CUR_EVAL",
+          "CUR_IMPL",
+          "nan"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_EVAL and CUR_IMPL are selected because the paragraph discusses curriculum reform (revising educational orientations) and implementation of a new paradigm. 'nan' (Education orientation) is included due to the shift from narrow specialization to interdisciplinary knowledge. Related paragraphs: 3 (complemental - discusses technology debates), 4 (supporting - aligns with improving education quality), 7 (supporting - teacher training for curriculum reform), 12 (supporting - research on tech impact).",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "12": [
+            "supporting"
+          ]
+        },
+        "para_en": "6.1.1 Furthermore, it is necessary to take into account the fact that the computerization of education is one of the most important means of achieving a new educational paradigm, within which the orientations are being revised: from pragmatic objectives of narrow specialization, there is a shift towards the acquisition of fundamental interdisciplinary knowledge. This new paradigm must significantly enhance the social value of education by enabling a renewal of its content."
+      },
+      {
+        "para_number": 3,
+        "para": "6.2 Panacée et menace sont les deux termes extrêmes qui, le plus fréquemment, polarisent le débat sur les nouvelles technologies de l’information et l’éducation. Le fondement de ces deux attitudes est la méconnaissance du potentiel pédagogique réel des nouvelles technologies et des formes les plus appropriées de leur utilisation. Il faut en conséquence que le système éducatif apprenne à les maîtriser pour éviter tout asservissement technologique, culturel et économique, ainsi que toute marginalisation de l'’école par rapport aux autres secteurs.",
+        "tags": [
+          "PEDAG_TECH",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_TECH and POL_CUR are selected because the paragraph focuses on technology's pedagogical potential (PEDAG_TECH) and systemic policy measures to integrate technology (POL_CUR). Relations are established with paragraphs that elaborate on implementing technology in education (4,7,9,12) and provide specific use cases (6).",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "12": [
+            "supporting"
+          ]
+        },
+        "para_en": "6.2 Panacea and threat are the two extreme terms that most frequently polarize the debate on new information technologies and education. The basis of these two attitudes is a lack of understanding of the real pedagogical potential of new technologies and the most appropriate forms of their use. Consequently, the educational system must learn to master them in order to avoid any technological, cultural, and economic enslavement, as well as any marginalization of the school in relation to other sectors."
+      },
+      {
+        "para_number": 4,
+        "para": "6.3 Dans ce contexte, les décisions concernant l’application des nouvelles technologies de l’information et leur utilisation pour l’éducation devraient être prises dans le but d’améliorer la qualité de l’éducation pour tous et de permettre aux enseignants d’exercer leur rôle de guide et de promoteur de l’apprentissage chez les élèves.",
+        "tags": [
+          "PEDAG_TECH",
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_TECH and POL_QUAL are selected because the paragraph focuses on technology-supported pedagogy (PEDAG_TECH) and improving education quality (POL_QUAL). Related paragraphs provide supporting/modifying/complemental details: 5 (complemental) expands on the framework, 6 (modifying) specifies tech application beyond learning, 7 (supporting) addresses teacher training, 8 (complemental) adds communication use cases, 9 (supporting) discusses implementation mechanisms, and 11 (complemental) highlights collaborative efforts.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "modifying"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "11": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.3 In this context, decisions regarding the application of new information technologies and their use in education should be made with the aim of improving the quality of education for all and enabling teachers to fulfill their role as guides and promoters of learning among students."
+      },
+      {
+        "para_number": 5,
+        "para": "6.4 Sur cette base, les mesures à adopter pourraient avoir trait aux aspects suivants :",
+        "tags": [
+          "POL_OTH",
+          "ACT_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph introduces measures related to new information technologies in education, aligning with 'Policy theme' (POL_OTH) as it outlines overarching policy aspects. 'Stakeholder focus' (ACT_OTHER) applies due to mentions of teachers, students, governments, and communities. All subsequent paragraphs (6-11) provide specific implementations of these measures, establishing complemental relationships with high confidence as they expand on the introduction with concrete examples.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.4 On this basis, the measures to be adopted could relate to the following aspects:"
+      },
+      {
+        "para_number": 6,
+        "para": "6.4.1 ne pas limiter exclusivement l’application des nouvelles technologies de l’information au processus d’apprentissage. L’utilisation de ces technologies dans l’administration et la gestion de l’école et de la communauté locale peut faire gagner du temps aux enseignants et aux autres cadres de l’éducation, accroître leur efficacité et leur permettre de se consacrer davantage à la solution des difficultés d'apprentissage des élèves ;",
+        "tags": [
+          "PEDAG_TECH",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_TECH and T_OTHER are selected because the paragraph emphasizes technology-supported pedagogy (PEDAG_TECH) and teacher efficiency (T_OTHER). Related paragraphs (7-12) provide complementary details on teacher training, communication, resource centers, access for developing countries, collaborative efforts, and research, all aligning with the target paragraph's focus on technology integration in education.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.4.1 not to limit exclusively the application of new information technologies to the learning process. The use of these technologies in the administration and management of the school and the local community can save time for teachers and other education officials, increase their efficiency, and allow them to focus more on solving students' learning difficulties;"
+      },
+      {
+        "para_number": 7,
+        "para": "6.4.2 dans le cadre de leur éducation et formation initiales et de leur développement professionnel tout au long de leur carrière, permettre aux enseignants non seulement d’acquérir la maîtrise des nouvelles technologies de l’information à des fins pédagogiques, en les combinant avec les autres technologies éducatives, mais aussi de contribuer à l'élaboration de méthodes et de programmes informatiques éducatifs. Une attention particulière doit être accordée à l’enseignement à distance dans le cadre de la professionnalisation des enseignants ;",
+        "tags": [
+          "T_PDEV",
+          "T_INI",
+          "PEDAG_TECH"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV and T_INI are directly mentioned in the text about professional development and initial education. PEDAG_TECH is relevant due to the focus on technology integration in pedagogy. Para 8 (complemental) expands on tech use for collaboration, para 9 (supporting) provides implementation infrastructure, para 10 (complemental) addresses global access, para 11 (complemental) emphasizes stakeholder collaboration, and para 12 (supporting) relates to research on tech impact.",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "supporting"
+          ]
+        },
+        "para_en": "6.4.2 Within the framework of their initial education and training and their professional development throughout their careers, enable teachers not only to acquire mastery of new information technologies for pedagogical purposes, combining them with other educational technologies, but also to contribute to the development of educational software methods and programs. Special attention should be given to distance learning as part of the professionalization of teachers."
+      },
+      {
+        "para_number": 8,
+        "para": "6.4.3 utiliser les nouvelles technologies dans le but de faciliter la communication, les réseaux et les programmes d’échanges entre enseignants, élèves, écoles, tant sur le plan national qu'international;",
+        "tags": [
+          "Teachers",
+          "Cross-cutting themes & skills"
+        ],
+        "type": "operative",
+        "think": "Tags 'Teachers' is directly mentioned in the paragraph. 'Cross-cutting themes & skills' applies because technology integration is a cross-cutting theme. Para 9 provides infrastructure support for tech use (supporting, 0.7). Para 11 aligns with ensuring tech availability (supporting, 0.9). Para 12 complements with research on tech impact (complemental, 0.7).",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "12": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.4.3 use new technologies to facilitate communication, networking, and exchange programs among teachers, students, and schools, both nationally and internationally;"
+      },
+      {
+        "para_number": 9,
+        "para": "6.4.4 mettre en oeuvre des modalités d’utilisation des nouvelles technologies axées sur l’idée de centres de ressources technologiques au service de tous et leur attribuer des fonds publics suffisants. Utiliser le potentiel de ces technologies pour créer des services aisément accessibles destinés à aider et conseiller les enseignants dans leur vie professionnelle quotidienne ;",
+        "tags": [
+          "PEDAG_TECH",
+          "INFRA_TLM",
+          "ACT_EDUC",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags selected based on content: PEDAG_TECH (technology in pedagogy), INFRA_TLM (resource centers as infrastructure), ACT_EDUC (focus on teachers), and T_PDEV (professional development via accessible services). Relations: Para 10 (complemental) addresses similar tech education goals for developing countries; Para 11 (complemental) expands on collaborative tech availability; Para 12 (supporting) provides research foundation for tech implementation.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "supporting"
+          ]
+        },
+        "para_en": "6.4.4 implement modalities for the use of new technologies based on the concept of technology resource centers serving everyone and allocate sufficient public funding to them. Utilize the potential of these technologies to create easily accessible services designed to assist and advise teachers in their daily professional lives;"
+      },
+      {
+        "para_number": 10,
+        "para": "6.4.5 encourager et aider les pays les moins avancés à acquérir et à utiliser efficacement les nouvelles technologies de l’information dans leurs systèmes éducatifs ;",
+        "tags": [
+          "PEDAG_TECH",
+          "POP_POOR"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_TECH (technology-supported pedagogy) and POP_POOR (low-income groups) are selected because the paragraph focuses on enabling least developed countries (a disadvantaged group) to adopt information technologies in education. For relations: Para 11 complements by expanding on collaborative efforts to make technologies available, while Para 12 supports by addressing research into technology's role in education.",
+        "matched_pars": {
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "supporting"
+          ]
+        },
+        "para_en": "6.4.5 encourage and assist the least developed countries in acquiring and effectively using new information technologies in their education systems;"
+      },
+      {
+        "para_number": 11,
+        "para": "6.4.6 intensifier les efforts conjoints des gouvernements, des responsables de l'éducation, des enseignants et des associations d’enseignants, des entreprises et de l’industrie pour faire en sorte que les nouvelles technologies adaptées soient disponibles à tous les niveaux de l'enseignement ;",
+        "tags": [
+          "ISC_99",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_99 (Education level | Multiple levels) matches 'all levels of education' in the text. ACT_EDUC (Stakeholder focus | Teachers and educators) covers governments, education authorities, teachers, and associations. Paragraph 12 discusses research on ICT impact, which complements the target paragraph's focus on technology availability in education.",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ]
+        },
+        "para_en": "6.4.6 Intensify joint efforts by governments, education authorities, teachers and teachers' associations, businesses, and industry to ensure that appropriate new technologies are available at all levels of education;"
+      },
+      {
+        "para_number": 12,
+        "para": "6.4.7 développer la recherche et l’échange des informations sur l’impact, le rôle et les limites des nouvelles technologies de l’information et de la communication dans l'éducation.",
+        "tags": [
+          "SYST_RESEAR"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on developing research and exchanging information about the impact of ICT in education, which directly aligns with the 'Research and surveys' tag (SYST_RESEAR). No other paragraphs are available for relation analysis.",
+        "matched_pars": {},
+        "para_en": "6.4.7 Develop research and the exchange of information on the impact, role, and limitations of new information and communication technologies in education."
+      }
+    ],
+    "body_raw": "6.1 Les nouvelles technologies de l’information et de la communication constituent l’un des éléments centraux de ce monde en mutation. Le rapport de la Commission internationale sur l'éducation pour le XXIe siècle montre clairement les enjeux de l’impact des nouvelles technologies : \"En abolissant la distance, elles concourent puissamment à façonner les sociétés de demain, qui ne répondront, à cause d’elles, à aucun modèle du passé... Les informations les plus précises et les plus actuelles peuvent être mises à la disposition de n’importe qui à la surface du globe\" (mais) \"II ne faut pas oublier cependant qu’une population défavorisée encore très nombreuse demeure exclue de cette évolution. 6.1.1 En outre, il faut prendre en compte le fait que l'informatisation de l’éducation est l’un des moyens les plus importants de la réalisation d’un nouveau paradigme éducatif, dans le cadre duquel s’opère la révision des orientations : des objectifs 25 pragmatiques de spécialisation étroite, on passe à l’acquisition des connaissances fondamentales interdisciplinaires. Ce nouveau paradigme doit augmenter considérablement la valeur sociale de l’éducation en permettant un renouvellement de son contenu. 6.2 Panacée et menace sont les deux termes extrêmes qui, le plus fréquemment, polarisent le débat sur les nouvelles technologies de l’information et l’éducation. Le fondement de ces deux attitudes est la méconnaissance du potentiel pédagogique réel des nouvelles technologies et des formes les plus appropriées de leur utilisation. Il faut en conséquence que le système éducatif apprenne à les maîtriser pour éviter tout asservissement technologique, culturel et économique, ainsi que toute marginalisation de l'’école par rapport aux autres secteurs. 6.3 Dans ce contexte, les décisions concernant l’application des nouvelles technologies de l’information et leur utilisation pour l’éducation devraient être prises dans le but d’améliorer la qualité de l’éducation pour tous et de permettre aux enseignants d’exercer leur rôle de guide et de promoteur de l’apprentissage chez les élèves. 6.4 Sur cette base, les mesures à adopter pourraient avoir trait aux aspects suivants : 6.4.1 ne pas limiter exclusivement l’application des nouvelles technologies de l’information au processus d’apprentissage. L’utilisation de ces technologies dans l’administration et la gestion de l’école et de la communauté locale peut faire gagner du temps aux enseignants et aux autres cadres de l’éducation, accroître leur efficacité et leur permettre de se consacrer davantage à la solution des difficultés d'apprentissage des élèves ; 6.4.2 dans le cadre de leur éducation et formation initiales et de leur développement professionnel tout au long de leur carrière, permettre aux enseignants non seulement d’acquérir la maîtrise des nouvelles technologies de l’information à des fins pédagogiques, en les combinant avec les autres technologies éducatives, mais aussi de contribuer à l'élaboration de méthodes et de programmes informatiques éducatifs. Une attention particulière doit être accordée à l’enseignement à distance dans le cadre de la professionnalisation des enseignants ; 6.4.3 utiliser les nouvelles technologies dans le but de faciliter la communication, les réseaux et les programmes d’échanges entre enseignants, élèves, écoles, tant sur le plan national qu'international; 6.4.4 mettre en oeuvre des modalités d’utilisation des nouvelles technologies axées sur l’idée de centres de ressources technologiques au service de tous et leur attribuer des fonds publics suffisants. Utiliser le potentiel de ces technologies pour créer des services aisément accessibles destinés à aider et conseiller les enseignants dans leur vie professionnelle quotidienne ; 6.4.5 encourager et aider les pays les moins avancés à acquérir et à utiliser efficacement les nouvelles technologies de l’information dans leurs systèmes éducatifs ; 6.4.6 intensifier les efforts conjoints des gouvernements, des responsables de l'éducation, des enseignants et des associations d’enseignants, des entreprises et de l’industrie pour faire en sorte que les nouvelles technologies adaptées soient disponibles à tous les niveaux de l'enseignement ; -266.4.7 développer la recherche et l’échange des informations sur l’impact, le rôle et les limites des nouvelles technologies de l’information et de la communication dans l'éducation."
+  }
+}

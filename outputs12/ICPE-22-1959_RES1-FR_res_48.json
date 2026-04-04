@@ -1,0 +1,1359 @@
+{
+  "TEXT_ID": "ICPE-22-1959_RES1-FR_res_48",
+  "RECOMMENDATION": 48,
+  "TITLE": "LES MANUELS SCOLAIRES AU NIVEAU PRIMAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-22-1959_RES1-FR",
+      "nb_paras": 56,
+      "preambular_para": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "operative_para": [
+        1,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a UN resolution document in French and distinguish between preambular and operative paragraphs based on specific criteria. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs start with certain phrases like \"Considérant\", \"Rappelant\", etc., provide context, and don't have actions. Operative ones have actions like \"Décide\", \"Demande\", and are more directive.\n\nLooking at the input, the first paragraph (1) seems to be a title or introduction, maybe not part of the actual resolution. Then paragraphs 2-8 start with \"Considérant\", which is a preambular cue. But paragraph 9 starts with \"Soumet\", which is an action, so that's operative. \n\nThe user mentioned that after the first operative paragraph, all following are operative. So once paragraph 9 is operative, everything after that should be operative. However, some paragraphs after 9 start with \"Etant donné\" which is similar to preambular cues. Wait, but the rules say that numbered paragraphs (like 1., I., II.) are operative. Looking at the input, paragraphs 10-14 are numbered as 1. to 5., which are operative. Then 18-22, 27-38, etc., have similar numbering. \n\nWait, the user's important note says that numbered paragraphs (like 1., I., II.) are operative. So any paragraph that's numbered (like 10.1, 10.2, etc.) is operative. Also, after the first operative paragraph (which is 9), all subsequent ones are operative. \n\nSo the preambular paragraphs are 2-8, since they start with \"Considérant\". Then paragraph 9 is the first operative. Then all numbered paragraphs (10-56) are operative. But need to check if any of the numbered ones start with preambular cues. For example, paragraph 10 starts with \"Etant donné\", which is similar to \"Considérant\", but according to the rules, numbered paragraphs are operative regardless. So even if they start with similar phrases, they are still operative. \n\nTherefore, the preambular are 2-8, and operative are 1,9-56. Wait, but paragraph 1 is the title, maybe not part of the actual resolution. The user's input includes paragraph 1 as part of the document. But according to the rules, every paragraph must be classified. So paragraph 1: it starts with \"La Conférence internationale...\" which doesn't fit preambular cues. It's a title, but the user's definitions don't mention titles. Since the user says to apply one consistent rule, and the first operative is 9, then all after are operative. But paragraph 1 is before 9. So maybe paragraph 1 is preambular? Wait, the first paragraph (1) is the title, but the user's input includes it. The user's definitions don't mention titles, so perhaps it's considered preambular? Or maybe it's part of the operative? \n\nWait, the user's important note says that numbered paragraphs (like 1., I., II.) are operative. But paragraph 1 is not numbered. So maybe it's preambular. But the user's input has paragraph 1 as the first entry. Let me check the input again. The first paragraph is 1. La Conférence internationale... which is the title. Then paragraphs 2-8 start with \"Considérant\", which are preambular. Then paragraph 9 starts with \"Soumet\" which is operative. Then paragraphs 10-56 are numbered (like 10.1, etc.), which are operative. So the preambular are 2-8, and operative are 1,9-56. But the user's definitions say that preambular paragraphs may start with \"Considérant\", etc., and operative have actions. So paragraph 1 is a title, not part of the actual resolution. But the user's input includes it. So according to the rules, every paragraph must be classified. So paragraph 1 is not starting with a preambular cue, but it's the title. However, the user's definitions don't mention titles. So perhaps it's considered preambular? Or maybe it's part of the operative? \n\nAlternatively, since the first operative is paragraph 9, and all after are operative, but paragraph 1 is before that. So maybe paragraph 1 is preambular. But the user's definitions don't mention titles. However, the user's important note says that numbered paragraphs (like 1., I., II.) are operative. But paragraph 1 is not numbered. So perhaps it's preambular. \n\nBut the user's input has paragraph 1 as the first entry. So according to the rules, the first operative is 9, and all after are operative. So paragraphs 1-8: 2-8 are preambular, 1 is preambular? Or is paragraph 1 considered part of the operative? \n\nWait, the user's important note says: \"Numbered paragraphs (1., I., II.) → operative\". So if a paragraph is numbered (like 1., I., II.), it's operative. But paragraph 1 is not numbered. So it's not. So paragraph 1 is not numbered, so it's not operative. But according to the user's definitions, preambular paragraphs may start with \"Considérant\", etc. But paragraph 1 doesn't. So it's not preambular. But the user's rules say that every paragraph must be classified. So perhaps paragraph 1 is preambular? Or maybe it's part of the operative? \n\nThis is confusing. Let me recheck the input. The first paragraph is 1. La Conférence internationale... which is the title. Then paragraphs 2-8 start with \"Considérant\", which are preambular. Then paragraph 9 starts with \"Soumet\" which is operative. Then paragraphs 10-56 are numbered (like 10.1, etc.), which are operative. So the preambular are 2-8, and operative are 9-56. But what about paragraph 1? It's not numbered, and doesn't start with a preambular cue. So according to the rules, it's not preambular. But the user's definitions don't mention titles. So perhaps it's considered preambular? Or maybe it's part of the operative? \n\nAlternatively, since the first operative is 9, and all after are operative, but paragraph 1 is before that. So maybe paragraph 1 is preambular. But the user's definitions don't mention titles. However, the user's important note says that numbered paragraphs are operative. So paragraph 1 is not numbered, so it's not operative. Therefore, it must be preambular. But the user's definitions don't mention titles. So perhaps the answer is that preambular are 2-8 and 1, and operative are 9-56. But the user's definitions say that preambular paragraphs may start with \"Considérant\", etc. So paragraph 1 doesn't start with that. So maybe it's not preambular. \n\nThis is tricky. But according to the user's instructions, the first operative is 9, and all following are operative. So paragraphs 1-8: 2-8 are preambular, 1 is not. But how to classify 1? Since it's not numbered and doesn't start with preambular cues, but the user's rules require all paragraphs to be classified. So perhaps it's preambular? Or maybe it's part of the operative? \n\nAlternatively, maybe the user considers that the first paragraph (1) is part of the preambular because it's the title. But the user's definitions don't mention titles. So perhaps the answer is that preambular are 2-8, and operative are 1,9-56. But that would mean paragraph 1 is operative. But it doesn't have an action. \n\nAlternatively, maybe the user considers that the first paragraph is preambular. But the user's definitions don't mention titles. \n\nThis is a bit ambiguous, but given the user's instructions, the key is to apply the rule that numbered paragraphs are operative. Since paragraph 1 is not numbered, it's not operative. So it must be preambular. But the user's definitions don't mention titles. So perhaps the answer is that preambular are 1,2-8, and operative are 9-56. \n\nBut the user's definitions say that preambular paragraphs may start with \"Considérant\", etc. So paragraph 1 doesn't start with that. So maybe it's not preambular. \n\nThis is confusing. But given the user's instructions, the main rule is that numbered paragraphs are operative. So paragraphs 10-56 are numbered and thus operative. Paragraph 9 is the first operative. So paragraphs 1-8: 2-8 are preambular, 1 is not. But how to classify 1? \n\nAlternatively, maybe the user considers that the first paragraph is part of the preambular. But without clear cues, it's hard. \n\nIn the end, the user's important note says that after the first operative (which is 9), all following are operative. So paragraphs 1-8: 2-8 are preambular, 1 is not. But since the user requires all paragraphs to be classified, and the first operative is 9, then paragraph 1 is preambular. \n\nSo the final answer would be preambular: 2-8, and operative: 1,9-56. But I need to check if that's correct. \n\nWait, the user's input has paragraph 1 as the first entry. The first operative is 9. So paragraphs 1-8: 2-8 are preambular, 1 is not. But how to classify 1? Since it's not numbered and doesn't start with preambular cues, but the user's rules require all to be classified. So maybe it's preambular. \n\nAlternatively, maybe the user considers that the first paragraph is part of the operative. But that doesn't fit. \n\nThis is a bit of a dilemma, but given the user's instructions, the answer is that preambular are 2-8, and operative are 1,9-56. But I need to make sure. \n\nAlternatively, maybe the user considers that the first paragraph is preambular. So the answer is preambular: 1,2-8, operative:9-56. \n\nBut the user's definitions don't mention titles. So perhaps the answer is preambular: 2-8, operative:1,9-56. \n\nBut the user's important note says that numbered paragraphs are operative. So paragraph 1 is not numbered, so it's not operative. Therefore, it must be preambular. \n\nSo the final answer is preambular: 1,2-8, operative:9-56. \n\nBut the user's definitions say that preambular paragraphs may start with \"Considérant\", etc. So paragraph 1 doesn't start with that. So maybe it's not preambular. \n\nThis is really tricky. But given the user's instructions, the key is to apply the rule that numbered paragraphs are operative. So paragraphs 10-56 are numbered and thus operative. Paragraph 9 is the first operative. So paragraphs 1-8: 2-8 are preambular, 1 is not. But how to classify 1? \n\nSince the user requires all paragraphs to be classified, and the first operative is 9, then paragraph 1 is preambular. \n\nSo the answer is preambular: 1,2-8, operative:9-56. \n\nBut I'm not entirely sure. However, based on the user's instructions, this seems to be the correct approach."
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le six juillet mil neuf cent cinquante-neuf en sa vingt-deuxième session, adopte le quinze juillet mil neuf cent cinquante-neuf la recommandation suivante : La Conférence, [INCOMPLETE]",
+        "tags": [
+          "CUR_IMPL",
+          "M_FORM"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and M_FORM are selected because the paragraph discusses curriculum implementation (textbooks in primary schools) and formal education (structured schooling). Related paragraphs address textbook accessibility (2), teacher tools (3), recommendation submission (9), international textbook cooperation (49/53), and technical assistance for textbooks (56), all directly tied to the target's focus on educational materials and formal systems.",
+        "matched_pars": {
+          "2": [
+            "complemental"
+          ],
+          "3": [
+            "complemental"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Instruction, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and by the International Bureau of Education, and having met there on the sixth of July nineteen hundred and fifty-nine in its twenty-second session, adopts on the fifteenth of July nineteen hundred and fifty-nine the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant qu'il est capital, tant du point de vue social que du point de vue pédagogique, qu'aucun élève ne soit privé de la possibilité de disposer des manuels en usage dans chacune des classes de l'école primaire,",
+        "tags": [
+          "POL_EQUIT",
+          "POL_CUR"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_EQUIT (access equity) and POL_CUR (curriculum policies) are selected because the paragraph emphasizes equitable access to textbooks (social equity) and pedagogical importance (curriculum). Related paragraphs: 3 (supports pedagogical role of textbooks), 4 (complements access necessity in challenging conditions), 11 (supports quality standards for textbooks), 19 (complements prioritization of textbook production). Confidence scores reflect strong semantic connections.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that it is essential, both from a social and pedagogical standpoint, that no pupil should be deprived of the opportunity to have access to the textbooks used in each grade of the primary school,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que, si dans la classe le rôle capital est incontestablement dévolu au maître, le manuel scolaire demeure pour celui-ci l'un des auxiliaires capables de favoriser un enseignement vivant,",
+        "tags": [
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "The paragraph emphasizes the teacher's role and the textbook as a dynamic teaching tool. 'ACT_EDUC' (Stakeholder focus on Teachers and educators) is selected as it directly aligns with the teacher-centric focus. Related paragraphs: 4 (supports the textbook's indispensable role in challenging conditions), 6 (complements by highlighting moral education via textbooks), 15 (complements by linking teacher involvement in textbook creation), and 41 (supports by reinforcing the textbook as a teacher aid). Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, although the primary role in the classroom unquestionably belongs to the teacher, the textbook remains for them one of the tools capable of promoting dynamic teaching,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que partout, et en particulier là où le maître doit travailler dans des conditions difficiles (classe à effectif pléthorique, école à maître unique, etc.), le manuel scolaire constitue pour l'éducateur un instrument dont il ne saurait se passer,",
+        "tags": [
+          "T_COND",
+          "ACT_EDUC"
+        ],
+        "type": "preambular",
+        "think": "Tags T_COND and ACT_EDUC are selected because the paragraph emphasizes teachers' working conditions (overcrowded classes, single-teacher schools) and their reliance on textbooks as essential tools. Related paragraphs 6, 15, 41, and 19 address textbook roles (moral education, teacher involvement in creation, active use by educators, and production prioritization), which complement or modify the target's focus on textbooks as indispensable in challenging educational environments.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "15": [
+            "modifying"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that everywhere, and particularly where the teacher must work under difficult conditions (overcrowded classes, single-teacher schools, etc.), the textbook constitutes an indispensable tool for the educator,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que, dans certains milieux, le manuel scolaire est le premier livre qui pénètre dans un foyer et qu'il devrait, en quelque sorte, y constituer le noyau d'une petite bibliothèque familiale,",
+        "tags": [
+          "Education orientation",
+          "Curriculum",
+          "ISC_1"
+        ],
+        "type": "preambular",
+        "think": "Tags 'Education orientation' and 'Curriculum' directly relate to the role of textbooks in shaping values and educational content. 'ISC_1' (Primary education) is supported by the mention of a 'small family library' implying foundational learning. Paragraph 33 explicitly mirrors the target's focus on textbooks as a family library core (complemental, 0.9). Paragraph 7 supports the idea of textbooks fostering cultural understanding (supporting, 0.8). Paragraph 6 complements the target by emphasizing textbooks' moral education role (complemental, 0.7).",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "33": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that, in certain environments, the textbook is the first book to enter a household and should, in a way, form the nucleus of a small family library,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que le manuel scolaire n'est pas seulement un auxiliaire de l'enseignement, mais aussi un instrument important d'éducation morale, susceptible de développer le comportement social de l'élève et d'encourager son sens du respect du travail et de la fraternité des peuples,",
+        "tags": [
+          "F_REL"
+        ],
+        "type": "preambular",
+        "think": "The tag F_REL (Religion and moral education) is selected because the paragraph emphasizes moral education's role in shaping social behavior and promoting respect for work and brotherhood. Paragraph 7 complements the target by expanding on textbooks' role in fostering mutual understanding. Paragraphs 41 and 50 directly support the target's focus on textbooks promoting respect for other peoples and international cooperation.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that the textbook is not only an auxiliary tool for teaching but also an important instrument of moral education, capable of fostering the student's social behavior and encouraging their sense of respect for work and brotherhood among peoples,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que le rapprochement et la connaissance mutuelle des peuples se réalisent avec le plus de facilité et de rapidité dans le cadre de l'éducation et de la culture et que le manuel peut contribuer, au même titre que l'attitude et la parole du maître, à une plus large compréhension entre les peuples,",
+        "tags": [
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "The paragraph emphasizes formal education (M_FORM) through textbooks and teaching methods fostering mutual understanding. Related paragraphs discuss textbook collaboration (8, 12, 50), instructional materials (47), and educational activities (42), all aligning with formal education's role in promoting international understanding.",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "12": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the rapprochement and mutual understanding of peoples are achieved most easily and rapidly within the framework of education and culture, and that the textbook can contribute, just as much as the teacher’s attitude and speech, to a broader understanding among peoples,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant que l'entraide et la collaboration internationales peuvent contribuer à l'amélioration des manuels aux stades de l'élaboration, de l'édition et de l'utilisation,",
+        "tags": [
+          "POL_INTCOOP",
+          "INFRA_TLM"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_INTCOOP (international cooperation) and INFRA_TLM (teaching materials) are selected because the paragraph emphasizes international collaboration for improving textbooks (materials) and partnerships. Related paragraphs 53, 54, 56, and 9 are linked through supporting relations: they expand on international cooperation mechanisms (exchanges, exhibitions, expert dispatch) or recommend actions (para 9) based on the target's consideration.",
+        "matched_pars": {
+          "53": [
+            "supporting"
+          ],
+          "54": [
+            "supporting"
+          ],
+          "56": [
+            "supporting"
+          ],
+          "9": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that international mutual assistance and collaboration can contribute to the improvement of textbooks at the stages of development, publication, and use,"
+      },
+      {
+        "para_number": 9,
+        "para": "Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante :",
+        "tags": [
+          "POL_OTH",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_OTH (Policy theme) and SYST_OTHER (Education system monitoring & evaluation) apply because the paragraph involves submitting a policy recommendation to ministries (POL_OTH) and addresses systemic aspects of textbook development (SYST_OTHER). Related paragraphs provide supporting details (10, 11, 55, 56) or complementary context (47, 53) about textbook quality, international collaboration, and implementation strategies.",
+        "matched_pars": {
+          "10": [
+            "supporting"
+          ],
+          "11": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "56": [
+            "supporting"
+          ]
+        },
+        "para_en": "Submits the following recommendation to the Ministries of Public Instruction of the various countries:"
+      },
+      {
+        "para_number": 10,
+        "para": "ELABORATION DES MANUELS 1. Etant donné la place que les manuels scolaires occupent dans l'enseignement primaire, il importe que, quel que soit le système appliqué pour leur élaboration, les autorités scolaires accordent toujours plus d'attention à la valeur de ces ouvrages à tous les points de vue.",
+        "tags": [
+          "ISC_1",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_1 (Primary education) and CUR_IMPL (Curriculum implementation) are selected because the paragraph explicitly discusses primary education (ISC_1) and the implementation of textbooks as part of curriculum development (CUR_IMPL). Related paragraphs are identified based on shared focus on textbook value and implementation: para 11 (complemental: scientific/pedagogical value), para 12 (supporting: collaboration to enhance value), para 15 (complemental: teacher involvement), para 18 (complemental: physical quality), para 27 (complemental: durability), and para 44 (complemental: language accessibility). Confidence scores reflect textual alignment strength.",
+        "matched_pars": {
+          "11": [
+            "complemental"
+          ],
+          "12": [
+            "supporting"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ]
+        },
+        "para_en": "DEVELOPMENT OF TEXTBOOKS 1. Given the significant role that textbooks play in primary education, it is essential that, regardless of the system used for their development, educational authorities consistently pay greater attention to the value of these works from all perspectives."
+      },
+      {
+        "para_number": 11,
+        "para": "2. Surtout dans les pays où la rédaction des manuels est du ressort de l'initiative privée, il convient de s'assurer que les ouvrages utilisés dans les classes sont d'une valeur scientifique, pédagogique et esthétique incontestable.",
+        "tags": [
+          "POL_QUAL",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags POL_QUAL (Quality and learning outcomes) and CUR_CONTENT (Curriculum | Content and learning areas) are selected because the paragraph emphasizes ensuring scientific, pedagogical, and aesthetic quality in textbooks, which aligns with quality standards (POL_QUAL) and curriculum content requirements (CUR_CONTENT). Related paragraphs: 12 (supporting) discusses collaboration to improve quality, 13 (complemental) introduces competitions as a quality-enhancing method, 15 (supporting) highlights teacher involvement in curriculum development, and 18 (complemental) addresses aesthetic improvements like typography.",
+        "matched_pars": {
+          "12": [
+            "supporting"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. Especially in countries where the writing of textbooks is the responsibility of private initiative, it is essential to ensure that the works used in classrooms possess indisputable scientific, pedagogical, and aesthetic value."
+      },
+      {
+        "para_number": 12,
+        "para": "3. Etant donné les exigences en ce qui concerne tant le contenu du manuel scolaire que sa valeur didactique, il est de plus en plus souhaitable que, lors de l'élaboration des manuels, une collaboration s'établisse entre les experts en matière de recherche pédagogique, les spécialistes des disciplines traitées et les maîtres chargés de les enseigner.",
+        "tags": [
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes collaboration between educators, teachers, and subject specialists during textbook development. 'ACT_EDUC' (Stakeholder focus | Teachers and educators) is directly supported by the mention of teachers and experts. Related paragraphs: 14 (editorial committees) and 15 (teacher inclusion in committees) complement the collaboration structure. Para 47 (teacher manuals) aligns with the stakeholder focus. Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. Given the requirements concerning both the content of the textbook and its didactic value, it is increasingly desirable that, during the development of textbooks, collaboration is established between experts in educational research, specialists in the relevant disciplines, and the teachers responsible for instructing them."
+      },
+      {
+        "para_number": 13,
+        "para": "4. Des concours entre auteurs ou groupes d'auteurs peuvent contribuer à améliorer la qualité des manuels scolaires.",
+        "tags": [
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph discusses competitions between authors to improve textbook quality, which directly aligns with POL_QUAL (Policy theme | Quality and learning outcomes). Paragraph 17 explicitly mentions competitions among publishing houses to improve quality, creating a supporting relationship with high confidence.",
+        "matched_pars": {
+          "17": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. Competitions between authors or groups of authors can contribute to improving the quality of school textbooks."
+      },
+      {
+        "para_number": 14,
+        "para": "5. C'est surtout dans les pays où l'édition des manuels relève directement de l'autorité compétente qu'il apparaît souhaitable de constituer des commissions ou des comités de rédaction chargés de leur élaboration.",
+        "tags": [
+          "LAW_REG",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags 'LAW_REG' (Legal frameworks | Education laws and regulations) and 'CUR_CONTENT' (Curriculum | Content and learning areas) are selected because the paragraph discusses the legal structure of textbook authority and the development of curriculum content through editorial committees. Related paragraphs: 15 (complemental, 0.9) expands on committee composition; 23 (complemental, 0.7) addresses collaborative textbook production in decentralized systems; 49 (complemental, 0.6) mentions joint commissions for content neutrality.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. It is particularly in countries where the publication of textbooks falls directly under the competent authority that the establishment of editorial commissions or committees responsible for their development is deemed desirable."
+      },
+      {
+        "para_number": 15,
+        "para": "6. Lorsque l'élaboration des manuels scolaires est confiée à des commissions ou comités de rédaction, ces organismes doivent comprendre, entre autres, des maîtres primaires chargés de classes de niveau correspondant dans des milieux aussi divers que possible.",
+        "tags": [
+          "T_OTHER",
+          "ISC_6"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER and ISC_6 are selected: T_OTHER reflects the focus on primary school teachers in committees, while ISC_6 aligns with the primary education level (ISCED 6). Related paragraphs (29, 16, 49, 55, 56) discuss teacher involvement, feedback, collaboration, and expertise, which complement the target paragraph's emphasis on diverse teacher representation in textbook development.",
+        "matched_pars": {
+          "29": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. When the preparation of school textbooks is entrusted to commissions or editorial committees, these bodies must include, among others, primary school teachers responsible for classes of the corresponding level in as diverse environments as possible."
+      },
+      {
+        "para_number": 16,
+        "para": "7. Lorsque les circonstances s'y prêtent, le recours à la méthode expérimentale offre des avantages certains; l'utilisation préalable d'un projet de manuel dans un nombre limité de classes permet de recueillir les avis, les suggestions et les critiques des éducateurs qui l'ont employé à titre d'essai.",
+        "tags": [
+          "PEDAG_METHO",
+          "PEDAG_ASSESS"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and PEDAG_ASSESS are selected because the paragraph discusses experimental teaching methods (PEDAG_METHO) and feedback collection from educators (PEDAG_ASSESS). Related paragraphs 18, 37, 42, and 54 address textbook quality improvements, student-centered design, assessment activities, and international collaboration, which complement the experimental method's goals of enhancing educational materials and practices.",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. When circumstances permit, the use of the experimental method offers certain advantages; the prior use of a draft textbook in a limited number of classes allows for the collection of opinions, suggestions, and critiques from educators who have used it on a trial basis."
+      },
+      {
+        "para_number": 17,
+        "para": "EDITION DES MANUELS 8. Dans les pays où l'initiative privée a un rôle à jouer dans l'édition des manuels à l'usage des écoles primaires, les autorités scolaires pourraient organiser des concours entre les maisons d'édition en vue d'améliorer la qualité des ouvrages publiés et d'en réduire le prix de revient.",
+        "tags": [
+          "POL_QUAL",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags POL_QUAL (quality improvements) and ISC_1 (primary education) are directly mentioned. Paragraph 20 supports cost reduction methods. Paragraph 23 aligns with collaborative cost reduction. Paragraph 18 complements quality enhancements. Paragraph 28 supports quality assurance through textbook selection.",
+        "matched_pars": {
+          "20": [
+            "supporting"
+          ],
+          "23": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "28": [
+            "supporting"
+          ]
+        },
+        "para_en": "PUBLISHING OF TEXTBOOKS 8. In countries where private initiative plays a role in the publishing of textbooks for primary schools, educational authorities could organize competitions among publishing houses with the aim of improving the quality of the published works and reducing their production costs."
+      },
+      {
+        "para_number": 18,
+        "para": "9. Quelle que soit la formule adoptée pour l'édition des manuels scolaires, il convient de tout mettre en œuvre pour que s'accentue l'amélioration qui a été constatée, au cours de ces dernières années, au point de vue de la typographie, de l'illustration, de la reliure, etc.",
+        "tags": [
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on improving textbook quality through physical aspects (typography, binding, paper). POL_QUAL (Quality and learning outcomes) is selected as it directly aligns with enhancing material quality. Paragraph 19 (availability prioritization) is complemental as it ensures textbooks are accessible to support quality improvements. Paragraph 20 (cost-reduction without compromising quality) is supporting as it reinforces quality maintenance. Paragraph 27 (durability and paper quality) is complemental as it directly addresses specific quality aspects mentioned in the target.",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "27": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. Regardless of the method chosen for the publication of school textbooks, every effort should be made to further enhance the improvements observed in recent years in terms of typography, illustration, binding, and so forth."
+      },
+      {
+        "para_number": 19,
+        "para": "10. Dans les pays où la faible production ne permet pas que tout élève dispose des livres qu'exigerait la stricte application des programmes de chaque classe, il importe de prendre des mesures d'urgence donnant à l'édition des manuels la priorité sur la production des catégories de matériel scolaire moins indispensables.",
+        "tags": [
+          "CUR_IMPL",
+          "POP_POOR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum implementation) and POP_POOR (Low-income and disadvantaged groups) are selected because the paragraph emphasizes prioritizing textbooks (implementation) and addressing access disparities for disadvantaged students. Related paragraphs: 20 (complemental: methods to reduce costs align with prioritizing textbooks), 21 (modifying: adapting textbooks adds conditions to implementation), 23 (complemental: collaborative publishing addresses cost issues), and 32 (supporting: free distribution supports equitable access).",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "21": [
+            "modifying"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ]
+        },
+        "para_en": "10. In countries where low production does not allow every student to have the books required by the strict application of the curricula for each grade, it is essential to take urgent measures prioritizing the publication of textbooks over the production of less essential categories of school materials."
+      },
+      {
+        "para_number": 20,
+        "para": "11. En accord avec les autres instances intéressées (économie nationale, finances, douanes, etc.), les autorités scolaires devraient étudier les moyens de rationaliser au maximum la production et éventuellement l'importation des manuels, ce qui devrait permettre d'en réduire le prix de revient et le prix de vente sans en diminuer la qualité.",
+        "tags": [
+          "POL_QUAL",
+          "POL_OTH"
+        ],
+        "type": "operative",
+        "think": "Tags POL_QUAL (quality/learning outcomes) and POL_OTH (other policy themes) are selected because the paragraph addresses cost reduction without compromising quality (POL_QUAL) and involves policy coordination with multiple stakeholders (POL_OTH). Related paragraphs: 21 (complemental - import adaptation), 22 (complemental - regional adaptations), 23 (complemental - cost reduction through collaboration), 35 (complemental - price regulation for affordability), 27 (supporting - quality standards).",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "27": [
+            "supporting"
+          ]
+        },
+        "para_en": "11. In agreement with other concerned bodies (national economy, finance, customs, etc.), educational authorities should examine ways to maximize the rationalization of the production and, if necessary, the importation of textbooks, which should allow for a reduction in both production costs and sales prices without compromising quality."
+      },
+      {
+        "para_number": 21,
+        "para": "12. Les pays que l'insuffisance de moyens d'édition contraint à recourir à la production étrangère ont tout intérêt à exiger que les manuels scolaires qu'il leur faut importer s'adaptent, dans toute la mesure du possible, à leurs programmes d'études et à leurs caractéristiques nationales.",
+        "tags": [
+          "CUR_IMPL",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and POL_CUR are selected because the paragraph discusses adapting textbooks to local educational programs (curriculum implementation) and policy requirements for international textbook adaptation. Related paragraphs: 22 (complemental - both address regional adaptation needs), 52 (supporting - international collections support curriculum completeness), 55 (supporting - consulting collections aligns with adaptation needs), 47 (complemental - technical support for textbook development).",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "12. Countries whose limited publishing resources compel them to resort to foreign production have a strong interest in requiring that the textbooks they need to import be adapted, as far as possible, to their educational programs and national characteristics."
+      },
+      {
+        "para_number": 22,
+        "para": "13. Dans les pays de type centralisé où les manuels scolaires sont édités pour être utilisés sur l'ensemble du territoire, il y a lieu de prévoir certaines adaptations qui tiendraient compte des différences régionales, sinon locales, notamment pour la géographie et les sciences naturelles.",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses adapting textbook content (geography, natural sciences) to regional differences in centralized systems, aligning with 'CUR_CONTENT' (Curriculum | Content and learning areas). Paragraph 23 addresses decentralized systems' collaborative textbook publishing, which complements the target's focus on centralized adaptation strategies. The relation is complemental as they address different systemic approaches to textbook management.",
+        "matched_pars": {
+          "23": [
+            "complemental"
+          ]
+        },
+        "para_en": "13. In centralized countries where textbooks are published for use throughout the entire territory, it is advisable to provide for certain adaptations that take into account regional, if not local, differences, particularly in geography and natural sciences."
+      },
+      {
+        "para_number": 23,
+        "para": "14. Dans les pays de type décentralisé qui ont adopté la formule de l'édition officielle des manuels, les autorités scolaires des différentes circonscriptions administratives devraient se concerter pour éditer en commun les manuels scolaires traitant de certaines disciplines, de manière à en augmenter le tirage et à en réduire le prix de revient. — 194 —",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on collaborative textbook publishing to reduce costs (CUR_IMPL). Paragraph 53 complements this by addressing textbook exchange systems, while paragraph 55 provides a method (consulting international collections) that aligns with cost-reduction strategies. Both relations are supported with moderate to strong confidence.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "modifying"
+          ]
+        },
+        "para_en": "14. In decentralized countries that have adopted the official publication of textbooks, the educational authorities of the different administrative districts should consult with one another to jointly publish textbooks covering certain subjects, in order to increase print runs and reduce production costs."
+      },
+      {
+        "para_number": 24,
+        "para": "15. Il convient d'apporter un soin tout particulier à la lisibilité (choix du corps des caractères et disposition typographique), surtout dans le cas des livres de lecture destinés aux débutants.",
+        "tags": [
+          "F_LITE",
+          "POP_YOUTH"
+        ],
+        "type": "operative",
+        "think": "The tags F_LITE (Literacy and language) apply because the paragraph emphasizes legibility and readability in textbooks, which are core to literacy. POP_YOUTH (Youth and adolescents) is relevant as the text refers to 'beginners' and 'primary education,' which target younger learners. The relation with para 25 is complemental (confidence 0.7) as both address textbook design for beginners, though they focus on different aspects (legibility vs. illustrations).",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. Particular care should be given to legibility (choice of typeface and typographical layout), especially in the case of reading books intended for beginners."
+      },
+      {
+        "para_number": 25,
+        "para": "16. Bien que les illustrations contribuent à accroître le prix de revient des manuels scolaires, notamment lorsqu'il s'agit d'illustrations en couleurs, il convient de tenir compte de l'aide qu'elles peuvent offrir pour la compréhension et l'assimilation du texte, surtout dans certaines disciplines à caractère abstrait, où elles sont nécessaires, et dans le cas des manuels destinés aux débutants.",
+        "tags": [
+          "CUR_OTHER",
+          "POP_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_OTHER applies because the paragraph discusses curriculum-related aspects of textbook design (illustrations' role in learning). POP_OTHER applies as it references 'beginners' (a specific learner group). Paragraph 26 (artistic presentation/aesthetic education) complements the discussion of illustrations' pedagogical value. Paragraph 37 (considering students' mental capacities) complements the focus on learner needs in textbook design.",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. Although illustrations contribute to increasing the production cost of school textbooks, particularly when they are in color, consideration should be given to the assistance they can provide for the understanding and assimilation of the text, especially in certain disciplines of an abstract nature, where they are necessary, and in the case of textbooks intended for beginners."
+      },
+      {
+        "para_number": 26,
+        "para": "17. La présentation artistique des manuels scolaires constituant un des éléments les plus directs de l'éducation esthétique des élèves, il conviendrait de s'inspirer des progrès réalisés dans les domaines du livre récréatif et du livre instructif.",
+        "tags": [
+          "F_ARTS",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags F_ARTS (Arts and culture) and CUR_CONTENT (Curriculum | Content and learning areas) are selected because the paragraph discusses aesthetic education through artistic textbook presentation (F_ARTS) and curriculum content development (CUR_CONTENT). Related paragraphs: 28 (complemental - textbook selection relates to curriculum content), 37 (complemental - student interests align with curriculum content), 47 (supporting - teacher manuals support textbook implementation), and 54 (complemental - textbook exhibitions enhance content improvement).",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. Since the artistic presentation of school textbooks constitutes one of the most direct elements of students’ aesthetic education, it would be appropriate to draw inspiration from the advances made in the fields of recreational and educational books."
+      },
+      {
+        "para_number": 27,
+        "para": "18. Etant donné l'usage constant auquel sont soumis les manuels scolaires, il convient de prendre en considération le problème de la solidité de la reliure et celui de la qualité du papier.",
+        "tags": [
+          "POL_QUAL",
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses textbook quality (binding durability and paper quality), which aligns with POL_QUAL (quality and learning outcomes) and CUR_OTHER (other curriculum-related issues). No related paragraphs directly address physical textbook quality, so no relations are assigned.",
+        "matched_pars": {},
+        "para_en": "18. Given the constant use to which school textbooks are subjected, it is necessary to take into account the issue of the durability of the binding and the quality of the paper."
+      },
+      {
+        "para_number": 28,
+        "para": "CHOIX DES MANUELS 19. Dans les pays où l'édition des manuels scolaires à l'usage des écoles primaires relève de l'initiative privée ou n'est pas du ressort exclusif des autorités scolaires, l'un des meilleurs moyens de s'assurer de leur qualité consiste à établir et à tenir à jour des listes de manuels sélectionnés parmi lesquels s'effectuera le choix définitif pour chaque école ou groupe d'écoles.",
+        "tags": [
+          "POL_QUAL",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_QUAL (Quality and learning outcomes) and CUR_IMPL (Curriculum implementation) are selected because the paragraph focuses on ensuring textbook quality through selection processes (POL_QUAL) and curriculum-related practices (CUR_IMPL). Related paragraphs 29, 30, 46, 52, and 55 are connected through shared themes of textbook selection, quality assurance, and international collaboration. Paragraph 29 directly supports the target by explaining how selection committees operate. Paragraphs 30, 46, 52, and 55 complement the target by addressing related aspects of textbook validity, international collections, and revision processes.",
+        "matched_pars": {
+          "29": [
+            "supporting"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "SELECTION OF TEXTBOOKS 19. In countries where the publication of textbooks for primary schools is carried out by private initiative or is not exclusively under the authority of educational authorities, one of the best ways to ensure their quality is to establish and maintain updated lists of selected textbooks from which the final choice will be made for each school or group of schools."
+      },
+      {
+        "para_number": 29,
+        "para": "20. Les commissions chargées d'établir les listes de manuels sélectionnés devront agir en toute objectivité, en tenant compte de la valeur pédagogique et scientifique des ouvrages, de leur présentation et de leur prix de vente, ainsi que des réactions éventuelles des parents d'élèves; ces commissions devront, en tout cas, comprendre des représentants du personnel enseignant primaire.",
+        "tags": [
+          "ACT_EDUC",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (stakeholder focus on teachers/educators) and PEDAG_OTHER (other pedagogy issues) apply because the paragraph emphasizes teacher representation in textbook selection (ACT_EDUC) and addresses pedagogical criteria like educational merit (PEDAG_OTHER). Related paragraphs: 30 (supporting) discusses ensuring textbook choice validity, aligning with the target's emphasis on objective selection; 35 (modifying) adds context about price regulation for parent-purchased textbooks, which connects to the target's mention of price; 39 (supporting) reinforces the need for up-to-date content, aligning with the target's scientific merit focus.",
+        "matched_pars": {
+          "30": [
+            "supporting"
+          ],
+          "35": [
+            "modifying"
+          ],
+          "39": [
+            "supporting"
+          ]
+        },
+        "para_en": "20. The committees responsible for establishing the lists of selected textbooks must act with complete objectivity, taking into account the educational and scientific merit of the works, their presentation, and their sale price, as well as any potential feedback from the students' parents; these committees must, in any case, include representatives of the primary teaching staff."
+      },
+      {
+        "para_number": 30,
+        "para": "21. Lorsque les maitres ont le libre choix des manuels, il convient, dans l'intérêt des élèves et de l'enseignement, que toutes mesures soient prises pour s'assurer de la validité de ce choix et pour maintenir la progression normale de l'enseignement d'une classe à l'autre.",
+        "tags": [
+          "POL_QUAL",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_QUAL (quality of education) and T_OTHER (teachers' roles) are selected because the paragraph emphasizes ensuring valid textbook choices to maintain educational quality and teacher autonomy. Relations: Para 37 (student-centered textbook development) and 47 (teacher support materials) directly support the quality focus. Para 42 (assessment activities) complements the educational progression mentioned.",
+        "matched_pars": {
+          "37": [
+            "supporting"
+          ],
+          "47": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. When teachers have the freedom to choose their textbooks, it is appropriate, in the interest of the students and the quality of education, to take all necessary measures to ensure the validity of this choice and to maintain the normal progression of instruction from one grade to the next."
+      },
+      {
+        "para_number": 31,
+        "para": "DISTRIBUTION ET ACQUISITION DES MANUELS 22. La distribution gratuite des manuels scolaires à tous les élèves de l'école primaire est la conséquence logique du principe de l'obligation scolaire.",
+        "tags": [
+          "POL_CUR",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_CUR and CUR_IMPL are selected because the paragraph discusses curriculum-related policies (free textbook distribution as a policy) and implementation of educational materials. Related paragraphs provide modifying (32, 34) or complemental (33, 46, 47, 38) information about textbook distribution conditions, ownership, supplementary resources, and pedagogical methods.",
+        "matched_pars": {
+          "32": [
+            "modifying"
+          ],
+          "34": [
+            "modifying"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ]
+        },
+        "para_en": "DISTRIBUTION AND ACQUISITION OF TEXTBOOKS 22. The free distribution of textbooks to all primary school students is the logical consequence of the principle of compulsory education."
+      },
+      {
+        "para_number": 32,
+        "para": "23. Dans les pays où le manque de ressources financières empêche la stricte application de ce principe, la distribution gratuite des manuels scolaires doit s'étendre aussi largement que possible à toutes les catégories d'enfants qui rencontrent des difficultés à se les procurer; à cet effet, les autorités scolaires et le personnel enseignant, en collaboration avec les associations de parents d'élèves et les coopératives scolaires, devront trouver les moyens de fournir gratuitement des manuels à tous les élèves qui ne peuvent les acheter. 195",
+        "tags": [
+          "POP_POOR",
+          "POL_EQUIT"
+        ],
+        "type": "operative",
+        "think": "Tags POP_POOR (low-income learners) and POL_EQUIT (access equity) are selected because the paragraph explicitly addresses financial barriers to textbook access and advocates for equitable distribution. Para 34 (modifying) adds hygiene conditions for loan-based distribution, which refines the free distribution method. Para 35 (complemental) addresses parental financial burdens, which is related but distinct. Para 46 (complemental) expands on educational resources beyond textbooks, aligning with the equity theme.",
+        "matched_pars": {
+          "34": [
+            "modifying"
+          ],
+          "35": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "23. In countries where a lack of financial resources prevents the strict application of this principle, the free distribution of textbooks should be extended as widely as possible to all categories of children who face difficulties in obtaining them; to this end, the educational authorities and teaching staff, in collaboration with parents' associations and school cooperatives, must find ways to provide free textbooks to all students who cannot afford to purchase them."
+      },
+      {
+        "para_number": 33,
+        "para": "24. Il est souhaitable que les manuels scolaires, en particulier ceux de la dernière année d'études primaires, demeurent la propriété de l'élève de manière à constituer le noyau d'une petite bibliothèque personnelle pour entretenir chez lui l'amour et le respect du livre, ainsi que le goût de la culture.",
+        "tags": [
+          "F_ARTS",
+          "CUR_CONTENT",
+          "POP_YOUTH"
+        ],
+        "type": "operative",
+        "think": "Tags F_ARTS (culture appreciation), CUR_CONTENT (textbook curriculum role), and POP_YOUTH (primary students) are directly supported. Relations: Para 46 complements by adding library resources for independent research; para 44 addresses reading accessibility for primary students; para 41 emphasizes teacher-student interaction with textbooks; para 37 expands on supplementary materials. All relations show clear thematic alignment with confidence ≥0.7.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "24. It is desirable that school textbooks, particularly those used in the final year of primary education, remain the property of the student so as to form the core of a small personal library that fosters at home a love and respect for books, as well as an appreciation for culture."
+      },
+      {
+        "para_number": 34,
+        "para": "25. Lorsque la distribution gratuite des manuels s'effectue à titre de prêt, des mesures d'hygiène appropriées devront être appliquées avant que les ouvrages soient remis en circulation; il faudra également s'assurer que l'etat de chaque volume permet de l'utiliser à nouveau.",
+        "tags": [
+          "nan",
+          "POL_OTH"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses hygiene measures for textbook distribution on a loan basis, which relates to ownership/provision (nan) and broader policy themes (POL_OTH). No other paragraphs directly address hygiene, loan conditions, or textbook reuse, so no meaningful relations exist.",
+        "matched_pars": {},
+        "para_en": "25. When the free distribution of textbooks is carried out on a loan basis, appropriate hygiene measures must be applied before the books are put back into circulation; it must also be ensured that the condition of each volume allows it to be used again."
+      },
+      {
+        "para_number": 35,
+        "para": "26. Lorsque l'acquisition des manuels incombe aux parents ou aux responsables de l'enfant, des dispositions spéciales, pouvant aller jusqu'à la réglementation du prix de vente, devront être prises pour que l'achat de ces manuels ne constitue pas une charge excessive.",
+        "tags": [
+          "LAW_REG",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_REG (education regulations) and ACT_PARENT (parents' role) are selected because the paragraph discusses legal frameworks for textbook affordability and parental responsibility. Paragraph 36 (curriculum-textbook alignment) is complemental as it addresses broader educational policy linked to textbook regulation. Paragraph 44 (readability for primary students) is supporting as it reinforces the goal of reducing educational burdens through accessible content.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "44": [
+            "supporting"
+          ]
+        },
+        "para_en": "26. When the acquisition of textbooks is the responsibility of the parents or guardians of the child, special provisions, which may include price regulation, must be implemented to ensure that the purchase of these textbooks does not constitute an undue financial burden."
+      },
+      {
+        "para_number": 36,
+        "para": "QUESTIONS D'ORDRE DIDACTIQUE 27. Les manuels scolaires à l'usage des écoles primaires doivent refléter les progrès accomplis par les sciences de l'éducation, faciliter l'emploi de méthodes adaptées à la psychologie de l'enfant et répondre à l'usage qui en sera fait par les maîtres et par les élèves.",
+        "tags": [
+          "PEDAG_METHO",
+          "PEDAG_FOUND"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and PEDAG_FOUND are selected because the paragraph emphasizes teaching methods suited to child psychology (PEDAG_METHO) and references advances in educational sciences (PEDAG_FOUND). Related paragraphs address complementary aspects like student-centered methods (37, 38), content accuracy (39), readability (44), independent research (46), and teacher resources (47), all of which align with the target's focus on pedagogical foundations and methods.",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ],
+          "44": [
+            "modifying"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "DIDACTIC ISSUES 27. Textbooks intended for primary schools must reflect the advances made in educational sciences, facilitate the use of methods suited to the child's psychology, and meet the needs of both teachers and students."
+      },
+      {
+        "para_number": 37,
+        "para": "28. Lors de l'élaboration des manuels, il convient non seulement de rechercher une présentation logique de la matière, mais aussi et surtout de tenir compte des intérêts et des capacités mentales des élèves.",
+        "tags": [
+          "CUR_CONTENT",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT and PEDAG_OTHER are selected because the paragraph focuses on textbook content organization (CUR_CONTENT) and pedagogical considerations like student mental capacities (PEDAG_OTHER). Related paragraphs: 38 (complemental - discusses interactive methods aligning with student engagement), 42 (supporting - reinforces knowledge consolidation through activities), 43 (complemental - expands on broadening mental horizons), 47 (complemental - connects to teacher support materials).",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "42": [
+            "supporting"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. In the development of textbooks, it is necessary not only to seek a logical presentation of the material but also, and above all, to take into account the interests and mental capacities of the students."
+      },
+      {
+        "para_number": 38,
+        "para": "29. Tout manuel scolaire doit offrir, par la matière qu'il contient, un ensemble de faits, d'idées, de suggestions (textes, documents, illustrations, cartes, graphiques, questions, etc.); il doit aussi rendre possible ou même nécessaire l'emploi de méthodes qui favorisent l'échange d'idées entre le maitre et ses élèves, ainsi que la pratique du travail personnel.",
+        "tags": [
+          "PEDAG_METHO",
+          "INFRA_TLM"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO (teaching methods) and INFRA_TLM (teaching materials) are selected because the paragraph emphasizes instructional manuals as tools for teaching methods and learning resources. Related paragraphs provide complementary context: 40 (curriculum alignment), 41 (textbook role), 42 (assessment activities), and 46 (additional resources) all relate to supporting or expanding the use of instructional materials in pedagogy.",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. Every school textbook must provide, through its content, a collection of facts, ideas, and suggestions (texts, documents, illustrations, maps, graphs, questions, etc.); it must also make possible or even necessary the use of methods that promote the exchange of ideas between the teacher and the students, as well as the practice of individual work."
+      },
+      {
+        "para_number": 39,
+        "para": "30. Il convient de tout mettre en œuvre pour que les données des manuels scolaires correspondent à la réalité des faits et soient tenues à jour, surtout en matière de statistiques et de notions scientifiques.",
+        "tags": [
+          "CUR_CONTENT",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph emphasizes ensuring textbook content aligns with factual accuracy and is updated, particularly in scientific/statistical areas. 'CUR_CONTENT' (content and learning areas) directly addresses this focus on content accuracy. 'CUR_IMPL' (curriculum implementation) applies because updating textbooks is part of implementing curriculum standards. Paragraph 40 (31) supports this by restricting textbook content to curriculum-aligned concepts, reinforcing the need for factual alignment. Paragraph 52 (43) complements the target by addressing broader efforts to maintain up-to-date educational materials, though its scope is more systemic.",
+        "matched_pars": {
+          "40": [
+            "supporting"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. Every effort should be made to ensure that the content of school textbooks corresponds to the reality of the facts and is kept up to date, especially with regard to statistics and scientific knowledge."
+      },
+      {
+        "para_number": 40,
+        "para": "31. Les manuels ne doivent pas se référer à des notions autres que celles qui figurent au programme appliqué dans les classes auxquelles ils sont destinés.",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The target paragraph (para 40) focuses on textbooks strictly adhering to curriculum content. 'CUR_CONTENT' is selected because it directly relates to content and learning areas. Para 43 discusses textbooks including excerpts from specialized works to broaden knowledge, which complements the target paragraph's emphasis on content alignment. The relation is complemental with high confidence as both address textbook content requirements.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "31. Textbooks must not refer to concepts other than those included in the curriculum applied in the classes for which they are intended."
+      },
+      {
+        "para_number": 41,
+        "para": "32. Le manuel scolaire est une aide pour le maître et ses élèves et ne doit pas être considéré comme un oreiller de paresse; le maître doit faire comprendre et mettre en relief les idées essentielles du livre; les élèves trouveront dans celui-ci un complément, un guide et un aide-mémoire.",
+        "tags": [
+          "PEDAG_METHO",
+          "ACT_STUD"
+        ],
+        "type": "operative",
+        "think": "The tags PEDAG_METHO (Pedagogy & assessment | Teaching methods and approaches) and ACT_STUD (Stakeholder focus | Learners and students) are selected because the paragraph emphasizes textbook content as a pedagogical tool to foster international understanding (PEDAG_METHO) and its impact on students' learning (ACT_STUD). Paragraph 43 is related as it supports the idea of textbooks going beyond basic concepts to broaden knowledge, aligning with the target's focus on international cooperation.",
+        "matched_pars": {
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "The textbook is an aid for the teacher and their students and should not be regarded as a crutch; the teacher must help to explain and highlight the essential ideas of the book; students will find in it a supplement, a guide, and a memory aid."
+      },
+      {
+        "para_number": 42,
+        "para": "33. Lorsque le sujet s'y prête et quand la méthode d'enseignement le permet, il y aurait avantage à ce que chaque leçon ou chaque chapitre du manuel soit suivi d'une série de questions et de sujets d'activités ou de travaux pratiques propres à assurer le contrôle et la consolidation des connaissances acquises et à contribuer à la formation de l'esprit de l'enfant et au développement de ses aptitudes.",
+        "tags": [
+          "PEDAG_METHO",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO and PEDAG_OTHER are selected because the paragraph focuses on teaching methods (questions/activities for assessment) and broader pedagogical goals (developing the child's mind). Paragraph 46 (reference works/library) is complemental as it addresses supplementary materials enhancing learning. Paragraph 47 (instructional manuals) is supporting as it aligns with using structured resources for teaching.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ]
+        },
+        "para_en": "33. When the subject allows and the teaching method permits, it would be beneficial for each lesson or chapter of the textbook to be followed by a series of questions and topics for activities or practical work designed to ensure the assessment and consolidation of the knowledge acquired, and to contribute to the development of the child's mind and skills."
+      },
+      {
+        "para_number": 43,
+        "para": "34. Le manuel scolaire ne doit pas servir uniquement à l'assimilation de notions essentielles et à la mémorisation d'éléments indispensables; il doit comprendre, chaque fois que la discipline s'y prête, un choix d'extraits — 196 — d'ouvrages spécialisés favorisant l'acquisition personnelle du savoir et ouvrant à l'esprit des horizons plus larges.",
+        "tags": [
+          "CUR_CONTENT",
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT and CUR_OTHER are selected because the paragraph emphasizes curriculum content (selecting specialized works) and broader curriculum-related issues (broadening horizons). Related paragraphs discuss complementary aspects: 46 (reference works), 55 (international textbook consultation), 47 (teacher manuals), 50 (international understanding), and 45 (curriculum-textbook alignment).",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "45": [
+            "complemental"
+          ]
+        },
+        "para_en": "34. The textbook should not be used solely for the assimilation of essential concepts and the memorization of indispensable elements; it must include, whenever the subject allows, a selection of excerpts from specialized works that promote personal acquisition of knowledge and broaden the mind’s horizons."
+      },
+      {
+        "para_number": 44,
+        "para": "35. Un soin tout particulier doit être apporté au vocabulaire et au style utilisés pour les manuels à l'usage des écoles primaires, afin que la lecture ne présente pas de difficultés venant s'ajouter à celles du savoir à assimiler.",
+        "tags": [
+          "F_LITE",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags F_LITE (Literacy and language) and POL_CUR (Curriculum and pedagogy policies) are selected because the paragraph emphasizes vocabulary/style in textbooks (literacy) and curriculum-related pedagogical considerations. Related paragraphs: 45 (curriculum policy complement), 46 (library resources as complementary support), and 47 (teacher manuals modifying textbook use). Confidence scores reflect clear semantic connections for 45/46 and moderate relevance for 47.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "modifying"
+          ]
+        },
+        "para_en": "Special care must be taken with the vocabulary and style used in textbooks intended for primary schools, so that reading does not present difficulties that add to those of the knowledge to be assimilated."
+      },
+      {
+        "para_number": 45,
+        "para": "36. Il conviendrait de prévoir l'introduction simultanée de nouveaux manuels scolaires et de nouveaux programmes d'études lorsque ces derniers présentent des différences d'inspiration ou des modifications sensibles par rapport à ceux qu'ils remplacent.",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on simultaneous introduction of new textbooks and curricula with significant changes, aligning with CUR_IMPL (Curriculum implementation). Related paragraphs discuss international textbook exchanges (46, 52, 53, 55), supporting materials (47), and content review (49). These are complemental (providing related context) or modifying (addressing content adjustments) to the target's implementation process.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "49": [
+            "modifying"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. It would be appropriate to plan the simultaneous introduction of new textbooks and new curricula when the latter exhibit differences in approach or significant changes compared to those they replace."
+      },
+      {
+        "para_number": 46,
+        "para": "37. Outre les manuels scolaires distribués individuellement aux élèves de l'école primaire, il convient de mettre à leur disposition des ouvrages de consultation et de référence, afin de donner à chacun le goût de la recherche personnelle; la bibliothèque scolaire ou la bibliothèque de classe devient ainsi un complément indispensable du manuel scolaire.",
+        "tags": [
+          "CUR_OTHER",
+          "INFRA_TLM"
+        ],
+        "type": "operative",
+        "think": "The tags CUR_OTHER and INFRA_TLM are selected because the paragraph discusses curriculum-related resources (consultation/reference works) and infrastructure/resources (school libraries as complements to textbooks). Paragraph 55 is complemental as it addresses textbook revision through international resource consultation, aligning with the target's emphasis on leveraging external resources (libraries) for curriculum development.",
+        "matched_pars": {
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. In addition to the textbooks distributed individually to primary school students, it is appropriate to provide them with consultation and reference works in order to cultivate in each pupil a taste for independent research; the school library or classroom library thus becomes an indispensable complement to the textbook."
+      },
+      {
+        "para_number": 47,
+        "para": "38. Il y a lieu d'encourager le courant qui se fait jour dans plusieurs pays en faveur de la généralisation des manuels didactiques ou livres du maître, ouvrages conçus en étroit rapport avec les manuels scolaires adoptés dans la classe.",
+        "tags": [
+          "CUR_IMPL",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and CUR_CONTENT are selected because the paragraph focuses on curriculum implementation through instructional materials (CUR_IMPL) and the content/learning areas of textbooks (CUR_CONTENT). Para 55 directly supports the use of international textbook collections (supporting relation with high confidence). Paras 50 and 53 complement the discussion by addressing textbook content values and sharing practices (moderate confidence).",
+        "matched_pars": {
+          "55": [
+            "supporting"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "38. It is appropriate to encourage the emerging trend in several countries towards the widespread use of instructional manuals or teachers' books, works designed closely in connection with the textbooks adopted in the classroom."
+      },
+      {
+        "para_number": 48,
+        "para": "LES MANUELS ET LA COLLABORATION INTERNATIONALE 39. Les manuels scolaires à l'usage des écoles primaires doivent contribuer d'une manière positive à la compréhension internationale, en vue de développer la fraternité universelle et une collaboration effective entre les peuples; il importe donc que tous les pays prennent des mesures pour que les divers manuels soient exempts de tout élément pouvant porter atteinte à la compréhension entre les peuples, entre les groupes sociaux, entre les races et entre les religions.",
+        "tags": [
+          "POL_INTCOOP",
+          "POL_CUR",
+          "POL_INCL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation), POL_CUR (curriculum policies), and POL_INCL (inclusion) are selected because the paragraph emphasizes textbooks fostering global understanding, collaboration, and avoiding discrimination. Related paragraphs 49, 50, 53, and 56 address methods (joint commissions, content standards, exchanges, expert support) that align with the target's goals, showing supporting or complemental relationships.",
+        "matched_pars": {
+          "49": [
+            "supporting"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "56": [
+            "supporting"
+          ]
+        },
+        "para_en": "TEXTBOOKS AND INTERNATIONAL COOPERATION 39. Textbooks intended for use in primary schools must contribute positively to international understanding, with the aim of fostering universal brotherhood and effective collaboration among peoples; it is therefore important that all countries take measures to ensure that various textbooks are free from any elements that could harm understanding among peoples, social groups, races, and religions."
+      },
+      {
+        "para_number": 49,
+        "para": "40. Il est hautement souhaitable que, suivant l'exemple déjà donné par de nombreux pays, des commissions mixtes d'éducateurs et d'experts sur les points litigieux se constituent dans le dessein d'éliminer des manuels tout ce qui pourrait nuire à la compréhension entre leurs peuples respectifs; les organisations internationales d'éducation sont particulièrement bien placées pour promouvoir la constitution de telles commissions mixtes.",
+        "tags": [
+          "CUR_OTHER",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_OTHER (curriculum-related issue) and PEDAG_OTHER (pedagogy) are selected because the paragraph focuses on textbook content (curriculum) and collaborative educational practices (pedagogy). Related paragraphs address textbook content (50), international collections (51), procedures for collections (52), exchanges (53), consulting collections (55), and expert support (56), all of which are connected to curriculum development and international educational collaboration.",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "supporting"
+          ]
+        },
+        "para_en": "40. It is highly desirable that, following the example already set by many countries, joint commissions of educators and experts on contentious issues be established with the aim of eliminating from textbooks anything that could hinder understanding between their respective peoples; international educational organizations are particularly well placed to promote the formation of such joint commissions."
+      },
+      {
+        "para_number": 50,
+        "para": "41. Les manuels scolaires doivent être entièrement imprégnés de l'esprit de respect sincère envers les autres peuples et de l'idée de compréhension et de collaboration internationales; lorsque le sujet traité s'y prête, ils doivent donner de plus amples renseignements sur les autres pays et sur le rôle des organisations internationales.",
+        "tags": [
+          "CUR_CONTENT",
+          "POL_INTCOOP",
+          "CCUT_GCITIZ"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_CONTENT (content and learning areas), POL_INTCOOP (international cooperation), and CCUT_GCITIZ (global citizenship) are selected because the paragraph emphasizes international understanding, collaboration, and respect for other cultures. Related paragraphs: 51 (complemental - international collections support info sharing), 52 (supporting - procedures for collections align with completeness goals), 53 (complemental - textbook exchanges enhance global perspectives), 55 (supporting - specialist consultation reinforces international collaboration).",
+        "matched_pars": {
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ]
+        },
+        "para_en": "41. School textbooks must be thoroughly imbued with a spirit of sincere respect for other peoples and with the concept of international understanding and cooperation; when the subject matter permits, they should provide more detailed information about other countries and the role of international organizations."
+      },
+      {
+        "para_number": 51,
+        "para": "42. Les collections internationales de manuels ont rendu, et sont appelées à rendre chaque jour davantage, de grands services aux auteurs et aux éditeurs; l'existence de ces collections internationales devrait être connue des autorités scolaires, des maitres, des auteurs et des éditeurs.",
+        "tags": [
+          "T_OTHER",
+          "ACT_IO"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER (teachers) and ACT_IO (international organizations) are selected because the paragraph emphasizes the role of teachers, authors, and international collections managed by organizations. Related paragraphs discuss maintaining collections (52, 53), promoting improvement through exhibitions (54), and using collections for revisions (55) or international collaboration (56), all of which align with the target's focus on international collections and their stakeholders.",
+        "matched_pars": {
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "56": [
+            "supporting"
+          ]
+        },
+        "para_en": "42. International collections of textbooks have provided, and are called upon to provide increasingly, significant services to authors and publishers; the existence of these international collections should be made known to educational authorities, teachers, authors, and publishers."
+      },
+      {
+        "para_number": 52,
+        "para": "43. Il y a un intérêt indéniable à ce que les collections internationales de manuels scolaires soient aussi complètes ou aussi représentatives que 197 possible; des procédures, qui ne seront pas forcément les mêmes pour tous les pays, doivent être mises au point en vue de réaliser cet objectif et de tenir ces collections à jour.",
+        "tags": [
+          "POL_INTCOOP",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation) and CUR_IMPL (curriculum implementation) are selected because the paragraph emphasizes international textbook collections and procedures for maintaining them. Related paragraphs 53-56 all discuss methods for international textbook collaboration, with 53/56 providing complementary details on collection maintenance, 54 supporting the goal of improvement, and 55 modifying the procedures.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "supporting"
+          ],
+          "55": [
+            "modifying"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "43. There is an undeniable interest in ensuring that international collections of school textbooks are as complete or as representative as possible; procedures, which will not necessarily be the same for all countries, must be developed in order to achieve this objective and to keep these collections up to date."
+      },
+      {
+        "para_number": 53,
+        "para": "44. Les centres nationaux et internationaux de documentation pédagogique devraient tenir à jour des collections de manuels scolaires et organiser des échanges de manuels entre les divers pays intéressés.",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on maintaining textbook collections and organizing international exchanges, which directly relates to curriculum implementation (CUR_IMPL). Para 54 complements by adding exhibitions as a method for promoting textbook improvement. Para 55 modifies by specifying how textbook revisions can benefit from international consultations. Para 56 complements by introducing expert dispatch as another form of international collaboration.",
+        "matched_pars": {
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "modifying"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "44. National and international centers for educational documentation should maintain up-to-date collections of textbooks and organize exchanges of textbooks among the various interested countries."
+      },
+      {
+        "para_number": 54,
+        "para": "45. Les expositions temporaires de manuels scolaires présentant, outre les manuels utilisés dans le pays, des spécimens de manuels en usage à l'étranger, constituent l'un des moyens les plus efficaces de promouvoir l'amélioration des manuels à tous les points de vue.",
+        "tags": [
+          "M_NFORM",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags M_NFORM (Non-formal education) applies because the textbook exhibitions represent non-formal learning exchanges. PEDAG_METHO (Teaching methods and approaches) is relevant as the paragraph discusses methods to improve textbooks through cross-cultural sharing. Para 55 provides specific implementation methods (consulting collections/borrowing specimens) that complement the general idea in para 54. Para 56 adds another complementary approach (expert dispatch) related to international textbook development collaboration.",
+        "matched_pars": {
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "Temporary exhibitions of textbooks presenting, in addition to the textbooks used in the country, specimens of textbooks in use abroad, constitute one of the most effective means of promoting the improvement of textbooks in all respects."
+      },
+      {
+        "para_number": 55,
+        "para": "46. Au moment d'entreprendre la revision de leurs manuels scolaires, les responsables des nouvelles éditions seront bien inspirés, soit d'envoyer des spécialistes consulter les collections internationales de manuels existantes, soit de demander en prêt des spécimens de manuels en usage dans d'autres pays.",
+        "tags": [
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on international collaboration in textbook development (consulting global collections and borrowing specimens), which directly relates to CUR_OTHER (Curriculum | Other curriculum-related issue). Paragraph 56 complements this by discussing international expert dispatch for textbook development, sharing the same thematic focus on cross-border educational resource sharing.",
+        "matched_pars": {
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "46. When undertaking the revision of their textbooks, those responsible for the new editions would do well either to send specialists to consult the existing international collections of textbooks or to request loans of specimens of textbooks in use in other countries."
+      },
+      {
+        "para_number": 56,
+        "para": "47. Dans leurs programmes d'assistance technique, les organisations internationales et les organismes intergouvernementaux devraient prévoir l'envoi, dans les pays qui en feraient la demande, d'experts spécialisés dans l'élaboration et l'édition de manuels à l'usage des écoles primaires.",
+        "tags": [
+          "ISC_1",
+          "CUR_OTHER",
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on primary education (ISC_1) by mentioning textbooks for primary schools. It addresses curriculum development (CUR_OTHER) through the creation of educational materials. The international cooperation aspect (POL_INTCOOP) is highlighted by the involvement of international organizations and intergovernmental bodies.",
+        "matched_pars": {},
+        "para_en": "47. In their technical assistance programs, international organizations and intergovernmental bodies should arrange for the dispatch of experts specialized in the development and publication of textbooks for primary schools to countries that request such support."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et par le Bureau international d'Education, et s'y étant réunie le six juillet mil neuf cent cinquante-neuf en sa vingt-deuxième session, adopte le quinze juillet mil neuf cent cinquante-neuf la recommandation suivante : La Conférence, [INCOMPLETE] Considérant qu'il est capital, tant du point de vue social que du point de vue pédagogique, qu'aucun élève ne soit privé de la possibilité de disposer des manuels en usage dans chacune des classes de l'école primaire, Considérant que, si dans la classe le rôle capital est incontestablement dévolu au maître, le manuel scolaire demeure pour celui-ci l'un des auxiliaires capables de favoriser un enseignement vivant, Considérant que partout, et en particulier là où le maître doit travailler dans des conditions difficiles (classe à effectif pléthorique, école à maître unique, etc.), le manuel scolaire constitue pour l'éducateur un instrument dont il ne saurait se passer, Considérant que, dans certains milieux, le manuel scolaire est le premier livre qui pénètre dans un foyer et qu'il devrait, en quelque sorte, y constituer le noyau d'une petite bibliothèque familiale, Considérant que le manuel scolaire n'est pas seulement un auxiliaire de l'enseignement, mais aussi un instrument important d'éducation morale, susceptible de développer le comportement social de l'élève et d'encourager son sens du respect du travail et de la fraternité des peuples, Considérant que le rapprochement et la connaissance mutuelle des peuples se réalisent avec le plus de facilité et de rapidité dans le cadre de l'éducation et de la culture et que le manuel peut contribuer, au même titre que l'attitude et la parole du maître, à une plus large compréhension entre les peuples, Considérant que l'entraide et la collaboration internationales peuvent contribuer à l'amélioration des manuels aux stades de l'élaboration, de l'édition et de l'utilisation, Soumet aux Ministères de l'instruction publique des différents pays la recommandation suivante : ELABORATION DES MANUELS 1. Etant donné la place que les manuels scolaires occupent dans l'enseignement primaire, il importe que, quel que soit le système appliqué pour leur élaboration, les autorités scolaires accordent toujours plus d'attention à la valeur de ces ouvrages à tous les points de vue. 2. Surtout dans les pays où la rédaction des manuels est du ressort de l'initiative privée, il convient de s'assurer que les ouvrages utilisés dans les classes sont d'une valeur scientifique, pédagogique et esthétique incontestable. 3. Etant donné les exigences en ce qui concerne tant le contenu du manuel scolaire que sa valeur didactique, il est de plus en plus souhaitable que, lors de l'élaboration des manuels, une collaboration s'établisse entre les experts en matière de recherche pédagogique, les spécialistes des disciplines traitées et les maîtres chargés de les enseigner. 4. Des concours entre auteurs ou groupes d'auteurs peuvent contribuer à améliorer la qualité des manuels scolaires.   5. C'est surtout dans les pays où l'édition des manuels relève directement de l'autorité compétente qu'il apparaît souhaitable de constituer des commissions ou des comités de rédaction chargés de leur élaboration. 6. Lorsque l'élaboration des manuels scolaires est confiée à des commissions ou comités de rédaction, ces organismes doivent comprendre, entre autres, des maîtres primaires chargés de classes de niveau correspondant dans des milieux aussi divers que possible. 7. Lorsque les circonstances s'y prêtent, le recours à la méthode expérimentale offre des avantages certains; l'utilisation préalable d'un projet de manuel dans un nombre limité de classes permet de recueillir les avis, les suggestions et les critiques des éducateurs qui l'ont employé à titre d'essai. EDITION DES MANUELS 8. Dans les pays où l'initiative privée a un rôle à jouer dans l'édition des manuels à l'usage des écoles primaires, les autorités scolaires pourraient organiser des concours entre les maisons d'édition en vue d'améliorer la qualité des ouvrages publiés et d'en réduire le prix de revient. 9. Quelle que soit la formule adoptée pour l'édition des manuels scolaires, il convient de tout mettre en œuvre pour que s'accentue l'amélioration qui a été constatée, au cours de ces dernières années, au point de vue de la typographie, de l'illustration, de la reliure, etc. 10. Dans les pays où la faible production ne permet pas que tout élève dispose des livres qu'exigerait la stricte application des programmes de chaque classe, il importe de prendre des mesures d'urgence donnant à l'édition des manuels la priorité sur la production des catégories de matériel scolaire moins indispensables. 11. En accord avec les autres instances intéressées (économie nationale, finances, douanes, etc.), les autorités scolaires devraient étudier les moyens de rationaliser au maximum la production et éventuellement l'importation des manuels, ce qui devrait permettre d'en réduire le prix de revient et le prix de vente sans en diminuer la qualité. 12. Les pays que l'insuffisance de moyens d'édition contraint à recourir à la production étrangère ont tout intérêt à exiger que les manuels scolaires qu'il leur faut importer s'adaptent, dans toute la mesure du possible, à leurs programmes d'études et à leurs caractéristiques nationales. 13. Dans les pays de type centralisé où les manuels scolaires sont édités pour être utilisés sur l'ensemble du territoire, il y a lieu de prévoir certaines adaptations qui tiendraient compte des différences régionales, sinon locales, notamment pour la géographie et les sciences naturelles. 14. Dans les pays de type décentralisé qui ont adopté la formule de l'édition officielle des manuels, les autorités scolaires des différentes circonscriptions administratives devraient se concerter pour éditer en commun les manuels scolaires traitant de certaines disciplines, de manière à en augmenter le tirage et à en réduire le prix de revient.  — 194 — 15. Il convient d'apporter un soin tout particulier à la lisibilité (choix du corps des caractères et disposition typographique), surtout dans le cas des livres de lecture destinés aux débutants. 16. Bien que les illustrations contribuent à accroître le prix de revient des manuels scolaires, notamment lorsqu'il s'agit d'illustrations en couleurs, il convient de tenir compte de l'aide qu'elles peuvent offrir pour la compréhension et l'assimilation du texte, surtout dans certaines disciplines à caractère abstrait, où elles sont nécessaires, et dans le cas des manuels destinés aux débutants. 17. La présentation artistique des manuels scolaires constituant un des éléments les plus directs de l'éducation esthétique des élèves, il conviendrait de s'inspirer des progrès réalisés dans les domaines du livre récréatif et du livre instructif. 18. Etant donné l'usage constant auquel sont soumis les manuels scolaires, il convient de prendre en considération le problème de la solidité de la reliure et celui de la qualité du papier. CHOIX DES MANUELS 19. Dans les pays où l'édition des manuels scolaires à l'usage des écoles primaires relève de l'initiative privée ou n'est pas du ressort exclusif des autorités scolaires, l'un des meilleurs moyens de s'assurer de leur qualité consiste à établir et à tenir à jour des listes de manuels sélectionnés parmi lesquels s'effectuera le choix définitif pour chaque école ou groupe d'écoles. 20. Les commissions chargées d'établir les listes de manuels sélectionnés devront agir en toute objectivité, en tenant compte de la valeur pédagogique et scientifique des ouvrages, de leur présentation et de leur prix de vente, ainsi que des réactions éventuelles des parents d'élèves; ces commissions devront, en tout cas, comprendre des représentants du personnel enseignant primaire. 21. Lorsque les maitres ont le libre choix des manuels, il convient, dans l'intérêt des élèves et de l'enseignement, que toutes mesures soient prises pour s'assurer de la validité de ce choix et pour maintenir la progression normale de l'enseignement d'une classe à l'autre. DISTRIBUTION ET ACQUISITION DES MANUELS 22. La distribution gratuite des manuels scolaires à tous les élèves de l'école primaire est la conséquence logique du principe de l'obligation scolaire. 23. Dans les pays où le manque de ressources financières empêche la stricte application de ce principe, la distribution gratuite des manuels scolaires doit s'étendre aussi largement que possible à toutes les catégories d'enfants qui rencontrent des difficultés à se les procurer; à cet effet, les autorités scolaires et le personnel enseignant, en collaboration avec les associations de parents d'élèves et les coopératives scolaires, devront trouver les moyens de fournir gratuitement des manuels à tous les élèves qui ne peuvent les acheter.  195 24. Il est souhaitable que les manuels scolaires, en particulier ceux de la dernière année d'études primaires, demeurent la propriété de l'élève de manière à constituer le noyau d'une petite bibliothèque personnelle pour entretenir chez lui l'amour et le respect du livre, ainsi que le goût de la culture. 25. Lorsque la distribution gratuite des manuels s'effectue à titre de prêt, des mesures d'hygiène appropriées devront être appliquées avant que les ouvrages soient remis en circulation; il faudra également s'assurer que l'etat de chaque volume permet de l'utiliser à nouveau. 26. Lorsque l'acquisition des manuels incombe aux parents ou aux responsables de l'enfant, des dispositions spéciales, pouvant aller jusqu'à la réglementation du prix de vente, devront être prises pour que l'achat de ces manuels ne constitue pas une charge excessive. QUESTIONS D'ORDRE DIDACTIQUE 27. Les manuels scolaires à l'usage des écoles primaires doivent refléter les progrès accomplis par les sciences de l'éducation, faciliter l'emploi de méthodes adaptées à la psychologie de l'enfant et répondre à l'usage qui en sera fait par les maîtres et par les élèves. 28. Lors de l'élaboration des manuels, il convient non seulement de rechercher une présentation logique de la matière, mais aussi et surtout de tenir compte des intérêts et des capacités mentales des élèves. 29. Tout manuel scolaire doit offrir, par la matière qu'il contient, un ensemble de faits, d'idées, de suggestions (textes, documents, illustrations, cartes, graphiques, questions, etc.); il doit aussi rendre possible ou même nécessaire l'emploi de méthodes qui favorisent l'échange d'idées entre le maitre et ses élèves, ainsi que la pratique du travail personnel. 30. Il convient de tout mettre en œuvre pour que les données des manuels scolaires correspondent à la réalité des faits et soient tenues à jour, surtout en matière de statistiques et de notions scientifiques. 31. Les manuels ne doivent pas se référer à des notions autres que celles qui figurent au programme appliqué dans les classes auxquelles ils sont destinés. 32. Le manuel scolaire est une aide pour le maître et ses élèves et ne doit pas être considéré comme un oreiller de paresse; le maître doit faire comprendre et mettre en relief les idées essentielles du livre; les élèves trouveront dans celui-ci un complément, un guide et un aide-mémoire. 33. Lorsque le sujet s'y prête et quand la méthode d'enseignement le permet, il y aurait avantage à ce que chaque leçon ou chaque chapitre du manuel soit suivi d'une série de questions et de sujets d'activités ou de travaux pratiques propres à assurer le contrôle et la consolidation des connaissances acquises et à contribuer à la formation de l'esprit de l'enfant et au développement de ses aptitudes. 34. Le manuel scolaire ne doit pas servir uniquement à l'assimilation de notions essentielles et à la mémorisation d'éléments indispensables; il doit comprendre, chaque fois que la discipline s'y prête, un choix d'extraits  — 196 — d'ouvrages spécialisés favorisant l'acquisition personnelle du savoir et ouvrant à l'esprit des horizons plus larges. 35. Un soin tout particulier doit être apporté au vocabulaire et au style utilisés pour les manuels à l'usage des écoles primaires, afin que la lecture ne présente pas de difficultés venant s'ajouter à celles du savoir à assimiler. 36. Il conviendrait de prévoir l'introduction simultanée de nouveaux manuels scolaires et de nouveaux programmes d'études lorsque ces derniers présentent des différences d'inspiration ou des modifications sensibles par rapport à ceux qu'ils remplacent. 37. Outre les manuels scolaires distribués individuellement aux élèves de l'école primaire, il convient de mettre à leur disposition des ouvrages de consultation et de référence, afin de donner à chacun le goût de la recherche personnelle; la bibliothèque scolaire ou la bibliothèque de classe devient ainsi un complément indispensable du manuel scolaire. 38. Il y a lieu d'encourager le courant qui se fait jour dans plusieurs pays en faveur de la généralisation des manuels didactiques ou livres du maître, ouvrages conçus en étroit rapport avec les manuels scolaires adoptés dans la classe. LES MANUELS ET LA COLLABORATION INTERNATIONALE 39. Les manuels scolaires à l'usage des écoles primaires doivent contribuer d'une manière positive à la compréhension internationale, en vue de développer la fraternité universelle et une collaboration effective entre les peuples; il importe donc que tous les pays prennent des mesures pour que les divers manuels soient exempts de tout élément pouvant porter atteinte à la compréhension entre les peuples, entre les groupes sociaux, entre les races et entre les religions. 40. Il est hautement souhaitable que, suivant l'exemple déjà donné par de nombreux pays, des commissions mixtes d'éducateurs et d'experts sur les points litigieux se constituent dans le dessein d'éliminer des manuels tout ce qui pourrait nuire à la compréhension entre leurs peuples respectifs; les organisations internationales d'éducation sont particulièrement bien placées pour promouvoir la constitution de telles commissions mixtes. 41. Les manuels scolaires doivent être entièrement imprégnés de l'esprit de respect sincère envers les autres peuples et de l'idée de compréhension et de collaboration internationales; lorsque le sujet traité s'y prête, ils doivent donner de plus amples renseignements sur les autres pays et sur le rôle des organisations internationales. 42. Les collections internationales de manuels ont rendu, et sont appelées à rendre chaque jour davantage, de grands services aux auteurs et aux éditeurs; l'existence de ces collections internationales devrait être connue des autorités scolaires, des maitres, des auteurs et des éditeurs. 43. Il y a un intérêt indéniable à ce que les collections internationales de manuels scolaires soient aussi complètes ou aussi représentatives que  197 possible; des procédures, qui ne seront pas forcément les mêmes pour tous les pays, doivent être mises au point en vue de réaliser cet objectif et de tenir ces collections à jour. 44. Les centres nationaux et internationaux de documentation pédagogique devraient tenir à jour des collections de manuels scolaires et organiser des échanges de manuels entre les divers pays intéressés. 45. Les expositions temporaires de manuels scolaires présentant, outre les manuels utilisés dans le pays, des spécimens de manuels en usage à l'étranger, constituent l'un des moyens les plus efficaces de promouvoir l'amélioration des manuels à tous les points de vue. 46. Au moment d'entreprendre la revision de leurs manuels scolaires, les responsables des nouvelles éditions seront bien inspirés, soit d'envoyer des spécialistes consulter les collections internationales de manuels existantes, soit de demander en prêt des spécimens de manuels en usage dans d'autres pays. 47. Dans leurs programmes d'assistance technique, les organisations internationales et les organismes intergouvernementaux devraient prévoir l'envoi, dans les pays qui en feraient la demande, d'experts spécialisés dans l'élaboration et l'édition de manuels à l'usage des écoles primaires."
+  }
+}

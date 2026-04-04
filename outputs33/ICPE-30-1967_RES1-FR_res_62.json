@@ -1,0 +1,1333 @@
+{
+  "TEXT_ID": "ICPE-30-1967_RES1-FR_res_62",
+  "RECOMMENDATION": 62,
+  "TITLE": "LA PÉNURIE DE PERSONNEL ENSEIGNANT SECONDAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-30-1967_RES1-FR",
+      "nb_paras": 49,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "operative_para": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l’instruction publique, Convoquée à Genève par l’Organisation des Nations Unies pour l’éducation, la science et la culture et par le Bureau international d’Education, et s’y étant réunie le six juillet mil neuf cent soixante-sept, en sa trentième session, adopte le quatorze juillet mil neuf cent soixante-sept la recommandation suivante : La Conférence,",
+        "tags": [
+          "ISC_3",
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_3 (Upper secondary education) and M_FORM (Formal education) are selected because the paragraph explicitly references secondary education (ISC_3) and the formal education context (M_FORM). Related paragraphs are identified based on thematic connections: para 2 (supporting legal frameworks), para 3 (complemental context on secondary education challenges), para 11 (complemental teacher shortage solutions), para 45 (supporting documentation efforts), para 49 (supporting implementation steps), and para 13 (complemental dissemination process). Confidence scores reflect the strength of these semantic links.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "49": [
+            "supporting"
+          ],
+          "13": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 6, 1967, in its thirtieth session, adopts on July 14, 1967, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant le rôle de l’enseignement du second degré dans la mise en œuvre des principes définis dans la Déclaration universelle des droits de l’homme (article 26), la Convention et la Recommandation concernant la lutte contre la discrimination dans le domaine de l’enseignement (articles 4 et 5a) et le Pacte international relatif aux droits économiques, sociaux et culturels (article 13),",
+        "tags": [
+          "ISC_23",
+          "LAW_REG"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_23 (Secondary education unspecified) and LAW_REG (Education laws and regulations) are selected because the paragraph explicitly references secondary education and legal frameworks like the Universal Declaration of Human Rights, Convention, and International Covenant. Related paragraphs 3, 5, 25, and 26 are connected through shared themes of secondary education implementation, teacher standards, and educational principles. Paragraph 3 provides complementary context on secondary education challenges, paragraph 5 supports the importance of secondary education, and paragraphs 25/26 modify the target's principles by addressing teacher conditions.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "25": [
+            "modifying"
+          ],
+          "26": [
+            "modifying"
+          ]
+        },
+        "para_en": "Considering the role of secondary education in the implementation of the principles defined in the Universal Declaration of Human Rights (Article 26), the Convention and Recommendation concerning the elimination of discrimination in the field of education (Articles 4 and 5a), and the International Covenant on Economic, Social and Cultural Rights (Article 13),"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que l’enseignement secondaire doit simultanément apporter des solutions à des problèmes considérablement plus complexes et plus nombreux que ceux qui se posaient jusqu’ici, par exemple: — l’évolution continue du rôle et des objectifs de cet enseignement du point de vue social, pédagogique et professionnel; — l’augmentation constante des effectifs due à la croissance démographique actuelle, à un plus large accès à l’éducation et à d’autres facteurs d’ordre social, économique, culturel et politique; — la nécessité de reviser et de mettre à jour le contenu de l’enseignement; — la nécessité pressante de reviser les méthodes d’enseignement à la lumière des connaissances nouvelles, des techniques nouvelles et des nouvelles exigences sociales et économiques; — le rôle accru de l’orientation scolaire dans l’enseignement secondaire,",
+        "tags": [
+          "CUR_EVAL",
+          "PEDAG_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_EVAL and PEDAG_OTHER are selected because the paragraph emphasizes curriculum review/update (CUR_EVAL) and teaching method revisions (PEDAG_OTHER). Related paragraphs address enrollment trends (9, 16), teacher shortages (17), and broader education development (5, 19), all of which are connected to secondary education challenges mentioned in the target paragraph.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that secondary education must simultaneously provide solutions to problems that are considerably more complex and numerous than those previously encountered, for example: — the continuous evolution of the role and objectives of this education from social, pedagogical, and professional perspectives; — the constant increase in enrollment due to current demographic growth, wider access to education, and other social, economic, cultural, and political factors; — the necessity to review and update the content of education; — the urgent need to revise teaching methods in light of new knowledge, new technologies, and new social and economic demands; — the increased role of school guidance in secondary education,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant qu’il est nécessaire de concevoir et de prendre des mesures appropriées pour assurer le progrès de l’éducation dans les pays en voie de développement,",
+        "tags": [
+          "CUR_DVPMT",
+          "POL_QUAL"
+        ],
+        "type": "preambular",
+        "think": "Tags CUR_DVPMT (Curriculum | Design and development) and POL_QUAL (Policy theme | Quality and learning outcomes) are selected because the paragraph emphasizes designing measures (CUR_DVPMT) and ensuring progress (POL_QUAL). Related paragraphs: 5 (complemental - secondary education as part of broader education progress), 6 (modifying - teacher shortage as a specific factor), 8 (supporting - teacher training as a measure), 9 (complemental - planning mechanisms for education expansion), 18 (modifying - factors influencing teacher needs), 48 (complemental - implementation considerations).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "modifying"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "18": [
+            "modifying"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that it is necessary to design and take appropriate measures to ensure the progress of education in developing countries,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que l’enseignement secondaire est un facteur essentiel du développement de la personnalité humaine et de la société moderne,",
+        "tags": [
+          "Education level",
+          "Learning modality | Formal education"
+        ],
+        "type": "preambular",
+        "think": "Tags 'Education level' and 'Learning modality | Formal education' are selected because the paragraph emphasizes secondary education's role in societal development (education level) and its formal structure as a critical system. Related paragraphs discuss staffing challenges (6), curriculum changes (17), teacher roles (33), enrollment planning (9), adult education impacts (19), and disciplinary shortages (7), all of which complement or support the target's focus on secondary education's importance.",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "33": [
+            "supporting"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that secondary education is an essential factor in the development of the human personality and modern society,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que la pénurie de personnel enseignant secondaire affecte plus particulièrement les pays où l’accroissement des moyens de formation du personnel n’a pu suivre le rythme d’expansion de l’enseignement secondaire,",
+        "tags": [
+          "T_SUPP",
+          "ISC_23"
+        ],
+        "type": "preambular",
+        "think": "Tags T_SUPP (teacher supply shortages) and ISC_23 (secondary education) directly match the paragraph's focus on secondary teacher shortages. Related paragraphs: 7 (complemental - discipline-specific shortages), 8 (supporting - training solutions), 16 (complemental - root causes of shortages), 22 (complemental - supply-demand balance). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the shortage of secondary school teaching staff particularly affects the countries where the increase in personnel training resources has not kept pace with the expansion of secondary education,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que la pénurie de professeurs est plus aiguë dans certaines disciplines que dans d’autres,",
+        "tags": [
+          "T_SUPP"
+        ],
+        "type": "preambular",
+        "think": "The paragraph directly addresses teacher shortages (T_SUPP). Related paragraphs discuss causes (24), solutions (8, 30, 39), and contextual factors (17). Relations are determined by semantic alignment: 8 supports the need for teacher supply, 17 adds context, 24 modifies by explaining causes, and 30/39 provide complementary solutions.",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "24": [
+            "modifying"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the shortage of teachers is more acute in certain disciplines than in others,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant qu’il est nécessaire d’assurer la formation de professeurs qualifiés en nombre suffisant,",
+        "tags": [
+          "T_SUPP",
+          "T_QUAL"
+        ],
+        "type": "preambular",
+        "think": "Tags T_SUPP (teacher supply) and T_QUAL (qualification) are selected because the paragraph emphasizes training a sufficient number of qualified teachers. Related paragraphs address teacher supply (9,22,34,25), qualifications (10), and training mechanisms (21). All relations are complemental as they provide related but distinct aspects of teacher training and supply.",
+        "matched_pars": {
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "25": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that it is necessary to ensure the training of a sufficient number of qualified teachers,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que la tendance croissante à l’augmentation des effectifs rend nécessaire l’établissement de mécanismes de prévision et de planification pour le développement de l’enseignement secondaire,",
+        "tags": [
+          "SYST_OTHER",
+          "SYST_STAT"
+        ],
+        "type": "preambular",
+        "think": "Tags 'SYST_OTHER' and 'SYST_STAT' are selected because the paragraph emphasizes forecasting and planning mechanisms for secondary education, which fall under education system monitoring and evaluation. Related paragraphs 16, 18, 22, and 19 address factors influencing enrollment trends, planning considerations, and teacher supply-demand balance, which are directly connected to the target paragraph's focus on systemic planning and data-driven decision-making.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "18": [
+            "supporting"
+          ],
+          "22": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the increasing trend in enrollment makes it necessary to establish forecasting and planning mechanisms for the development of secondary education,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant que les transformations rapides du monde accroissent les responsabilités des enseignants et exigent d’eux des qualifications toujours plus hautes, tant sur le plan des connaissances scientifiques et techniques que sur celui des méthodes pédagogiques; qu’en conséquence, la situation de l’enseignement ne saurait être admise comme une position « statique »,",
+        "tags": [
+          "T_QUAL",
+          "T_PDEV"
+        ],
+        "type": "preambular",
+        "think": "Tags T_QUAL and T_PDEV are selected because the paragraph emphasizes the need for higher qualifications (T_QUAL) and ongoing professional development (T_PDEV) in teaching. Related paragraphs: 11 (supporting) provides recommendations addressing qualifications; 17 (complemental) discusses factors affecting teacher shortages; 18 (complemental) adds planning factors; 35 (supporting) focuses on continuing education; 19 (complemental) links adult education to teacher demand.",
+        "matched_pars": {
+          "11": [
+            "supporting"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the rapid transformations of the world increase the responsibilities of teachers and demand ever higher qualifications from them, both in terms of scientific and technical knowledge and pedagogical methods; consequently, the situation of education cannot be regarded as a \"static\" condition,"
+      },
+      {
+        "para_number": 11,
+        "para": "Convaincue que la mise en œuvre de la Recommandation concernant la condition du personnel enseignant adoptée par la Conférence intergouvernementale spéciale organisée par l’Unesco en septembre-octobre 1966, des recommandations concernant la formation et la situation de ce personnel approuvées depuis 1935 par la Conférence internationale de l’instruction publique — organisée jusqu’en 1939 par le Bureau international d’Education et après cette date conjointement par le Bureau international d’Education et l’Unesco — et des conventions et recommandations pertinentes adoptées par l’Organisation internationale du Travail, contribuerait grandement à pallier la pénurie de personnel enseignant du second degré,",
+        "tags": [
+          "T_SUPP",
+          "T_COND",
+          "POL_TEACH"
+        ],
+        "type": "preambular",
+        "think": "Tags T_SUPP (teacher shortages) and T_COND (teacher status) are directly mentioned in the text. POL_TEACH (workforce policies) applies due to the focus on international recommendations. Related paragraphs: 12 (complemental - national responsibility), 13 (supporting - recommendation submission), 42 (complemental - training cooperation), 44 (supporting - research on shortages), 45 (complemental - documentation efforts), 49 (supporting - implementation monitoring).",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "supporting"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "44": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "Convinced that the implementation of the Recommendation concerning the status of teachers adopted by the Special Intergovernmental Conference organized by UNESCO in September-October 1966, of the recommendations regarding the training and status of teaching staff approved since 1935 by the International Conference on Public Instruction—organized until 1939 by the International Bureau of Education and thereafter jointly by the International Bureau of Education and UNESCO—and of the relevant conventions and recommendations adopted by the International Labour Organization, would greatly contribute to alleviating the shortage of secondary school teaching staff,"
+      },
+      {
+        "para_number": 12,
+        "para": "Considérant, en outre, qu’il appartient aux différents pays d’apporter à ces problèmes communs des solutions qui tiennent compte de leur situation propre,",
+        "tags": [
+          "POL_GOV",
+          "POL_INTCOOP"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_GOV (Governance and planning) applies because the paragraph emphasizes national responsibility for solutions, aligning with governance themes. POL_INTCOOP (International cooperation and partnerships) is relevant due to references to international organizations like UNESCO in related paragraphs. Relations are complemental/supporting as the target paragraph establishes a framework for national action, while related paragraphs provide specific measures, implementation guidance, and international collaboration mechanisms.",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "25": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering, moreover, that it is the responsibility of each country to provide solutions to these common problems that take into account their specific situation,"
+      },
+      {
+        "para_number": 13,
+        "para": "Soumet aux Ministères de l’instruction publique des différents pays la présente recommandation:",
+        "tags": [
+          "Education system monitoring & evaluation",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags 'Education system monitoring & evaluation' and 'PEDAG_OTHER' are selected because the paragraph involves submitting a recommendation to address teacher shortages, which relates to systemic evaluation and pedagogical strategies. Related paragraphs (14-49) discuss measures, planning, dissemination, and implementation of the recommendation, all of which are directly connected to the target paragraph's action of submitting the recommendation.",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "15": [
+            "supporting"
+          ],
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Education of the various countries the present recommendation:"
+      },
+      {
+        "para_number": 14,
+        "para": "1. Les mesures prises pour remédier à la pénurie de maîtres secondaires devraient être fondées sur l’analyse objective des causes qui sont à l’origine de cette pénurie. Les informations recueillies sur le plan national peuvent être complétées par une étude comparative des conditions scolaires sociales, économiques et psychologiques qui tendent à aggraver ou à atténuer la pénurie dans d’autres pays.",
+        "tags": [
+          "T_SUPP",
+          "SYST_STAT"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply shortages) and SYST_STAT (education statistics) are selected because the paragraph focuses on analyzing causes of teacher shortages and using comparative data. Related paragraphs discuss complementary measures (15-30) that address causes, solutions, or factors influencing the shortage, with confidence scores reflecting varying degrees of alignment.",
+        "matched_pars": {
+          "15": [
+            "supporting"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ]
+        },
+        "para_en": "1. Measures taken to address the shortage of secondary school teachers should be based on an objective analysis of the causes underlying this shortage. Information gathered at the national level may be supplemented by a comparative study of the social, economic, and psychological school conditions that tend to exacerbate or alleviate the shortage in other countries."
+      },
+      {
+        "para_number": 15,
+        "para": "2. Les services de planification doivent jouer un rôle important dans l’étude des causes de la pénurie et des moyens propres à y remédier. Lorsque ces services n’existent pas, il convient d’accorder la priorité à leur création. — 175 —",
+        "tags": [
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "The tag POL_GOV is selected because the paragraph focuses on governance and planning services for addressing shortages. Related paragraphs discuss causes (16,17,20), solutions (22,30,34), and complementary measures, all aligning with the target's theme of systematic approaches to shortages.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "30": [
+            "supporting"
+          ],
+          "34": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. Planning services must play a significant role in studying the causes of the shortage and the means to address it. Where such services do not exist, priority should be given to their establishment."
+      },
+      {
+        "para_number": 16,
+        "para": "3. Les incidences de l’augmentation du taux de la natalité, de l’immigration, des migrations vers les régions urbaines et d’une carte scolaire défectueuse, notamment quant à la répartition des établissements entre régions urbaines et rurales, sur les effectifs du second degré et la pénurie d’enseignants qui en résulte devraient être étudiées.",
+        "tags": [
+          "T_SUPP",
+          "ISC_3",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher shortages) and ISC_3 (secondary education) are directly mentioned. POP_RUR (rural learners) is relevant due to the urban-rural school distribution issue. Relations: Para 17/18/22/37 address teacher shortages/supply-demand factors, while Para 19 links adult education to teacher demand, all complementing the target's focus on systemic causes of shortages.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. The implications of the increase in the birth rate, immigration, migrations to urban areas, and a flawed school distribution map—particularly with regard to the allocation of institutions between urban and rural regions—on secondary school enrollments and the resulting teacher shortage should be examined."
+      },
+      {
+        "para_number": 17,
+        "para": "4. Il convient d’accorder une importance particulière à certaines caractéristiques nouvelles de l’enseignement secondaire qui affectent la pénurie de professeurs du second degré. On peut citer à cet égard le besoin de diversification et de spécialisation, les modifications apportées aux programmes en vue d’assurer de nouveaux types d’enseignement, les exigences de la science moderne et de la technologie, la nécessité de stimuler l’étude des langues modernes et des sujets littéraires, le souci de répondre aux besoins en main-d’œuvre du développement économique et social et la nouvelle conception de l’orientation scolaire qui expose l’élève à toute une gamme de disciplines intellectuelles et pratiques.",
+        "tags": [
+          "T_SUPP",
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply) and CUR_OTHER (curriculum-related issues) are selected because the paragraph directly addresses teacher shortages caused by curriculum changes and specialization. Related paragraphs discuss factors affecting teacher demand (18, 19, 22), reasons for shortages (24), and curriculum-specific training (36, 39), all of which are semantically connected to the target paragraph's focus on curriculum impacts on teacher supply.",
+        "matched_pars": {
+          "18": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "24": [
+            "modifying"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. Particular attention should be given to certain new characteristics of secondary education that affect the shortage of secondary school teachers. These include the need for diversification and specialization, changes made to curricula to provide new types of instruction, the demands of modern science and technology, the necessity to promote the study of modern languages and literary subjects, the concern to meet labor needs arising from economic and social development, and the new concept of educational guidance that exposes students to a wide range of intellectual and practical disciplines."
+      },
+      {
+        "para_number": 18,
+        "para": "5. Les travaux de planification doivent obligatoirement tenir compte de tous les facteurs qui commandent les besoins en maîtres, notamment l’évolution démographique, la prolongation de la scolarité obligatoire, l’accroissement des taux de scolarisation et l’amélioration des conditions dans lesquelles est dispensé l’enseignement.",
+        "tags": [
+          "T_SUPP",
+          "T_COND",
+          "POP_ALL"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply factors like demographic changes and enrollment rates), T_COND (improving education conditions), and POP_ALL (demographic changes affecting learners) are directly supported. Relations are identified based on semantic overlap: para 19 (complemental: adult education demand), para 20 (modifying: shortage types), para 22 (complemental: supply-demand balance), para 26 (supporting: working conditions), and para 37 (complemental: stopgap measures).",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ],
+          "20": [
+            "modifying"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "5. Planning work must necessarily take into account all the factors that determine the need for teachers, including demographic changes, the extension of compulsory schooling, increased enrollment rates, and the improvement of the conditions under which education is provided."
+      },
+      {
+        "para_number": 19,
+        "para": "6. Les autorités scolaires devraient déterminer la mesure dans laquelle les possibilités accrues offertes aux adultes pour poursuivre leur éducation ou assurer leur formation professionnelle contribuent à amplifier les besoins en personnel enseignant secondaire, notamment lorsque des campagnes d’alphabétisation ont été menées avec succès.",
+        "tags": [
+          "POP_ADUL",
+          "POL_LL",
+          "T_SUPP",
+          "ISC_3"
+        ],
+        "type": "operative",
+        "think": "Tags POP_ADUL and POL_LL reflect the focus on adult education and lifelong learning. T_SUPP addresses teacher supply dynamics mentioned in the paragraph. ISC_3 corresponds to the secondary education level. Related paragraphs discuss teacher shortages (20), training (21), supply-demand balance (22), recruitment (32), and professional development (38), all of which complement the target paragraph's context of adult education impacting teacher demand.",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. Educational authorities should determine the extent to which the increased opportunities available to adults for continuing their education or vocational training contribute to the expansion of the demand for secondary teaching staff, particularly when literacy campaigns have been successfully conducted."
+      },
+      {
+        "para_number": 20,
+        "para": "7. Il faudrait s’efforcer de distinguer les causes de la pénurie à court terme de celles de la pénurie à long terme; les premières appellent des mesures d’urgence et les secondes doivent être traitées par des mesures de caractère permanent.",
+        "tags": [
+          "T_SUPP",
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (Teacher supply and shortages) and POL_GOV (Governance and planning) are selected because the paragraph addresses teacher shortages and the need for permanent policy measures. Related paragraphs discuss complementary solutions (21,29,30,34) and modifying context (37) about emergency measures. Para 22 addresses supply-demand balance, a related but independent aspect.",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "modifying"
+          ]
+        },
+        "para_en": "7. Efforts should be made to distinguish between the causes of short-term shortages and those of long-term shortages; the former require emergency measures, while the latter must be addressed through permanent measures."
+      },
+      {
+        "para_number": 21,
+        "para": "8. Il importe d’examiner dans quelle mesure et par quels moyens les institutions universitaires peuvent contribuer à former en nombre suffisant des professeurs du second degré de la qualité requise.",
+        "tags": [
+          "T_SUPP",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply) and T_INI (initial education) are selected because the paragraph directly addresses training sufficient teachers (T_INI) and addressing shortages (T_SUPP). Related paragraphs: 22 (complemental - supply/demand planning), 24 (complemental - cause of shortages), 38 (supporting - training methods), 39 (complemental - versatile training for shortages).",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. It is important to examine to what extent and by what means higher education institutions can contribute to adequately training a sufficient number of secondary school teachers of the required quality."
+      },
+      {
+        "para_number": 22,
+        "para": "9. Compte tenu du rapport entre l’offre et la demande en personnel enseignant du second degré, il convient d’envisager sérieusement l’élaboration de plans tendant à assurer une meilleure utilisation des professeurs qualifiés et une efficacité accrue de leur enseignement.",
+        "tags": [
+          "T_SUPP",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (supply/demand imbalance) and T_PDEV (teaching effectiveness) are selected because the paragraph directly addresses teacher shortages (T_SUPP) and implies improving teaching efficacy through better utilization (T_PDEV). Related paragraphs address complementary solutions (e.g., school size, training, salaries) or supporting factors (e.g., shortage causes) with high confidence.",
+        "matched_pars": {
+          "23": [
+            "complemental"
+          ],
+          "24": [
+            "supporting"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "9. In view of the balance between the supply and demand for secondary school teaching staff, serious consideration should be given to developing plans aimed at ensuring better utilization of qualified teachers and increased effectiveness of their teaching."
+      },
+      {
+        "para_number": 23,
+        "para": "10. Il conviendrait d’effectuer une étude sur la dimension optimale à donner aux établissements d’enseignement secondaire pour utiliser au mieux le personnel enseignant. Comme, malheureusement, il sera impossible pendant un certain temps d’éviter les classes surchargées, il serait souhaitable qu’une telle étude porte également sur l’utilisation de nouvelles techniques d’enseignement et de direction de la classe applicables dans de telles circonstances.",
+        "tags": [
+          "PEDAG_METHO",
+          "T_SUPP"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO (teaching methods) and T_SUPP (teacher supply) are selected because the paragraph discusses new teaching techniques and classroom management (PEDAG_METHO) and addresses teacher shortages causing overcrowded classes (T_SUPP). Related paragraphs: 24 (supporting) links to teacher shortage causes; 37 (contradictive) opposes overcrowded classes; 39 (complemental) adds flexibility in teaching methods.",
+        "matched_pars": {
+          "24": [
+            "supporting"
+          ],
+          "37": [
+            "contradictive"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. A study should be conducted on the optimal size of secondary education institutions in order to make the best use of teaching staff. Since it will unfortunately be impossible to avoid overcrowded classes for some time, it would be desirable for such a study to also address the use of new teaching techniques and classroom management methods applicable under such circumstances."
+      },
+      {
+        "para_number": 24,
+        "para": "11. Il conviendrait de déterminer la mesure* dans laquelle l’insuffisance du nombre des candidats à l’enseignement secondaire est imputable au fait que d’autres professions, exigeant une formation et des capacités intellectuelles — 176 — de même niveau, offrent une meilleure rémunération et un statut social plus élevé. La dignité morale et humaine de la fonction enseignante devrait également être mise en lumière.",
+        "tags": [
+          "T_SUPP",
+          "T_COND",
+          "ISC_2"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply shortages) and T_COND (working conditions/salaries) directly address the shortage causes mentioned (salaries/social status). ISC_2 (lower secondary education) matches the focus on secondary education. Related paragraphs 25/26 support the need for improved conditions, while 29/30/39 provide complementary solutions like temporary measures and training.",
+        "matched_pars": {
+          "25": [
+            "supporting"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "11. It would be appropriate to determine the extent to which the shortage of candidates for secondary education teaching is attributable to the fact that other professions, requiring training and intellectual abilities of the same level, offer better remuneration and higher social status. The moral and human dignity of the teaching profession should also be highlighted."
+      },
+      {
+        "para_number": 25,
+        "para": "12. Les autorités devraient reconnaître que la mise en œuvre des principes et des normes définis dans la Recommandation concernant la condition du personnel enseignant, notamment en ce qui concerne sa situation économique et sociale, constitue un moyen essentiel de remédier à la pénurie d’enseignants qualifiés.",
+        "tags": [
+          "T_COND",
+          "T_SUPP"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND and T_SUPP are selected because the paragraph emphasizes economic/social conditions (T_COND) and addresses teacher shortages (T_SUPP). Paragraph 26 complements by discussing salary comparisons and retention (confidence 0.9). Paragraph 27 modifies by specifying family responsibility conditions (confidence 0.7). Paragraph 37 contradicts by highlighting harmful stopgap measures (confidence 0.8). Paragraph 46 supports by advocating dissemination of the recommendation (confidence 0.9). Paragraph 48 modifies by addressing implementation adaptability (confidence 0.7).",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "modifying"
+          ],
+          "37": [
+            "contradictive"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "48": [
+            "modifying"
+          ]
+        },
+        "para_en": "Authorities should recognize that the implementation of the principles and standards defined in the Recommendation concerning the Status of Teachers, particularly regarding their economic and social situation, constitutes an essential means of addressing the shortage of qualified teachers."
+      },
+      {
+        "para_number": 26,
+        "para": "13. Conformément aux dispositions de la Recommandation précitée, il conviendrait de veiller non seulement à ce que les traitements et les prestations en matière de sécurité sociale des enseignants du second degré soutiennent avantageusement la comparaison avec ceux d’autres professions qui exigent des qualifications analogues et équivalentes, mais également à ce que leurs conditions de vie, de travail et d’emploi ainsi que leurs perspectives de carrière soient de nature à attirer à la profession enseignante et à y retenir un nombre approprié de personnes pleinement qualifiées.",
+        "tags": [
+          "T_COND",
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on ensuring competitive salaries/social security (T_COND) and attractive working conditions/career prospects (T_RECR) to attract/retain teachers. Paragraph 27 (family responsibilities) and 32 (recruitment measures) directly complement these themes. Paragraph 28 (retention of retired teachers) and 38 (professional development) provide related but broader context, with moderate confidence.",
+        "matched_pars": {
+          "27": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ]
+        },
+        "para_en": "13. In accordance with the provisions of the aforementioned Recommendation, attention should be paid not only to ensuring that the salaries and social security benefits of secondary school teachers compare favorably with those of other professions requiring similar and equivalent qualifications, but also that their living, working, and employment conditions, as well as their career prospects, are sufficiently attractive to draw a suitable number of fully qualified individuals into the teaching profession and to retain them therein."
+      },
+      {
+        "para_number": 27,
+        "para": "14. Les conditions de service de la profession enseignante devraient être assez avantageuses pour permettre aux enseignants ayant des charges de famille de continuer leur service et à ceux qui auraient été amenés à interrompre leur activité pédagogique de la reprendre ultérieurement, à plein temps ou à temps partiel, sans préjudice financier ou autre. Les obligations de service du personnel féminin ayant des charges de famille devraient être aménagées de manière à lui permettre de poursuivre son activité pédagogique. Il conviendrait d’autre part d’autoriser ce même personnel, s’il est amené à interrompre son activité, à la reprendre ultérieurement.",
+        "tags": [
+          "T_COND",
+          "POL_TEACH"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND and POL_TEACH are selected because the paragraph focuses on improving working conditions (T_COND) and policy measures for teacher workforce (POL_TEACH). Para 28 (complemental) discusses resuming work post-retirement, aligning with the target's focus on resuming teaching. Para 31 (complemental) addresses gender-balanced recruitment, related to adjusting service obligations for female staff. Para 37 (contradictive) highlights incompatible stopgap measures, contrasting with the target's emphasis on avoiding detrimental practices.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "37": [
+            "contradictive"
+          ]
+        },
+        "para_en": "14. The conditions of service for the teaching profession should be sufficiently favorable to enable teachers with family responsibilities to continue their service and to allow those who have had to interrupt their teaching activity to resume it later, on a full-time or part-time basis, without financial or other detriment. The service obligations of female staff with family responsibilities should be adjusted so as to enable them to continue their teaching activity. Furthermore, the same staff should be allowed to resume their activity later if they are forced to interrupt it."
+      },
+      {
+        "para_number": 28,
+        "para": "15. Si l’intérêt public l’exige, il serait souhaitable d’encourager les enseignants qui ont atteint l’âge de la retraite à continuer d’assurer leur service à temps plein ou à temps partiel, s’ils y sont aptes physiquement et intellectuellement, et en particulier à conseiller les jeunes enseignants à la lumière de leur expérience.",
+        "tags": [
+          "T_OTHER",
+          "POL_LL"
+        ],
+        "type": "operative",
+        "think": "Tags T_OTHER and POL_LL are selected because the paragraph focuses on teacher retention (T_OTHER) and lifelong learning through mentorship (POL_LL). Related paragraphs address temporary staffing solutions (29, 30), recruitment strategies (32), and continuing education (35), which complement the target's focus on teacher workforce sustainability.",
+        "matched_pars": {
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "35": [
+            "complemental"
+          ]
+        },
+        "para_en": "15. If public interest so requires, it would be desirable to encourage teachers who have reached retirement age to continue providing their service full-time or part-time, provided they are physically and intellectually capable, and in particular to advise younger teachers in light of their experience."
+      },
+      {
+        "para_number": 29,
+        "para": "16. Pour faire face à des besoins urgents, il conviendrait d’envisager la possibilité de recourir, à titre temporaire ou à temps partiel, à des spécialistes d’autres professions, pour enseigner des matières en rapport avec leur formation, en attendant que soit formé le personnel dûment qualifié; il est souhaitable que des cours de brève durée de méthodologie et de psycho-pédagogie soient organisés à leur intention.",
+        "tags": [
+          "T_SUPP",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply shortages) and PEDAG_METHO (teaching methods) are selected because the paragraph discusses temporary employment of specialists (supply issue) and methodology training. Related paragraphs: 30 (complemental: emergency measures), 38 (supporting: professional development), 34 (complemental: long-term training), 36 (complemental: technical subject training), 39 (complemental: teaching flexibility).",
+        "matched_pars": {
+          "30": [
+            "complemental"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "34": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. To address urgent needs, it would be appropriate to consider the possibility of temporarily or part-time employing specialists from other professions to teach subjects related to their training, pending the training of duly qualified personnel; it is desirable that short courses in methodology and psycho-pedagogy be organized for their benefit."
+      },
+      {
+        "para_number": 30,
+        "para": "17. Dans les pays où les mesures ci-dessus ne suffisent pas à résoudre le problème de la pénurie, il serait indiqué de recourir à d’autres mesures d’urgence, de caractère également provisoire, telles que l’utilisation d’étudiants des écoles normales supérieures et d’autres établissements d’enseignement supérieur, auxquels on donnerait la préparation pédagogique et le perfectionnement indispensables. — 177 —",
+        "tags": [
+          "T_SUPP",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher shortages) and PEDAG_OTHER (pedagogical training) are selected because the paragraph addresses temporary measures to address teacher shortages and emphasizes pedagogical training for students. Related paragraphs: 34 (complemental - permanent solutions vs. temporary measures), 37 (contradictive - criticizes stopgap measures), 38 (supporting - professional development alignment), 39 (complemental - versatile training for shortages), and 32 (complemental - recruitment strategies for teacher supply).",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "contradictive"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. In countries where the measures outlined above are insufficient to resolve the shortage problem, it would be advisable to resort to other emergency measures, also of a temporary nature, such as employing students from higher normal schools and other higher education institutions, who would be provided with the necessary pedagogical training and professional development."
+      },
+      {
+        "para_number": 31,
+        "para": "18. II conviendrait d’assurer un recrutement équilibré du personnel enseignant des deux sexes.",
+        "tags": [
+          "T_RECR"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on balanced recruitment of teaching staff by gender. 'T_RECR' (Teachers | Recruitment and hiring) directly matches this theme. Paragraph 32 discusses measures to encourage recruitment of future teachers, aligning with the target's emphasis on recruitment strategies. The relation is 'supporting' as paragraph 32 reinforces the importance of recruitment initiatives, with high confidence due to explicit thematic overlap.",
+        "matched_pars": {
+          "32": [
+            "supporting"
+          ]
+        },
+        "para_en": "18. It would be appropriate to ensure a balanced recruitment of teaching staff of both sexes."
+      },
+      {
+        "para_number": 32,
+        "para": "19. Le recrutement des futurs candidats enseignants du second degré pourrait être encouragé par des mesures appropriées, telles que causeries à l’intention des élèves des dernières années de l’enseignement secondaire sur le rôle et les perspectives ouvertes à la profession enseignante; rencontres et entretiens avec des maîtres chevronnés du second degré capables d’éveiller chez les étudiants un intérêt pour l’enseignement du second degré; visites d’écoles secondaires bien organisées. A cet égard, les professeurs d’écoles secondaires, par leur exemple, la qualité de leur enseignement et leur prestige, peuvent jouer un rôle important pour encourager les jeunes à choisir la profession enseignante. D’autre part, les professeurs des facultés des lettres et des sciences pourraient être priés d’attirer l’attention des étudiants sur l’importance de l’enseignement secondaire et d’encourager ces derniers à se spécialiser dans les disciplines où les besoins sont les plus grands.",
+        "tags": [
+          "T_RECR",
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "Tags T_RECR (recruitment strategies) and ISC_99 (multiple education levels) are selected because the paragraph focuses on recruiting secondary school teachers through targeted measures and mentions secondary education. Related paragraphs provide complementary information: 34 (teacher training infrastructure), 38 (professional development), 36 (specialized training), 46 (dissemination of recommendations), and 33 (teacher recognition). Confidence scores reflect the strength of semantic connections.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ]
+        },
+        "para_en": "19. The recruitment of future secondary school teacher candidates could be encouraged through appropriate measures, such as talks aimed at students in the final years of secondary education about the role and opportunities offered by the teaching profession; meetings and discussions with experienced secondary school teachers capable of inspiring students’ interest in secondary education; visits to well-organized secondary schools. In this regard, secondary school teachers, through their example, the quality of their teaching, and their prestige, can play a significant role in encouraging young people to choose the teaching profession. Furthermore, professors from faculties of arts and sciences could be asked to draw students’ attention to the importance of secondary education and to encourage them to specialize in disciplines where needs are greatest."
+      },
+      {
+        "para_number": 33,
+        "para": "20. Les autorités devraient reconnaître le rôle essentiel joué par les professeurs du second degré et la valeur de leur contribution au développement de la personnalité humaine et de la société moderne. De plus, les autorités devraient encourager le personnel enseignant du second degré à suggérer des mesures en vue d’améliorer sa condition et à participer activement à la vie sociale et publique.",
+        "tags": [
+          "T_COND",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags T_COND (working conditions) and T_PDEV (professional development) are selected because the paragraph addresses teacher shortages (working conditions) and dissemination of training recommendations (professional development). Related paragraphs provide solutions (34, 42), complementary context (35, 37, 39) or supporting evidence for the need for professional development.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "35": [
+            "supporting"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "42": [
+            "supporting"
+          ]
+        },
+        "para_en": "20. Authorities should recognize the essential role played by secondary school teachers and the value of their contribution to the development of the human personality and modern society. Furthermore, authorities should encourage secondary school teaching staff to propose measures aimed at improving their conditions and to actively participate in social and public life."
+      },
+      {
+        "para_number": 34,
+        "para": "21. Il y aurait lieu de renforcer les facultés de pédagogie des universités et les écoles normales supérieures existantes, et d’en créer de nouvelles, en vue de former des professeurs en nombre suffisant et d’assurer une formation spécialisée dans les disciplines les plus affectées par la pénurie. Un appareil permanent pour éliminer la pénurie de personnel enseignant secondaire de façon durable serait ainsi mis en place.",
+        "tags": [
+          "T_SUPP",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP and T_INI are selected because the paragraph addresses teacher shortages (T_SUPP) and initial training (T_INI). Related paragraphs: 35 (complemental - ongoing education supports initial training), 36 (complemental - technical subject training aligns with specialized training), 37 (contradictive - stopgap measures oppose sustainable solutions), 38 (complemental - expands teacher training methods), 39 (complemental - versatile training complements specialized needs).",
+        "matched_pars": {
+          "35": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "37": [
+            "contradictive"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. It would be appropriate to strengthen the faculties of education at universities and the existing higher normal schools, as well as to establish new ones, in order to train a sufficient number of teachers and to provide specialized training in the disciplines most affected by shortages. A permanent mechanism to sustainably eliminate the shortage of secondary school teaching staff would thereby be established."
+      },
+      {
+        "para_number": 35,
+        "para": "22. Quelles que soient les mesures prises en vue de la formation d’urgence du personnel enseignant, il est essentiel de maintenir un niveau satisfaisant de culture générale, de connaissances spécialisées et de préparation pédagogique, tant théorique que pratique. De plus, il importe de prévoir le perfectionnement du personnel ainsi formé, afin de renforcer sa formation de base et de le familiariser avec les progrès les plus récents des méthodes et des techniques d’enseignement.",
+        "tags": [
+          "T_PDEV",
+          "POL_EIE"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) is directly supported by the emphasis on continuing education and training for teachers. POL_EIE (Education in emergencies and crises) is relevant due to the mention of 'emergency training' in the text. Relations: Para 36 (complemental) addresses specific technical training within the broader professional development context. Para 38 (supporting) reinforces the need for training means. Para 40 (complemental) adds modern teaching methods as part of professional development. Para 48 (modifying) discusses adapting recommendations, which aligns with the target's call for implementation.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "38": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "48": [
+            "modifying"
+          ]
+        },
+        "para_en": "22. Regardless of the measures taken for the emergency training of teaching staff, it is essential to maintain a satisfactory level of general culture, specialized knowledge, and pedagogical preparation, both theoretical and practical. Furthermore, it is important to provide for the continuing education of the personnel thus trained, in order to strengthen their foundational training and familiarize them with the latest advances in teaching methods and techniques."
+      },
+      {
+        "para_number": 36,
+        "para": "23. Il conviendrait d’accorder une attention spéciale à la formation des maîtres chargés des matières techniques dans l’enseignement secondaire, et de lui consacrer à la fois des sessions de courte durée et des cycles complets de cours.",
+        "tags": [
+          "T_INI",
+          "F_VET",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (initial teacher training), F_VET (technical/vocational subjects), and ISC_23 (secondary education) are selected because the paragraph explicitly discusses training for technical subjects in secondary education. Para 37 is complemental (contextualizes the need for training by highlighting problematic teaching conditions). Para 38 is supporting (provides detailed training methods aligning with the target paragraph's focus on short-term and full-cycle training).",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "38": [
+            "supporting"
+          ]
+        },
+        "para_en": "Special attention should be given to the training of teachers responsible for technical subjects in secondary education, dedicating both short-term sessions and full course cycles to this purpose."
+      },
+      {
+        "para_number": 37,
+        "para": "24. Certains expédients destinés à pallier la pénurie de personnel enseignant du second degré (tels que des classes à effectifs excessifs ou l’augmentation déraisonnable des heures de cours demandés aux enseignants) étant incompatibles avec les buts et objectifs de l’enseignement et préjudiciables autant aux élèves qu’aux maîtres, les autorités compétentes devraient, de toute urgence, prendre toutes les dispositions pratiques susceptibles de remédier à la situation qui rend ces mesures nécessaires.",
+        "tags": [
+          "T_SUPP",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "The paragraph addresses teacher shortages (T_SUPP) and working conditions (T_COND) by criticizing harmful measures. Paragraph 38 provides solutions (supporting), 39 offers teacher versatility (supporting), and 46 discusses dissemination (complemental).",
+        "matched_pars": {
+          "38": [
+            "supporting"
+          ],
+          "39": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "24. Certain stopgap measures intended to address the shortage of secondary school teaching staff (such as classes with excessive numbers of students or unreasonable increases in teaching hours demanded from teachers) are incompatible with the aims and objectives of education and detrimental both to students and teachers. Consequently, the competent authorities should urgently take all practical steps likely to remedy the situation that necessitates these measures."
+      },
+      {
+        "para_number": 38,
+        "para": "25. Des moyens de formation et de perfectionnement devraient être prévus tant pour assurer la formation d’enseignants qualifiés que pour la préparation à l’enseignement secondaire de spécialistes d’autres professions. Des établissements supérieurs qui dispensent une formation agricole et commerciale et des cours d’ingénieurs devraient également offrir à leurs étudiants une formation pédagogique, ou les encourager à en acquérir une, afin de mettre un personnel plus nombreux à la disposition des écoles et des classes secondaires spécialisées. Les institutions universitaires devraient fournir aux enseignants des établissements secondaires la possibilité de contacts intellectuels à l’occasion des cours de perfectionnement. L’utilisation des cours par correspondance et des cours du soir devrait être étudiée, tant pour la formation de base que pour le perfectionnement.",
+        "tags": [
+          "T_INI",
+          "T_PDEV",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI and T_PDEV are selected because the paragraph emphasizes initial teacher training and professional development through pedagogical courses and correspondence/evening classes. ISC_23 is relevant as the text focuses on secondary education (ISCED 2/3) and specialized secondary classes. Related paragraphs 39, 41, 42, and 43 discuss teacher versatility, international cooperation, and global collaboration, which complement the target's focus on training and professional development.",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "Means of training and professional development should be provided both to ensure the training of qualified teachers and to prepare specialists from other professions for secondary education. Higher education institutions offering agricultural and commercial training as well as engineering courses should also provide their students with pedagogical training, or encourage them to acquire such training, in order to make a larger pool of personnel available to specialized secondary schools and classes. Universities should offer secondary school teachers opportunities for intellectual engagement through professional development courses. The use of correspondence courses and evening classes should be examined for both initial training and ongoing professional development."
+      },
+      {
+        "para_number": 39,
+        "para": "26. Les enseignants du second degré chargés de l’enseignement d’une seule discipline devraient, dans le cas de pénurie, être prêts à dispenser l'enseignement de disciplines connexes. Il conviendrait que les établissements supérieurs de formation des maîtres s’appliquent à donner à leurs étudiants une formation polyvalente afin d’accroître leur efficacité.",
+        "tags": [
+          "T_SUPP",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher supply shortages) and T_INI (initial teacher training) are selected because the paragraph directly addresses teacher shortages and the need for versatile training in teacher education. Related paragraphs: 40 (complemental - modern tools enhance teaching effectiveness), 41 (supporting - international aid for teacher training), 44 (supporting - research on teacher shortages), 46 (complemental - dissemination of solutions for shortages).",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ],
+          "44": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "26. Secondary school teachers responsible for teaching a single subject should, in cases of shortage, be prepared to teach related subjects. Higher education institutions for teacher training should strive to provide their students with versatile training in order to increase their effectiveness."
+      },
+      {
+        "para_number": 40,
+        "para": "27. Les auxiliaires modernes de l’enseignement, tels que la radio et la télévision scolaires et l’enseignement programmé, sans pouvoir remplacer le maître, peuvent contribuer à améliorer la qualité de l’éducation. Combinés avec de nouvelles formes d’organisation, telles que l’enseignement par équipes, ces auxiliaires peuvent aider les professeurs les plus compétents à s’occuper d’un plus grand nombre d’élèves. Il est essentiel que les dispositions prises pour utiliser les moyens de la technologie moderne s’inspirent d’une saine doctrine et de recherches minutieuses et soient soumises à l’épreuve d’études-pilotes, qui permettront de déterminer les modalités de leur utilisation optimale à une grande échelle. L’usage de ces méthodes devrait être en outre étendu à la formation du personnel enseignant et l’initiation à leur emploi inscrite au programme des écoles normales.",
+        "tags": [
+          "PEDAG_TECH",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_TECH and T_INI are selected because the paragraph discusses technology-supported pedagogy (radio/TV, programmed instruction) and curriculum integration for teacher training. Related paragraphs 41-43 address teacher training infrastructure (41), international cooperation in professional development (42), and global collaboration for curriculum sharing (43), all complementing the target's focus on modern methods and training.",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. Modern teaching aids, such as educational radio and television and programmed instruction, while not able to replace the teacher, can contribute to improving the quality of education. Combined with new forms of organization, such as team teaching, these aids can help the most competent teachers to manage a larger number of students. It is essential that provisions for the use of modern technology be guided by sound principles and thorough research and subjected to pilot studies, which will determine the most effective methods for large-scale implementation. Furthermore, the use of these methods should be extended to the training of teaching staff, and their initiation incorporated into the curriculum of teacher training colleges."
+      },
+      {
+        "para_number": 41,
+        "para": "28. Dans l’intérêt de la coopération internationale, les pays les plus avancés devraient fournir une assistance technique et financière accrue aux pays en voie de développement en vue de contribuer à la création d’écoles normales supérieures, de facultés de pédagogie des universités et d’écoles normales de l’enseignement technique, notamment dans les pays qui ne disposent pas encore de telles institutions. L’assistance technique devrait également viser à renforcer l’action régionale, notamment pour la planification et l’établissement de telles institutions. Bien que l’assistance puisse être utilisée pour le recrutement direct à l’étranger, il y aurait lieu de la concentrer sur l’attribution de bourses destinées à des professeurs chargés de la formation des maîtres, afin d’obtenir un effet multiplicateur.",
+        "tags": [
+          "POL_INTCOOP",
+          "T_INI",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation) is directly supported by the call for advanced countries to provide assistance. T_INI (initial education) applies to establishing teacher training institutions. T_PDEV (professional development) relates to scholarships for teacher trainers. Paragraph 42 supports the cooperation theme. Paragraph 43 complements with specific international collaboration methods.",
+        "matched_pars": {
+          "42": [
+            "supporting"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. In the interest of international cooperation, the more advanced countries should provide increased technical and financial assistance to developing countries to support the establishment of higher teacher training colleges, university faculties of education, and technical teacher training schools, particularly in countries that do not yet have such institutions. Technical assistance should also aim to strengthen regional action, notably for the planning and establishment of such institutions. Although assistance may be used for direct recruitment abroad, it should primarily be focused on awarding scholarships to teachers responsible for teacher training, in order to achieve a multiplying effect."
+      },
+      {
+        "para_number": 42,
+        "para": "29. La coopération en matière de formation et de perfectionnement des professeurs du second degré devrait s’exercer au niveau bilatéral, régional — 179 — et multilatéral. Les organisations internationales, et en particulier l’Unesco, ainsi que les autres institutions et organes du système des Nations Unies qui s’intéressent à la formation du personnel enseignant, devraient accroître leur aide dans ce domaine. Les organisations non gouvernementales, les organismes professionnels, les associations bénévoles et les fondations privées devraient également être invités à poursuivre leur utile activité en vue de participer plus efficacement encore à la formation des professeurs et de ceux qui les préparent.",
+        "tags": [
+          "T_PDEV",
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV and POL_INTCOOP are selected because the paragraph focuses on professional development of teachers (T_PDEV) and international cooperation (POL_INTCOOP). Related paragraphs: 43 (supporting) discusses international collaboration in teacher training, aligning with POL_INTCOOP. 45 (supporting) mentions UNESCO's documentation role, reinforcing assistance in teacher training. 46 (complemental) addresses dissemination of recommendations, adding context to implementation. 47 (supporting) involves UNESCO facilitating national implementation, directly tied to the target's call for international cooperation.",
+        "matched_pars": {
+          "43": [
+            "supporting"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ]
+        },
+        "para_en": "29. Cooperation in the training and professional development of secondary school teachers should take place at bilateral, regional, and multilateral levels. International organizations, particularly UNESCO, as well as other institutions and bodies within the United Nations system concerned with teacher training, should increase their assistance in this area. Non-governmental organizations, professional bodies, voluntary associations, and private foundations should also be invited to continue their valuable work in order to contribute more effectively to the training of teachers and their trainers."
+      },
+      {
+        "para_number": 43,
+        "para": "30. Des cours et des séminaires de caractère international, portant sur les disciplines dont le contenu et la didactique évoluent rapidement, devraient être organisés. Les participants devraient être choisis en raison de leur expérience en matière de formation du personnel enseignant, expérience dont ils feraient profiter leurs collègues. Ils seraient ainsi préparés à diriger des cours de perfectionnement dans leurs pays respectifs. Des mesures devraient être prises sur le plan international en vue de faciliter les échanges de professeurs et la diffusion des idées, de l’information et de la documentation en matière de formation et de perfectionnement des professeurs. Il conviendrait d’encourager la collaboration internationale entre les écoles normales supérieures de différents pays afin de promouvoir la compréhension internationale, d’ouvrir largement aux pays les moins favorisés l’accès aux institutions d’autres pays, et d’assurer un niveau élevé de compétence professionnelle.",
+        "tags": [
+          "POL_INTCOOP",
+          "T_PDEV",
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation between schools), T_PDEV (teacher professional development through training), and CUR_CONTENT (curriculum with evolving disciplines) are directly supported. Paragraph 47 modifies the target's recommendation by specifying national/regional implementation, while 48 adds conditions for adapting the recommendation to local contexts.",
+        "matched_pars": {
+          "47": [
+            "modifying"
+          ],
+          "48": [
+            "modifying"
+          ]
+        },
+        "para_en": "30. International courses and seminars should be organized on disciplines whose content and didactics are evolving rapidly. Participants should be selected based on their experience in teacher training, which they would share with their colleagues. This would prepare them to lead in-service training courses in their respective countries. Measures should be taken at the international level to facilitate the exchange of teachers and the dissemination of ideas, information, and documentation related to teacher training and professional development. International collaboration between higher normal schools of different countries should be encouraged to promote international understanding, to provide broad access for less advantaged countries to the institutions of other countries, and to ensure a high level of professional competence."
+      },
+      {
+        "para_number": 44,
+        "para": "31. L’Unesco et le BIE sont invités à organiser des recherches sur le problème de la pénurie de personnel enseignant du second degré dans les pays où elle a déjà sévi et à proposer des solutions qui tiennent compte de l’expérience acquise.",
+        "tags": [
+          "T_SUPP"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on researching teacher shortages (T_SUPP). Paragraph 45 complements by expanding on UNESCO's role in documentation. Paragraph 46 complements implementation efforts. Paragraph 48 modifies with adaptation considerations. Paragraph 49 supports through follow-up actions. All relations meet confidence thresholds.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "modifying"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "31. UNESCO and the IBE are invited to conduct research on the issue of the shortage of secondary school teaching staff in countries where it has already occurred and to propose solutions that take into account the experience gained."
+      },
+      {
+        "para_number": 45,
+        "para": "32. Les organisations internationales compétentes, notamment l’Unesco, devraient être invitées à entreprendre un vaste effort de documentation, d’information et de publication sur les problèmes rencontrés, les études faites, les solutions adoptées et les mesures prises au sujet de la pénurie de professeurs du second degré.",
+        "tags": [
+          "T_SUPP",
+          "ACT_IO",
+          "ISC_23"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (teacher shortages) and ACT_IO (UNESCO involvement) are directly mentioned. ISC_23 (secondary education) is specified in the text. Related paragraphs discuss dissemination (46), UNESCO's role in implementation (47), contextual adaptation (48), and data collection (49), all connected to the target's focus on teacher shortages and international collaboration.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "32. Competent international organizations, notably UNESCO, should be invited to undertake a comprehensive effort of documentation, information dissemination, and publication regarding the issues encountered, studies conducted, solutions adopted, and measures taken concerning the shortage of secondary school teachers."
+      },
+      {
+        "para_number": 46,
+        "para": "33. La présente recommandation visant à trouver des solutions au grave problème de la pénurie de professeurs du second degré, il importe que son texte fasse l’objet d’une large diffusion de la part des ministères de l’instruction publique et des autorités scolaires du degré d’enseignement le plus directement intéressé. Les centres de documentation pédagogique, les associations internationales et nationales de maîtres et de parents, la presse pédagogique, tant officielle que privée, devraient jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant et des universités, ainsi que du grand public.",
+        "tags": [
+          "T_SUPP",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags T_SUPP (Teacher supply and shortages) and ACT_EDUC (Stakeholder focus) are selected because the paragraph directly addresses teacher shortages and involves multiple stakeholders in dissemination. Para 47 (complemental) expands on implementation mechanisms, while para 48 (modifying) specifies adaptation to local conditions.",
+        "matched_pars": {
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "modifying"
+          ]
+        },
+        "para_en": "33. This recommendation, aimed at finding solutions to the serious problem of the shortage of secondary school teachers, should be widely disseminated by the ministries of public education and the educational authorities of the most directly concerned level of instruction. Educational resource centers, international and national associations of teachers and parents, as well as both official and private educational press, should play a significant role in disseminating this recommendation to the relevant services, administrative and teaching staff, universities, and the general public."
+      },
+      {
+        "para_number": 47,
+        "para": "34. L’Unesco et les autres organisations internationales compétentes sont invitées à faciliter, avec la collaboration des ministères des pays intéressés, l’examen de la présente recommandation à l’échelon national ou régional en vue de son application conformément aux caractéristiques de chaque région. — 180 —",
+        "tags": [
+          "POL_INTCOOP",
+          "LAW_INTER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation) and LAW_INTER (legal frameworks) are selected because the paragraph emphasizes collaboration with international organizations and ministries for implementing a recommendation, which involves both partnership and legal implementation. Para 48 complements by detailing national-level examination of legal/cultural conditions, while para 49 modifies by specifying a concrete action (questionnaire) to facilitate implementation.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "modifying"
+          ]
+        },
+        "para_en": "34. UNESCO and other competent international organizations are invited to facilitate, in collaboration with the ministries of the countries concerned, the review of this recommendation at the national or regional level with a view to its implementation in accordance with the characteristics of each region."
+      },
+      {
+        "para_number": 48,
+        "para": "35. Il conviendrait que les ministères de l’instruction publique et les autres autorités compétentes examinent dès maintenant la présente recommandation par rapport à l’état de droit et de fait, et aux conditions ethniques et culturelles existant dans leurs pays respectifs, afin de pouvoir faire preuve d’imagination créatrice dans la mise en œuvre de ses diverses dispositions, là où elles ne sont pas encore appliquées et de les adapter dans la mesure nécessaire aux diverses situations.",
+        "tags": [
+          "LAW_IMPLEM",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses implementation of recommendations (LAW_IMPLEM) and examination of legal/factual contexts (LAW_REG). Paragraph 49 provides a specific implementation mechanism (questionnaire) related to the same recommendation, forming a complemental relationship.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "35. It would be appropriate for the ministries of public education and other competent authorities to examine this recommendation now in relation to the legal and factual situation, as well as the ethnic and cultural conditions existing in their respective countries, in order to demonstrate creative imagination in the implementation of its various provisions where they have not yet been applied, and to adapt them as necessary to the different circumstances."
+      },
+      {
+        "para_number": 49,
+        "para": "36. Etant donné l’urgence du problème considéré dans la présente recommandation, l’Unesco et le BLE sont invités à adresser aux ministères de l’instruction publique, avant la fin de l’année 1969, un questionnaire leur demandant de décrire les mesures prises en vue d’appliquer les dispositions de la présente recommandation dans leurs pays respectifs.",
+        "tags": [
+          "SYST_RESEAR"
+        ],
+        "type": "operative",
+        "think": "The paragraph describes UNESCO and IBE sending a questionnaire to ministries of education to collect data on implementation of a recommendation. This directly relates to 'Education system monitoring & evaluation | Research and surveys' (SYST_RESEAR) as it involves data collection through surveys. No other paragraphs are provided for relation analysis.",
+        "matched_pars": {},
+        "para_en": "36. Given the urgency of the issue addressed in this recommendation, UNESCO and the IBE are invited to send a questionnaire to the ministries of public education, before the end of 1969, requesting them to describe the measures taken to implement the provisions of this recommendation in their respective countries."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l’instruction publique, Convoquée à Genève par l’Organisation des Nations Unies pour l’éducation, la science et la culture et par le Bureau international d’Education, et s’y étant réunie le six juillet mil neuf cent soixante-sept, en sa trentième session, adopte le quatorze juillet mil neuf cent soixante-sept la recommandation suivante : La Conférence, Considérant le rôle de l’enseignement du second degré dans la mise en œuvre des principes définis dans la Déclaration universelle des droits de l’homme (article 26), la Convention et la Recommandation concernant la lutte contre la discrimination dans le domaine de l’enseignement (articles 4 et 5a) et le Pacte international relatif aux droits économiques, sociaux et culturels (article 13), Considérant que l’enseignement secondaire doit simultanément apporter des solutions à des problèmes considérablement plus complexes et plus nombreux que ceux qui se posaient jusqu’ici, par exemple: — l’évolution continue du rôle et des objectifs de cet enseignement du point de vue social, pédagogique et professionnel; — l’augmentation constante des effectifs due à la croissance démographique actuelle, à un plus large accès à l’éducation et à d’autres facteurs d’ordre social, économique, culturel et politique; — la nécessité de reviser et de mettre à jour le contenu de l’enseignement; — la nécessité pressante de reviser les méthodes d’enseignement à la lumière des connaissances nouvelles, des techniques nouvelles et des nouvelles exigences sociales et économiques; — le rôle accru de l’orientation scolaire dans l’enseignement secondaire, Considérant qu’il est nécessaire de concevoir et de prendre des mesures appropriées pour assurer le progrès de l’éducation dans les pays en voie de développement,  Considérant que l’enseignement secondaire est un facteur essentiel du développement de la personnalité humaine et de la société moderne, Considérant que la pénurie de personnel enseignant secondaire affecte plus particulièrement les pays où l’accroissement des moyens de formation du personnel n’a pu suivre le rythme d’expansion de l’enseignement secondaire, Considérant que la pénurie de professeurs est plus aiguë dans certaines disciplines que dans d’autres, Considérant qu’il est nécessaire d’assurer la formation de professeurs qualifiés en nombre suffisant, Considérant que la tendance croissante à l’augmentation des effectifs rend nécessaire l’établissement de mécanismes de prévision et de planification pour le développement de l’enseignement secondaire, Considérant que les transformations rapides du monde accroissent les responsabilités des enseignants et exigent d’eux des qualifications toujours plus hautes, tant sur le plan des connaissances scientifiques et techniques que sur celui des méthodes pédagogiques; qu’en conséquence, la situation de l’enseignement ne saurait être admise comme une position « statique », Convaincue que la mise en œuvre de la Recommandation concernant la condition du personnel enseignant adoptée par la Conférence intergouvernementale spéciale organisée par l’Unesco en septembre-octobre 1966, des recommandations concernant la formation et la situation de ce personnel approuvées depuis 1935 par la Conférence internationale de l’instruction publique — organisée jusqu’en 1939 par le Bureau international d’Education et après cette date conjointement par le Bureau international d’Education et l’Unesco — et des conventions et recommandations pertinentes adoptées par l’Organisation internationale du Travail, contribuerait grandement à pallier la pénurie de personnel enseignant du second degré, Considérant, en outre, qu’il appartient aux différents pays d’apporter à ces problèmes communs des solutions qui tiennent compte de leur situation propre, Soumet aux Ministères de l’instruction publique des différents pays la présente recommandation: Etude des causes de la pénurie de maîtres secondaires 1. Les mesures prises pour remédier à la pénurie de maîtres secondaires devraient être fondées sur l’analyse objective des causes qui sont à l’origine de cette pénurie. Les informations recueillies sur le plan national peuvent être complétées par une étude comparative des conditions scolaires sociales, économiques et psychologiques qui tendent à aggraver ou à atténuer la pénurie dans d’autres pays. 2. Les services de planification doivent jouer un rôle important dans l’étude des causes de la pénurie et des moyens propres à y remédier. Lorsque ces services n’existent pas, il convient d’accorder la priorité à leur création. — 175 — 3. Les incidences de l’augmentation du taux de la natalité, de l’immigration, des migrations vers les régions urbaines et d’une carte scolaire défectueuse, notamment quant à la répartition des établissements entre régions urbaines et rurales, sur les effectifs du second degré et la pénurie d’enseignants qui en résulte devraient être étudiées. 4. Il convient d’accorder une importance particulière à certaines caractéristiques nouvelles de l’enseignement secondaire qui affectent la pénurie de professeurs du second degré. On peut citer à cet égard le besoin de diversification et de spécialisation, les modifications apportées aux programmes en vue d’assurer de nouveaux types d’enseignement, les exigences de la science moderne et de la technologie, la nécessité de stimuler l’étude des langues modernes et des sujets littéraires, le souci de répondre aux besoins en main-d’œuvre du développement économique et social et la nouvelle conception de l’orientation scolaire qui expose l’élève à toute une gamme de disciplines intellectuelles et pratiques. 5. Les travaux de planification doivent obligatoirement tenir compte de tous les facteurs qui commandent les besoins en maîtres, notamment l’évolution démographique, la prolongation de la scolarité obligatoire, l’accroissement des taux de scolarisation et l’amélioration des conditions dans lesquelles est dispensé l’enseignement. 6. Les autorités scolaires devraient déterminer la mesure dans laquelle les possibilités accrues offertes aux adultes pour poursuivre leur éducation ou assurer leur formation professionnelle contribuent à amplifier les besoins en personnel enseignant secondaire, notamment lorsque des campagnes d’alphabétisation ont été menées avec succès. 7. Il faudrait s’efforcer de distinguer les causes de la pénurie à court terme de celles de la pénurie à long terme; les premières appellent des mesures d’urgence et les secondes doivent être traitées par des mesures de caractère permanent. 8. Il importe d’examiner dans quelle mesure et par quels moyens les institutions universitaires peuvent contribuer à former en nombre suffisant des professeurs du second degré de la qualité requise. 9. Compte tenu du rapport entre l’offre et la demande en personnel enseignant du second degré, il convient d’envisager sérieusement l’élaboration de plans tendant à assurer une meilleure utilisation des professeurs qualifiés et une efficacité accrue de leur enseignement. 10. Il conviendrait d’effectuer une étude sur la dimension optimale à donner aux établissements d’enseignement secondaire pour utiliser au mieux le personnel enseignant. Comme, malheureusement, il sera impossible pendant un certain temps d’éviter les classes surchargées, il serait souhaitable qu’une telle étude porte également sur l’utilisation de nouvelles techniques d’enseignement et de direction de la classe applicables dans de telles circonstances. 11. Il conviendrait de déterminer la mesure* dans laquelle l’insuffisance du nombre des candidats à l’enseignement secondaire est imputable au fait que d’autres professions, exigeant une formation et des capacités intellectuelles — 176 — de même niveau, offrent une meilleure rémunération et un statut social plus élevé. La dignité morale et humaine de la fonction enseignante devrait également être mise en lumière. Mesures propres à favoriser le recrutement DE MAÎTRES SECONDAIRES 12. Les autorités devraient reconnaître que la mise en œuvre des principes et des normes définis dans la Recommandation concernant la condition du personnel enseignant, notamment en ce qui concerne sa situation économique et sociale, constitue un moyen essentiel de remédier à la pénurie d’enseignants qualifiés. 13. Conformément aux dispositions de la Recommandation précitée, il conviendrait de veiller non seulement à ce que les traitements et les prestations en matière de sécurité sociale des enseignants du second degré soutiennent avantageusement la comparaison avec ceux d’autres professions qui exigent des qualifications analogues et équivalentes, mais également à ce que leurs conditions de vie, de travail et d’emploi ainsi que leurs perspectives de carrière soient de nature à attirer à la profession enseignante et à y retenir un nombre approprié de personnes pleinement qualifiées. 14. Les conditions de service de la profession enseignante devraient être assez avantageuses pour permettre aux enseignants ayant des charges de famille de continuer leur service et à ceux qui auraient été amenés à interrompre leur activité pédagogique de la reprendre ultérieurement, à plein temps ou à temps partiel, sans préjudice financier ou autre. Les obligations de service du personnel féminin ayant des charges de famille devraient être aménagées de manière à lui permettre de poursuivre son activité pédagogique. Il conviendrait d’autre part d’autoriser ce même personnel, s’il est amené à interrompre son activité, à la reprendre ultérieurement. 15. Si l’intérêt public l’exige, il serait souhaitable d’encourager les enseignants qui ont atteint l’âge de la retraite à continuer d’assurer leur service à temps plein ou à temps partiel, s’ils y sont aptes physiquement et intellectuellement, et en particulier à conseiller les jeunes enseignants à la lumière de leur expérience. 16. Pour faire face à des besoins urgents, il conviendrait d’envisager la possibilité de recourir, à titre temporaire ou à temps partiel, à des spécialistes d’autres professions, pour enseigner des matières en rapport avec leur formation, en attendant que soit formé le personnel dûment qualifié; il est souhaitable que des cours de brève durée de méthodologie et de psycho-pédagogie soient organisés à leur intention. 17. Dans les pays où les mesures ci-dessus ne suffisent pas à résoudre le problème de la pénurie, il serait indiqué de recourir à d’autres mesures d’urgence, de caractère également provisoire, telles que l’utilisation d’étudiants des écoles normales supérieures et d’autres établissements d’enseignement supérieur, auxquels on donnerait la préparation pédagogique et le perfectionnement indispensables. — 177 — 18. II conviendrait d’assurer un recrutement équilibré du personnel enseignant des deux sexes. 19. Le recrutement des futurs candidats enseignants du second degré pourrait être encouragé par des mesures appropriées, telles que causeries à l’intention des élèves des dernières années de l’enseignement secondaire sur le rôle et les perspectives ouvertes à la profession enseignante; rencontres et entretiens avec des maîtres chevronnés du second degré capables d’éveiller chez les étudiants un intérêt pour l’enseignement du second degré; visites d’écoles secondaires bien organisées. A cet égard, les professeurs d’écoles secondaires, par leur exemple, la qualité de leur enseignement et leur prestige, peuvent jouer un rôle important pour encourager les jeunes à choisir la profession enseignante. D’autre part, les professeurs des facultés des lettres et des sciences pourraient être priés d’attirer l’attention des étudiants sur l’importance de l’enseignement secondaire et d’encourager ces derniers à se spécialiser dans les disciplines où les besoins sont les plus grands. 20. Les autorités devraient reconnaître le rôle essentiel joué par les professeurs du second degré et la valeur de leur contribution au développement de la personnalité humaine et de la société moderne. De plus, les autorités devraient encourager le personnel enseignant du second degré à suggérer des mesures en vue d’améliorer sa condition et à participer activement à la vie sociale et publique. La formation et le perfectionnement du personnel ENSEIGNANT SECONDAIRE DANS LEURS RAPPORTS AVEC LA PÉNURIE 21. Il y aurait lieu de renforcer les facultés de pédagogie des universités et les écoles normales supérieures existantes, et d’en créer de nouvelles, en vue de former des professeurs en nombre suffisant et d’assurer une formation spécialisée dans les disciplines les plus affectées par la pénurie. Un appareil permanent pour éliminer la pénurie de personnel enseignant secondaire de façon durable serait ainsi mis en place. 22. Quelles que soient les mesures prises en vue de la formation d’urgence du personnel enseignant, il est essentiel de maintenir un niveau satisfaisant de culture générale, de connaissances spécialisées et de préparation pédagogique, tant théorique que pratique. De plus, il importe de prévoir le perfectionnement du personnel ainsi formé, afin de renforcer sa formation de base et de le familiariser avec les progrès les plus récents des méthodes et des techniques d’enseignement. 23. Il conviendrait d’accorder une attention spéciale à la formation des maîtres chargés des matières techniques dans l’enseignement secondaire, et de lui consacrer à la fois des sessions de courte durée et des cycles complets de cours. 24. Certains expédients destinés à pallier la pénurie de personnel enseignant du second degré (tels que des classes à effectifs excessifs ou l’augmentation déraisonnable des heures de cours demandés aux enseignants) étant incompatibles avec les buts et objectifs de l’enseignement et préjudiciables autant aux élèves qu’aux maîtres, les autorités compétentes devraient, de toute urgence, prendre toutes les dispositions pratiques susceptibles de remédier à la situation qui rend ces mesures nécessaires. 25. Des moyens de formation et de perfectionnement devraient être prévus tant pour assurer la formation d’enseignants qualifiés que pour la préparation à l’enseignement secondaire de spécialistes d’autres professions. Des établissements supérieurs qui dispensent une formation agricole et commerciale et des cours d’ingénieurs devraient également offrir à leurs étudiants une formation pédagogique, ou les encourager à en acquérir une, afin de mettre un personnel plus nombreux à la disposition des écoles et des classes secondaires spécialisées. Les institutions universitaires devraient fournir aux enseignants des établissements secondaires la possibilité de contacts intellectuels à l’occasion des cours de perfectionnement. L’utilisation des cours par correspondance et des cours du soir devrait être étudiée, tant pour la formation de base que pour le perfectionnement. 26. Les enseignants du second degré chargés de l’enseignement d’une seule discipline devraient, dans le cas de pénurie, être prêts à dispenser l'enseignement de disciplines connexes. Il conviendrait que les établissements supérieurs de formation des maîtres s’appliquent à donner à leurs étudiants une formation polyvalente afin d’accroître leur efficacité. 27. Les auxiliaires modernes de l’enseignement, tels que la radio et la télévision scolaires et l’enseignement programmé, sans pouvoir remplacer le maître, peuvent contribuer à améliorer la qualité de l’éducation. Combinés avec de nouvelles formes d’organisation, telles que l’enseignement par équipes, ces auxiliaires peuvent aider les professeurs les plus compétents à s’occuper d’un plus grand nombre d’élèves. Il est essentiel que les dispositions prises pour utiliser les moyens de la technologie moderne s’inspirent d’une saine doctrine et de recherches minutieuses et soient soumises à l’épreuve d’études-pilotes, qui permettront de déterminer les modalités de leur utilisation optimale à une grande échelle. L’usage de ces méthodes devrait être en outre étendu à la formation du personnel enseignant et l’initiation à leur emploi inscrite au programme des écoles normales. Collaboration internationale 28. Dans l’intérêt de la coopération internationale, les pays les plus avancés devraient fournir une assistance technique et financière accrue aux pays en voie de développement en vue de contribuer à la création d’écoles normales supérieures, de facultés de pédagogie des universités et d’écoles normales de l’enseignement technique, notamment dans les pays qui ne disposent pas encore de telles institutions. L’assistance technique devrait également viser à renforcer l’action régionale, notamment pour la planification et l’établissement de telles institutions. Bien que l’assistance puisse être utilisée pour le recrutement direct à l’étranger, il y aurait lieu de la concentrer sur l’attribution de bourses destinées à des professeurs chargés de la formation des maîtres, afin d’obtenir un effet multiplicateur. 29. La coopération en matière de formation et de perfectionnement des professeurs du second degré devrait s’exercer au niveau bilatéral, régional — 179 — et multilatéral. Les organisations internationales, et en particulier l’Unesco, ainsi que les autres institutions et organes du système des Nations Unies qui s’intéressent à la formation du personnel enseignant, devraient accroître leur aide dans ce domaine. Les organisations non gouvernementales, les organismes professionnels, les associations bénévoles et les fondations privées devraient également être invités à poursuivre leur utile activité en vue de participer plus efficacement encore à la formation des professeurs et de ceux qui les préparent. 30. Des cours et des séminaires de caractère international, portant sur les disciplines dont le contenu et la didactique évoluent rapidement, devraient être organisés. Les participants devraient être choisis en raison de leur expérience en matière de formation du personnel enseignant, expérience dont ils feraient profiter leurs collègues. Ils seraient ainsi préparés à diriger des cours de perfectionnement dans leurs pays respectifs. Des mesures devraient être prises sur le plan international en vue de faciliter les échanges de professeurs et la diffusion des idées, de l’information et de la documentation en matière de formation et de perfectionnement des professeurs. Il conviendrait d’encourager la collaboration internationale entre les écoles normales supérieures de différents pays afin de promouvoir la compréhension internationale, d’ouvrir largement aux pays les moins favorisés l’accès aux institutions d’autres pays, et d’assurer un niveau élevé de compétence professionnelle. 31. L’Unesco et le BIE sont invités à organiser des recherches sur le problème de la pénurie de personnel enseignant du second degré dans les pays où elle a déjà sévi et à proposer des solutions qui tiennent compte de l’expérience acquise. 32. Les organisations internationales compétentes, notamment l’Unesco, devraient être invitées à entreprendre un vaste effort de documentation, d’information et de publication sur les problèmes rencontrés, les études faites, les solutions adoptées et les mesures prises au sujet de la pénurie de professeurs du second degré. Application de la présente recommandation 33. La présente recommandation visant à trouver des solutions au grave problème de la pénurie de professeurs du second degré, il importe que son texte fasse l’objet d’une large diffusion de la part des ministères de l’instruction publique et des autorités scolaires du degré d’enseignement le plus directement intéressé. Les centres de documentation pédagogique, les associations internationales et nationales de maîtres et de parents, la presse pédagogique, tant officielle que privée, devraient jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant et des universités, ainsi que du grand public. 34. L’Unesco et les autres organisations internationales compétentes sont invitées à faciliter, avec la collaboration des ministères des pays intéressés, l’examen de la présente recommandation à l’échelon national ou régional en vue de son application conformément aux caractéristiques de chaque région. — 180 — 35. Il conviendrait que les ministères de l’instruction publique et les autres autorités compétentes examinent dès maintenant la présente recommandation par rapport à l’état de droit et de fait, et aux conditions ethniques et culturelles existant dans leurs pays respectifs, afin de pouvoir faire preuve d’imagination créatrice dans la mise en œuvre de ses diverses dispositions, là où elles ne sont pas encore appliquées et de les adapter dans la mesure nécessaire aux diverses situations. 36. Etant donné l’urgence du problème considéré dans la présente recommandation, l’Unesco et le BLE sont invités à adresser aux ministères de l’instruction publique, avant la fin de l’année 1969, un questionnaire leur demandant de décrire les mesures prises en vue d’appliquer les dispositions de la présente recommandation dans leurs pays respectifs."
+  }
+}

@@ -6,9 +6,59 @@
     "structure": {
       "doc_title": "ICPE-25-1962_RES1-FR",
       "nb_paras": 48,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "operative_para": [
+        1,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French UN document and distinguish between preambular and operative paragraphs based on specific rules. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs typically start with certain phrases like \"Considérant\", \"Rappelant\", etc., and they provide context without actions. Operative ones have actions, like \"Décide\", \"Demande\", and are often numbered.\n\nLooking at the input, the first paragraph is numbered 1. in French, which starts with \"La Conférence internationale...\". The next paragraphs start with \"Considérant\" from 2 onwards. According to the rules, numbered paragraphs (like 1., I., II.) are operative. So paragraph 1 is operative. \n\nThen, paragraphs 2-9 all start with \"Considérant\", which is a preambular marker. They also end with commas and don't have actions. So these should be preambular. \n\nParagraph 10 starts with \"Soumet aux Ministères...\" which includes an action (submitting a recommendation), so it's operative. Then paragraphs 11-48 are numbered with 1., 2., etc., which are operative. \n\nWait, but the user mentioned that after the first operative, all following are operative. So once we hit the first operative (paragraph 1), all subsequent numbered paragraphs are operative. However, paragraphs 10 is not numbered but starts with an action. So maybe the rule is that any paragraph starting with an action verb is operative, and if it's numbered, it's definitely operative. \n\nBut the key rule here is that numbered paragraphs (like 1., I., II.) are operative. So paragraphs 1, 10, 11-48 are operative. Wait, paragraph 10 is not numbered but starts with \"Soumet\", which is an action. So maybe the main rule is that numbered paragraphs are operative, and others are preambular if they start with \"Considérant\" etc. \n\nWait, the user's important note says: Numbered paragraphs (1., I., II.) → operative. Usually after first operative → all following are operative. So if paragraph 1 is numbered and operative, then all subsequent numbered paragraphs are operative. But paragraph 10 is not numbered but starts with an action. So maybe the main rule is that any paragraph starting with an action verb (like \"Soumet\", \"Décide\", etc.) is operative, and if it's numbered, it's definitely operative. \n\nBut the user's instruction says to apply one consistent rule. The key is that numbered paragraphs are operative. So paragraphs 1, 11-48 (since they are numbered) are operative. Then paragraphs 2-9 start with \"Considérant\" and are preambular. Paragraph 10 is not numbered but starts with an action, so it's operative. \n\nWait, but the user's note says that once the first operative is found (which is paragraph 1), all following are operative. But paragraph 10 is not numbered. However, the user's rule says that numbered paragraphs are operative. So maybe the main rule is that numbered paragraphs are operative, and others are preambular if they start with \"Considérant\" etc. \n\nSo the preambular paragraphs are 2-9, and operative are 1,10,11-48. Let me check each paragraph:\n\n1. Numbered (1.) → operative\n2-9: start with \"Considérant\" → preambular\n10: starts with \"Soumet\" (action) → operative\n11-48: numbered (1., 2., etc.) → operative\n\nSo the preambular are 2-9, and operative are 1,10,11-48. That's 8 preambular and 38 operative. Let me count the paragraphs. The input has 48 paragraphs. Let me check:\n\nParagraphs 1 to 48. So 1 is operative, 2-9 (8) preambular, 10 is operative, 11-48 (38) operative. Total 1+8+38=47? Wait, 48 paragraphs. Let me recount:\n\n1. Operative\n2-9: 8 preambular\n10. Operative\n11-48: 38 operative (since 48-10=38). So total 1+8+38=47? Wait, 1, 10, 11-48 is 1+1+38=40? Wait, maybe I'm miscalculating. Let me list all:\n\nOperative: 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48. That's 47 paragraphs. Wait, but the input has 48 paragraphs. Let me check again. The input lists 48 paragraphs, numbered 1 to 48. So 1 is operative, 2-9 (8) preambular, 10 is operative, 11-48 (38) operative. So total 1+8+38=47? Wait, 1, 10, and 11-48 is 1+1+38=40? No, 11-48 is 38 paragraphs (48-10=38). So 1 (operative), 10 (operative), 11-48 (38 operative) → total 1+1+38=40. But there are 48 paragraphs. So where are the missing ones? Wait, maybe I miscounted. Let me check the input again. The input has 48 paragraphs, each numbered from 1 to 48. So 1 is operative, 2-9 (8) preambular, 10 is operative, 11-48 (38) operative. That's 1+8+38=47. Wait, 1 to 48 is 48 paragraphs. So 1 (operative), 2-9 (8 preambular), 10 (operative), 11-48 (38 operative). That's 1+8+1+38=48. Yes. So the preambular are 2-9 (8 paragraphs), and operative are 1,10,11-48 (47 paragraphs). \n\nSo the JSON should have preambular_para as [2,3,4,5,6,7,8,9] and operative_para as [1,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48]. \n\nThe rule is that numbered paragraphs (like 1., I., II.) are operative. The first operative is paragraph 1, so all following are operative. But paragraph 10 is not numbered but starts with an action, so it's operative. The main rule is that numbered paragraphs are operative, and any paragraph starting with an action verb (like \"Soumet\") is operative. But the user's instruction says to apply one consistent rule. The key is that numbered paragraphs are operative, and after the first operative (which is numbered), all subsequent are operative. So the rule is: numbered paragraphs are operative, and any paragraph after the first operative is also operative. But in this case, paragraph 10 is not numbered but is operative because it starts with an action. However, the user's note says that once the first operative is found (which is paragraph 1), all following are operative. So even if a paragraph is not numbered, if it comes after the first operative, it's operative. But the user's instruction says to apply one consistent rule. The main rule is that numbered paragraphs are operative. So the answer should be based on that. So the preambular are those starting with \"Considérant\" and not numbered, and operative are numbered and those after the first operative. But the user's note says that once the first operative is found (which is paragraph 1), all following are operative. So even if a paragraph is not numbered, if it comes after the first operative, it's operative. But the user's instruction says to apply one consistent rule. The key is that numbered paragraphs are operative. So the answer is: preambular are 2-9, operative are 1,10,11-48. The rule is that numbered paragraphs are operative, and after the first operative (paragraph 1), all following are operative. But the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So the main rule is that numbered paragraphs are operative, and any paragraph after the first operative is also operative. But in this case, paragraph 10 is not numbered but is operative because it starts with an action. However, the user's instruction says to apply one consistent rule. The most consistent rule is that numbered paragraphs are operative. So the answer is as above."
     }
   },
   "body": {
@@ -20,7 +70,7 @@
           "M_FORM",
           "O_G"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_FORM (Formal education) and O_G (General academic orientation) are selected because the paragraph describes a formal international conference on public education and its recommendation, which aligns with formal education structures and general academic orientation. Related paragraphs: 2 (supports teacher training requirements), 3 (supports contextual background on education complexity), 8 (references prior recommendation on teacher training), 10 (complements the recommendation submission process), 26 (complements structured educational programs), and 46 (modifies with implementation details). Confidence scores reflect the strength of semantic connections.",
         "matched_pars": {
           "2": [
@@ -52,7 +102,7 @@
           "ACT_EDUC",
           "POP_ALL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_STAT (legal rights of teachers), ACT_EDUC (focus on educators), and POP_ALL (all learners) are selected because the paragraph emphasizes teachers' qualifications as a right for all children. Related paragraphs address professional development (4, 18), systemic support (6), and specific training methods (32, 44), which complement or support the core idea of ensuring qualified teachers through ongoing education.",
         "matched_pars": {
           "3": [
@@ -83,7 +133,7 @@
           "O_G",
           "PEDAG_METHO"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags O_G (General academic) and PEDAG_METHO (Teaching methods and approaches) are selected because the paragraph emphasizes the evolution of pedagogical theories/methods and broader cultural/general education contexts. Relations are identified based on semantic overlap: paragraphs 4,5,6,18,23,29 address professional development, training, and pedagogical updates, which align with the target's focus on evolving educational responsibilities and methods.",
         "matched_pars": {
           "4": [
@@ -114,7 +164,7 @@
           "T_PDEV",
           "T_QUAL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_PDEV and T_QUAL are selected because the paragraph emphasizes professional development (enhancing pedagogical training, broadening horizons) and qualification acquisition. Related paragraphs address training needs (5, 6, 18, 23, 39, 24) with varying relation types based on alignment with the target's focus on lifelong learning and qualification enhancement.",
         "matched_pars": {
           "5": [
@@ -147,7 +197,7 @@
           "T_INI",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_SUPP (teacher supply shortages) and T_RECR (recruitment) directly address the recruitment difficulties mentioned. T_INI (initial training) and T_PDEV (professional development) align with the need for training. Related paragraphs 6, 17, 18, 22 support the argument about professional development and training urgency. Paragraphs 7 and 23 provide complementary context about access challenges and in-service training.",
         "matched_pars": {
           "6": [
@@ -178,7 +228,7 @@
           "T_PDEV",
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_PDEV and ACT_EDUC are selected because the paragraph explicitly focuses on professional development (T_PDEV) and stakeholders including teachers (ACT_EDUC). Related paragraphs address complementary aspects (e.g., financial barriers, specific recommendations, collaboration mechanisms) or directly support the main idea of professional development through in-service training, higher education opportunities, and systematic programs.",
         "matched_pars": {
           "7": [
@@ -209,7 +259,7 @@
           "T_PDEV",
           "T_COND"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_PDEV and T_COND are selected because the paragraph focuses on professional development challenges (T_PDEV) and financial/material conditions affecting teachers (T_COND). Related paragraphs address in-service training (8), diverse solutions (9), balancing studies with work (24), practical training components (25), facilities for isolated teachers (33), and recognition of competence (39), all directly connected to professional development and working conditions.",
         "matched_pars": {
           "8": [
@@ -241,7 +291,7 @@
           "T_PDEV",
           "ISC_1"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_INI (initial training) and T_PDEV (professional development) are selected because the paragraph discusses both initial teacher training (Recommendation 36) and in-service training. ISC_1 (primary education) is relevant as the focus is on primary school teachers. Related paragraphs: 9 (complemental - diverse solutions for in-service training), 10 (supporting - the recommendation framework), 15 (complemental - stakeholder involvement), 23 (supporting - systematic training programs), 25 (complemental - practical training components), 44 (complemental - international training initiatives).",
         "matched_pars": {
           "9": [
@@ -272,7 +322,7 @@
           "T_OTHER",
           "PEDAG_OTHER"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags T_OTHER (Teachers | Teacher other) and PEDAG_OTHER (Pedagogy & assessment) are selected because the paragraph focuses on diverse solutions for in-service teacher training (T_OTHER) and pedagogical development (PEDAG_OTHER). Relations are identified with candidate paragraphs that discuss specific aspects of in-service training (11, 25), conditions for training (24), travel opportunities (32), and international resources (44). Confidence scores reflect the direct alignment of content and semantic connections.",
         "matched_pars": {
           "11": [
@@ -300,7 +350,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph involves submitting a recommendation to ministries of public instruction (policy action) and relates to education system reforms. All related paragraphs (11-13, 32, 46, 48) provide specific details about teacher professional development, implementation, and dissemination, which are complemental to the target paragraph's general recommendation.",
         "matched_pars": {
           "11": [
@@ -331,7 +381,7 @@
           "T_PDEV",
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and T_INI (Initial education and training) are selected because the paragraph emphasizes systematic professional development for both underprepared teachers (initial training) and qualified teachers (ongoing development). Related paragraphs provide complementary details on organizational structures (12), collaboration (13), stakeholder involvement (15), lifelong learning (18), systematic programs (23), and balancing studies with work (24). Confidence scores reflect the strength of semantic alignment.",
         "matched_pars": {
           "12": [
@@ -362,7 +412,7 @@
           "T_PDEV",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph discusses the organization of professional development within national education systems. Related paragraphs (13,14,28,32,44) address complementary aspects like teacher associations (13), private initiative support (14), correspondence courses (28), travel opportunities (32), and international training (44), all of which relate to professional development methods or stakeholders.",
         "matched_pars": {
           "13": [
@@ -390,7 +440,7 @@
           "ACT_EDUC",
           "ACT_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (teachers/educators) and ACT_OTHER (other stakeholders) are selected because the paragraph emphasizes collaboration with teachers' associations and other institutions. Relations are complemental as other paragraphs expand on collaborative frameworks, stakeholder involvement, and training methods.",
         "matched_pars": {
           "14": [
@@ -417,7 +467,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag T_PDEV (Teachers | Professional development) is selected because the paragraph explicitly mentions 'perfectionnement des maîtres primaires' (professional development of primary school teachers). Related paragraphs: 15 (complemental - expands on school authorities' role in training implementation), 19 (supporting - aligns with qualifications enhancing professional development), 25 (complemental - practical training components), 39 (supporting - recognition of competence from development), and 44 (complemental - international training as a contribution to development).",
         "matched_pars": {
           "15": [
@@ -445,7 +495,7 @@
           "T_PDEV",
           "T_EVAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and T_EVAL are selected because the paragraph emphasizes professional development (in-service training, coordination of stakeholders) and teacher evaluation (assessment of results). Related paragraphs provide complementary details (16, 25), supporting context (18, 39), or modifying conditions (24).",
         "matched_pars": {
           "16": [
@@ -473,7 +523,7 @@
           "T_QUAL",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_QUAL and T_PDEV are selected because the paragraph focuses on teacher qualifications (categories a-c) and professional development (in-service training). Related paragraphs address specific aspects of these categories (unqualified teachers, general knowledge improvement, additional qualifications) with clear semantic connections.",
         "matched_pars": {
           "17": [
@@ -504,7 +554,7 @@
           "T_SUPP",
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_SUPP (teacher supply shortages) and T_INI (initial training) are selected because the paragraph directly addresses the shortage of qualified teachers and the need for training. Related paragraphs 18, 22, 38, and 42 discuss complementary aspects of teacher training, systemic approaches, certification processes, and financial support for training, all of which align with the target paragraph's focus on addressing unqualified teachers through structured training programs.",
         "matched_pars": {
           "18": [
@@ -528,7 +578,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on continuous professional development for teachers (T_PDEV). Related paragraphs discuss complementary aspects like higher education opportunities (19), mandatory vs. optional PD (20), systematic in-service training (23), balancing studies with work (24), practical training components (25), and recognition of competence (39).",
         "matched_pars": {
           "19": [
@@ -559,7 +609,7 @@
           "T_PDEV",
           "T_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and T_QUAL are selected because the paragraph emphasizes enabling teachers for professional development (T_PDEV) and qualification/credentialing (T_QUAL). Related paragraphs provide complementary details about professional development conditions (20), method selection (21), balancing studies with work (24), facilitation for isolated teachers (33), competence recognition (39), and benefits for advanced qualifications (40).",
         "matched_pars": {
           "20": [
@@ -589,7 +639,7 @@
         "tags": [
           "M_NFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag 'M_NFORM' (Non-formal education) is selected because the paragraph discusses 'modalities of professional development,' which aligns with non-formal education's structured yet flexible approach. For relations: Para 21 complements by discussing beneficiary-specific factors; Para 34 supports by explicitly addressing the 'compulsory or optional' nature; Paras 36, 37, and 44 provide related logistical and facilitative aspects of professional development.",
         "matched_pars": {
           "21": [
@@ -617,7 +667,7 @@
           "T_PDEV",
           "ISC_1"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and ISC_1 are selected because the paragraph focuses on professional development methods for primary school teachers. Related paragraphs are identified based on thematic alignment: 23 (systematic training supports selection criteria), 30 (resources align with resource consideration), 44 (international courses support means of development), 22 (training for unqualified teachers as a related context), 24 (qualification improvements complement country-specific needs), and 39 (recognition of competence as an outcome).",
         "matched_pars": {
           "23": [
@@ -647,7 +697,7 @@
         "tags": [
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag 'T_INI' (Teachers | Initial education and training) is selected because the paragraph focuses on systematic training for unqualified teachers, which aligns with initial education. Paragraph 25 discusses practical components (internships) matching the target's mention of internships, making it complemental. Paragraph 38 addresses certification after training, supporting the target's goal of integrating unqualified teachers. Paragraph 42 directly links to establishing specialized institutions, another key point in the target paragraph.",
         "matched_pars": {
           "25": [
@@ -669,7 +719,7 @@
           "T_PDEV",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and CUR_IMPL (Curriculum implementation) are selected because the paragraph emphasizes systematic in-service training programs for teachers' pedagogical knowledge. Related paragraphs discuss complementary aspects of professional development (24, 25, 26, 28, 44) and outcomes (39). Relations are complemental (adding related methods/outcomes) or supporting (recognizing competence from PD).",
         "matched_pars": {
           "24": [
@@ -700,7 +750,7 @@
           "T_QUAL",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_QUAL and T_PDEV are selected because the paragraph focuses on teacher qualifications (T_QUAL) and professional development (T_PDEV) including reconciling additional studies with regular work. Related paragraphs (25, 26, 39, 40, 42, 44) discuss practical training components, structured programs, recognition of competence, benefits for advanced studies, financial cooperation, and international training opportunities—all complementing the target paragraph's focus on balancing professional development with teaching responsibilities.",
         "matched_pars": {
           "25": [
@@ -731,7 +781,7 @@
           "T_PDEV",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and CUR_IMPL (Curriculum implementation) are selected because the paragraph emphasizes practical components in teacher training (professional development) and the implementation of training programs (curriculum implementation). Related paragraphs discuss complementary methods (26, 27, 44), travel opportunities (32), and financial support (42) that align with the target's focus on practical training and its enhancement.",
         "matched_pars": {
           "26": [
@@ -759,7 +809,7 @@
           "CUR_IMPL",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_IMPL and CUR_ORG are selected because the paragraph discusses curriculum development methods (CUR_IMPL) and organizational activities like conferences and visits (CUR_ORG). Related paragraphs (27-44) address complementary professional development strategies (discussion groups, correspondence courses, resource centers, travel, training institutions, and international courses) which align with the target's focus on structured programs and supplementary activities.",
         "matched_pars": {
           "27": [
@@ -791,7 +841,7 @@
           "ACT_EDUC",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags PEDAG_LEARN (professional learning communities) and ACT_EDUC (teachers and educators) are directly supported by the mention of discussion/study groups for teachers. T_PDEV (professional development) is relevant as the groups aim to solve problems in their duties. Related paragraphs 28 (correspondence courses for professional development), 32 (travel for professional development), and 44 (international courses for in-service training) are complemental as they all address methods to enhance teacher professional growth.",
         "matched_pars": {
           "28": [
@@ -813,7 +863,7 @@
           "T_PDEV",
           "M_NFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and M_NFORM (Non-formal education) are selected because the paragraph emphasizes correspondence courses for teacher professional development, which aligns with non-formal learning modalities. Related paragraphs: 29 (complemental - resources for teachers), 30 (complemental - educational resources), 33 (complemental - facilities for professional development), 39 (supporting - recognition of competence from development), 44 (complemental - international training opportunities).",
         "matched_pars": {
           "29": [
@@ -841,7 +891,7 @@
           "CUR_CONTENT",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_CONTENT (educational/cultural materials) and T_PDEV (teacher access to resources) are directly supported. Para 30 (mobile libraries) complements distribution methods. Para 39 (recognition of competence) is supported by resource access. Para 44 (international training) complements professional development efforts.",
         "matched_pars": {
           "30": [
@@ -863,7 +913,7 @@
           "T_PDEV",
           "INFRA_TLM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and INFRA_TLM are selected because the paragraph focuses on professional development (T_PDEV) and infrastructure/resources like libraries (INFRA_TLM). Related paragraphs discuss complementary aspects of PD (32, 39, 44), facilities for PD (33), and media resources (31), all of which align with the target's emphasis on enabling PD through infrastructure and support mechanisms.",
         "matched_pars": {
           "31": [
@@ -894,7 +944,7 @@
           "Learning modality",
           "M_NFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags 'Learning modality' and 'M_NFORM' are selected because the paragraph discusses using media (record, tape recorder, cinema, etc.) as tools for education, which aligns with learning modality. 'M_NFORM' (Non-formal education) is included as the context implies supporting professional development through varied methods, which is a non-formal education approach. For relations: Para 32 (travel for professional development) is complemental (0.6) as it expands on supporting education methods. Para 33 (facilities for teachers) is complemental (0.7) as it relates to enabling educational tools. Para 34 (factors for facilities) is modifying (0.7) as it adds conditions to the target's approach. Para 36 (reimbursement) is complemental (0.6) as it supports implementation. Para 39 (recognition of competence) is complemental (0.7) as it addresses outcomes of using these methods.",
         "matched_pars": {
           "32": [
@@ -921,7 +971,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag T_PDEV is selected because the paragraph focuses on professional development through training institutions, travel, and financial cooperation. Related paragraphs: 33 (complemental - facilities for professional development), 34 (modifying - factors in determining facilities), 36 (supporting - travel expense reimbursement), 44 (complemental - international training facilities), and 39 (complemental - recognition of competence from development).",
         "matched_pars": {
           "33": [
@@ -948,7 +998,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on professional development (T_PDEV) for primary school teachers. Related paragraphs discuss complementary aspects: 34 (factors in determining facilities), 35 (specific support measures), 39 (recognition of competence), 40 (benefits for advanced studies), 42 (financial cooperation for training), and 44 (international training facilities). All are contextually related but add distinct details.",
         "matched_pars": {
           "34": [
@@ -979,7 +1029,7 @@
           "M_NFORM",
           "M_LL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_NFORM (Non-formal education) and M_LL (Lifelong learning) are selected because the paragraph discusses factors related to professional development facilities, which aligns with non-formal education frameworks and lifelong learning principles. For relations: Para 35 (duration of absence) complements the 'duration of interruption' factor; Para 36 (travel reimbursement) supports the 'extent of travel' factor; Para 37 (accommodation) complements 'facilities' mentioned; Para 44 (international courses and scholarships) supports 'facilities' and 'professional development'; Para 39 (recognition of competence) complements the purpose of improvement measures.",
         "matched_pars": {
           "35": [
@@ -1007,7 +1057,7 @@
           "T_PDEV",
           "T_COND"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and T_COND are selected because the paragraph focuses on professional development (T_PDEV) and working conditions/salaries (T_COND). Related paragraphs discuss financial support (36, 37, 42, 44), recognition of PD outcomes (39), and career benefits (40), all of which complement the target paragraph's focus on PD support and teacher entitlements.",
         "matched_pars": {
           "36": [
@@ -1038,7 +1088,7 @@
           "T_PDEV",
           "POL_FIN"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and POL_FIN (Financing) are selected because the paragraph discusses financial reimbursement for travel related to professional development. Related paragraphs 37 (accommodation allowances), 42 (financial cooperation for training travel), and 44 (scholarships for training) provide complementary or supporting details about financial aspects of professional development.",
         "matched_pars": {
           "37": [
@@ -1059,7 +1109,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on professional development (T_PDEV) obligations for providing compensation (allowances/subsidies). Related paragraphs discuss outcomes of professional development (38, 39, 40), financial support mechanisms (42), and training access (44). These paragraphs complement or support the target's focus on professional development provisions.",
         "matched_pars": {
           "38": [
@@ -1087,7 +1137,7 @@
           "T_QUAL",
           "T_STAT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_QUAL and T_STAT are selected because the paragraph focuses on professional training leading to qualification (T_QUAL) and statutory benefits for integration (T_STAT). Related paragraphs: 39 (complemental - statutory benefits for promotions), 40 (complemental - benefits for new roles), 42 (supporting - financial cooperation for training), 44 (complemental - in-service training methods).",
         "matched_pars": {
           "39": [
@@ -1112,7 +1162,7 @@
           "T_PDEV",
           "T_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV and T_QUAL are selected because the paragraph focuses on professional development (T_PDEV) and qualification status (T_QUAL) of teachers. Para 40 complements by discussing benefits from further studies (confidence 0.9). Para 41 supports the broader context of international professional development (confidence 0.7). Para 44 modifies by specifying practical training mechanisms (confidence 0.8).",
         "matched_pars": {
           "40": [
@@ -1134,7 +1184,7 @@
           "T_PDEV",
           "T_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_PDEV (Professional development) and T_QUAL (Qualification and certification) are selected because the paragraph focuses on teachers completing further studies for academic degrees and preparing for advanced roles, which directly relates to professional development and qualification processes. Paragraph 41 (supporting) discusses international cooperation for teacher professional development, aligning with the target's emphasis on external assistance for training. Paragraph 44 (complemental) addresses in-service training facilities like scholarships, which complement the target's mention of benefits for teachers who have completed studies.",
         "matched_pars": {
           "41": [
@@ -1153,7 +1203,7 @@
           "POL_INTCOOP",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP and T_PDEV are selected because the paragraph explicitly discusses international cooperation (POL_INTCOOP) and teacher professional development (T_PDEV). Related paragraphs 42-45 and 47 address specific forms of international cooperation (financial aid, expert provision, training programs, cross-border participation, and regional adaptation) that align with the target paragraph's themes. Relations are complemental/supporting as they expand on the same core ideas of international collaboration for teacher development.",
         "matched_pars": {
           "42": [
@@ -1181,7 +1231,7 @@
           "T_INI",
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_INI (Initial education and training) and T_PDEV (Professional development) are selected because the paragraph focuses on training unqualified primary school teachers (initial education) and promoting aspects like research and internships (professional development). Related paragraphs 43-45 discuss international cooperation, in-service training, and cross-border professional development activities, which complement the target paragraph's focus on teacher training mechanisms.",
         "matched_pars": {
           "43": [
@@ -1203,7 +1253,7 @@
           "POL_INTCOOP",
           "INFRA_TLM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP and INFRA_TLM are selected because the paragraph emphasizes international cooperation (POL_INTCOOP) and educational resources (INFRA_TLM). Paragraph 44 is complemental as it expands on teacher training methods (in-service training) related to the target's international cooperation theme. Paragraph 45 is supporting as it directly aligns with international teacher development cooperation.",
         "matched_pars": {
           "44": [
@@ -1221,7 +1271,7 @@
         "tags": [
           "T_PDEV"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on professional development (T_PDEV) for primary school teachers through international/regional training. Para 45 complements this by discussing international collaboration in teacher development (confidence 0.9). Para 46 addresses implementation of recommendations, which is related but less direct (confidence 0.7).",
         "matched_pars": {
           "45": [
@@ -1240,7 +1290,7 @@
           "T_OTHER",
           "M_NFORM"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags T_OTHER (Teachers | Teacher other) and M_NFORM (Learning modality | Non-formal education) are selected because the paragraph discusses international teacher development activities (T_OTHER) and non-formal professional development (M_NFORM). Paragraph 46 provides implementation details (complemental) for the recommendation, while paragraph 47 adds regional adaptation context (complemental).",
         "matched_pars": {
           "46": [
@@ -1259,7 +1309,7 @@
           "CUR_IMPL",
           "ACT_EDUC"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_IMPL (Curriculum Implementation) and ACT_EDUC (Stakeholder focus | Teachers and educators) are selected because the paragraph emphasizes dissemination of a recommendation by ministries, educational authorities, and media, which relates to implementation and stakeholder engagement. Para 47 is complemental as it adds regional adaptation context, while para 48 is modifying as it specifies national implementation steps.",
         "matched_pars": {
           "47": [
@@ -1278,7 +1328,7 @@
           "ACT_OTHER",
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_OTHER (Stakeholder focus) applies due to collaboration between UNESCO regional centers and ministries. POL_INTCOOP (International cooperation and partnerships) applies as the paragraph emphasizes cross-institutional collaboration. Para 48 is complemental as it provides specific implementation tasks (review, adaptation, proposal) that build on the general invitation in para 47.",
         "matched_pars": {
           "48": [
@@ -1294,7 +1344,7 @@
           "LAW_IMPLEM",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph discusses policy implementation tasks (e.g., reviewing legal frameworks, adapting articles, proposing practical measures) which aligns with LAW_IMPLEM (Policy implementation and enforcement). It also addresses curriculum-related implementation activities (adapting articles to national contexts) matching CUR_IMPL (Curriculum implementation). No related paragraphs exist in the allowed_paragraph_ids list.",
         "matched_pars": {},
         "para_en": "38. In countries where it is deemed necessary, the ministries of public education are invited to assign the competent bodies to undertake various tasks, for example: a) review this recommendation and compare its content with the existing legal and factual situation in their country; b) consider the advantages and disadvantages of the possible implementation of each article that is not yet in force; c) adapt each article to the country’s situation, if the application is considered useful; d) finally, propose the practical provisions and measures to be taken to ensure the implementation of the article in question."

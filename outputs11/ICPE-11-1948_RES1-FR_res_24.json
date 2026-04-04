@@ -7,8 +7,26 @@
       "doc_title": "ICPE-11-1948_RES1-FR",
       "nb_paras": 17,
       "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "operative_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French UN document and distinguish between preambular and operative paragraphs based on specific rules. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs typically start with certain phrases like \"Considérant\", \"Rappelant\", etc., provide context, and don't contain actions. Operative ones have actions, recommendations, or directives, often starting with verbs like \"Décide\", \"Demande\", and are usually numbered.\n\nLooking at the input, the paragraphs are numbered from 1 to 17. The user mentioned that numbered paragraphs (1., I., II.) are operative. Also, once the first operative paragraph is encountered, all following are operative. \n\nLet me go through each paragraph:\n\n1. The first paragraph starts with \"La Conférence internationale...\" and mentions being convened by the UN. It seems like an introduction, maybe preambular. But wait, the user's note says numbered paragraphs are operative. Wait, paragraph 1 is numbered as \"1.\" in the input. Wait, looking at the input, the first line is \"1. FR: La Conférence...\" So that's numbered. According to the rules, numbered paragraphs are operative. So paragraph 1 is operative. But wait, the user's note says \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative\". So if the first paragraph is numbered, it's operative. Then all subsequent numbered paragraphs are operative. But wait, the first paragraph is numbered as \"1.\" and the rest are numbered as 2., 3., etc. So all are numbered. But according to the note, once the first operative is found, all following are operative. But if the first paragraph is already numbered, then all are operative. But that can't be right. Wait, maybe the user's note is saying that if a paragraph is numbered (like 1., I., II.), it's operative. So in this case, all paragraphs are numbered (1. to 17.), so they are all operative? But that contradicts the definitions. Wait, maybe the user's note is a rule to apply. Let me check again.\n\nThe user's note says: \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative\". So if the first paragraph is numbered, it's operative, and then all following are operative. But in the input, all paragraphs are numbered (1. to 17.), so according to this rule, all are operative. But that can't be correct because some paragraphs might be preambular. Wait, but the user's note says that numbered paragraphs are operative. So regardless of their content, if they are numbered, they are operative. But the definitions mention that preambular paragraphs may start with certain phrases. However, the user's note says to apply one consistent rule. So the user's note is the key here. The user says to apply the rule that numbered paragraphs are operative, and once the first operative is found, all following are operative. But in this case, the first paragraph is numbered, so it's operative, and all others are operative. But that would mean all paragraphs are operative. However, looking at the content, some paragraphs start with \"Considérant\" which is a preambular marker. But according to the user's note, the rule is to use the numbering. So even if a paragraph starts with \"Considérant\", if it's numbered, it's operative. But that seems conflicting. Wait, maybe the user's note is a rule to apply, overriding the definitions. Let me recheck the user's instructions.\n\nThe user says: \"Apply ONE consistent rule to classify ALL paragraphs.\" The note says: \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative\". So the rule is: if a paragraph is numbered, it's operative. If not, then check if it's preambular. But in the input, all paragraphs are numbered (1. to 17.), so all are operative. But that can't be right because some paragraphs start with \"Considérant\" which is a preambular marker. However, the user's note says to apply the rule that numbered paragraphs are operative. So even if a paragraph starts with \"Considérant\", if it's numbered, it's operative. But that would mean that the preambular paragraphs are actually operative. But the user's note says to apply the rule that numbered paragraphs are operative. So perhaps the user's note is the primary rule, and the definitions are just examples. \n\nWait, the user's note says: \"IMPORTANT: Think briefly inside"
     }
   },
   "body": {
@@ -20,7 +38,7 @@
           "M_FORM",
           "O_G"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_FORM (Formal education) and O_G (General academic orientation) are selected because the paragraph describes a formal international conference (UNESCO/IBE) adopting a recommendation about education's role in global citizenship. Relation types are determined by semantic connections: para 2 expands on global participation goals (complemental), para 3 supports methods of preparation (supporting), para 5 directly relates to recommendation submission (complemental), and paras 13/16/17 address related educational strategies (complemental). Confidence scores reflect explicit or implied connections.",
         "matched_pars": {
           "2": [
@@ -52,7 +70,7 @@
           "POP_YOUTH",
           "ACT_STUD"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CCUT_GCITIZ (global citizenship/peace education) and POP_YOUTH (youth focus) are directly supported by the emphasis on preparing adolescents for global community building. ACT_STUD (learners/students) applies as the paragraph centers on educational preparation. Related paragraphs: 3 (supporting) expands on training for global unity; 4 (complemental) addresses adaptation of education; 6 (supporting) reinforces international solidarity; 7 (supporting) aligns with developing social responsibility; 17 (supporting) connects to fostering international consciousness.",
         "matched_pars": {
           "3": [
@@ -80,7 +98,7 @@
           "PEDAG_FOUND",
           "T_INI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes pedagogical foundations (PEDAG_FOUND) by discussing training and psychological attitudes for global unity. T_INI (Initial education and training) is relevant as it relates to preparing educators for complex teaching. Related paragraphs: 6 (supports international solidarity), 7 (complements institutional organization), 8 (supports civic duties), and 11 (supports educator roles).",
         "matched_pars": {
           "6": [
@@ -105,7 +123,7 @@
           "ISC_99",
           "nan"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ISC_99 (Education level | Multiple levels) and nan (Pedagogy & assessment) are selected because the paragraph emphasizes adapting education to varying capacities and conditions across countries and ages, which aligns with multiple education levels and pedagogical adaptation. Relations are identified based on semantic connections: paragraphs 5-17 provide complementary or supporting context for adapting education globally, exchanging information, and fostering international awareness.",
         "matched_pars": {
           "5": [
@@ -135,7 +153,7 @@
         "tags": [
           "POL_OTH"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The target paragraph (para 5) is about submitting recommendations to education ministries, which falls under policy themes (POL_OTH). All related paragraphs (6-17) are specific recommendations within the same resolution, making them complemental as they expand on the policy framework established in para 5.",
         "matched_pars": {
           "6": [
@@ -166,7 +184,7 @@
           "POL_INTCOOP",
           "CCUT_GCITIZ"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP and CCUT_GCITIZ are selected because the paragraph emphasizes international solidarity (POL_INTCOOP) and global citizenship/peace education (CCUT_GCITIZ). Related paragraphs 7,9,11,12,17 expand on education's role in fostering solidarity, with 8 adding context about civic duties. Relations are supported by shared focus on international education goals.",
         "matched_pars": {
           "7": [
@@ -197,7 +215,7 @@
           "ACT_STUD",
           "CUR_ORG"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_STUD and CUR_ORG are selected because the paragraph focuses on learners/students (ACT_STUD) and the organization of educational institutions (CUR_ORG). Related paragraphs complement the target by expanding on collaboration with local institutions (8), international solidarity (9), UN-related education (12), information exchange (16), and international consciousness (17).",
         "matched_pars": {
           "8": [
@@ -225,7 +243,7 @@
           "CCUT_CITIZ",
           "F_SOCSCI"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CCUT_CITIZ and F_SOCSCI are selected because the paragraph emphasizes civic duties and international community education, aligning with citizenship education (CCUT_CITIZ) and social sciences (F_SOCSCI). Related paragraphs (9,11,12,13,17,10) address complementary aspects like international solidarity (9), educator roles (11), local institutions (12), adult education (13), and UN study (10), all supporting or expanding the target's focus on international duties and education.",
         "matched_pars": {
           "9": [
@@ -256,7 +274,7 @@
           "POL_INTCOOP",
           "CCUT_GCITIZ"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP and CCUT_GCITIZ are selected because the paragraph emphasizes international solidarity (POL_INTCOOP) and global citizenship/peace education (CCUT_GCITIZ). Related paragraphs discuss complementary measures like studying UN institutions (10), local institutions fostering solidarity (12), textbook revisions (15), educational support (17), educator roles (11), and adult education (13), all aligning with the target's focus on promoting international understanding and cooperation.",
         "matched_pars": {
           "10": [
@@ -287,7 +305,7 @@
           "F_SOCSCI",
           "POL_INTCOOP"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_SOCSCI (Social sciences and humanities) and POL_INTCOOP (International cooperation and partnerships) are selected because the paragraph emphasizes international cooperation, human rights, and social progress (F_SOCSCI), and discusses the UN's role in fostering global collaboration (POL_INTCOOP). Related paragraphs (11-17) all address education's role in promoting international understanding, aligning with the target's focus on educational reforms and institutional evaluation. Complemental relations are assigned as they expand on shared themes of education, international cooperation, and institutional awareness.",
         "matched_pars": {
           "11": [
@@ -318,7 +336,7 @@
           "ACT_EDUC",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags ACT_EDUC (teachers/educators) and CUR_IMPL (curriculum implementation) are selected because the paragraph emphasizes collaboration between educational authorities (ACT_EDUC) and the exchange of information to optimize curriculum practices (CUR_IMPL). Related paragraphs: 12 (complemental - collaboration with educational authorities), 16 (complemental - direct exchange of information), 17 (complemental - support for international education), and 15 (complemental - curriculum content revisions).",
         "matched_pars": {
           "12": [
@@ -343,7 +361,7 @@
           "M_NFORM",
           "CCUT_CITIZ"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags M_NFORM (Non-formal education) applies because the paragraph emphasizes local institutions collaborating with educational authorities for youth development. CCUT_CITIZ (Citizenship and civic education) is relevant as fostering solidarity and presenting UN organizations aligns with civic education goals. Related paragraphs: 13 (complemental - both address international organization awareness), 15 (complemental - both aim to improve intercultural understanding), 16 (complemental - both involve educational authority collaboration), 17 (supporting - directly reinforces international consciousness development).",
         "matched_pars": {
           "13": [
@@ -368,7 +386,7 @@
           "POP_ADUL",
           "POL_LL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_ADUL (Adults and lifelong learners) and POL_LL (Lifelong learning and adult education) are selected because the paragraph explicitly focuses on adult education's role in spreading knowledge about international organizations. For relations: Para 14 (audio-visual materials for adults) complements para 13's focus on adult education (confidence 0.8). Para 15 (textbook revisions for international understanding) aligns with the goal of informed knowledge (confidence 0.7). Para 16 (educational authorities sharing experiences) supports collaborative learning (confidence 0.7). Para 17 (international consciousness and organizations) directly supports the target's objective (confidence 0.9).",
         "matched_pars": {
           "14": [
@@ -394,7 +412,7 @@
           "POP_ADUL",
           "F_ARTS"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_YOUTH and POP_ADUL are selected because the paragraph explicitly mentions young and adult audiences. F_ARTS is relevant due to the emphasis on aesthetic images. Paragraph 17 is complemental as it addresses international consciousness, which aligns with the target's focus on youth education and global understanding.",
         "matched_pars": {
           "17": [
@@ -410,7 +428,7 @@
           "POL_INTCOOP",
           "CUR_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_INTCOOP (international cooperation) and CUR_OTHER (curriculum revisions) are selected because the paragraph emphasizes revising textbooks to promote international understanding. Paragraph 16 complements by discussing exchange of educational experiences (confidence 0.9), while paragraph 17 complements by addressing international consciousness and organizations (confidence 0.9).",
         "matched_pars": {
           "16": [
@@ -429,7 +447,7 @@
           "SYST_OTHER",
           "POL_QUAL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tags 'SYST_OTHER: Education system monitoring & evaluation' and 'POL_QUAL: Policy theme | Quality and learning outcomes' are selected because the paragraph emphasizes sharing information about educational outcomes (monitoring/evaluation) and improving quality through experience exchange. No related paragraphs were found in the allowed set that share a clear semantic connection with the target paragraph.",
         "matched_pars": {},
         "para_en": "11. That the educational authorities of the various countries exchange views and information regarding the nature and outcomes of such instruction, so as to make the best possible use of their respective experiences;"
@@ -442,7 +460,7 @@
           "POP_YOUTH",
           "ACT_IO"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph emphasizes international cooperation (POL_INTCOOP) through education ministries and organizations. It specifically targets youth (POP_YOUTH) and focuses on international organizations (ACT_IO) for world peace. No related paragraphs exist in the allowed set.",
         "matched_pars": {},
         "para_en": "12. That the Ministries of Public Education and educational organizations in general provide, by all appropriate means, their encouragement and support for the development of an international consciousness among youth and for the knowledge of international organizations aimed at ensuring world peace. — 107"

@@ -1,0 +1,118 @@
+{
+  "TEXT_ID": "ICPE-45-1996_RES1-FR_res_85",
+  "RECOMMENDATION": 85,
+  "TITLE": "LES ENSEIGNANTS ET LEURS PARTENAIRES DANS LE PROCESSUS EDUCATIF: L’EDUCATION, RESPONSABILITE DE TOUS",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-45-1996_RES1-FR",
+      "nb_paras": 5,
+      "preambular_para": [],
+      "operative_para": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French UN document and distinguish between preambular and operative paragraphs. First, I need to recall the definitions provided. \n\nPreambular paragraphs in French usually start with specific phrases like \"Considérant\", \"Rappelant\", etc., and they provide context without actions. They often end with commas. Operative paragraphs have actions, use verbs like \"Décide\" or \"Demande\", and are structured with numbers.\n\nLooking at the input, there are five paragraphs. Let me check each one. \n\nParagraph 1 starts with \"A partir de la Conférence de Jomtien...\" which doesn't match any preambular markers. It seems to be stating a fact about a conference, so maybe preambular? Wait, but the definitions say preambular starts with specific terms. Since this doesn't, maybe it's operative? Wait, but the user's rules mention that numbered paragraphs (like 1., I., II.) are operative. Here, paragraph 1 is numbered as 1., so according to the rules, it's operative. But the content talks about a conference and consensus, which might be context. Hmm, conflicting clues.\n\nWait, the user's important note says: \"Numbered paragraphs (1., I., II.) → operative. Usually after first operative → all following are operative.\" So even if the content seems preambular, if it's numbered, it's operative. So paragraph 1 is operative. \n\nParagraph 2 starts with \"Dans le contexte spécifique...\" which is a context statement. But since it's numbered 5.2, which is after the first operative (assuming 1. is operative), then all following are operative. Wait, but the user's note says \"usually after first operative → all following are operative.\" So if paragraph 1 is operative, then 2, 3, 4, 5 are also operative. But paragraph 2 starts with \"Dans le contexte...\" which could be preambular. However, the rule says numbered paragraphs are operative. So regardless of content, numbered ones are operative. \n\nWait, the user's rules state that numbered paragraphs (like 1., I., II.) are operative. So even if paragraph 1 is numbered, it's operative. Then, after the first operative, all following are operative. So paragraphs 1-5 are all operative. But the user's input has paragraphs 1 to 5, each numbered. Wait, the input shows:\n\n1. FR: 5.1 ... \nWait, maybe the numbering is different. Wait, the input is:\n\n1. FR: 5.1 ... \n2. FR: 5.2 ... \n3. FR: 5.2.1 ... \n4. FR: 5.2.2 ... \n5. FR: 5.2.3 ... \n\nWait, the numbering here is 5.1, 5.2, 5.2.1, etc. So the first paragraph is 5.1, which is numbered. According to the rules, numbered paragraphs are operative. So all of them are operative. But the user's note says \"usually after first operative → all following are operative.\" So if the first paragraph is operative, then all others are too. But in this case, all are numbered, so they are all operative. \n\nBut the user's definitions mention that preambular paragraphs may start with certain phrases. However, the rules override that. The user's important note says to apply the rule that numbered paragraphs are operative. So regardless of content, if they are numbered, they are operative. \n\nTherefore, all paragraphs here are operative. But wait, the first paragraph starts with \"A partir de la Conférence de Jomtien...\" which is a context statement. But according to the rules, numbered paragraphs are operative. So even if it's context, it's operative. \n\nSo the answer would be that all paragraphs are operative. But the user's definitions mention that preambular paragraphs provide context. However, the rules take precedence. The user's instruction says to apply one consistent rule: numbered paragraphs are operative. So all are operative. \n\nWait, but the user's input has paragraphs numbered 5.1, 5.2, etc. So the first paragraph is 5.1, which is numbered. So according to the rule, it's operative. Then, the rest are also numbered, so they are operative. Therefore, all paragraphs are operative. \n\nBut the user's definitions mention that preambular paragraphs may start with certain phrases. However, the rules say to apply the numbered paragraph rule. So even if a paragraph starts with \"Considérant\", if it's numbered, it's operative. \n\nSo the conclusion is that all paragraphs are operative. Therefore, the JSON would have operative_para as [1,2,3,4,5] and preambular_para as empty. \n\nBut wait, the user's input has 5 paragraphs, but the numbering is 5.1, 5.2, 5.2.1, etc. So maybe the first paragraph is 5.1, which is part of a larger structure. But according to the rules, any numbered paragraph is operative. So all are operative. \n\nThus, the final answer is that all paragraphs are operative."
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "5.1 A partir de la Conférence de Jomtien, il y a eu un consensus général pour reconnaître que l’éducation est la responsabilité de tous et non des gouvernements ou des enseignants uniquement. Le partenariat est devenu une condition nécessaire de la transformation de l’éducation, dans un monde où la connaissance et l’information sont des éléments centraux de l’économie et où le respect de la diversité culturelle de l’égalité entre les sexes et des autres droits de l’homme est décisif pour la stabilité démocratique. Certes, les -24formes de partenariat sont différentes selon les traditions culturelles, politiques et administratives, mais les discussions régionales ont permis d’identifier deux grandes lignes d’action : ouvrir l’école aux besoins et aux demandes de la communauté et, d’autre part, lui permettre de participer aux activités du développement communautaire. Cependant, les expériences de partenariat montrent qu’il ne s’agit pas d’une ligne d’action simple et facile : \"Le partenariat réussit ou échoue : les partenaires sont d’accord ou en désaccord. Le chemin du partenariat n'est pas sans difficulté, mais il fournit une solution viable par rapport à l'option isolationniste”. Le partenariat doit être conçu comme un facteur d’amélioration de la qualité de l’enseignement ; il faut donc qu’il soit perçu non comme une fin en soi, comme une source de déresponsabilisation de l’Etat, des enseignants ou même de la communauté, mais au contraire comme une forme efficace de participation des acteurs et d’exercice des responsabilités communes.",
+        "tags": [
+          "POL_INTCOOP",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (partnerships) and ACT_PARENT (community involvement) are selected because the paragraph emphasizes collaborative education models involving governments, communities, and stakeholders. Related paragraphs 2-5 provide specific mechanisms (information systems, participation frameworks, societal engagement) that directly support the target paragraph's discussion of partnership implementation.",
+        "matched_pars": {
+          "2": [
+            "complemental"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "supporting"
+          ]
+        },
+        "para_en": "5.1 Since the Jomtien Conference, there has been a general consensus to recognize that education is the responsibility of all, not solely of governments or teachers. Partnership has become a necessary condition for the transformation of education in a world where knowledge and information are central elements of the economy, and where respect for cultural diversity, gender equality, and other human rights is crucial for democratic stability. Certainly, the forms of partnership vary according to cultural, political, and administrative traditions, but regional discussions have identified two main courses of action: opening schools to the needs and demands of the community and, on the other hand, enabling schools to participate in community development activities. However, partnership experiences show that this is not a simple or easy course of action: \"Partnership succeeds or fails: partners either agree or disagree. The path of partnership is not without difficulties, but it provides a viable solution compared to the isolationist option.\" Partnership must be conceived as a factor for improving the quality of education; it must therefore be perceived not as an end in itself, nor as a source of abdication of responsibilities by the State, teachers, or even the community, but rather as an effective form of stakeholder participation and the exercise of shared responsibilities."
+      },
+      {
+        "para_number": 2,
+        "para": "5.2 Dans le contexte spécifique de chaque situation nationale, les mesures suivantes peuvent être envisagées :",
+        "tags": [
+          "POL_OTH",
+          "ACT_OTHER"
+        ],
+        "type": "operative",
+        "think": "The tags POL_OTH (Other policy theme) and ACT_OTHER (Other stakeholder focus) are selected because the paragraph discusses general policy measures (POL_OTH) and stakeholder engagement (ACT_OTHER). All three related paragraphs (3, 4, 5) provide specific examples of measures mentioned in the target paragraph, establishing a complemental relationship with high confidence.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ]
+        },
+        "para_en": "5.2 In the specific context of each national situation, the following measures may be considered:"
+      },
+      {
+        "para_number": 3,
+        "para": "5.2.1 la mise en place de systèmes d’information efficaces, orientés vers les parents et les autres partenaires de l’action éducative, sur les objectifs de la vie de l’école et sur les résultats de l’action éducative. La communication d'informations claires doit être considérée comme une priorité de toutes les politiques destinées à stimuler le partenariat dans l’éducation et à encourager la mobilisation des ressources de la communauté ;",
+        "tags": [
+          "ACT_PARENT",
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_PARENT is selected because the paragraph emphasizes parents and other educational partners. POL_QUAL is chosen due to the focus on outcomes of educational activities. Paragraph 4 (participation mechanisms) complements the target paragraph's information systems by expanding on community engagement. Paragraph 5 (school-society cooperation) complements the target's emphasis on community resource mobilization.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ]
+        },
+        "para_en": "5.2.1 the establishment of effective information systems, aimed at parents and other partners in educational action, concerning the objectives of school life and the outcomes of educational activities. The communication of clear information must be regarded as a priority in all policies intended to stimulate partnership in education and to encourage the mobilization of community resources;"
+      },
+      {
+        "para_number": 4,
+        "para": "5.2.2 la mise en oeuvre des formules de participation à la vie de l’école de la part des familles et d’autres partenaires tels que associations et conseils de parents d’élèves, conseils d’étudiants, comités de soutien, conseils tripartites (gouvernement, parents, entrepreneurs) dans le cas des écoles de formation professionnelle, etc. ;",
+        "tags": [
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on stakeholder participation by families and partners like parent-teacher councils, aligning with ACT_PARENT. The related paragraph (5) discusses school-society cooperation with businesses/media, which complements the target's emphasis on external partnerships. Both address collaboration but from slightly different angles (families vs. businesses), making the relation complemental with moderate confidence.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ]
+        },
+        "para_en": "5.2.2 the implementation of participation mechanisms in school life by families and other partners such as associations and parent-teacher councils, student councils, support committees, tripartite councils (government, parents, employers) in the case of vocational training schools, etc.;"
+      },
+      {
+        "para_number": 5,
+        "para": "5.2.3 l’ouverture de l’école à la société parallèlement à l’ouverture à l’école des institutions de la société. La coopération entre les écoles et les entreprises, les médias, les organismes sportifs ainsi que les organisations religieuses et culturelles et autres organisations non gouvernementales doit être encouragée en vue de l’organisation de stages de formation et d’autres activités éducatives.",
+        "tags": [
+          "M_NFORM",
+          "O_All"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes non-formal education through cooperation with societal institutions (M_NFORM) and combined general/vocational education via internships and societal engagement (O_All). No related paragraphs exist in the allowed set.",
+        "matched_pars": {},
+        "para_en": "5.2.3 The opening of the school to society alongside the opening of societal institutions to the school. Cooperation between schools and businesses, the media, sports organizations, as well as religious and cultural organizations and other non-governmental organizations must be encouraged with a view to organizing training internships and other educational activities."
+      }
+    ],
+    "body_raw": "5.1 A partir de la Conférence de Jomtien, il y a eu un consensus général pour reconnaître que l’éducation est la responsabilité de tous et non des gouvernements ou des enseignants uniquement. Le partenariat est devenu une condition nécessaire de la transformation de l’éducation, dans un monde où la connaissance et l’information sont des éléments centraux de l’économie et où le respect de la diversité culturelle de l’égalité entre les sexes et des autres droits de l’homme est décisif pour la stabilité démocratique. Certes, les -24formes de partenariat sont différentes selon les traditions culturelles, politiques et administratives, mais les discussions régionales ont permis d’identifier deux grandes lignes d’action : ouvrir l’école aux besoins et aux demandes de la communauté et, d’autre part, lui permettre de participer aux activités du développement communautaire. Cependant, les expériences de partenariat montrent qu’il ne s’agit pas d’une ligne d’action simple et facile : \"Le partenariat réussit ou échoue : les partenaires sont d’accord ou en désaccord. Le chemin du partenariat n'est pas sans difficulté, mais il fournit une solution viable par rapport à l'option isolationniste”. Le partenariat doit être conçu comme un facteur d’amélioration de la qualité de l’enseignement ; il faut donc qu’il soit perçu non comme une fin en soi, comme une source de déresponsabilisation de l’Etat, des enseignants ou même de la communauté, mais au contraire comme une forme efficace de participation des acteurs et d’exercice des responsabilités communes. 5.2 Dans le contexte spécifique de chaque situation nationale, les mesures suivantes peuvent être envisagées : 5.2.1 la mise en place de systèmes d’information efficaces, orientés vers les parents et les autres partenaires de l’action éducative, sur les objectifs de la vie de l’école et sur les résultats de l’action éducative. La communication d'informations claires doit être considérée comme une priorité de toutes les politiques destinées à stimuler le partenariat dans l’éducation et à encourager la mobilisation des ressources de la communauté ; 5.2.2 la mise en oeuvre des formules de participation à la vie de l’école de la part des familles et d’autres partenaires tels que associations et conseils de parents d’élèves, conseils d’étudiants, comités de soutien, conseils tripartites (gouvernement, parents, entrepreneurs) dans le cas des écoles de formation professionnelle, etc. ; 5.2.3 l’ouverture de l’école à la société parallèlement à l’ouverture à l’école des institutions de la société. La coopération entre les écoles et les entreprises, les médias, les organismes sportifs ainsi que les organisations religieuses et culturelles et autres organisations non gouvernementales doit être encouragée en vue de l’organisation de stages de formation et d’autres activités éducatives."
+  }
+}

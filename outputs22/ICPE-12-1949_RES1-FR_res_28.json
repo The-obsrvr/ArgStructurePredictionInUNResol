@@ -6,9 +6,30 @@
     "structure": {
       "doc_title": "ICPE-12-1949_RES1-FR",
       "nb_paras": 19,
-      "preambular_para": [],
-      "operative_para": [],
-      "think": "LLM failed to classify structure after multiple attempts (self-consistency mode). Returned empty lists."
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "operative_para": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
   },
   "body": {
@@ -20,7 +41,7 @@
           "CUR_IMPL",
           "M_FORM"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags 'CUR_IMPL' and 'M_FORM' are selected because the paragraph describes a conference adopting a recommendation related to curriculum implementation (CUR_IMPL) and formal education (M_FORM). Related paragraphs provide supporting details (2,3,13,15,18) or complemental context (9) about reading instruction methods, teacher guidance, and educational tools, all aligned with the main recommendation.",
         "matched_pars": {
           "2": [
@@ -51,7 +72,7 @@
           "M_FORM",
           "M_LL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags M_FORM and M_LL are selected because the paragraph emphasizes reading as a foundational teaching technique (formal education) and a tool for lifelong knowledge acquisition. Relations are identified based on semantic alignment: supporting (3,13,14) for reinforcing reading's role in knowledge, complemental (4) for adding context about language integration, and modifying (7,11) for specifying conditions or prerequisites for reading instruction.",
         "matched_pars": {
           "3": [
@@ -81,7 +102,7 @@
         "tags": [
           "F_LITE"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tag 'F_LITE' (Subject domain | Literacy and language) is selected because the paragraph focuses on reading fluency and comprehension, which fall under literacy and language. For relations: Para 4 supports the integration of reading with language and writing (confidence 0.9). Para 5 supports methodological adaptation (confidence 0.7). Para 11 modifies by specifying prerequisites for reading (confidence 0.9). Para 14 supports by emphasizing reading enjoyment (confidence 0.9). Paras 12 and 17 provide complementary context on teaching organization and support for reading difficulties (confidence 0.7).",
         "matched_pars": {
           "4": [
@@ -112,7 +133,7 @@
           "F_LITE",
           "M_NFORM"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags F_LITE (literacy/language focus) and M_NFORM (non-formal education methods) are selected because the paragraph emphasizes integrating reading with language development and classroom activities. Relations: Para 5 (supporting) discusses child-adapted methods aligning with the target's integration focus; Para 6 (complemental) provides contrasting method types; Para 7 (modifying) adds contextual factors influencing methods; Para 11 (supporting) reinforces prerequisites for reading; Para 13 (supporting) aligns with using scientific methods.",
         "matched_pars": {
           "5": [
@@ -140,7 +161,7 @@
           "PEDAG_METHO",
           "PEDAG_FOUND"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The tags PEDAG_METHO and PEDAG_FOUND are selected because the paragraph discusses teaching methods (PEDAG_METHO) and references psychological foundations (PEDAG_FOUND). Paragraph 6 provides supporting evidence about global methods endorsed by psychology. Paragraph 7 adds context about factors influencing method choice (complemental). Paragraph 13 reinforces the use of educational science-based methods (supporting).",
         "matched_pars": {
           "6": [
@@ -162,7 +183,7 @@
           "PEDAG_METHO",
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags PEDAG_METHO is selected because the paragraph directly compares synthetic and global teaching methods. CUR_IMPL is chosen as the text discusses integrating reading into classroom activities. Para 7 supports the discussion of method selection factors. Para 13 supports the mention of psychology-endorsed methods. Para 17 complements the discussion of teacher preparation needs.",
         "matched_pars": {
           "7": [
@@ -184,7 +205,7 @@
           "PEDAG_METHO",
           "M_FORM"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "Tags PEDAG_METHO (teaching methods) and M_FORM (formal education) are selected because the paragraph discusses how teaching methods are influenced by language structure and educational organization. Related paragraphs: 8 (complemental - references consideration of factors mentioned), 12 (complemental - addresses school organization), 13 (supporting - directly links to teaching methods based on educational sciences), 18 (complemental - connects to assessment methods).",
         "matched_pars": {
           "8": [
@@ -209,7 +230,7 @@
           "Cross-cutting themes & skills",
           "Policy theme"
         ],
-        "type": null,
+        "type": "preambular",
         "think": "The target paragraph (para 8) emphasizes considering 'various elements,' which aligns with 'Cross-cutting themes & skills' (integrating diverse aspects) and 'Policy theme' (overarching educational priorities). All related paragraphs (9-19) provide specific recommendations/methods that logically follow from the general consideration of elements in para 8, establishing strong supporting relationships with high confidence.",
         "matched_pars": {
           "9": [
@@ -240,7 +261,7 @@
           "POL_OTH",
           "SYST_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph involves submitting policy recommendations to education ministries (POL_OTH) and addresses systemic educational practices (SYST_OTHER). Related paragraphs (10,11,12,13,15,19) all discuss specific reading education methods or initiatives that align with the target paragraph's recommendation, forming complemental/supporting relationships with high confidence.",
         "matched_pars": {
           "10": [
@@ -272,7 +293,7 @@
           "F_LITE",
           "POL_LL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_ALL (all learners) and F_LITE (literacy) are directly mentioned. POL_LL (lifelong learning) applies due to the focus on adult illiteracy. Related paragraphs 11 (teaching methods), 17 (supplementary instruction), 19 (adult illiteracy), 14 (reading materials), and 15 (school press) are connected through shared themes of literacy strategies and educational methods.",
         "matched_pars": {
           "11": [
@@ -300,7 +321,7 @@
           "F_LITE",
           "ISC_01"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_LITE (literacy/language) and ISC_01 (early childhood development) directly align with the paragraph's focus on reading readiness and mental development. Related paragraphs: 12 (complemental: school structure during reading learning), 13 (supporting: evidence-based methods), 14 (complemental: fostering reading enjoyment), 16 (supporting: material adaptation to development), and 17 (complemental: supplementary instruction for challenges). Confidence scores reflect textual alignment strength.",
         "matched_pars": {
           "12": [
@@ -328,7 +349,7 @@
           "CUR_ORG",
           "T_OTHER"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_ORG (Organization and instructional time) directly address the school organization theme. T_OTHER (Teachers) reflects the focus on teacher-student continuity. Relations: Para 13 (supporting) links to teaching methods; Para 14 (complemental) adds library context; Para 15 (supporting) highlights tools; Para 17 (modifying) introduces supplementary instruction; Para 18 (supporting) emphasizes assessment.",
         "matched_pars": {
           "13": [
@@ -356,7 +377,7 @@
           "Teachers",
           "Pedagogy & assessment"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags 'Teachers' and 'Pedagogy & assessment' are selected because the paragraph explicitly discusses teacher methods based on educational science findings. Related paragraphs: 14 (complemental - focuses on reading enjoyment and library resources, which align with teaching methods); 16 (complemental - addresses textbook adaptation for learners, directly related to pedagogical approaches); 18 (supporting - recommends objective tests for monitoring reading progress, reinforcing assessment practices mentioned in the target paragraph).",
         "matched_pars": {
           "14": [
@@ -378,7 +399,7 @@
           "F_LITE",
           "CUR_CONTENT"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags F_LITE (Literacy and language) and CUR_CONTENT (Curriculum | Content and learning areas) are selected because the paragraph focuses on fostering reading enjoyment through curated texts and school libraries, which directly relate to literacy development and curriculum content. For relations: Para 16 complements by addressing text adaptation for readers (confidence 0.9). Para 17 modifies by specifying supplementary instruction for reading difficulties (confidence 0.8). Para 18 supports by emphasizing monitoring reading progress (confidence 0.7).",
         "matched_pars": {
           "16": [
@@ -399,7 +420,7 @@
         "tags": [
           "CUR_IMPL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The tag 'CUR_IMPL' (Curriculum implementation) is selected because the paragraph emphasizes encouraging the use of the school printing press as a teaching aid, which directly relates to implementing educational curricula through tools and materials. Paragraph 16 discusses adapting educational materials (textbooks and recreational books) to reader needs, which is complemental to the target paragraph's focus on educational resources and their effective use.",
         "matched_pars": {
           "16": [
@@ -415,7 +436,7 @@
           "CUR_CONTENT",
           "POP_ADUL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags CUR_CONTENT (content adaptation for readers) and POP_ADUL (adult learners) are directly supported. Para 17 (children with reading difficulties) is complemental as it addresses a subset of the target's focus on tailored instruction. Para 19 (adult illiteracy) is complemental as it directly relates to the target's mention of adult learners.",
         "matched_pars": {
           "17": [
@@ -434,7 +455,7 @@
           "POP_DISAB",
           "CCUT_INCL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags POP_DISAB (learners with disabilities) and CCUT_INCL (inclusive education) are selected because the paragraph explicitly addresses children with reading difficulties requiring tailored instruction. Paragraph 18 is related as complemental (confidence 0.7) since it discusses objective reading assessments, which could support monitoring the supplementary instruction mentioned in the target paragraph.",
         "matched_pars": {
           "18": [
@@ -450,7 +471,7 @@
           "SYST_ASSESS",
           "F_LITE"
         ],
-        "type": null,
+        "type": "operative",
         "think": "Tags SYST_ASSESS (learning assessments) and F_LITE (literacy) directly match the paragraph's focus on objective reading tests. Paragraph 19 complements by addressing literacy development methods, though it focuses on teaching techniques rather than assessment methods.",
         "matched_pars": {
           "19": [
@@ -467,7 +488,7 @@
           "POP_ADUL",
           "POL_LL"
         ],
-        "type": null,
+        "type": "operative",
         "think": "The paragraph focuses on adult illiteracy (POP_ADUL) and literacy programs (F_LITE), explicitly mentioning lifelong learning efforts (POL_LL). No related paragraphs exist in the allowed set.",
         "matched_pars": {},
         "para_en": "10. Given the necessity of combating adult illiteracy in many regions, a concerted effort must be undertaken to develop language teaching techniques suited to the masses, to create appropriate materials for reading instruction, and to exchange the results of experiences conducted by nations facing this issue."

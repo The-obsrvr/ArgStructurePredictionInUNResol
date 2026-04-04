@@ -1,0 +1,248 @@
+{
+  "TEXT_ID": "ICPE-45-1996_RES1-FR_res_88",
+  "RECOMMENDATION": 88,
+  "TITLE": "SOLIDARITE AVEC LES ENSEIGNANTS QUI TRAVAILLENT DANS DES SITUATIONS DIFFICILES",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-45-1996_RES1-FR",
+      "nb_paras": 10,
+      "preambular_para": [],
+      "operative_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French document to distinguish between preambular and operative paragraphs. The key is to apply one consistent rule. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs in French usually start with certain phrases like \"Considérant\", \"Rappelant\", etc., and they provide context without actions. Operative ones have actions, verbs like \"Décide\", \"Demande\", and are often numbered.\n\nLooking at the input, the paragraphs are numbered 8.1 to 8.3.7. Wait, the numbers are a bit mixed. Let me check each one:\n\n1. 8.1 starts with \"Dans de nombreux pays...\" – no marker like \"Considérant\". It seems to be stating a situation. But the user's note says numbered paragraphs (like 1., I., II.) are operative. Here, the numbering is 8.1, 8.2, etc. So maybe the main rule is that numbered paragraphs are operative. But the user also mentioned that usually after the first operative, all following are operative. However, the input starts with 8.1, which is numbered. So according to the rule, all numbered paragraphs are operative. \n\nBut wait, the user's note says \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative\". So if the first paragraph is numbered, then all are operative. But in the input, the first paragraph is 8.1, which is numbered. So according to the rule, all numbered paragraphs are operative. \n\nBut looking at the content: 8.1 and 8.2 seem to be setting up a context, like explaining the situation. However, the user's definitions say preambular paragraphs may start with specific phrases. But none of the paragraphs here start with those phrases. So maybe the main rule is the numbering. \n\nBut the user's note says that numbered paragraphs are operative. So even if they start with \"Dans de nombreux pays\", if they are numbered, they are operative. So all paragraphs here are numbered (8.1, 8.2, etc.), so they are all operative. But wait, the user's note says \"usually after first operative → all following are operative\". So if the first paragraph is operative, then the rest are too. But in this case, the first paragraph is numbered, so it's operative. Therefore, all paragraphs are operative. \n\nBut the user's input has 10 paragraphs. Let me check each one again. \n\nParagraph 1: 8.1 – starts with \"Dans de nombreux pays...\" – no preambular markers. Numbered, so operative. \n\nParagraph 2: 8.2 – same structure, no markers. Numbered, operative. \n\nParagraph 3: 8.3 – starts with \"En conséquence, les actions suivantes...\" – this is a transition to actions. The user's definitions say operative paragraphs have actions. So this is operative. \n\nParagraphs 4-10: all are numbered and start with verbs like \"encourager\", \"prévoir\", \"faire assister\", etc. These are actions, so operative. \n\nBut wait, the user's note says that numbered paragraphs are operative. So all of them are operative. Therefore, the preambular paragraphs would be none. But the user's definitions mention that preambular paragraphs may start with certain phrases. However, none of the paragraphs here start with those. So according to the rule, all are operative. \n\nBut the user's note says that if the first paragraph is numbered, then all following are operative. So in this case, all are operative. Therefore, the preambular_para list is empty, and operative_para includes all numbers. \n\nBut the user's input has 10 paragraphs. Let me count: 8.1 to 8.3.7. Wait, the numbers are 8.1, 8.2, 8.3, then 8.3.1 to 8.3.7. So total of 10 paragraphs. \n\nSo according to the rule, all numbered paragraphs are operative. Therefore, all are operative. Hence, preambular_para is empty, and operative_para includes all. \n\nBut the user's note says \"usually after first operative → all following are operative\". So if the first is operative, then the rest are. But in this case, the first is numbered, so it's operative. So all are operative. \n\nTherefore, the answer would be preambular_para is empty, and operative_para includes all numbers. But the user's input has 10 paragraphs. Let me check again. \n\nWait, the input has 10 paragraphs, numbered as 1. to 10. But the actual numbers in the input are 8.1, 8.2, 8.3, 8.3.1, etc. Wait, the user's input is:\n\n1. FR: 8.1 ...\n2. FR: 8.2 ...\n3. FR: 8.3 ...\n4. FR: 8.3.1 ...\n5. FR: 8.3.2 ...\n6. FR: 8.3.3 ...\n7. FR: 8.3.4 ...\n8. FR: 8.3.5 ...\n9. FR: 288.3.6 ...\n10. FR: 8.3.7 ...\n\nWait, the numbering seems inconsistent. The first three are 8.1, 8.2, 8.3. Then 8.3.1, 8.3.2, etc. But the 9th line is 288.3.6, which is a typo? Or maybe a mistake in the input. But regardless, the user's note says that numbered paragraphs (like 1., I., II.) are operative. So any paragraph with a number (like 8.1, 8.3.1, etc.) is operative. \n\nTherefore, all paragraphs are numbered and thus operative. Hence, preambular_para is empty, and operative_para includes all. \n\nBut the user's definitions mention that preambular paragraphs may start with certain phrases. However, none of the paragraphs here start with those. So the only rule is the numbering. \n\nTherefore, the JSON would have preambular_para as empty, and operative_para as [1,2,3,4,5,6,7,8,9,10]. \n\nBut the user's note says \"Numbered paragraphs (1., I., II.) → operative\" and \"Usually after first operative → all following are operative\". So if the first paragraph is numbered, then all are operative. \n\nThus, the answer is all operative. So the JSON would be:\n\n{\n  \"preambular_para\": [],\n  \"operative_para\": [1,2,3,4,5,6,7,8,9,10],\n  \"think\": \"All paragraphs are numbered (8.1, 8.2, etc.), so they are classified as operative according to the rule that numbered paragraphs are operative. No preambular paragraphs were found as they do not start with the specified markers and are all action-oriented.\"\n}"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "8.1 Dans de nombreux pays, des enseignants sont appelés à exercer leur profession auprès de populations spécifiques (personnes sans ressources, groupes marginalisés, réfugiés, migrants, enfants de la rue, délinquants, femmes issues de certaines sociétés traditionnelles, etc.) ou à travailler dans des conditions particulièrement difficiles (régions éloignées. montagneuses ou rurales, classes à plusieurs niveaux ou pléthoriques, etc.). Les conflits armés, très souvent aux dimensions transfrontières, constituent une situation particulièrement préoccupante. Les enfants sont toujours les victimes les plus traumatisées par ces conflits, dont les conséquences psychologiques et morales les suivront toute leur vie. Quelle que soit la situation, qu’il s’agisse de groupes spéciaux de population, de zones d’accès difficile ou de zones touchées par les conflits armés, il faudrait une stratégie intégrée et prioritaire pour faire face aux spécificités pédagogiques concrètes. Même si elles sont très variables en ampleur et en nature, toutes ces situations exigent de l’enseignant, plus qu’ailleurs, la mobilisation de toutes ses facultés émotionnelles et psychologiques, des compétences diversifiées, bref une vraie polyvalence. Or, comme on l’a constaté, les enseignants sont peu sinon pas du tout préparés à la vie et au travail dans des contextes difficiles.",
+        "tags": [
+          "POP_EMERG",
+          "POP_DISPL",
+          "POP_RUR",
+          "POP_POOR",
+          "POL_EIE"
+        ],
+        "type": "operative",
+        "think": "Tags POP_EMERG (conflict/emergencies), POP_DISPL (refugees/migrants), POP_RUR (remote areas), POP_POOR (marginalized groups), and POL_EIE (education in emergencies) are directly supported by the text's focus on conflict zones, vulnerable populations, and required pedagogical strategies. Related paragraphs provide solutions (4,5,6) that modify the problem, complement with measures (3), and support with solidarity (2,10).",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "modifying"
+          ],
+          "5": [
+            "modifying"
+          ],
+          "6": [
+            "modifying"
+          ],
+          "10": [
+            "supporting"
+          ]
+        },
+        "para_en": "8.1 In many countries, teachers are called upon to carry out their profession with specific populations (people without resources, marginalized groups, refugees, migrants, street children, offenders, women from certain traditional societies, etc.) or to work under particularly difficult conditions (remote, mountainous, or rural regions, multi-grade or overcrowded classes, etc.). Armed conflicts, very often with cross-border dimensions, constitute a particularly concerning situation. Children are always the most traumatized victims of these conflicts, whose psychological and moral consequences will follow them throughout their lives. Whatever the situation, whether it involves special population groups, hard-to-reach areas, or zones affected by armed conflicts, an integrated and priority strategy should be adopted to address the concrete pedagogical specificities. Although variable in scale and nature, all these situations require from the teacher, more than elsewhere, the mobilization of all their emotional and psychological capacities, diversified skills—in short, true versatility. Yet, as has been observed, teachers are little or not at all prepared for life and work in difficult contexts."
+      },
+      {
+        "para_number": 2,
+        "para": "8.2 Dans de telles circonstances, l’école et les enseignants ont besoin tout d’abord d’un soutien moral et matériel et dans le cas de conflits armés ou de catastrophes naturelles de l’expression de la solidarité de la communauté nationale et internationale, ainsi que d’une aide et d'une intervention rapides.",
+        "tags": [
+          "POL_EIE",
+          "POP_EMERG"
+        ],
+        "type": "operative",
+        "think": "Tags POL_EIE and POP_EMERG are selected because the paragraph focuses on education in emergencies (POL_EIE) and populations affected by conflicts/disasters (POP_EMERG). Related paragraphs provide specific measures (3,5,6,9,10) or follow-up actions (3) that complement the target paragraph's discussion of support and solidarity. Para 3 is a direct follow-up (supporting), while others add specific implementation details (complemental).",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "9": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.2 In such circumstances, schools and teachers first require moral and material support, and in the case of armed conflicts or natural disasters, expressions of solidarity from the national and international community, as well as prompt assistance and intervention."
+      },
+      {
+        "para_number": 3,
+        "para": "8.3 En conséquence, les actions suivantes, ajustées à chaque cas spécifique, pourraient être envisagées :",
+        "tags": [
+          "LAW_OTHER",
+          "ACT_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags LAW_OTHER (Legal frameworks) and ACT_OTHER (Stakeholder focus) apply because the paragraph discusses policy measures (legal frameworks) and actions involving teachers/support staff (stakeholder focus). All related paragraphs (4-10) are specific implementation measures under the general framework in para 3, establishing complemental relationships with high confidence.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3 Consequently, the following measures, adjusted to each specific case, could be considered:"
+      },
+      {
+        "para_number": 4,
+        "para": "8.3.1 encourager les enseignants originaires de zones difficiles et ceux qui sont motivés pour travailler dans ces zones en organisant dans ces lieux mêmes la formation initiale et continue, appuyée sur un réseau de soutien professionnel et psychologique ;",
+        "tags": [
+          "T_INI",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial education and training) and POP_RUR (Rural and remote learners) are selected because the paragraph emphasizes organizing training in difficult areas (rural/remote) and professional support networks. Related paragraphs: 5 (complemental - additional training details), 6 (supporting - professional support services), 7 (complemental - recruitment incentives for teachers), and 10 (complemental - solidarity measures).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.1 encourage teachers originating from difficult areas and those motivated to work in these areas by organizing initial and ongoing training directly in these locations, supported by a network of professional and psychological support;"
+      },
+      {
+        "para_number": 5,
+        "para": "8.3.2 prévoir dans la formation des enseignants destinés à travailler dans de tels milieux une formation complémentaire, par exemple en psychopédagogie, psychologie et réadaptation scolaires. Il semble souhaitable de renforcer aussi dans leur formation l’apprentissage des techniques de communication, de négociation et de résolution des conflits;",
+        "tags": [
+          "T_PDEV",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes additional training (T_PDEV) and initial education/training (T_INI) for teachers. Paragraph 6 complements this by discussing psychopedagogy support, which aligns with the training focus. Confidence is high due to direct thematic overlap.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.2 provide in the training of teachers intended to work in such environments with additional training, for example in educational psychology, psychology, and school rehabilitation. It also seems desirable to strengthen in their training the learning of communication, negotiation, and conflict resolution techniques;"
+      },
+      {
+        "para_number": 6,
+        "para": "8.3.3 faire assister les enseignants et les éducateurs de services d’appui, notamment de spécialistes en orientation scolaire et professionnelle et en psychopédagogie. Cette assistance pourrait être fournie, par exemple, par des équipes mobiles consultatives de spécialistes ;",
+        "tags": [
+          "ACT_EDUC",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (focus on teachers/educators) and PEDAG_OTHER (psychopedagogy/guidance) are directly supported by the text. Paragraph 7 (incentives for recruitment) is complemental as it addresses teacher support mechanisms alongside the assistance described. Paragraph 10 (solidarity for teachers in difficult conditions) is complemental as it expands on broader support frameworks for educators.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.3 provide assistance to teachers and support service educators, notably specialists in school and vocational guidance and in psychopedagogy. This assistance could be provided, for example, by mobile consultative teams of specialists;"
+      },
+      {
+        "para_number": 7,
+        "para": "8.3.4 afin d’assurer le recrutement d’équipes éducatives expérimentées et motivées, mettre en oeuvre des mesures incitatives incluant par exemple des indemnités, des avantages, un système approprié de promotion, et la possibilité de transfert vers des régions plus calmes après un certain nombre d’années de service dans les milieux ou zones difficiles",
+        "tags": [
+          "T_RECR",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "Tags T_RECR (recruitment incentives) and T_COND (working conditions/salaries) are selected because the paragraph focuses on recruitment strategies (allowances, promotion systems) and working conditions (difficult environments). Paragraph 8 (safety of staff) is complemental as it addresses another aspect of working conditions. Paragraph 10 (solidarity for teachers in difficult conditions) is complemental as it expands on support mechanisms for educators in challenging environments.",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ],
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.4 In order to ensure the recruitment of experienced and motivated educational teams, implement incentive measures including, for example, allowances, benefits, an appropriate promotion system, and the possibility of transfer to calmer regions after a certain number of years of service in difficult environments or zones."
+      },
+      {
+        "para_number": 8,
+        "para": "8.3.5 assurer la sécurité du personnel éducatif ;",
+        "tags": [
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "The tag 'T_STAT' (Teachers | Legal status and rights) is selected because the paragraph directly addresses ensuring safety, which relates to legal rights and protections for educational staff. Paragraph 10 discusses solidarity with teachers in difficult conditions, which complements the target paragraph by expanding on support mechanisms for educators, though it does not directly address safety. The complemental relation has moderate confidence as both paragraphs focus on teacher support but from different angles.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.5 ensure the safety of educational staff;"
+      },
+      {
+        "para_number": 9,
+        "para": "288.3.6 renforcer les liens et la coopération entre les enseignants et la communauté locale, et surtout avec les familles et les associations de parents ;",
+        "tags": [
+          "ACT_PARENT",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_PARENT (Parents and communities) and ACT_EDUC (Teachers and educators) are selected because the paragraph explicitly mentions strengthening ties with families/parents' associations (ACT_PARENT) and teachers (ACT_EDUC). The relation to para 10 is complemental (confidence 0.7) as both address teacher support but through different angles: para 9 focuses on community cooperation while para 10 emphasizes solidarity for teachers in difficult conditions.",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ]
+        },
+        "para_en": "8.3.6 strengthen the ties and cooperation between teachers and the local community, particularly with families and parents' associations;"
+      },
+      {
+        "para_number": 10,
+        "para": "8.3.7 développer toutes les formes de solidarité nationale, régionale et internationale avec les enseignants qui travaillent dans des conditions difficiles, aussi bien du point de vue matériel que technique et moral.",
+        "tags": [
+          "T_COND",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on teachers working under difficult conditions (materially, technically, morally) which directly relates to 'Teachers | Working conditions and salaries' (T_COND) and 'Stakeholder focus | Teachers and educators' (ACT_EDUC). No related paragraphs exist in the allowed_paragraph_ids list.",
+        "matched_pars": {},
+        "para_en": "8.3.7 develop all forms of national, regional, and international solidarity with teachers working under difficult conditions, both materially, technically, and morally."
+      }
+    ],
+    "body_raw": "8.1 Dans de nombreux pays, des enseignants sont appelés à exercer leur profession auprès de populations spécifiques (personnes sans ressources, groupes marginalisés, réfugiés, migrants, enfants de la rue, délinquants, femmes issues de certaines sociétés traditionnelles, etc.) ou à travailler dans des conditions particulièrement difficiles (régions éloignées. montagneuses ou rurales, classes à plusieurs niveaux ou pléthoriques, etc.). Les conflits armés, très souvent aux dimensions transfrontières, constituent une situation particulièrement préoccupante. Les enfants sont toujours les victimes les plus traumatisées par ces conflits, dont les conséquences psychologiques et morales les suivront toute leur vie. Quelle que soit la situation, qu’il s’agisse de groupes spéciaux de population, de zones d’accès difficile ou de zones touchées par les conflits armés, il faudrait une stratégie intégrée et prioritaire pour faire face aux spécificités pédagogiques concrètes. Même si elles sont très variables en ampleur et en nature, toutes ces situations exigent de l’enseignant, plus qu’ailleurs, la mobilisation de toutes ses facultés émotionnelles et psychologiques, des compétences diversifiées, bref une vraie polyvalence. Or, comme on l’a constaté, les enseignants sont peu sinon pas du tout préparés à la vie et au travail dans des contextes difficiles. 8.2 Dans de telles circonstances, l’école et les enseignants ont besoin tout d’abord d’un soutien moral et matériel et dans le cas de conflits armés ou de catastrophes naturelles de l’expression de la solidarité de la communauté nationale et internationale, ainsi que d’une aide et d'une intervention rapides. 8.3 En conséquence, les actions suivantes, ajustées à chaque cas spécifique, pourraient être envisagées : 8.3.1 encourager les enseignants originaires de zones difficiles et ceux qui sont motivés pour travailler dans ces zones en organisant dans ces lieux mêmes la formation initiale et continue, appuyée sur un réseau de soutien professionnel et psychologique ; 8.3.2 prévoir dans la formation des enseignants destinés à travailler dans de tels milieux une formation complémentaire, par exemple en psychopédagogie, psychologie et réadaptation scolaires. Il semble souhaitable de renforcer aussi dans leur formation l’apprentissage des techniques de communication, de négociation et de résolution des conflits; 8.3.3 faire assister les enseignants et les éducateurs de services d’appui, notamment de spécialistes en orientation scolaire et professionnelle et en psychopédagogie. Cette assistance pourrait être fournie, par exemple, par des équipes mobiles consultatives de spécialistes ; 8.3.4 afin d’assurer le recrutement d’équipes éducatives expérimentées et motivées, mettre en oeuvre des mesures incitatives incluant par exemple des indemnités, des avantages, un système approprié de promotion, et la possibilité de transfert vers des régions plus calmes après un certain nombre d’années de service dans les milieux ou zones difficiles 8.3.5 assurer la sécurité du personnel éducatif ; 288.3.6 renforcer les liens et la coopération entre les enseignants et la communauté locale, et surtout avec les familles et les associations de parents ; 8.3.7 développer toutes les formes de solidarité nationale, régionale et internationale avec les enseignants qui travaillent dans des conditions difficiles, aussi bien du point de vue matériel que technique et moral."
+  }
+}
