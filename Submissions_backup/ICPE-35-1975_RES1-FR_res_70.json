@@ -1,0 +1,165 @@
+{
+  "TEXT_ID": "ICPE-35-1975_RES1-FR_res_70",
+  "RECOMMENDATION": 70,
+  "TITLE": "LA CLASSIFICATION INTERNATIONALE TYPE DE L'EDUCATION (ISCED)",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-35-1975_RES1-FR",
+      "nb_paras": 7,
+      "preambular_para": [],
+      "operative_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "think": "<think>\nOkay, let's tackle this task. The user wants me to analyze a French UN document and distinguish between preambular and operative paragraphs based on specific rules. \n\nFirst, I need to recall the definitions provided. Preambular paragraphs typically start with certain phrases like \"Considérant\", \"Rappelant\", etc., provide context, and don't have actions. Operative ones have actions, verbs like \"Décide\", \"Demande\", and are often numbered.\n\nLooking at the input paragraphs:\n\n1. Starts with \"1.\" and talks about the working group meeting. It's a numbered paragraph, so according to the rules, numbered paragraphs are operative. But wait, the user mentioned that numbered paragraphs (1., I., II.) are operative. So paragraph 1 is operative.\n\n2. Paragraph 2 is also numbered (2.) and mentions the representatives. Since it's numbered, it's operative. But wait, maybe the numbering starts after the preambular parts. Wait, the user said that usually after the first operative, all following are operative. But need to check if there are any preambular paragraphs before the numbered ones.\n\nWait, the first paragraph is numbered 1., so according to the rule, numbered paragraphs are operative. So paragraphs 1, 2, 3 are numbered? Wait, looking at the input:\n\nWait, the input has:\n\n1. FR: 1. Le groupe de travail s'est réuni... (numbered 1.)\n\n2. FR: 2. Le groupe de travail comprenait... (numbered 2.)\n\n3. FR: 3. Le groupe de travail, A examiné... (numbered 3.)\n\nThen paragraph 4 starts with \"Recommandation n° 70\" which is not numbered with 1., I., II. But the user's rule says that numbered paragraphs (1., I., II.) are operative. So paragraphs 1, 2, 3 are numbered and thus operative. Then paragraph 4 starts with \"Recommandation n° 70\" which is a recommendation, but not numbered as 1., I., II. So maybe it's preambular? Wait, but the user's rule says that after the first operative, all following are operative. Wait, the user's note says: \"Numbered paragraphs (1., I., II.) → operative. Usually after first operative → all following are operative.\" So if the first operative is paragraph 1, then all subsequent numbered paragraphs are operative. But in this case, paragraphs 1, 2, 3 are numbered and thus operative. Then paragraph 4 is not numbered but starts with \"Recommandation n° 70\" which might be part of the operative section. Wait, but the user's rule says that numbered paragraphs are operative, and after the first operative, all following are operative. So if paragraph 1 is operative, then paragraphs 2 and 3 are also operative. Then paragraph 4 is not numbered but starts with a recommendation. Wait, but the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So maybe paragraphs 1, 2, 3 are operative. Then paragraph 4 is part of the operative section. But how to classify it? Let's check the content. \n\nParagraph 4: \"Recommandation n° 70 La Conférence internationale de l'éducation, réunie en sa 35e session... A\" – this seems like a recommendation, which is an operative paragraph. But the user's rule says that operative paragraphs contain actions, recommendations, directives. So this is operative. \n\nParagraph 5: \"Adopte et soumet au Directeur général, pour qu'il prenne les mesures appropriées, la recommandation suivante : 1. QUE LE\" – starts with \"Adopte\" which is an action verb, so operative. \n\nParagraph 6: \"2. QUE LES ETATS MEMBRES: (i) envisagent d'adopter et d'appliquer l'ISCED...\" – starts with \"QUE\" which is part of a directive, so operative. \n\nParagraph 7: \"3. QUE L'UNESCO (i) fournisse l'appui nécessaire...\" – same as above, operative. \n\nSo the numbered paragraphs 1, 2, 3 are operative. Then paragraphs 4, 5, 6, 7 are also operative. Wait, but paragraph 4 is not numbered. However, the user's note says that after the first operative, all following are operative. So if paragraph 1 is the first operative, then all subsequent paragraphs are operative. But the user's rule says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So maybe the initial paragraphs before the numbered ones are preambular. Wait, but in the input, the first three paragraphs are numbered. So according to the rule, they are operative. Then the rest are also operative. But the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So if the first operative is paragraph 1, then all following are operative. So all paragraphs from 1 to 7 are operative. But that can't be right. Wait, maybe the user's note is saying that numbered paragraphs are operative, and once you have a numbered paragraph, all following are operative. So if the first paragraph is numbered, then all are operative. But the user's note says \"usually after first operative → all following are operative.\" So if the first operative is paragraph 1, then paragraphs 2, 3, etc., are also operative. \n\nBut then, what about paragraph 4? It's not numbered but starts with \"Recommandation n° 70\" which is a recommendation. So it's part of the operative section. \n\nSo according to the rules, all numbered paragraphs (1, 2, 3) are operative. Then, since the first operative is paragraph 1, all following paragraphs (4,5,6,7) are also operative. Therefore, all paragraphs are operative. But that contradicts the definitions. Wait, but the definitions say that preambular paragraphs may start with \"Considérant\", etc., and do not contain actions. Looking at the input, none of the paragraphs start with those phrases. So maybe there are no preambular paragraphs. \n\nWait, the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So if the first paragraph is numbered, then all are operative. Therefore, all paragraphs are operative. But the user's definitions mention preambular paragraphs, but in this case, none of the paragraphs start with the required preambular markers. So perhaps there are no preambular paragraphs. \n\nBut the user's note says that the first operative paragraph is numbered, and all following are operative. So in this case, all paragraphs are operative. But the user's definitions mention that preambular paragraphs may start with certain phrases. However, in the input, none of the paragraphs start with those phrases. Therefore, all paragraphs are operative. \n\nWait, but the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So if the first paragraph is numbered, then all are operative. Therefore, the answer would be that all paragraphs are operative. But the user's definitions mention preambular paragraphs, but in this case, none of the paragraphs fit the preambular criteria. \n\nBut the user's note says that the first operative is numbered, and all following are operative. So the answer would be that all paragraphs are operative. But the user's definitions mention that preambular paragraphs may start with certain phrases. However, in this input, none of the paragraphs start with those phrases. Therefore, there are no preambular paragraphs. \n\nSo the JSON would have preambular_para as an empty list, and operative_para as [1,2,3,4,5,6,7]. \n\nBut wait, the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So if the first paragraph is numbered, then all are operative. Therefore, all paragraphs are operative. \n\nBut the user's definitions mention that preambular paragraphs may start with \"Considérant\", etc. But in this case, none of the paragraphs start with those. So there are no preambular paragraphs. \n\nTherefore, the answer is that all paragraphs are operative. \n\nBut the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So the first paragraph is numbered, so it's operative. Then all following are operative. So all paragraphs are operative. \n\nThus, the JSON would have preambular_para as empty, and operative_para as [1,2,3,4,5,6,7]. \n\nBut wait, the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So if the first paragraph is numbered, then all are operative. Therefore, all paragraphs are operative. \n\nBut the user's definitions mention that preambular paragraphs may start with certain phrases. However, in this case, none of the paragraphs start with those. So there are no preambular paragraphs. \n\nTherefore, the answer is that all paragraphs are operative. \n\nBut the user's note says that numbered paragraphs are operative, and usually after the first operative, all following are operative. So the first paragraph is numbered, so it's operative. Then all following are operative. So all paragraphs are operative. \n\nThus, the JSON would be:\n\n{\n  \"preambular_para\": [],\n  \"operative_para\": [1,2,3,4,5,6,7],\n  \"think\": \"Numbered paragraphs (1., 2., 3.) are operative. Since the first operative paragraph is numbered, all subsequent paragraphs are also operative. None of the paragraphs start with preambular markers like 'Considérant' or 'Rappelant', and all contain actions or directives.\"\n}"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "1. Le groupe de travail s'est réuni pour examiner le document de travail ED/BIE/CONFINTED 35/5 et le document de référence ED/BIE/CONFINTED 35/Réf. 8 concernant l'ISCED.",
+        "tags": [],
+        "type": "operative",
+        "think": "The target paragraph discusses the working group examining documents related to ISCED. Paragraph 3 elaborates on the approval and benefits of ISCED, supporting the context of para 1. Paragraph 4 is the recommendation from the conference, which is a complement to the discussion. Paragraphs 5 and 6 outline the recommendations based on the approval, hence supporting relations.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "supporting"
+          ]
+        },
+        "para_en": "1. The working group met to examine the working document ED/BIE/CONFINTED 35/5 and the reference document ED/BIE/CONFINTED 35/Ref. 8 concerning ISCED."
+      },
+      {
+        "para_number": 2,
+        "para": "2. Le groupe de travail comprenait les représentants des délégations suivantes : Allemagne (République fédérale d'), Bangladesh, Canada, Danemark, Egypte, Espagne, Finlande, France, Ghana, Hongrie, Indonésie, Maroc, Nigéria, Oman, Ouganda, Pays-Bas, Pologne, Qatar, Royaume-Uni, Suède, Suisse, Togo et Yougoslavie. Un représentant de l'Organisation des Nations Unies a également participé à ses travaux. Il a élu comme président M. P. Himmelstrup (Danemark) et comme rapporteur le professeur N. O. Anini (Ghana).",
+        "tags": [
+          "POL_INTCOOP"
+        ],
+        "type": "operative",
+        "think": "The tag POL_INTCOOP is selected because the paragraph describes an international working group with multiple delegations and UN participation, reflecting international cooperation. Paragraph 3 directly complements the target by detailing the group's work on ISCED. Paragraphs 4-7 are related as they discuss the context, recommendations, and implementation of ISCED, which aligns with the working group's activities mentioned in the target paragraph.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ]
+        },
+        "para_en": "2. The working group included representatives from the following delegations: Germany (Federal Republic of), Bangladesh, Canada, Denmark, Egypt, Spain, Finland, France, Ghana, Hungary, Indonesia, Morocco, Nigeria, Oman, Uganda, Netherlands, Poland, Qatar, United Kingdom, Sweden, Switzerland, Togo, and Yugoslavia. A representative of the United Nations also participated in its work. Mr. P. Himmelstrup (Denmark) was elected as chairperson and Professor N. O. Anini (Ghana) as rapporteur."
+      },
+      {
+        "para_number": 3,
+        "para": "3. Le groupe de travail, A examiné et discuté certaines des questions soulevées par l'étude de la Classification internationale type de l'éducation (ISCED) et de ses incidences, A approuvé l'ISCED comme instrument ou cadre approprié pour l'établissement et la comparaison des statistiques de l'éducation, A souligné les avantages que l'ISCED pourrait apporter à la planification, à la recherche et à la documentation en matière d'éducation, A noté que l'ISCED faciliterait grandement l'établissement et la comparaison, sur le plan international, des statistiques de l'éducation en tant que telles, ainsi que leur utilisation en liaison avec les statistiques de la main-d'œuvre et d'autres statistiques économiques, A souligné que de plus grands efforts devraient être déployés au double échelon national et international pour améliorer les statistiques de l'éducation et que l'ISCED constituerait un instrument utile à cet effet, A approuvé les critères généraux utilisés pour les domaines et les niveaux d'enseignement comme étant les meilleurs indicateurs dont on dispose actuellement, mais a souligné la nécessité d'examiner les critères proposés ou d'autres critères possibles, qui permettraient de faire une distinction entre les niveaux de l'enseignement supérieur tant à la lumière de l'expérience acquise dans l'application de l'ISCED que grâce à des études spécifiques. A considéré que la prise de position de la Conférence internationale de l'éducation en faveur de l'ISCED nécessiterait la révision de la Recommandation concernant la normalisation internationale des statistiques de l'éducation adoptée par l'Unesco en 1958.",
+        "tags": [
+          "ISC_5",
+          "ISC_7",
+          "ISC_8"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_5, ISC_7, and ISC_8 are selected because the paragraph discusses criteria for differentiating higher education levels (ISCED 5, 7, 8). Relations are established with paragraphs 4 (supporting: ICED's examination of ISCED), 5 (supporting: adoption of ISCED), 7 (supporting: revision of 1958 Recommendation), and 6 (complemental: national implementation of ISCED).",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "6": [
+            "complemental"
+          ]
+        },
+        "para_en": "3. The working group reviewed and discussed certain issues raised by the study of the International Standard Classification of Education (ISCED) and its implications, approved ISCED as an appropriate instrument or framework for the compilation and comparison of education statistics, emphasized the benefits that ISCED could bring to education planning, research, and documentation, noted that ISCED would greatly facilitate the compilation and international comparison of education statistics as such, as well as their use in conjunction with labor force statistics and other economic statistics, stressed that greater efforts should be made at both the national and international levels to improve education statistics and that ISCED would be a useful instrument for this purpose, approved the general criteria used for fields and levels of education as the best indicators currently available, but highlighted the necessity to review the proposed criteria or other possible criteria that would allow for differentiation between levels of higher education in light of experience gained from applying ISCED as well as specific studies, and considered that the position taken by the International Conference on Education in favor of ISCED would require the revision of the Recommendation concerning the International Standardization of Education Statistics adopted by UNESCO in 1958."
+      },
+      {
+        "para_number": 4,
+        "para": "Recommandation n° 70 La Conférence internationale de l'éducation, réunie en sa 35e session (27 août-4 septembre 1975), Ayant examiné la question de la Classification internationale type de l'éducation (ISCED), inscrite à son ordre du jour par le Directeur général,",
+        "tags": [],
+        "type": "operative",
+        "think": "The target paragraph (para 4) outlines the International Conference on Education's recommendation to adopt ISCED as a standard. The candidate paragraphs (5, 6, 7) detail specific points of this recommendation (e.g., adoption by member states, implementation support, legal revisions). These paragraphs are directly related as they elaborate on the main recommendation, thus forming a 'supporting' relationship with high confidence.",
+        "matched_pars": {
+          "5": [
+            "supporting"
+          ],
+          "6": [
+            "supporting"
+          ],
+          "7": [
+            "supporting"
+          ]
+        },
+        "para_en": "Recommendation No. 70 The International Conference on Education, convened at its 35th session (27 August–4 September 1975), Having examined the issue of the International Standard Classification of Education (ISCED), as placed on its agenda by the Director-General,"
+      },
+      {
+        "para_number": 5,
+        "para": "Adopte et soumet au Directeur général, pour qu'il prenne les mesures appropriées, la recommandation suivante : 1. QUE LES ETATS MEMBRES, L'UNESCO ET LES AUTRES ORGANISATIONS INTERNATIONALES ET REGIONALES: adoptent et appliquent l'ISCED en tant que norme fondamentale dans toutes les communications internationales de statistiques de l'éducation.",
+        "tags": [
+          "ISC_99"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes adopting ISCED as a fundamental standard for international education statistics, which aligns with ISC_99 (Multiple levels) as ISCED encompasses various education levels. Paragraphs 6 and 7 provide complementary details: 6 specifies member state actions (adoption/implementation), while 7 outlines UNESCO's role in supporting and revising ISCED, both reinforcing the main recommendation.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ]
+        },
+        "para_en": "Adopts and submits to the Director-General, for appropriate action, the following recommendation: 1. THAT MEMBER STATES, UNESCO, AND OTHER INTERNATIONAL AND REGIONAL ORGANIZATIONS: adopt and apply ISCED as the fundamental standard in all international communications of education statistics."
+      },
+      {
+        "para_number": 6,
+        "para": "2. QUE LES ETATS MEMBRES: (i) envisagent d'adopter et d'appliquer l'ISCED ou un système de classification compatible avec l'ISCED aux fins nationales, et (ii) fournissent à l'Unesco sur sa demande, un tableau ou un exposé de leurs systèmes d'enseignement montrant les liens avec la structure de l'ISCED, en vue de son utilisation dans les publications.",
+        "tags": [
+          "nan"
+        ],
+        "type": "operative",
+        "think": "The 'nan' tag (Education system monitoring & evaluation | nan) is selected because the paragraph discusses member states providing data to UNESCO for publications, which relates to monitoring and evaluation of education systems. The relation to paragraph 7 is complemental as it describes UNESCO's role in supporting ISCED implementation, which complements the requirements outlined in paragraph 6.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. THAT MEMBER STATES: (i) consider adopting and applying the ISCED or a classification system compatible with ISCED for national purposes, and (ii) provide UNESCO, upon request, with a table or description of their education systems showing the links to the ISCED structure, for use in publications."
+      },
+      {
+        "para_number": 7,
+        "para": "3. QUE L'UNESCO (i) fournisse l'appui nécessaire aux Etats membres dans l'application de l'ISCED et entreprenne, en collaboration avec les Etats membres, un programme de travail destiné à améliorer l'ISCED en ce qui concerne notamment les critères utilisés pour définir les catégories-niveaux de l'enseignement supérieur, l'application du système à l'éducation des adultes et d'autres problèmes méthodologiques liés à l'utilisation de l'ISCED et, (ii) entreprenne la procédure juridique de révision de la Recommandation de 1958 concernant la normalisation internationale des statistiques de l'éducation afin de la rendre compatible avec l'ISCED.",
+        "tags": [
+          "ISC_5678"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on improving ISCED criteria for higher education levels (ISCED 5-8) and revising the 1958 Recommendation to align with ISCED. ISC_5678 (Higher education unspecified) is the most comprehensive tag covering all ISCED levels 5-8, which aligns with the mention of 'category-levels of higher education' and methodological issues related to ISCED application.",
+        "matched_pars": {},
+        "para_en": "3. THAT UNESCO (i) provides the necessary support to Member States in the implementation of ISCED and undertakes, in collaboration with Member States, a work program aimed at improving ISCED, particularly regarding the criteria used to define the category-levels of higher education, the application of the system to adult education, and other methodological issues related to the use of ISCED, and (ii) initiates the legal procedure to revise the 1958 Recommendation concerning the international standardization of education statistics in order to make it compatible with ISCED."
+      }
+    ],
+    "body_raw": "1. Le groupe de travail s'est réuni pour examiner le document de travail ED/BIE/CONFINTED 35/5 et le document de référence ED/BIE/CONFINTED 35/Réf. 8 concernant l'ISCED. 2. Le groupe de travail comprenait les représentants des délégations suivantes : Allemagne (République fédérale d'), Bangladesh, Canada, Danemark, Egypte, Espagne, Finlande, France, Ghana, Hongrie, Indonésie, Maroc, Nigéria, Oman, Ouganda, Pays-Bas, Pologne, Qatar, Royaume-Uni, Suède, Suisse, Togo et Yougoslavie. Un représentant de l'Organisation des Nations Unies a également participé à ses travaux. Il a élu comme président M. P. Himmelstrup (Danemark) et comme rapporteur le professeur N. O. Anini (Ghana). 3. Le groupe de travail, A examiné et discuté certaines des questions soulevées par l'étude de la Classification internationale type de l'éducation (ISCED) et de ses incidences, A approuvé l'ISCED comme instrument ou cadre approprié pour l'établissement et la comparaison des statistiques de l'éducation, A souligné les avantages que l'ISCED pourrait apporter à la planification, à la recherche et à la documentation en matière d'éducation, A noté que l'ISCED faciliterait grandement l'établissement et la comparaison, sur le plan international, des statistiques de l'éducation en tant que telles, ainsi que leur utilisation en liaison avec les statistiques de la main-d'œuvre et d'autres statistiques économiques, A souligné que de plus grands efforts devraient être déployés au double échelon national et international pour améliorer les statistiques de l'éducation et que l'ISCED constituerait un instrument utile à cet effet, A approuvé les critères généraux utilisés pour les domaines et les niveaux d'enseignement comme étant les meilleurs indicateurs dont on dispose actuellement, mais a souligné la nécessité d'examiner les critères proposés ou d'autres critères possibles, qui permettraient de faire une distinction entre les niveaux de l'enseignement supérieur tant à la lumière de l'expérience acquise dans l'application de l'ISCED que grâce à des études spécifiques. A considéré que la prise de position de la Conférence internationale de l'éducation en faveur de l'ISCED nécessiterait la révision de la Recommandation concernant la normalisation internationale des statistiques de l'éducation adoptée par l'Unesco en 1958. Recommandation n° 70 La Conférence internationale de l'éducation, réunie en sa 35e session (27 août-4 septembre 1975), Ayant examiné la question de la Classification internationale type de l'éducation (ISCED), inscrite à son ordre du jour par le Directeur général, Adopte et soumet au Directeur général, pour qu'il prenne les mesures appropriées, la recommandation suivante : 1. QUE LES ETATS MEMBRES, L'UNESCO ET LES AUTRES ORGANISATIONS INTERNATIONALES ET REGIONALES: adoptent et appliquent l'ISCED en tant que norme fondamentale dans toutes les communications internationales de statistiques de l'éducation. 2. QUE LES ETATS MEMBRES: (i) envisagent d'adopter et d'appliquer l'ISCED ou un système de classification compatible avec l'ISCED aux fins nationales, et (ii) fournissent à l'Unesco sur sa demande, un tableau ou un exposé de leurs systèmes d'enseignement montrant les liens avec la structure de l'ISCED, en vue de son utilisation dans les publications. 3. QUE L'UNESCO (i) fournisse l'appui nécessaire aux Etats membres dans l'application de l'ISCED et entreprenne, en collaboration avec les Etats membres, un programme de travail destiné à améliorer l'ISCED en ce qui concerne notamment les critères utilisés pour définir les catégories-niveaux de l'enseignement supérieur, l'application du système à l'éducation des adultes et d'autres problèmes méthodologiques liés à l'utilisation de l'ISCED et, (ii) entreprenne la procédure juridique de révision de la Recommandation de 1958 concernant la normalisation internationale des statistiques de l'éducation afin de la rendre compatible avec l'ISCED."
+  }
+}

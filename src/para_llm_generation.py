@@ -338,7 +338,11 @@ def process_paragraph(
 
                 return output
 
-            except Exception:
+            except Exception as e:
+                print(f"[ERROR] Attempt failed: {str(e)}")
+                if i > 0:
+                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage. Your previous answer did NOT include complete JSON. You MUST output JSON."
+
                 continue
 
         return fallback_paragraph_output(para['para_number'])

@@ -1,0 +1,1470 @@
+{
+  "TEXT_ID": "ICPE-25-1962_RES1-FR_res_54",
+  "RECOMMENDATION": 54,
+  "TITLE": "LA PLANIFICATION DE L’ÉDUCATION",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-25-1962_RES1-FR",
+      "nb_paras": 58,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "operative_para": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d’Education, et s’y étant réunie le deux juillet mil neuf cent soixante-deux en sa vingt cinquième session, adopte le douze juillet mil neuf cent soixante-deux la recommandation suivante: La Conférence,",
+        "tags": [
+          "O_G"
+        ],
+        "type": "preambular",
+        "think": "The tag 'O_G' (Education orientation | General (academic)) applies because the paragraph describes a conference on public education, which aligns with general academic orientation. Related paragraphs provide context (2, 3, 8, 9) supporting the rationale for education planning, while paragraphs 14 and 56 complement the adoption process by addressing dissemination.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "8": [
+            "supporting"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, Convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on July 2, 1962, in its twenty-fifth session, adopts on July 12, 1962, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant que l’éducation constitue non seulement un moyen d'élever la dignité de la personne humaine, mais aussi un facteur essentiel du développement culturel, scientifique, technique, économique et social des peuples,",
+        "tags": [
+          "O_G"
+        ],
+        "type": "preambular",
+        "think": "The tag 'O_G' (Education orientation | General (academic)) is selected because the paragraph emphasizes education's broad role in shaping human dignity and driving multifaceted development, aligning with a general academic orientation. All related paragraphs (3,4,7,11,27,54) discuss complementary aspects of education planning, resource allocation, adaptation, and cooperation, which align with the target paragraph's focus on education's holistic impact.",
+        "matched_pars": {
+          "3": [
+            "complemental"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "11": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that education constitutes not only a means of elevating the dignity of the human person but also an essential factor in the cultural, scientific, technical, economic, and social development of peoples,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant que le développement de l’éducation dépend en dernier ressort des ressources économiques, financières et humaines dont peut disposer le pays intéressé, et qu'une planification efficace de l'éducation permet de tirer parti au maximum desdites ressources,",
+        "tags": [
+          "Infrastructure & resources",
+          "POL_FIN"
+        ],
+        "type": "preambular",
+        "think": "The tags 'Infrastructure & resources' and 'POL_FIN' are selected because the paragraph emphasizes economic, financial, and human resources (Infrastructure & resources) and effective planning for resource utilization (POL_FIN). Related paragraphs: 5 (supporting) discusses systematic planning aligned with the target's focus on effective planning; 16 (supporting) links education planning to broader development plans; 10 (complemental) adds context about demographic/economic factors affecting education needs; 42 (complemental) addresses flexibility in planning, which complements resource adaptation.",
+        "matched_pars": {
+          "5": [
+            "supporting"
+          ],
+          "16": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the development of education ultimately depends on the economic, financial, and human resources available to the country concerned, and that effective planning of education allows for the optimal use of these resources,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que la multiplication des besoins et l'évolution toujours plus rapide qui caractérisent notre époque exigent une adaptation de l'éducation, sous tous ses aspects, aux exigences et aux possibilités de demain,",
+        "tags": [],
+        "type": "preambular",
+        "think": "fallback",
+        "matched_pars": {},
+        "para_en": "Considering that the multiplication of needs and the increasingly rapid evolution characterizing our era require an adaptation of education, in all its aspects, to the demands and possibilities of tomorrow,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que les organes responsables de l’éducation doivent mener une action systématique visant à établir les besoins et les objectifs du développement de l’éducation pour une période donnée, et à déterminer les étapes essentielles pour la réalisation des tâches correspondantes ainsi que les moyens et les mesures d’ordre concret nécessaires à la solution des problèmes posés,",
+        "tags": [
+          "SYST_INST",
+          "CUR_IMPL"
+        ],
+        "type": "preambular",
+        "think": "Tags 'SYST_INST' (Education system monitoring & evaluation | Institutional evaluation and inspection) and 'CUR_IMPL' (Curriculum | Curriculum implementation) are selected because the paragraph emphasizes systematic action for planning, institutional evaluation, and concrete measures for implementation. Relations are identified with paragraphs that discuss planning techniques (6), needs analysis (10), prioritization (30), implementation information (40), and training (46), all of which align with the target's focus on systematic educational planning.",
+        "matched_pars": {
+          "6": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "30": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the bodies responsible for education must undertake systematic action aimed at establishing the needs and objectives for the development of education over a given period, and at determining the essential steps for achieving the corresponding tasks as well as the concrete means and measures necessary to address the problems posed,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant que les techniques de planification qui ont fait leurs preuves dans d’autres secteurs peuvent, à condition d’être convenablement adaptées, contribuer à la solution des problèmes éducatifs, dont la complexité va croissant,",
+        "tags": [
+          "PEDAG_OTHER",
+          "SYST_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_OTHER and SYST_OTHER are selected because the paragraph discusses adapting planning techniques to educational problems (pedagogy/assessment) and system-level planning challenges. Related paragraphs: 8 (supports planning's importance), 12 (modifies by addressing planning variability), 13 (complements with diverse solutions), 42 (supports flexibility in implementation), and 25 (supports cross-sector collaboration).",
+        "matched_pars": {
+          "8": [
+            "supporting"
+          ],
+          "12": [
+            "modifying"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "42": [
+            "supporting"
+          ],
+          "25": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that planning techniques which have proven effective in other sectors can, provided they are suitably adapted, contribute to solving educational problems, whose complexity is increasing,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que l'acceptation du principe de l'interdépendant» entre le développement de l'éducation et le développement économique et social ne saurait faire oublier que l'éducation doit garder son caractère propre, qui est de former la personnalité humaine et de développer harmonieusement toutes ses capacités morales, intellectuelles et physiques,",
+        "tags": [
+          "F_REL",
+          "M_FORM"
+        ],
+        "type": "preambular",
+        "think": "Tags F_REL (Religion and moral education) and M_FORM (Formal education) are selected because the paragraph emphasizes education's role in shaping moral, intellectual, and physical capacities (moral education) and its distinct character as a formal institution. Paragraph 51 is related as it supports the idea of national education plans inspired by each country's unique context, aligning with the target paragraph's emphasis on education retaining its own distinct character.",
+        "matched_pars": {
+          "51": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that the acceptance of the principle of interdependence between the development of education and economic and social development must not overshadow the fact that education must retain its own distinct character, which is to shape the human personality and to harmoniously develop all its moral, intellectual, and physical capacities,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant l’importance accordée à la planification de l'éducation dans les activités de l'Unesco et les recommandations formulées à ce sujet par les conférences internationales et régionales qu’elle a contribué à organiser,",
+        "tags": [
+          "Education orientation"
+        ],
+        "type": "preambular",
+        "think": "The target paragraph emphasizes UNESCO's role in education planning and references international/regional conferences. 'Education orientation' directly aligns with planning activities. Related paragraphs discuss specific recommendations (9), contextual factors (10), technical cooperation (53), regional conferences (54), financial assistance conditions (55), and regional adaptation (57). All relations are supported by shared focus on education planning mechanisms.",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "53": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering the importance accorded to education planning in UNESCO’s activities and the recommendations made in this regard by the international and regional conferences it has helped to organize,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant qu'un grand nombre des recommandations approuvées ces dernières années par la Conférence internationale de l'instruction publique, et tout spécialement les Recommandations nos 40, 44 et 49 concernant le financement de l'éducation, le développement des constructions scolaires, et le recrutement et la formation des cadres techniques et scientifiques, envisagent des mesures rationnelles à prendre en vue d’assurer le développement de l’éducation conformément aux besoins de l'heure,",
+        "tags": [
+          "LAW_REG",
+          "INFRA_BUILD"
+        ],
+        "type": "preambular",
+        "think": "Tags LAW_REG (legal frameworks for education) and INFRA_BUILD (school infrastructure) are selected because the paragraph references approved recommendations (legal frameworks) and explicitly mentions school infrastructure development. Related paragraphs: 36 (directly addresses financing, infrastructure, and training mentioned in the target), 54 (complements education planning techniques), 55 (complements international cooperation in planning), and 53 (complements technical cooperation in education planning).",
+        "matched_pars": {
+          "36": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that a large number of the recommendations approved in recent years by the International Conference on Public Education, and especially Recommendations Nos. 40, 44, and 49 concerning the financing of education, the development of school infrastructure, and the recruitment and training of technical and scientific personnel, propose rational measures to be taken in order to ensure the development of education in accordance with the needs of the present time,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant que tous les pays doivent être à même de connaître le rapport qui existe entre la réalité scolaire et la situation démographique, économique et sociale afin de pouvoir mieux déceler leurs besoins en matière d'éducation, déterminer les objectifs à atteindre et choisir les moyens les plus appropriés pour y parvenir,",
+        "tags": [
+          "POL_QUAL",
+          "ISC_99"
+        ],
+        "type": "preambular",
+        "think": "Tags POL_QUAL (Policy theme | Quality and learning outcomes) and ISC_99 (Education level | Multiple levels) are selected because the paragraph emphasizes understanding relationships between education and demographic/economic/social factors (aligning with POL_QUAL's focus on policy-driven quality) and addresses multi-level planning (ISC_99). Related paragraphs 12, 13, 50, and 54 are connected through shared themes of educational planning challenges, diverse solutions, specialist collaboration, and regional planning techniques, which complement or support the target paragraph's focus on adaptive planning and multi-level analysis.",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that all countries must be able to understand the relationship between the educational situation and the demographic, economic, and social conditions in order to better identify their educational needs, determine the objectives to be achieved, and select the most appropriate means to attain them,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant que la coopération en matière d'éducation est un facteur important d'enrichissement mutuel et de compréhension entre les peuples,",
+        "tags": [
+          "POL_INTCOOP"
+        ],
+        "type": "preambular",
+        "think": "The tag POL_INTCOOP is selected because the paragraph explicitly emphasizes international cooperation in education. Related paragraphs 51, 50, and 25 directly address collaboration in educational planning, aligning with the target's focus on cooperation. Paragraph 44 adds implementation-related collaboration (complemental), while 13 highlights diversity in solutions (complemental).",
+        "matched_pars": {
+          "51": [
+            "supporting"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "25": [
+            "supporting"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "13": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that cooperation in the field of education is an important factor for mutual enrichment and understanding among peoples,"
+      },
+      {
+        "para_number": 12,
+        "para": "Considérant la difficulté qu’il peut y avoir à formuler des suggestions valables pour tous les pays, étant donné, d'une part, que la planification est en voie de perfectionnement constant, et, d'autre, part, que la position des autorités scolaires à l’égard de ce problème présente des variations sensibles,",
+        "tags": [
+          "POL_GOV"
+        ],
+        "type": "preambular",
+        "think": "The paragraph discusses challenges in educational planning due to varying national contexts and governance approaches, aligning with POL_GOV (Policy theme | Governance and planning). Related paragraphs address flexibility in planning (41, 42), diverse solutions (13), training for planning (46), and actionable recommendations (14). Complemental relations exist with 13, 41, 42, and 14, while 46 provides supporting measures for the challenges mentioned.",
+        "matched_pars": {
+          "13": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "14": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering the difficulty that may arise in formulating suggestions applicable to all countries, given, on the one hand, that planning is in a state of constant improvement, and, on the other hand, that the stance of educational authorities regarding this issue presents significant variations,"
+      },
+      {
+        "para_number": 13,
+        "para": "Considérant qu'en dépit d’aspirations semblables, des pays dont la situation est. très différente se doivent d’apporter des solutions diverses au problème de la planification de l’éducation,",
+        "tags": [
+          "POL_OTH"
+        ],
+        "type": "preambular",
+        "think": "The paragraph discusses the need for diverse educational planning solutions based on differing national contexts, aligning with 'POL_OTH' (Policy theme | Other policy theme). Related paragraphs address specific aspects of educational planning (e.g., country-specific characteristics, private education, flexibility, and capacity-building), which complement or support the target's emphasis on adaptive policy approaches.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "32": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that despite similar aspirations, countries with very different situations must provide diverse solutions to the problem of educational planning,"
+      },
+      {
+        "para_number": 14,
+        "para": "Soumet aux Ministères de l’instruction publique des différents pays la recommandation suivante:",
+        "tags": [
+          "POL_OTH"
+        ],
+        "type": "operative",
+        "think": "The target paragraph (para 14) is a recommendation to education ministries, which falls under 'Policy theme | Other policy theme' (POL_OTH) as it outlines a policy directive. Related paragraphs (15-58) are parts of the same resolution, providing complementary details on educational planning, implementation, and dissemination, hence 'complemental' relations with high confidence.",
+        "matched_pars": {
+          "15": [
+            "complemental"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ],
+          "58": [
+            "complemental"
+          ]
+        },
+        "para_en": "Submits to the Ministries of Public Education of the different countries the following recommendation:"
+      },
+      {
+        "para_number": 15,
+        "para": "PORTÉE DE LA PLANIFICATION DE L'ÉDUCATION 1. Les efforts visant à introduire, à améliorer ou à développer la planification de l'éducation doivent tenir compte non seulement du degré atteint par chaque pays en ce qui concerne l’organisation et l'administration rationnelles et efficaces de son enseignement, mais aussi des caractéristiques propres au système scolaire considéré.",
+        "tags": [
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on the scope of educational planning, emphasizing considerations of a country's educational level and system characteristics. 'SYST_OTHER' is selected as it directly relates to education system monitoring/evaluation. Related paragraphs expand on planning contexts (16), implementation details (26), regional flexibility (42), sector coordination (17), and capacity-building (46), all of which complement or support the target's themes.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "SCOPE OF EDUCATIONAL PLANNING 1. Efforts to introduce, improve, or develop educational planning must take into account not only the level achieved by each country in terms of the rational and effective organization and administration of its education system but also the specific characteristics of the school system in question."
+      },
+      {
+        "para_number": 16,
+        "para": "2. Dans les pays où il existe une planification de toutes les activités de l'Etat, il importe que la planification de l'éducation soit conçue dans le contexte du plan ou du programme de développement économique et social et que la place réservée à l'éducation dans ce plan ou ce programme — 175 — soit en rapport avec le rôle qu’elle est appelée à jouer dans le développement intégral du pays.",
+        "tags": [
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes education planning within state economic/social development frameworks, aligning with 'POL_GOV' (governance/planning). Related paragraphs discuss coordination (17), detailed planning steps (26), and training for planners (47), which complement/support the target's focus on planning integration and implementation.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "47": [
+            "supporting"
+          ]
+        },
+        "para_en": "2. In countries where planning exists for all State activities, it is essential that education planning be designed within the context of the economic and social development plan or program, and that the place assigned to education in this plan or program corresponds to the role it is expected to play in the comprehensive development of the country."
+      },
+      {
+        "para_number": 17,
+        "para": "3. Dans les pays où il n'existe pas de planification générale des activités de l’Etat mais où l'éducation fait l'objet d'une planification, il importe d'assurer une étroite coordination entre cette, éducation planifiée et les autres secteurs d'activités.",
+        "tags": [
+          "CUR_OTHER",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_OTHER (Curriculum | Other curriculum-related issue) and SYST_OTHER (Education system monitoring & evaluation | Other) are selected because the paragraph emphasizes education planning coordination with other sectors, which relates to curriculum frameworks and systemic integration. Relations: Para 18 (complemental) expands on planning principles; Para 19 (supporting) reinforces the need for comprehensive planning; Para 20 (complemental) directly addresses coordination in non-comprehensive planning; Para 25 (supporting) highlights collaboration between planners, aligning with coordination themes.",
+        "matched_pars": {
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "25": [
+            "supporting"
+          ]
+        },
+        "para_en": "3. In countries where there is no general planning of state activities but education is subject to planning, it is important to ensure close coordination between this planned education and the other sectors of activity."
+      },
+      {
+        "para_number": 18,
+        "para": "4. Dans les pays où il n'existe pas de planification de l'éducation, les réformes louchant au développement et à l'amélioration de l’éducation devraient s’inspirer des principes généraux de la planification en ce qui concerne, par exemple, la prévision des effectifs scolaires, les besoins futurs en maîtres et leur formation, les constructions scolaires et les crédits destinés à l'enseignement,",
+        "tags": [
+          "POL_GOV",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags POL_GOV (Governance and planning) and T_INI (Initial education and training) are selected because the paragraph emphasizes planning principles for education reforms (POL_GOV) and mentions teacher training needs (T_INI). Related paragraphs: 19 (supports comprehensive planning), 20 (complements coordination in non-comprehensive planning), 37 (supports recommended planning procedures), 46 (complements training for planners), and 48 (supports capacity-building in planning).",
+        "matched_pars": {
+          "19": [
+            "supporting"
+          ],
+          "20": [
+            "complemental"
+          ],
+          "37": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "48": [
+            "supporting"
+          ]
+        },
+        "para_en": "4. In countries where there is no planning for education, reforms aimed at the development and improvement of education should be guided by the general principles of planning concerning, for example, the projection of student enrollment, future needs for teachers and their training, school construction, and funding allocated to education."
+      },
+      {
+        "para_number": 19,
+        "para": "5. L'interdépendance croissante des divers problèmes d’ordre éducatif rend de plus en plus souhaitable une planification d'ensemble de l’éducation, communément appelée planification intégrale ou générale, de l'éducation.",
+        "tags": [
+          "O_All",
+          "O_G"
+        ],
+        "type": "operative",
+        "think": "Tags O_All and O_G are selected because the paragraph emphasizes 'comprehensive education planning' (combined general/vocational) and 'general planning' (general academic orientation). Related paragraphs address coordination (20), collaboration (25), training (46/47/49) which all support or complement the need for integrated planning frameworks.",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "49": [
+            "supporting"
+          ]
+        },
+        "para_en": "5. The increasing interdependence of various educational issues makes comprehensive education planning, commonly referred to as integral or general planning of education, increasingly desirable."
+      },
+      {
+        "para_number": 20,
+        "para": "6. Lorsque la planification de l'éducation n’a pas un caractère intégral ou général, il convient d'établir une étroite coordination entre les divers plans éducatifs particuliers qui ont été ou qui seront élaborés.",
+        "tags": [
+          "CUR_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph emphasizes coordination between specific educational plans when planning is not comprehensive. CUR_OTHER (Curriculum | Other curriculum-related issue) is selected because the text discusses coordination of educational plans, which relates to curriculum planning. Para 22 (22) provides structural support for coordination by mentioning dedicated bodies for education planning, making it complemental. Para 25 (25) supports the idea of collaboration between planning specialists, reinforcing the need for coordination, hence supporting relation.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "25": [
+            "supporting"
+          ]
+        },
+        "para_en": "6. When education planning is not comprehensive or general in nature, close coordination should be established among the various specific educational plans that have been or will be developed."
+      },
+      {
+        "para_number": 21,
+        "para": "7. Sans chercher à se prononcer sur la durée que doivent avoir les plans de développement de l'éducation, il convient de souligner que ces plans devraient s’étendre sur une période assez longue, quitte à être fractionnés en périodes plus courtes permettant de rectifier éventuellement les prévisions contenues dans les plans à long terme.",
+        "tags": [
+          "CUR_ORG",
+          "CUR_DVPMT"
+        ],
+        "type": "operative",
+        "think": "The tags CUR_ORG and CUR_DVPMT are selected because the paragraph discusses the organization of education plans (long-term periods and adjustments) and their design/development. Para 31 (flexibility in adaptation) is complemental as it addresses plan adaptability. Para 37 (school reforms) is complemental as it relates to broader planning processes.",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "7. Without attempting to determine the duration that education development plans should have, it is important to emphasize that these plans should cover a fairly long period, with the possibility of being divided into shorter periods to allow for adjustments to the forecasts contained in the long-term plans."
+      },
+      {
+        "para_number": 22,
+        "para": "Organes chargés de la planification de l’éducation 8. 11 importe que chaque ministère de l’instruction publique dispose d'un organe, quelle qu’en soit l'appellation, qui soit responsable de la planification de l'éducation en étroite liaison avec les autres départements ministériels, notamment avec ceux qui s'occupent également d’éducation et de formation.",
+        "tags": [
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes the organization of education planning bodies within ministries (CUR_ORG). Related paragraphs discuss coordination with external organizations (23), collaboration with other sectors (25), multidisciplinary teams (50), and training for planners (47). These are complemental/supporting as they expand on planning structures and requirements.",
+        "matched_pars": {
+          "23": [
+            "complemental"
+          ],
+          "25": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "Bodies Responsible for Education Planning 8. It is essential that each Ministry of Public Instruction has a body, by whatever name, responsible for education planning in close coordination with other ministerial departments, particularly those also involved in education and training."
+      },
+      {
+        "para_number": 23,
+        "para": "9. En plus des initiatives qui lui seraient propres, l'organe responsable de la planification de l’éducation devrait avoir pour fonctions de coordonner et d’utiliser les travaux d'autres organismes ayant déjà fait leurs preuves: organes consultatifs, commissions de réforme, centres de documentation, d’étude et de recherche, offices de statistiques, services des constructions scolaires, services du budget, etc.",
+        "tags": [
+          "SYST_OTHER",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "Tags 'SYST_OTHER' (Education system monitoring & evaluation | Other) and 'CUR_ORG' (Curriculum | Organization and instructional time) are selected because the paragraph emphasizes coordination of organizational structures (e.g., advisory bodies, statistical offices) and the functional organization of educational planning bodies. Relations are identified with confidence scores based on semantic alignment: para 24 (complemental) discusses structural placement of planning bodies, para 25 (supporting) highlights collaboration with sector experts, para 33 (complemental) references documentation centers, and para 50 (supporting) mentions interdisciplinary expertise.",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "25": [
+            "supporting"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "9. In addition to its own initiatives, the body responsible for educational planning should have the functions of coordinating and utilizing the work of other proven organizations: advisory bodies, reform commissions, documentation, study and research centers, statistical offices, school construction services, budget services, etc."
+      },
+      {
+        "para_number": 24,
+        "para": "10. Suivant la structure centralisée ou décentralisée du pays, l’organe responsable de la planification de l'éducation devrait, se situer à l’échelon national ou fédéral, ce qui n’exclut nullement l’éventuelle création de services ou de commissions do planification à l’échelon régional ou local.",
+        "tags": [
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses governance structures for education planning (national/federal vs. regional/local), directly aligning with 'POL_GOV' (Policy theme | Governance and planning). Related paragraphs address complementary aspects: 25 (collaboration in planning), 26 (plan preparation details), 41 (international support for planning), and 55 (financial assistance tied to planning). All relations are complemental as they expand on different facets of education planning frameworks.",
+        "matched_pars": {
+          "25": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. Depending on whether the country has a centralized or decentralized structure, the body responsible for education planning should be situated at the national or federal level, which does not preclude the possible establishment of planning services or commissions at the regional or local level."
+      },
+      {
+        "para_number": 25,
+        "para": "11. Il importe d’assurer une collaboration étroite entre les spécialistes de la planification de l’éducation et les experts en matière de planification dans d'autres secteurs, notamment dans ceux qui touchent le plus directement à l'éducation. — 176 — ÉLABORATION DES PLANS D'ÉDUCATION",
+        "tags": [
+          "ACT_EDUC",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) and PEDAG_OTHER (Pedagogy & assessment | Other pedagogy related issue) are selected because the paragraph emphasizes collaboration between educational planners and experts from other sectors (ACT_EDUC) and addresses planning processes that influence pedagogical outcomes (PEDAG_OTHER). Related paragraphs provide complemental/supporting information about education planning components, multidisciplinary collaboration, and training requirements.",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ],
+          "27": [
+            "complemental"
+          ],
+          "33": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "11. It is essential to ensure close collaboration between specialists in educational planning and experts in planning from other sectors, particularly those most directly related to education."
+      },
+      {
+        "para_number": 26,
+        "para": "12. Quel que soit le type de planification existant (planification de l'éducation faisant partie ou non d'une planification plus générale des activités de l'Etat, planification intégrale ou partielle de l’éducation, planification partant de l’échelon local pour atteindre l'échelon national ou vice versa), la préparation d'un plan d'éducation doit comporter, entre autres : a) l’analyse de la situation éducative du pays et de sa situation d'ensemble; b) la détermination des besoins éducatifs à satisfaire; c) l'inventaire des ressources humaines et matérielles existantes; d) h fixation des objectifs à atteindre dans un laps de temps déterminé et de l’ordre de priorités à observer; e) l’énoncé des mesures à prendre ou des changements à apporter en vue d'atteindre les objectifs fixés.",
+        "tags": [
+          "CUR_OTHER",
+          "Education system monitoring & evaluation"
+        ],
+        "type": "operative",
+        "think": "Tags 'CUR_OTHER' and 'Education system monitoring & evaluation' are selected because the paragraph emphasizes planning elements like analyzing educational situations (monitoring) and determining needs (evaluation), which fall under broader curriculum-related issues. Related paragraphs provide complementary details on factors influencing education (27), statistical data importance (28), financing and implementation specifics (36), stakeholder information (40), flexibility in implementation (42), and specialist training (46).",
+        "matched_pars": {
+          "27": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "12. Regardless of the type of existing planning (education planning as part of a broader state activity planning or not, comprehensive or partial education planning, planning starting from the local level to reach the national level or vice versa), the preparation of an education plan must include, among other things: a) an analysis of the country's educational situation and its overall situation; b) the determination of educational needs to be met; c) the inventory of existing human and material resources; d) the setting of objectives to be achieved within a specified timeframe and the priorities to be observed; e) the statement of measures to be taken or changes to be made in order to achieve the set objectives."
+      },
+      {
+        "para_number": 27,
+        "para": "13. Lors de l'élaboration d’un plan d’éducation, on ne saurait st contenter de prendre en considération les seuls facteurs d'ordre pédagogique, encore que leur importance demeure primordiale; il convient de tenir compte également de l’influence qu’exercent sur le développement de l'éducation : a) la structure sociale du pays et les facteurs qui tendent à accélérer son évolution ; b) l’évolution démographique du pays, l’immigration, l’émigration et les mouvements internes de population résultant d'un regroupement économique ou de tout autre cause; c) les facteurs d’ordre économique tels que les besoins de la production en ressources humaines, notamment pour ce qui est du personnel qualifié et des cadres techniques et scientifiques ; d) les fluctuations dans les effectifs scolaires aux différents niveaux et les rapports proportionnels existant entre la fréquentation des établissements des divers ordres et degrés d'enseignement ; e) l’organisation et le fonctionnement du système administratif eu général et de l’administration scolaire en particulier ; j) les ressources financières dont l’éducation peut disposer chaque année et les programmes budgétaires spéciaux, échelonnés sur plusieurs années, qui pourraient être établis en sa faveur; g) l’essor culturel en ce qui concerne tant!» activités désintéressées de l’esprit que les découvertes d'ordre scientifique et technique.",
+        "tags": [
+          "O_G",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags O_G (Education orientation | General (academic)) and POL_CUR (Policy theme | Curriculum and pedagogy policies) are selected because the paragraph emphasizes comprehensive factors in education planning, including pedagogical elements and systemic considerations. Related paragraphs provide supporting (28, 30, 42) or complemental (29, 36) information by addressing statistical data, comparative studies, prioritization, financing, and flexibility, which align with the target paragraph's focus on multifaceted education planning.",
+        "matched_pars": {
+          "28": [
+            "supporting"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "30": [
+            "supporting"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "42": [
+            "supporting"
+          ]
+        },
+        "para_en": "13. In the development of an education plan, it is not sufficient to consider only pedagogical factors, although their importance remains paramount; it is also necessary to take into account the influence exerted on the development of education by: a) the social structure of the country and the factors that tend to accelerate its evolution; b) the demographic evolution of the country, immigration, emigration, and internal population movements resulting from economic regrouping or any other cause; c) economic factors such as the production needs in human resources, particularly regarding qualified personnel and technical and scientific staff; d) fluctuations in school enrollments at various levels and the proportional relationships existing among attendance at institutions of different orders and degrees of education; e) the organization and functioning of the administrative system in general and of the school administration in particular; f) the financial resources available to education each year and the special budgetary programs, spread over several years, that could be established in its favor; g) cultural development concerning both activities driven by intellectual interests and scientific and technical discoveries."
+      },
+      {
+        "para_number": 28,
+        "para": "14. Etant donné le rôle, fort important que l'évaluation quantitative de la situation actuelle et des besoins prévisibles joue dans l'élaboration d’un plan d'éducation, il est essentiel de pouvoir disposer de données statistiques sûres et comparables.",
+        "tags": [
+          "SYST_STAT"
+        ],
+        "type": "operative",
+        "think": "The tag SYST_STAT (Education statistics and indicators) is selected because the paragraph emphasizes the need for reliable and comparable statistical data in education planning. For relations, paragraph 45 directly supports this by discussing the advancement of quantitative evaluation techniques, which aligns with the target paragraph's focus on statistical data for education planning.",
+        "matched_pars": {
+          "45": [
+            "supporting"
+          ]
+        },
+        "para_en": "Given the very important role that the quantitative evaluation of the current situation and foreseeable needs plays in the development of an education plan, it is essential to have reliable and comparable statistical data available."
+      },
+      {
+        "para_number": 29,
+        "para": "15. Le recours à des études d'éducation comparée doit être considéré comme un élément indispensable pour l'élaboration d’un plan d’éducation: de telles études contribuent à déterminer la situation du pays considéré par rapport à celle d'autres pays, elles servent à fixer des normes éducatives de caractère international et, en faisant ressortir les tendances du mouvement éducatif, elles facilitent la formulation de prévisions.",
+        "tags": [
+          "CUR_OTHER",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes the role of comparative education studies in curriculum development (CUR_OTHER) and system-level planning (SYST_OTHER). Related paragraphs 33 (resources for planning), 54 (planning techniques), and 55 (planning's importance) complement or support these ideas.",
+        "matched_pars": {
+          "33": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ]
+        },
+        "para_en": "15. The use of comparative education studies must be regarded as an indispensable element in the development of an education plan: such studies help to determine the position of the country concerned relative to that of other countries, they serve to establish educational standards of an international nature, and by highlighting trends in the educational movement, they facilitate the formulation of forecasts."
+      },
+      {
+        "para_number": 30,
+        "para": "16. Lors de l’élaboration d’un plan d'éducation, il convient d’apporter un soin tout particulier à l’établissement d'un ordre de priorités fondé non point sur le caractère plus ou moins spectaculaire des mesures recommandées. mais sur l'importance et l’urgence des besoins éducatifs et les possibilités de les satisfaire. — 177 —",
+        "tags": [
+          "POL_CUR",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_CUR and CUR_IMPL are selected because the paragraph focuses on curriculum planning priorities and implementation strategies. Related paragraphs 31 (flexibility in planning), 36 (specific plan components), 43 (financing details), and 46 (planning expertise) provide complementary information about education plan development.",
+        "matched_pars": {
+          "31": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "16. In the development of an education plan, particular care should be given to establishing a hierarchy of priorities based not on the more or less spectacular nature of the recommended measures, but on the importance and urgency of educational needs and the possibilities of meeting them."
+      },
+      {
+        "para_number": 31,
+        "para": "17. L’élaboration d'un plan d'éducation exige une certaine souplesse, permettant son adaptation aux changements qui peuvent résulter de l’évolution de la situation.",
+        "tags": [
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph emphasizes flexibility in education plan development to adapt to changes. 'CUR_IMPL' (Curriculum Implementation) is directly relevant as curriculum implementation inherently requires adaptability. Paragraph 42 explicitly discusses flexibility in implementation, aligning with the target's focus. The relation is 'supporting' as both paragraphs reinforce the need for adaptability in education planning.",
+        "matched_pars": {
+          "42": [
+            "supporting"
+          ]
+        },
+        "para_en": "17. The development of an education plan requires a certain flexibility, allowing for its adaptation to changes that may result from the evolution of the situation."
+      },
+      {
+        "para_number": 32,
+        "para": "18. Dans les pays où l'enseignement privé occupe une place relativement importante, l'élaboration d’un plan d'éducation doit tenir compte des besoins et des possibilités de cet enseignement.",
+        "tags": [
+          "ACT_PRIV"
+        ],
+        "type": "operative",
+        "think": "The tag ACT_PRIV (Stakeholder focus | Private sector and industry) is selected because the paragraph explicitly mentions private education as a sector requiring consideration in education planning. For relations: Para 34 discusses stakeholder consultation, which complements the target paragraph's focus on private sector inclusion (confidence 0.7). Para 46 supports the need for planning expertise, which aligns with the target's emphasis on adapting education plans to private sector needs (confidence 0.7).",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "18. In countries where private education holds a relatively significant position, the development of an education plan must take into account the needs and possibilities of this sector."
+      },
+      {
+        "para_number": 33,
+        "para": "19. Lors de l'élaboration d’un plan d'éducation, il convient d’avoir recours aux centres de documentation, d’information, de recherche et d’études pédagogiques; en outre, il peut être utile de constituer des organes spéciaux d'étude et de consultation.",
+        "tags": [
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph emphasizes the need for multidisciplinary specialists in education planning bodies. 'SYST_OTHER' (Education system monitoring & evaluation | Other) is selected because the paragraph discusses structural requirements for effective education planning. Paragraph 34 (consulting stakeholders) is complemental as it addresses stakeholder involvement in planning. Paragraph 50 (specialists in education planning) directly supports the target's focus on team composition. Paragraph 47 (training for education planners) is complemental as it relates to capacity-building for planners.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ],
+          "47": [
+            "complemental"
+          ]
+        },
+        "para_en": "19. In developing an education plan, it is appropriate to make use of documentation, information, research, and pedagogical study centers; furthermore, it may be useful to establish special bodies for study and consultation."
+      },
+      {
+        "para_number": 34,
+        "para": "20. L'élaboration d'un plan d'éducation ne saurait se faire sans que soient consultés ceux qui s'intéressent le plus directement au financement et au développement de l'éducation, par exemple les représentants du corps enseignant et des groupements pédagogiques, les fédérations de conseils scolaires, les autorités locales et régionales, les associations de parents et les associations d'étudiants.",
+        "tags": [
+          "ACT_EDUC",
+          "ACT_STUD",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (teachers/educators), ACT_STUD (students), and ACT_PARENT (parents) are selected because the paragraph explicitly mentions stakeholders like teaching staff, student associations, and parent associations. Related paragraphs: 36 (teacher training), 40 (informing stakeholders), 43 (financing), 50 (specialists in education planning), and 46 (training leaders) all address aspects of stakeholder involvement or education planning components mentioned in the target paragraph. Complemental relations are assigned as they provide related but distinct details supporting the main theme.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "20. The development of an education plan cannot be carried out without consulting those most directly involved in the financing and development of education, such as representatives of the teaching staff and educational organizations, federations of school boards, local and regional authorities, parent associations, and student associations."
+      },
+      {
+        "para_number": 35,
+        "para": "21. L’intérêt manifesté par le public et les commentaires publiés dans la presse ou formulés lors de réunions d'information pouvant contribuer grandement à l’application efficace des plans d’éducation, il importe, par tous les moyens de diffusion appropriés, de tenir l'opinion publique au courant des projets élaborés.",
+        "tags": [
+          "POL_GOV"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes public communication in education planning, aligning with POL_GOV (Governance and planning). Related paragraphs discuss dissemination methods (56, 55), implementation details (36), and complementary communication strategies (40, 54).",
+        "matched_pars": {
+          "56": [
+            "supporting"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "36": [
+            "complemental"
+          ]
+        },
+        "para_en": "21. Since public interest and comments published in the press or expressed during informational meetings can greatly contribute to the effective implementation of education plans, it is important, through all appropriate means of communication, to keep public opinion informed of the projects developed."
+      },
+      {
+        "para_number": 36,
+        "para": "22. Il convient d'apporter une attention toute spéciale à la formulation des parties du plan qui concernent le financement de l'éducation, les constructions et l’équipement scolaires, la formation des maîtres et la préparation des travailleurs qualifiés et des cadres techniques et scientifiques.",
+        "tags": [
+          "ACT_EDUC",
+          "T_INI",
+          "INFRA_BUILD"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (teacher training), T_INI (initial education), and INFRA_BUILD (school construction) directly match the paragraph's focus on education financing, teacher training, and infrastructure. Related paragraphs provide complementary context: 43 (financing details), 46 (specialist training), 49 (curriculum integration), 38 (plan experimentation), and 37 (school reform procedures). Confidence scores reflect textual alignment strength.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "Special attention should be given to the formulation of the sections of the plan concerning the financing of education, school construction and equipment, teacher training, and the preparation of skilled workers and technical and scientific personnel."
+      },
+      {
+        "para_number": 37,
+        "para": "23. Là où il n'existe pas de planification de l'éducation, la procédure recommandée pour l'élaboration des plans devrait être utilisée pour la préparation de réformes scolaires spécifiques.",
+        "tags": [
+          "CUR_EVAL"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on using recommended procedures for school reforms in the absence of educational planning. 'CUR_EVAL' is selected because it directly relates to curriculum evaluation and reform. Related paragraphs discuss implementation processes (38, 39, 42), training for planners (46, 47), and institutional solutions (48), all of which complement or support the target's focus on planning procedures and reforms.",
+        "matched_pars": {
+          "38": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "supporting"
+          ]
+        },
+        "para_en": "23. Where educational planning does not exist, the recommended procedure for the development of plans should be used for the preparation of specific school reforms."
+      },
+      {
+        "para_number": 38,
+        "para": "Adoption et application des plans d’éducation 24. Avant l’adoption définitive d’un plan d’éducation, il conviendrait de soumettre certains des projets élaborés à une expérimentation préalable ou à des essais appropriés, de façon à permettre, le cas échéant, la mise au point, voire l'élimination, de telle ou telle partie de ce plan d’éducation.",
+        "tags": [
+          "CUR_DVPMT",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_DVPMT (Design and development) and CUR_IMPL (Implementation) are selected because the paragraph focuses on pre-adoption experimentation and refinement of education plans, which aligns with curriculum development and implementation processes. Relations: Para 42 (supporting) directly addresses flexibility in implementation, which complements the experimentation phase. Paras 40, 44, and 58 provide related implementation context (information dissemination, oversight, administrative tasks) with moderate confidence as they address different aspects of plan execution.",
+        "matched_pars": {
+          "42": [
+            "supporting"
+          ],
+          "40": [
+            "complemental"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "58": [
+            "complemental"
+          ]
+        },
+        "para_en": "Adoption and implementation of education plans 24. Prior to the final adoption of an education plan, certain drafted projects should be subjected to preliminary experimentation or appropriate trials, in order to allow, if necessary, the refinement or even the elimination of specific parts of that education plan."
+      },
+      {
+        "para_number": 39,
+        "para": "25. Quelle que soit l'importance que l'on attache à entourer de toutes les garanties indispensables la procédure d’adoption, d’application et de contrôle d'un plan d’éducation, la complexité de cette procédure ne devrait pas freiner ou entraver la mise en pratique du plan envisagé.",
+        "tags": [
+          "POL_GOV",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags POL_GOV (governance/planning) and CUR_IMPL (curriculum implementation) are selected because the paragraph discusses procedural complexity in education planning and implementation. Related paragraphs address implementation details (40, 41, 42, 44) and capacity-building (46), which are all connected to the target's focus on implementation challenges and requirements.",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "modifying"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ]
+        },
+        "para_en": "25. Regardless of the importance attached to ensuring all necessary safeguards in the procedure for the adoption, implementation, and oversight of an education plan, the complexity of this procedure should not hinder or obstruct the practical application of the proposed plan."
+      },
+      {
+        "para_number": 40,
+        "para": "26. Il importe que les organisation et les personnes appelées à collaborer à l'exécution d'un plan d’éducation soient renseignées aussi complètement que possible sur sa portée et ses caractéristiques, ainsi que sur les mesures pratiques indispensables à son succès. — 178 —",
+        "tags": [
+          "CUR_IMPL",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL and CUR_ORG are selected because the paragraph emphasizes informing stakeholders about implementation details (CUR_IMPL) and practical measures (CUR_ORG). Related paragraphs discuss implementation responsibilities (41), flexibility (42), oversight (44), training (46), and specialist collaboration (50), which all connect to implementation aspects with varying degrees of overlap.",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "42": [
+            "modifying"
+          ],
+          "44": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "26. It is essential that the organizations and individuals involved in the implementation of an education plan be informed as fully as possible about its scope and characteristics, as well as the practical measures indispensable to its success."
+      },
+      {
+        "para_number": 41,
+        "para": "27. La répartition des responsabilités, lors de l'exécution d’un plan d'éducation, peut varier selon la structure administrative propre à chaque pays; les autorités régionales et locales peuvent apporter leur concours à la réalisation du plan en évaluant de façon précise leurs propres possibilités et en tirant le meilleur parti des ressources régionales ou locales existantes.",
+        "tags": [
+          "POL_GOV",
+          "nan"
+        ],
+        "type": "operative",
+        "think": "Tags POL_GOV (governance/planning) and nan (monitoring/evaluation) are selected because the paragraph discusses international/national bodies' roles in educational planning (governance) and the rational use of planning techniques for financial assistance (monitoring/evaluation). Related paragraphs 43 (financing arrangements), 55 (international bodies/financial conditions), 46 (planning principles), 58 (implementation of recommendations), and 42 (flexibility) are complemental as they address related aspects of planning, financing, and implementation.",
+        "matched_pars": {
+          "43": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "58": [
+            "complemental"
+          ],
+          "42": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. The allocation of responsibilities during the implementation of an education plan may vary according to the administrative structure specific to each country; regional and local authorities can contribute to the realization of the plan by accurately assessing their own capacities and by making the best possible use of existing regional or local resources."
+      },
+      {
+        "para_number": 42,
+        "para": "28. L’application d'un plan d'éducation doit présenter une certaine souplesse, car son rendement dépend en partie de son adaptation aux caractéristiques des différentes régions du pays considéré et aux éventuels changements de situation.",
+        "tags": [
+          "CUR_IMPL",
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags CUR_IMPL (Curriculum implementation) and POL_QUAL (Policy theme | Quality and learning outcomes) are selected because the paragraph emphasizes flexibility in implementation (CUR_IMPL) and links effectiveness to adaptation (POL_QUAL). Paragraph 44 discusses oversight and collaboration in implementation, which complements the target paragraph's focus on adaptation and effectiveness.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ]
+        },
+        "para_en": "28. The implementation of an education plan must exhibit a degree of flexibility, as its effectiveness partly depends on its adaptation to the characteristics of the various regions within the country in question and to any changes in circumstances."
+      },
+      {
+        "para_number": 43,
+        "para": "29. Il convient d'apporter une attention toute particulière aux modalités de financement d'un plan d'éducation ; non seulement il faut calculer avec soin le coût de chaque projet, mais il faut s'assurer que les crédits prévus pourront être engagés au moment requis.",
+        "tags": [
+          "POL_FIN"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on financing arrangements for education plans, directly aligning with POL_FIN (Financing and resource mobilization). Paragraph 44 discusses implementation oversight, which complements the financing theme by emphasizing execution and collaboration needed to ensure funds are used effectively. Paragraph 55 supports the financing theme by linking financial assistance to planning techniques, reinforcing the importance of structured financing arrangements.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ],
+          "55": [
+            "supporting"
+          ]
+        },
+        "para_en": "Special attention must be given to the financing arrangements of an education plan; not only must the cost of each project be carefully calculated, but it must also be ensured that the allocated funds can be committed at the required time."
+      },
+      {
+        "para_number": 44,
+        "para": "30. L’action de contrôle à exercer sur la mise en œuvre et l’adaptation éventuelle d'un plan d’éducation est aussi l'un des facteurs déterminants de son succès ; à cet égard, la collaboration de l’inspection scolaire, à tous les échelons, cl celle des autorités locales de l'enseignement doivent être considérées comme indispensables.",
+        "tags": [
+          "SYST_INST",
+          "POL_QUAL"
+        ],
+        "type": "operative",
+        "think": "Tags SYST_INST (institutional evaluation/inspection) and POL_QUAL (quality/learning outcomes) are selected because the paragraph emphasizes collaboration between inspectors and authorities for successful education planning (SYST_INST) and links oversight to success factors (POL_QUAL). Related paragraphs discuss evaluation techniques (45), training for planning (46), inspector training (49), multidisciplinary planning teams (50), regional conferences (54), and financial assistance conditions (55), all of which complement the target paragraph's focus on planning implementation and collaboration.",
+        "matched_pars": {
+          "45": [
+            "complemental"
+          ],
+          "46": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. The oversight exercised over the implementation and potential adaptation of an education plan is also one of the determining factors of its success; in this regard, the collaboration of school inspectors at all levels, as well as that of local education authorities, must be regarded as indispensable."
+      },
+      {
+        "para_number": 45,
+        "para": "31. Il importe de tout mettre en œuvre pour faire progresser les techniques d’évaluation qualitative et quantitative, qui permettent une vérification systématique des résultats obtenus, cette vérification devant faciliter l’élaboration des plans ultérieurs. FORMATION DU PERSONNEL CHARGÉ DE LA PLANIFICATION",
+        "tags": [
+          "SYST_QUAL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes systematic verification of results through evaluation techniques, aligning with SYST_QUAL (Education system monitoring & evaluation | Quality assurance and accreditation). Related paragraphs 46 and 54 discuss planning training and advancing planning techniques, respectively, which complement or support the focus on evaluation as part of educational planning.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "54": [
+            "supporting"
+          ]
+        },
+        "para_en": "31. It is essential to make every effort to advance qualitative and quantitative evaluation techniques, which allow for systematic verification of the results obtained; this verification should facilitate the development of subsequent plans. TRAINING OF PERSONNEL RESPONSIBLE FOR PLANNING"
+      },
+      {
+        "para_number": 46,
+        "para": "32. Il est souhaitable que, dans chaque pays, un soin particulier soit porté à la formation de spécialistes en matière de planification de l'éducation ; il importe en outre de faire connaître aux dirigeants de l'enseignement et aux responsables de l'administration et de l'organisation scolaires les principes dont s’inspire la planification de l'éducation, les avantages qu’elle présente et les problèmes que soulèvent l'élaboration. l'adoption, l'application et l'évaluation des divers plans.",
+        "tags": [
+          "POL_GOV",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags POL_GOV (Governance and planning) and ACT_EDUC (Stakeholder focus | Teachers and educators) are selected because the paragraph emphasizes training specialists, stakeholder engagement, and planning processes. Related paragraphs (47-52) discuss training institutions, curriculum development, staff training, multidisciplinary teams, international cooperation, and cross-border collaboration—all directly addressing educational planning implementation and governance, making them complemental with high confidence.",
+        "matched_pars": {
+          "47": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "It is desirable that, in each country, particular attention be given to the training of specialists in the field of educational planning; furthermore, it is important to acquaint educational leaders and those responsible for school administration and organization with the principles underlying educational planning, the benefits it offers, and the challenges related to the development, adoption, implementation, and evaluation of various plans."
+      },
+      {
+        "para_number": 47,
+        "para": "33. Dans les établissements qui assurent la formation de spécialistes en matière de planification générale, les plans d'études doivent faire une place suffisante à la préparation de planificateurs de l'éducation.",
+        "tags": [
+          "CUR_IMPL",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "The tags CUR_IMPL and CUR_ORG are selected because the paragraph explicitly discusses curriculum implementation (CUR_IMPL) and organizational aspects of curricula (CUR_ORG). Paragraph 49 is complemental as it addresses integrating planning concepts into other training programs, which aligns with the target's focus on education planning in curricula. Paragraph 52 is supporting as international cooperation (mentioned in 52) could enhance the implementation of curricula emphasized in the target paragraph.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ]
+        },
+        "para_en": "33. In institutions that provide training for specialists in general planning, the curricula must allocate sufficient emphasis to the preparation of education planners."
+      },
+      {
+        "para_number": 48,
+        "para": "34. Dans les pays où il n'existe pas d'établissements pour la formation de spécialistes en matière de planification, il importe que soient organisés des cours universitaires ou de niveau supérieur portant, entre autres, sur les problèmes spécifiques de la planification de l'éducation: l'organisation de tels cours pourrait être envisagée dans le cadre d'accord: internationaux.",
+        "tags": [
+          "CUR_CONTENT"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on curriculum development for educational planning, aligning with 'CUR_CONTENT' (content and learning areas). Related paragraphs discuss training (49), team composition (50), international cooperation (52/53), conferences (54), and dissemination (55), all of which complement or support the need for structured educational planning frameworks.",
+        "matched_pars": {
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "34. In countries where there are no institutions for the training of specialists in planning, it is important to organize university-level or higher courses covering, among other things, the specific issues of educational planning; the organization of such courses could be considered within the framework of international agreements."
+      },
+      {
+        "para_number": 49,
+        "para": "35. Des notions touchant à la planification de l’éducation devront être introduites dans les études requises des inspecteurs et des administrateurs scolaires, ainsi que de l'ensemble du corps enseignant. — 179 —",
+        "tags": [
+          "T_INI",
+          "T_PDEV"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial education and training) and T_PDEV (Professional development) are selected because the paragraph emphasizes incorporating educational planning concepts into training programs for teachers and administrators. For relations: Para 50 (international cooperation for specialists) complements the training focus (confidence 0.7). Para 51 (international cooperation value) complements the planning context (confidence 0.6). Para 52 (cooperation methods like study tours) directly supports the training aspect (confidence 0.9).",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ]
+        },
+        "para_en": "35. Concepts related to educational planning should be incorporated into the required training for school inspectors and administrators, as well as for the entire teaching staff."
+      },
+      {
+        "para_number": 50,
+        "para": "36. Il est indispensable que les organes de planification de l'éducation groupent des spécialistes en matièred’éducation, de planification, de sociologie, de statistique et d'économie possédant chacun des connaissances suffisantes dans ces divers domaines pour pouvoir constituer une bonne équipe. COLLABORATION INTERNATIONALE",
+        "tags": [
+          "POL_INTCOOP",
+          "F_SOCSCI"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP is directly supported by the mention of 'international cooperation' in the text. F_SOCSCI is relevant due to the inclusion of sociology as a required expertise. Relations: Para 51 complements the discussion of international cooperation's value; Para 52 supports by providing specific cooperative mechanisms; Paras 53-55 add related aspects of international cooperation and planning implementation.",
+        "matched_pars": {
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "supporting"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. It is essential that educational planning bodies bring together specialists in the fields of education, planning, sociology, statistics, and economics, each possessing sufficient knowledge in these various areas to form an effective team. INTERNATIONAL COOPERATION"
+      },
+      {
+        "para_number": 51,
+        "para": "37. Tout en proclamant le principe de l'autonomie et de l’indépendance culturelles de chaque pays et la nécessité de plans nationaux d’éducation s’inspirant de l’expérience et des problèmes propres à chaque pays, il importe de souligner la valeur d’une coopération internationale en faveur de la planification de. l’éducation qui reconnaisse l’existence de conceptions diverses en la matière et l'intérêt de pouvoir puiser à des sources variées pour recruter des experts qualifiés et obtenir des avis autorisés.",
+        "tags": [
+          "POL_INTCOOP",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP is selected because the paragraph emphasizes international cooperation in educational planning. POL_CUR is chosen as the text discusses national education plans and curriculum-related policies. Related paragraphs 52-55 all address international cooperation mechanisms (scholarships, training centers, conferences, dissemination), which complement the target paragraph's focus on collaborative educational planning.",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. While affirming the principle of cultural autonomy and independence of each country and the necessity of national education plans inspired by the experience and specific problems of each country, it is important to emphasize the value of international cooperation in support of educational planning that acknowledges the existence of diverse conceptions in this field and the advantage of drawing from varied sources to recruit qualified experts and obtain authoritative opinions."
+      },
+      {
+        "para_number": 52,
+        "para": "38. La coopération de caractère international devrait porter essentiellement sur: a) l’octroi de bourses pour la formation à l'étranger de spécialistes en matière de planification de l’éducation; b) l'envoi, aux pays qui en feraient la demande, d’experts spécialisés dans la planification de l’éducation ; c) la communication de documents touchant à tous les aspects de la planification de l’éducation; d) l'organisation de voyages et de visites d'étude permettant aux responsables de l'administration et de l’organisation scolaires en général, et de la planification de l'éducation en particulier, de se familiariser avec les conceptions, les problèmes et les réalisations scolaires des autres pays.",
+        "tags": [
+          "POL_INTCOOP",
+          "POL_CUR"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP is selected because the paragraph focuses on international cooperation in education planning. POL_CUR is chosen as education planning falls under curriculum and pedagogy policies. Related paragraphs 53, 54, and 55 provide complementary details on international cooperation methods, regional conferences, and dissemination mechanisms, respectively.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ]
+        },
+        "para_en": "38. International cooperation should primarily focus on: a) granting scholarships for the training abroad of specialists in education planning; b) sending experts specialized in education planning to countries that request them; c) the dissemination of documents pertaining to all aspects of education planning; d) organizing study tours and visits that enable administrators and organizers of school systems in general, and of education planning in particular, to familiarize themselves with the educational concepts, issues, and achievements of other countries."
+      },
+      {
+        "para_number": 53,
+        "para": "39. Les organisations internationales devraient continuer de coopérer à l'étude scientifique et à l’avancement des techniques de la planification de l'éducation, par des centres régionaux ou internationaux de formation, par des stages d’études ou des réunions d’experts, par des publications, par l'octroi de crédits, et par l’aide, sous diverses formes, aux centres nationaux de formation existants; la consultation et la collaboration des organisations internationales d’enseignants pourraient être recherchées avec profit.",
+        "tags": [
+          "POL_INTCOOP",
+          "ACT_IO"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP and ACT_IO are selected because the paragraph emphasizes international cooperation (POL_INTCOOP) and the role of international organizations (ACT_IO). Para 54 is complemental as it expands on regional collaboration methods. Para 55 is modifying as it adds conditions on financial assistance tied to planning techniques. Para 57 is complemental as it specifies regional implementation mechanisms.",
+        "matched_pars": {
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "modifying"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "39. International organizations should continue to cooperate in the scientific study and advancement of education planning techniques through regional or international training centers, study internships or expert meetings, publications, the granting of credits, and assistance, in various forms, to existing national training centers; consultation and collaboration with international teachers’ organizations could be sought to good effect."
+      },
+      {
+        "para_number": 54,
+        "para": "40. Chaque fois que la nécessité s'en fait sentir de manière précise, il importe de convoquer des conférences régionales sur les besoins en matière d’éducation et sur les moyens de les satisfaire, car de telles réunions contribuent grandement à faire progresser les techniques de la planification de l'éducation et elles servent à mettre en relief les rapports qui existent entre le développement éducatif et le développement culturel, économique et social des peuples.",
+        "tags": [
+          "nan"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes regional conferences for educational planning and their role in advancing techniques and linking education to broader development. 'Education orientation' (nan) is the only tag that directly aligns with this focus. Paragraph 55 supports this by discussing the role of international bodies in disseminating planning techniques, reinforcing the importance of structured planning. Paragraph 56 complements by addressing dissemination methods, which is related but distinct from the conference focus.",
+        "matched_pars": {
+          "55": [
+            "supporting"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "40. Whenever a specific necessity arises, it is important to convene regional conferences on educational needs and on the means to meet them, as such meetings greatly contribute to advancing the techniques of educational planning and serve to highlight the relationships that exist between educational development and the cultural, economic, and social development of peoples."
+      },
+      {
+        "para_number": 55,
+        "para": "41. Les instances internationales et les instances nationales, tant publiques que privées, ont un rôle important à jouer dans la diffusion de la planification de l'éducation ; pour assurer la meilleure utilisation possible de l’aide financière qu'elles sont à même d’apporter, il importe que l'octroi de cette aide ait pour condition l'emploi rationnel des techniques de planification. — 180 — Application de la présente recommandation",
+        "tags": [
+          "POL_INTCOOP",
+          "POL_GOV",
+          "POL_FIN"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation) and POL_GOV (planning governance) are directly mentioned through references to international/national bodies and planning techniques. POL_FIN (financing) applies due to the conditional financial assistance clause. Para 56 complements by expanding on dissemination mechanisms, while para 57 modifies by introducing regional adaptation processes related to planning techniques.",
+        "matched_pars": {
+          "56": [
+            "complemental"
+          ],
+          "57": [
+            "modifying"
+          ]
+        },
+        "para_en": "41. International and national bodies, both public and private, have an important role to play in the dissemination of educational planning; to ensure the best possible use of the financial assistance they are able to provide, it is essential that the granting of such assistance is conditional upon the rational use of planning techniques."
+      },
+      {
+        "para_number": 56,
+        "para": "42. Il importe que le texte de la présente recommandation fasse l’objet d’une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires, des centres de documentation pédagogique, des associations internationales et nationales de maîtres ou de parents, etc. ; la presse pédagogique, tant officielle que privée, doit jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant, ainsi que du grand public.",
+        "tags": [
+          "ACT_EDUC",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies due to emphasis on dissemination to ministries, educational authorities, and press. CUR_IMPL (Curriculum | Curriculum implementation) applies as the recommendation relates to curriculum implementation. Para 57 (complemental) adds regional adaptation context, while para 58 (modifying) provides detailed implementation steps that refine the dissemination process.",
+        "matched_pars": {
+          "57": [
+            "complemental"
+          ],
+          "58": [
+            "modifying"
+          ]
+        },
+        "para_en": "42. It is essential that the text of this recommendation be widely disseminated by ministries of public education, school authorities, educational documentation centers, international and national associations of teachers or parents, etc.; both official and private educational press must play a significant role in disseminating this recommendation to the relevant services, administrative and teaching staff, as well as to the general public."
+      },
+      {
+        "para_number": 57,
+        "para": "43. Les centres régionaux de l’Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l’examen, à l’échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région.",
+        "tags": [
+          "ACT_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on collaboration between UNESCO regional centres and ministries (stakeholder focus). The related paragraph (58) provides complementary details about national-level implementation processes, reinforcing the shared goal of reviewing/adapting recommendations.",
+        "matched_pars": {
+          "58": [
+            "complemental"
+          ]
+        },
+        "para_en": "43. UNESCO regional centres are invited to facilitate, in collaboration with the relevant ministries, the review of this recommendation at the regional level with a view to adapting it to the characteristics of the region."
+      },
+      {
+        "para_number": 58,
+        "para": "44. Dans les pays où la chose s’avérerait nécessaire, les ministères de. l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l’état de droit et de fait existant dans leur pays ; h) considérer les avantages et les inconvénients d’une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, à l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré.",
+        "tags": [
+          "LAW_IMPLEM"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on policy implementation processes (e.g., reviewing recommendations, adapting articles, proposing practical measures), which directly aligns with 'LAW_IMPLEM' (Legal frameworks | Policy implementation and enforcement). Other tags like CUR_IMPL (Curriculum implementation) are less fitting as the text emphasizes legal/educational policy implementation rather than curriculum-specific details. No related paragraphs exist in the allowed_paragraph_ids list.",
+        "matched_pars": {},
+        "para_en": "44. In countries where it is deemed necessary, the ministries of public education are invited to assign the competent bodies to carry out various tasks, for example: a) to review this recommendation and compare its content with the existing legal and factual situation in their country; b) to consider the advantages and disadvantages of the possible implementation of each article not yet in force; c) to adapt each article to the country’s situation, applying it where deemed appropriate; d) finally, to propose practical provisions and measures to be taken to ensure the implementation of the article under consideration."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d’Education, et s’y étant réunie le deux juillet mil neuf cent soixante-deux en sa vingt cinquième session, adopte le douze juillet mil neuf cent soixante-deux la recommandation suivante: La Conférence, Considérant que l’éducation constitue non seulement un moyen d'élever la dignité de la personne humaine, mais aussi un facteur essentiel du développement culturel, scientifique, technique, économique et social des peuples, Considérant que le développement de l’éducation dépend en dernier ressort des ressources économiques, financières et humaines dont peut disposer le pays intéressé, et qu'une planification efficace de l'éducation permet de tirer parti au maximum desdites ressources, Considérant que la multiplication des besoins et l'évolution toujours plus rapide qui caractérisent notre époque exigent une adaptation de l'éducation, sous tous ses aspects, aux exigences et aux possibilités de demain, Considérant que les organes responsables de l’éducation doivent mener une action systématique visant à établir les besoins et les objectifs du développement de l’éducation pour une période donnée, et à déterminer les étapes essentielles pour la réalisation des tâches correspondantes ainsi que les moyens et les mesures d’ordre concret nécessaires à la solution des problèmes posés, Considérant que les techniques de planification qui ont fait leurs preuves dans d’autres secteurs peuvent, à condition d’être convenablement adaptées, contribuer à la solution des problèmes éducatifs, dont la complexité va croissant,  Considérant que l'acceptation du principe de l'interdépendant» entre le développement de l'éducation et le développement économique et social ne saurait faire oublier que l'éducation doit garder son caractère propre, qui est de former la personnalité humaine et de développer harmonieusement toutes ses capacités morales, intellectuelles et physiques, Considérant l’importance accordée à la planification de l'éducation dans les activités de l'Unesco et les recommandations formulées à ce sujet par les conférences internationales et régionales qu’elle a contribué à organiser, Considérant qu'un grand nombre des recommandations approuvées ces dernières années par la Conférence internationale de l'instruction publique, et tout spécialement les Recommandations nos 40, 44 et 49 concernant le financement de l'éducation, le développement des constructions scolaires, et le recrutement et la formation des cadres techniques et scientifiques, envisagent des mesures rationnelles à prendre en vue d’assurer le développement de l’éducation conformément aux besoins de l'heure, Considérant que tous les pays doivent être à même de connaître le rapport qui existe entre la réalité scolaire et la situation démographique, économique et sociale afin de pouvoir mieux déceler leurs besoins en matière d'éducation, déterminer les objectifs à atteindre et choisir les moyens les plus appropriés pour y parvenir, Considérant que la coopération en matière d'éducation est un facteur important d'enrichissement mutuel et de compréhension entre les peuples, Considérant la difficulté qu’il peut y avoir à formuler des suggestions valables pour tous les pays, étant donné, d'une part, que la planification est en voie de perfectionnement constant, et, d'autre, part, que la position des autorités scolaires à l’égard de ce problème présente des variations sensibles, Considérant qu'en dépit d’aspirations semblables, des pays dont la situation est. très différente se doivent d’apporter des solutions diverses au problème de la planification de l’éducation, Soumet aux Ministères de l’instruction publique des différents pays la recommandation suivante: PORTÉE DE LA PLANIFICATION DE L'ÉDUCATION 1. Les efforts visant à introduire, à améliorer ou à développer la planification de l'éducation doivent tenir compte non seulement du degré atteint par chaque pays en ce qui concerne l’organisation et l'administration rationnelles et efficaces de son enseignement, mais aussi des caractéristiques propres au système scolaire considéré. 2. Dans les pays où il existe une planification de toutes les activités de l'Etat, il importe que la planification de l'éducation soit conçue dans le contexte du plan ou du programme de développement économique et social et que la place réservée à l'éducation dans ce plan ou ce programme — 175 — soit en rapport avec le rôle qu’elle est appelée à jouer dans le développement intégral du pays. 3. Dans les pays où il n'existe pas de planification générale des activités de l’Etat mais où l'éducation fait l'objet d'une planification, il importe d'assurer une étroite coordination entre cette, éducation planifiée et les autres secteurs d'activités. 4. Dans les pays où il n'existe pas de planification de l'éducation, les réformes louchant au développement et à l'amélioration de l’éducation devraient s’inspirer des principes généraux de la planification en ce qui concerne, par exemple, la prévision des effectifs scolaires, les besoins futurs en maîtres et leur formation, les constructions scolaires et les crédits destinés à l'enseignement, 5. L'interdépendance croissante des divers problèmes d’ordre éducatif rend de plus en plus souhaitable une planification d'ensemble de l’éducation, communément appelée planification intégrale ou générale, de l'éducation. 6. Lorsque la planification de l'éducation n’a pas un caractère intégral ou général, il convient d'établir une étroite coordination entre les divers plans éducatifs particuliers qui ont été ou qui seront élaborés. 7. Sans chercher à se prononcer sur la durée que doivent avoir les plans de développement de l'éducation, il convient de souligner que ces plans devraient s’étendre sur une période assez longue, quitte à être fractionnés en périodes plus courtes permettant de rectifier éventuellement les prévisions contenues dans les plans à long terme. Organes chargés de la planification de l’éducation 8. 11 importe que chaque ministère de l’instruction publique dispose d'un organe, quelle qu’en soit l'appellation, qui soit responsable de la planification de l'éducation en étroite liaison avec les autres départements ministériels, notamment avec ceux qui s'occupent également d’éducation et de formation. 9. En plus des initiatives qui lui seraient propres, l'organe responsable de la planification de l’éducation devrait avoir pour fonctions de coordonner et d’utiliser les travaux d'autres organismes ayant déjà fait leurs preuves: organes consultatifs, commissions de réforme, centres de documentation, d’étude et de recherche, offices de statistiques, services des constructions scolaires, services du budget, etc. 10. Suivant la structure centralisée ou décentralisée du pays, l’organe responsable de la planification de l'éducation devrait, se situer à l’échelon national ou fédéral, ce qui n’exclut nullement l’éventuelle création de services ou de commissions do planification à l’échelon régional ou local. 11. Il importe d’assurer une collaboration étroite entre les spécialistes de la planification de l’éducation et les experts en matière de planification dans d'autres secteurs, notamment dans ceux qui touchent le plus directement à l'éducation. — 176 — ÉLABORATION DES PLANS D'ÉDUCATION 12. Quel que soit le type de planification existant (planification de l'éducation faisant partie ou non d'une planification plus générale des activités de l'Etat, planification intégrale ou partielle de l’éducation, planification partant de l’échelon local pour atteindre l'échelon national ou vice versa), la préparation d'un plan d'éducation doit comporter, entre autres : a) l’analyse de la situation éducative du pays et de sa situation d'ensemble; b) la détermination des besoins éducatifs à satisfaire; c) l'inventaire des ressources humaines et matérielles existantes; d) h fixation des objectifs à atteindre dans un laps de temps déterminé et de l’ordre de priorités à observer; e) l’énoncé des mesures à prendre ou des changements à apporter en vue d'atteindre les objectifs fixés. 13. Lors de l'élaboration d’un plan d’éducation, on ne saurait st contenter de prendre en considération les seuls facteurs d'ordre pédagogique, encore que leur importance demeure primordiale; il convient de tenir compte également de l’influence qu’exercent sur le développement de l'éducation : a) la structure sociale du pays et les facteurs qui tendent à accélérer son évolution ; b) l’évolution démographique du pays, l’immigration, l’émigration et les mouvements internes de population résultant d'un regroupement économique ou de tout autre cause; c) les facteurs d’ordre économique tels que les besoins de la production en ressources humaines, notamment pour ce qui est du personnel qualifié et des cadres techniques et scientifiques ; d) les fluctuations dans les effectifs scolaires aux différents niveaux et les rapports proportionnels existant entre la fréquentation des établissements des divers ordres et degrés d'enseignement ; e) l’organisation et le fonctionnement du système administratif eu général et de l’administration scolaire en particulier ; j) les ressources financières dont l’éducation peut disposer chaque année et les programmes budgétaires spéciaux, échelonnés sur plusieurs années, qui pourraient être établis en sa faveur; g) l’essor culturel en ce qui concerne tant!» activités désintéressées de l’esprit que les découvertes d'ordre scientifique et technique. 14. Etant donné le rôle, fort important que l'évaluation quantitative de la situation actuelle et des besoins prévisibles joue dans l'élaboration d’un plan d'éducation, il est essentiel de pouvoir disposer de données statistiques sûres et comparables. 15. Le recours à des études d'éducation comparée doit être considéré comme un élément indispensable pour l'élaboration d’un plan d’éducation: de telles études contribuent à déterminer la situation du pays considéré par rapport à celle d'autres pays, elles servent à fixer des normes éducatives de caractère international et, en faisant ressortir les tendances du mouvement éducatif, elles facilitent la formulation de prévisions. 16. Lors de l’élaboration d’un plan d'éducation, il convient d’apporter un soin tout particulier à l’établissement d'un ordre de priorités fondé non point sur le caractère plus ou moins spectaculaire des mesures recommandées. mais sur l'importance et l’urgence des besoins éducatifs et les possibilités de les satisfaire. — 177 — 17. L’élaboration d'un plan d'éducation exige une certaine souplesse, permettant son adaptation aux changements qui peuvent résulter de l’évolution de la situation. 18. Dans les pays où l'enseignement privé occupe une place relativement importante, l'élaboration d’un plan d'éducation doit tenir compte des besoins et des possibilités de cet enseignement. 19. Lors de l'élaboration d’un plan d'éducation, il convient d’avoir recours aux centres de documentation, d’information, de recherche et d’études pédagogiques; en outre, il peut être utile de constituer des organes spéciaux d'étude et de consultation. 20. L'élaboration d'un plan d'éducation ne saurait se faire sans que soient consultés ceux qui s'intéressent le plus directement au financement et au développement de l'éducation, par exemple les représentants du corps enseignant et des groupements pédagogiques, les fédérations de conseils scolaires, les autorités locales et régionales, les associations de parents et les associations d'étudiants. 21. L’intérêt manifesté par le public et les commentaires publiés dans la presse ou formulés lors de réunions d'information pouvant contribuer grandement à l’application efficace des plans d’éducation, il importe, par tous les moyens de diffusion appropriés, de tenir l'opinion publique au courant des projets élaborés. 22. Il convient d'apporter une attention toute spéciale à la formulation des parties du plan qui concernent le financement de l'éducation, les constructions et l’équipement scolaires, la formation des maîtres et la préparation des travailleurs qualifiés et des cadres techniques et scientifiques. 23. Là où il n'existe pas de planification de l'éducation, la procédure recommandée pour l'élaboration des plans devrait être utilisée pour la préparation de réformes scolaires spécifiques. Adoption et application des plans d’éducation 24. Avant l’adoption définitive d’un plan d’éducation, il conviendrait de soumettre certains des projets élaborés à une expérimentation préalable ou à des essais appropriés, de façon à permettre, le cas échéant, la mise au point, voire l'élimination, de telle ou telle partie de ce plan d’éducation. 25. Quelle que soit l'importance que l'on attache à entourer de toutes les garanties indispensables la procédure d’adoption, d’application et de contrôle d'un plan d’éducation, la complexité de cette procédure ne devrait pas freiner ou entraver la mise en pratique du plan envisagé. 26. Il importe que les organisation et les personnes appelées à collaborer à l'exécution d'un plan d’éducation soient renseignées aussi complètement que possible sur sa portée et ses caractéristiques, ainsi que sur les mesures pratiques indispensables à son succès. — 178 — 27. La répartition des responsabilités, lors de l'exécution d’un plan d'éducation, peut varier selon la structure administrative propre à chaque pays; les autorités régionales et locales peuvent apporter leur concours à la réalisation du plan en évaluant de façon précise leurs propres possibilités et en tirant le meilleur parti des ressources régionales ou locales existantes. 28. L’application d'un plan d'éducation doit présenter une certaine souplesse, car son rendement dépend en partie de son adaptation aux caractéristiques des différentes régions du pays considéré et aux éventuels changements de situation. 29. Il convient d'apporter une attention toute particulière aux modalités de financement d'un plan d'éducation ; non seulement il faut calculer avec soin le coût de chaque projet, mais il faut s'assurer que les crédits prévus pourront être engagés au moment requis. 30. L’action de contrôle à exercer sur la mise en œuvre et l’adaptation éventuelle d'un plan d’éducation est aussi l'un des facteurs déterminants de son succès ; à cet égard, la collaboration de l’inspection scolaire, à tous les échelons, cl celle des autorités locales de l'enseignement doivent être considérées comme indispensables. 31. Il importe de tout mettre en œuvre pour faire progresser les techniques d’évaluation qualitative et quantitative, qui permettent une vérification systématique des résultats obtenus, cette vérification devant faciliter l’élaboration des plans ultérieurs. FORMATION DU PERSONNEL CHARGÉ DE LA PLANIFICATION 32. Il est souhaitable que, dans chaque pays, un soin particulier soit porté à la formation de spécialistes en matière de planification de l'éducation ; il importe en outre de faire connaître aux dirigeants de l'enseignement et aux responsables de l'administration et de l'organisation scolaires les principes dont s’inspire la planification de l'éducation, les avantages qu’elle présente et les problèmes que soulèvent l'élaboration. l'adoption, l'application et l'évaluation des divers plans. 33. Dans les établissements qui assurent la formation de spécialistes en matière de planification générale, les plans d'études doivent faire une place suffisante à la préparation de planificateurs de l'éducation. 34. Dans les pays où il n'existe pas d'établissements pour la formation de spécialistes en matière de planification, il importe que soient organisés des cours universitaires ou de niveau supérieur portant, entre autres, sur les problèmes spécifiques de la planification de l'éducation: l'organisation de tels cours pourrait être envisagée dans le cadre d'accord: internationaux. 35. Des notions touchant à la planification de l’éducation devront être introduites dans les études requises des inspecteurs et des administrateurs scolaires, ainsi que de l'ensemble du corps enseignant. — 179 — 36. Il est indispensable que les organes de planification de l'éducation groupent des spécialistes en matièred’éducation, de planification, de sociologie, de statistique et d'économie possédant chacun des connaissances suffisantes dans ces divers domaines pour pouvoir constituer une bonne équipe. COLLABORATION INTERNATIONALE 37. Tout en proclamant le principe de l'autonomie et de l’indépendance culturelles de chaque pays et la nécessité de plans nationaux d’éducation s’inspirant de l’expérience et des problèmes propres à chaque pays, il importe de souligner la valeur d’une coopération internationale en faveur de la planification de. l’éducation qui reconnaisse l’existence de conceptions diverses en la matière et l'intérêt de pouvoir puiser à des sources variées pour recruter des experts qualifiés et obtenir des avis autorisés. 38. La coopération de caractère international devrait porter essentiellement sur: a) l’octroi de bourses pour la formation à l'étranger de spécialistes en matière de planification de l’éducation; b) l'envoi, aux pays qui en feraient la demande, d’experts spécialisés dans la planification de l’éducation ; c) la communication de documents touchant à tous les aspects de la planification de l’éducation; d) l'organisation de voyages et de visites d'étude permettant aux responsables de l'administration et de l’organisation scolaires en général, et de la planification de l'éducation en particulier, de se familiariser avec les conceptions, les problèmes et les réalisations scolaires des autres pays. 39. Les organisations internationales devraient continuer de coopérer à l'étude scientifique et à l’avancement des techniques de la planification de l'éducation, par des centres régionaux ou internationaux de formation, par des stages d’études ou des réunions d’experts, par des publications, par l'octroi de crédits, et par l’aide, sous diverses formes, aux centres nationaux de formation existants; la consultation et la collaboration des organisations internationales d’enseignants pourraient être recherchées avec profit. 40. Chaque fois que la nécessité s'en fait sentir de manière précise, il importe de convoquer des conférences régionales sur les besoins en matière d’éducation et sur les moyens de les satisfaire, car de telles réunions contribuent grandement à faire progresser les techniques de la planification de l'éducation et elles servent à mettre en relief les rapports qui existent entre le développement éducatif et le développement culturel, économique et social des peuples. 41. Les instances internationales et les instances nationales, tant publiques que privées, ont un rôle important à jouer dans la diffusion de la planification de l'éducation ; pour assurer la meilleure utilisation possible de l’aide financière qu'elles sont à même d’apporter, il importe que l'octroi de cette aide ait pour condition l'emploi rationnel des techniques de planification. — 180 — Application de la présente recommandation 42. Il importe que le texte de la présente recommandation fasse l’objet d’une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires, des centres de documentation pédagogique, des associations internationales et nationales de maîtres ou de parents, etc. ; la presse pédagogique, tant officielle que privée, doit jouer un grand rôle dans la diffusion de cette recommandation auprès des services intéressés, du personnel administratif et enseignant, ainsi que du grand public. 43. Les centres régionaux de l’Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l’examen, à l’échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région. 44. Dans les pays où la chose s’avérerait nécessaire, les ministères de. l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l’état de droit et de fait existant dans leur pays ; h) considérer les avantages et les inconvénients d’une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, à l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré."
+  }
+}

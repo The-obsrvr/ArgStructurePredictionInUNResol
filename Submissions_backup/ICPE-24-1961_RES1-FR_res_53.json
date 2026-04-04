@@ -1,0 +1,1393 @@
+{
+  "TEXT_ID": "ICPE-24-1961_RES1-FR_res_53",
+  "RECOMMENDATION": 53,
+  "TITLE": "L'ORGANISATION DE L'ÉDUCATION PRÉSCOLAIRE",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-24-1961_RES1-FR",
+      "nb_paras": 59,
+      "preambular_para": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "operative_para": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "think": "Fallback heuristic applied (bullet + transition + cues)"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d'Education, et s'y étant réunie le trois juillet mil neuf cent soixante et un en sa vingt-quatrième session, adopte le quatorze juillet mil neuf cent soixante et un la recommandation suivante: La Conférence,",
+        "tags": [
+          "Education level",
+          "Pedagogy & assessment"
+        ],
+        "type": "preambular",
+        "think": "Tags 'Education level' and 'Pedagogy & assessment' are selected because the paragraph references the International Conference on Public Education and its adoption of a recommendation, which inherently involves structuring education levels and pedagogical practices. Related paragraphs 2, 3, 13, 57, 58, and 59 are connected through supporting (background context) or complemental (implementation steps) relationships.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "13": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ],
+          "58": [
+            "complemental"
+          ],
+          "59": [
+            "complemental"
+          ]
+        },
+        "para_en": "The International Conference on Public Education, convened in Geneva by the United Nations Educational, Scientific and Cultural Organization and the International Bureau of Education, and having met there on the third of July, nineteen hundred and sixty-one, in its twenty-fourth session, adopts on the fourteenth of July, nineteen hundred and sixty-one, the following recommendation: The Conference,"
+      },
+      {
+        "para_number": 2,
+        "para": "Considérant les principes énoncés dans la Recommandation n° 17 concernant l'organisation de l'éducation préscolaire, adoptée le dix-neuf juillet mil neuf cent trente-neuf par la Conférence internationale de l'instruction publique lors de sa huitième session,",
+        "tags": [
+          "ISC_02",
+          "POP_CHILD"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) are selected because the paragraph explicitly references preschool education and its target population. Related paragraphs: 3 (supports principles of child development), 4 (complements parental role), 7 (complements transition to school), 9 (supports foundational experience), 52 (complements hygiene aspects), and 54 (supports system establishment). Confidence scores reflect clear semantic connections to preschool education principles and practices.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "54": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering the principles set out in Recommendation No. 17 concerning the organization of preschool education, adopted on July 19, 1939, by the International Conference on Public Education at its eighth session,"
+      },
+      {
+        "para_number": 3,
+        "para": "Considérant la nécessité d'assurer à l'enfant, dès son plus jeune âge, une éducation qui soit propice à son complet développement, spirituel, moral, intellectuel et physique,",
+        "tags": [
+          "ISC_01",
+          "F_REL"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_01 (early childhood education) and F_REL (spiritual/moral development) are directly supported by the text. Related paragraphs provide supporting (4,9), complemental (5,8,38), or modifying (10) connections to the target paragraph's focus on early education's role in holistic child development.",
+        "matched_pars": {
+          "4": [
+            "supporting"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ],
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "modifying"
+          ],
+          "38": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering the necessity of providing the child, from the earliest age, with an education conducive to his or her complete spiritual, moral, intellectual, and physical development,"
+      },
+      {
+        "para_number": 4,
+        "para": "Considérant que l'éducation du tout jeune enfant est un devoir primordial et un droit inaliénable des parents,",
+        "tags": [
+          "ACT_PARENT"
+        ],
+        "type": "preambular",
+        "think": "The tag ACT_PARENT is selected because the paragraph explicitly emphasizes parents' fundamental duty and inalienable right in early childhood education. Related paragraphs: 5 (complemental - highlights family's need for support, expanding on parental responsibilities), 6 (modifying - contextualizes preschool's social role, indirectly linking to parental challenges), 10 (complemental - addresses caregiver qualifications, supporting the need for structured education), 15 (complemental - discusses preschool access, aligning with parental duty to provide education), and 17 (complemental - emphasizes collaboration with parents, reinforcing their role in education).",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "modifying"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the education of the very young child is a fundamental duty and an inalienable right of the parents,"
+      },
+      {
+        "para_number": 5,
+        "para": "Considérant que, bien que la famille demeure le milieu le plus favorable à l'épanouissement de l'enfant, elle a cependant besoin d'être aidée car, même dans les meilleures conditions, elle n'est plus en mesure de satisfaire seule à tous les besoins éducatifs du jeune enfant dès que celui-ci approche de l'âge de quatre ans,",
+        "tags": [
+          "ACT_PARENT",
+          "POP_CHILD"
+        ],
+        "type": "preambular",
+        "think": "Tags ACT_PARENT (family as stakeholder) and POP_CHILD (children 0-17) are selected because the paragraph emphasizes family's role in child development and the need for assistance for children approaching age four. Related paragraphs address preschool's role in supporting families (6, 17, 39), transition support (7), and family-circumstance-based selection (28), all of which complement or support the target paragraph's focus on family needs and preschool's social function.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "17": [
+            "supporting"
+          ],
+          "28": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ]
+        },
+        "para_en": "Considering that, although the family remains the most favorable environment for the child’s development, it nonetheless requires assistance because, even under the best conditions, it is no longer able to meet all the educational needs of the young child alone once the child approaches the age of four,"
+      },
+      {
+        "para_number": 6,
+        "para": "Considérant qu'en raison de l'accroissement du nombre des femmes qui ont une activité professionnelle et de celles qui, pour des raisons diverses, sont surchargées de besognes au foyer, l'éducation préscolaire remplit de plus en plus, dans la vie moderne, une fonction sociale en offrant à l'enfant la sécurité dont il a besoin et en veillant à son développement intégral,",
+        "tags": [
+          "POP_CHILD",
+          "PEDAG_OTHER"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_CHILD is selected because the paragraph focuses on children's education and development. PEDAG_OTHER is chosen as the text discusses preschool's social function and comprehensive development, which falls under 'other pedagogy related issues'. Related paragraphs: 7 (complemental - both discuss preschool's role in transitions), 10 (supporting - trained caregivers enhance preschool's effectiveness), 17 (supporting - collaboration for social needs), 18 (complemental - enterprises' role in preschool expansion).",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "10": [
+            "supporting"
+          ],
+          "17": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "Whereas, due to the increase in the number of women engaged in professional activities and those who, for various reasons, are burdened with domestic tasks, preschool education increasingly fulfills a social function in modern life by providing the child with the security they need and ensuring their comprehensive development,"
+      },
+      {
+        "para_number": 7,
+        "para": "Considérant que la fréquentation d'un établissement d'éducation préscolaire ménage la transition entre la vie familiale et la vie scolaire,",
+        "tags": [
+          "ISC_02"
+        ],
+        "type": "preambular",
+        "think": "The tag ISC_02 is selected because the paragraph explicitly mentions preschool education, which aligns with the pre-primary education classification (ISCED 02). For relations: Paragraph 17 discusses collaboration between education, medical-social services, and parents, which complements the target paragraph's focus on family-school transition. Paragraph 39 directly addresses family collaboration in preschool education, supporting the target's emphasis on parental involvement in the transition process.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "39": [
+            "supporting"
+          ]
+        },
+        "para_en": "Whereas attending a preschool education institution facilitates the transition between family life and school life,"
+      },
+      {
+        "para_number": 8,
+        "para": "Considérant que la fréquentation d'un établissement d'éducation préscolaire favorise le dépistage précoce de tous les troubles du développement physique et mental, dont l'amélioration ou la guérison sera d'autant mieux assurée qu'ils auront été détectés plus tôt, et qu'elle est également très bénéfique aux enfants physiquement handicapés du fait qu'elle les habitue de bonne heure à vivre avec d'autres enfants,",
+        "tags": [
+          "POP_DISAB",
+          "ISC_02"
+        ],
+        "type": "preambular",
+        "think": "Tags POP_DISAB (learners with disabilities) and ISC_02 (pre-primary education) are selected because the paragraph explicitly mentions benefits for physically disabled children and focuses on preschool institutions. Related paragraphs provide complementary information about preschool education requirements (e.g., caregiver training, facilities, health services) and foundational principles, all of which align with the target paragraph's focus on preschool education's role in child development.",
+        "matched_pars": {
+          "9": [
+            "supporting"
+          ],
+          "10": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "Whereas attending a preschool institution facilitates the early detection of all physical and mental developmental disorders, whose improvement or cure will be all the more effectively ensured the sooner they are identified, and that it is also highly beneficial to physically disabled children by acquainting them at an early age with living alongside other children,"
+      },
+      {
+        "para_number": 9,
+        "para": "Considérant que l'expérience acquise jusqu'ici donne un fondement suffisant à l'élaboration des principes et des méthodes de l'éducation préscolaire,",
+        "tags": [
+          "PEDAG_FOUND",
+          "PEDAG_METHO"
+        ],
+        "type": "preambular",
+        "think": "Tags PEDAG_FOUND and PEDAG_METHO are selected because the paragraph discusses foundational principles and methods of preschool education. Related paragraphs: 10 (complemental - caregiver qualifications), 33 (supporting - specific methods), 37 (supporting - teacher freedom in methods), 41 (complemental - specialized training), 43 (complemental - teacher training programs).",
+        "matched_pars": {
+          "10": [
+            "complemental"
+          ],
+          "33": [
+            "supporting"
+          ],
+          "37": [
+            "supporting"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that the experience gained thus far provides a sufficient foundation for the development of the principles and methods of preschool education,"
+      },
+      {
+        "para_number": 10,
+        "para": "Considérant que l'éducation préscolaire exige des éducatrices qui s'y consacrent une préparation spéciale, mais aussi des qualités et des aptitudes particulières,",
+        "tags": [
+          "T_INI",
+          "T_QUAL"
+        ],
+        "type": "preambular",
+        "think": "Tags T_INI and T_QUAL are selected because the paragraph emphasizes special training (initial education) and qualities/aptitudes (qualification) for preschool educators. Paragraph 41 directly supports this by discussing specialized training for preschool educators with psychological/pedagogical challenges. Paragraph 43 complements by addressing training solutions for teacher shortages, aligning with the target's focus on training and aptitudes.",
+        "matched_pars": {
+          "41": [
+            "supporting"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that preschool education requires caregivers who devote themselves to it to have special training, as well as particular qualities and aptitudes,"
+      },
+      {
+        "para_number": 11,
+        "para": "Considérant que, dans chaque pays, le problème de l'extension de l'éducation préscolaire apparaît comme étant lié au stade d'avancement de la scolarisation des enfants d'âge scolaire, et qu'il y a lieu de tenir compte des différences pouvant exister entre les régions, industrielles ou rurales, où la main-d'œuvre féminine est largement utilisée, et les autres régions,",
+        "tags": [
+          "ISC_02",
+          "POP_WOM"
+        ],
+        "type": "preambular",
+        "think": "Tags ISC_02 (pre-primary education) and POP_WOM (women and girls) are selected because the paragraph directly addresses preschool education expansion (ISC_02) and mentions female labor in specific regions (POP_WOM). Related paragraphs: 12 (complemental - diverse solutions for preschool education), 14 (supporting - promotes preschool education with contextual considerations), 16 (supporting - prioritizes preschool in regions with female labor), and 18 (complemental - collaboration for preschool facilities in female labor regions).",
+        "matched_pars": {
+          "12": [
+            "complemental"
+          ],
+          "14": [
+            "supporting"
+          ],
+          "16": [
+            "supporting"
+          ],
+          "18": [
+            "complemental"
+          ]
+        },
+        "para_en": "Considering that, in each country, the issue of expanding preschool education appears to be linked to the level of advancement in the schooling of school-age children, and that account must be taken of the differences that may exist between regions, whether industrial or rural, where female labor is widely used, and other regions,"
+      },
+      {
+        "para_number": 12,
+        "para": "Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'organisation de l'éducation préscolaire,",
+        "tags": [
+          "PEDAG_OTHER"
+        ],
+        "type": "preambular",
+        "think": "The paragraph discusses diverse solutions for preschool education based on varying national circumstances, aligning with PEDAG_OTHER (pedagogy-related issues). Related paragraphs provide specific examples of solutions (14: policy support, 19: specialized services, 23: financing, 54: international collaboration, 56: scholarship systems), which are complemental as they expand on the target's theme of diverse approaches.",
+        "matched_pars": {
+          "14": [
+            "supporting"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "23": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "Whereas, despite similar aspirations, countries with very different circumstances must provide diverse solutions to the problem of organizing preschool education,"
+      },
+      {
+        "para_number": 13,
+        "para": "Soumet aux Ministères de l'instruction publique des différents pays a recommandation suivante :",
+        "tags": [
+          "POL_OTH",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POL_OTH (Policy theme | Other policy theme) and SYST_OTHER (Education system monitoring & evaluation) are selected because the paragraph involves submitting a policy recommendation to Ministries of Public Education (policy) and addresses preschool education systems (education system monitoring). Related paragraphs (14,15,19,54,57,59) expand on the recommendation's implementation, dissemination, and adaptation, forming a coherent set of policy actions and system-level measures.",
+        "matched_pars": {
+          "14": [
+            "complemental"
+          ],
+          "15": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ],
+          "59": [
+            "modifying"
+          ]
+        },
+        "para_en": "Submits the following recommendation to the Ministries of Public Education of the various countries:"
+      },
+      {
+        "para_number": 14,
+        "para": "1. Il importe que les autorités responsables de l'éducation favorisent la création, le développement et le progrès de l'éducation préscolaire, compte tenu de l'état d'avancement de l'enseignement dans chaque pays et de la situation propre aux diverses localités.",
+        "tags": [
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "The tag ISC_02 (Pre-primary education) directly matches the focus on preschool education in the target paragraph. Relations: Para 15 (supporting) aligns with promoting preschool education in contexts where compulsory education exists. Para 16 (complemental) adds context about prioritizing primary schooling while addressing preschool in specific regions. Para 17 (complemental) expands on collaboration aspects. Para 19 (supporting) reinforces institutional development of preschool education.",
+        "matched_pars": {
+          "15": [
+            "supporting"
+          ],
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ]
+        },
+        "para_en": "1. It is important that the authorities responsible for education promote the creation, development, and advancement of preschool education, taking into account the level of progress of education in each country and the specific circumstances of the various localities."
+      },
+      {
+        "para_number": 15,
+        "para": "2. Partout où l'enseignement obligatoire est déjà assuré à tous les enfants sans exception, des possibilités d'éducation devraient être offertes aux enfants d'âge préscolaire, pour autant que leur nombre justifie l'ouverture d'un établissement ou d'une classe de type correspondant.",
+        "tags": [
+          "ISC_02",
+          "POP_CHILD"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) are selected because the paragraph explicitly discusses preschool education opportunities for children. Relations are identified with complementary paragraphs: 16 (contrasting scenarios but shared focus on preschool), 17 (collaboration in implementation), 26 (public funding specifics), 50 (infrastructure requirements), and 28 (selection criteria for limited capacity). Confidence scores reflect clear semantic connections.",
+        "matched_pars": {
+          "16": [
+            "complemental"
+          ],
+          "17": [
+            "complemental"
+          ],
+          "26": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ]
+        },
+        "para_en": "2. Wherever compulsory education is already provided to all children without exception, opportunities for preschool education should be made available to children of preschool age, provided that their number justifies the establishment of an institution or a class of the corresponding type."
+      },
+      {
+        "para_number": 16,
+        "para": "3. Dans les pays où la généralisation de l'enseignement obligatoire n'est pas encore réalisée, il convient, tout en réservant la priorité aux exigences de l'école primaire, de se préoccuper du développement des possibilités d'éducation préscolaire, notamment dans les régions industrielles et dans les régions rurales où il est fait largement usage de la main-d'œuvre féminine.",
+        "tags": [
+          "ISC_02",
+          "ISC_1",
+          "POP_RUR"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and ISC_1 (primary education) directly match the paragraph's focus on preschool and primary schooling. POP_RUR (rural learners) aligns with the mention of rural regions. Related paragraphs provide complemental/supporting details about preschool development, collaboration, rural solutions, and teacher training.",
+        "matched_pars": {
+          "17": [
+            "complemental"
+          ],
+          "18": [
+            "complemental"
+          ],
+          "19": [
+            "complemental"
+          ],
+          "32": [
+            "complemental"
+          ],
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "3. In countries where the universalization of compulsory education has not yet been achieved, priority should be given to the requirements of primary schooling, while also addressing the development of preschool education opportunities, particularly in industrial areas and in rural regions where female labor is extensively employed."
+      },
+      {
+        "para_number": 17,
+        "para": "4. Il convient de tenir compte du fait que l'éducation préscolaire, tout en gardant son caractère essentiellement éducatif, répond à des besoins d'ordre social qui prennent de plus en plus d'importance dans une société en évolution; c'est pourquoi il est indispensable de prévoir une collaboration très étroite entre les responsables de l'enseignement public ou privé, les services médico-sociaux et les parents.",
+        "tags": [
+          "ISC_02",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and ACT_PARENT (parents) are selected because the paragraph explicitly discusses preschool education (ISC_02) and collaboration with parents (ACT_PARENT). Related paragraphs: 39 (family collaboration) directly complements the parent focus; 38 (medical services) aligns with social needs; 19 (institutional support) supports the need for collaboration; 30 (staff support) complements social service integration.",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ],
+          "38": [
+            "complemental"
+          ],
+          "19": [
+            "supporting"
+          ],
+          "30": [
+            "complemental"
+          ]
+        },
+        "para_en": "4. It is important to take into account that preschool education, while maintaining its fundamentally educational nature, also addresses social needs that are becoming increasingly significant in a changing society; for this reason, close collaboration must be ensured between those responsible for public or private education, medical-social services, and parents."
+      },
+      {
+        "para_number": 18,
+        "para": "5. Il est souhaitable que les entreprises et les institutions qui emploient de la main-d'œuvre féminine se préoccupent de créer et de développer des établissements d'éducation préscolaire en collaboration avec les autorités scolaires intéressées.",
+        "tags": [
+          "ISC_01",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_01 (Early childhood educational development) and ACT_EDUC (Teachers and educators) are selected because the paragraph focuses on preschool education (ISC_01) and collaboration with educational stakeholders (ACT_EDUC). Related paragraphs: 19 (complemental - details institutional structure for preschool development), 20 (supporting - elaborates on tasks for preschool education services), 24 (complemental - addresses private sector involvement in preschool resources), and 41 (supporting - discusses pilot institutions for training specialized personnel).",
+        "matched_pars": {
+          "19": [
+            "complemental"
+          ],
+          "20": [
+            "supporting"
+          ],
+          "24": [
+            "complemental"
+          ],
+          "41": [
+            "supporting"
+          ]
+        },
+        "para_en": "5. It is desirable that enterprises and institutions employing female labor take an interest in creating and developing preschool education facilities in collaboration with the relevant educational authorities."
+      },
+      {
+        "para_number": 19,
+        "para": "6. Dans les pays où l'éducation préscolaire est organisée, un service spécial relevant des autorités de l'instruction publique doit être chargé de toutes les questions qui intéressent le développement et le perfectionnement des établissements d'éducation préscolaire.",
+        "tags": [
+          "ISC_02",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and SYST_OTHER (system monitoring) are selected because the paragraph focuses on preschool education institutions and the organizational structure of their oversight service. Relations are complemental as subsequent paragraphs elaborate on the service's responsibilities (para 20), inspections (para 21), supervision (para 22), staff training (para 41), and international collaboration (para 54). Confidence scores reflect the direct alignment of these paragraphs with the target's institutional framework.",
+        "matched_pars": {
+          "20": [
+            "complemental"
+          ],
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "6. In countries where preschool education is organized, a special service under the authority of public education must be charged with all matters pertaining to the development and improvement of preschool education institutions."
+      },
+      {
+        "para_number": 20,
+        "para": "7. Le service responsable de l'éducation préscolaire devrait être chargé de divers travaux, notamment: a) évaluation du nombre des enfants d'âge préscolaire et de leur répartition en fonction de l'importance démographique des localités où ils résident et des conditions de leur milieu familial; b) rassemblement de données sur le nombre, le type et le caractère public ou privé des établissements d'éducation préscolaire existants, ainsi que sur leur taux de fabrication; c) enquête sur les possibilités de développement de l'éducation préscolaire et élaboration des plans correspondants; d) étude des problèmes de méthodologie que pose l'éducation préscolaire; e) examen des questions concernant la sélection, la formation et le perfectionnement du personnel, ainsi que son statut professionnel; f) mise au point de normes pédagogiques et techniques et de règlements pour les bâtiments et l'équipement destinés à l'éducation préscolaire; g) renforcement de la collaboration entre les institutrices préscolaires et les parents.",
+        "tags": [
+          "ISC_02",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and PEDAG_OTHER (pedagogy/assessment) are selected because the paragraph focuses on preschool education tasks like data collection, methodology, staff training, and collaboration with parents. Related paragraphs address inspections (21), supervision (22), staff support (30), family collaboration (39), research (40), and specialized training (41), which complement or support the target's themes.",
+        "matched_pars": {
+          "21": [
+            "complemental"
+          ],
+          "22": [
+            "complemental"
+          ],
+          "30": [
+            "complemental"
+          ],
+          "39": [
+            "complemental"
+          ],
+          "40": [
+            "supporting"
+          ],
+          "41": [
+            "supporting"
+          ]
+        },
+        "para_en": "7. The service responsible for preschool education should be entrusted with various tasks, including: a) assessing the number of preschool-age children and their distribution based on the demographic significance of the localities where they reside and the conditions of their family environment; b) gathering data on the number, type, and public or private status of existing preschool education establishments, as well as their attendance rates; c) investigating the possibilities for the development of preschool education and preparing corresponding plans; d) studying methodological issues related to preschool education; e) reviewing matters concerning the selection, training, and professional development of staff, as well as their professional status; f) developing pedagogical and technical standards and regulations for buildings and equipment intended for preschool education; g) strengthening collaboration between preschool educators and parents."
+      },
+      {
+        "para_number": 21,
+        "para": "8. Les autorités de l'instruction publique ont pour devoir d'organiser une inspection pédagogique et sanitaire de tous les établissements d'éducation préscolaire, qu'ils soient publics ou privés.",
+        "tags": [
+          "SYST_INST",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags SYST_INST is selected because the paragraph explicitly mentions institutional evaluation/inspection (pedagogical and health inspections). ISC_1 is included as preschool education is classified under primary education (ISCED 1). Paragraph 22 complements by detailing inspector roles for preschools, while 52 complements by addressing hygiene as part of preschool education.",
+        "matched_pars": {
+          "22": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ]
+        },
+        "para_en": "8. The public education authorities have the duty to organize pedagogical and health inspections of all preschool education establishments, whether public or private."
+      },
+      {
+        "para_number": 22,
+        "para": "9. Lorsque l'importance quantitative des établissements d'éducation préscolaire le justifie, leur contrôle devrait être assuré par des inspectrices spécialisées; dans les autres cas, ce contrôle peut être confié à des inspecteurs ou inspectrices de l'enseignement primaire préparés à cet effet.",
+        "tags": [
+          "SYST_INST",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "The tags SYST_INST (Institutional evaluation and inspection) and ISC_02 (Pre-primary education) are selected because the paragraph discusses supervision of preschool education establishments (institutional evaluation) and explicitly references pre-primary education (ISCED 02). The relation with paragraph 42 is 'supporting' because paragraph 42 establishes that preschool teachers' qualifications should match those of primary school staff, reinforcing the idea that qualified personnel (including inspectors) are essential for preschool supervision.",
+        "matched_pars": {
+          "42": [
+            "supporting"
+          ]
+        },
+        "para_en": "9. When the quantitative significance of preschool education establishments justifies it, their supervision should be ensured by specialized inspectors; in other cases, this supervision may be entrusted to primary education inspectors who have been trained for this purpose."
+      },
+      {
+        "para_number": 23,
+        "para": "10. Le système de financement des établissements d'éducation préscolaire publies peut varier avec la structure administrative de chaque pays; toutefois, il est à souhaiter que les frais de cette éducation soient assumés non seulement par les autorités locales mais aussi par les administrations d'un niveau supérieur.",
+        "tags": [
+          "ISC_02",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and LAW_REG (legal frameworks) are selected because the paragraph discusses preschool education funding structures and responsibilities of authorities, which fall under legal frameworks. Para 24 (complemental) addresses private sector financial assistance, para 26 (supporting) reinforces free access for publicly funded institutions, and para 54 (complemental) relates to system establishment with expert support.",
+        "matched_pars": {
+          "24": [
+            "complemental"
+          ],
+          "26": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "10. The financing system for public preschool education institutions may vary according to the administrative structure of each country; however, it is desirable that the costs of this education be borne not only by local authorities but also by administrations at a higher level."
+      },
+      {
+        "para_number": 24,
+        "para": "11. Pour autant que les établissements relevant de l'initiative privée suppléent au manque de moyens d'éducation préscolaire publics et offrent des possibilités suffisantes d'éducation et de protection sociale, ces établissements devraient pouvoir compter sur une aide financière des autorités.",
+        "tags": [
+          "OWN_PRIV"
+        ],
+        "type": "operative",
+        "think": "The tag 'OWN_PRIV' is selected because the paragraph explicitly references private initiatives compensating for public resource gaps, aligning with private non-profit ownership. Paragraph 26 discusses public-funded preschools being free, creating a complemental relationship by contrasting funding models (private financial assistance vs. public free access) under different ownership structures.",
+        "matched_pars": {
+          "26": [
+            "complemental"
+          ]
+        },
+        "para_en": "11. Insofar as establishments under private initiative compensate for the lack of public preschool education resources and offer sufficient opportunities for education and social protection, these establishments should be able to rely on financial assistance from the authorities."
+      },
+      {
+        "para_number": 25,
+        "para": "12. Malgré les avantages que les enfants peuvent avoir à fréquenter un établissement d'éducation préscolaire, cette fréquentation doit rester facultative.",
+        "tags": [
+          "ISC_02",
+          "POP_CHILD"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (Pre-primary education) and POP_CHILD (Children 0-17) directly align with the paragraph's focus on preschool education and its target population. Para 28 introduces conditions for admission (needs-based selection) which modifies the optional attendance framework in para 25. Para 26 discusses free admission in public-funded institutions, which complements the optional attendance concept by addressing accessibility.",
+        "matched_pars": {
+          "28": [
+            "modifying"
+          ],
+          "26": [
+            "complemental"
+          ]
+        },
+        "para_en": "12. Despite the benefits that children may gain from attending a preschool education establishment, such attendance must remain optional."
+      },
+      {
+        "para_number": 26,
+        "para": "13. Lorsqu'un établissement d'éducation préscolaire est entièrement à la charge des pouvoirs publics, il est souhaitable que les enfants y soient admis gratuitement.",
+        "tags": [
+          "POL_EQUIT",
+          "OWN_PUB"
+        ],
+        "type": "operative",
+        "think": "Tags POL_EQUIT (access equity) and OWN_PUB (public funding) are selected because the paragraph addresses free admission for publicly funded preschools, directly linking to equity in access and public ownership. Paragraph 27 (age requirements) and 28 (admission selection criteria) are complemental as they both discuss admission policies but focus on different aspects (age vs. needs-based selection).",
+        "matched_pars": {
+          "27": [
+            "complemental"
+          ],
+          "28": [
+            "complemental"
+          ]
+        },
+        "para_en": "13. When a preschool education institution is entirely funded by public authorities, it is desirable that children be admitted free of charge."
+      },
+      {
+        "para_number": 27,
+        "para": "14. L'âge minimum d'admission dans les établissements d'éducation préscolaire varie avec les caractéristiques des divers types d'institutions; par contre, l'âge de sortie doit coïncider avec l'âge réglementaire d'entrée à l'école primaire.",
+        "tags": [
+          "ISC_02",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (Pre-primary education) and ISC_1 (Primary education) are selected because the paragraph directly addresses preschool education (ISCED 02) and its connection to primary school entry age (ISCED 1). All related paragraphs discuss operational, structural, or policy aspects of preschool education, which are complemental as they provide additional context about implementation details without contradicting or modifying the core age-related requirements of the target paragraph.",
+        "matched_pars": {
+          "28": [
+            "complemental"
+          ],
+          "29": [
+            "complemental"
+          ],
+          "31": [
+            "complemental"
+          ],
+          "41": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "14. The minimum age for admission to preschool educational institutions varies according to the characteristics of the different types of institutions; however, the age of exit must coincide with the regulatory age for entry into primary school."
+      },
+      {
+        "para_number": 28,
+        "para": "15. Là où les établissements d'éducation préscolaire ne sont pas suffisamment nombreux pour faire droit à toutes les demandes, le choix des enfants à admettre doit s'inspirer avant tout de leurs besoins particuliers et de leur situation familiale.",
+        "tags": [
+          "POP_CHILD",
+          "PEDAG_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags POP_CHILD is selected because the paragraph focuses on preschool children (0-17). PEDAG_OTHER is chosen as the text discusses specialized training and pilot institutions for educators, which falls under pedagogy-related issues. Para 43 is related as it addresses teacher training solutions for preschool educators, directly supporting the target paragraph's emphasis on specialized training.",
+        "matched_pars": {
+          "43": [
+            "supporting"
+          ]
+        },
+        "para_en": "15. Where preschool education institutions are insufficient in number to meet all demands, the selection of children to be admitted should be guided primarily by their particular needs and family circumstances."
+      },
+      {
+        "para_number": 29,
+        "para": "16. Le nombre d'enfants par institutrice préscolaire doit être inférieur à l'effectif d'une classe primaire et doit être d'autant plus réduit que les enfants sont plus jeunes; il est souhaitable que le nombre moyen des enfants présents n'excède pas vingt-cinq.",
+        "tags": [
+          "ISC_02",
+          "T_INI"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) and T_INI (initial education/training) are selected because the paragraph directly addresses preschool teacher qualifications and their equivalence to primary school staff. Para 42 is complemental (same topic: qualifications) with high confidence. Para 43 is modifying (training pathways for teachers) with moderate confidence as it relates to qualification development.",
+        "matched_pars": {
+          "42": [
+            "complemental"
+          ],
+          "43": [
+            "modifying"
+          ]
+        },
+        "para_en": "16. The number of children per preschool teacher must be lower than the size of a primary school class and should be even smaller the younger the children; it is desirable that the average number of children present does not exceed twenty-five."
+      },
+      {
+        "para_number": 30,
+        "para": "17. L'institutrice devrait être secondée par une assistante et le personnel de service indispensable, surtout dans les établissements où les services sociaux sont particulièrement développés.",
+        "tags": [
+          "T_PDEV",
+          "T_OTHER"
+        ],
+        "type": "operative",
+        "think": "The target paragraph focuses on addressing teacher shortages through accelerated specialization and advanced training (T_PDEV). 'T_OTHER' is included as it refers to teacher-related policies beyond initial training. Paragraph 41 discusses specialized training for educators (complemental) and paragraph 43 addresses professional development through international opportunities (complemental).",
+        "matched_pars": {
+          "41": [
+            "complemental"
+          ],
+          "43": [
+            "complemental"
+          ]
+        },
+        "para_en": "17. The preschool teacher should be assisted by an aide and essential service staff, especially in establishments where social services are particularly developed."
+      },
+      {
+        "para_number": 31,
+        "para": "18. L'horaire d'un établissement d'éducation préscolaire doit présenter une plus grande souplesse que celui de l'école primaire, afin de s'adapter au mieux aux besoins des enfants et des familles ; on peut concevoir des établissements ouverts seulement le matin, et d'autres ouverts toute la journée et assurant les repas habituels et les périodes de repos indispensables.",
+        "tags": [
+          "ISC_02",
+          "CUR_ORG"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (Pre-primary education) and CUR_ORG (Organization and instructional time) are selected because the paragraph explicitly discusses preschool education schedules (organization) and the education level (ISCED 02). Related paragraphs 32, 53, 49, and 50 address complementary aspects: 32 (permanence of preschool facilities), 53 (meals/rest periods), 49 (physical premises), and 50 (playground accessibility), all aligning with the target's focus on preschool structure and facilities.",
+        "matched_pars": {
+          "32": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "18. The schedule of a preschool education establishment must be more flexible than that of the primary school, in order to better adapt to the needs of children and families; it is conceivable to have establishments open only in the morning, and others open all day providing customary meals and necessary rest periods."
+      },
+      {
+        "para_number": 32,
+        "para": "19. A la campagne et partout où les circonstances s'y prêtent, les établissements d'éducation préscolaire saisonniers qui sont ouverts pendant que les parents sont occupés aux grands travaux agricoles ou autres devraient devenir permanents pour répondre toute l'année aux besoins éducatifs des enfants.",
+        "tags": [
+          "POP_RUR",
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "Tags POP_RUR (Rural and remote learners) apply because the paragraph specifically mentions rural areas. ACT_PARENT (Parents and communities) is relevant as it references parents' agricultural work. Paragraph 50 discusses playground requirements for preschool facilities, which complements the target paragraph's focus on permanent seasonal facilities by addressing infrastructure needs. The relation is complemental with moderate confidence as both address facility requirements but from different angles.",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ]
+        },
+        "para_en": "19. In rural areas and wherever circumstances allow, seasonal preschool education establishments that operate while parents are engaged in major agricultural or other work should become permanent in order to meet the educational needs of children throughout the year."
+      },
+      {
+        "para_number": 33,
+        "para": "20. L'éducation préscolaire doit recourir à des méthodes qui tiennent compte des derniers développements de la psychologie du jeune enfant et des progrès de la pédagogie; ces méthodes seront basées sur l'action, qui revêt le plus souvent la forme du jeu, libre ou suggéré; les activités sensori-motrices et manuelles, les moyens d'expression spontanée offerts aux enfants (chant, dessin, rythmique, etc.) favorisent l'éveil de la personnalité et contribuent à leur donner un bon équilibre affectif et mental.",
+        "tags": [
+          "PEDAG_METHO",
+          "POP_CHILD"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO (teaching methods) and POP_CHILD (children) are directly supported by the focus on preschool education methods and child-centered activities. Paragraph 34 (group activities) is complemental as it expands on collaborative learning aspects. Paragraph 37 (teacher freedom/materials) is complemental as it addresses implementation context of the methods discussed.",
+        "matched_pars": {
+          "34": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ]
+        },
+        "para_en": "20. Preschool education must employ methods that take into account the latest developments in young children’s psychology and advances in pedagogy; these methods will be based on activity, which most often takes the form of play, either free or guided; sensorimotor and manual activities, as well as the means of spontaneous expression offered to children (singing, drawing, rhythmic movement, etc.), promote the awakening of personality and help to provide them with a sound emotional and mental balance."
+      },
+      {
+        "para_number": 34,
+        "para": "21. L'éducation fonctionnelle et individualisée, qui est le propre de l'éducation du jeune enfant, ne doit pas exclure les activités de groupe qui contribuent à la formation du caractère, à l'éducation des sentiments et au développement du sens social.",
+        "tags": [
+          "ISC_01",
+          "F_REL"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes group activities' role in character formation and social awareness (F_REL) and focuses on early childhood education (ISC_01). Paragraph 36 discusses outdoor activities and balancing free/guided activities, which complement the target paragraph's focus on social development through group settings. The connection is moderate (confidence 0.7) as both address early childhood education's holistic development.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ]
+        },
+        "para_en": "Functional and individualized education, which is characteristic of early childhood education, should not exclude group activities that contribute to character formation, the education of feelings, and the development of social awareness."
+      },
+      {
+        "para_number": 35,
+        "para": "22. Au niveau préscolaire, il importe que l'éducation intellectuelle soit basée sur l'observation du milieu vivant et le développement du langage et, bien que tout enseignement proprement dit doive être exclu de cette éducation, il est possible, dès l'âge de cinq ans et dans la mesure où l'enfant fait preuve de maturité et d'intérêt, de lui donner une première initiation aux techniques scolaires grâce à l'expression graphique, à l'organisation de situations concrètes qui ne peuvent être résolues que par l'emploi de la mesure et du nombre, et à l'utilisation d'un matériel spécialement conçu à cet effet.",
+        "tags": [
+          "ISC_02",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (Pre-primary education) and CUR_IMPL (Curriculum implementation) are selected because the paragraph explicitly discusses preschool education (ISC_02) and curriculum elements like materials, activities, and techniques (CUR_IMPL). Related paragraphs (36, 37, 48, 49, 51) address complementary aspects like outdoor activities, teacher freedom, physical infrastructure, and environmental adaptation, all of which align with the target paragraph's focus on preschool education practices.",
+        "matched_pars": {
+          "36": [
+            "complemental"
+          ],
+          "37": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ]
+        },
+        "para_en": "At the preschool level, it is important that intellectual education be based on the observation of the living environment and the development of language, and although formal instruction should be excluded from this education, it is possible, from the age of five and insofar as the child demonstrates maturity and interest, to provide an initial introduction to school techniques through graphic expression, the organization of concrete situations that can only be resolved by the use of measurement and number, and the use of specially designed materials for this purpose."
+      },
+      {
+        "para_number": 36,
+        "para": "23. Il y a lieu de réserver suffisamment de temps aux activités de plein air et de prévoir un juste équilibre entre les activités libres et les activités dirigées.",
+        "tags": [
+          "INFRA_OTHER"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on infrastructure requirements for preschool facilities, including separate buildings, playgrounds, and gardens. This directly aligns with 'INFRA_OTHER' (Infrastructure & resources | Other). Related paragraphs discuss playgrounds (37, 48) and location/accessibility (49), which complement the target's infrastructure focus.",
+        "matched_pars": {
+          "37": [
+            "complemental"
+          ],
+          "48": [
+            "complemental"
+          ],
+          "49": [
+            "complemental"
+          ]
+        },
+        "para_en": "23. Sufficient time should be allocated to outdoor activities, and a proper balance should be maintained between free activities and guided activities."
+      },
+      {
+        "para_number": 37,
+        "para": "24. Sous réserve de l'application des principes énumérés ci-dessus, les institutrices préscolaires doivent garder une grande liberté dans le choix des procédés et dans l'élaboration de leur programme d'activités, tout en étant assurées de disposer d'un matériel suffisamment varié et de l'équipement indispensable.",
+        "tags": [
+          "T_INI",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial education and training) and CUR_IMPL (Curriculum implementation) are selected because the paragraph discusses preschool teachers' freedom in developing activity programs (curriculum implementation) and their qualifications/roles in initial education. Para 44 is a supporting relation as it directly addresses professional development opportunities for preschool teachers, which complements the freedom to enhance methods mentioned in the target paragraph.",
+        "matched_pars": {
+          "44": [
+            "supporting"
+          ]
+        },
+        "para_en": "24. Subject to the application of the principles set out above, preschool teachers must retain significant freedom in the choice of methods and in the development of their activity program, while being assured of having sufficiently varied materials and the essential equipment."
+      },
+      {
+        "para_number": 38,
+        "para": "25. L'éducation préscolaire jouant un rôle important dans la protection de la santé des enfants, elle doit leur faire acquérir de bonnes habitudes d'hygiène; en outre, il est indispensable de les faire bénéficier des services médicaux et médico-pédagogiques au moins au même titre que les élèves de l'enseignement primaire.",
+        "tags": [
+          "ISC_02",
+          "CCUT_WELLB"
+        ],
+        "type": "operative",
+        "think": "The tags ISC_02 (Pre-primary education) and CCUT_WELLB (Health and well-being education) are selected because the paragraph explicitly discusses preschool education (ISC_02) and emphasizes hygiene habits and medical services (CCUT_WELLB). Paragraph 39 directly addresses hygiene and cleanliness as an integral part of preschool education, complementing the target paragraph's focus on hygiene and health services.",
+        "matched_pars": {
+          "39": [
+            "complemental"
+          ]
+        },
+        "para_en": "25. Preschool education, playing an important role in protecting children's health, must instill good hygiene habits in them; moreover, it is essential that they benefit from medical and medico-educational services at least to the same extent as primary education students."
+      },
+      {
+        "para_number": 39,
+        "para": "26. La collaboration avec la famille est essentielle dans l'éducation préscolaire; elle a pour but de faire prendre conscience aux parents de leurs responsabilités éducatives et de les aider à les assumer; elle ne doit pas se borner à une simple rencontre avec les parents qui accompagnent leur enfant, mais comporter des entretiens réguliers, des causeries, des groupes de discussion, si possible la participation des parents à certaines activités de l'école et leur visite occasionnelle pendant les heures de classe, ainsi que des visites à domicile faites par l'institutrice et, au besoin, par l'assistante sociale.",
+        "tags": [
+          "ACT_PARENT"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes family collaboration in preschool education, aligning with 'ACT_PARENT' (Stakeholder focus | Parents and communities). Paragraph 40 discusses professional development for preschool teachers, which complements the target paragraph by addressing how teachers can enhance their methods (including family engagement) through training, though the connection is indirect.",
+        "matched_pars": {
+          "40": [
+            "complemental"
+          ]
+        },
+        "para_en": "26. Collaboration with the family is essential in preschool education; its purpose is to make parents aware of their educational responsibilities and to help them fulfill these duties. It should not be limited to a mere meeting with the parents accompanying their child, but should include regular interviews, discussions, parent groups, the possible participation of parents in certain school activities, their occasional visits during class hours, as well as home visits conducted by the preschool teacher and, if necessary, by the social worker."
+      },
+      {
+        "para_number": 40,
+        "para": "27. Les recherches psychologiques et pédagogiques sur l'éducation préscolaire devraient être développées et approfondies, partout où cela est possible; il importe que les membres du personnel enseignant, de même que les parents, soient mis au courant des résultats pratiques de ces recherches par le moyen d'articles, de conférences, de causeries radiophoniques, de publications diverses, etc.",
+        "tags": [
+          "T_PDEV",
+          "ACT_PARENT",
+          "PEDAG_FOUND"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (professional development for teachers) and ACT_PARENT (parent engagement) are directly mentioned. PEDAG_FOUND (pedagogical foundations) is included because the paragraph emphasizes research on preschool education. Related paragraphs 41 (specialized training), 43 (accelerated courses), 44 (professional development opportunities), 55 (international dissemination), and 57 (dissemination channels) all connect to the target's focus on sharing research and professional growth.",
+        "matched_pars": {
+          "41": [
+            "supporting"
+          ],
+          "43": [
+            "supporting"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ]
+        },
+        "para_en": "27. Psychological and pedagogical research on preschool education should be developed and deepened wherever possible; it is important that teaching staff, as well as parents, are informed of the practical results of this research through articles, lectures, radio talks, various publications, and so forth."
+      },
+      {
+        "para_number": 41,
+        "para": "28. L'éducation des enfants d'âge préscolaire présentant des problèmes psychologiques et pédagogiques particuliers, il importe que les personnes qui s'y destinent possèdent les qualités requises et reçoivent une formation spécialisée en complément de la formation pédagogique générale, et il serait souhaitable de créer à cet effet des institutions pilotes annexées aux établissements de formation pédagogique.",
+        "tags": [],
+        "type": "operative",
+        "think": "fallback",
+        "matched_pars": {},
+        "para_en": "28. The education of preschool children presenting particular psychological and pedagogical problems requires that those who intend to work in this field possess the necessary qualities and receive specialized training in addition to general pedagogical training, and it would be desirable to establish pilot institutions for this purpose attached to teacher training establishments."
+      },
+      {
+        "para_number": 42,
+        "para": "29. Les études et les titres des institutrices préscolaires devraient être au moins de même niveau que ceux du personnel enseignant primaire.",
+        "tags": [
+          "T_INI",
+          "T_QUAL",
+          "ISC_02",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI and T_QUAL reflect the focus on teacher qualifications and initial training. ISC_02 (pre-primary) and ISC_1 (primary) are explicitly compared in the text. Related paragraphs address training (43, 56), professional development (44), and equality in status (45, 46), which align with the target paragraph's emphasis on equivalence and qualifications.",
+        "matched_pars": {
+          "43": [
+            "modifying"
+          ],
+          "44": [
+            "complemental"
+          ],
+          "45": [
+            "supporting"
+          ],
+          "46": [
+            "supporting"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "29. The studies and qualifications of preschool teachers should be at least equivalent to those of primary school teaching staff."
+      },
+      {
+        "para_number": 43,
+        "para": "30. Là où il y a pénurie d'institutrices préscolaires qualifiées, il pourrait être utile d'organiser, à l'intention des personnes ayant déjà une expérience pédagogique et les aptitudes nécessaires, des cours accélérés de spécialisation suivis ultérieurement de cours de perfectionnement qui les amèneraient peu à peu au niveau des institutrices préscolaires qualifiées.",
+        "tags": [
+          "T_PDEV",
+          "ISC_01"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) is selected because the paragraph discusses study visits and internships as forms of professional development. ISC_01 (Early childhood educational development) is relevant as the text focuses on preschool education. Para 44 (professional development for preschool teachers) is complemental as it expands on similar themes. Para 56 (scholarship system for study visits) is directly supporting the target paragraph's scholarship initiative. Para 54 (pilot institutions and training) is complemental as it relates to training mechanisms for preschool education.",
+        "matched_pars": {
+          "44": [
+            "complemental"
+          ],
+          "56": [
+            "supporting"
+          ],
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "30. In cases where there is a shortage of qualified preschool teachers, it may be useful to organize accelerated specialization courses for individuals who already have pedagogical experience and the necessary aptitudes, followed subsequently by advanced training courses that would gradually bring them to the level of qualified preschool teachers."
+      },
+      {
+        "para_number": 44,
+        "para": "31. Il conviendrait d'offrir aux institutrices préscolaires, comme à toutes les autres catégories d'enseignants, des possibilités de perfectionnement qui leur permettent de développer leurs compétences et d'améliorer leurs méthodes, qu'il s'agisse de cours de vacances, par correspondance ou autres, ou de conférences pédagogiques, de stages dans des institutions pilotes, etc.",
+        "tags": [
+          "T_PDEV",
+          "ISC_01"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (professional development) and ISC_01 (early childhood education) are selected because the paragraph explicitly discusses opportunities for preschool teachers to enhance skills (T_PDEV) and focuses on early childhood education (ISC_01). Related paragraphs 46, 54, 55, and 56 address complementary aspects like retraining (46), pilot institutions (54), international exchanges (55), and internships (56), all of which align with the target's focus on professional development and early childhood education.",
+        "matched_pars": {
+          "46": [
+            "complemental"
+          ],
+          "54": [
+            "complemental"
+          ],
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "31. Preschool teachers should be offered opportunities for professional development, as with all other categories of educators, enabling them to enhance their skills and improve their methods, whether through vacation courses, correspondence or other means, pedagogical conferences, internships in pilot institutions, etc."
+      },
+      {
+        "para_number": 45,
+        "para": "32. Les institutrices préscolaires qualifiées devraient bénéficier du même statut (traitement, conditions de travail, congés, etc.) et des mêmes avantages que le personnel enseignant primaire.",
+        "tags": [
+          "T_COND",
+          "T_STAT"
+        ],
+        "type": "operative",
+        "think": "The tags T_COND (Working conditions and salaries) and T_STAT (Legal status and rights) are selected because the paragraph explicitly mentions equal status (salary, working conditions, leave) and benefits for preschool teachers compared to primary school staff. Para 46 is related as it reinforces the idea of equal status and remuneration for transitioning between preschool and primary education, directly supporting the target paragraph's argument.",
+        "matched_pars": {
+          "46": [
+            "supporting"
+          ]
+        },
+        "para_en": "32. Qualified preschool teachers should be granted the same status (salary, working conditions, leave, etc.) and the same benefits as primary school teaching staff."
+      },
+      {
+        "para_number": 46,
+        "para": "33. Le niveau égal des études, ainsi que l'égalité de statut et de rémunération, contribueraient à faciliter le passage des institutrices préscolaires dans l'enseignement primaire, ou vice versa; le cas échéant, des cours de réorientation devraient être organisés pour le personnel intéressé.",
+        "tags": [
+          "T_INI",
+          "ISC_02",
+          "ISC_1"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (initial training/retraining courses), ISC_02 (pre-primary education), and ISC_1 (primary education) are selected because the paragraph discusses transitions between preschool and primary education, as well as retraining for teachers. Paragraph 54 (ISCED 02/1 training) supports retraining initiatives, while paragraph 56 (international study visits) complements the need for specialized training exchange.",
+        "matched_pars": {
+          "54": [
+            "supporting"
+          ],
+          "56": [
+            "supporting"
+          ]
+        },
+        "para_en": "33. An equivalent level of education, as well as equality in status and remuneration, would help facilitate the transition of preschool teachers into primary education, or vice versa; where appropriate, retraining courses should be organized for interested personnel."
+      },
+      {
+        "para_number": 47,
+        "para": "34. Toutes mesures doivent être prises pour assurer la sécurité des enfants; dans les villes, les établissements d'éducation préscolaire doivent être situés à proximité du domicile des parents, de façon à réduire les dangers de la circulation et à éviter l'emploi de moyens de transport.",
+        "tags": [
+          "ACT_PARENT",
+          "LAW_REG"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_PARENT (parents' proximity to facilities) and LAW_REG (regulatory requirements for facility location) are selected. Paragraph 48 (separate buildings/playgrounds) complements the target's focus on facility design. Paragraph 50 (construction permit requirements for playgrounds) supports the target's emphasis on playground accessibility.",
+        "matched_pars": {
+          "48": [
+            "complemental"
+          ],
+          "50": [
+            "supporting"
+          ]
+        },
+        "para_en": "All necessary measures must be taken to ensure the safety of children; in urban areas, preschool education facilities should be located close to the parents' homes in order to reduce traffic hazards and avoid the use of transportation."
+      },
+      {
+        "para_number": 48,
+        "para": "35. Tout établissement d'éducation préscolaire devrait constituer un bâtiment à part et posséder un terrain de jeux spécialement équipé pour favoriser les activités de plein air, ainsi qu'un jardin qui, en plus de sa valeur esthétique, permettrait l'observation de la nature, l'élevage de petits animaux et la pratique du jardinage.",
+        "tags": [
+          "F_ENV",
+          "INFRA_BUILD",
+          "ISC_01"
+        ],
+        "type": "operative",
+        "think": "Tags F_ENV (environmental aspects like gardens and nature observation), INFRA_BUILD (separate buildings and playgrounds), and ISC_01 (early childhood education) are directly supported. Relations: Para 49 modifies infrastructure requirements, para 50 complements playground accessibility, and others add related infrastructure details.",
+        "matched_pars": {
+          "49": [
+            "modifying"
+          ],
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "35. Every preschool educational establishment should be housed in a separate building and have a playground specially equipped to promote outdoor activities, as well as a garden which, in addition to its aesthetic value, would allow for the observation of nature, the raising of small animals, and gardening activities."
+      },
+      {
+        "para_number": 49,
+        "para": "36. S'ils ne peuvent constituer un bâtiment à part, les locaux destinés à l'éducation préscolaire doivent être situés au rez-de-chaussée, dans des salles suffisamment vastes et claires, avec sortie sur une cour de récréation réservée aux enfants d'âge préscolaire et spécialement aménagée pour eux.",
+        "tags": [
+          "ISC_02",
+          "INFRA_CLASS",
+          "INFRA_BUILD"
+        ],
+        "type": "operative",
+        "think": "Tags ISC_02 (pre-primary education) is directly mentioned. INFRA_CLASS (classrooms) and INFRA_BUILD (school buildings) apply due to the focus on physical infrastructure. Paragraph 50 complements by emphasizing playground requirements, 51 adds environmental design details, and 53 expands on facility needs for daily operations.",
+        "matched_pars": {
+          "50": [
+            "complemental"
+          ],
+          "51": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "36. If they cannot constitute a separate building, the premises intended for preschool education must be located on the ground floor, in rooms that are sufficiently spacious and well-lit, with an exit to a playground reserved for preschool-age children and specifically designed for them."
+      },
+      {
+        "para_number": 50,
+        "para": "37. Lorsque les autorités accordent un permis pour la construction d'un groupe d'immeubles, elles devraient exiger entre autres la construction d'un nombre suffisant d'établissements d'éducation préscolaire, accompagnés chacun d'un terrain de jeux qui pourrait demeurer à la disposition des enfants en dehors des heures d'ouverture de leur établissement.",
+        "tags": [
+          "INFRA_BUILD",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "Tags INFRA_BUILD and ISC_02 are selected because the paragraph explicitly discusses preschool education facilities (ISC_02) and physical infrastructure requirements (INFRA_BUILD). Related paragraphs 51-53 all address specific aspects of preschool infrastructure (decor, hygiene, meal facilities) that complement the target paragraph's focus on construction requirements.",
+        "matched_pars": {
+          "51": [
+            "complemental"
+          ],
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "37. When authorities grant a permit for the construction of a group of buildings, they should require, among other things, the construction of a sufficient number of preschool education facilities, each accompanied by a playground that could remain accessible to children outside the operating hours of their facility."
+      },
+      {
+        "para_number": 51,
+        "para": "38. Un soin tout particulier doit être apporté à la décoration, à l'ameublement et à l'équipement des établissements d'éducation préscolaire; ces divers éléments doivent être adaptés aux besoins physiologiques, éducatifs et esthétiques des enfants, selon leur âge; chaque salle devra comporter un espace libre, d'autant plus grand que les enfants sont plus jeunes.",
+        "tags": [
+          "INFRA_CLASS",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "Tags INFRA_CLASS (classrooms/learning environments) and ISC_02 (pre-primary education) are selected because the paragraph focuses on physical infrastructure requirements for preschool facilities. Paragraph 52 (hygiene/sanitation) and 53 (meal facilities/rest periods) are complemental as they both address infrastructure needs for preschool institutions but cover distinct aspects (cleanliness vs. meal services). Confidence scores reflect clear thematic alignment without direct overlap.",
+        "matched_pars": {
+          "52": [
+            "complemental"
+          ],
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "38. Particular care must be taken regarding the decoration, furnishing, and equipment of preschool education establishments; these various elements must be adapted to the physiological, educational, and aesthetic needs of the children, according to their age; each room should include a free space, the larger the younger the children are."
+      },
+      {
+        "para_number": 52,
+        "para": "39. Les soins d'hygiène et de propreté faisant partie intégrante de l'éducation préscolaire, il importe de prêter une attention toute spéciale à l'alimentation en eau potable et de veiller à ce que les installations sanitaires soient adaptées aux divers âges des enfants et constamment maintenues en parfait état de fonctionnement et de propreté.",
+        "tags": [
+          "INFRA_WASH",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "The paragraph emphasizes WASH facilities (INFRA_WASH) and pre-primary education (ISC_02). Paragraph 53 complements this by discussing meal preparation facilities and isolation protocols, which are related infrastructure needs for preschool settings.",
+        "matched_pars": {
+          "53": [
+            "complemental"
+          ]
+        },
+        "para_en": "39. Hygiene and cleanliness care being an integral part of preschool education, special attention must be given to the supply of drinking water and to ensuring that sanitary facilities are suitable for the various ages of the children and are constantly maintained in perfect working order and cleanliness."
+      },
+      {
+        "para_number": 53,
+        "para": "40. Les établissements d'éducation préscolaire qui remplissent une fonction sociale et dans lesquels les enfants demeurent toute la journée doivent posséder les installations nécessaires pour la préparation et la distribution des repas, ainsi que pour les périodes de repos indispensables et pour l'isolement temporaire de tout enfant qui se trouverait malade au cours de la journée.",
+        "tags": [
+          "ISC_02",
+          "INFRA_BUILD"
+        ],
+        "type": "operative",
+        "think": "The tags ISC_02 (pre-primary education) and INFRA_BUILD (infrastructure) are selected because the paragraph explicitly discusses preschool education institutions (ISC_02) and their required physical facilities (INFRA_BUILD). For relations, paragraph 54 addresses establishing preschool systems and training personnel, which complements the target paragraph's focus on infrastructure needs for existing institutions. The complemental relation has moderate confidence (0.7) as both paragraphs address preschool education but from different angles (infrastructure vs. system establishment).",
+        "matched_pars": {
+          "54": [
+            "complemental"
+          ]
+        },
+        "para_en": "40. Preschool education institutions that fulfill a social function and where children stay throughout the day must have the necessary facilities for the preparation and distribution of meals, as well as for the essential rest periods and the temporary isolation of any child who falls ill during the day."
+      },
+      {
+        "para_number": 54,
+        "para": "41. Il serait souhaitable que les pays qui envisagent d'instituer un système d'éducation préscolaire puissent faire appel au concours d'experts d'autres pays pour organiser des établissements pilotes et des cours pour la formation d'un personnel spécialisé",
+        "tags": [
+          "T_INI",
+          "SYST_OTHER"
+        ],
+        "type": "operative",
+        "think": "Tags T_INI (Initial teacher training) and SYST_OTHER (Education system establishment) are selected because the paragraph focuses on training specialized personnel and establishing preschool systems. Paragraph 55 complements by addressing international collaboration for knowledge exchange (confidence 0.9). Paragraph 56 complements by discussing mobility programs for training (confidence 0.9).",
+        "matched_pars": {
+          "55": [
+            "complemental"
+          ],
+          "56": [
+            "complemental"
+          ]
+        },
+        "para_en": "41. It would be desirable for countries considering the establishment of a preschool education system to seek the assistance of experts from other countries in organizing pilot institutions and courses for the training of specialized personnel."
+      },
+      {
+        "para_number": 55,
+        "para": "42. Il serait utile pour tous les pays, y compris ceux où l'éducation préscolaire est déjà instituée, d'organiser à l'échelon international des stages d'études et des conférences consacrées à l'examen des problèmes de la petite enfance et de l'éducation préscolaire et de faciliter les échanges de documents (textes officiels, rapports, ouvrages spécialisés, films, livres pour enfants, matériel éducatif, etc.) entre éducatrices et spécialistes de différents pays; à cet effet, il pourrait être fait appel à la collaboration de l'Unesco, du Bureau international d'Education, de l'Organisation mondiale pour l'éducation préscolaire et d'autres organisations et associations pédagogiques de caractère mondial ou régional.",
+        "tags": [
+          "POL_INTCOOP",
+          "ISC_02"
+        ],
+        "type": "operative",
+        "think": "Tags POL_INTCOOP (international cooperation with UNESCO/BIE) and ISC_02 (pre-primary education focus) are directly supported. Relations: 56 complements international study visits with scholarship mechanisms (0.9); 57 complements dissemination efforts (0.8); 58 supports UNESCO's role in regional adaptation (0.9); 59 modifies implementation by adding adaptation tasks (0.8).",
+        "matched_pars": {
+          "56": [
+            "complemental"
+          ],
+          "57": [
+            "complemental"
+          ],
+          "58": [
+            "supporting"
+          ],
+          "59": [
+            "modifying"
+          ]
+        },
+        "para_en": "42. It would be beneficial for all countries, including those where preschool education is already established, to organize international study visits and conferences dedicated to addressing the issues of early childhood and preschool education, and to facilitate the exchange of documents (official texts, reports, specialized works, films, children’s books, educational materials, etc.) among educators and specialists from different countries; to this end, the cooperation of UNESCO, the International Bureau of Education, the World Organization for Preschool Education, and other global or regional educational organizations and associations could be enlisted."
+      },
+      {
+        "para_number": 56,
+        "para": "43. Un système de bourses devrait aider les spécialistes de l'éducation préscolaire à effectuer des voyages d'études ou des stages dans des pays où ce type d'éducation est particulièrement développé et notamment dans ceux où les conditions démographiques, économiques et autres se rapprochent le plus de celles de leur propre pays.",
+        "tags": [
+          "ISC_01"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on early childhood education (ISC_01) through scholarship systems for preschool specialists. Paragraph 57 complements by addressing dissemination of recommendations, while 58 modifies by discussing regional adaptation of the recommendation.",
+        "matched_pars": {
+          "57": [
+            "complemental"
+          ],
+          "58": [
+            "modifying"
+          ]
+        },
+        "para_en": "43. A scholarship system should assist preschool education specialists in undertaking study visits or internships in countries where this type of education is particularly advanced, especially in those where demographic, economic, and other conditions most closely resemble those of their own country."
+      },
+      {
+        "para_number": 57,
+        "para": "44. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des associations internationales ou nationales d'enseignants, etc.; la presse pédagogique, officielle ou privée, doit jouer un grand rôle dans la diffusion de cette recommandation.",
+        "tags": [
+          "ACT_EDUC",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "Tags ACT_EDUC (Stakeholder focus | Teachers and educators) applies because the paragraph emphasizes dissemination by teachers' associations and educational authorities. CUR_IMPL (Curriculum | Curriculum implementation) applies as the recommendation's dissemination relates to implementing educational guidelines. Para 58 (complemental) adds regional adaptation processes that complement dissemination efforts. Para 59 (modifying) specifies national implementation steps that refine how recommendations are adapted, directly modifying the implementation process mentioned in the target paragraph.",
+        "matched_pars": {
+          "58": [
+            "complemental"
+          ],
+          "59": [
+            "modifying"
+          ]
+        },
+        "para_en": "44. It is essential that the text of the present recommendation be widely disseminated by ministries of public education, school authorities at the most directly concerned levels of education, international or national teachers' associations, etc.; educational, official, or private press must play a major role in the dissemination of this recommendation."
+      },
+      {
+        "para_number": 58,
+        "para": "45. Les centres régionaux de l'Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région.",
+        "tags": [
+          "ACT_OTHER",
+          "LAW_INTER"
+        ],
+        "type": "operative",
+        "think": "Tags 'ACT_OTHER' (Stakeholder focus | Other) applies because the paragraph involves collaboration between UNESCO regional centres and ministries, indicating stakeholder engagement. 'LAW_INTER' (Legal frameworks | International conventions and treaties) is relevant as the text refers to adapting a recommendation, which likely relates to international legal instruments. The relation with para 59 is complemental (confidence 0.9) as both paragraphs discuss adapting the recommendation but at different levels (regional vs. national implementation).",
+        "matched_pars": {
+          "59": [
+            "complemental"
+          ]
+        },
+        "para_en": "45. The UNESCO regional centres are invited to facilitate, in collaboration with the relevant ministries, the regional review of this recommendation with a view to its adaptation to the characteristics of the region."
+      },
+      {
+        "para_number": 59,
+        "para": "46. Dans les pays où la chose s'avérerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré.",
+        "tags": [
+          "LAW_IMPLEM",
+          "CUR_IMPL"
+        ],
+        "type": "operative",
+        "think": "The paragraph focuses on policy implementation (LAW_IMPLEM) through tasks like adapting legal provisions and proposing practical measures. It also addresses curriculum implementation (CUR_IMPL) by mentioning adapting articles to national contexts. No related paragraphs exist in the allowed set.",
+        "matched_pars": {},
+        "para_en": "46. In countries where it is deemed necessary, the ministries of public education are invited to commission the competent bodies to carry out various tasks, for example: a) to examine this recommendation and compare its content with the existing legal and factual situation in their country; b) to consider the advantages and disadvantages of the potential application of each provision not yet in force; c) to adapt each article to the country’s situation, if its application is considered useful; d) finally, to propose the practical provisions and measures to be taken to ensure the implementation of the article in question."
+      }
+    ],
+    "body_raw": "La Conférence internationale de l'instruction publique, Convoquée à Genève par l'Organisation des Nations Unies pour l'éducation, la science et la culture et le Bureau international d'Education, et s'y étant réunie le trois juillet mil neuf cent soixante et un en sa vingt-quatrième session, adopte le quatorze juillet mil neuf cent soixante et un la recommandation suivante: La Conférence, Considérant les principes énoncés dans la Recommandation n° 17 concernant l'organisation de l'éducation préscolaire, adoptée le dix-neuf juillet mil neuf cent trente-neuf par la Conférence internationale de l'instruction publique lors de sa huitième session, Considérant la nécessité d'assurer à l'enfant, dès son plus jeune âge, une éducation qui soit propice à son complet développement, spirituel, moral, intellectuel et physique, Considérant que l'éducation du tout jeune enfant est un devoir primordial et un droit inaliénable des parents, Considérant que, bien que la famille demeure le milieu le plus favorable à l'épanouissement de l'enfant, elle a cependant besoin d'être aidée car, même dans les meilleures conditions, elle n'est plus en mesure de satisfaire seule à tous les besoins éducatifs du jeune enfant dès que celui-ci approche de l'âge de quatre ans, Considérant qu'en raison de l'accroissement du nombre des femmes qui ont une activité professionnelle et de celles qui, pour des raisons diverses, sont surchargées de besognes au foyer, l'éducation préscolaire remplit de plus en plus, dans la vie moderne, une fonction sociale en offrant à l'enfant la sécurité dont il a besoin et en veillant à son développement intégral, Considérant que la fréquentation d'un établissement d'éducation préscolaire ménage la transition entre la vie familiale et la vie scolaire, Considérant que la fréquentation d'un établissement d'éducation préscolaire favorise le dépistage précoce de tous les troubles du développement physique et mental, dont l'amélioration ou la guérison sera d'autant mieux assurée qu'ils auront été détectés plus tôt, et qu'elle est également très bénéfique aux enfants physiquement handicapés du fait qu'elle les habitue de bonne heure à vivre avec d'autres enfants,  149 Considérant que l'expérience acquise jusqu'ici donne un fondement suffisant à l'élaboration des principes et des méthodes de l'éducation préscolaire, Considérant que l'éducation préscolaire exige des éducatrices qui s'y consacrent une préparation spéciale, mais aussi des qualités et des aptitudes particulières, Considérant que, dans chaque pays, le problème de l'extension de l'éducation préscolaire apparaît comme étant lié au stade d'avancement de la scolarisation des enfants d'âge scolaire, et qu'il y a lieu de tenir compte des différences pouvant exister entre les régions, industrielles ou rurales, où la main-d'œuvre féminine est largement utilisée, et les autres régions, Considérant qu'en dépit d'aspirations semblables, des pays dont la situation est très différente se doivent d'apporter des solutions diverses au problème de l'organisation de l'éducation préscolaire, Soumet aux Ministères de l'instruction publique des différents pays a recommandation suivante : POSSIBILITÉS DE CRÉATION ET DE DÉVELOPPEMENT DE L'ÉDUCATION PRÉSCOLAIRE 1. Il importe que les autorités responsables de l'éducation favorisent la création, le développement et le progrès de l'éducation préscolaire, compte tenu de l'état d'avancement de l'enseignement dans chaque pays et de la situation propre aux diverses localités. 2. Partout où l'enseignement obligatoire est déjà assuré à tous les enfants sans exception, des possibilités d'éducation devraient être offertes aux enfants d'âge préscolaire, pour autant que leur nombre justifie l'ouverture d'un établissement ou d'une classe de type correspondant. 3. Dans les pays où la généralisation de l'enseignement obligatoire n'est pas encore réalisée, il convient, tout en réservant la priorité aux exigences de l'école primaire, de se préoccuper du développement des possibilités d'éducation préscolaire, notamment dans les régions industrielles et dans les régions rurales où il est fait largement usage de la main-d'œuvre féminine. 4. Il convient de tenir compte du fait que l'éducation préscolaire, tout en gardant son caractère essentiellement éducatif, répond à des besoins d'ordre social qui prennent de plus en plus d'importance dans une société en évolution; c'est pourquoi il est indispensable de prévoir une collaboration très étroite entre les responsables de l'enseignement public ou privé, les services médico-sociaux et les parents. 5. Il est souhaitable que les entreprises et les institutions qui emploient de la main-d'œuvre féminine se préoccupent de créer et de développer des établissements d'éducation préscolaire en collaboration avec les autorités scolaires intéressées.  — 150 — ADMINISTRATION, CONTRÔLE ET FINANCEMENT 6. Dans les pays où l'éducation préscolaire est organisée, un service spécial relevant des autorités de l'instruction publique doit être chargé de toutes les questions qui intéressent le développement et le perfectionnement des établissements d'éducation préscolaire. 7. Le service responsable de l'éducation préscolaire devrait être chargé de divers travaux, notamment: a) évaluation du nombre des enfants d'âge préscolaire et de leur répartition en fonction de l'importance démographique des localités où ils résident et des conditions de leur milieu familial; b) rassemblement de données sur le nombre, le type et le caractère public ou privé des établissements d'éducation préscolaire existants, ainsi que sur leur taux de fabrication; c) enquête sur les possibilités de développement de l'éducation préscolaire et élaboration des plans correspondants; d) étude des problèmes de méthodologie que pose l'éducation préscolaire; e) examen des questions concernant la sélection, la formation et le perfectionnement du personnel, ainsi que son statut professionnel; f) mise au point de normes pédagogiques et techniques et de règlements pour les bâtiments et l'équipement destinés à l'éducation préscolaire; g) renforcement de la collaboration entre les institutrices préscolaires et les parents. 8. Les autorités de l'instruction publique ont pour devoir d'organiser une inspection pédagogique et sanitaire de tous les établissements d'éducation préscolaire, qu'ils soient publics ou privés. 9. Lorsque l'importance quantitative des établissements d'éducation préscolaire le justifie, leur contrôle devrait être assuré par des inspectrices spécialisées; dans les autres cas, ce contrôle peut être confié à des inspecteurs ou inspectrices de l'enseignement primaire préparés à cet effet. 10. Le système de financement des établissements d'éducation préscolaire publies peut varier avec la structure administrative de chaque pays; toutefois, il est à souhaiter que les frais de cette éducation soient assumés non seulement par les autorités locales mais aussi par les administrations d'un niveau supérieur. 11. Pour autant que les établissements relevant de l'initiative privée suppléent au manque de moyens d'éducation préscolaire publics et offrent des possibilités suffisantes d'éducation et de protection sociale, ces établissements devraient pouvoir compter sur une aide financière des autorités. PROBLÈMES DE STRUCTURE ET D'ORGANISATION 12. Malgré les avantages que les enfants peuvent avoir à fréquenter un établissement d'éducation préscolaire, cette fréquentation doit rester facultative. 13. Lorsqu'un établissement d'éducation préscolaire est entièrement à la charge des pouvoirs publics, il est souhaitable que les enfants y soient admis gratuitement.  — 151 14. L'âge minimum d'admission dans les établissements d'éducation préscolaire varie avec les caractéristiques des divers types d'institutions; par contre, l'âge de sortie doit coïncider avec l'âge réglementaire d'entrée à l'école primaire. 15. Là où les établissements d'éducation préscolaire ne sont pas suffisamment nombreux pour faire droit à toutes les demandes, le choix des enfants à admettre doit s'inspirer avant tout de leurs besoins particuliers et de leur situation familiale. 16. Le nombre d'enfants par institutrice préscolaire doit être inférieur à l'effectif d'une classe primaire et doit être d'autant plus réduit que les enfants sont plus jeunes; il est souhaitable que le nombre moyen des enfants présents n'excède pas vingt-cinq. 17. L'institutrice devrait être secondée par une assistante et le personnel de service indispensable, surtout dans les établissements où les services sociaux sont particulièrement développés. 18. L'horaire d'un établissement d'éducation préscolaire doit présenter une plus grande souplesse que celui de l'école primaire, afin de s'adapter au mieux aux besoins des enfants et des familles ; on peut concevoir des établissements ouverts seulement le matin, et d'autres ouverts toute la journée et assurant les repas habituels et les périodes de repos indispensables. 19. A la campagne et partout où les circonstances s'y prêtent, les établissements d'éducation préscolaire saisonniers qui sont ouverts pendant que les parents sont occupés aux grands travaux agricoles ou autres devraient devenir permanents pour répondre toute l'année aux besoins éducatifs des enfants. ACTIVITÉS ET TECHNIQUES ÉDUCATIVES 20. L'éducation préscolaire doit recourir à des méthodes qui tiennent compte des derniers développements de la psychologie du jeune enfant et des progrès de la pédagogie; ces méthodes seront basées sur l'action, qui revêt le plus souvent la forme du jeu, libre ou suggéré; les activités sensori-motrices et manuelles, les moyens d'expression spontanée offerts aux enfants (chant, dessin, rythmique, etc.) favorisent l'éveil de la personnalité et contribuent à leur donner un bon équilibre affectif et mental. 21. L'éducation fonctionnelle et individualisée, qui est le propre de l'éducation du jeune enfant, ne doit pas exclure les activités de groupe qui contribuent à la formation du caractère, à l'éducation des sentiments et au développement du sens social. 22. Au niveau préscolaire, il importe que l'éducation intellectuelle soit basée sur l'observation du milieu vivant et le développement du langage et, bien que tout enseignement proprement dit doive être exclu de cette éducation, il est possible, dès l'âge de cinq ans et dans la mesure où l'enfant fait preuve de maturité et d'intérêt, de lui donner une première initiation aux techniques scolaires grâce à l'expression graphique, à l'organisation de situations concrètes qui ne peuvent être résolues que par l'emploi de  — 152 — la mesure et du nombre, et à l'utilisation d'un matériel spécialement conçu à cet effet. 23. Il y a lieu de réserver suffisamment de temps aux activités de plein air et de prévoir un juste équilibre entre les activités libres et les activités dirigées. 24. Sous réserve de l'application des principes énumérés ci-dessus, les institutrices préscolaires doivent garder une grande liberté dans le choix des procédés et dans l'élaboration de leur programme d'activités, tout en étant assurées de disposer d'un matériel suffisamment varié et de l'équipement indispensable. 25. L'éducation préscolaire jouant un rôle important dans la protection de la santé des enfants, elle doit leur faire acquérir de bonnes habitudes d'hygiène; en outre, il est indispensable de les faire bénéficier des services médicaux et médico-pédagogiques au moins au même titre que les élèves de l'enseignement primaire. 26. La collaboration avec la famille est essentielle dans l'éducation préscolaire; elle a pour but de faire prendre conscience aux parents de leurs responsabilités éducatives et de les aider à les assumer; elle ne doit pas se borner à une simple rencontre avec les parents qui accompagnent leur enfant, mais comporter des entretiens réguliers, des causeries, des groupes de discussion, si possible la participation des parents à certaines activités de l'école et leur visite occasionnelle pendant les heures de classe, ainsi que des visites à domicile faites par l'institutrice et, au besoin, par l'assistante sociale. 27. Les recherches psychologiques et pédagogiques sur l'éducation préscolaire devraient être développées et approfondies, partout où cela est possible; il importe que les membres du personnel enseignant, de même que les parents, soient mis au courant des résultats pratiques de ces recherches par le moyen d'articles, de conférences, de causeries radiophoniques, de publications diverses, etc. PERSONNEL ENSEIGNANT 28. L'éducation des enfants d'âge préscolaire présentant des problèmes psychologiques et pédagogiques particuliers, il importe que les personnes qui s'y destinent possèdent les qualités requises et reçoivent une formation spécialisée en complément de la formation pédagogique générale, et il serait souhaitable de créer à cet effet des institutions pilotes annexées aux établissements de formation pédagogique. 29. Les études et les titres des institutrices préscolaires devraient être au moins de même niveau que ceux du personnel enseignant primaire. 30. Là où il y a pénurie d'institutrices préscolaires qualifiées, il pourrait être utile d'organiser, à l'intention des personnes ayant déjà une expérience pédagogique et les aptitudes nécessaires, des cours accélérés de spécialisation suivis ultérieurement de cours de perfectionnement qui les amèneraient peu à peu au niveau des institutrices préscolaires qualifiées.  — 153 — 31. Il conviendrait d'offrir aux institutrices préscolaires, comme à toutes les autres catégories d'enseignants, des possibilités de perfectionnement qui leur permettent de développer leurs compétences et d'améliorer leurs méthodes, qu'il s'agisse de cours de vacances, par correspondance ou autres, ou de conférences pédagogiques, de stages dans des institutions pilotes, etc. 32. Les institutrices préscolaires qualifiées devraient bénéficier du même statut (traitement, conditions de travail, congés, etc.) et des mêmes avantages que le personnel enseignant primaire. 33. Le niveau égal des études, ainsi que l'égalité de statut et de rémunération, contribueraient à faciliter le passage des institutrices préscolaires dans l'enseignement primaire, ou vice versa; le cas échéant, des cours de réorientation devraient être organisés pour le personnel intéressé. MESURES CONCERNANT LE BÂTIMENT ET L'ÉQUIPEMENT 34. Toutes mesures doivent être prises pour assurer la sécurité des enfants; dans les villes, les établissements d'éducation préscolaire doivent être situés à proximité du domicile des parents, de façon à réduire les dangers de la circulation et à éviter l'emploi de moyens de transport. 35. Tout établissement d'éducation préscolaire devrait constituer un bâtiment à part et posséder un terrain de jeux spécialement équipé pour favoriser les activités de plein air, ainsi qu'un jardin qui, en plus de sa valeur esthétique, permettrait l'observation de la nature, l'élevage de petits animaux et la pratique du jardinage. 36. S'ils ne peuvent constituer un bâtiment à part, les locaux destinés à l'éducation préscolaire doivent être situés au rez-de-chaussée, dans des salles suffisamment vastes et claires, avec sortie sur une cour de récréation réservée aux enfants d'âge préscolaire et spécialement aménagée pour eux. 37. Lorsque les autorités accordent un permis pour la construction d'un groupe d'immeubles, elles devraient exiger entre autres la construction d'un nombre suffisant d'établissements d'éducation préscolaire, accompagnés chacun d'un terrain de jeux qui pourrait demeurer à la disposition des enfants en dehors des heures d'ouverture de leur établissement. 38. Un soin tout particulier doit être apporté à la décoration, à l'ameublement et à l'équipement des établissements d'éducation préscolaire; ces divers éléments doivent être adaptés aux besoins physiologiques, éducatifs et esthétiques des enfants, selon leur âge; chaque salle devra comporter un espace libre, d'autant plus grand que les enfants sont plus jeunes. 39. Les soins d'hygiène et de propreté faisant partie intégrante de l'éducation préscolaire, il importe de prêter une attention toute spéciale à l'alimentation en eau potable et de veiller à ce que les installations sanitaires soient adaptées aux divers âges des enfants et constamment maintenues en parfait état de fonctionnement et de propreté.  154 40. Les établissements d'éducation préscolaire qui remplissent une fonction sociale et dans lesquels les enfants demeurent toute la journée doivent posséder les installations nécessaires pour la préparation et la distribution des repas, ainsi que pour les périodes de repos indispensables et pour l'isolement temporaire de tout enfant qui se trouverait malade au cours de la journée. COLLABORATION INTERNATIONALE 41. Il serait souhaitable que les pays qui envisagent d'instituer un système d'éducation préscolaire puissent faire appel au concours d'experts d'autres pays pour organiser des établissements pilotes et des cours pour la formation d'un personnel spécialisé 42. Il serait utile pour tous les pays, y compris ceux où l'éducation préscolaire est déjà instituée, d'organiser à l'échelon international des stages d'études et des conférences consacrées à l'examen des problèmes de la petite enfance et de l'éducation préscolaire et de faciliter les échanges de documents (textes officiels, rapports, ouvrages spécialisés, films, livres pour enfants, matériel éducatif, etc.) entre éducatrices et spécialistes de différents pays; à cet effet, il pourrait être fait appel à la collaboration de l'Unesco, du Bureau international d'Education, de l'Organisation mondiale pour l'éducation préscolaire et d'autres organisations et associations pédagogiques de caractère mondial ou régional. 43. Un système de bourses devrait aider les spécialistes de l'éducation préscolaire à effectuer des voyages d'études ou des stages dans des pays où ce type d'éducation est particulièrement développé et notamment dans ceux où les conditions démographiques, économiques et autres se rapprochent le plus de celles de leur propre pays. MESURES D'APPLICATION 44. Il importe que le texte de la présente recommandation fasse l'objet d'une large diffusion de la part des ministères de l'instruction publique, des autorités scolaires du degré d'enseignement le plus directement intéressé, des associations internationales ou nationales d'enseignants, etc.; la presse pédagogique, officielle ou privée, doit jouer un grand rôle dans la diffusion de cette recommandation. 45. Les centres régionaux de l'Unesco sont invités à faciliter, avec la collaboration des ministères intéressés, l'examen, à l'échelon régional, de cette recommandation en vue de son adaptation aux caractéristiques de la région. 46. Dans les pays où la chose s'avérerait nécessaire, les ministères de l'instruction publique sont invités à charger les organes compétents de procéder à divers travaux, par exemple: a) examiner la présente recommandation et comparer son contenu avec l'état de droit et de fait existant dans leur pays; b) considérer les avantages et les inconvénients d'une éventuelle application de chacun des articles qui ne seraient pas encore en vigueur ; c) adapter chaque article à la situation du pays, si l'application en est jugée utile; d) enfin, proposer les dispositions et mesures d'ordre pratique à prendre pour assurer l'application de l'article considéré."
+  }
+}
