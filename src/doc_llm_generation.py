@@ -159,6 +159,8 @@ def parse_output_safe(text):
     if "preambular_para" not in data or "operative_para" not in data:
         raise ValueError("Missing keys")
 
+    data["preambular_para"] = [int(x) for x in data["preambular_para"]]
+    data["operative_para"] = [int(x) for x in data["operative_para"]]
     return data
 
 
