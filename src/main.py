@@ -82,8 +82,8 @@ def main():
     """
 
 
-    input_folder = "Data/test_copy3"
-    output_folder = "outputs_copy3"
+    input_folder = "Data/test_copy4"
+    output_folder = "outputs_copy4"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
