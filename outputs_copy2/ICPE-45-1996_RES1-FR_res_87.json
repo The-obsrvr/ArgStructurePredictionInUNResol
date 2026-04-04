@@ -1,0 +1,204 @@
+{
+  "TEXT_ID": "ICPE-45-1996_RES1-FR_res_87",
+  "RECOMMENDATION": 87,
+  "TITLE": "LA PROFESSIONNALISATION COMME STRATEGIE D’AMELIORATION DU STATUT ET DES CONDITIONS DE TRAVAIL DES ENSEIGNANTS",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-45-1996_RES1-FR",
+      "nb_paras": 8,
+      "preambular_para": [
+        1,
+        2
+      ],
+      "operative_para": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "think": "<think>\nOkay, let's tackle this task step by step. The user wants me to classify each paragraph from the given input into either preambular or operative based on specific French cues and rules. Also, I need to assign confidence scores for each paragraph. Let me start by understanding the rules thoroughly.\n\nFirst, the preambular paragraphs start with certain French words like \"Rappelant\", \"Reconnaissant\", \"Considérant\", etc., and often end with commas. They provide context or background. Operative paragraphs start with \"Décide\", \"Demande\", \"Encourage\", \"Prie\", \"Exhorte\", and are action-oriented, often numbered. The key is to check for these cues and the presence of clear actions.\n\nLooking at the input paragraphs:\n\nParagraph 1: Starts with \"Bien que\" which is a conjunction, not one of the preambular cues. The paragraph discusses the relationship between teaching conditions and the role of teachers, but there's no clear action verb. It seems to be providing context. However, the confidence might be lower since there's no explicit cue. Maybe 0.6?\n\nParagraph 2: Starts with \"Bien que\" again. It talks about the necessity of improving teachers' status but doesn't have an operative verb. It's more of a background discussion. So preambular. Confidence around 0.5?\n\nParagraph 3: Starts with \"favoriser\" which is an action verb. It lists actions like professional development, career profiles, etc. This seems operative. Confidence high, maybe 0.95.\n\nParagraph 4: \"fournir\" is an action verb. It's about providing resources for training. Operative. Confidence 0.9.\n\nParagraph 5: \"mettre en oeuvre\" is an action. Operative. Confidence 0.9.\n\nParagraph 6: \"favoriser l’exploitation efficace\" – action verb. Operative. Confidence 0.9.\n\nParagraph 7: \"prendre des mesures incitatives\" – action. Operative. Confidence 0.9.\n\nParagraph 8: \"trouver le bon équilibre\" – action. Operative. Confidence 0.85? Wait, the cue here is \"préconise\" which is part of a recommendation, but the paragraph itself is stating a recommendation. However, the starting word isn't one of the operative cues. Wait, the paragraph starts with \"trouver\" which is an action. So maybe it's operative. But the confidence might be lower because it's not starting with a specific operative cue like \"Décide\" or \"Demande\". Hmm. Let me check again. The paragraph is about finding a balance, which is an action. So maybe it's operative with a confidence around 0.8.\n\nWait, the user's rules say that if a paragraph contains a clear operative verb or action, it's operative. So even if it doesn't start with the exact cue words, if there's a clear action, it's operative. So paragraphs 3-8 all have action verbs. But paragraph 1 and 2 are more about context. Let me check again.\n\nParagraph 1: No operative verbs, just context. So preambular. Confidence 0.5.\n\nParagraph 2: Also context, discussing necessary conditions but no direct action. So preambular. Confidence 0.5.\n\nWait, but the user's rules say that if there's a clear operative verb, it's operative. So even if the paragraph doesn't start with the exact cue, but has an action, it's operative. So paragraphs 3-8 all have action verbs. Let me check each:\n\nParagraph 3: \"favoriser\" – action. Operative. Confidence 0.95.\n\nParagraph 4: \"fournir\" – action. Operative. 0.9.\n\nParagraph 5: \"mettre en oeuvre\" – action. Operative. 0.9.\n\nParagraph 6: \"favoriser l’exploitation\" – action. Operative. 0.9.\n\nParagraph 7: \"prendre des mesures\" – action. Operative. 0.9.\n\nParagraph 8: \"trouver le bon équilibre\" – action. Operative. 0.85.\n\nSo preambular are 1 and 2. Operative are 3-8. Now, confidence scores:\n\nParagraph 1: No cues, just context. Confidence 0.5.\n\nParagraph 2: Same, context. 0.5.\n\nParagraph 3: Starts with action, clear. 0.95.\n\nParagraph 4: Action verb. 0.9.\n\nParagraph 5: Action verb. 0.9.\n\nParagraph 6: Action verb. 0.9.\n\nParagraph 7: Action verb. 0.9.\n\nParagraph 8: Action verb, but maybe less direct. 0.85.\n\nWait, the user's rules mention that if the paragraph contains a clear operative verb or action, it's operative. So even if the starting word isn't one of the cues, but the content is action-oriented, it's operative. So paragraphs 3-8 are all operative. The confidence scores for 3-8 would be high, except maybe 8 if the action is less direct. But the user's example in the rules shows that \"Encourage\" is an operative cue. So maybe paragraph 8 is not starting with an operative cue, but the content is an action. So it's still operative. So confidence for 8 would be 0.85.\n\nSo the final classification would be:\n\npreambular_para: [1,2]\n\noperative_para: [3,4,5,6,7,8]\n\nConfidence scores:\n\n1: 0.5\n\n2: 0.5\n\n3: 0.95\n\n4: 0.9\n\n5: 0.9\n\n6: 0.9\n\n7: 0.9\n\n8: 0.85\n\nBut wait, the user's example in the rules says that if a paragraph contains a clear operative verb or action, it's operative. So even if the starting word isn't one of the cues, but the content is action-oriented, it's operative. So paragraphs 3-8 are all operative. The confidence scores for 3-8 would be high, except maybe 8. Let me check again.\n\nParagraph 8: \"trouver le bon équilibre\" – action. So it's operative. The confidence is 0.85 because it's not starting with a specific operative cue like \"Décide\" or \"Demande\", but the content is an action. So confidence 0.85.\n\nSo the JSON should have preambular as 1 and 2, operative as 3-8. Confidence scores accordingly.\n\nCONFIDENCE CHECK: low=2/8 (ratio=0.25) → accepted"
+    }
+  },
+  "body": {
+    "paragraphs": [
+      {
+        "para_number": 1,
+        "para": "7.1 Bien que la CIE ne soit pas le forum approprié pour analyser les conditions de travail des enseignants, il est cependant évident que l’on ne peut dissocier les conditions de travail des politiques de renforcement du rôle des enseignants dans un monde en changement. La préoccupation face à la dégradation du statut des enseignants est très répandue.",
+        "tags": [
+          "T_COND",
+          "POL_TEACH"
+        ],
+        "type": "preambular",
+        "think": "Tags T_COND and POL_TEACH are selected because the paragraph discusses teachers' working conditions (T_COND) and policies to strengthen their roles (POL_TEACH). Related paragraphs 2, 3, 5, 6, 7, and 8 are connected through shared themes of improving teachers' status, professional development, and policy strategies. Relations are determined based on semantic alignment: supporting (para 2,3,7,8 provide justification/elaboration), complemental (para 5,6 add specific strategies). Confidence scores reflect the strength of these connections.",
+        "matched_pars": {
+          "2": [
+            "supporting"
+          ],
+          "3": [
+            "supporting"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "supporting"
+          ],
+          "8": [
+            "supporting"
+          ]
+        },
+        "para_en": "7.1 Although the International Labour Organization is not the appropriate forum for analyzing teachers’ working conditions, it is nonetheless evident that working conditions cannot be dissociated from policies aimed at strengthening the role of teachers in a changing world. There is widespread concern regarding the deterioration of the status of teachers."
+      },
+      {
+        "para_number": 2,
+        "para": "7.2 Bien que les situations nationales ou régionales soient très diverses, la revalorisation du statut des enseignants apparaît souvent comme une condition nécessaire du renforcement de leur rôle. Mais cette revalorisation ne peut pas être le produit d’une seule mesure ou d’un seul facteur. A cet égard, l’amélioration de la situation matérielle des enseignants, notamment leur salaire et les autres avantages sociaux, est une condition nécessaire mais non suffisante de la revalorisation de leur statut : c’est l’ensemble des facteurs éducatifs qui doit être amélioré. Dans une politique intégrée de revalorisation du statut des enseignants, la professionnalisation constitue la stratégie la plus prometteuse à moyen et à long terme. En plus des recommandations faites en ce qui concerne leur recrutement, leur formation, leur participation à la gestion et leur autonomie dans la prise des décisions pédagogiques, la revalorisation du statut des enseignants peut se faire selon les lignes d’action suivantes :",
+        "tags": [
+          "T_COND",
+          "T_PDEV",
+          "POL_TEACH"
+        ],
+        "type": "preambular",
+        "think": "Tags T_COND (working conditions/salaries) and T_PDEV (professional development) are directly mentioned in the text. POL_TEACH (teachers/workforce policies) aligns with the integrated policy discussion. Relations: Para 3 supports professionalization strategies; paras 4-7 complement training, media promotion, research use, and incentives mentioned in the target paragraph.",
+        "matched_pars": {
+          "3": [
+            "supporting"
+          ],
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ]
+        },
+        "para_en": "7.2 Although national or regional situations vary greatly, the enhancement of teachers’ status often appears as a necessary condition for strengthening their role. However, this enhancement cannot be the result of a single measure or factor. In this respect, improving the material situation of teachers, particularly their salary and other social benefits, is a necessary but not sufficient condition for the enhancement of their status: it is the entire set of educational factors that must be improved. In an integrated policy for the enhancement of teachers’ status, professionalization constitutes the most promising strategy in the medium and long term. In addition to the recommendations made regarding their recruitment, training, participation in management, and autonomy in pedagogical decision-making, the enhancement of teachers’ status can proceed according to the following lines of action:"
+      },
+      {
+        "para_number": 3,
+        "para": "7.2.1 favoriser le professionnalisme des enseignants, notamment en leur assurant une formation initiale et un perfectionnement professionnel continu de haut niveau, en établissant des profils de carrière diversifiés étayés par des systèmes d’évaluation appropriés et en améliorant les conditions matérielles et le statut social des enseignants",
+        "tags": [
+          "T_PDEV",
+          "T_INI",
+          "T_EVAL",
+          "T_COND"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (professional development) and T_INI (initial training) are explicitly mentioned in the text. T_EVAL (evaluation systems) is directly referenced in the career profile section. T_COND (working conditions) aligns with improving material conditions and social status. Related paragraphs provide complementary information: para 4 (resources for training), para 5 (promoting innovations), para 6 (educational research), para 7 (incentives for performance), and para 8 (teacher rights/responsibilities) all support or expand on the target paragraph's themes.",
+        "matched_pars": {
+          "4": [
+            "complemental"
+          ],
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "7.2.1 Promote teacher professionalism, particularly by ensuring them high-level initial training and ongoing professional development, establishing diversified career profiles supported by appropriate evaluation systems, and improving the material conditions and social status of teachers."
+      },
+      {
+        "para_number": 4,
+        "para": "7.2.2 fournir les ressources nécessaires pour assurer cette formation au niveau universitaire ;",
+        "tags": [
+          "INFRA_TLM",
+          "Education level"
+        ],
+        "type": "operative",
+        "think": "Tags 'Infrastructure & resources' (INFRA_TLM) and 'Education level' are selected because the paragraph explicitly mentions providing resources for university-level training. Paragraph 5 (media promotion of teacher innovations) is complemental as it relates to utilizing training outcomes. Paragraph 6 (educational research utilization) is complemental as it connects to resource use in teaching processes.",
+        "matched_pars": {
+          "5": [
+            "complemental"
+          ],
+          "6": [
+            "complemental"
+          ]
+        },
+        "para_en": "7.2.2 provide the necessary resources to ensure this training at the university level;"
+      },
+      {
+        "para_number": 5,
+        "para": "7.2.3 mettre en oeuvre des stratégies systématiques de valorisation, par l’intermédiaire des médias, des innovations et des expériences réussies des enseignants et des groupes d’enseignants ;",
+        "tags": [
+          "T_PDEV",
+          "PEDAG_METHO"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) and PEDAG_METHO (Teaching methods) are selected because the paragraph emphasizes promoting teachers' innovations and experiences, which directly relates to professional growth (T_PDEV) and pedagogical approaches (PEDAG_METHO). Paragraph 6 (complemental) adds context about utilizing research, which complements the promotion of innovations. Paragraph 7 (modifying) provides specific incentives that refine the strategies mentioned in the target paragraph.",
+        "matched_pars": {
+          "6": [
+            "complemental"
+          ],
+          "7": [
+            "modifying"
+          ]
+        },
+        "para_en": "7.2.3 implement systematic strategies to promote, through the media, the innovations and successful experiences of teachers and groups of teachers;"
+      },
+      {
+        "para_number": 6,
+        "para": "7.2.4 favoriser l’exploitation efficace de la recherche pédagogique et l’utilisation pertinente de l’information existante, aussi bien dans le processus d’enseignement et d’apprentissage que dans la prise de décision ;",
+        "tags": [
+          "PEDAG_METHO",
+          "Education system monitoring & evaluation"
+        ],
+        "type": "operative",
+        "think": "Tags PEDAG_METHO (Teaching methods and approaches) and Education system monitoring & evaluation are selected because the paragraph emphasizes using educational research and existing information for teaching/learning and decision-making, which aligns with pedagogical methods and systemic evaluation. Para 7 (incentives for teachers) complements by providing mechanisms to enhance teaching effectiveness, while Para 8 (teacher rights/responsibilities) complements by addressing systemic balance needed for effective education systems.",
+        "matched_pars": {
+          "7": [
+            "complemental"
+          ],
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "7.2.4 promote the effective use of educational research and the relevant utilization of existing information, both in the teaching and learning process and in decision-making;"
+      },
+      {
+        "para_number": 7,
+        "para": "7.2.5 prendre des mesures incitatives pour encourager les enseignants à améliorer leurs performances. Ces incitations ne seront pas seulement de nature financière, mais elles pourraient inclure des possibilités de formation spécialisée, de reconnaissance publique et des possibilités de carrière :",
+        "tags": [
+          "T_PDEV",
+          "T_EVAL"
+        ],
+        "type": "operative",
+        "think": "Tags T_PDEV (Professional development) and T_EVAL (Teacher evaluation and performance) are selected because the paragraph discusses incentive measures including specialized training (T_PDEV) and performance improvement (T_EVAL). Paragraph 8 is related as it addresses teacher rights/responsibilities, which complements the incentive framework by providing a broader policy context, though not directly overlapping in focus.",
+        "matched_pars": {
+          "8": [
+            "complemental"
+          ]
+        },
+        "para_en": "7.2.5 take incentive measures to encourage teachers to improve their performance. These incentives will not be solely financial in nature but may include opportunities for specialized training, public recognition, and career advancement opportunities:"
+      },
+      {
+        "para_number": 8,
+        "para": "7.2.6 trouver le bon équilibre entre les droits et les responsabilités des enseignants, comme le préconise la Recommandation OIT/UNESCO concernant la condition du personnel enseignant.",
+        "tags": [
+          "T_STAT",
+          "ACT_EDUC"
+        ],
+        "type": "operative",
+        "think": "The paragraph discusses balancing teachers' rights and responsibilities (legal status) and references stakeholders (teachers/educators). No other paragraphs are available for relation analysis.",
+        "matched_pars": {},
+        "para_en": "7.2.6 strike the right balance between the rights and responsibilities of teachers, as advocated by the ILO/UNESCO Recommendation concerning the Status of Teachers."
+      }
+    ],
+    "body_raw": "7.1 Bien que la CIE ne soit pas le forum approprié pour analyser les conditions de travail des enseignants, il est cependant évident que l’on ne peut dissocier les conditions de travail des politiques de renforcement du rôle des enseignants dans un monde en changement. La préoccupation face à la dégradation du statut des enseignants est très répandue. 7.2 Bien que les situations nationales ou régionales soient très diverses, la revalorisation du statut des enseignants apparaît souvent comme une condition nécessaire du renforcement de leur rôle. Mais cette revalorisation ne peut pas être le produit d’une seule mesure ou d’un seul facteur. A cet égard, l’amélioration de la situation matérielle des enseignants, notamment leur salaire et les autres avantages sociaux, est une condition nécessaire mais non suffisante de la revalorisation de leur statut : c’est l’ensemble des facteurs éducatifs qui doit être amélioré. Dans une politique intégrée de revalorisation du statut des enseignants, la professionnalisation constitue la stratégie la plus prometteuse à moyen et à long terme. En plus des recommandations faites en ce qui concerne leur recrutement, leur formation, leur participation à la gestion et leur autonomie dans la prise des décisions pédagogiques, la revalorisation du statut des enseignants peut se faire selon les lignes d’action suivantes : 7.2.1 favoriser le professionnalisme des enseignants, notamment en leur assurant une formation initiale et un perfectionnement professionnel continu de haut niveau, en établissant des profils de carrière diversifiés étayés par des systèmes d’évaluation appropriés et en améliorant les conditions matérielles et le statut social des enseignants 7.2.2 fournir les ressources nécessaires pour assurer cette formation au niveau universitaire ; 7.2.3 mettre en oeuvre des stratégies systématiques de valorisation, par l’intermédiaire des médias, des innovations et des expériences réussies des enseignants et des groupes d’enseignants ; 7.2.4 favoriser l’exploitation efficace de la recherche pédagogique et l’utilisation pertinente de l’information existante, aussi bien dans le processus d’enseignement et d’apprentissage que dans la prise de décision ; 7.2.5 prendre des mesures incitatives pour encourager les enseignants à améliorer leurs performances. Ces incitations ne seront pas seulement de nature financière, mais elles pourraient inclure des possibilités de formation spécialisée, de reconnaissance publique et des possibilités de carrière : 7.2.6 trouver le bon équilibre entre les droits et les responsabilités des enseignants, comme le préconise la Recommandation OIT/UNESCO concernant la condition du personnel enseignant. -27"
+  }
+}
