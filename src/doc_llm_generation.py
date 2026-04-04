@@ -15,7 +15,7 @@ def build_structure_prompt(doc):
         return text[:max_len]
     for p in paragraphs:
         para_text.append(
-            f"{p['para_number']}. {compress_para(p['para'])}"
+            f"{p['para_number']}. FR: {compress_para(p['para'])}"
             )
 
     n = len(paragraphs)
@@ -27,8 +27,9 @@ def build_structure_prompt(doc):
     
     TASK:
     1. Identify how preambular and operative paragraphs are distinguished in THIS document.
-    2. Use discourse markers and linguistic cues (NOT ordering).
+    2. Use discourse markers and linguistic cues.
     3. Apply ONE consistent rule to classify ALL paragraphs.
+    RETURN STRICT JSON
     
     DEFINITIONS:
     
@@ -43,27 +44,24 @@ def build_structure_prompt(doc):
     - May include verbs like: "Décide", "Demande", "Encourage"
     - May be structured, numbered and action-oriented
     
-        
     IMPORTANT:
-    Think VERY briefly (1–2 sentences) inside <think></think>.
+    Think briefly inside <think></think>, then answer.    
     
-    - You MUST rely on linguistic/discourse cues
-    - You MUST produce ONE GLOBAL reasoning
     - Numbered paragraphs (1., I., II.) → operative
-    - After first operative → all following are operative
+    - Usually after first operative → all following are operative
     
-    RETURN STRICT JSON:
+    OUTPUT (STRICT JSON FORMAT)
     
     {{
       "preambular_para": [list of paragraph numbers],
       "operative_para": [list of paragraph numbers],
-      "reasoning": "One unified explanation of how you distinguished preambular vs operative"
+      "think": "One unified explanation of how you distinguished preambular vs operative"
     }}
     
     RULES:
     - Do NOT omit any paragraph. Every paragraph must appear exactly ONCE.
     - MUST be either "preambular" or "operative"
-    - Reasoning must explain the rule used
+    - Think must explain the rule used
     - Output ONLY valid JSON
     
     INPUT:
@@ -120,24 +118,33 @@ def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=30
 
 
 def extract_json_block(text):
-    if "</think>" in text:
-        text = text.split("</think>")[-1]
+    """
+    More robust JSON extractor:
+    - tries multiple '{' positions
+    - returns first valid JSON block
+    - tolerates noisy LLM outputs
+    """
 
-    start = text.find("{")
-    if start == -1:
-        return None
+    for start in [m.start() for m in re.finditer(r"\{", text)]:
+        brace_count = 0
 
-    brace_count = 0
-    for i in range(start, len(text)):
-        if text[i] == "{":
-            brace_count += 1
-        elif text[i] == "}":
-            brace_count -= 1
+        for i in range(start, len(text)):
+            if text[i] == "{":
+                brace_count += 1
+            elif text[i] == "}":
+                brace_count -= 1
 
-        if brace_count == 0:
-            return text[start:i+1]
+            if brace_count == 0:
+                candidate = text[start:i+1]
 
-    return text[start:]
+                # try parsing immediately
+                try:
+                    json.loads(candidate)
+                    return candidate
+                except Exception:
+                    break  # not valid JSON → try next '{'
+
+    return None
 
 
 def parse_output_safe(text):
@@ -194,7 +201,7 @@ def fallback(doc):
         text = p["para"].strip().lower()
         pid = p["para_number"]
 
-        # 🔥 NEW: bullet / numbering detection → operative
+        # bullet / numbering detection → operative
         if re.match(r"^(\d+\.\s|[ivxlcdm]+\.\s|[ivxlcdm]+\s)", text):
             transition = True
             op.append(pid)
