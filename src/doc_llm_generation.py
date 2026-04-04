@@ -10,7 +10,7 @@ def build_structure_prompt(doc):
 
     para_text = []
 
-    def compress_para(text, max_len=100):
+    def compress_para(text, max_len=120):
         text = text.strip().replace("\n", " ")
         return text[:max_len]
     for p in paragraphs:
@@ -45,7 +45,8 @@ def build_structure_prompt(doc):
     
         
     IMPORTANT:
-    - The document may NOT be ordered
+    Think VERY briefly (1–2 sentences) inside <think></think>.
+    
     - You MUST rely on linguistic/discourse cues
     - You MUST produce ONE GLOBAL reasoning
     - Numbered paragraphs (1., I., II.) → operative
@@ -71,7 +72,7 @@ def build_structure_prompt(doc):
     return prompt.strip()
 
 
-def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=2048, top_p=1.0):
+def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=3072, top_p=1.0):
     """
 
     """
@@ -314,7 +315,7 @@ def run_structure_self_consistency(
                 print(f"[ERROR] Attempt failed: {str(e)}")
 
                 if attempt > 0:
-                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage."
+                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage. Your previous answer did NOT include complete JSON. You MUST output JSON."
 
 
                 continue
@@ -340,7 +341,7 @@ def run_structure_self_consistency(
                 print(f"[ERROR] Attempt failed: {str(e)}")
 
                 if attempt > 0:
-                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage."
+                    prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage. Your previous answer did NOT include complete JSON. You MUST output JSON."
 
                 continue
 

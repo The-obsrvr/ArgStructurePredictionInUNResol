@@ -60,10 +60,10 @@ def update_document(doc, step1_out, step4_out):
 
         para["type"] = "preambular" if pid in preambular else ("operative" if pid in operative else None)
 
-        if pid in step4_out and step4_out is not None:
-            para["tags"] = step4_out[pid]["tags"]
-            para["matched_pars"] = step4_out[pid]["matched_pars"]
-            para["think"] = step4_out[pid]["think"]
+        # if pid in step4_out:
+        #     para["tags"] = step4_out[pid]["tags"]
+        #     para["matched_pars"] = step4_out[pid]["matched_pars"]
+        #     para["think"] = step4_out[pid]["think"]
 
     return doc
 
