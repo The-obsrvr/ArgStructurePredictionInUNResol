@@ -38,6 +38,7 @@ def load_tags(csv_path):
         })
 
     return tags
+
 # -------------------------------------
 # Step 5: Update doc
 # -------------------------------------
@@ -60,10 +61,10 @@ def update_document(doc, step1_out, step4_out):
 
         para["type"] = "preambular" if pid in preambular else ("operative" if pid in operative else None)
 
-        # if pid in step4_out:
-        #     para["tags"] = step4_out[pid]["tags"]
-        #     para["matched_pars"] = step4_out[pid]["matched_pars"]
-        #     para["think"] = step4_out[pid]["think"]
+        if pid in step4_out:
+            para["tags"] = step4_out[pid]["tags"]
+            para["matched_pars"] = step4_out[pid]["matched_pars"]
+            para["think"] = step4_out[pid]["think"]
 
     return doc
 
@@ -86,11 +87,11 @@ def main():
     os.makedirs(output_folder, exist_ok=True)
 
     # define embedding model
-    # embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
+    embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
     llm_model_name = "Qwen/Qwen3-8B"
-    HF_token = "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"
+    HF_token = "ENTER YOUR HF TOKEN HERE"
 
     is_bf16 = torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if is_bf16 else torch.float16
@@ -109,9 +110,9 @@ def main():
         )
 
     # load tags
-    # tags_path = "Data/education_dimensions_updated.csv"
-    # tags = load_tags(tags_path)
-    # tag_index, id2tag, tag_embeddings = build_tag_index(tags, embed_model)
+    tags_path = "Data/education_dimensions_updated.csv"
+    tags = load_tags(tags_path)
+    tag_index, id2tag, tag_embeddings = build_tag_index(tags, embed_model)
 
     # load test folder
     for file in os.listdir(input_folder):
@@ -124,27 +125,25 @@ def main():
 
             doc = json.load(f)
 
-        para_level_output = None
-
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=False)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=True)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
         # # Step 2: Tag Candidate Retrieval
-        # tag_candidates = generate_tag_candidates_for_paragraph(doc, embed_model, tag_index, id2tag, tag_embeddings)
-        # # this returns the top tag candidates for each paragraph in the doc
-        # print("Step 2 complete")
-        #
-        # # Step 3: Matched Paragraph Retrieval
-        # paragraph_candidates = generate_para_candidates(doc, embed_model)
-        # # this returns the top matched paragraph candidates for each paragraph in the doc
-        # print("Step 3 complete")
-        #
-        # # Step 4: Paragraph level LLM reasoning
-        # para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
-        # # this returns the predicted tags and matched_para for each paragraph in the doc
-        # print("Step 4 complete")
+        tag_candidates = generate_tag_candidates_for_paragraph(doc, embed_model, tag_index, id2tag, tag_embeddings)
+        # this returns the top tag candidates for each paragraph in the doc
+        print("Step 2 complete")
+
+        # Step 3: Matched Paragraph Retrieval
+        paragraph_candidates = generate_para_candidates(doc, embed_model)
+        # this returns the top matched paragraph candidates for each paragraph in the doc
+        print("Step 3 complete")
+
+        # Step 4: Paragraph level LLM reasoning
+        para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
+        # this returns the predicted tags and matched_para for each paragraph in the doc
+        print("Step 4 complete")
 
         # Step 5: Merge the outputs to the required schema and save
         updated_doc = update_document(doc, doc_level_output, para_level_output)
