@@ -3,11 +3,8 @@ from typing import Any
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
 
-# -------------------------------------
-# Step 2: Tag Candidate Retrieval
-# -------------------------------------
 
-# 2. BUILD INDEX
+# Step 2: Tag Candidate Retrieval
 def build_tag_index(tags, model):
     """
 
@@ -30,7 +27,6 @@ def build_tag_index(tags, model):
     return index, id2tag, embeddings
 
 
-# 3. RETRIEVAL (THRESHOLD)
 def retrieve_tag_candidates(
     paragraph,
     model,

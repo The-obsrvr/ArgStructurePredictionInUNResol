@@ -3,7 +3,6 @@ import numpy as np
 
 
 # STEP 3: Matched Paragraph Candidate Retrieval
-# -------------------------------------
 def build_paragraph_index(paragraphs, model):
     """
 

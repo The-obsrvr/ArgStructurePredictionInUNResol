@@ -3,9 +3,17 @@ import re
 from collections import Counter
 from doc_llm_generation import extract_json_block, run_qwen_generation
 
+
 # Step 4: Paragraph Level LLM Reasoning
-# -------------------------------------
 def build_paragraph_prompt(para, candidate_tags, relation_candidates, all_paragraphs):
+    """
+
+    :param para:
+    :param candidate_tags:
+    :param relation_candidates:
+    :param all_paragraphs:
+    :return:
+    """
 
     tag_block = "\n".join([
         f"{t['code']}: {t['dimension']} | {t['category']}"
@@ -87,12 +95,12 @@ STEP 2 — If a relation exists, evaluate EACH relation type independently:
 - complemental:
   The other paragraph adds related but independent information
 
-STEP 3 — Assign a confidence score and include ALL relation types that are above threshold of 0.6:
+STEP 3 — Assign a confidence score and include ALL relation types that are above threshold of 0.5:
 - 0.9–1.0 → very strong, explicit relation
 - 0.7–0.9 → clear relation with strong evidence
 - 0.5–0.7 → moderate relation
 - < 0.5 → weak → DO NOT include 
-- Only include relations with confidence ≥ 0.6
+- Only include relations with confidence ≥ 0.5
 - Confidence must reflect how clearly the relation is supported by the text
 
 -------------------------------------
@@ -111,7 +119,7 @@ OUTPUT (STRICT JSON FORMAT)
 
 {{
   "para_number": {para["para_number"]},
-  "tags": ["tag_code_1", "tag_code_2"],
+  "tags": ["tag_code_1", "tag_code_2", ...],
   "matched_paras": {{
     "X": [
       {{"type": "relation_type", "confidence": 0.0}}
@@ -151,7 +159,8 @@ def merge_tags(tags1, tags2):
     :return:
     """
     counts = Counter(tags1 + tags2)
-    return [t for t, c in counts.items() if c >= 1]  # union
+    # take union of tags rather than intersection to optimize on recall
+    return [t for t, c in counts.items() if c >= 1]
 
 
 def merge_relations_strict(r1, r2):
@@ -166,6 +175,7 @@ def merge_relations_strict(r1, r2):
   for k in keys:
       set1 = set(r1.get(k, []))
       set2 = set(r2.get(k, []))
+      # take intersection of relations rather than union to optimize on precision
       common = set1 & set2
       if common:
           merged[k] = list(common)
@@ -187,11 +197,11 @@ def reasoning_score(pred_tags, final_tags):
 def merge_outputs(o1, o2, t1, t2):
     """
 
-    :param o1:
-    :param o2:
-    :param t1:
-    :param t2:
-    :return:
+    :param o1: output 1 from prompt 1
+    :param o2: output 2 from prompt 2
+    :param t1: output thinking 1 from prompt 1
+    :param t2: output thinking 2 from prompt 2
+    :return: structured merged output
     """
     final_tags = merge_tags(o1["tags"], o2["tags"])
     final_relations = merge_relations_strict(o1["matched_paras"], o2["matched_paras"])
@@ -229,12 +239,17 @@ def validate_paragraph_output(output, para_number, relation_candidates):
     # tags non-empty list
     assert isinstance(output["tags"], list)
 
-    # think exists
+    # thinking exists
     assert isinstance(output["think"], str) and len(output["think"]) > 0
 
 
 
 def fallback_paragraph_output(para_number):
+    """
+    No Fallback logic. Return empty JSON and report accordingly in final prediction.
+    :param para_number:
+    :return:
+    """
     return {
         "para_number": para_number,
         "tags": [],
@@ -269,6 +284,7 @@ def parse_output_safe(text):
 
     return data
 
+
 def process_paragraph(
     model,
     tokenizer,
@@ -280,6 +296,14 @@ def process_paragraph(
 ):
     """
 
+    :param model:
+    :param tokenizer:
+    :param para:
+    :param candidate_tags:
+    :param relation_candidates:
+    :param all_paragraphs:
+    :param self_consistency:
+    :return:
     """
     prompt = build_paragraph_prompt(
         para,
@@ -289,8 +313,7 @@ def process_paragraph(
     )
 
     if self_consistency:
-
-        # run twice (same command as global run LLM)
+        # run twice (same command as doc-level run LLM)
         t1, c1 = run_qwen_generation(model, tokenizer, prompt, temperature=0.1)
         t2, c2 = run_qwen_generation(model, tokenizer, prompt, temperature=0.2)
 
@@ -304,11 +327,10 @@ def process_paragraph(
             para["para_number"],
             relation_candidates
             )
-
         return output
 
     else:
-        # do retries (without self-refine)
+        # do generation with retries (without self-consistency)
         for i in range(3):
             print(f"Attempt {i} for para_number {para['para_number']}")
             thinking, content = run_qwen_generation(
@@ -327,26 +349,29 @@ def process_paragraph(
                     try:
                         k_int = int(k)
                     except:
+                        print("paragraph number is not a readable integer value.")
                         continue
 
                     if k_int not in relation_candidates:
+                        print("related para number not in relation candidates")
                         continue
 
                     valid_types = []
 
                     for r in rel_list:
-                        # case 1: new format with confidence
+                        # case 1: with confidence score
                         if isinstance(r, dict):
                             r_type = r.get("type")
                             conf = r.get("confidence", 0)
-
-                            if r_type and conf >= 0.6:
+                            # hard filter to ensure only above threshold relations are kept, even though LLM is asked to preserve only those.
+                            if r_type and conf >= 0.5:
                                 valid_types.append(r_type)
 
-                        # case 2: old format (string)
+                        # case 2: with confidence
                         elif isinstance(r, str):
                             valid_types.append(r)
 
+                    # add all valid types identified into the final relation list
                     if valid_types:
                         # remove duplicates
                         clean_rel[k_int] = list(set(valid_types))
@@ -359,7 +384,7 @@ def process_paragraph(
                 output = {
                     "para_number": parsed.get("para_number", para["para_number"]),
                     "tags": tags,
-                    "matched_pars": clean_rel,  # NO confidence exposed
+                    "matched_pars": clean_rel,
                     "think": parsed.get("think", thinking)
                     }
 

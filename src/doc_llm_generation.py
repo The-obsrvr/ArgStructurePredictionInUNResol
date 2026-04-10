@@ -1,11 +1,15 @@
 import re
 import json
+from collections import Counter
 
-# -------------------------------------
+
 # STEP 1 Document Level LLM reasoning
-# -------------------------------------
-
 def build_structure_prompt(doc):
+    """
+
+    :param doc:
+    :return:
+    """
     paragraphs = doc["body"]["paragraphs"]
 
     para_text = []
@@ -73,6 +77,13 @@ def build_structure_prompt(doc):
 def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=3072, top_p=1.0):
     """
 
+    :param model:
+    :param tokenizer:
+    :param prompt:
+    :param temperature:
+    :param max_tokens:
+    :param top_p:
+    :return:
     """
     messages = [
         {
@@ -119,15 +130,14 @@ def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=30
 
 def extract_json_block(text):
     """
-    More robust JSON extractor:
-    - tries multiple '{' positions
-    - returns first valid JSON block
-    - tolerates noisy LLM outputs
-    """
 
+    :param text:
+    :return:
+    """
     for start in [m.start() for m in re.finditer(r"\{", text)]:
         brace_count = 0
 
+        # parse through the text string and mark the labels
         for i in range(start, len(text)):
             if text[i] == "{":
                 brace_count += 1
@@ -148,6 +158,11 @@ def extract_json_block(text):
 
 
 def parse_output_safe(text):
+    """
+    Basic output cleaning and processing to retrieve the JSON structure in readable format
+    :param text:
+    :return:
+    """
     json_str = extract_json_block(text)
 
     if json_str is None:
@@ -175,6 +190,12 @@ def parse_output_safe(text):
 
 
 def validate_output(output, doc):
+    """
+
+    :param output:
+    :param doc:
+    :return:
+    """
     n = len(doc["body"]["paragraphs"])
 
     pre = set(output["preambular_para"])
@@ -194,6 +215,11 @@ def validate_output(output, doc):
 
 
 def fallback(doc):
+    """
+
+    :param doc:
+    :return:
+    """
     pre, op = [], []
     transition = False
 
@@ -224,9 +250,15 @@ def fallback(doc):
         "think": "Fallback heuristic applied (bullet + transition + cues)"
     }
 
-from collections import Counter
 
 def merge_outputs(out1, out2, doc):
+    """
+
+    :param out1:
+    :param out2:
+    :param doc:
+    :return:
+    """
     n = len(doc["body"]["paragraphs"])
 
     votes = {i: [] for i in range(1, n + 1)}
@@ -244,9 +276,11 @@ def merge_outputs(out1, out2, doc):
     final_pre, final_op = [], []
     transition_seen = False
 
+    # do majority voting with default preambular
     for i in range(1, n + 1):
         label = Counter(votes[i]).most_common(1)[0][0] if votes[i] else "pre"
 
+        # adopting convention of UN resolution if operative is labeled, then all subsequent paras are also likely operative
         if label == "op":
             transition_seen = True
 
@@ -257,6 +291,11 @@ def merge_outputs(out1, out2, doc):
 
     # choose better reasoning
     def reasoning_score(text):
+        """
+
+        :param text:
+        :return:
+        """
         if not text:
             return 0
 
@@ -285,22 +324,27 @@ def run_structure_self_consistency(
     tokenizer,
     doc,
     self_consistency=True,
-    max_retries=2
+    max_retries=3
 ):
+    """
+
+    :param model:
+    :param tokenizer:
+    :param doc:
+    :param self_consistency:
+    :param max_retries:
+    :return:
+    """
     prompt = build_structure_prompt(doc)
 
-    # -------------------------------------
-    # SELF-CONSISTENCY MODE
-    # -------------------------------------
+    # self-consistency mode
     if self_consistency:
-
         for attempt in range(max_retries):
             try:
                 think1, content1 = run_qwen_generation(
                     model, tokenizer, prompt,
                     temperature=0.1, top_p=0.9
                     )
-
                 think2, content2 = run_qwen_generation(
                     model, tokenizer, prompt,
                     temperature=0.15, top_p=0.9
@@ -316,7 +360,6 @@ def run_structure_self_consistency(
 
                 return validate_output(merged, doc)
 
-
             except Exception as e:
 
                 print(f"[ERROR] Attempt failed: {str(e)}")
@@ -324,12 +367,9 @@ def run_structure_self_consistency(
                 if attempt > 0:
                     prompt += "\n\nIMPORTANT: Do NOT miss any paragraph. Ensure full coverage. Your previous answer did NOT include complete JSON. You MUST output JSON."
 
-
                 continue
 
-    # -------------------------------------
-    # SINGLE RUN MODE
-    # -------------------------------------
+    # No self-consistency mode
     else:
         for attempt in range(max_retries):
             try:
@@ -352,7 +392,5 @@ def run_structure_self_consistency(
 
                 continue
 
-    # -------------------------------------
-    # FINAL FALLBACK
-    # -------------------------------------
+    # in case of failed generation, fallback logic is used.
     return fallback(doc)
