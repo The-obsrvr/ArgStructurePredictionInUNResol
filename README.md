@@ -30,11 +30,53 @@ Outputs from the first and final stages are consolidated into the final structur
 
 ---
 
-## Execution 
+## Experimental Setup 
+
+The data can be downloaded from the provided [Shared Task repository]() using the following command:
+```shell
+$ python src/download_data.py
+```
+Remember to add in your HuggingFace Access Token (with correct priveleges) in the file above for faster data download.
 
 
+Step 1. Build the Docker Container using the following command
+```shell
+$ docker build --rm -t YOUR_CONTAINER_NAME . 
+```
+Thia builds a Docker container containing your project environment. All experiments have been executed on a Linux server with a 48GB NVIDIA Ampere A40 GPU, CUDA version: 12.4 and Python version: 3.11.
+
+
+For implementation, we define a shell file ```exe.sh``` that runs the [main.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/main.py) script. 
+
+```shell
+python main.py
+```
+
+
+
+Remember to change mode of the shell file: ```chmod +x exe.sh```. 
+
+The command is run in the docker environment as follows:
+```shell
+$ docker run   --gpus='"device=DEVICE_NUMBER"' --runtime=nvidia --rm -ti --shm-size=32gb -v $PWD:/app YOUR_CONTAINER_NAME ./exe.sh 
+```
 
 ---
+
+## Evaluation 
+
+There are three main tasks that are evaluated for each paragraph across all test documents: (1) Preambular/Operative Binary Classification, (2) Multi-Tag Assignment, and (3) Multi-Relation Prediction and Classification (the latter can be sub-divided into relation prediction and relation type multi-class classification). 
+
+Due to lack of ground truth, we evaluate the performances of each task using heuristic feature-based approaches.
+
+### Preambular/Operative Binary Classification
+
+### Multi-tag Assignment
+
+### Multi-Relation Prediction and Classification 
+
+---
+
 
 ## Acknowledgements
 
