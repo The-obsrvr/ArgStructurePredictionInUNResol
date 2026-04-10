@@ -18,13 +18,13 @@ The dataset used in this work is derived from the Shared Task on "Reconstructing
 
 Our approach comprises four stages: 
 
-(1) a reasoning LLM classifies paragraphs collectively as {preambular or operative [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py); 
+(1) a reasoning LLM classifies paragraphs collectively as {preambular or operative (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py)); 
 
-(2) embedding-based similarity retrieves tag candidates for each paragraph [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py);  
+(2) embedding-based similarity retrieves tag candidates for each paragraph (see [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py));  
 
-(3), similar to 2., candidate source paragraphs are selected under a chronological constraint [src/para_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_candidate_selection.py); 
+(3), similar to 2., candidate source paragraphs are selected under a chronological constraint (see [src/para_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_candidate_selection.py)); 
 
-(4) the LLM processes each target paragraph individually to assign tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs [see src/para_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_llm_generation.py). 
+(4) the LLM processes each target paragraph individually to assign tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs (see [src/para_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_llm_generation.py)). 
 
 Outputs from the first and final stages are consolidated into the final structured representation.  
 
