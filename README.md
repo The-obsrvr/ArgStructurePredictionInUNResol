@@ -16,7 +16,7 @@ The data can be downloaded from the provided [Shared Task repository](https://hu
 ```shell
 $ python src/download_data.py
 ```
-Remember to add in your HuggingFace Access Token (with correct priveleges) in the file above for faster data download.
+Remember to add in your HuggingFace Access Token (with correct priveleges) in the file above for faster data download. This is also a gated repository requiring special permission for access from Zurich NLP team. For further details further to README in Data folder.
 
 ---
 
