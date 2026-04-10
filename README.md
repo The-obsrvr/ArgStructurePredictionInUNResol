@@ -10,7 +10,7 @@ The repository contains the scripts to extract argument structures in form of pr
 
 ## Data
 
-The dataset used in this work is derived from the Shared Task on \textit{Reconstructing the Reasoning in United Nations Resolutions}, organized by the University of Zurich (UZH) as part of the 13th Workshop on Argument Mining (2026). The training set comprises 2,695 bilingual (French–English) documents, while the held-out test set includes approximately 45 resolutions distributed across 90 JSON files with a fixed schema.
+The dataset used in this work is derived from the Shared Task on "Reconstructing the Reasoning in United Nations Resolutions", organized by the University of Zurich (UZH) as part of the 13th Workshop on Argument Mining (2026). The training set comprises 2,695 bilingual (French–English) documents, while the held-out test set includes approximately 45 resolutions distributed across 90 JSON files with a fixed schema.
 
 ---
 
@@ -18,19 +18,21 @@ The dataset used in this work is derived from the Shared Task on \textit{Reconst
 
 Our approach comprises four stages: 
 
-(1) a reasoning LLM classifies paragraphs collectively as \textit{preambular} or \textit{operative}; 
+(1) a reasoning LLM that classifies paragraphs in a given document collectively as {preambular or operative (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py)); 
 
-(2) embedding-based similarity retrieves tag candidates for each paragraph;  
+(2) embedding-based similarity retrieves tag candidates for each paragraph (see [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py));  
 
-(3), similar to 2., candidate source paragraphs are selected under a chronological constraint; 
+(3), similar to 2., candidate source paragraphs are selected under a chronological constraint (see [src/para_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_candidate_selection.py)); 
 
-(4) the LLM processes each target paragraph individually to assign tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs. 
+(4) the LLM processes each target paragraph individually to assign it tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs (see [src/para_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_llm_generation.py)). 
 
 Outputs from the first and final stages are consolidated into the final structured representation.  
 
 ---
 
 ## Execution 
+
+
 
 ---
 
