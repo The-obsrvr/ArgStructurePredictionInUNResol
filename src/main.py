@@ -1,12 +1,13 @@
+# System Imports
 import json
 import os
 import copy
-
+# Third-party Imports
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from sentence_transformers import SentenceTransformer
 import pandas as pd
-
+# Local Imports
 from doc_llm_generation import run_structure_self_consistency
 from para_candidate_selection import generate_para_candidates
 from tag_candidate_selection import generate_tag_candidates_for_paragraph, build_tag_index
@@ -75,14 +76,9 @@ def main():
 
     :return:
     """
-    """
-    outputs2: gpu 4
-    outputs: gpu7
-    outputs3: 5
-    output4: 6
-    """
-    input_folder = "outputs3"
-    output_folder = "outputs33"
+
+    input_folder = "Data/test-data"
+    output_folder = "outputs"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
