@@ -2,11 +2,15 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 
 
-# -------------------------------------
 # STEP 3: Matched Paragraph Candidate Retrieval
 # -------------------------------------
-
 def build_paragraph_index(paragraphs, model):
+    """
+
+    :param paragraphs:
+    :param model:
+    :return:
+    """
     texts_en = [
         f"passage: {p['para_en']}"
         for p in paragraphs
@@ -33,7 +37,7 @@ def build_paragraph_index(paragraphs, model):
     # Average embeddings
     embeddings = (embeddings_en + embeddings_fr) / 2
 
-    # (Optional but recommended) re-normalize after averaging
+    # re-normalize after averaging
     norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
     embeddings = embeddings / norms
 
@@ -58,8 +62,16 @@ def retrieve_paragraph_candidates(
     final_cap=6
 ):
     """
-    i = target index (0-based)
-    return: list of source paragraph indices (1-based)
+
+    :param paragraphs:
+    :param index:
+    :param i:
+    :param model:
+    :param min_sim:
+    :param max_k:
+    :param window_size:
+    :param final_cap:
+    :return:
     """
 
     n = len(paragraphs)
@@ -117,6 +129,12 @@ def retrieve_paragraph_candidates(
 
 
 def generate_para_candidates(doc, model):
+    """
+
+    :param doc:
+    :param model:
+    :return:
+    """
     paragraphs = doc["body"]["paragraphs"]
 
     index = build_paragraph_index(paragraphs, model)

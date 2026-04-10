@@ -3,10 +3,8 @@ import re
 from collections import Counter
 from doc_llm_generation import extract_json_block, run_qwen_generation
 
-# -------------------------------------
 # Step 4: Paragraph Level LLM Reasoning
 # -------------------------------------
-
 def build_paragraph_prompt(para, candidate_tags, relation_candidates, all_paragraphs):
 
     tag_block = "\n".join([
@@ -146,13 +144,22 @@ CONSTRAINTS
 
 # MERGE Self-consistency outputs
 def merge_tags(tags1, tags2):
+    """
+
+    :param tags1:
+    :param tags2:
+    :return:
+    """
     counts = Counter(tags1 + tags2)
     return [t for t, c in counts.items() if c >= 1]  # union
 
 
 def merge_relations_strict(r1, r2):
   """
-  use intersection in the two outputs to ensure higher precision and agreement
+
+  :param r1:
+  :param r2:
+  :return:
   """
   merged = {}
   keys = set(r1.keys()) | set(r2.keys())
@@ -166,12 +173,26 @@ def merge_relations_strict(r1, r2):
 
 
 def reasoning_score(pred_tags, final_tags):
+    """
+
+    :param pred_tags:
+    :param final_tags:
+    :return:
+    """
     pred = set(pred_tags)
     final = set(final_tags)
     return len(pred & final) / max(len(pred), 1)
 
 
 def merge_outputs(o1, o2, t1, t2):
+    """
+
+    :param o1:
+    :param o2:
+    :param t1:
+    :param t2:
+    :return:
+    """
     final_tags = merge_tags(o1["tags"], o2["tags"])
     final_relations = merge_relations_strict(o1["matched_paras"], o2["matched_paras"])
 
@@ -190,6 +211,13 @@ def merge_outputs(o1, o2, t1, t2):
 
 # VALIDATE Paragraph Outputs
 def validate_paragraph_output(output, para_number, relation_candidates):
+    """
+
+    :param output:
+    :param para_number:
+    :param relation_candidates:
+    :return:
+    """
     assert output["para_number"] == para_number
 
     # relations valid
@@ -216,6 +244,11 @@ def fallback_paragraph_output(para_number):
 
 
 def parse_output_safe(text):
+    """
+
+    :param text:
+    :return:
+    """
     json_str = extract_json_block(text)
 
     if json_str is None:
