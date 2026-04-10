@@ -81,6 +81,10 @@ Due to lack of ground truth, we evaluate the performances of each task using heu
 
 This research work has received funding from the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie Grant Agreement No. 101073351. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them.
 
+Additional Comment:
+
+- Use of any AI coding tool or service has been limited to preliminary skeletal programming and debugging support. All implemented functions and overall code structure are the result of my own work. Effort has been made to ensure reproducibility and transparency in the work.
+
 ---
 
 ## Citation
