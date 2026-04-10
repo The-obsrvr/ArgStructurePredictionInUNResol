@@ -24,7 +24,7 @@ Remember to add in your HuggingFace Access Token (with correct priveleges) in th
 
 Our approach comprises four stages: 
 
-(1) a reasoning LLM that classifies paragraphs in a given document collectively as {preambular or operative (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py)); 
+(1) a reasoning LLM that classifies all paragraphs in a given document collectively as either preambular or operative (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py)); 
 
 (2) embedding-based similarity retrieves tag candidates for each paragraph (see [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py));  
 
