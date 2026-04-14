@@ -2,7 +2,13 @@
 
 Team: HybridArguer at UZH Shared Task @ ArgMining Workshop 2026 : [Reconstructing the Reasoning in United Nations Resolutions](https://shared-task-argmining.linguistik.uzh.ch/)
 
+This repository contains documentation for a PhD research project titled "Identifying the Stance of Argumentative Opinions in Political Discourse", conducted as part of the HYBRIDS Project under the Horizon Europe framework.
 
+The primary contributor and point of contact for this repository is Siddharth Bhargava (sbhargava@fbk.eu).
+
+---
+
+## Overview
 
 The repository contains the scripts to extract argument structures in form of pre-defined JSON scripts from bilingual (French and English) UN resolutions documents. 
 
