@@ -24,6 +24,70 @@ $ python src/download_data.py
 ```
 Remember to add in your HuggingFace Access Token (with correct priveleges) in the file above for faster data download. This is also a gated repository requiring special permission for access from Zurich NLP team. For further details further to README in Data folder.
 
+### Dataset Description
+
+#### Languages
+- English
+- French
+
+#### Granularity
+- Paragraph level
+
+#### Splits
+
+##### Training Set (parsed_data_en)
+- Source: UN-RES dataset [Gao et al., 2025](https://aclanthology.org/2025.emnlp-demos.3/)
+- Size: 2,695 UN resolutions
+- Language: French (with machine-generated English translations)
+- Annotation: paragraph-level argumentative structure
+
+##### Test Set (parsed_data_fr)
+- Source: UNESCO International Conference on Education (1934–2008)
+- Size: 45 parsed documents (each may contain up to three resolutions in **JSON**)
+- Language: French
+- Annotation: paragraph-level (held out for evaluation)
+- Validation set: none
+
+#### Tags
+- See `education_dimensions_updated.csv`
+  
+---
+
+## Data Format
+
+All data are provided in **JSON** format following a fixed schema.
+
+### Example (simplified)
+
+```json
+"TEXT_ID": "ICPE-25-1962_RES1-FR_res_54",
+  "RECOMMENDATION": 54,
+  "TITLE": "LA PLANIFICATION DE L'ÉDUCATION",
+  "METADATA": {
+    "structure": {
+      "doc_title": "ICPE-25-1962_RES1-FR",
+      "nb_paras": 58,
+      "preambular_para": [], 
+      "operative_para": []
+      "think": ""      
+    }
+  },
+  "body": {
+    "paras": [
+      {
+        "para_number": 1,
+        "para": "La Conférence internationale de l'instruction publique, Convoquée à...",
+        "type": null,      
+        "tags": [],     
+        "matched_paras": [],     
+        "think": "",
+        "para_en": "The International Conference on Education, convened in ..."
+      },
+      ...
+    ]
+  }
+}
+
 ---
 
 ## Methodology
