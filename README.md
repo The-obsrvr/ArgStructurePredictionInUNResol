@@ -87,6 +87,7 @@ All data are provided in **JSON** format following a fixed schema.
     ]
   }
 }
+```
 
 ---
 
