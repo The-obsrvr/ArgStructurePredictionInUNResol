@@ -49,7 +49,7 @@ Remember to add in your HuggingFace Access Token (with correct priveleges) in th
 - Validation set: none
 
 #### Tags
-- See `education_dimensions_updated.csv`
+- See `Data/education_dimensions_updated.csv`
   
 ---
 
@@ -95,17 +95,13 @@ All data are provided in **JSON** format following a fixed schema.
 
 Our approach comprises four stages:
 
-1. A reasoning LLM that classifies all paragraphs in a given document collectively as either preambular or operative  
-   (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py))  
+1. A reasoning LLM that classifies all paragraphs in a given document collectively as either preambular or operative  (see [src/doc_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/doc_llm_generation.py))  
 
-2. Embedding-based similarity retrieves tag candidates for each paragraph  
-   (see [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py))  
+2. Embedding-based similarity retrieves tag candidates for each paragraph  (see [src/tag_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/tag_candidate_selection.py))  
 
-3. Similar to stage 2, candidate source paragraphs are selected under a chronological constraint  
-   (see [src/para_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_candidate_selection.py))  
+3. Similar to stage 2, candidate source paragraphs are selected under a chronological constraint  (see [src/para_candidate_selection.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_candidate_selection.py))  
 
-4. The reasoning LLM processes each target paragraph individually to assign it tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs  
-   (see [src/para_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_llm_generation.py))
+4. The reasoning LLM processes each target paragraph individually to assign it tags from its candidate pool and predict one or more predefined relation types with its candidate source paragraphs  (see [src/para_llm_generation.py](https://github.com/The-obsrvr/ArgStructurePredictionInUNResol/blob/master/src/para_llm_generation.py))
 
 Outputs from the first and final stages are consolidated into the final structured representation.  
 
@@ -127,7 +123,6 @@ python main.py
 ```
 
 
-
 Remember to change mode of the shell file: ```chmod +x exe.sh```. 
 
 The command is run in the docker environment as follows:
@@ -139,15 +134,15 @@ $ docker run   --gpus='"device=DEVICE_NUMBER"' --runtime=nvidia --rm -ti --shm-s
 
 ## Evaluation 
 
-There are three main tasks that are evaluated for each paragraph across all test documents: (1) Preambular/Operative Binary Classification, (2) Multi-Tag Assignment, and (3) Multi-Relation Prediction and Classification (the latter can be sub-divided into relation prediction and relation type multi-class classification). 
+There are three main tasks that are evaluated for each paragraph across all test documents: (1) Preambular/Operative Binary Classification, (2) Multi-Tag Assignment, and (3) Multi-Relation Prediction and Classification (the latter can be sub-divided into relation prediction and relation type multi-label classification). 
 
 Due to lack of ground truth, we evaluate the performances of each task using heuristic feature-based approaches.
 
-### Preambular/Operative Binary Classification
+### Paragraph Binary Classification
 
-### Multi-tag Assignment
+### Multi-label Tag Assignment
 
-### Multi-Relation Prediction and Classification 
+### Multi-label Relation Prediction and Classification 
 
 ---
 
@@ -158,7 +153,7 @@ This research work has received funding from the European Union's Horizon Europe
 
 Additional Comment:
 
-- Use of any AI coding tool or service has been limited to preliminary skeletal programming and debugging support. All implemented functions and overall code structure are the result of my own work. Effort has been made to ensure reproducibility and transparency in the work.
+- Use of any AI coding tool or service has been limited to preliminary skeletal programming and debugging support.
 
 ---
 
