@@ -77,8 +77,8 @@ def main():
     :return:
     """
 
-    input_folder = "Data/val-data"
-    output_folder = "val_outputs_deep"
+    input_folder = "Data/test-data"
+    output_folder = "outputs"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
@@ -86,12 +86,12 @@ def main():
     embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
-    llm_model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+    llm_model_name = "Qwen/Qwen3-8B"
     print("Using model: {}".format(llm_model_name))
-    HF_token = "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"
+    HF_token = "ENTER YOUR TOKEN HERE"
 
-    if "qwen" in llm_model_name.lower():
-        model_name = "qwen"
+    if "qwen3" in llm_model_name.lower():
+        model_name = "qwen3"
     else:
         model_name = "other"
 
