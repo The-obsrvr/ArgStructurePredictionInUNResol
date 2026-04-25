@@ -134,15 +134,9 @@ $ docker run   --gpus='"device=DEVICE_NUMBER"' --runtime=nvidia --rm -ti --shm-s
 
 ## Evaluation 
 
-There are three main tasks that are evaluated for each paragraph across all test documents: (1) Preambular/Operative Binary Classification, (2) Multi-Tag Assignment, and (3) Multi-Relation Prediction and Classification (the latter can be sub-divided into relation prediction and relation type multi-label classification). 
+There are three main tasks that are evaluated for each paragraph across all test documents: (1) Paragraph Classification, (2) Multi-label Tag Assignment, and (3) Multi-label Relation Prediction and Classification (the latter can be sub-divided into relation prediction and relation type multi-label classification). 
 
-Due to lack of ground truth, we evaluate the performances of each task using heuristic feature-based approaches.
-
-### Paragraph Binary Classification
-
-### Multi-label Tag Assignment
-
-### Multi-label Relation Prediction and Classification 
+Due to lack of ground truth, we evaluate the performances of each task using LLM-as-a-judge with manual self-evaluation for error analysis.
 
 ---
 
