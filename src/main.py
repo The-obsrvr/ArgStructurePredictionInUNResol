@@ -78,7 +78,7 @@ def main():
     """
 
     input_folder = "Data/val-data"
-    output_folder = "val_outputs_q8"
+    output_folder = "val_outputs_deep"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
@@ -86,7 +86,7 @@ def main():
     embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
-    llm_model_name = "Qwen/Qwen3-8B"
+    llm_model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
     print("Using model: {}".format(llm_model_name))
     HF_token = "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"
 
