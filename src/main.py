@@ -89,6 +89,11 @@ def main():
     llm_model_name = "microsoft/Phi-4-mini-reasoning"
     HF_token = "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"
 
+    if "qwen" in llm_model_name.lower():
+        model_name = "qwen"
+    else:
+        model_name = "other"
+
     is_bf16 = torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if is_bf16 else torch.float16
 
@@ -122,7 +127,7 @@ def main():
             doc = json.load(f)
 
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, self_consistency=True)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, model_name=model_name, self_consistency=True)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
@@ -137,7 +142,8 @@ def main():
         print("Step 3 complete")
 
         # Step 4: Paragraph level LLM reasoning
-        para_level_output = run_para_level_reasoning(llm_model, tokenizer, doc, tag_candidates, paragraph_candidates, self_consistency=False)
+        para_level_output = run_para_level_reasoning(llm_model, model_name, tokenizer, doc, tag_candidates,
+                                                     paragraph_candidates, self_consistency=False)
         # this returns the predicted tags and matched_para for each paragraph in the doc
         print("Step 4 complete")
 
