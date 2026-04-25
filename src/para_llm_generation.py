@@ -293,7 +293,8 @@ def process_paragraph(
     candidate_tags,
     relation_candidates,
     all_paragraphs,
-    self_consistency=False
+    self_consistency=False,
+    max_retries=1
 ):
     """
 
@@ -332,7 +333,7 @@ def process_paragraph(
 
     else:
         # do generation with retries (without self-consistency)
-        for i in range(3):
+        for i in range(max_retries):
             print(f"Attempt {i} for para_number {para['para_number']}")
             thinking, content = run_qwen_generation(
                 model, model_name, tokenizer, prompt, temperature=0.1
@@ -407,7 +408,7 @@ def process_paragraph(
         return fallback_paragraph_output(para['para_number'])
 
 
-def run_para_level_reasoning(model, model_name, tokenizer, doc, tag_candidates, relation_candidates, self_consistency=False):
+def run_para_level_reasoning(model, model_name, tokenizer, doc, tag_candidates, relation_candidates, self_consistency=False, max_retries:int=1):
     """
 
     :param model:
@@ -432,7 +433,8 @@ def run_para_level_reasoning(model, model_name, tokenizer, doc, tag_candidates, 
             tag_candidates[i],
             relation_candidates[i],
             paragraphs,
-            self_consistency
+            self_consistency,
+            max_retries
         )
 
         outputs[i] = result

@@ -234,7 +234,7 @@ def fallback(doc):
         pid = p["para_number"]
 
         # bullet / numbering detection → operative
-        if re.match(r"^(\d+\.\s|[ivxlcdm]+\.\s|[ivxlcdm]+\s)", text):
+        if re.match(r"^(\d+[\.\)]{1,2}\s|[ivxlcdm]+[\.\)]{1,2}\s)", text, re.IGNORECASE):
             transition = True
             op.append(pid)
             continue
@@ -331,7 +331,7 @@ def run_structure_self_consistency(
     doc,
     model_name: str = "qwen",
     self_consistency=True,
-    max_retries=3
+    max_retries=1
 ):
     """
 
