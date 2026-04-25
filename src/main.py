@@ -77,8 +77,8 @@ def main():
     :return:
     """
 
-    input_folder = "Data/test-data"
-    output_folder = "outputs"
+    input_folder = "Data/val-data"
+    output_folder = "val_outputs"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
@@ -126,7 +126,7 @@ def main():
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
-        # # Step 2: Tag Candidate Retrieval
+        # Step 2: Tag Candidate Retrieval
         tag_candidates = generate_tag_candidates_for_paragraph(doc, embed_model, tag_index, id2tag, tag_embeddings)
         # this returns the top tag candidates for each paragraph in the doc
         print("Step 2 complete")

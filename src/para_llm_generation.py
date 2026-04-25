@@ -287,6 +287,7 @@ def parse_output_safe(text):
 
 def process_paragraph(
     model,
+    model_name,
     tokenizer,
     para,
     candidate_tags,
@@ -314,8 +315,8 @@ def process_paragraph(
 
     if self_consistency:
         # run twice (same command as doc-level run LLM)
-        t1, c1 = run_qwen_generation(model, tokenizer, prompt, temperature=0.1)
-        t2, c2 = run_qwen_generation(model, tokenizer, prompt, temperature=0.2)
+        t1, c1 = run_qwen_generation(model, model_name, tokenizer, prompt, temperature=0.1)
+        t2, c2 = run_qwen_generation(model, model_name, tokenizer, prompt, temperature=0.2)
 
         o1 = parse_output_safe(c1)
         o2 = parse_output_safe(c2)
@@ -334,7 +335,7 @@ def process_paragraph(
         for i in range(3):
             print(f"Attempt {i} for para_number {para['para_number']}")
             thinking, content = run_qwen_generation(
-                model, tokenizer, prompt, temperature=0.1
+                model, model_name, tokenizer, prompt, temperature=0.1
                 )
 
             try:
@@ -406,7 +407,7 @@ def process_paragraph(
         return fallback_paragraph_output(para['para_number'])
 
 
-def run_para_level_reasoning(model, tokenizer, doc, tag_candidates, relation_candidates, self_consistency=False):
+def run_para_level_reasoning(model, model_name, tokenizer, doc, tag_candidates, relation_candidates, self_consistency=False):
     """
 
     :param model:
@@ -425,6 +426,7 @@ def run_para_level_reasoning(model, tokenizer, doc, tag_candidates, relation_can
 
         result = process_paragraph(
             model,
+            model_name,
             tokenizer,
             para,
             tag_candidates[i],

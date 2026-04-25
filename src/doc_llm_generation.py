@@ -74,9 +74,10 @@ def build_structure_prompt(doc):
     return prompt.strip()
 
 
-def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=3072, top_p=1.0):
+def run_qwen_generation(model, model_name: str, tokenizer, prompt, temperature=0.1, max_tokens=3072, top_p=1.0):
     """
 
+    :param model_name:
     :param model:
     :param tokenizer:
     :param prompt:
@@ -97,11 +98,16 @@ def run_qwen_generation(model, tokenizer, prompt, temperature=0.1, max_tokens=30
         {"role": "user", "content": prompt}
         ]
 
+    if model_name == "qwen":
+        enable_thinking = True
+    else:
+        enable_thinking = False
+
     text = tokenizer.apply_chat_template(
         messages,
         tokenize=False,
         add_generation_prompt=True,
-        enable_thinking=True
+        enable_thinking=enable_thinking
     )
 
     if not text.strip():
@@ -323,6 +329,7 @@ def run_structure_self_consistency(
     model,
     tokenizer,
     doc,
+    model_name: str = "qwen",
     self_consistency=True,
     max_retries=3
 ):
@@ -342,11 +349,11 @@ def run_structure_self_consistency(
         for attempt in range(max_retries):
             try:
                 think1, content1 = run_qwen_generation(
-                    model, tokenizer, prompt,
+                    model, model_name, tokenizer, prompt,
                     temperature=0.1, top_p=0.9
                     )
                 think2, content2 = run_qwen_generation(
-                    model, tokenizer, prompt,
+                    model, model_name, tokenizer, prompt,
                     temperature=0.15, top_p=0.9
                     )
 
@@ -374,7 +381,7 @@ def run_structure_self_consistency(
         for attempt in range(max_retries):
             try:
                 think, content = run_qwen_generation(
-                    model, tokenizer, prompt,
+                    model, model_name, tokenizer, prompt,
                     temperature=0.0
                     )
 
