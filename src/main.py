@@ -87,7 +87,7 @@ def main():
 
     # define LLM model
     llm_model_name = "microsoft/Phi-4-mini-reasoning"
-    HF_token = "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"
+    HF_token = "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"
 
     is_bf16 = torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if is_bf16 else torch.float16
