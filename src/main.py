@@ -78,7 +78,7 @@ def main():
     """
 
     input_folder = "Data/val-data"
-    output_folder = "val_outputs"
+    output_folder = "val_outputs_q8"
     # create output folder
     os.makedirs(output_folder, exist_ok=True)
 
