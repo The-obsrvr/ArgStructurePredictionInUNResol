@@ -86,8 +86,8 @@ def main():
     embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
-    llm_model_name = "Qwen/Qwen3-8B"
-    HF_token = "ENTER YOUR HF TOKEN HERE"
+    llm_model_name = "microsoft/Phi-4-mini-reasoning"
+    HF_token = "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"
 
     is_bf16 = torch.cuda.is_bf16_supported()
     dtype = torch.bfloat16 if is_bf16 else torch.float16
