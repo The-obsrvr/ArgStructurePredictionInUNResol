@@ -128,7 +128,8 @@ def main():
             doc = json.load(f)
 
         # Step 1: Document Level LLM reasoning
-        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc, model_name=model_name, self_consistency=False)
+        doc_level_output = run_structure_self_consistency(llm_model, tokenizer, doc,
+                                                          model_name=model_name, self_consistency=False, max_retries=1)
         # this returns preambular list, operative list and thinking for this step
         print("Step 1 complete")
 
@@ -144,7 +145,7 @@ def main():
 
         # Step 4: Paragraph level LLM reasoning
         para_level_output = run_para_level_reasoning(llm_model, model_name, tokenizer, doc, tag_candidates,
-                                                     paragraph_candidates, self_consistency=False)
+                                                     paragraph_candidates, self_consistency=False, max_retries=1)
         # this returns the predicted tags and matched_para for each paragraph in the doc
         print("Step 4 complete")
 
