@@ -86,7 +86,7 @@ def main():
     embed_model = SentenceTransformer("intfloat/multilingual-e5-large")
 
     # define LLM model
-    llm_model_name = "Qwen/Qwen3-4B-Thinking-2507"
+    llm_model_name = "Qwen/Qwen3-8B"
     print("Using model: {}".format(llm_model_name))
     HF_token = "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"
 
