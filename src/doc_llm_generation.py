@@ -98,7 +98,7 @@ def run_qwen_generation(model, model_name: str, tokenizer, prompt, temperature=0
         {"role": "user", "content": prompt}
         ]
 
-    if model_name == "qwen":
+    if model_name == "qwen3":
         enable_thinking = True
     else:
         enable_thinking = False
